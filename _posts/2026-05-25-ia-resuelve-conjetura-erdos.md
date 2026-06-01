@@ -35,4 +35,4 @@ La carrera por la IA aplicada a la ciberseguridad sumó un capítulo. Veníamos 
 
 *Si una IA ya resuelve problemas que resistieron 80 años de talento humano, ¿cómo se prepara una región para sumarse como protagonista y no solo como espectadora?*
 
-<small>Esta entrada fue curada automáticamente a partir de fuentes públicas, con perspectiva latinoamericana. Los enlaces llevan a las fuentes originales.</small>
+<small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>

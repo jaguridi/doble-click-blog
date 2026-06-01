@@ -14,9 +14,16 @@ abre y qué conversaciones necesitamos tener.
 
 ### Cómo se hace
 
-Las entradas se curan de forma automática a partir de fuentes públicas (blogs oficiales de
+Las entradas se generan de forma **automática** a partir de fuentes públicas (blogs oficiales de
 laboratorios, universidades, organismos multilaterales, prensa especializada y reguladores de la
 región) y enlazan siempre a la fuente original para que puedas profundizar.
+
+### Una aclaración importante
+
+Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por ser precisos y
+enlazar siempre a la fuente, pero puede haber errores de interpretación o de resumen. Toma este
+blog como un punto de partida, no como una fuente definitiva: antes de citar una noticia o tomar
+decisiones a partir de ella, verifica en el enlace a la fuente original.
 
 ### Newsletter
 
