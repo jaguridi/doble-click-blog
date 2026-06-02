@@ -1,0 +1,7 @@
+{%- assign m = include.date | date: "%-m" -%}
+{%- assign meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
+{%- assign idx = m | minus: 1 -%}
+{%- assign mes = meses[idx] -%}
+{%- assign dia = include.date | date: "%-d" -%}
+{%- assign anio = include.date | date: "%Y" -%}
+{%- if include.corta -%}{{ dia }} {{ mes | slice: 0, 3 }} {{ anio }}{%- else -%}{{ dia }} de {{ mes }} de {{ anio }}{%- endif -%}

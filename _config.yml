@@ -2,31 +2,20 @@
 title: Doble Click
 tagline: Inteligencia artificial, con acento latinoamericano
 description: >-
-  Una mirada diaria a lo que pasa en inteligencia artificial, con perspectiva
-  latinoamericana. Curado automáticamente a partir de fuentes públicas. Una entrada por día.
+  Una mirada diaria a la inteligencia artificial, con perspectiva latinoamericana.
+  Curada a partir de fuentes públicas. Una entrada por día.
 author: Doble Click
 lang: es
 timezone: America/Santiago
 
-# Tema (lo buildea GitHub Pages de forma nativa, sin GitHub Action)
-theme: minima
-minima:
-  skin: classic
-  # Formato de fecha sin nombre de mes para no depender del locale del build.
-  # (La localización del mes a español se puede refinar más adelante.)
-  date_format: "%d-%m-%Y"
-
+# Diseño propio (layouts en _layouts/). No usamos tema externo.
 plugins:
   - jekyll-feed      # genera /feed.xml (RSS) — lo consume el newsletter
-  - jekyll-seo-tag   # metadatos para compartir en redes
+  - jekyll-seo-tag   # metadatos para compartir
 
 # URL — dominio propio (subdominio) servido por GitHub Pages. Ver archivo CNAME.
 url: "https://dobleclick.jaguridi.cl"
 baseurl: ""
-
-# Navegación
-header_pages:
-  - about.md
 
 # No publicar estos archivos en el sitio
 exclude:

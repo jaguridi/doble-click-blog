@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <p class="post-meta"><span class="entry-date">{% include fecha.html date=page.date %}</span></p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
+    {% if page.tags %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <nav class="post-foot">
+    <a class="back-link" href="{{ '/entradas/' | relative_url }}">← Todas las entradas</a>
+  </nav>
+</article>

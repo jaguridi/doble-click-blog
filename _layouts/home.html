@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="kicker">Inteligencia artificial · perspectiva latinoamericana</p>
+  <h1 class="hero-title">Doble Click<span class="cursor" aria-hidden="true"></span></h1>
+  <div class="hero-intro">{{ content }}</div>
+</section>
+
+<section class="feed">
+  <p class="feed-label">Últimas entradas</p>
+  {% for post in site.posts %}
+  <article class="entry" style="--i: {{ forloop.index0 }}">
+    <a class="entry-link" href="{{ post.url | relative_url }}">
+      <span class="entry-date">{% include fecha.html date=post.date %}</span>
+      <h2 class="entry-title">{{ post.title }}</h2>
+      {% if post.description %}<p class="entry-desc">{{ post.description }}</p>{% endif %}
+      {% if post.tags %}<ul class="tags">{% for t in post.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+    </a>
+  </article>
+  {% else %}
+  <p class="empty">Todavía no hay entradas publicadas. Vuelve pronto.</p>
+  {% endfor %}
+</section>

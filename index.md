@@ -1,8 +1,4 @@
 ---
 layout: home
-title: Doble Click
 ---
-
-Una mirada diaria a lo que pasa en inteligencia artificial, **con perspectiva latinoamericana**.
-Una entrada por día, curada a partir de fuentes públicas. ¿Preferís recibirla por correo?
-[Suscribite al newsletter](/about/).
+Cada día, una lectura de lo más importante que ocurrió en inteligencia artificial —lanzamientos, investigación, gobernanza, movimientos de la industria—, contada para un público general y mirada desde América Latina. [¿Prefieres recibirla por correo?](/about/)

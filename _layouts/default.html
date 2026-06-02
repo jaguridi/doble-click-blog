@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'es' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != '/' %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · {{ site.tagline }}{% endif %}</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='62' height='62' x='19' y='19' fill='%23D6452B'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">Doble&nbsp;Click<span class="cursor" aria-hidden="true"></span></a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Inicio</a>
+      <a href="{{ '/entradas/' | relative_url }}">Entradas</a>
+      <a href="{{ '/about/' | relative_url }}">Qué es esto</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="foot-top">
+      <span class="foot-brand">Doble Click<span class="cursor" aria-hidden="true"></span></span>
+      <nav class="foot-nav">
+        <a href="{{ '/' | relative_url }}">Inicio</a>
+        <a href="{{ '/entradas/' | relative_url }}">Entradas</a>
+        <a href="{{ '/about/' | relative_url }}">Qué es esto</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </nav>
+    </div>
+    <p class="foot-legal">Contenido curado de forma automática a partir de fuentes públicas. Verifica en la fuente original antes de citar.</p>
+  </footer>
+</body>
+</html>
