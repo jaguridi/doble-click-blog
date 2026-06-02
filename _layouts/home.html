@@ -29,8 +29,10 @@ layout: default
   <p class="subscribe-text">Una entrada cada mañana, directo a tu bandeja. Sin spam.</p>
   <form class="sub-form" action="https://script.google.com/macros/s/AKfycbxIaD55gHoo-HfgP9jf9vV3JGEgCxMqvyRCVZN9PBFrgfqp-EoSx-H07Tpzal2R40Gjcg/exec" method="post" target="sub-sink">
     <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
+    <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
     <button class="sub-btn" type="submit">Suscribirme</button>
   </form>
   <iframe name="sub-sink" title="suscripción" style="display:none"></iframe>
-  <p class="sub-ok" hidden>¡Listo! Quedaste suscrito. La próxima entrada te llega por correo. 📬</p>
+  <p class="sub-ok" hidden>¡Casi listo! Te enviamos un correo para confirmar tu suscripción. 📬</p>
+  <p class="sub-note">Te llega un correo de confirmación. Solo usamos tu dirección para el newsletter, y puedes darte de baja cuando quieras.</p>
 </section>
