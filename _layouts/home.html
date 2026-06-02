@@ -22,3 +22,15 @@ layout: default
   <p class="empty">Todavía no hay entradas publicadas. Vuelve pronto.</p>
   {% endfor %}
 </section>
+
+<section class="subscribe">
+  <p class="kicker">Newsletter</p>
+  <h2 class="subscribe-title">Recíbelo por correo</h2>
+  <p class="subscribe-text">Una entrada cada mañana, directo a tu bandeja. Sin spam.</p>
+  <form class="sub-form" action="https://script.google.com/macros/s/AKfycbxIaD55gHoo-HfgP9jf9vV3JGEgCxMqvyRCVZN9PBFrgfqp-EoSx-H07Tpzal2R40Gjcg/exec" method="post" target="sub-sink">
+    <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
+    <button class="sub-btn" type="submit">Suscribirme</button>
+  </form>
+  <iframe name="sub-sink" title="suscripción" style="display:none"></iframe>
+  <p class="sub-ok" hidden>¡Listo! Quedaste suscrito. La próxima entrada te llega por correo. 📬</p>
+</section>

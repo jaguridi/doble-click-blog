@@ -18,4 +18,11 @@ Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por
 
 ### Newsletter
 
-¿Prefieres recibir la entrada del día por correo? Escríbenos para sumarte a la lista.
+¿Prefieres recibir la entrada del día por correo? Déjanos tu email y te llega cada mañana.
+
+<form class="sub-form" action="https://script.google.com/macros/s/AKfycbxIaD55gHoo-HfgP9jf9vV3JGEgCxMqvyRCVZN9PBFrgfqp-EoSx-H07Tpzal2R40Gjcg/exec" method="post" target="sub-sink">
+  <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
+  <button class="sub-btn" type="submit">Suscribirme</button>
+</form>
+<iframe name="sub-sink" title="suscripción" style="display:none"></iframe>
+<p class="sub-ok" hidden>¡Listo! Quedaste suscrito. La próxima entrada te llega por correo. 📬</p>
