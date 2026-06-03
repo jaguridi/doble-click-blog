@@ -1,0 +1,21 @@
+---
+layout: page
+title: Darse de baja
+permalink: /baja/
+---
+<div id="estado" class="confirm-box">
+  <p class="confirm-loading">Procesando tu baja…</p>
+</div>
+<script>
+(function(){
+  var token = new URLSearchParams(location.search).get('token');
+  var box = document.getElementById('estado');
+  if (!token) { box.innerHTML = '<p>El enlace está incompleto.</p>'; return; }
+  var done = false;
+  function ok(){ if(done) return; done = true; box.innerHTML = '<h2 class="confirm-title">Te diste de baja</h2><p>No recibirás más correos de Doble Click. ¡Gracias por habernos leído!</p><p><a href="{{ "/" | relative_url }}">Ir al blog →</a></p>'; }
+  var img = new Image();
+  img.onload = img.onerror = ok;
+  img.src = 'https://script.google.com/macros/s/AKfycbxIaD55gHoo-HfgP9jf9vV3JGEgCxMqvyRCVZN9PBFrgfqp-EoSx-H07Tpzal2R40Gjcg/exec?action=unsub&token=' + encodeURIComponent(token);
+  setTimeout(ok, 3000);
+})();
+</script>

@@ -204,3 +204,6 @@ body::before{
 .sub-ok{ font-family:"Space Mono", monospace; font-size:.92rem; color:var(--accent); margin:.6rem 0; }
 .sub-hp{ position:absolute !important; left:-9999px; width:1px; height:1px; overflow:hidden; }
 .sub-note{ font-family:"Space Mono", monospace; font-size:.72rem; color:var(--muted); line-height:1.5; margin:.4rem 0 0; max-width:32rem; }
+.confirm-box{ padding:1rem 0 2rem; font-size:1.15rem; }
+.confirm-title{ font-family:"Fraunces", serif; font-weight:600; color:var(--accent); font-size:1.9rem; letter-spacing:-.01em; margin:.2rem 0 .6rem; }
+.confirm-loading{ color:var(--muted); }
