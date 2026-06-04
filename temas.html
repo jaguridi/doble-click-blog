@@ -7,18 +7,8 @@ permalink: /temas/
 
 <div class="temas-chips">
   <button class="chip chip-on" data-tag="">Todo</button>
-  <button class="chip" data-tag="gobernanza">gobernanza</button>
-  <button class="chip" data-tag="participación">participación</button>
-  <button class="chip" data-tag="trabajo">trabajo</button>
-  <button class="chip" data-tag="educación">educación</button>
-  <button class="chip" data-tag="salud">salud</button>
-  <button class="chip" data-tag="mercados">mercados</button>
-  <button class="chip" data-tag="lanzamientos">lanzamientos</button>
-  <button class="chip" data-tag="ética">ética</button>
-  <button class="chip" data-tag="seguridad">seguridad</button>
-  <button class="chip" data-tag="datos">datos</button>
-  <button class="chip" data-tag="diseño">diseño</button>
-  <button class="chip" data-tag="latam">latam</button>
+  {% for t in site.data.temas %}<button class="chip" data-tag="{{ t }}">{{ t }}</button>
+  {% endfor %}
 </div>
 <input class="temas-search" type="search" placeholder="Buscar por palabra...">
 

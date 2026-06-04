@@ -193,6 +193,9 @@ body::before{
 .relacionado li{ margin:.35rem 0; }
 .relacionado a{ font-family:"Fraunces", serif; color:var(--ink); text-decoration:none; border-bottom:1px solid rgba(214,69,43,.35); }
 .relacionado a:hover{ color:var(--accent); }
+.rel-kind{ font-family:"Space Mono", monospace; font-size:.62rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); }
+.paper-keywords{ font-family:"Space Mono", monospace; font-size:.72rem; line-height:1.5; color:var(--muted); margin-top:2.2rem; }
+.paper-keywords strong{ color:var(--ink-soft); }
 @media (max-width:640px){
   .temas-item > a{ flex-direction:column; gap:.15rem; }
   .temas-kind{ flex-basis:auto; }

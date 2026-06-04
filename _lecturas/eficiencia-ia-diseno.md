@@ -9,6 +9,7 @@ paper_titulo: "The Values of Value in AI Adoption: Rethinking Efficiency in UX D
 paper_autores: "Cha, Wieczorek y Wong"
 paper_publicado: "CHI 2026"
 paper_doi: "https://doi.org/10.1145/3772318.3790429"
+paper_keywords: "AI, AI Adoption, Workplace, Tech Practitioners, UX Practitioners, UX Practices"
 paper_archivo: "3772318.3790429.pdf"
 audio: true
 ---

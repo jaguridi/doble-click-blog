@@ -18,10 +18,11 @@ layout: default
 
   <div class="post-body">
     {{ content }}
+    {% if page.paper_keywords %}<p class="paper-keywords"><strong>Palabras clave del paper:</strong> {{ page.paper_keywords }}</p>{% endif %}
     {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude (IA) a partir del paper original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}
   </div>
 
-  {% capture _rel %}{% assign n = 0 %}{% for it in site.lecturas %}{% if it.url != page.url and n < 3 %}{% assign sh = false %}{% for t in page.tags %}{% if it.tags contains t %}{% assign sh = true %}{% endif %}{% endfor %}{% if sh %}<li><a href="{{ it.url | relative_url }}">{{ it.title }}</a></li>{% assign n = n | plus: 1 %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+  {% capture _rel %}{% assign n = 0 %}{% assign _all = site.posts | concat: site.lecturas | sort: 'date' | reverse %}{% for it in _all %}{% if it.url != page.url and n < 3 %}{% assign sh = false %}{% for t in page.tags %}{% if it.tags contains t %}{% assign sh = true %}{% endif %}{% endfor %}{% if sh %}<li><a href="{{ it.url | relative_url }}">{% if it.collection == 'lecturas' %}<span class="rel-kind">Lectura</span> {% else %}<span class="rel-kind">Entrada</span> {% endif %}{{ it.title }}</a></li>{% assign n = n | plus: 1 %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
   {% if _rel contains "<li" %}
   <nav class="relacionado">
     <p class="relacionado-label">Relacionado</p>
