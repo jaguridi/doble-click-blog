@@ -29,11 +29,6 @@ Los funcionarios la construyen hacia adentro, frente a sus jefaturas, y trabajan
 
 El tercer hallazgo es el que da el título. Ninguno de los dos grupos asume quién debería impulsar la adopción ni hacerse cargo si sale mal. Se culpan entre ellos: los políticos dicen que los funcionarios se resisten y no saben de tecnología; los funcionarios, que los políticos no lideran ni les dan tiempo ni infraestructura para aprender. A eso se suma una traba que ambos reconocen: las compras públicas no están hechas para esto. Un entrevistado pasó más de un año tratando de contratar un servicio de correo masivo. Para los autores, lo que frena la adopción no es la calidad del algoritmo, sino esa falta de claridad sobre quién es responsable.
 
-## La letra chica
-
-- Es un estudio cualitativo: su valor está en explicar el porqué y el cómo de estas decisiones, no en medir cuántos ni en probar que el NLP funcione. Los números de las tablas dicen cuántos entrevistados mencionaron cada cosa, no qué tan extendido está.
-- Habla de NLP en un momento previo a la masificación de los LLM. Los propios autores advierten que ese avance puede cambiar algunos detalles. Lo organizacional, en cambio, envejece lento, porque trata de personas e instituciones.
-
 ## Segunda lectura: desde América Latina
 
 Algo que reivindican los propios autores: esta es evidencia desde adentro de la región, con entrevistas en español y en ministerios reales, no extrapolada desde el norte global. La literatura de su campo casi no estudia estos países, así que el valor está en mirar de cerca algo poco mirado.
@@ -45,3 +40,8 @@ Donde el estudio se conecta con el presente es en el cambio de época. Las entre
 De ahí salen tres ideas que el paper sugiere y que se traducen directo a la región, sin olvidar que vienen de entrevistas y no de un experimento. La primera: no ofrecer la IA para participación solo como una ganancia de eficiencia, porque a los políticos los mueve la legitimidad. La segunda: lo que pedían los funcionarios, pilotos, validación humana y poder rastrear los resultados hasta el dato crudo, debería ser piso y no lujo. La tercera: que alguien tenga, de forma explícita, la responsabilidad de decidir si se adopta y también de frenar.
 
 La pregunta que deja sirve para cualquier ministerio de la región. Ahora que usar IA es tan simple como pegar los comentarios en un chatbot, ¿quién responde cuando eso se usa para escuchar a la ciudadanía? Si la respuesta es nadie, el estudio sugiere que el problema está ahí, y no en el algoritmo.
+
+## La letra chica
+
+- Es un estudio cualitativo: su valor está en explicar el porqué y el cómo de estas decisiones, no en medir cuántos ni en probar que el NLP funcione. Los números de las tablas dicen cuántos entrevistados mencionaron cada cosa, no qué tan extendido está.
+- Habla de NLP en un momento previo a la masificación de los LLM. Los propios autores advierten que ese avance puede cambiar algunos detalles. Lo organizacional, en cambio, envejece lento, porque trata de personas e instituciones.
