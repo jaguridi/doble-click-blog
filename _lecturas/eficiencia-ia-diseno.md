@@ -6,8 +6,9 @@ description: "Talleres y entrevistas con 15 profesionales UX en Estados Unidos, 
 date: 2026-06-04
 paper_titulo: "The Values of Value in AI Adoption: Rethinking Efficiency in UX Designers' Workplaces"
 paper_autores: "Cha, Wieczorek y Wong"
-paper_publicado: "CHI '26, 2026"
+paper_publicado: "CHI 2026"
 paper_doi: "https://doi.org/10.1145/3772318.3790429"
+paper_archivo: "3772318.3790429.pdf"
 ---
 
 ## La ficha
@@ -47,4 +48,4 @@ Lo que sí traduce directamente, sin importar el contexto, es la pregunta que el
 
 - El estudio tiene 15 participantes en sectores de tecnología de tres países del norte global y del este asiático. Su valor está en explicar dinámicas y tensiones, no en medir cuán frecuentes son ni en cubrir contextos distintos.
 - Los talleres usaron escenarios hipotéticos, lo que facilita la reflexión pero puede introducir distancia con lo que ocurre en el día a día real de cada equipo.
-- El trabajo de campo se realizó entre mayo y julio de 2025, cuando los modelos de lenguaje ya estaban masificados pero el sector seguía calibrando su impacto en el trabajo creativo. Los propios autores señalan que la capa organizacional que analizan, quién decide, quién asume el costo, quién responde cuando algo falla, cambia más lento que los modelos.
+- El trabajo de campo se realizó entre mayo y julio de 2025, cuando los modelos de lenguaje ya estaban masificados pero el sector seguía calibrando su impacto en el trabajo creativo. El paper centra el problema en esa capa organizacional (quién decide, quién asume el costo, quién responde cuando algo falla) más que en las capacidades del modelo; y esa capa, por tratarse de personas e instituciones, cambia más lento.
