@@ -4,6 +4,9 @@ numero: 1
 title: "Políticos y funcionarios no quieren lo mismo de la IA"
 description: "Qué encontró un estudio que entró a ministerios de Chile y Uruguay."
 date: 2026-06-04
+paper_titulo: "Thoughtful Adoption of NLP for Civic Participation: Understanding Differences Among Policymakers"
+paper_autores: "Guridi, Cheyre y Yang"
+paper_publicado: "Proc. ACM HCI (CSCW), 2025"
 paper_doi: "https://doi.org/10.1145/3711091"
 ---
 

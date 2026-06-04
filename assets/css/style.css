@@ -158,6 +158,17 @@ body::before{
 .lectura .post-body > h2:first-child{ border-top:none; padding-top:0; margin-top:0; }
 .lectura .post-body > p:first-of-type::first-letter{ font:inherit; float:none; color:inherit; padding:0; line-height:inherit; }
 
+/* índice de la sección: intro + cada entrada con su pequeña ficha (título, subtítulo y cita del paper) */
+.lectura-intro{ color:var(--ink-soft); margin:0 0 .5rem; max-width:42rem; }
+.lectura-list{ list-style:none; padding:0; margin:1.5rem 0 0; }
+.lectura-item{ border-bottom:1px solid var(--line); padding:1.6rem 0; }
+.lectura-item > a{ display:block; text-decoration:none; color:inherit; }
+.lectura-item > a:hover .lectura-title{ color:var(--accent); }
+.lectura-date{ display:block; font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.13em; color:var(--muted); }
+.lectura-title{ display:block; font-family:"Fraunces", serif; font-weight:600; font-size:clamp(1.5rem,3.2vw,2rem); line-height:1.1; letter-spacing:-.015em; margin:.35rem 0 0; transition:color .2s; }
+.lectura-sub{ color:var(--ink-soft); font-size:1.05rem; margin:.5rem 0 .4rem; max-width:42rem; }
+.lectura-cite{ font-family:"Space Mono", monospace; font-size:.74rem; line-height:1.55; color:var(--muted); margin:.3rem 0 0; }
+
 /* ---------- page ---------- */
 .page{ max-width:var(--maxw); margin:0 auto; padding:3.5rem 0 2rem; }
 .page-title{ font-family:"Fraunces", serif; font-weight:900; font-size:clamp(2rem,5vw,3rem); letter-spacing:-.02em; margin:0 0 1.6rem; }
