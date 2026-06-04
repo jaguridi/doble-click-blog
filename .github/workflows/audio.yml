@@ -25,7 +25,7 @@ jobs:
 
       - name: Generar audios faltantes
         env:
-          VOICE: es-CL-LorenzoNeural
+          VOICE_DEFAULT: es-CL-LorenzoNeural
         run: |
           set -e
           mkdir -p assets/audio
@@ -35,8 +35,10 @@ jobs:
             slug="$(basename "$f" .txt)"
             out="assets/audio/$slug.mp3"
             if [ ! -f "$out" ]; then
-              echo "Generando $out con $VOICE"
-              edge-tts --voice "$VOICE" --file "$f" --write-media "$out"
+              voice="$VOICE_DEFAULT"
+              if [ -f "_audio/$slug.voice" ]; then voice="$(tr -d '[:space:]' < "_audio/$slug.voice")"; fi
+              echo "Generando $out con $voice"
+              edge-tts --voice "$voice" --file "$f" --write-media "$out"
               generados=$((generados+1))
             fi
           done
