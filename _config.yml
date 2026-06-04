@@ -17,6 +17,10 @@ plugins:
 url: "https://dobleclick.jaguridi.cl"
 baseurl: ""
 
+# Publicar también posts con fecha "en el futuro". La routine a veces le pone al post
+# una hora adelantada (huso horario); igual queremos que salga el día que se genera.
+future: true
+
 # Doble Lectura — análisis en profundidad de un paper/reporte. Colección aparte de _posts,
 # para que no se mezcle con el blog diario (home, /entradas/) ni con el feed del newsletter.
 collections:
