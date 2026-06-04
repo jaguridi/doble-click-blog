@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <p class="kicker">Doble Lectura{% if page.numero %} #{{ page.numero }}{% endif %}</p>
+    <p class="post-meta"><span class="entry-date">{% include fecha.html date=page.date %}</span></p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+    {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude (IA) a partir del paper original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}
+  </div>
+
+  <nav class="post-foot">
+    <a class="back-link" href="{{ '/doble-lectura/' | relative_url }}">← Todas las lecturas</a>
+  </nav>
+</article>

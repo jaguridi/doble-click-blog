@@ -1,0 +1,12 @@
+---
+layout: page
+title: Doble Lectura
+permalink: /doble-lectura/
+---
+Cada cierto tiempo tomamos un paper o un reporte de política y lo leemos con calma: primero **qué dice**, y después **qué significa desde América Latina**. Es el complemento pausado del blog diario.
+
+{% assign lecturas = site.lecturas | sort: "date" | reverse %}
+{% if lecturas.size == 0 %}<p class="empty">Pronto, la primera lectura.</p>{% endif %}
+<ul class="archive-list">
+{% for l in lecturas %}<li><a href="{{ l.url | relative_url }}"><span class="archive-date">{% include fecha.html date=l.date corta=true %}</span><span class="archive-title">{{ l.title }}</span></a></li>
+{% endfor %}</ul>

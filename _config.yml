@@ -17,6 +17,18 @@ plugins:
 url: "https://dobleclick.jaguridi.cl"
 baseurl: ""
 
+# Doble Lectura — análisis en profundidad de un paper/reporte. Colección aparte de _posts,
+# para que no se mezcle con el blog diario (home, /entradas/) ni con el feed del newsletter.
+collections:
+  lecturas:
+    output: true
+    permalink: /doble-lectura/:title/
+
+defaults:
+  - scope: { path: "", type: "lecturas" }
+    values:
+      layout: lectura
+
 # No publicar estos archivos en el sitio
 exclude:
   - Gemfile
