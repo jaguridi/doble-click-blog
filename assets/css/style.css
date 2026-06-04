@@ -168,6 +168,9 @@ body::before{
 .lectura-title{ display:block; font-family:"Fraunces", serif; font-weight:600; font-size:clamp(1.5rem,3.2vw,2rem); line-height:1.1; letter-spacing:-.015em; margin:.35rem 0 0; transition:color .2s; }
 .lectura-sub{ color:var(--ink-soft); font-size:1.05rem; margin:.5rem 0 .4rem; max-width:42rem; }
 .lectura-cite{ font-family:"Space Mono", monospace; font-size:.74rem; line-height:1.55; color:var(--muted); margin:.3rem 0 0; }
+.lectura-audio{ max-width:var(--maxw); margin:1.6rem auto 0; padding:1rem 1.2rem; background:var(--paper-2); border-left:3px solid var(--accent); border-radius:0 4px 4px 0; }
+.audio-label{ display:block; font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin:0 0 .55rem; }
+.lectura-audio audio{ width:100%; height:38px; }
 
 /* ---------- page ---------- */
 .page{ max-width:var(--maxw); margin:0 auto; padding:3.5rem 0 2rem; }

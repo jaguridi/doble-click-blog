@@ -1,0 +1,66 @@
+name: Audio de Doble Lectura
+
+# Genera el mp3 del resumen hablado de cada lectura usando Piper (TTS de codigo
+# abierto, gratis, sin llaves). Se dispara cuando aparece o cambia un guion en
+# _audio/. Lee _audio/<slug>.txt y deja assets/audio/<slug>.mp3.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_audio/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Descargar Piper y voz en espanol
+        run: |
+          set -e
+          mkdir -p "$HOME/piper"
+          cd "$HOME/piper"
+          curl -fsSL -o piper.tar.gz https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz
+          tar -xzf piper.tar.gz
+          curl -fsSL -o es.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_ES/davefx/medium/es_ES-davefx-medium.onnx
+          curl -fsSL -o es.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_ES/davefx/medium/es_ES-davefx-medium.onnx.json
+
+      - name: Generar audios faltantes
+        run: |
+          set -e
+          PIPER_DIR="$HOME/piper/piper"
+          export LD_LIBRARY_PATH="$PIPER_DIR:$LD_LIBRARY_PATH"
+          mkdir -p assets/audio
+          shopt -s nullglob
+          generados=0
+          for f in _audio/*.txt; do
+            slug="$(basename "$f" .txt)"
+            out="assets/audio/$slug.mp3"
+            if [ ! -f "$out" ]; then
+              echo "Generando $out desde $f"
+              tr '\n' ' ' < "$f" | "$PIPER_DIR/piper" --model "$HOME/piper/es.onnx" --output_file "/tmp/$slug.wav"
+              ffmpeg -y -loglevel error -i "/tmp/$slug.wav" -ac 1 -b:a 64k "$out"
+              generados=$((generados+1))
+            fi
+          done
+          echo "Audios generados: $generados"
+
+      - name: Commitear audios
+        run: |
+          git config user.name "doble-lectura-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/audio
+          if git diff --cached --quiet; then
+            echo "Nada nuevo que commitear"
+          else
+            git commit -m "Audio: genera mp3 de resumenes [skip ci]"
+            git push
+          fi

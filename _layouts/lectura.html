@@ -9,6 +9,13 @@ layout: default
     {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
   </header>
 
+  {% if page.audio %}
+  <div class="lectura-audio">
+    <span class="audio-label">▶ Escuchar el resumen · 3 min</span>
+    <audio controls preload="none" src="{{ '/assets/audio/' | append: page.slug | append: '.mp3' | relative_url }}"></audio>
+  </div>
+  {% endif %}
+
   <div class="post-body">
     {{ content }}
     {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude (IA) a partir del paper original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}

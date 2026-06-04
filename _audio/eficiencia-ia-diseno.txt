@@ -1,0 +1,17 @@
+Bienvenidos a Doble Lectura, el rincón pausado de Doble Click. Hoy, un estudio sobre algo que está pasando en muchas oficinas de diseño: la llegada de la inteligencia artificial al trabajo de todos los días.
+
+El paper se llama, en español, Los valores del valor en la adopción de inteligencia artificial, y lo firman Inha Cha, Catherine Wieczorek y Richmond Wong, de Georgia Tech. Es un estudio cualitativo: conversaron con quince diseñadores de experiencia de usuario en Estados Unidos, Canadá y Corea del Sur, a través de talleres y entrevistas.
+
+¿Qué encontraron? Que casi todos adoptan la inteligencia artificial buscando una sola cosa: eficiencia. Pero cuando uno escarba, aparece lo que el estudio llama trabajo oculto. El tiempo de escribir instrucciones, los intentos fallidos, revisar lo que el modelo inventa, corregir antes de tener algo usable. Ese costo casi nunca se mide. Y debajo del entusiasmo asoma un miedo más persistente, el de volverse prescindible. Varios lo dicen sin rodeos: siento que estoy perdiendo mis habilidades centrales.
+
+Dentro del equipo, la herramienta no llega por una capacitación, llega por rumor. Un compañero entusiasta la prueba, la muestra en un almuerzo, y se contagia. Eso genera una adopción despareja y algunos roces: el que adopta más rápido empieza a hacer tareas que antes hacían otros. Aparece también un problema de confianza, cuando alguien presenta como propio un trabajo hecho por el modelo. Y un patrón curioso, tratar la respuesta de la máquina como respuesta final, sin discutirla como discutiríamos la propuesta de un colega.
+
+A nivel de la organización, el hallazgo es que los diseñadores no son quienes deciden. La adopción depende de la gerencia, de los equipos de cumplimiento, de los clientes. La dirección mide el éxito en productividad y ahorro; el diseñador vive otra cosa: la inteligencia artificial no le quitó trabajo, le sumó responsabilidades nuevas sin sacarle las viejas.
+
+La idea central del paper es que la palabra eficiencia no es neutral. Significa cosas distintas para el gerente y para el diseñador, y la inteligencia artificial pone esa diferencia sobre la mesa.
+
+¿Y desde América Latina? El estudio mira el norte global y Asia. En la región, con equipos más chicos y presupuestos más ajustados, la tensión entre ser más eficiente y volverse prescindible puede ser más filosa: automatizar una función puede costar, literalmente, un puesto. Y en agencias o startups, donde no existen esas aprobaciones formales, la adopción es más rápida, pero queda sin marcos para resolver quién decide y quién responde cuando algo sale mal.
+
+La pregunta que deja, y que vale para cualquier equipo de la región: antes de adoptar inteligencia artificial para parecer modernos o para recortar costos, ¿quién puede decir que no sin consecuencias?, y ¿quién absorbe el trabajo oculto cuando el modelo falla?
+
+Esto fue una lectura automática hecha por Claude. Para los detalles, conviene revisar el paper original. Hasta la próxima.

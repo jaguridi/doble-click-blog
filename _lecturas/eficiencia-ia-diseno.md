@@ -9,6 +9,7 @@ paper_autores: "Cha, Wieczorek y Wong"
 paper_publicado: "CHI 2026"
 paper_doi: "https://doi.org/10.1145/3772318.3790429"
 paper_archivo: "3772318.3790429.pdf"
+audio: true
 ---
 
 ## La ficha
