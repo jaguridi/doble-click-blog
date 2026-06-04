@@ -2,7 +2,7 @@
 layout: lectura
 numero: 1
 title: "Políticos y funcionarios no quieren lo mismo de la IA"
-description: "Qué encontró un estudio que entró a ministerios de Chile y Uruguay."
+description: "Veinte entrevistas dentro del Estado en Chile y Uruguay para entender por qué los gobiernos casi no usan IA al consultar a la ciudadanía. El hallazgo incómodo: el problema no es el algoritmo, sino que nadie se hace responsable de la decisión."
 date: 2026-06-04
 paper_titulo: "Thoughtful Adoption of NLP for Civic Participation: Understanding Differences Among Policymakers"
 paper_autores: "Guridi, Cheyre y Yang"
