@@ -13,6 +13,14 @@ layout: default
     {{ content }}
   </div>
 
+  {% capture _rel %}{% assign n = 0 %}{% for it in site.posts %}{% if it.url != page.url and n < 3 %}{% assign sh = false %}{% for t in page.tags %}{% if it.tags contains t %}{% assign sh = true %}{% endif %}{% endfor %}{% if sh %}<li><a href="{{ it.url | relative_url }}">{{ it.title }}</a></li>{% assign n = n | plus: 1 %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+  {% if _rel contains "<li" %}
+  <nav class="relacionado">
+    <p class="relacionado-label">Relacionado</p>
+    <ul>{{ _rel }}</ul>
+  </nav>
+  {% endif %}
+
   <nav class="post-foot">
     <a class="back-link" href="{{ '/entradas/' | relative_url }}">← Todas las entradas</a>
   </nav>

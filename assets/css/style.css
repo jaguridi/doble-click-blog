@@ -172,6 +172,33 @@ body::before{
 .audio-label{ display:block; font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin:0 0 .55rem; }
 .lectura-audio audio{ width:100%; height:38px; }
 
+/* ---------- temas (filtro + buscador) ---------- */
+.temas-chips{ display:flex; flex-wrap:wrap; gap:.5rem; margin:1.2rem 0 .8rem; }
+.chip{ font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); background:none; border:1px solid var(--line); border-radius:2px; padding:.32rem .6rem; cursor:pointer; transition:color .15s, background .15s, border-color .15s; }
+.chip:hover{ color:var(--accent); border-color:var(--accent); }
+.chip-on{ color:#fff; background:var(--accent); border-color:var(--accent); }
+.temas-search{ width:100%; max-width:32rem; font-family:"Newsreader", serif; font-size:1.05rem; padding:.6rem .9rem; border:1px solid var(--line); border-radius:4px; background:#fff; color:var(--ink); margin:.3rem 0 1.6rem; }
+.temas-search:focus{ outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(214,69,43,.12); }
+.temas-list{ list-style:none; padding:0; margin:0; }
+.temas-item{ border-bottom:1px solid var(--line); padding:1rem 0; }
+.temas-item > a{ display:flex; gap:1rem; align-items:baseline; text-decoration:none; color:inherit; }
+.temas-item > a:hover .temas-title{ color:var(--accent); }
+.temas-kind{ font-family:"Space Mono", monospace; font-size:.66rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); flex:0 0 7rem; }
+.temas-title{ font-family:"Fraunces", serif; font-weight:500; font-size:1.15rem; line-height:1.25; }
+.temas-tags{ display:block; font-family:"Space Mono", monospace; font-size:.66rem; color:var(--muted); margin:.25rem 0 0 8rem; }
+.temas-empty{ color:var(--muted); padding:1.5rem 0; }
+.relacionado{ max-width:var(--maxw); margin:2rem auto 0; padding-top:1.2rem; border-top:1px solid var(--line); }
+.relacionado-label{ font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:0 0 .5rem; }
+.relacionado ul{ list-style:none; padding:0; margin:0; }
+.relacionado li{ margin:.35rem 0; }
+.relacionado a{ font-family:"Fraunces", serif; color:var(--ink); text-decoration:none; border-bottom:1px solid rgba(214,69,43,.35); }
+.relacionado a:hover{ color:var(--accent); }
+@media (max-width:640px){
+  .temas-item > a{ flex-direction:column; gap:.15rem; }
+  .temas-kind{ flex-basis:auto; }
+  .temas-tags{ margin-left:0; }
+}
+
 /* ---------- page ---------- */
 .page{ max-width:var(--maxw); margin:0 auto; padding:3.5rem 0 2rem; }
 .page-title{ font-family:"Fraunces", serif; font-weight:900; font-size:clamp(2rem,5vw,3rem); letter-spacing:-.02em; margin:0 0 1.6rem; }

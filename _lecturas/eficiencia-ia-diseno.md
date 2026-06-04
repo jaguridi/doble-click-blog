@@ -1,6 +1,7 @@
 ---
 layout: lectura
 numero: 2
+tags: [trabajo, diseño]
 title: "Adoptar IA en equipos de diseño UX es una negociación sobre quién decide y quién vale"
 description: "Talleres y entrevistas con 15 profesionales UX en Estados Unidos, Canadá y Corea del Sur muestran que la adopción de IA raramente produce las ganancias de eficiencia prometidas: en cambio, añade trabajo invisible, redistribuye roles y deja a los propios diseñadores fuera de las decisiones que más los afectan."
 date: 2026-06-04
