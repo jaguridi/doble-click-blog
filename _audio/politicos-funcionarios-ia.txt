@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click. Hoy, por qué los gobiernos casi no usan inteligencia artificial para procesar lo que opina la ciudadanía, según un estudio con veinte entrevistas en ministerios de Chile y Uruguay.
+
+La respuesta no es técnica. El estudio entrevistó a dos grupos que casi nunca se analizan por separado: los políticos, las autoridades designadas, y los funcionarios de carrera, los que diseñan y ejecutan. Encontró que ambos miran la misma herramienta y ven cosas distintas, porque construyen su legitimidad en lugares opuestos.
+
+Los políticos la construyen hacia afuera, en la confianza de la ciudadanía y la buena prensa. Por eso les atrae una herramienta que se vea objetiva y moderna, que despeje la sospecha de manipulación humana al contar opiniones. El estudio le pone nombre al riesgo: la ilusión de objetividad, creer que algo es confiable solo porque no lo tocó una persona.
+
+Los funcionarios la construyen hacia adentro, frente a sus jefaturas, y viven ahogados en volumen de trabajo. Quieren algo que les ahorre tiempo, pero como son ellos los que operan el sistema, ven los riesgos concretos que los políticos casi no mencionan: errores, datos sensibles, vigilancia.
+
+¿El resultado? Nadie se hace cargo. Los políticos dicen que los funcionarios se resisten y no saben de tecnología; los funcionarios, que los políticos no lideran ni les dan tiempo para aprender. Y encima, las compras públicas no están hechas para esto. Para los autores, lo que frena la adopción no es la calidad del algoritmo, sino esa falta de claridad sobre quién es responsable.
+
+¿Y desde América Latina? Lo primero, es evidencia desde adentro de la región, no extrapolada del norte global, y mirada desde dos de los países con más recorrido en gobierno digital. Si el vacío de responsabilidad aparece incluso ahí, es razonable pensar que pesa más donde la institucionalidad es más frágil. Hoy, además, cualquier equipo puede pegar comentarios ciudadanos en un chatbot sin licitación ni auditoría, así que la advertencia del estudio se vuelve más urgente, no menos.
+
+La pregunta que deja sirve para cualquier ministerio de la región: ahora que usar inteligencia artificial es tan fácil, ¿quién responde cuando se usa para escuchar a la ciudadanía? Si la respuesta es nadie, el estudio sugiere que ahí está el problema, y no en el algoritmo.
+
+El estudio es de Jose Guridi, Cristóbal Cheyre y Qian Yang. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar el paper original.

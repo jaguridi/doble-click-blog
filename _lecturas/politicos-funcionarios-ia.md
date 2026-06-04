@@ -8,6 +8,7 @@ paper_titulo: "Thoughtful Adoption of NLP for Civic Participation: Understanding
 paper_autores: "Guridi, Cheyre y Yang"
 paper_publicado: "Proc. ACM HCI (CSCW), 2025"
 paper_doi: "https://doi.org/10.1145/3711091"
+audio: true
 ---
 
 ## La ficha
