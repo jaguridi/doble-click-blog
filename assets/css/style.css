@@ -153,6 +153,11 @@ body::before{
 .back-link{ font-family:"Space Mono", monospace; font-size:.78rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); text-decoration:none; }
 .back-link:hover{ color:var(--accent); }
 
+/* ---------- doble lectura ---------- */
+/* La ficha abre el cuerpo: sin la línea superior del primer encabezado ni la capitular del primer párrafo (que sí lleva el blog diario). */
+.lectura .post-body > h2:first-child{ border-top:none; padding-top:0; margin-top:0; }
+.lectura .post-body > p:first-of-type::first-letter{ font:inherit; float:none; color:inherit; padding:0; line-height:inherit; }
+
 /* ---------- page ---------- */
 .page{ max-width:var(--maxw); margin:0 auto; padding:3.5rem 0 2rem; }
 .page-title{ font-family:"Fraunces", serif; font-weight:900; font-size:clamp(2rem,5vw,3rem); letter-spacing:-.02em; margin:0 0 1.6rem; }
