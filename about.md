@@ -20,7 +20,7 @@ Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por
 
 ¿Prefieres recibir la entrada del día por correo? Déjanos tu email y te llega cada mañana.
 
-<form class="sub-form" action="https://script.google.com/macros/s/AKfycbxIaD55gHoo-HfgP9jf9vV3JGEgCxMqvyRCVZN9PBFrgfqp-EoSx-H07Tpzal2R40Gjcg/exec" method="post" target="sub-sink">
+<form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
   <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
   <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
   <button class="sub-btn" type="submit">Suscribirme</button>

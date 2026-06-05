@@ -9,7 +9,7 @@ layout: default
 
 <section class="feed">
   <p class="feed-label">Últimas entradas</p>
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 15 %}
   <article class="entry" style="--i: {{ forloop.index0 }}">
     <a class="entry-link" href="{{ post.url | relative_url }}">
       <span class="entry-date">{% include fecha.html date=post.date %}</span>
@@ -21,13 +21,16 @@ layout: default
   {% else %}
   <p class="empty">Todavía no hay entradas publicadas. Vuelve pronto.</p>
   {% endfor %}
+  {% if site.posts.size > 15 %}
+  <p class="feed-more"><a href="{{ '/entradas/' | relative_url }}">Ver todas las entradas →</a></p>
+  {% endif %}
 </section>
 
 <section class="subscribe">
   <p class="kicker">Newsletter</p>
   <h2 class="subscribe-title">Recíbelo por correo</h2>
   <p class="subscribe-text">Una entrada cada mañana, directo a tu bandeja. Sin spam.</p>
-  <form class="sub-form" action="https://script.google.com/macros/s/AKfycbxIaD55gHoo-HfgP9jf9vV3JGEgCxMqvyRCVZN9PBFrgfqp-EoSx-H07Tpzal2R40Gjcg/exec" method="post" target="sub-sink">
+  <form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
     <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
     <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
     <button class="sub-btn" type="submit">Suscribirme</button>

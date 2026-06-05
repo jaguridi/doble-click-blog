@@ -13,13 +13,16 @@ document.addEventListener('DOMContentLoaded', function(){
   var groups = document.querySelectorAll('[data-group]');
   var empty = document.querySelector('.temas-empty');
   var activeTag = '';
+  // Comparación insensible a acentos y mayúsculas: el chip puede venir con tilde
+  // (ej. "ética", desde _data/temas.yml) y el tag del post sin tilde ("etica").
+  function norm(s){ return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
   function apply(){
-    var q = (search.value || '').trim().toLowerCase();
+    var q = norm(search.value).trim();
     var visible = 0;
     items.forEach(function(it){
-      var tags = ' ' + (it.getAttribute('data-tags') || '') + ' ';
-      var text = it.getAttribute('data-text') || '';
-      var show = (!activeTag || tags.indexOf(' ' + activeTag + ' ') >= 0) && (!q || text.indexOf(q) >= 0);
+      var tags = ' ' + norm(it.getAttribute('data-tags')) + ' ';
+      var text = norm(it.getAttribute('data-text'));
+      var show = (!activeTag || tags.indexOf(' ' + norm(activeTag) + ' ') >= 0) && (!q || text.indexOf(q) >= 0);
       it.style.display = show ? '' : 'none';
       if (show) visible++;
     });

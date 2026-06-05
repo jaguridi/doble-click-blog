@@ -1,6 +1,9 @@
+{% assign _audiopath = '/assets/audio/' | append: page.slug | append: '.mp3' %}
+{% assign _audiofile = site.static_files | where: 'path', _audiopath | first %}
+{% if _audiofile %}
 <div class="lectura-audio">
   <span class="audio-label">{{ include.label }}</span>
-  <audio controls preload="none" src="{{ '/assets/audio/' | append: page.slug | append: '.mp3' | relative_url }}"></audio>
+  <audio controls preload="none" src="{{ _audiopath | relative_url }}"></audio>
   <div class="audio-speeds">
     <span class="audio-speeds-label">Velocidad</span>
     <button class="vel vel-on" data-vel="1">1&times;</button>
@@ -27,3 +30,4 @@ document.addEventListener('DOMContentLoaded', function(){
   });
 });
 </script>
+{% endif %}

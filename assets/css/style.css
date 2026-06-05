@@ -104,6 +104,9 @@ body::before{
 .entry-link:hover .entry-title{ color:var(--accent); }
 .entry-desc{ margin:.2rem 0 .7rem; color:var(--ink-soft); font-size:1.08rem; max-width:40rem; }
 .empty{ color:var(--muted); padding:2rem 0; }
+.feed-more{ margin:1.6rem 0 0; }
+.feed-more a{ font-family:"Space Mono", monospace; font-size:.78rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); text-decoration:none; }
+.feed-more a:hover{ color:var(--accent); }
 
 /* tags */
 .tags{ list-style:none; display:flex; flex-wrap:wrap; gap:.5rem; padding:0; margin:.4rem 0 0; }
@@ -184,13 +187,6 @@ body::before{
 .chip-on{ color:#fff; background:var(--accent); border-color:var(--accent); }
 .temas-search{ width:100%; max-width:32rem; font-family:"Newsreader", serif; font-size:1.05rem; padding:.6rem .9rem; border:1px solid var(--line); border-radius:4px; background:#fff; color:var(--ink); margin:.3rem 0 1.6rem; }
 .temas-search:focus{ outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(214,69,43,.12); }
-.temas-list{ list-style:none; padding:0; margin:0; }
-.temas-item{ border-bottom:1px solid var(--line); padding:1rem 0; }
-.temas-item > a{ display:flex; gap:1rem; align-items:baseline; text-decoration:none; color:inherit; }
-.temas-item > a:hover .temas-title{ color:var(--accent); }
-.temas-kind{ font-family:"Space Mono", monospace; font-size:.66rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); flex:0 0 7rem; }
-.temas-title{ font-family:"Fraunces", serif; font-weight:500; font-size:1.15rem; line-height:1.25; }
-.temas-tags{ display:block; font-family:"Space Mono", monospace; font-size:.66rem; color:var(--muted); margin:.25rem 0 0 8rem; }
 .temas-empty{ color:var(--muted); padding:1.5rem 0; }
 .relacionado{ max-width:var(--maxw); margin:2rem auto 0; padding-top:1.2rem; border-top:1px solid var(--line); }
 .relacionado-label{ font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:0 0 .5rem; }
@@ -201,11 +197,6 @@ body::before{
 .rel-kind{ font-family:"Space Mono", monospace; font-size:.62rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); }
 .paper-keywords{ font-family:"Space Mono", monospace; font-size:.72rem; line-height:1.5; color:var(--muted); margin-top:2.2rem; }
 .paper-keywords strong{ color:var(--ink-soft); }
-@media (max-width:640px){
-  .temas-item > a{ flex-direction:column; gap:.15rem; }
-  .temas-kind{ flex-basis:auto; }
-  .temas-tags{ margin-left:0; }
-}
 
 /* ---------- page ---------- */
 .page{ max-width:var(--maxw); margin:0 auto; padding:3.5rem 0 2rem; }

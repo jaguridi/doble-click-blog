@@ -1,7 +1,7 @@
 # Vocabulario vivo de temas para Doble Click (lecturas y noticias).
 # Controlado pero evolutivo: reutilizar estos; agregar uno nuevo SOLO cuando
 # aparece un tema o arco narrativo genuinamente distinto. Mantener pocos y estables.
-# Estos temas alimentan los chips de /temas/ y se usan en el front matter `tags`.
+# Estos temas alimentan los chips de /entradas/ y /doble-lectura/ y se usan en el front matter `tags`.
 - gobernanza
 - participación
 - trabajo

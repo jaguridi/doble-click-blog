@@ -12,10 +12,16 @@ timezone: America/Santiago
 plugins:
   - jekyll-feed      # genera /feed.xml (RSS) — lo consume el newsletter
   - jekyll-seo-tag   # metadatos para compartir
+  - jekyll-sitemap   # genera /sitemap.xml para buscadores
 
 # URL — dominio propio (subdominio) servido por GitHub Pages. Ver archivo CNAME.
 url: "https://dobleclick.jaguridi.cl"
 baseurl: ""
+
+# Endpoint del Google Apps Script que gestiona alta / confirmación / baja del newsletter.
+# Lo usan el formulario de suscripción (home y about) y las páginas /confirmar/ y /baja/.
+# Si rehaces el deploy del Apps Script, actualiza la URL acá: es el único lugar.
+newsletter_endpoint: "https://script.google.com/macros/s/AKfycbxIaD55gHoo-HfgP9jf9vV3JGEgCxMqvyRCVZN9PBFrgfqp-EoSx-H07Tpzal2R40Gjcg/exec"
 
 # Publicar también posts con fecha "en el futuro". La routine a veces le pone al post
 # una hora adelantada (huso horario); igual queremos que salga el día que se genera.
