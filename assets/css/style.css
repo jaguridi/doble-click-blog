@@ -171,6 +171,11 @@ body::before{
 .lectura-audio{ max-width:var(--maxw); margin:1.6rem auto 0; padding:1rem 1.2rem; background:var(--paper-2); border-left:3px solid var(--accent); border-radius:0 4px 4px 0; }
 .audio-label{ display:block; font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin:0 0 .55rem; }
 .lectura-audio audio{ width:100%; height:38px; }
+.audio-speeds{ display:flex; align-items:center; flex-wrap:wrap; gap:.4rem; margin-top:.6rem; }
+.audio-speeds-label{ font-family:"Space Mono", monospace; font-size:.66rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-right:.15rem; }
+.vel{ font-family:"Space Mono", monospace; font-size:.7rem; color:var(--muted); background:none; border:1px solid var(--line); border-radius:2px; padding:.2rem .45rem; cursor:pointer; transition:color .15s, background .15s, border-color .15s; }
+.vel:hover{ color:var(--accent); border-color:var(--accent); }
+.vel-on{ color:#fff; background:var(--accent); border-color:var(--accent); }
 
 /* ---------- temas (filtro + buscador) ---------- */
 .temas-chips{ display:flex; flex-wrap:wrap; gap:.5rem; margin:1.2rem 0 .8rem; }

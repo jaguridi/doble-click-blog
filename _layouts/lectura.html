@@ -9,12 +9,7 @@ layout: default
     {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
   </header>
 
-  {% if page.audio %}
-  <div class="lectura-audio">
-    <span class="audio-label">▶ Escuchar el resumen · 3 min</span>
-    <audio controls preload="none" src="{{ '/assets/audio/' | append: page.slug | append: '.mp3' | relative_url }}"></audio>
-  </div>
-  {% endif %}
+  {% if page.audio %}{% include audio.html label="▶ Escuchar el resumen · 3 min" %}{% endif %}
 
   <div class="post-body">
     {{ content }}

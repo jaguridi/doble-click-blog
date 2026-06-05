@@ -1,0 +1,29 @@
+<div class="lectura-audio">
+  <span class="audio-label">{{ include.label }}</span>
+  <audio controls preload="none" src="{{ '/assets/audio/' | append: page.slug | append: '.mp3' | relative_url }}"></audio>
+  <div class="audio-speeds">
+    <span class="audio-speeds-label">Velocidad</span>
+    <button class="vel vel-on" data-vel="1">1&times;</button>
+    <button class="vel" data-vel="1.25">1.25&times;</button>
+    <button class="vel" data-vel="1.5">1.5&times;</button>
+    <button class="vel" data-vel="1.75">1.75&times;</button>
+    <button class="vel" data-vel="2">2&times;</button>
+  </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var audio = document.querySelector('.lectura-audio audio');
+  var btns = document.querySelectorAll('.lectura-audio .vel');
+  if (!audio || !btns.length) return;
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      audio.playbackRate = parseFloat(b.getAttribute('data-vel'));
+    });
+  });
+  audio.addEventListener('ratechange', function(){
+    btns.forEach(function(x){
+      x.classList.toggle('vel-on', parseFloat(x.getAttribute('data-vel')) === audio.playbackRate);
+    });
+  });
+});
+</script>
