@@ -6,7 +6,7 @@
 <input class="temas-search" type="search" placeholder="Filtrar por palabra...">
 <p class="temas-empty" hidden>Nada por aquí. Prueba con otro tema o palabra.</p>
 <script>
-(function(){
+document.addEventListener('DOMContentLoaded', function(){
   var chips = document.querySelectorAll('.temas-chips .chip');
   var search = document.querySelector('.temas-search');
   var items = document.querySelectorAll('.buscable');
@@ -38,5 +38,5 @@
     });
   });
   if (search) search.addEventListener('input', apply);
-})();
+});
 </script>
