@@ -11,11 +11,8 @@ permalink: /baja/
   var token = new URLSearchParams(location.search).get('token');
   var box = document.getElementById('estado');
   if (!token) { box.innerHTML = '<p>El enlace está incompleto.</p>'; return; }
-  var done = false;
-  function ok(){ if(done) return; done = true; box.innerHTML = '<h2 class="confirm-title">Te diste de baja</h2><p>No recibirás más correos de Doble Click. ¡Gracias por habernos leído!</p><p><a href="{{ "/" | relative_url }}">Ir al blog →</a></p>'; }
-  var img = new Image();
-  img.onload = img.onerror = ok;
-  img.src = '{{ site.newsletter_endpoint }}?action=unsub&token=' + encodeURIComponent(token);
-  setTimeout(ok, 3000);
+  // El Apps Script valida el token y devuelve el resultado real (baja hecha / enlace
+  // no válido). Lo redirigimos en vez de "pingearlo" a ciegas, para no mentir un éxito.
+  location.replace('{{ site.newsletter_endpoint }}?action=unsub&token=' + encodeURIComponent(token));
 })();
 </script>

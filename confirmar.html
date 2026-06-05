@@ -11,11 +11,9 @@ permalink: /confirmar/
   var token = new URLSearchParams(location.search).get('token');
   var box = document.getElementById('estado');
   if (!token) { box.innerHTML = '<p>El enlace está incompleto. Vuelve a suscribirte desde la portada.</p>'; return; }
-  var done = false;
-  function ok(){ if(done) return; done = true; box.innerHTML = '<h2 class="confirm-title">¡Suscripción confirmada! 📬</h2><p>Recibirás la próxima entrada por correo. Ya puedes cerrar esta página.</p><p><a href="{{ "/" | relative_url }}">Ir al blog →</a></p>'; }
-  var img = new Image();
-  img.onload = img.onerror = ok;
-  img.src = '{{ site.newsletter_endpoint }}?action=confirm&token=' + encodeURIComponent(token);
-  setTimeout(ok, 3000);
+  // El Apps Script valida el token contra la planilla y devuelve el resultado real
+  // (suscripción confirmada / enlace no válido). Lo redirigimos en vez de "pingearlo"
+  // a ciegas, para que el visitante vea lo que de verdad ocurrió.
+  location.replace('{{ site.newsletter_endpoint }}?action=confirm&token=' + encodeURIComponent(token));
 })();
 </script>
