@@ -1,0 +1,56 @@
+---
+layout: page
+title: Fuentes
+permalink: /fuentes/
+---
+
+<p class="fuentes-intro">{{ site.data.fuentes.intro }}</p>
+
+{% for cat in site.data.fuentes.categorias %}
+<section class="fuentes-cat">
+  <h2 class="fuentes-cat-title">{{ cat.nombre }}</h2>
+  <p class="fuentes-desc">{{ cat.descripcion }}</p>
+  <ul class="fuentes-list">
+    {% for f in cat.fuentes %}
+    <li><a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.nombre }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+<section class="sugerir" id="sugerir">
+  <h2 class="fuentes-cat-title">¿Conoces una fuente que deberíamos seguir?</h2>
+  <p class="fuentes-desc">
+    Propón un blog, un medio, un centro de investigación o una cuenta que creas que aporta. Revisamos
+    cada sugerencia: si encaja con lo que hacemos, la sumamos a la lista; si no, la dejamos pasar; y
+    cuando es un caso de criterio, queda para revisión humana.
+  </p>
+
+  <form class="sub-form sug-form" action="{{ site.newsletter_endpoint }}" method="post" target="sug-sink">
+    <input type="hidden" name="action" value="suggest">
+    <label class="sug-field">
+      <span class="sug-label">Enlace de la fuente</span>
+      <input class="sub-input" type="url" name="url" placeholder="https://…" required aria-label="Enlace de la fuente">
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">¿Qué es? <em>(opcional)</em></span>
+      <input class="sub-input" type="text" name="nombre" placeholder="Nombre o una línea: blog del lab X, medio Y…" aria-label="Nombre o descripción de la fuente">
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">¿Por qué deberíamos seguirla? <em>(opcional)</em></span>
+      <textarea class="sub-input sug-textarea" name="motivo" rows="3" placeholder="Qué cubre, por qué es valiosa, qué nos estamos perdiendo…" aria-label="Por qué deberíamos seguirla"></textarea>
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">Tu correo <em>(opcional)</em></span>
+      <input class="sub-input" type="email" name="correo" placeholder="tu@correo.com" aria-label="Tu correo electrónico">
+    </label>
+    <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
+    <button class="sub-btn" type="submit">Enviar sugerencia</button>
+  </form>
+  <iframe name="sug-sink" title="sugerencia" style="display:none"></iframe>
+  <p class="sub-ok" hidden>¡Gracias! Recibimos tu sugerencia. La revisamos y, si encaja, la sumamos a la lista. 🔎</p>
+  <p class="sub-note">
+    Dejar tu correo es opcional: solo lo usamos si necesitamos más contexto sobre la fuente o para
+    avisarte si la incluimos. No te suscribe al newsletter ni lo compartimos.
+  </p>
+</section>

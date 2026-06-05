@@ -1,0 +1,98 @@
+# Fuentes públicas que revisamos para Doble Click — versión curada por categorías.
+#
+# Esta es una muestra representativa, no la lista completa: cada categoría tiene muchas más
+# fuentes de las que mostramos acá. La lista interna granular (señales de talento y capital,
+# compras públicas, cuentas a monitorear, etc.) se mantiene en privado en fuentes_curacion.md.
+#
+# Cuando se aprueba una fuente sugerida por un lector, se agrega a la categoría que corresponda.
+# La página /fuentes/ se arma sola a partir de este archivo.
+
+intro: >-
+  Cada día revisamos un conjunto amplio de fuentes públicas para armar la entrada. Estas son las
+  familias principales, con algunos ejemplos de cada una. No es la lista completa, pero da una idea
+  de dónde miramos.
+
+categorias:
+  - nombre: "Laboratorios de IA frontera"
+    descripcion: "Los anuncios y la investigación de quienes construyen los modelos."
+    fuentes:
+      - { nombre: "Anthropic", url: "https://www.anthropic.com/news" }
+      - { nombre: "OpenAI", url: "https://openai.com/news/" }
+      - { nombre: "Google DeepMind", url: "https://deepmind.google/discover/blog/" }
+      - { nombre: "Meta AI", url: "https://ai.meta.com/blog/" }
+      - { nombre: "Mistral AI", url: "https://mistral.ai/news/" }
+      - { nombre: "Microsoft Research", url: "https://www.microsoft.com/en-us/research/blog/" }
+      - { nombre: "Hugging Face", url: "https://huggingface.co/blog" }
+
+  - nombre: "Universidades y centros de investigación en América Latina"
+    descripcion: "Lo que se investiga y se discute sobre IA desde la región."
+    fuentes:
+      - { nombre: "C4AI — Universidade de São Paulo (Brasil)", url: "https://c4ai.inova.usp.br/" }
+      - { nombre: "IIMAS — UNAM (México)", url: "https://www.iimas.unam.mx/" }
+      - { nombre: "DCC — Universidad de Chile", url: "https://www.dcc.uchile.cl/" }
+      - { nombre: "Ingeniería UC (Chile)", url: "https://www.ing.uc.cl/" }
+      - { nombre: "Universidad de los Andes (Colombia)", url: "https://uniandes.edu.co/" }
+      - { nombre: "Depto. de Computación — UBA (Argentina)", url: "https://www.dc.uba.ar/" }
+      - { nombre: "CENIA — Centro Nacional de IA (Chile)", url: "https://www.cenia.cl/" }
+      - { nombre: "IMFD — Inst. Milenio Fundamentos de los Datos (Chile)", url: "https://imfd.cl/" }
+
+  - nombre: "Gobernanza regional: ministerios y reguladores"
+    descripcion: >-
+      Estrategias nacionales, autoridades de protección de datos y reguladores de los países de la
+      región. Seguimos a varios; estos son algunos.
+    fuentes:
+      - { nombre: "Min. de Ciencia, Tecnología, Conocimiento e Innovación (Chile)", url: "https://www.minciencia.gob.cl/" }
+      - { nombre: "Ministério da Ciência, Tecnologia e Inovação (Brasil)", url: "https://www.gov.br/mcti/" }
+      - { nombre: "MinTIC (Colombia)", url: "https://www.mintic.gov.co/" }
+      - { nombre: "SECIHTI (México)", url: "https://secihti.mx/" }
+      - { nombre: "ANPD — Autoridade Nacional de Proteção de Dados (Brasil)", url: "https://www.gov.br/anpd/" }
+      - { nombre: "AGESIC (Uruguay)", url: "https://www.gub.uy/agesic/" }
+
+  - nombre: "Organismos multilaterales y estándares"
+    descripcion: "Gobernanza global, cooperación regional y normas técnicas."
+    fuentes:
+      - { nombre: "UNESCO — Inteligencia Artificial", url: "https://www.unesco.org/en/artificial-intelligence" }
+      - { nombre: "OECD.AI Policy Observatory", url: "https://oecd.ai/" }
+      - { nombre: "CEPAL", url: "https://www.cepal.org/" }
+      - { nombre: "fAIr LAC — BID", url: "https://fairlac.iadb.org/" }
+      - { nombre: "GPAI — Global Partnership on AI", url: "https://gpai.ai/" }
+      - { nombre: "NIST — AI Risk Management Framework", url: "https://www.nist.gov/itl/ai-risk-management-framework" }
+
+  - nombre: "Seguridad y evaluación de IA"
+    descripcion: "Quienes miden capacidades, riesgos y comportamiento de los modelos."
+    fuentes:
+      - { nombre: "AI Safety Institute (Reino Unido)", url: "https://www.aisi.gov.uk/" }
+      - { nombre: "METR", url: "https://metr.org/" }
+      - { nombre: "Apollo Research", url: "https://www.apolloresearch.ai/" }
+      - { nombre: "Epoch AI", url: "https://epoch.ai/" }
+      - { nombre: "Center for AI Safety", url: "https://safe.ai/" }
+      - { nombre: "Stanford HAI — AI Index", url: "https://aiindex.stanford.edu/" }
+
+  - nombre: "Análisis e industria"
+    descripcion: "Voces que explican el negocio, las tendencias y los casos de uso."
+    fuentes:
+      - { nombre: "Stratechery (Ben Thompson)", url: "https://stratechery.com/" }
+      - { nombre: "Import AI (Jack Clark)", url: "https://importai.substack.com/" }
+      - { nombre: "The Batch (DeepLearning.AI)", url: "https://www.deeplearning.ai/the-batch/" }
+      - { nombre: "Rest of World", url: "https://restofworld.org/" }
+      - { nombre: "One Useful Thing (Ethan Mollick)", url: "https://www.oneusefulthing.org/" }
+      - { nombre: "AI Snake Oil", url: "https://www.aisnakeoil.com/" }
+
+  - nombre: "Prensa de la región"
+    descripcion: "Medios latinoamericanos con buena cobertura de tecnología y política digital."
+    fuentes:
+      - { nombre: "Bloomberg Línea", url: "https://www.bloomberglinea.com/" }
+      - { nombre: "DPL News", url: "https://dplnews.com/" }
+      - { nombre: "Wired en Español", url: "https://es.wired.com/" }
+      - { nombre: "MIT Technology Review en Español", url: "https://www.technologyreview.es/" }
+      - { nombre: "El Mostrador (Chile)", url: "https://www.elmostrador.cl/" }
+      - { nombre: "La Silla Vacía (Colombia)", url: "https://www.lasillavacia.com/" }
+
+  - nombre: "Investigación con curaduría"
+    descripcion: "Papers ya filtrados por relevancia, más fáciles de seguir que arXiv en crudo."
+    fuentes:
+      - { nombre: "Hugging Face — Daily Papers", url: "https://huggingface.co/papers" }
+      - { nombre: "Papers with Code", url: "https://paperswithcode.com/" }
+      - { nombre: "The Gradient", url: "https://thegradient.pub/" }
+      - { nombre: "Semantic Scholar", url: "https://www.semanticscholar.org/" }
+      - { nombre: "alphaXiv", url: "https://www.alphaxiv.org/" }
