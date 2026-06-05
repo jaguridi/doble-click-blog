@@ -5,11 +5,13 @@ permalink: /doble-lectura/
 ---
 <p class="lectura-intro">Cada cierto tiempo tomamos un paper o un reporte de política y lo leemos con calma: primero <strong>qué dice</strong>, y después <strong>qué significa desde América Latina</strong>. Es el complemento pausado del blog diario.</p>
 
+{% include buscador.html %}
+
 {% assign lecturas = site.lecturas | sort: "date" | reverse %}
 {% if lecturas.size == 0 %}<p class="empty">Pronto, la primera lectura.</p>{% endif %}
 <ul class="lectura-list">
 {% for l in lecturas %}
-  <li class="lectura-item">
+  <li class="lectura-item buscable" data-tags="{{ l.tags | join: ' ' }}" data-text="{{ l.title | downcase | escape }} {{ l.description | downcase | escape }} {{ l.tags | join: ' ' | downcase }}">
     <a href="{{ l.url | relative_url }}">
       <span class="lectura-date">{% include fecha.html date=l.date corta=true %}</span>
       <span class="lectura-title">{{ l.title }}</span>

@@ -3,11 +3,14 @@ layout: page
 title: Entradas
 permalink: /entradas/
 ---
+{% include buscador.html %}
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% if site.posts.size == 0 %}<p class="empty">Todavía no hay entradas publicadas.</p>{% endif %}
 {% for year in posts_by_year %}
+<div data-group>
 <h2 class="archive-year">{{ year.name }}</h2>
 <ul class="archive-list">
-{% for post in year.items %}<li><a href="{{ post.url | relative_url }}"><span class="archive-date">{% include fecha.html date=post.date corta=true %}</span><span class="archive-title">{{ post.title }}</span></a></li>
+{% for post in year.items %}<li class="buscable" data-tags="{{ post.tags | join: ' ' }}" data-text="{{ post.title | downcase | escape }} {{ post.description | downcase | escape }} {{ post.tags | join: ' ' | downcase }}"><a href="{{ post.url | relative_url }}"><span class="archive-date">{% include fecha.html date=post.date corta=true %}</span><span class="archive-title">{{ post.title }}</span></a></li>
 {% endfor %}</ul>
+</div>
 {% endfor %}
