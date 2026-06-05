@@ -9,6 +9,13 @@ layout: default
     {% if page.tags %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
   </header>
 
+  {% if page.audio %}
+  <div class="lectura-audio">
+    <span class="audio-label">▶ Escuchar la entrada</span>
+    <audio controls preload="none" src="{{ '/assets/audio/' | append: page.slug | append: '.mp3' | relative_url }}"></audio>
+  </div>
+  {% endif %}
+
   <div class="post-body">
     {{ content }}
   </div>
