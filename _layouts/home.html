@@ -9,7 +9,7 @@ layout: default
 
 <section class="feed">
   <p class="feed-label">Últimas entradas</p>
-  {% for post in site.posts limit: 15 %}
+  {% for post in site.posts limit: 8 %}
   <article class="entry" style="--i: {{ forloop.index0 }}">
     <a class="entry-link" href="{{ post.url | relative_url }}">
       <span class="entry-date">{% include fecha.html date=post.date %}</span>
@@ -21,7 +21,7 @@ layout: default
   {% else %}
   <p class="empty">Todavía no hay entradas publicadas. Vuelve pronto.</p>
   {% endfor %}
-  {% if site.posts.size > 15 %}
+  {% if site.posts.size > 8 %}
   <p class="feed-more"><a href="{{ '/entradas/' | relative_url }}">Ver todas las entradas →</a></p>
   {% endif %}
 </section>
