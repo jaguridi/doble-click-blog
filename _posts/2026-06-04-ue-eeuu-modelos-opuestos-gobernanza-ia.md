@@ -4,6 +4,7 @@ title: "La UE y EE.UU. consolidan modelos opuestos de gobernanza de IA"
 description: "En 24 horas Europa comprometió €420 mil millones en soberanía digital y Washington firmó un marco voluntario sin obligaciones: el mapa regulatorio que LatAm deberá navegar."
 date: 2026-06-04 14:00:00 -0400
 tags: [gobernanza, latam, regulacion, lanzamientos]
+audio: true
 ---
 
 El 3 de junio, la Comisión Europea publicó el paquete de soberanía tecnológica más ambicioso de su historia: [€420 mil millones en chips, centros de datos, nube e inteligencia artificial hasta 2036](https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en), junto a una nueva ley —la Cloud and AI Development Act— que clasifica a los proveedores de nube en cuatro niveles de soberanía y obliga a las autoridades públicas europeas a alojar datos sensibles en infraestructura del bloque. La declaración que resume la postura: "We want to be sure nobody has a kill switch" (Comisión Europea).
