@@ -4,6 +4,7 @@ title: "El Vaticano entra al debate de la inteligencia artificial"
 description: "León XIV publica la primera encíclica papal dedicada por completo a la IA, en una semana clave para la gobernanza en América Latina."
 date: 2026-05-25 10:00:00 -0400
 tags: [gobernanza, etica, vaticano, latam]
+audio: true
 ---
 
 El Papa León XIV publicó hoy *Magnifica Humanitas*, [la primera encíclica papal dedicada íntegramente a la inteligencia artificial](https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html). El documento, de 235 páginas y cinco capítulos, fue firmado el 15 de mayo —135° aniversario de *Rerum Novarum*— y plantea una idea central: la tecnología "no es neutra; asume el rostro de quien la concibe, la financia, la regula y la utiliza". Advierte, además, que el control de la IA no debe quedar "en manos de unos pocos".

@@ -1,0 +1,11 @@
+Doble Click, domingo 24 de mayo. Hoy, un contraste que define el momento de la inteligencia artificial: capacidades que se disparan y supervisión que desaparece.
+
+El gobierno de Estados Unidos canceló de forma definitiva el único mecanismo de control que había propuesto para los modelos más avanzados: un esquema voluntario de revisión de seguridad de noventa días antes de cada lanzamiento. No lo pospuso; lo descartó. Así, las tecnologías de frontera quedan operando sin ningún punto de control público.
+
+Lo llamativo es lo que esos mismos modelos están logrando. Esta semana, un modelo de propósito general refutó una conjetura matemática que llevaba ochenta años sin resolverse, sin haber sido entrenado especialmente para matemáticas. Un matemático de primer nivel lo describió como un hito. Es decir: las capacidades crecen a toda velocidad mientras la supervisión retrocede.
+
+¿Y América Latina? La región no tiene asiento en estas decisiones ni el peso de mercado para influir en ellas. Un dato lo dimensiona: el plan de cómputo soberano más ambicioso de la región, en México, unos seis mil millones de dólares en cinco años, equivale a menos del uno por ciento de la ronda de financiamiento que Anthropic está por cerrar. La pregunta de fondo es qué pueden negociar los gobiernos de la región cuando no controlan ni la regulación de referencia ni el dinero.
+
+La pregunta que deja el día: si los modelos más capaces avanzan más rápido que las reglas que deberían acompañarlos, ¿qué puede ofrecer un gobierno latinoamericano a cambio de un asiento en la mesa?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.

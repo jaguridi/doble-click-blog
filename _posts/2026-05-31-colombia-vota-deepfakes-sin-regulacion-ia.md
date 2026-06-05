@@ -4,6 +4,7 @@ title: "Colombia vota entre deepfakes y sin reglas de IA, días después de que 
 description: "La primera vuelta presidencial colombiana se convierte en la primera prueba real de desinformación con IA en una elección latinoamericana de 2026."
 date: 2026-05-31 10:00:00 -0400
 tags: [latam, elecciones, deepfakes, gobernanza]
+audio: true
 ---
 
 Hoy Colombia celebra la primera vuelta de sus elecciones presidenciales: 41,4 millones de personas habilitadas, 14 candidaturas y, según la Misión de Observación Electoral (MOE), una circulación activa de deepfakes de candidatos, audios clonados y encuestas falsas fabricadas con inteligencia artificial. Todo esto ocurre sin que el país tenga un marco legal de IA ni una regulación electoral específica para este tipo de contenidos ([NoticiasSuper](https://www.noticiassuper.com/2026/05/29/elecciones-presidenciales-en-colombia-el-domingo-este-alerta-a-deepfakes-noticias-encuestas-y-videos-falsos-generados-con-ia-y-a-otras-amenazas-para-la-democracia-en-la-era-digital/)).

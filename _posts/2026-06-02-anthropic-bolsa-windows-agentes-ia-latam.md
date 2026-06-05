@@ -4,6 +4,7 @@ title: "Anthropic va a bolsa y Windows se convierte en plataforma de agentes IA"
 description: "El mismo día que Anthropic formalizó su camino hacia la bolsa, Microsoft rediseñó Windows para ejecutar agentes de inteligencia artificial de forma nativa y a escala masiva."
 date: 2026-06-02 14:02:44 -0400
 tags: [mercados, lanzamientos, latam, gobernanza]
+audio: true
 ---
 
 Anthropic [presentó su S-1 confidencial ante la SEC](https://www.anthropic.com/news/confidential-draft-s1-sec) el 1 de junio, el primer paso formal hacia una salida a bolsa prevista para octubre de 2026, con una valuación cercana a los $965 mil millones. El mismo día, Microsoft celebró su conferencia Build 2026 en San Francisco y anunció que Windows se convertirá en la primera plataforma de escala masiva para ejecutar agentes de inteligencia artificial —programas que actúan de forma autónoma para completar tareas— de forma nativa.

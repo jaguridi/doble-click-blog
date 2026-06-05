@@ -4,6 +4,7 @@ title: "Brasil aprueba la primera ley de IA con alcance nacional de la región"
 description: "La Cámara de Diputados dio luz verde a un marco inspirado en el reglamento europeo, justo cuando otros bloques aflojan el acelerador."
 date: 2026-05-28 10:00:00 -0400
 tags: [gobernanza, brasil, regulacion, agentes]
+audio: true
 ---
 
 Brasil acaba de cruzar una línea que ningún país de América Latina había cruzado: el 27 de mayo, la Cámara de Diputados aprobó el proyecto de ley 2338/2023, el primer marco legal de inteligencia artificial con alcance nacional completo de la región ([IAPP](https://iapp.org/news/b/brazils-chamber-of-deputies-approves-rules-on-ai-use)). El texto está modelado sobre el reglamento europeo de IA: clasifica los sistemas según su nivel de riesgo, crea un Sistema Nacional de Regulación y Gobernanza de IA y fija sanciones que pueden llegar a los 50 millones de reales.

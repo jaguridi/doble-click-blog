@@ -4,6 +4,7 @@ title: "Brasil vota su marco de IA: el día que América Latina llega a la antes
 description: "La Cámara de Diputados decide hoy si la región tendrá su primera ley nacional de inteligencia artificial."
 date: 2026-05-27 10:00:00 -0400
 tags: [latam, regulacion, brasil, gobernanza]
+audio: true
 ---
 
 Hoy la Cámara de Diputados de Brasil vota el [PL 2338/2023](https://murayama.com.br/en/2026/05/18/chamber-of-deputies-schedules-vote-on-artificial-intelligence-legal-framework-for-may-27/), el primer marco regulatorio de inteligencia artificial con alcance nacional completo de América Latina. Llega a la antesala tras 18 meses de tramitación: si el pleno aprueba el texto sin cambios, la ley queda a un paso de la firma presidencial; si lo modifica, vuelve al Senado y podría quedar para 2027. Es, sin exagerar, el evento de política de IA más importante que ha tenido la región.

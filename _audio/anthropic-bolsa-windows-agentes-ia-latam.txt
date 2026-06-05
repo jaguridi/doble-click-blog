@@ -1,0 +1,11 @@
+Doble Click, martes 2 de junio. Hoy, dos movimientos que marcan el rumbo de la industria: Anthropic da su primer paso formal hacia la bolsa, y Microsoft convierte a Windows en plataforma para agentes de inteligencia artificial.
+
+Anthropic presentó ante el regulador bursátil de Estados Unidos el documento confidencial que precede a una salida a bolsa, prevista para octubre, con una valuación cercana a los novecientos sesenta y cinco mil millones de dólares. El mismo día, en su conferencia anual, Microsoft anunció que Windows se convertirá en la primera plataforma de escala masiva para ejecutar agentes de inteligencia artificial de forma nativa; es decir, programas que actúan de manera autónoma para completar tareas.
+
+El anuncio más llamativo fue Project Polaris, el modelo propio de Microsoft que reemplazará a un modelo de OpenAI en su herramienta de programación a partir de agosto. Para América Latina, donde Microsoft domina más del ochenta por ciento de los equipos de gobierno y empresa, esto significa que la herramienta de programación asistida más extendida en el sector corporativo dejará de depender de OpenAI. En paralelo, Microsoft liberó como código abierto un marco que convierte los más de doscientos millones de computadores con Windows de la región en potenciales nodos para ejecutar agentes, sin necesidad de infraestructura en la nube.
+
+Cuando el documento de Anthropic se haga público, entre julio y agosto, será la primera vez que los inversores puedan ver los números completos de una empresa de inteligencia artificial de frontera.
+
+La pregunta que deja el día: con marcos de agentes de código abierto disponibles desde las grandes tecnológicas, ¿la estrategia de soberanía tecnológica de la región debería construirse sobre esa infraestructura abierta, o esa apertura es simplemente otra forma de dependencia más difícil de ver?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.

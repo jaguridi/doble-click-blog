@@ -1,0 +1,11 @@
+Doble Click, jueves 28 de mayo. Hoy, Brasil cruza una línea que ningún país de América Latina había cruzado: tiene la primera ley de inteligencia artificial con alcance nacional de la región.
+
+El veintisiete de mayo, la Cámara de Diputados de Brasil aprobó el proyecto de ley dos mil trescientos treinta y ocho, modelado sobre el reglamento europeo de inteligencia artificial: clasifica los sistemas según su nivel de riesgo, crea un sistema nacional de regulación y gobernanza, y fija sanciones que pueden llegar a los cincuenta millones de reales.
+
+Quedan dos incógnitas que definen su alcance real. La primera es si el texto conservó el capítulo de derechos de autor que venía del Senado. La segunda es de procedimiento: si la ley pasa directo a promulgación o regresa al Senado con cambios, lo que podría estirar el proceso varios meses. El detalle importa, porque con promulgación directa Brasil tendría ley antes de las elecciones de octubre, y el resto de la región tendría un modelo concreto del cual aprender.
+
+El momento llama la atención por el contraste: el hito ocurre justo cuando Estados Unidos quedó sin ningún mecanismo público de supervisión sobre los modelos de frontera, y cuando la Unión Europea postergó sus propios plazos. Al menos en Brasil, la región está llenando ese vacío con un estándar propio.
+
+La pregunta que deja el día: ahora que la región tiene su primer marco legal de inteligencia artificial, ¿servirá de modelo para que otros países avancen, o cada uno terminará escribiendo sus propias reglas desde cero?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.

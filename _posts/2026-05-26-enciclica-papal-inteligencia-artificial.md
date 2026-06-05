@@ -4,6 +4,7 @@ title: "Una encíclica papal entra al debate global sobre inteligencia artificia
 description: "El primer documento de León XIV sobre IA propone prohibir armas autónomas, denunciar el colonialismo de datos y abrir las patentes de alto impacto."
 date: 2026-05-26 10:00:00 -0400
 tags: [gobernanza, etica, latam, regulacion]
+audio: true
 ---
 
 El 25 de mayo el papa León XIV publicó **Magnifica Humanitas**, su primera encíclica, dedicada por completo a la inteligencia artificial. Por su alcance es probablemente el pronunciamiento sobre ética de la IA con mayor audiencia potencial de la historia: unos 1.400 millones de católicos en el mundo, alrededor de 500 millones de ellos en América Latina. Lo notable es que el documento no se queda en principios: aterriza en propuestas de política concretas. Puedes leer el anuncio oficial en [Vatican News](https://www.vaticannews.va/es/papa/news/2026-05/papa-leon-xiv-primera-enciclica-magnifica-humanitas.html).

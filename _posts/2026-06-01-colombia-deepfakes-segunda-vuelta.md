@@ -4,6 +4,7 @@ title: "Colombia llega a segunda vuelta con deepfakes y sin reglas"
 description: "Un sondeo falso con el logo de Gemini visible expone el vacío regulatorio frente a la desinformación electoral con IA en la región."
 date: 2026-06-01 10:00:00 -0400
 tags: [elecciones, deepfakes, latam, gobernanza]
+audio: true
 ---
 
 Colombia entró a su segunda vuelta presidencial con el reloj en contra: faltan 21 días para el 21 de junio y no hay ningún mecanismo institucional para responder a los deepfakes que aparecieron durante la primera vuelta del 31 de mayo. El Tiempo [documentó la circulación de un sondeo falso](https://www.eltiempo.com/politica/elecciones-colombia-2026/resultados-elecciones-presidenciales-en-colombia-2026-falta-una-hora-para-que-cierren-las-urnas-de-votacion-asi-avanza-la-jornada-electoral-3560900) que atribuía 53% a uno de los candidatos, con el logo de Gemini visible en la esquina inferior derecha. Es el primer caso registrado en América Latina de una marca de modelo de IA apareciendo dentro de desinformación electoral activa.

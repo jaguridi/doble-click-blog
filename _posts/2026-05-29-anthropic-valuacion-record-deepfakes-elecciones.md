@@ -4,6 +4,7 @@ title: "Anthropic se convierte en la startup más valiosa del mundo y América L
 description: "Una ronda de 65.000 millones de dólares redibuja el mapa del poder en IA, justo cuando dos países de la región enfrentan elecciones bajo una ola de deepfakes."
 date: 2026-05-29 10:00:00 -0400
 tags: [anthropic, financiamiento, deepfakes, latam]
+audio: true
 ---
 
 Anthropic cerró una ronda de financiamiento de **65.000 millones de dólares** que la valora en **965.000 millones**, convirtiéndola en la startup privada más valiosa de la historia y superando por primera vez a OpenAI (852.000 millones). El mismo día lanzó su nuevo modelo, Claude Opus 4.8. La cifra es difícil de dimensionar, así que un punto de referencia regional ayuda: Coatlicue, el proyecto de cómputo soberano más ambicioso de América Latina —el plan de México de invertir 6.000 millones de dólares en cinco años— equivale apenas al **9% de esta sola ronda** ([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-28/anthropic-raises-at-965-billion-valuation-eclipsing-openai)).

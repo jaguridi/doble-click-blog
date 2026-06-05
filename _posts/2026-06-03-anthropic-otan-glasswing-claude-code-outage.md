@@ -4,6 +4,7 @@ title: "Anthropic lleva su IA a la OTAN mientras Claude Code se rompe solo"
 description: "El mismo sistema que busca proteger infraestructura crítica global sufrió un colapso de seis horas por un error en su propia IA agéntica."
 date: 2026-06-03 10:11:03 -0400
 tags: [agentes, seguridad, latam, gobernanza]
+audio: true
 ---
 
 El 2 de junio, Anthropic [anunció la expansión de Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing) a 150 nuevas organizaciones en más de 15 países, con la OTAN y la ENISA como primeros socios gubernamentales multilaterales del programa. Glasswing protege infraestructura crítica —agua, energía, salud, comunicaciones— del tipo de ataques donde la IA puede ser tanto el arma como el escudo. Ese mismo día, Claude Code, la herramienta de programación de la misma empresa, sufrió [un outage global de casi seis horas](https://www.theregister.com/ai-and-ml/2026/06/02/claude-celebrates-anthropics-stock-market-float-with-blockbuster-outage/5250071) cuya causa raíz fue exactamente el tipo de falla que más preocupa a los expertos en IA agéntica: sub-agentes que se multiplicaron en un bucle infinito hasta agotar los sistemas.

@@ -1,0 +1,11 @@
+Doble Click, viernes 29 de mayo. Hoy, una cifra que redibuja el mapa del poder en inteligencia artificial, y dos países de la región que enfrentan elecciones bajo una ola de falsificaciones.
+
+Anthropic cerró una ronda de financiamiento de sesenta y cinco mil millones de dólares, que la valora en novecientos sesenta y cinco mil millones. Con eso se convierte en la empresa privada más valiosa de la historia, superando por primera vez a OpenAI. El mismo día lanzó su nuevo modelo, Claude Opus 4.8. Un punto de referencia regional ayuda a dimensionar la cifra: el plan de cómputo soberano más ambicioso de América Latina, el proyecto de México de invertir seis mil millones de dólares en cinco años, equivale apenas al nueve por ciento de esta sola ronda.
+
+Hay un detalle que vale mirar de cerca. Entre los nuevos socios estratégicos de Anthropic aparecen tres gigantes asiáticos de semiconductores, junto a fondos institucionales globales. Es decir, la empresa diversifica su base de chips y de capital, y se apoya en una red profundamente internacional. Eso abre una pregunta legítima: cuando la infraestructura, el dinero y los modelos se concentran a esta escala, ¿cuánto margen de negociación le queda a la región, y frente a quién?
+
+En el plano regional, la gran historia es la democracia bajo presión digital. Colombia vota el domingo sin ningún marco de inteligencia artificial electoral, con clonación de voz y videos hiperrealistas circulando por mensajería. Y Bolivia acumula, desde mediados de mayo, decenas de contenidos falsos de su presidente, entre ellos un audio clonado que anunciaba una falsa renuncia. Es la primera vez que dos países de la región enfrentan al mismo tiempo una alerta por desinformación con inteligencia artificial en plena coyuntura política.
+
+La pregunta que deja el día: si construir inteligencia artificial de punta exige hoy cifras cercanas al billón de dólares y alianzas que cruzan continentes, ¿qué papel quiere jugar América Latina en esa conversación: el de espectadora, el de mercado o el de socia?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.

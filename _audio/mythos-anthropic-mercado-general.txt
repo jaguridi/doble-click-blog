@@ -1,0 +1,11 @@
+Doble Click, sábado 30 de mayo. Hoy, el sistema de inteligencia artificial más ofensivo del mundo se acerca al público general, y América Latina queda fuera de la defensa que lo rodeó.
+
+Anthropic confirmó que los modelos de su clase Mythos, hoy restringidos a cerca de cincuenta organizaciones bajo un programa cerrado, llegarán a todos sus clientes en las próximas semanas. Es el primer sistema de inteligencia artificial documentado capaz de identificar y explotar vulnerabilidades de seguridad de forma autónoma, con una tasa de éxito superior al ochenta por ciento al primer intento en pruebas internas.
+
+El anuncio trae una promesa y una pregunta. La promesa: la empresa dice haber avanzado rápido en salvaguardas más fuertes. La pregunta es quién valida esas salvaguardas, porque no se anunció ningún evaluador externo ni una fecha concreta. Para América Latina el punto es más directo todavía: ningún país de la región figura entre los socios del programa de defensa colectiva que acompañó a estos modelos durante su fase restringida. Cuando el sistema se abra, la región tendrá acceso a la herramienta ofensiva más avanzada que existe, sin haber participado en la coordinación de defensa que se construyó alrededor de ella.
+
+Esto se suma a algo que venimos siguiendo: la brecha entre la velocidad con que los grandes laboratorios despliegan capacidades de frontera y la lentitud con que se construyen los mecanismos de defensa compartida.
+
+La pregunta que deja el día: si el sistema ofensivo más avanzado del mundo llega al mercado general en semanas, ¿cuál es el plan de defensa para la infraestructura crítica de la región, energía, banca y salud, y quién lo financia cuando los instrumentos de defensa colectiva están reservados para otros?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.

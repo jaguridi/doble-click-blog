@@ -4,6 +4,7 @@ title: "Estados Unidos se queda sin supervisión pública para la IA más potent
 description: "Mientras un modelo resuelve un problema matemático de 80 años, el país que los fabrica cancela su único mecanismo de control."
 date: 2026-05-24 10:00:00 -0400
 tags: [gobernanza, estados-unidos, latam, frontier]
+audio: true
 ---
 
 La semana cerró con una decisión de gobernanza que reordena el mapa de la inteligencia artificial: el gobierno de Estados Unidos [canceló de forma definitiva](https://www.artificialintelligence-news.com/news/trump-ai-executive-order-scrapped-musk-zuckerberg-china/) el único mecanismo de supervisión que se había propuesto para los modelos más avanzados, un esquema voluntario de revisión de seguridad de 90 días antes de cada lanzamiento. No fue pospuesto: fue descartado. La orden ejecutiva habría creado un primer punto de control público sobre tecnologías que hoy operan sin ninguno.

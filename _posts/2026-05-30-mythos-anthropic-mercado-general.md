@@ -4,6 +4,7 @@ title: "El sistema de IA más ofensivo del mundo se acerca al público general"
 description: "Anthropic anunció que sus modelos Mythos llegarán a todos los clientes en semanas, mientras América Latina queda fuera del programa de defensa que los rodeó."
 date: 2026-05-30 10:00:00 -0400
 tags: [seguridad, anthropic, latam, gobernanza]
+audio: true
 ---
 
 Anthropic confirmó el 29 de mayo que los modelos de su clase Mythos —hoy restringidos a cerca de 50 organizaciones bajo un programa cerrado llamado Project Glasswing— llegarán a **todos sus clientes "en las próximas semanas"**. Es el primer sistema de IA documentado capaz de identificar y explotar vulnerabilidades de seguridad de manera autónoma, con una tasa de éxito superior al 83% al primer intento en pruebas internas. La empresa lo anunció junto al cierre de una ronda de financiamiento de 65.000 millones de dólares, según [Fortune](https://fortune.com/2026/05/29/anthropic-raises-65-billion-at-record-965-billion-valuation-promises-mythos-ai-model-in-wide-release-in-coming-weeks-releases-claude-opus-4-8/).

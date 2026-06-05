@@ -1,0 +1,9 @@
+Doble Click, miércoles 3 de junio. Hoy, una paradoja: la misma empresa que lleva su inteligencia artificial a proteger la infraestructura crítica de la OTAN sufrió, el mismo día, un colapso de seis horas provocado por su propia inteligencia artificial.
+
+El 2 de junio, Anthropic anunció la expansión de su programa Glasswing a 150 nuevas organizaciones en más de quince países, con la OTAN y la agencia europea de ciberseguridad como sus primeros socios gubernamentales. Glasswing busca proteger sectores críticos, agua, energía, salud y comunicaciones, frente a ataques donde la inteligencia artificial puede ser tanto el arma como el escudo. Pero ese mismo día, Claude Code, la herramienta de programación de la misma empresa, se cayó durante casi seis horas. La causa fue justo el tipo de falla que más preocupa a los expertos: subagentes que se multiplicaron en un bucle infinito hasta agotar los sistemas. Y todo ocurrió la misma jornada en que Anthropic presentó los papeles para salir a bolsa.
+
+¿Y América Latina? Tras más de seis semanas de operación, ninguna organización de la región figura en Glasswing. En paralelo, Colombia llega a su segunda vuelta con la inteligencia artificial ya activa en campaña y una ley contra suplantaciones cuyas sanciones recién entran en vigor en julio, diez días después de la elección. Brasil, en cambio, ya tiene su marco aprobado y medidas electorales vigentes.
+
+La pregunta que deja el día: si la misma inteligencia artificial que busca proteger sistemas críticos puede colapsar por un bucle infinito durante seis horas, ¿qué tan sólida es la defensa que ofrece a los países que se suman al programa?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
