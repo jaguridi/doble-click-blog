@@ -3,7 +3,7 @@ layout: post
 title: "La Tilde: el Pentágono opera en silencio un medio en español con IA"
 description: "Una investigación de The Intercept revela que el Ejército de EE.UU. produce propaganda geolocalizada en español para América Latina usando modelos de lenguaje a costo casi cero."
 date: 2026-06-05 09:00:00 -0400
-tags: seguridad, latam, gobernanza, ética
+tags: [seguridad, latam, gobernanza, ética]
 audio: true
 ---
 
