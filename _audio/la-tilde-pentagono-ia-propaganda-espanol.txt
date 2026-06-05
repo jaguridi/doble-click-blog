@@ -1,0 +1,13 @@
+Doble Click, viernes cinco de junio de dos mil veintiséis.
+
+La historia del día viene de una investigación de The Intercept: el Pentágono opera un sitio de noticias en español llamado La Tilde, dirigido a lectores de América Latina, y el contenido lo produce inteligencia artificial a escala. Sin firmas, sin quién diga quién escribe. El único aviso de que está financiado por el gobierno de Estados Unidos está enterrado en una página de información que casi nadie visita.
+
+El operador es SOCSOUTH, el Comando de Operaciones Especiales de EE.UU. para el Sur, la misma unidad que en abril de este año ya había operado sitios similares en árabe para el Medio Oriente. La mezcla de contenido es deliberada: guías de finanzas personales mezcladas con artículos que destacan operaciones militares estadounidenses en la región.
+
+Lo más importante no es que esto exista, la propaganda estatal tiene historia larga. Lo que cambia es el costo. Producir contenido geolocalizado, en el idioma de tu audiencia, ajustado a sus intereses del día, solía requerir periodistas, traductores y presupuestos grandes. Con modelos de lenguaje, el costo marginal se acerca a cero. Y eso cambia todo el cálculo para los medios de verificación de Colombia, Argentina, Brasil o Chile, que trabajan con presupuestos muy limitados.
+
+En otras noticias del día: el Congreso de Estados Unidos presentó un borrador llamado el Gran Acto Americano de IA que congelaría por tres años las leyes estatales de inteligencia artificial, las mismas que sirven de referencia para los legisladores de la región. Y Colombia llega a su segunda vuelta presidencial del veintiuno de junio con una ley antimanipulación aprobada pero sin sanciones vigentes hasta julio.
+
+En cuanto a lanzamientos, LATAM Airlines expande desde hoy su agente de viajes con IA a Colombia, Perú y Ecuador, tras cuatro meses de prueba en Chile con más de 52.000 usuarios. OpenAI también anunció nuevos plugins de Codex para profesionales de áreas como Legal y Finanzas Corporativas.
+
+Esta entrada se generó de forma automática a partir de fuentes públicas. Conviene verificar cada noticia en su fuente original antes de citarla o tomar decisiones a partir de ella.
