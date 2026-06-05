@@ -8,6 +8,10 @@ author: Doble Click
 lang: es
 timezone: America/Santiago
 
+# Tarjeta grande al compartir en redes (la imagen por defecto se inyecta vía `defaults`, abajo).
+twitter:
+  card: summary_large_image
+
 # Diseño propio (layouts en _layouts/). No usamos tema externo.
 plugins:
   - jekyll-feed      # genera /feed.xml (RSS) — lo consume el newsletter
@@ -38,6 +42,11 @@ defaults:
   - scope: { path: "", type: "lecturas" }
     values:
       layout: lectura
+  # Imagen social por defecto (Open Graph) en todas las páginas; una entrada puede
+  # sobreescribirla poniendo `image:` en su propio front matter.
+  - scope: { path: "" }
+    values:
+      image: /assets/og-image.png
 
 # No publicar estos archivos en el sitio
 exclude:
