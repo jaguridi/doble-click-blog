@@ -1,0 +1,13 @@
+Doble Lectura, de Doble Click. Hoy, qué pasa cuando una inteligencia artificial que dibuja se mete en el diseño de un parque.
+
+Un equipo de investigadores se asoció con un estudio de arquitectura del paisaje en Los Ángeles para mejorar un parque real. La idea era simple: en vez de mostrarle a los vecinos imágenes hechas de antemano, generar imágenes en vivo, con inteligencia artificial, a partir de lo que cada persona iba contando. Entrevistaron así a nueve vecinos, hijos de migrantes latinoamericanos.
+
+Y encontraron algo que no esperaban. Las imágenes técnicamente perfectas, las que salían fieles a lo pedido, muchas veces cerraban la conversación. La persona decía "sí, es esto", y se acababa el tema. En cambio, las imágenes imperfectas, a veces inexactas o francamente raras, eran las que abrían la conversación. Una participante no lograba nombrar un elemento de su herencia mexicana hasta que vio un mural en una imagen y recordó las historias de su madre. A otro, un parque fantasioso hecho de hongos le sirvió para imaginar un diseño más natural. La inexactitud, acá, era el motor, no el defecto.
+
+Lo segundo que vieron es que tener una imagen al frente, aunque estuviera mal, hacía que la gente describiera mucho mejor el espacio: dónde iba cada cosa, dónde se ubicaban ellos, qué ambiente querían. Y lo tercero, que pone un límite a todo lo anterior: el resultado dependía mucho de la habilidad de quien facilitaba la conversación. La herramienta sola no hace el trabajo.
+
+¿Por qué importa esto desde América Latina? Los participantes eran diáspora, hijos de migrantes en Estados Unidos, no gente viviendo en la región. Y ahí aparece la tensión más interesante: las imágenes tendían a verse idealizadas y muy estadounidenses, y costaba representar la herencia cultural real. Aparecían estereotipos. Un participante asociaba su idea de México a la película Encanto, que en realidad está inspirada en Colombia. Pero los autores le dan vuelta: una imagen sesgada puede servir para conversar sobre el sesgo mismo, para nombrar qué falta y qué no se parece a uno.
+
+Y queda una pregunta que da que pensar. El estudio usó herramientas de 2024, que todavía erraban bastante. Hoy la inteligencia artificial dibuja cada vez mejor. Si lo que abría la conversación era justamente la imperfección, ¿una IA cada vez más exacta podría, sin querer, cerrarla antes? La pregunta de fondo es qué buscamos cuando le mostramos una imagen a la comunidad: que apruebe un dibujo, o que se abra una conversación.
+
+Esta Doble Lectura está basada en un trabajo de Jose Guridi y colegas de Cornell, la Universidad del Sur de California y el estudio Studio MLA. Fue una lectura automática hecha por Claude, así que conviene revisar el paper original. Gracias por escuchar.
