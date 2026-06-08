@@ -19,13 +19,13 @@ audio: true
 - **Qué es:** *The Values of Value in AI Adoption: Rethinking Efficiency in UX Designers' Workplaces*
 - **Quiénes:** [Inha Cha](https://scholar.google.com/citations?user=27Xa08gAAAAJ&hl=en), [Catherine Wieczorek](https://www.cathwieczorek.com/) y [Richmond Y. Wong](https://lmc.gatech.edu/people/person/richmond-wong) (Georgia Institute of Technology)
 - **Dónde:** *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems*, abril 2026, Barcelona. [doi.org/10.1145/3772318.3790429](https://doi.org/10.1145/3772318.3790429)
-- **Tipo:** estudio cualitativo, 5 talleres de diseño grupal y 15 entrevistas individuales de seguimiento.
+- **Tipo:** estudio cualitativo, 5 talleres de diseño grupal y 14 entrevistas individuales de seguimiento.
 
 ## Primera lectura: qué hace y qué encuentra
 
 La pregunta que abre el paper no es si la IA es buena para el trabajo de diseño, sino cómo se toman en la práctica las decisiones de adoptarla. Esa distinción importa, porque la mayoría de los estudios anteriores evalúan qué tan bien funciona una herramienta; este mira qué ocurre en el equipo cuando la herramienta llega.
 
-Para eso, las autoras y el autor reclutaron a 15 diseñadoras y diseñadores UX de empresas de tecnología en Estados Unidos, Canadá y Corea del Sur. Los perfiles son variados: hay investigadoras UX en una firma de finanzas, un diseñador senior en IT con 25 años de experiencia, una becaria de diseño, consultoras en salud. Los organizaron en cinco grupos según sector o contexto profesional y condujeron talleres virtuales de dos horas y media donde cada participante construía un escenario hipotético de adopción de IA en su propio trabajo, con ejercicios en Miro. Después vinieron entrevistas individuales de media hora. El análisis fue temático-reflexivo, con dos miembros del equipo codificando de manera independiente.
+Para eso, las autoras y el autor reclutaron a 15 diseñadoras y diseñadores UX de empresas de tecnología en Estados Unidos, Canadá y Corea del Sur. Los perfiles son variados: hay investigadoras UX en una firma de finanzas, una diseñadora senior en IT con 25 años de experiencia, una becaria de diseño, perfiles en consultoría y salud. Los organizaron en cinco grupos según sector o contexto profesional y condujeron talleres virtuales de dos horas y media donde cada participante construía un escenario hipotético de adopción de IA en su propio trabajo, con ejercicios en Miro. Después vinieron entrevistas individuales de media hora. El análisis fue temático-reflexivo: dos miembros del equipo trabajaron el material por separado y luego todo el equipo definió los temas en conjunto.
 
 Los hallazgos se organizan en tres escalas. A nivel individual, a nivel de equipo, y a nivel organizacional. Las tres revelan algo distinto, y juntas arman el argumento central.
 
