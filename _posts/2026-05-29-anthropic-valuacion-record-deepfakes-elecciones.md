@@ -3,7 +3,7 @@ layout: post
 title: "Anthropic se convierte en la startup más valiosa del mundo y América Latina hace cuentas"
 description: "Una ronda de 65.000 millones de dólares redibuja el mapa del poder en IA, justo cuando dos países de la región enfrentan elecciones bajo una ola de deepfakes."
 date: 2026-05-29 10:00:00 -0400
-tags: [anthropic, financiamiento, deepfakes, latam]
+tags: [mercados, seguridad, participación, latam]
 audio: true
 ---
 

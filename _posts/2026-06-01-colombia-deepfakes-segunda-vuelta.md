@@ -3,7 +3,7 @@ layout: post
 title: "Colombia llega a segunda vuelta con deepfakes y sin reglas"
 description: "Un sondeo falso con el logo de Gemini visible expone el vacío regulatorio frente a la desinformación electoral con IA en la región."
 date: 2026-06-01 10:00:00 -0400
-tags: [elecciones, deepfakes, latam, gobernanza]
+tags: [seguridad, participación, latam, gobernanza]
 audio: true
 ---
 

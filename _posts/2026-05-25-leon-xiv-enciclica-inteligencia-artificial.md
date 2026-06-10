@@ -3,7 +3,7 @@ layout: post
 title: "El Vaticano entra al debate de la inteligencia artificial"
 description: "León XIV publica la primera encíclica papal dedicada por completo a la IA, en una semana clave para la gobernanza en América Latina."
 date: 2026-05-25 10:00:00 -0400
-tags: [gobernanza, etica, vaticano, latam]
+tags: [gobernanza, ética, latam]
 audio: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Brasil vota su marco de IA: el día que América Latina llega a la antesala"
 description: "La Cámara de Diputados decide hoy si la región tendrá su primera ley nacional de inteligencia artificial."
 date: 2026-05-27 10:00:00 -0400
-tags: [latam, regulacion, brasil, gobernanza]
+tags: [latam, gobernanza]
 audio: true
 ---
 

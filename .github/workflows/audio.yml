@@ -52,6 +52,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nada nuevo que commitear"
           else
-            git commit -m "Audio: genera mp3 de resumenes [skip ci]"
+            git commit -m "Audio: genera mp3 de resumenes"
             git push
           fi

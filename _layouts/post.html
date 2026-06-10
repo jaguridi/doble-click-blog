@@ -18,6 +18,20 @@ layout: default
   {% include relacionado.html %}
 
   <nav class="post-foot">
+    <div class="post-nav">
+      {% if page.previous %}
+      <a class="post-nav-link prev" href="{{ page.previous.url | relative_url }}">
+        <span class="post-nav-kicker">← Anterior</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+      </a>
+      {% endif %}
+      {% if page.next %}
+      <a class="post-nav-link next" href="{{ page.next.url | relative_url }}">
+        <span class="post-nav-kicker">Siguiente →</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+      </a>
+      {% endif %}
+    </div>
     <a class="back-link" href="{{ '/entradas/' | relative_url }}">← Todas las entradas</a>
   </nav>
 </article>

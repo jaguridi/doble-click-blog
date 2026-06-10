@@ -3,7 +3,7 @@ layout: post
 title: "La UE y EE.UU. consolidan modelos opuestos de gobernanza de IA"
 description: "En 24 horas Europa comprometió €420 mil millones en soberanía digital y Washington firmó un marco voluntario sin obligaciones: el mapa regulatorio que LatAm deberá navegar."
 date: 2026-06-04 14:00:00 -0400
-tags: [gobernanza, latam, regulacion, lanzamientos]
+tags: [gobernanza, latam, lanzamientos]
 audio: true
 ---
 
