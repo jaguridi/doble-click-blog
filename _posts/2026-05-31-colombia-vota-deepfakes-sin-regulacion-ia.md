@@ -3,7 +3,7 @@ layout: post
 title: "Colombia vota entre deepfakes y sin reglas de IA, días después de que Brasil aprobara las suyas"
 description: "La primera vuelta presidencial colombiana se convierte en la primera prueba real de desinformación con IA en una elección latinoamericana de 2026."
 date: 2026-05-31 10:00:00 -0400
-tags: [latam, elecciones, deepfakes, gobernanza]
+tags: [latam, seguridad, participación, gobernanza]
 audio: true
 ---
 

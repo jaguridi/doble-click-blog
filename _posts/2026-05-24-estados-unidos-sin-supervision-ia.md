@@ -3,7 +3,7 @@ layout: post
 title: "Estados Unidos se queda sin supervisión pública para la IA más potente"
 description: "Mientras un modelo resuelve un problema matemático de 80 años, el país que los fabrica cancela su único mecanismo de control."
 date: 2026-05-24 10:00:00 -0400
-tags: [gobernanza, estados-unidos, latam, frontier]
+tags: [gobernanza, latam]
 audio: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Anthropic lleva su IA a la OTAN mientras Claude Code se rompe solo"
 description: "El mismo sistema que busca proteger infraestructura crítica global sufrió un colapso de seis horas por un error en su propia IA agéntica."
 date: 2026-06-03 10:11:03 -0400
-tags: [agentes, seguridad, latam, gobernanza]
+tags: [seguridad, latam, gobernanza]
 audio: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Una encíclica papal entra al debate global sobre inteligencia artificial"
 description: "El primer documento de León XIV sobre IA propone prohibir armas autónomas, denunciar el colonialismo de datos y abrir las patentes de alto impacto."
 date: 2026-05-26 10:00:00 -0400
-tags: [gobernanza, etica, latam, regulacion]
+tags: [gobernanza, ética, latam]
 audio: true
 ---
 

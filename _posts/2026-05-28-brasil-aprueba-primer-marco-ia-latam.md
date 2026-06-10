@@ -3,7 +3,7 @@ layout: post
 title: "Brasil aprueba la primera ley de IA con alcance nacional de la región"
 description: "La Cámara de Diputados dio luz verde a un marco inspirado en el reglamento europeo, justo cuando otros bloques aflojan el acelerador."
 date: 2026-05-28 10:00:00 -0400
-tags: [gobernanza, brasil, regulacion, agentes]
+tags: [gobernanza, latam]
 audio: true
 ---
 

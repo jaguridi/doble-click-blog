@@ -3,7 +3,7 @@ layout: post
 title: "El sistema de IA más ofensivo del mundo se acerca al público general"
 description: "Anthropic anunció que sus modelos Mythos llegarán a todos los clientes en semanas, mientras América Latina queda fuera del programa de defensa que los rodeó."
 date: 2026-05-30 10:00:00 -0400
-tags: [seguridad, anthropic, latam, gobernanza]
+tags: [seguridad, latam, gobernanza]
 audio: true
 ---
 
