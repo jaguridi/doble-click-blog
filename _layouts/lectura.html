@@ -17,6 +17,8 @@ layout: default
     {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude (IA) a partir del paper original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}
   </div>
 
+  {% include reportar.html tipo="lectura" %}
+
   {% include relacionado.html %}
 
   <nav class="post-foot">

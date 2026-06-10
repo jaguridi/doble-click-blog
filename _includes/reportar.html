@@ -1,0 +1,37 @@
+{%- comment -%}
+Formulario plegable para reportar un error en una entrada o lectura. Hace POST al mismo
+Apps Script del newsletter (action=report_error), que acumula los reportes en una planilla.
+Una rutina nocturna los revisa: si el error se verifica, corrige la página y deja una fe
+de erratas al pie. Parámetro: include.tipo = "entrada" | "lectura".
+{%- endcomment -%}
+<details class="reportar">
+  <summary>¿Viste un error? Repórtalo</summary>
+  <p class="reportar-nota">Cuéntanos qué está mal —citando la frase si puedes— y, si la tienes,
+  la fuente que lo corrige. Un proceso automático revisa los reportes cada noche: si el error
+  se verifica, la página se corrige y queda una fe de erratas al pie.</p>
+  <form class="sub-form sug-form" action="{{ site.newsletter_endpoint }}" method="post" target="report-sink">
+    <input type="hidden" name="action" value="report_error">
+    <input type="hidden" name="slug" value="{{ page.slug }}">
+    <input type="hidden" name="tipo" value="{{ include.tipo | default: 'entrada' }}">
+    <input type="hidden" name="url" value="{{ page.url | absolute_url }}">
+    <label class="sug-field">
+      <span class="sug-label">¿Qué está mal?</span>
+      <textarea class="sub-input sug-textarea" name="descripcion" rows="3" required
+        placeholder="Ej.: dice que el reporte es de la OCDE, pero el enlace lleva a un documento de UNESCO…"
+        aria-label="Descripción del error"></textarea>
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">Fuente que lo corrige <em>(opcional)</em></span>
+      <input class="sub-input" type="url" name="fuente" placeholder="https://…" aria-label="Enlace a la fuente correcta">
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">Tu correo <em>(opcional)</em></span>
+      <input class="sub-input" type="email" name="correo" placeholder="tu@correo.com" aria-label="Tu correo electrónico">
+    </label>
+    <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
+    <button class="sub-btn" type="submit">Enviar reporte</button>
+  </form>
+  <iframe name="report-sink" title="reporte de error" style="display:none"></iframe>
+  <p class="sub-ok" hidden>Gracias. Revisamos los reportes cada noche: si el error se confirma, corregimos la página y lo anotamos en una fe de erratas. 🔎</p>
+  <p class="sub-note">Tu correo es opcional: solo lo usamos si necesitamos más contexto sobre el reporte. No te suscribe al newsletter.</p>
+</details>
