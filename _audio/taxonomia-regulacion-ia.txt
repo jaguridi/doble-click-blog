@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click. Hoy, por qué no todo lo que se llama regulación de inteligencia artificial regula de verdad lo mismo.
+
+Un equipo de Stanford y Harvard armó una taxonomía, una grilla de once criterios, para comparar de forma ordenada las leyes de inteligencia artificial de cinco lugares: la Unión Europea, Estados Unidos, Canadá, China y Brasil. No es un experimento ni una nota sobre cuál ley es mejor. Es una herramienta para no confundirse.
+
+Y la confusión, dicen, empieza en una sola palabra. La etiqueta regulación de inteligencia artificial se usa por igual para guías voluntarias, sin obligación, y para leyes vinculantes con sanciones. Cuando una recomendación se presenta como si fuera una ley con dientes, se crea una falsa sensación de seguridad: la gente cree estar protegida por reglas estrictas que en realidad no existen. Comparar esas dos cosas, dice el título del paper, es comparar manzanas con naranjas.
+
+La grilla deja ver dónde divergen los cinco países. Algunos regulan según el nivel de riesgo de cada uso; otros estiran leyes sectoriales que ya tenían. Algunos exigen pruebas antes de que el sistema se use; otros esperan a que haya daño. Y el criterio más opaco, según los autores, es quién participa en el diseño de la ley. Ahí aparece lo más incómodo: en Canadá, de 253 actores consultados, 216 venían del mundo empresarial. Ese desequilibrio es la materia prima de la captura regulatoria, cuando la industria termina escribiendo las reglas que debería cumplir.
+
+Un matiz interesante: el estudio desarma la idea de que regular e innovar se excluyen. China, con reglas estrictas, sigue siendo líder en desarrollo de inteligencia artificial.
+
+¿Y desde América Latina? Brasil es uno de los cinco casos, no un apéndice. Su proyecto de ley sería la primera ley integral de inteligencia artificial de la región si se aprueba. Pero la mayoría de los países latinoamericanos, fuera de Brasil, todavía están en el terreno de las estrategias y los principios voluntarios. Y ahí cae la advertencia central: si una declaración de buenas intenciones se comunica como si fuera una ley obligatoria, el riesgo es que la ciudadanía baje la guardia creyéndose protegida. La grilla sirve justo para eso, para preguntarle a cada marco qué tiene de verdad y qué de fachada.
+
+La pregunta que deja sirve para cualquier congreso de la región. Antes de celebrar que un país ya regula la inteligencia artificial, conviene revisar de qué tipo de regulación se trata, porque no todo lo que lleva ese nombre obliga a algo.
+
+El estudio es de Sacha Alanoca, Shira Gur-Arieh, Tom Zick y Kevin Klyman. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar el paper original.
