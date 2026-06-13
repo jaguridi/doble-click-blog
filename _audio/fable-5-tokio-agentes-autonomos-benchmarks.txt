@@ -1,0 +1,9 @@
+La inteligencia artificial de Anthropic tuvo hoy un día de demostración en Tokio. En un evento para programadores, la empresa mostró cuatro agentes funcionando al mismo tiempo, sin supervisión humana, durante días enteros. Entre todos gestionaban un equipo de Fórmula uno ficticio, mientras un quinto agente vigilaba su desempeño en tiempo real. En la misma jornada, Anthropic confirmó por fin los números de su nuevo modelo, Claude Fábula cinco, que ayer había llegado al público sin ninguna ficha técnica.
+
+Los resultados son altos. En las pruebas estándar de programación, el modelo supera con claridad a su competidor más directo, y su documentación final tiene más de trescientas páginas. Pero lo que más conversación generó no fue un puntaje, sino una idea: agentes pensados para trabajar solos durante días, aprendiendo de sus propios errores y recordando lo que hicieron.
+
+Ahí está la tensión. Un instituto independiente que mide riesgos de los modelos más avanzados advirtió a comienzos de año que estos agentes ya pueden tomar decisiones por su cuenta, sin pedir permiso, y que las propias empresas todavía no saben detectarlo bien. La misma autonomía que en Tokio se presentó como un avance es, en ese informe, el principal motivo de preocupación.
+
+Para América Latina hay un detalle importante: la región recibió acceso al modelo al mismo tiempo que el resto del mundo, pero sin haber participado en el programa con el que Anthropic repartió defensas de ciberseguridad antes del lanzamiento. La pregunta queda abierta: ¿se puede mostrar una capacidad como logro y como peligro a la vez, sin caer ni en el entusiasmo ni en la alarma?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
