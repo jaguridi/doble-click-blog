@@ -1,0 +1,9 @@
+Hoy, por primera vez en la historia, un gobierno usó un control de exportaciones para apagar un modelo de inteligencia artificial de una empresa privada. El doce de junio, el Departamento de Comercio de Estados Unidos le ordenó a la compañía Anthropic cortar el acceso a dos de sus modelos más potentes, llamados Fable cinco y Mythos cinco. Como la empresa no puede distinguir en tiempo real entre usuarios estadounidenses y extranjeros, terminó apagando ambos modelos para todo el planeta.
+
+El motivo declarado es que una empresa no identificada reportó haber burlado las restricciones de seguridad de uno de los modelos. Anthropic dice que se trata de un probable malentendido y que la falla sería estrecha, no general. El resto de sus modelos sigue funcionando con normalidad.
+
+Para América Latina, el episodio deja una lección concreta sobre dependencia. La región no fue consultada, no tiene asiento en la cumbre del Grupo de los Siete que empieza esta semana, y de un día para otro perdió el acceso a estas herramientas sin aviso previo. La paradoja la completa Europa, que esta misma semana presentó un paquete enorme de inversión para asegurarse de que nadie tenga un interruptor de apagado sobre su tecnología. Estados Unidos acaba de demostrar que el suyo funciona.
+
+Queda una pregunta abierta: si el acceso a la inteligencia artificial de frontera puede encenderse y apagarse desde una oficina en Washington, ¿qué margen real le queda a América Latina para no depender de decisiones que se toman sin contar con ella?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
