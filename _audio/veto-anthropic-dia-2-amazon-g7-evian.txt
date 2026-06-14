@@ -1,0 +1,9 @@
+Segundo día del corte de acceso a dos modelos de inteligencia artificial de la empresa Anthropic, y lo que se supo hoy cambia el sentido de la historia. Un alto funcionario de la Casa Blanca confirmó que la medida apunta solo a Anthropic y no se va a extender a otros laboratorios. Y reveló algo incómodo: quien alertó al gobierno sobre una supuesta falla de seguridad fue Amazon, la misma compañía que aloja uno de esos modelos en su nube y que perdió el servicio junto con el resto del planeta.
+
+Recordemos el contexto. Desde el doce de junio, una orden del Departamento de Comercio de Estados Unidos obligó a Anthropic a apagar dos de sus modelos más potentes para todo el mundo. Es la primera vez que un gobierno usa un control de exportaciones como botón de apagado sobre un modelo de inteligencia artificial de frontera de una empresa privada.
+
+Que el veto sea dirigido a una sola compañía, y no una regla pareja para toda la industria, mueve la pregunta desde la seguridad nacional hacia la geopolítica entre empresas. Nadie ha explicado qué ganaba Amazon avisando sobre un modelo que aloja en su propia nube. Y todo esto ocurre justo cuando empieza el grupo de los siete países más industrializados en la ciudad francesa de Évian, el primero con los tres jefes de los grandes laboratorios en la misma sala, pero sin ningún gobierno latinoamericano en la mesa.
+
+La pregunta que queda abierta: si el acceso a esta tecnología puede apagarse por una decisión de política exterior ajena, ¿con qué herramientas cuentan los reguladores de Brasil, Colombia, Chile o México para no quedar a merced de terceros?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
