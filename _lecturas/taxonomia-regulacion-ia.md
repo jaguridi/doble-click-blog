@@ -3,7 +3,7 @@ layout: lectura
 numero: 4
 tags: [gobernanza, participación, latam]
 title: "No todo lo que se llama 'regulación de IA' regula lo mismo"
-description: "Un equipo de Stanford y Harvard arma una taxonomía para comparar las leyes de inteligencia artificial de cinco países, entre ellos Brasil. El hallazgo: usar la misma palabra para guías voluntarias y para leyes vinculantes crea una falsa sensación de protección y abre la puerta a la captura regulatoria."
+description: "Un equipo de Stanford y Harvard arma una taxonomía para comparar las leyes de inteligencia artificial de cinco jurisdicciones, entre ellas Brasil. El hallazgo: usar la misma palabra para guías voluntarias y para leyes vinculantes crea una falsa sensación de protección y abre la puerta a la captura regulatoria."
 date: 2026-06-10
 paper_titulo: "Comparing Apples to Oranges: A Taxonomy for Navigating the Global Landscape of AI Regulation"
 paper_autores: "Alanoca, Gur-Arieh, Zick y Klyman"
