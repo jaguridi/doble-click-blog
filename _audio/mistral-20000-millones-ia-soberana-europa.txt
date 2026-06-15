@@ -1,0 +1,9 @@
+La startup francesa Mistral está en conversaciones para levantar unos tres mil millones de euros, con una valoración cercana a los veinte mil millones. La cifra casi duplica lo que valía hace apenas nueve meses, y llega en un momento muy particular: la negociación ocurre justo cuando los dos modelos más avanzados de la empresa estadounidense Anthropic siguen apagados en todo el planeta por una orden del gobierno de Estados Unidos.
+
+Mistral se presenta como la opción soberana europea frente al dominio estadounidense. Y esta semana la idea de soberanía tecnológica dejó de ser abstracta. Soberanía, aquí, significa algo muy concreto: que nadie ajeno pueda apagarte la infraestructura de la que dependes. Europa insiste en que quiere asegurarse de que nadie tenga un interruptor de apagado sobre sus herramientas digitales, y Mistral es la cara empresarial de esa ambición.
+
+Lo que vuelve relevante todo esto para América Latina es que Mistral ya opera comercialmente en Colombia, Chile, México, Brasil y Argentina. Es decir: la región tiene a mano, hoy, una alternativa que no depende de Washington, en el preciso instante en que comprobó lo que cuesta depender de él. Conviene no idealizar: una mayor valoración no equivale por sí sola a mejores modelos ni a independencia real. Pero el movimiento dibuja un mapa más plural, donde la inteligencia artificial de frontera deja de ser un asunto exclusivamente estadounidense.
+
+Queda una pregunta para pensar. Si la lección de la semana es que la infraestructura de inteligencia artificial puede apagarse desde lejos, ¿basta con cambiar de proveedor, o la verdadera soberanía pasa por construir capacidades propias en la región?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
