@@ -14,7 +14,7 @@ layout: default
   <div class="post-body">
     {{ content }}
     {% if page.paper_keywords %}<p class="paper-keywords"><strong>Palabras clave del paper:</strong> {{ page.paper_keywords }}</p>{% endif %}
-    {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude (IA) a partir del paper original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}
+    {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude (IA) a partir de la fuente original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}
   </div>
 
   {% include reportar.html tipo="lectura" %}

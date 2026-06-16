@@ -1,0 +1,17 @@
+Doble Lectura, de Doble Click. Hoy, qué pasa cuando la inteligencia artificial escribe el código y a la persona le toca dirigir.
+
+Anthropic miró cerca de 400 mil sesiones de Claude Code, su herramienta para programar conversando con el modelo, de unos 235 mil usuarios, entre octubre y abril. No leyeron conversaciones una por una: clasificadores automáticos etiquetan cada sesión y trabajan sobre los totales. Importa decirlo de entrada, porque casi todo lo que sigue son cifras inferidas, no medidas directas.
+
+Lo primero que encuentran es cómo se reparte el trabajo. La persona toma alrededor del 70% de las decisiones de planificación, pero solo un 20% de las de ejecución. El modelo corre unas diez acciones por cada instrucción. La persona define qué hacer; el modelo resuelve cómo.
+
+El centro del estudio es la experiencia, y acá hay que ser preciso. No se mide la profesión ni el título, sino cuánto sabe la persona del dominio de la tarea. Y ahí aparece el hallazgo que da el título: la profesión importa poco. En las sesiones que producen código, las ocupaciones de software tienen un 34% de éxito verificado y el resto un 29%. Apenas cinco puntos. Gente de gestión, ventas o derecho queda muy cerca de los ingenieros. Lo que permite dirigir bien al modelo se parece más a saber del problema que a saber escribir código.
+
+Pero la brecha del novato es real. Con la vara estricta, los novatos llegan al 15% de éxito y de intermedio en adelante al 28 o 33%. Y cuando la tarea se complica, casi uno de cada cinco novatos abandona. La mayor parte de la ganancia está en pasar de novato a intermedio; de ahí a experto, la mejora es chica. No hay que ser el mejor del área, pero partir de cero cuesta caro.
+
+Conviene leer todo esto con cautela por una razón de fondo: es un estudio de Anthropic sobre su propio producto, con datos que no podemos auditar y métricas inferidas. No mira si el código se usó de verdad en el mundo real. No invalida los datos, pero pide prudencia.
+
+¿Y desde América Latina? El estudio es global y no separa la región, así que esto es lectura mía. Si lo que rinde es conocer el problema y no saber programar, la puerta se abre para un perfil que antes quedaba afuera: investigadoras, funcionarios, contadoras, abogados, gente de pymes que conoce su tema aunque nunca haya programado. Pero el freno también es claro: la democratización es parcial. El acceso a la herramienta no alcanza sin un mínimo de práctica para cruzar ese primer tramo, el de dejar de ser novato. Repartir licencias sin eso deja a mucha gente en el 15%.
+
+La pregunta que queda es si estos retornos a la experiencia se sostienen o se achican con el tiempo. Si se sostienen, el mensaje es que la herramienta baja la barrera del código, pero saber del propio campo sigue marcando la diferencia. Y eso no se descarga.
+
+El informe es de Zoe Hitzig, Maxim Massenkoff, Eva Lyubich, Ryan Heller y Peter McCrory. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar la fuente original.
