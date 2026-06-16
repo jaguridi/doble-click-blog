@@ -1,0 +1,13 @@
+Doble Lectura, de Doble Click. Hoy, para qué usa la gente la inteligencia artificial según el país donde vive.
+
+Madeleine Daepp e Isaac Slaughter analizaron una base enorme de conversaciones anonimizadas de un chatbot gratuito disponible en casi todo el mundo. En total, casi setecientas mil conversaciones de más de cincuenta mil usuarios en doscientos veintisiete países, durante seis meses de 2024. No evaluaron si la inteligencia artificial sirve. Describieron para qué la usa la gente, según dónde vive y en qué idioma escribe.
+
+El primer hallazgo va a contramano de lo que pasó con internet. El uso más frecuente es estudiar. Y aquí viene lo llamativo: mientras más pobre el país, más se usa la inteligencia artificial para aprender y para mejorar el trabajo. En los países más ricos, en cambio, pesa más el ocio, el entretenimiento. Dicho simple, donde hay menos recursos, esta tecnología se está usando sobre todo para estudiar.
+
+El segundo hallazgo es sobre el idioma. El inglés aparece como la lengua de la inteligencia artificial mucho más allá de cuánta gente realmente lo domina, sobre todo en Asia y en África. ¿Por qué? Porque cuando el idioma local funciona mal en el modelo, la gente termina escribiendo en inglés. Las lenguas africanas, que son las que peor rinden en las pruebas, están casi ausentes del uso. En cambio, donde la gente puede usar bien su propia lengua, la usa.
+
+Desde América Latina, el estudio no nos separa como bloque, así que esto es una lectura nuestra. La buena noticia es que el español y el portugués están entre los idiomas mejor servidos por los modelos, así que la parte más dura de la brecha de idioma golpea a otras regiones. Y por nuestro nivel de ingreso, es probable que acá también el uso educativo pese harto. Eso abre una oportunidad de la que hablan los propios autores: si la inteligencia artificial de verdad ayuda a aprender, podría permitir saltar etapas justo donde más falta hace. Pero ellos mismos advierten el reverso: eso depende de que los modelos estén diseñados para que la gente aprenda de verdad, y no solo para copiar.
+
+La pregunta que queda es esa. Si lo que más hace la gente con la inteligencia artificial en países como los nuestros es estudiar, ¿la estamos tratando como un problema de copia, o como la infraestructura de aprendizaje que ya parece ser?
+
+Esta Doble Lectura se basa en el trabajo de Madeleine Daepp e Isaac Slaughter, un preprint publicado en 2026. Fue una lectura automática hecha con inteligencia artificial, sin revisión humana línea por línea, así que conviene revisar el paper original antes de citarlo.
