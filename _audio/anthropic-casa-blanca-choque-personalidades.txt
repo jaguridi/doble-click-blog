@@ -1,0 +1,9 @@
+Lo que esta semana parecía una disputa técnica resultó ser, sobre todo, personal. El lunes quince de junio, ejecutivos de alto nivel de la empresa Anthropic se reunieron en Washington con funcionarios del gobierno de Estados Unidos para intentar revertir la orden que dejó sin acceso, en todo el mundo, a sus dos modelos de inteligencia artificial más potentes. Ese mismo día, una filtración del medio Axios reveló que el origen del corte no fue un protocolo de seguridad, sino un desencuentro entre personas.
+
+Según esa reconstrucción, cuando el gobierno avisó a la empresa de que se había encontrado una manera de saltarse las barreras de seguridad del modelo, su director ejecutivo, Dario Amodei, se negó a tratarlo como un riesgo grave y rechazó corregirlo o retirar el modelo de forma voluntaria. Un asesor de inteligencia artificial del gobierno, que además dirige a una empresa competidora, llegó a describir esa postura como un chantaje. La reunión no resolvió nada: el veto sigue en pie, sin fecha de salida.
+
+Para América Latina la lectura es directa e incómoda. El acceso de la región a los modelos más capaces del planeta no depende de un acuerdo entre países ni de un proceso con derecho a apelación, sino de si dos personas en Washington logran entenderse. Quien no estuvo en esa mesa tampoco tiene cómo influir en cuándo se levanta el bloqueo.
+
+La pregunta que queda abierta es cuál institución, regional o por inventar, tendría hoy la autoridad y la capacidad técnica para responder a un apagado decidido entre dos personas.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
