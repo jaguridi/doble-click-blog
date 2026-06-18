@@ -1,0 +1,9 @@
+La historia que veníamos siguiendo sobre el veto a los modelos más potentes de Anthropic sumó hoy un giro estructural. Mientras Claude Fable cinco y Mythos cinco siguen bloqueados por una directiva de exportación de Estados Unidos, la empresa de inteligencia artificial de Elon Musk lanzó el diecisiete de junio su modelo más potente, llamado Grok cuatro, disponible en todo el mundo, América Latina incluida, desde el primer día. Y un día antes, otra empresa de Musk anunció la compra de Cursor, la herramienta de programación con inteligencia artificial más usada entre desarrolladores, por sesenta mil millones de dólares, la mayor adquisición de su tipo en la historia.
+
+Lo interesante no es solo técnico. Hoy un mismo dueño controla el cómputo que Anthropic alquila para entrenar sus modelos, la herramienta de programación más adoptada y, ahora, el modelo de frontera más reciente disponible en la región. Y el asesor de inteligencia artificial del presidente Trump, que ayudó a mantener el veto a Anthropic, es además jefe de la empresa que lanzó Grok cuatro.
+
+Para América Latina la lectura es concreta. Por primera vez en mucho tiempo, el acceso de la región a los modelos más avanzados no depende de cuál funciona mejor, sino del mapa de intereses entre Silicon Valley y Washington. Ningún gobierno latinoamericano fue consultado en estas decisiones.
+
+La pregunta que queda abierta es cuánto de la ventaja de un modelo en dos mil veintiséis es mérito técnico y cuánto es poder corporativo y político. Y si una región sin asiento en ninguna de estas mesas puede construir capacidad propia, o solo elegir de qué dependencia depender.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
