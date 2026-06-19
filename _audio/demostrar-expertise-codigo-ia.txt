@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click. Hoy, qué pasa con las entrevistas de programación cuando se permite usar inteligencia artificial.
+
+Un equipo de la Universidad de Cornell y de Fujitsu armó doce entrevistas de programación simuladas. En cada una, dos ingenieros de software: uno hacía de evaluador y otro de candidato. El candidato tenía treinta minutos para resolver un problema compartiendo pantalla y podía usar cualquier herramienta de inteligencia artificial que quisiera. Es un estudio cualitativo: no mide productividad ni evalúa modelos, sino que describe cómo se demuestra y cómo se juzga la pericia cuando el modelo está sobre la mesa.
+
+El primer hallazgo, y el que da el título, es que los evaluadores casi no cambiaron sus criterios. Entender el problema, explicar el código, manejar errores: lo de siempre. Lo que cambió fue la evidencia que aceptan. El código terminado, que por décadas fue la prueba reina de que alguien sabe, dejó de bastar, porque ahora lo puede escribir el modelo. Un evaluador notó que los comentarios prolijos estaban, pero los había generado la inteligencia artificial, así que no contaban como pericia propia. Por eso ahora repreguntan más: piden modificar la solución, explicar línea por línea, decir qué pasaría si se cambia algo. La prueba se corre del producto al proceso.
+
+El segundo hallazgo es que la pericia empezó a mostrarse de maneras nuevas. Ahora se mira qué herramienta elige el candidato, cómo le habla al modelo y qué hace con lo que el modelo le devuelve. Y, al mismo tiempo, se apagan señales viejas: cuando la inteligencia artificial descompone la tarea o arregla el error de un viaje, el candidato pierde la oportunidad de mostrar cómo piensa.
+
+Y un tercer punto: apareció una expectativa de mayor productividad que nadie definió bien, y eso generó malentendidos. Una candidata evitó la inteligencia artificial para lucir su comprensión, y temió que eso la hiciera ver inexperta. Otro la usó de inmediato y dejó al evaluador sin convencer.
+
+¿Y desde América Latina? El estudio no separa la región, así que esto es lectura mía. Buena parte del trabajo de programación que la región le vende al mundo pasa por este filtro: la entrevista técnica remota. Si entregar código correcto ya no alcanza, quien nunca aprendió a dirigir bien a la inteligencia artificial puede quedar mal parado, aunque sepa programar. La salida no es prohibir ni permitir sin más, sino explicitar qué se está evaluando.
+
+La pregunta que queda es incómoda: si dos personas igual de capaces son juzgadas distinto solo por cómo se paran frente a la inteligencia artificial, ¿se está midiendo pericia o lectura de expectativas?
+
+El estudio es de Yeonju Jang, Mose Sakashita, Koichiro Niinuma y Aakar Gupta. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar la fuente original.
