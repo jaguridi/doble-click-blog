@@ -1,0 +1,9 @@
+Anthropic acaba de abrir una oficina en Seúl, su tercera sede en Asia y el Pacífico, de la mano de gigantes tecnológicos coreanos como Naver, Samsung y Ele Ge. Y lo hace dentro de una paradoja difícil de ignorar: los socios que firman esos acuerdos no pueden usar el modelo más potente de la empresa, porque sigue bloqueado en todo el mundo por un control de exportaciones de Estados Unidos.
+
+Como contexto: hace una semana el gobierno estadounidense apagó en todo el planeta los dos modelos más capaces de Anthropic, después de detectarse una forma de saltarse sus barreras de seguridad. El bloqueo cumple hoy su octavo día y suma, por primera vez, un plazo que no depende de Washington. Hasta el veintidós de junio, el acceso a ese modelo venía incluido sin costo en los planes pagos; a partir del veintitrés, pasa a cobrarse por uso. Es decir, el calendario comercial avanza aunque el político esté congelado. La primera señal de optimismo llegó justamente desde Seúl: el director de la nueva oficina se declaró muy seguro de que los modelos volverán en los próximos días, aunque sin dar una fecha.
+
+Para América Latina, que no tuvo asiento en ninguna de estas decisiones, la lectura es incómoda. El acceso de la región a la mejor inteligencia artificial del mundo no depende de cuál modelo rinde mejor, sino de un mapa de intereses entre Silicon Valley y Washington. Y mientras tanto, los precedentes que más nos importan se escriben esta semana cerca de casa: Colombia vota mañana con seis videos falsos acumulados y sin poder sancionarlos, y Brasil ensaya sus primeras reglas reales de inteligencia artificial.
+
+La pregunta que queda abierta: ¿llega la región a describir lo que le pasó, o a decidir lo que va a hacer?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
