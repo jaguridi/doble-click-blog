@@ -1,0 +1,9 @@
+Colombia vota hoy la segunda vuelta presidencial, y con ese voto se cierra el experimento de inteligencia artificial electoral más documentado en la historia de América Latina. Las urnas están abiertas durante el día y se espera un resultado esta misma noche. El Ministerio de Tecnologías y el equipo de respuesta digital del Estado vigilan en tiempo real, hora por hora.
+
+Veníamos siguiendo esta campaña por una razón incómoda. En pocas semanas acumuló seis montajes falsos hechos con inteligencia artificial, y dejó al descubierto un Estado capaz de detectarlos, pero no de castigarlos. La brecha es de calendario: la ley que da el mecanismo para sancionar estos engaños no entra en vigencia hasta julio. Hasta entonces, el monitoreo puede observar y alertar, pero no imponer una sola sanción.
+
+Por eso el precedente que deja Colombia es ambiguo. No es un éxito regulatorio, sino el mapa más detallado de las brechas que la región tendrá que cerrar antes del próximo ciclo electoral, empezando por Brasil, que vota en octubre. Y queda una pregunta sin respuesta: cuánto movieron realmente estos videos falsos el resultado. No hay todavía una forma clara de medirlo.
+
+El calendario no se detiene en el voto. En cuatro días, los ministros de tecnología de la región se reúnen en Santo Domingo para un foro de ética de la inteligencia artificial. Llegan con la experiencia colombiana fresca y con una decisión sobre la mesa: limitarse a describir lo que pasó, o comprometerse con reglas electorales que sí tengan capacidad real de sanción.
+
+Si detectar la desinformación sin poder sancionarla solo documenta cómo se erosiona la democracia, ¿cuál sería el primer instrumento concreto que la región podría acordar para cambiar la ecuación? Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
