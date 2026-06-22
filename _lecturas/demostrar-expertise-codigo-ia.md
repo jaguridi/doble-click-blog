@@ -19,7 +19,7 @@ audio: true
 - **Qué es:** *Evolving Enactions of Expertise: Software Engineers' Evaluation and Demonstration of Coding Expertise with AI Coding Assistants*
 - **Quiénes:** [Yeonju Jang](https://scholar.google.com/scholar?q=Yeonju+Jang+coding+expertise) (Cornell University, el trabajo se hizo durante una pasantía en Fujitsu), [Mose Sakashita](https://scholar.google.com/scholar?q=Mose+Sakashita), [Koichiro Niinuma](https://scholar.google.com/scholar?q=Koichiro+Niinuma) y [Aakar Gupta](https://scholar.google.com/scholar?q=Aakar+Gupta) (Fujitsu Research of America).
 - **Dónde:** *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems* (CHI 2026), Barcelona. [doi.org/10.1145/3772318.3791260](https://doi.org/10.1145/3772318.3791260)
-- **Tipo:** estudio cualitativo. Doce entrevistas de programación simuladas, con dieciséis ingenieros de software emparejados de a dos, uno como evaluador y otro como candidato, con IA permitida.
+- **Tipo:** estudio cualitativo. Doce entrevistas de programación simuladas, con dieciséis ingenieros de software que se emparejaban de a dos sesión a sesión, uno como evaluador y otro como candidato, con IA permitida.
 
 ## Primera lectura: qué hace y qué encuentra
 

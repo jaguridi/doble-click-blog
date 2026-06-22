@@ -38,13 +38,6 @@ De ahí el nombre, "retornos persistentes a la experiencia". Es un término pres
 
 El estudio cierra con una estimación de valor que conviene leer con pinzas. Comparando las tareas de las sesiones con avisos de mercados de trabajo freelance, calculan que el valor mediano de una sesión subió 27% entre octubre y abril, con la construcción liderando (+43%). Es una aproximación indirecta, basada en lo que se paga por encargos sueltos, no en trabajo asalariado, y los propios autores la describen como un emparejamiento difuso.
 
-## La letra chica
-
-- Es un estudio de Anthropic sobre su propio producto. Eso no invalida los datos, pero sí pide cautela: la empresa tiene interés en que la historia salga favorable, y la elección de qué medir y cómo encuadrarlo no es neutral. Conviene leerlo como lo que es, evidencia interna y no auditoría independiente.
-- Todo cuelga de clasificadores automáticos que etiquetan sesiones, y los autores admiten que validarlos a esta escala es difícil. El "nivel de experiencia" y el "éxito" no se observan directamente: se infieren. Agrego algo que es lectura mía y no del paper: si la misma señal que hace ver "experta" a una sesión es parte de lo que la hace ver "exitosa", una porción de la relación entre experiencia y éxito podría venir de cómo se mide y no solo del mundo. Los autores no afirman esto; lo dejo como cautela al interpretar.
-- No hay resultados del mundo real. El estudio no ve si el código se usó, si el proyecto funcionó ni si alguien quedó conforme. "Éxito" es una señal dentro de la sesión, no fuera de ella.
-- La cobertura es parcial. Queda afuera el uso no interactivo, el modo automático sin supervisión y las integraciones con editores de terceros, además de un 7,7% de sesiones descartadas por no tener un objetivo claro. Es un retrato de cómo se usa Claude Code conversando, no de todo el uso de IA para programar.
-
 ## Segunda lectura: desde América Latina
 
 El estudio es global y no separa a América Latina, así que casi todo lo que sigue es extrapolación mía, no del informe. Con esa advertencia por delante, hay una señal que vale para la región.
@@ -56,3 +49,10 @@ Pero el mismo estudio pone el freno, y es la parte que no conviene saltarse. La 
 Hay además una razón para la prudencia que es propia de mirar desde acá. Es un estudio de la empresa que vende la herramienta, sobre datos que no podemos auditar, con métricas inferidas. Antes de que un ministerio o una universidad de la región lo cite para justificar una compra o una política, conviene pedir lo que el propio informe no tiene: evidencia de resultados en el mundo real y, ojalá, en contextos parecidos a los nuestros. La señal es interesante y vale explorarla; usarla como prueba terminada sería ir más lejos de lo que el estudio aguanta.
 
 La pregunta que deja, y que los autores también se hacen, es si estos retornos a la experiencia se sostienen o se achican con el tiempo. Si se achican, querría decir que los modelos empiezan a aportar el criterio que hoy pone la persona. Si se sostienen, el mensaje para la región es más bien al revés: la herramienta baja la barrera del código, pero el conocimiento del propio campo sigue siendo lo que marca la diferencia, y eso no se descarga.
+
+## La letra chica
+
+- Es un estudio de Anthropic sobre su propio producto. Eso no invalida los datos, pero sí pide cautela: la empresa tiene interés en que la historia salga favorable, y la elección de qué medir y cómo encuadrarlo no es neutral. Conviene leerlo como lo que es, evidencia interna y no auditoría independiente.
+- Todo cuelga de clasificadores automáticos que etiquetan sesiones, y los autores admiten que validarlos a esta escala es difícil. El "nivel de experiencia" y el "éxito" no se observan directamente: se infieren. Agrego algo que es lectura mía y no del paper: si la misma señal que hace ver "experta" a una sesión es parte de lo que la hace ver "exitosa", una porción de la relación entre experiencia y éxito podría venir de cómo se mide y no solo del mundo. Los autores no afirman esto; lo dejo como cautela al interpretar.
+- No hay resultados del mundo real. El estudio no ve si el código se usó, si el proyecto funcionó ni si alguien quedó conforme. "Éxito" es una señal dentro de la sesión, no fuera de ella.
+- La cobertura es parcial. Queda afuera el uso no interactivo, el modo automático sin supervisión y las integraciones con editores de terceros, además de un 7,7% de sesiones descartadas por no tener un objetivo claro. Es un retrato de cómo se usa Claude Code conversando, no de todo el uso de IA para programar.
