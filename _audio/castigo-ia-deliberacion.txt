@@ -1,0 +1,13 @@
+Doble Lectura, de Doble Click. Hoy, qué pasa cuando una inteligencia artificial modera una conversación ciudadana.
+
+Imagina que te invitan a una consulta pública en línea, de esas donde la gente discute un tema y trata de llegar a acuerdos. Y te avisan que quien va a ordenar los aportes, resumir los argumentos y moderar la discusión no es una persona, sino una herramienta de inteligencia artificial. ¿Participarías igual?
+
+Un estudio hecho en Alemania, con casi mil ochocientas personas, encontró que muchas dirían que no. Los investigadores le mostraron a cada participante descripciones de tareas idénticas de una deliberación, y al azar se las atribuyeron a una inteligencia artificial o a un moderador humano. Lo único que cambiaba era quién hacía el trabajo. Y apareció lo que ellos llaman un castigo a la inteligencia artificial: con solo enterarse de que había una máquina de por medio, sin haberla usado nunca, la gente se mostró menos dispuesta a participar y esperaba una conversación de peor calidad.
+
+Hay dos detalles que vale la pena destacar. El primero es que el rechazo fue más fuerte justamente en las tareas donde los expertos ven más promesa, como resumir información y ordenar argumentos. El segundo, y quizás el más importante, es quién castiga más. No fueron las personas con menos educación ni con menos recursos. Lo que marcó la diferencia fue lo que cada uno piensa de la inteligencia artificial. Quienes la perciben como riesgosa se alejan; quienes le ven beneficios, casi no. Por eso los autores hablan de una nueva brecha: a las desigualdades de siempre se suma otra, que sigue las actitudes hacia la tecnología.
+
+¿Qué significa esto desde América Latina? El estudio es alemán, así que los números no se trasladan directo. Pero la idea de fondo sí importa. En la región hay una larga tradición de participación, como los presupuestos participativos y las consultas. Y los gobiernos empiezan a usar inteligencia artificial para procesar lo que dice la ciudadanía. Si avisar que hay una máquina aleja a los más escépticos, el proceso puede terminar escuchando a una versión menos representativa de la gente. Aparece además una tensión difícil: ser transparente sobre el uso de inteligencia artificial es lo correcto, pero según este estudio ese aviso tiene un costo en participación.
+
+La pregunta que queda es incómoda. Cuando la herramienta es fácil de usar, lo que decide quién participa ya no es la tecnología, sino la confianza. ¿Cómo se construye esa confianza sin esconder que la máquina está ahí?
+
+Este trabajo es de Andreas Jungherr y Adrian Rauchfleisch, publicado en dos mil veinticinco. Esta fue una lectura automática hecha por Claude, así que conviene revisar la fuente original antes de citarla.
