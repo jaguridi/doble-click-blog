@@ -1,0 +1,11 @@
+El bloqueo a los modelos más avanzados de la empresa Anthropic, conocidos como Fable cinco y Mythos cinco, cambió hoy de naturaleza. Ya no es solo un asunto de controles de exportación: pasó a tratarse como un tema de seguridad nacional, pero ahora con una salida política a la vista. El director nacional de ciberseguridad de Estados Unidos se sumó formalmente a las negociaciones, y un diario canadiense reportó esta mañana que hay un acuerdo en marcha, con posible resolución antes del treinta de junio.
+
+Llevamos once días siguiendo este episodio, en el que estos modelos de inteligencia artificial de frontera quedaron vetados para parte del mundo, incluida América Latina. Que se siente a negociar un funcionario del Consejo de Seguridad Nacional, y no la oficina de comercio que impuso la restricción, eleva el caso al máximo nivel político.
+
+Para la región hay un detalle incómodo. Si recuperar el acceso termina exigiendo verificación de ciudadanía o datos biométricos, los usuarios latinoamericanos podrían quedar fuera de una solución pensada para residentes estadounidenses.
+
+Mientras tanto, otros modelos avanzados sí llegan a la región. El nuevo modelo de Google, Gemini tres punto cinco Pro, abre esta semana su disponibilidad general, y como casi todos los teléfonos de la región usan Android, es el que alcanza por defecto a más personas.
+
+Queda una pregunta abierta. Si la salida al bloqueo exige verificar quién eres, ¿qué le queda a América Latina: esperar la versión que Washington apruebe, o construir acceso propio a los modelos de frontera?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
