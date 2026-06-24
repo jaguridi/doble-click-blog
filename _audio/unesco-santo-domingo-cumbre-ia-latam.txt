@@ -1,0 +1,9 @@
+Mañana, veinticinco de junio, abre en Santo Domingo la Tercera Cumbre Ministerial de la Unesco sobre ética de la inteligencia artificial en América Latina y el Caribe. Es el primer foro ministerial de la región después de un mes en que las grandes decisiones sobre inteligencia artificial se tomaron sin ella en la sala: el veto de Estados Unidos a dos modelos avanzados, un encuentro del Grupo de los Siete que cerró sin un marco común, y una elección colombiana decidida por menos de un punto con interferencia digital el día del voto.
+
+Los ministros de tecnología llegan con apenas cuarenta y ocho horas para producir una declaración. La pregunta de fondo es si ese documento nombrará lo que la región vivió este mes, o si repetirá principios que llevan tres años circulando sin forma de hacerlos cumplir.
+
+El telón de fondo técnico llegó casi al mismo tiempo. Google DeepMind publicó una hoja de ruta con quince controles de seguridad para los agentes de inteligencia artificial, construida sobre una idea que incomoda: tratar a los propios sistemas como una amenaza interna, con los mismos resguardos que se aplicarían a un contratista externo de alto privilegio. Es, hoy, el estándar de lo que significa desplegar inteligencia artificial de forma responsable, y es más exigente que cualquier marco público vigente en la región.
+
+La pregunta que dejamos abierta es esta: si la declaración pudiera contener un solo instrumento concreto, verificable antes de las elecciones de Brasil, ¿cuál sería, quién lo ejecutaría y qué lo haría vinculante para quienes lo firmen?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
