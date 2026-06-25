@@ -1,8 +1,10 @@
-name: Audio de Doble Lectura
+name: Audio de Doble Click / Doble Lectura
 
-# Genera el mp3 del resumen hablado de cada lectura usando Piper (TTS de codigo
-# abierto, gratis, sin llaves). Se dispara cuando aparece o cambia un guion en
-# _audio/. Lee _audio/<slug>.txt y deja assets/audio/<slug>.mp3.
+# Genera el mp3 del resumen hablado de cada entrada usando ElevenLabs
+# (eleven_multilingual_v2), via el script _tools/tts_elevenlabs.py. Se dispara
+# cuando aparece o cambia un guion en _audio/. Lee _audio/<slug>.txt +
+# _audio/<slug>.voice y deja assets/audio/<slug>.mp3.
+# Requiere el secret ELEVENLABS_API_KEY en el repo.
 
 on:
   push:
@@ -20,29 +22,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Instalar edge-tts
-        run: pipx install edge-tts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-      - name: Generar audios faltantes
+      - name: Generar audios faltantes (ElevenLabs)
         env:
-          VOICE_DEFAULT: es-CL-LorenzoNeural
-        run: |
-          set -e
-          mkdir -p assets/audio
-          shopt -s nullglob
-          generados=0
-          for f in _audio/*.txt; do
-            slug="$(basename "$f" .txt)"
-            out="assets/audio/$slug.mp3"
-            if [ ! -f "$out" ]; then
-              voice="$VOICE_DEFAULT"
-              if [ -f "_audio/$slug.voice" ]; then voice="$(tr -d '[:space:]' < "_audio/$slug.voice")"; fi
-              echo "Generando $out con $voice"
-              edge-tts --voice "$voice" --file "$f" --write-media "$out"
-              generados=$((generados+1))
-            fi
-          done
-          echo "Audios generados: $generados"
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python _tools/tts_elevenlabs.py
 
       - name: Commitear audios
         run: |
@@ -52,6 +39,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nada nuevo que commitear"
           else
-            git commit -m "Audio: genera mp3 de resumenes"
+            git commit -m "Audio: genera mp3 de resumenes (ElevenLabs)"
             git push
           fi
