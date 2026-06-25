@@ -1,0 +1,13 @@
+Doble Lectura, de Doble Click. Hoy: cómo debería gobernar el Estado una inteligencia artificial que avanza más rápido que la evidencia sobre sus riesgos.
+
+El texto es un artículo conceptual de Fábio Correa Xavier, director de tecnología de un tribunal de cuentas en Brasil. No es un estudio con datos nuevos. Es una síntesis que ordena informes recientes y termina proponiendo un marco para gobernar la inteligencia artificial en el sector público.
+
+Su punto de partida es lo que el informe internacional de seguridad de la IA de 2026 llama el dilema de la evidencia. Las capacidades avanzan más rápido que el conocimiento sobre sus daños. Si el Estado actúa demasiado pronto, puede fijar reglas mal calibradas. Si espera a tener pruebas completas, deja a la sociedad expuesta. Y como nadie sabe qué tan rápido avanzará la tecnología hasta 2030, las reglas escritas una sola vez envejecen mal.
+
+Frente a eso, el autor propone una gobernanza adaptativa, con seis capas que funcionan en ciclo. Monitorear de cerca qué empieza a poder hacer la inteligencia artificial. Clasificar cada uso según su riesgo y según qué tan sensible es el sector. Definir controles que se activan solos cuando aparecen ciertas señales. No confiar en una sola salvaguarda, sino combinar varias. Rediseñar la organización, no solo instalar software. Y revisar todo en un ciclo fijo, en vez de certificar una sola vez. Su tesis de fondo es clara: gobernar la inteligencia artificial en el Estado es un problema de diseño institucional, no de desempeño técnico del modelo.
+
+Desde América Latina hay un matiz que vale la pena. El autor es de la región, pero su marco está pensado en clave universal y se apoya casi solo en fuentes globales. Es una propuesta hecha desde la región, más que sobre la región. Y supone una capacidad institucional considerable: equipos que monitorean modelos, ciclos de revisión, gestión madura de datos. En Estados con equipos técnicos delgados y mucha rotación política, eso es cuesta arriba. El propio artículo recuerda que la gobernanza de la inteligencia artificial depende de la gobernanza de datos: sin datos ordenados y con reglas claras, no hay sistema auditable que valga. Para buena parte de la región, esa sigue siendo la tarea pendiente.
+
+La pregunta que deja es incómoda. A esta altura el problema ya no es si existe la incertidumbre sobre hacia dónde va la inteligencia artificial, sino si las instituciones públicas pueden gobernar de forma responsable mientras esa incertidumbre persiste.
+
+Esta fue una lectura de un artículo de Fábio Correa Xavier. La preparó de forma automática Claude, una inteligencia artificial, así que conviene revisar la fuente original antes de citar cualquier dato. Hasta la próxima Doble Lectura.
