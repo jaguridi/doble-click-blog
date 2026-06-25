@@ -171,6 +171,15 @@ body::before{
 
 /* índice de la sección: intro + cada entrada con su pequeña ficha (título, subtítulo y cita del paper) */
 .lectura-intro{ color:var(--ink-soft); margin:0 0 .5rem; max-width:42rem; }
+
+/* "Coming next": las próximas lecturas en cola (alimentado por _data/proximas_lecturas.yml) */
+.coming-next{ background:var(--paper-2); border-left:3px solid var(--accent); border-radius:0 4px 4px 0; padding:1.1rem 1.3rem; margin:1.6rem 0 .5rem; max-width:42rem; }
+.coming-next-label{ font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.13em; color:var(--accent); margin:0 0 .7rem; }
+.coming-next-list{ list-style:none; padding:0; margin:0; }
+.coming-next-item{ padding:.55rem 0; border-top:1px solid var(--line); }
+.coming-next-item:first-child{ border-top:none; padding-top:0; }
+.coming-next-title{ display:block; font-family:"Fraunces", serif; font-weight:600; font-size:1.08rem; line-height:1.25; color:var(--ink); }
+.coming-next-cite{ display:block; font-family:"Space Mono", monospace; font-size:.7rem; line-height:1.5; color:var(--muted); margin-top:.2rem; }
 .lectura-list{ list-style:none; padding:0; margin:1.5rem 0 0; }
 .lectura-item{ border-bottom:1px solid var(--line); padding:1.6rem 0; }
 .lectura-item > a{ display:block; text-decoration:none; color:inherit; }

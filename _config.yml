@@ -18,6 +18,15 @@ plugins:
   - jekyll-seo-tag   # metadatos para compartir
   - jekyll-sitemap   # genera /sitemap.xml para buscadores
 
+# Feeds RSS. Por defecto jekyll-feed genera /feed.xml SOLO con los posts (blog diario)
+# — ese es el del newsletter diario y no se toca. Acá agregamos un feed aparte para la
+# colección "lecturas" en /feed-lecturas.xml, que es el que lee el Apps Script para el
+# newsletter semanal de Doble Lectura.
+feed:
+  collections:
+    lecturas:
+      path: "feed-lecturas.xml"
+
 # URL — dominio propio (subdominio) servido por GitHub Pages. Ver archivo CNAME.
 url: "https://dobleclick.jaguridi.cl"
 baseurl: ""

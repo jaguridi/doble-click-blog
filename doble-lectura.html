@@ -3,7 +3,22 @@ layout: page
 title: Doble Lectura
 permalink: /doble-lectura/
 ---
-<p class="lectura-intro">Cada cierto tiempo tomamos un paper o un reporte de política y lo leemos con calma: primero <strong>qué dice</strong>, y después <strong>qué significa desde América Latina</strong>. Es el complemento pausado del blog diario.</p>
+<p class="lectura-intro">Cada lunes tomamos un paper o un reporte de política y lo leemos con calma: primero <strong>qué dice</strong>, y después <strong>qué significa desde América Latina</strong>. Es el complemento pausado del blog diario.</p>
+
+{% assign proximas = site.data.proximas_lecturas %}
+{% if proximas and proximas.size > 0 %}
+<aside class="coming-next">
+  <p class="coming-next-label">Coming next</p>
+  <ul class="coming-next-list">
+  {% for p in proximas limit:3 %}
+    <li class="coming-next-item">
+      <span class="coming-next-title">{{ p.titulo }}</span>
+      {% if p.paper %}<span class="coming-next-cite">Sobre <em>{{ p.paper }}</em>{% if p.autores %}, de {{ p.autores }}{% endif %}{% if p.publicado %} · {{ p.publicado }}{% endif %}</span>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</aside>
+{% endif %}
 
 {% include buscador.html %}
 
