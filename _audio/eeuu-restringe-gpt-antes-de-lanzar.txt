@@ -1,0 +1,13 @@
+En apenas catorce días, el gobierno de Estados Unidos pasó de sancionar un modelo de inteligencia artificial a controlar otro antes de que siquiera exista para el público.
+
+Esta vez le tocó a OpenAI. La Casa Blanca le pidió restringir el acceso a su próximo modelo a un grupo de socios empresariales aprobados de antemano por el propio gobierno, antes del lanzamiento general. No hubo comunicado oficial: la noticia salió de una reunión interna de la empresa.
+
+Es el primer caso conocido de una restricción preventiva sobre un modelo de frontera, los sistemas más avanzados del mercado. Y marca una diferencia importante con lo ocurrido a comienzos de mes. El veto al modelo Fable cinco, de la empresa Anthropic, fue una sanción que llegó después del lanzamiento, por un fallo concreto de seguridad. Lo de ahora es otra cosa: un permiso previo, sin incidente de por medio. Si esto se vuelve costumbre, Washington no estaría reaccionando a amenazas, sino decidiendo de antemano qué herramientas llegan a qué mercados.
+
+Para América Latina, el resultado práctico es el mismo en los dos casos: dos de los modelos más capaces del mundo quedan fuera de alcance, sin consulta ni aviso a la región.
+
+Y hay una coincidencia que duele. El mismo día, los ministros de tecnología cerraban en Santo Domingo una cumbre con su primera hoja de ruta común sobre ética de la inteligencia artificial. Acordaron principios, justo cuando se confirmó que el acceso a las mejores herramientas se decide en otra mesa, sin ellos.
+
+La pregunta queda abierta: ¿qué haría falta para que la región no sea la última en enterarse del próximo control?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
