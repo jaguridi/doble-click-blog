@@ -1,0 +1,9 @@
+El veto de Estados Unidos a los modelos de inteligencia artificial más avanzados se entreabrió por primera vez, pero solo para un grupo cerrado. El Secretario de Comercio de ese país, Howard Lutnick, envió una carta formal que autoriza a la empresa Anthropic a dar acceso a su modelo Mythos cinco a más de cien organizaciones consideradas socios de confianza. Son grandes empresas y agencias del gobierno estadounidense. El otro modelo bloqueado, Fable cinco, sigue sin estar disponible para el público general.
+
+Es la primera resolución parcial de un bloqueo que ya cumplió quince días. Y lo importante no es solo que el acceso vuelva, sino cómo vuelve. La restauración pone a Estados Unidos primero: ninguna organización latinoamericana figura en este primer tramo. La región no participó en las negociaciones, no fue consultada y no tiene forma de influir en quién entra a esa lista. Es, además, la primera vez que el gobierno estadounidense estrena un registro explícito de organizaciones aprobadas para usar los modelos más capaces del mercado.
+
+El contraste de fechas llama la atención. Apenas un día antes, los ministros de tecnología de la región adoptaron en Santo Domingo su primera declaración común sobre ética de la inteligencia artificial. Mientras la región intenta fijar una posición, Washington estrena un sistema de acceso por niveles que, por ahora, no la incluye.
+
+La pregunta de fondo es qué mecanismo tendría que existir, una consulta previa, un espacio de pruebas auditado o una representación formal, para que América Latina no sea otra vez la última en enterarse del próximo arreglo.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
