@@ -1,0 +1,9 @@
+Lo que la semana pasada era un rumor hoy es un producto con nombre y precio. OpenAI presentó su nueva generación de modelos, repartida en tres versiones que llamó Sol, Terra y Luna. Y confirmó lo que se anticipaba: salieron directo a una lista de acceso de unas veinte organizaciones aprobadas por la Casa Blanca, sin disponibilidad para el público general ni para América Latina.
+
+El dato nuevo es el de los precios, y ahí aparece el ángulo regional. Sol es el modelo insignia y el más caro. Terra cuesta la mitad de la generación anterior. Y Luna, el más económico de los tres, queda en un rango competitivo con modelos de la región y con varias alternativas abiertas. Cuando el acceso se amplíe, Luna será probablemente la puerta de entrada de los desarrolladores latinoamericanos a esta familia. El problema es el cuándo: la empresa solo dice "en las próximas semanas", sin fecha, sin criterios y sin ningún mecanismo de consulta con la región.
+
+Mientras tanto, el mapa de lo que sí se puede usar se reacomoda solo. Esta semana, evaluaciones independientes mostraron que un modelo de pesos abiertos, de origen chino, igualó por primera vez en pruebas de seguridad al modelo que Estados Unidos mantiene bloqueado. Es decir: la alternativa que llena el vacío en la región no la eligieron sus desarrolladores; es el resultado de decisiones tomadas en Washington.
+
+Y queda la pregunta de fondo. El mismo día en que los ministros de la región firmaban en Santo Domingo su declaración común sobre ética de la inteligencia artificial, Estados Unidos lanzaba su modelo más capaz bajo una lista que la región no puede influir. ¿Qué mecanismo concreto necesitaría existir para que la próxima vez la región esté en la sala?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
