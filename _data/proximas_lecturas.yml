@@ -15,12 +15,6 @@
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
 
-- titulo: "Participación ciudadana y tecnología: lecciones de la democracia deliberativa y los estudios de ciencia y tecnología"
-  paper: "Citizen participation and technology: lessons from the fields of deliberative democracy and science and technology studies"
-  autores: "Iñaki Goñi"
-  publicado: "Humanities & Social Sciences Communications, 2025"
-  url: "https://doi.org/10.1057/s41599-025-04606-4"
-
 - titulo: "Los debates sobre política de IA en Brasil: regulación, gobernanza y trabajo en disputa"
   paper: "AI policy debates in Brazil: struggles over regulation, governance and labour"
   autores: "Grohmann et al."

@@ -1,0 +1,13 @@
+Doble Lectura, de Doble Click. Hoy, dos formas opuestas de cruzar tecnología y democracia, según un ensayo de Iñaki Goñi.
+
+Empecemos por qué tipo de texto es, porque eso ordena todo. No es un estudio con datos ni experimentos. Es un ensayo que pone a conversar dos campos académicos que estudian casi lo mismo y casi no se hablan. Por un lado, la democracia deliberativa, que piensa cómo lograr que la gente delibere de verdad sobre los asuntos públicos. Por otro, los estudios de ciencia y tecnología, que estudian cómo se hacen y se gobiernan la ciencia y la técnica.
+
+El hallazgo es una observación simple y elegante. En la democracia deliberativa, la participación ciudadana es el problema, y la tecnología llega como solución: herramientas digitales e inteligencia artificial que prometen ordenar montañas de opiniones y llevar la deliberación a las masas. En el otro campo, la ecuación se da vuelta: la tecnología es el problema, y la participación ciudadana es la respuesta, porque sumar a la gente es lo que vuelve legítimas las decisiones técnicas. La misma pareja funciona como problema en un campo y como remedio en el otro.
+
+Y acá viene el punto incómodo. Goñi sostiene que, sin un diálogo cuidadoso, los dos campos terminan en su propia versión del solucionismo. Unos esperan que una buena herramienta arregle la deliberación. Otros creen que basta con sumar más participación para arreglar la legitimidad. En ambos casos se reduce un problema complicado a una receta vendible. La propuesta del texto es que cada campo le enseñe al otro lo que le falta: que la tecnología nunca es neutral y que su diseño cambia con el uso, y, del otro lado, una teoría más seria de la democracia y de cómo funcionan por dentro los sistemas políticos.
+
+¿Y desde América Latina? El propio autor cierra con una pregunta geopolítica: a escala global, de quién es la democracia que resuelve la tecnología de quién, y qué empresa le vende la herramienta a qué gobierno. No es un detalle menor que Goñi haya trabajado en Chile y en su proceso constitucional antes de irse a Edimburgo. La región ha caído en las dos tentaciones que describe: creer que una plataforma destraba la conversación pública, y creer que abrir un proceso ya lo legitima.
+
+La pregunta que deja, llevada a la región, es esta: cuando un gobierno cruza tecnología y participación, ¿cuál está tratando como el problema y cuál como la solución mágica? Si una viene a salvar a la otra sin más, ahí asoma el solucionismo.
+
+El ensayo es de Iñaki Goñi. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar la fuente original.
