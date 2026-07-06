@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click. Hoy, cómo Brasil está regulando la inteligencia artificial y por qué el trabajo quedó en el punto ciego.
+
+Este estudio no es un experimento ni una serie de entrevistas. Es una lectura ordenada de cincuenta y siete documentos de política pública brasileña, entre enero de dos mil diecinueve y julio de dos mil veinticuatro: proyectos de ley, decisiones judiciales, programas del gobierno, cartas y manifiestos de sindicatos y movimientos sociales. Los autores los leen con una pregunta de fondo, la de quién queda dentro y quién queda fuera cuando un país decide cómo gobernar la inteligencia artificial. Y recorren tres dimensiones: regulación, desarrollo y gobernanza.
+
+En regulación, encuentran un país todavía sin ley nacional. El centro del debate es un proyecto conocido como el proyecto de ley de inteligencia artificial, que fija principios generales, pero que apenas toca los derechos laborales. Llegó a acumular ciento cuarenta y cinco enmiendas y aun así no se votó, frenado por el lobby de las grandes tecnológicas y de la industria.
+
+En desarrollo, Brasil lidera la región, con más empresas de inteligencia artificial que Chile o México, aunque queda muy lejos de Estados Unidos y China. El gobierno lanzó un plan ambicioso, con una inversión enorme. Pero el trabajo entra casi solo como capacitación de la mano de obra. Se habla mucho de soberanía, y muy poco de los derechos de quienes trabajan.
+
+En gobernanza está la parte más viva. La disputa no la dan solo el Estado y las empresas. Sindicatos, movimientos y asociaciones empujan. La mayor central sindical respaldó el proyecto. El sector cultural se movilizó tras las huelgas de Hollywood. Los actores de doblaje se organizaron contra el reemplazo por voces sintéticas. Y hubo quienes pidieron proteger a los trabajadores de datos, los que anotan y etiquetan para entrenar los modelos. Pero esa presión sigue confinada a cartas y audiencias, sin una movilización más ancha.
+
+Desde América Latina, la lectura es directa. Este es el caso fuerte de la región, el de más empresas y más plan. Si incluso ahí el trabajo queda afuera, cuesta imaginar que aparezca mejor donde el aparato es más chico. Y hay una advertencia que vale para cualquier país: se puede tener una política de inteligencia artificial prolija y con inversión, y que el mundo del trabajo siga afuera de la conversación. Que exista regulación no garantiza que proteja a quien trabaja.
+
+La pregunta que deja es quién se sienta a esa mesa. Mientras la voz de los trabajadores no pase de la carta formal a algo más, la inteligencia artificial se seguirá gobernando sin ellos.
+
+Este estudio es de Grohmann, Paraná, Valente y Figaro. Esta fue una lectura automática hecha con Claude, así que conviene revisar la fuente original antes de citarla.
