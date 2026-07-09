@@ -1,0 +1,9 @@
+Hoy, desde Ginebra, la ministra chilena Ximena Lincolao fijó una posición que puede marcar el rumbo de la inteligencia artificial en la región. En pleno diálogo global de gobernanza de la Organización de las Naciones Unidas, descartó eximir a las plataformas de inteligencia artificial de pagar por el contenido protegido que usan para entrenar sus modelos. Es decir: libros, música, prensa y arte con derechos de autor no serían material gratuito para las máquinas.
+
+La declaración llegó el mismo día en que el Senado chileno definía el plazo para una reforma que discute justamente esa exención. Y ahí está el dilema de fondo. Eximir a las plataformas abarataría el desarrollo de una inteligencia artificial local, pero dejaría sin compensación a quienes crean lo que esos modelos aprenden. Descartar la exención protege a los autores, pero abre otra pregunta: ¿puede un país pequeño construir capacidades propias de inteligencia artificial si además debe pagar licencias por todo el material de entrenamiento?
+
+Ningún gobierno de América Latina ha resuelto todavía esa tensión, y por eso el caso chileno se observa con atención desde afuera. Que la ministra haya elegido un foro internacional para zanjar una discusión doméstica muestra cuánto se cruzan hoy la política global y la local cuando hablamos de inteligencia artificial.
+
+La pregunta que queda abierta es esta: si Chile termina exigiendo que la inteligencia artificial pague por el contenido con que se entrena, ¿será un freno para los modelos locales o el primer paso hacia reglas más justas para quienes crean?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
