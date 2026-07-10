@@ -1,0 +1,9 @@
+Poco antes de las ocho de la tarde del nueve de julio, con el plazo formal a punto de cerrarse, el Ministerio de Hacienda de Chile presentó sus indicaciones finales a la gran reforma tributaria. Y lo hizo sin el artículo que habría liberado a los sistemas de inteligencia artificial de pagar por entrenar con obras protegidas. Es el desenlace, al menos por ahora, de una disputa que veníamos siguiendo hace dos meses sobre una pregunta simple: quién paga el costo de entrenar una inteligencia artificial. ¿Las plataformas, o los creadores de libros, música y prensa que aportan el material?
+
+Esa norma habría permitido que un modelo aprenda de contenido con derechos de autor sin compensar a sus autores, con el argumento de habilitar un ecosistema local. Al final no entró. La comisión vota el resto de la reforma esta semana, y el debate de fondo sobre derechos de autor e inteligencia artificial pasa ahora a un proyecto específico que el Congreso tramita en paralelo.
+
+Que la exención quede afuera inclina la balanza hacia los autores, pero no responde lo que hace único al caso chileno: ¿puede un país pequeño construir capacidades propias de inteligencia artificial si además debe pagar licencias por todo su material de entrenamiento? Ningún gobierno de la región lo ha resuelto, y por eso este trámite se sigue de cerca desde afuera. Por ahora, Chile eligió aplazar la respuesta, no darla.
+
+Y queda la pregunta de fondo: si las decisiones sobre inteligencia artificial se toman lejos de América Latina, ¿le queda a la región algo más que reaccionar, o hay margen para llegar antes a la conversación?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
