@@ -1,0 +1,11 @@
+Terence Tao, uno de los matemáticos más reconocidos del mundo, contó algo que vale la pena escuchar con atención. Agentes modernos de codificación, es decir, programas de inteligencia artificial capaces de escribir y reorganizar software casi sin ayuda humana, tomaron proyectos matemáticos que llevaban veintisiete años abandonados y los modernizaron en cuestión de horas. Generaron visualizaciones que antes tomaban semanas, y detectaron dos errores que el propio Tao nunca había notado.
+
+Lo llamativo no es que la inteligencia artificial escriba código. Eso ya lo sabíamos. Lo nuevo es que aquí funciona como un verdadero colaborador de investigación: no solo produce, también encuentra fallas que un experto pasó por alto. Y estas herramientas son cada vez más baratas y accesibles.
+
+Ahí aparece la pregunta con filo latinoamericano. Si un investigador ya no necesita un gran equipo ni supercómputo propio para recuperar años de trabajo, tal vez las universidades de la región, que casi nunca tuvieron ese acceso, puedan competir de otra forma. Pero hay una cara menos amable: cuanto más dependemos de estos agentes, más dependemos de una infraestructura que se construye y se decide fuera de la región.
+
+Los números acompañan esa tensión. Las empresas emergentes nativas en inteligencia artificial crecen un ciento cuarenta y cinco por ciento al año en América Latina, un ritmo notable, justo cuando la brecha de capital frente a los grandes laboratorios se vuelve estructural.
+
+La pregunta que dejamos abierta es esta: si las herramientas que nivelan la cancha se abaratan, pero la infraestructura y las reglas de acceso se siguen decidiendo afuera, ¿alcanza con crecer rápido, o el verdadero cuello de botella es otro?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
