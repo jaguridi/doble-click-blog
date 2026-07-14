@@ -1,0 +1,9 @@
+La historia del día vuelve a las matemáticas. La empresa Open A I publicó un documento afirmando que su modelo más reciente, coordinando sesenta y cuatro subagentes en paralelo, produjo en menos de una hora una demostración de un problema de teoría de grafos que llevaba abierto desde los años setenta. Es una afirmación grande, y conviene leerla con calma.
+
+Un matemático de la Universidad de Manchester calificó la prueba de muy bonita, pero advirtió que omite citas a trabajo previo de los años ochenta y que todavía no existe una revisión por pares completa. Esa distinción importa: hay una diferencia entre decir que una inteligencia artificial resolvió un problema abierto y decir que propuso una demostración que la comunidad aún debe verificar.
+
+Esto se suma a algo que venimos siguiendo esta semana. El matemático Terence Tao ya había mostrado cómo estos agentes de código modernizaban en horas software abandonado durante casi tres décadas, y el mismo día publicó un nuevo experimento que confirma que el método se repite.
+
+Para América Latina, el ángulo no es el problema de grafos, sino el acceso. Si esta capacidad se vuelve un producto de suscripción, la pregunta es si nivela el terreno para investigadores de universidades sin supercómputo propio, o si el descubrimiento queda capturado por quien controla el modelo. Dicho de otro modo: ¿el próximo gran avance vendrá de quien tenga la mejor pregunta, o de quien pueda pagar el mejor modelo?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
