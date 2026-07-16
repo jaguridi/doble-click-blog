@@ -1,0 +1,9 @@
+El Senado de Chile despachó esta semana su megarreforma de reactivación económica, pero dejó fuera un artículo muy discutido: el que habría eximido a los sistemas de inteligencia artificial de pagar derechos de autor por usar obras protegidas para entrenarse. Esa norma ya había sido rechazada dos veces antes, por presión de los editores y del sector audiovisual. A primera vista parece una victoria para los creadores. Pero mirado de cerca, el debate no se cerró: simplemente cambió de ley.
+
+La cobertura de estos días reveló un detalle importante. El proyecto de ley de inteligencia artificial que todavía se tramita en el Senado contempla una excepción casi idéntica para la minería de datos. La diferencia clave es que esta versión sí incluye un mecanismo de exclusión voluntaria: los dueños de una obra pueden reservar expresamente sus derechos y quedar fuera del entrenamiento. Es una salvaguarda que el artículo rechazado nunca ofreció.
+
+En otras palabras, la disputa de fondo entre quienes crean contenido y quienes desarrollan inteligencia artificial no desapareció. Se trasladó a la ley diseñada específicamente para resolverla, y esta vez con una puerta de salida para los autores. El caso importa más allá de Chile, porque muestra a la región resolviendo por partes, con ensayo y error, una pregunta que muchos países todavía tienen pendiente.
+
+Y queda una duda mayor. Si a Chile le cuesta tanto decidir si entrenar inteligencia artificial con obras protegidas necesita permiso de los autores, ¿qué tan lista está la región para las preguntas más difíciles que ya asoman, como si una máquina puede decidir, sin supervisión humana verificable, a quién se despide?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
