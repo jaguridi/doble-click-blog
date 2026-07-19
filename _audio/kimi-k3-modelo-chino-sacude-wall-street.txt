@@ -1,0 +1,9 @@
+El lanzamiento de un nuevo modelo de inteligencia artificial chino volvió a poner nerviosa a la bolsa. Se llama Kimi K3, lo desarrolló la empresa Moonshot, y su llegada coincidió con una caída histórica en las acciones de las empresas de chips. El índice de semiconductores de Filadelfia tuvo su peor semana desde abril de 2025, y por un momento Apple llegó a superar a Nvidia como la compañía más valiosa del mundo.
+
+¿Qué tiene de especial este modelo? Que es abierto, es decir, cualquiera puede descargarlo y usarlo, y que según sus creadores rinde muy bien en tareas de programación a una fracción del precio de sus competidores estadounidenses. Es la segunda vez en poco más de un año que un modelo chino más barato sacude las valuaciones de toda la industria. Muchos lo están leyendo como una repetición del llamado "momento DeepSeek".
+
+Para América Latina esto tiene dos caras. Por un lado, confirma que existe un camino más accesible: modelos abiertos y económicos que bajan la barrera de entrada para países que no van a construir sus propios modelos de frontera. Por otro, muestra que el dinero que sostiene toda esta infraestructura puede ser más frágil de lo que parece.
+
+Y queda una pregunta de fondo. La gobernanza global de la inteligencia artificial se está repartiendo en dos grandes bloques, uno liderado por Estados Unidos y otro por China, sin una silla clara para la región. Si abrazar modelos abiertos y baratos significa cambiar una dependencia por otra, ¿vale la pena? ¿O el mayor riesgo es quedarse fuera de ambos mundos?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
