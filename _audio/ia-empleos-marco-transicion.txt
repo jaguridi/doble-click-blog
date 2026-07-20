@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click. Hoy, un reporte de OpenAI sobre qué empleos toca la inteligencia artificial y cuándo.
+
+La idea de partida es simple. Casi todos los análisis preguntan lo mismo: cuántas tareas de un trabajo podría hacer la inteligencia artificial. A eso se le llama exposición. El reporte dice que esa medida sola es demasiado tosca. Que la máquina pueda hacer muchas tareas no significa que el empleo vaya a desaparecer.
+
+Entonces le suman dos capas. La primera es la necesidad humana. Aunque la inteligencia artificial pueda hacer el trabajo mental, a veces igual hace falta una persona. Por regulación, porque alguien tiene que firmar o responder. Por trato, porque el valor está en el cuidado o la enseñanza. O por lo físico, porque hay que actuar en el mundo real. La segunda capa es cómo responde la demanda. Si un servicio se abarata, a veces la gente compra tanto más que hace falta el mismo personal o incluso más.
+
+Con esas capas, el reporte ordena los empleos de Estados Unidos en cuatro grupos. Estima que un dieciocho por ciento tiene riesgo alto de automatización en el corto plazo. Un veinticuatro por ciento se reorganiza: siguen haciendo falta trabajadores, pero podrían ser menos. Un doce por ciento podría crecer gracias a la inteligencia artificial. Y un cuarenta y seis por ciento vería pocos cambios por ahora. La conclusión de fondo es que muchos empleos muy expuestos no van camino a la automatización, sino al rediseño.
+
+Para validar todo esto usan el uso real de ChatGPT. Y ahí aparece un dato claro: en los empleos que el marco marca como de más riesgo, ChatGPT se usa cerca de tres veces más que en los de menos presión.
+
+¿Y desde América Latina? Lo más útil no es el número, es el método. Separar lo que la máquina puede hacer de si todavía hace falta una persona ayuda a no confundir capacidad con despido. En una región con mucho empleo de cuidado, de trato y del Estado, esa distinción importa. Pero hay un cuidado grande. Este es un reporte de la propia OpenAI, que mide el impacto usando su propio producto y estimando dos de sus tres capas con sus propios modelos. Es evidencia interna, no una auditoría independiente. Antes de basar una política en esto, conviene pedir mediciones locales.
+
+La pregunta que deja es concreta. Si saber cuántas tareas puede hacer la máquina no basta para saber dónde va a doler, la tarea no es hacer listas de empleos condenados, sino tener la capacidad de medir a tiempo dónde aparece la presión.
+
+El reporte lo firma Alex Martin Richmond, del equipo económico de OpenAI, con un prólogo de su economista jefe, Ronnie Chatterji. Esto fue una lectura automática hecha por Claude, así que conviene revisar la fuente original.
