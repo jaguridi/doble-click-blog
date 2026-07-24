@@ -58,6 +58,15 @@ categorias:
       - { nombre: "GPAI — Global Partnership on AI", url: "https://gpai.ai/" }
       - { nombre: "NIST — AI Risk Management Framework", url: "https://www.nist.gov/itl/ai-risk-management-framework" }
 
+  - nombre: "Sociedad civil y política tecnológica"
+    descripcion: "Organizaciones que investigan y vigilan cómo se regula y se usa la IA."
+    fuentes:
+      - { nombre: "Tech Policy Press", url: "https://www.techpolicy.press/" }
+      - { nombre: "Access Now", url: "https://www.accessnow.org/" }
+      - { nombre: "AlgorithmWatch", url: "https://algorithmwatch.org/en/" }
+      - { nombre: "Ada Lovelace Institute", url: "https://www.adalovelaceinstitute.org/" }
+      - { nombre: "Carnegie — Technology and International Affairs", url: "https://carnegieendowment.org/programs/technology" }
+
   - nombre: "Seguridad y evaluación de IA"
     descripcion: "Quienes miden capacidades, riesgos y comportamiento de los modelos."
     fuentes:
@@ -77,6 +86,19 @@ categorias:
       - { nombre: "Rest of World", url: "https://restofworld.org/" }
       - { nombre: "One Useful Thing (Ethan Mollick)", url: "https://www.oneusefulthing.org/" }
       - { nombre: "AI Snake Oil", url: "https://www.aisnakeoil.com/" }
+
+  - nombre: "Periodismo especializado en tecnología"
+    descripcion: >-
+      Medios que cubren la industria a diario. Están en inglés, y buena parte de las noticias del
+      día aparecen primero ahí.
+    fuentes:
+      - { nombre: "MIT Technology Review", url: "https://www.technologyreview.com/topic/artificial-intelligence/" }
+      - { nombre: "TechCrunch — AI", url: "https://techcrunch.com/category/artificial-intelligence/" }
+      - { nombre: "The Verge — AI", url: "https://www.theverge.com/ai-artificial-intelligence" }
+      - { nombre: "Ars Technica — AI", url: "https://arstechnica.com/ai/" }
+      - { nombre: "404 Media", url: "https://www.404media.co/" }
+      - { nombre: "Platformer (Casey Newton)", url: "https://www.platformer.news/" }
+      - { nombre: "Reuters — Tecnología", url: "https://www.reuters.com/technology/artificial-intelligence/" }
 
   - nombre: "Prensa de la región"
     descripcion: "Medios latinoamericanos con buena cobertura de tecnología y política digital."
