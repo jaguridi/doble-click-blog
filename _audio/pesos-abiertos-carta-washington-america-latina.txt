@@ -1,0 +1,13 @@
+Veinticinco empresas de tecnología, entre ellas Nvidia, Microsoft, Meta, Mistral, Hugging Face, Mozilla, IBM y la Fundación Linux, publicaron el veinticuatro de julio una carta conjunta pidiendo al gobierno de Estados Unidos que no imponga restricciones prematuras a los modelos de pesos abiertos.
+
+Los pesos abiertos son, dicho simple, los parámetros publicados de un modelo: cualquiera puede descargarlos, ejecutarlos en su propia infraestructura y adaptarlos. El argumento de la carta es económico: sin esa vía, una startup, una universidad o una institución pública tendría que entrenar un modelo desde cero o pagar precios de frontera por cada tarea.
+
+Las ausencias dicen tanto como las firmas. Los tres grandes laboratorios de modelos cerrados, OpenAI, Anthropic y Google, no aparecen, lo que vuelve al documento también una jugada competitiva. Y todos los firmantes tienen interés comercial directo en el resultado.
+
+Para América Latina esto no es un debate lejano. La región es de las que más dependen de los pesos abiertos: Latam GPT se construyó sobre ellos, y gobiernos y empresas los usan como forma barata de mantener sus datos en servidores propios. Si Washington restringe, la región pierde su acceso más asequible a capacidad de frontera, sin haber tenido asiento en ninguna de las dos mesas: ni en la carta, ni en la negociación que la motiva.
+
+El contraste del día es de velocidad. Naciones Unidas cerró en Ciudad de México un encuentro regional sobre inteligencia artificial que desemboca recién en septiembre, mientras la carta se publicó y se debatió en horas.
+
+Queda la pregunta: si el precio de la capacidad de frontera se corta a la mitad en una semana, pero la vía abierta que sostiene esa caída depende de una decisión ajena, ¿qué significa hoy soberanía de inteligencia artificial en América Latina? ¿Tener modelos propios, poder auditar los ajenos, o tener un plan para el día en que se apaga el acceso?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
