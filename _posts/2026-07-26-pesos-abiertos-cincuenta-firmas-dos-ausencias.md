@@ -1,0 +1,34 @@
+---
+layout: post
+title: "La carta de pesos abiertos dobla sus firmas y deja dos ausencias"
+description: "Cuando la lista de firmantes se duplica en un día, lo que informa ya no es quién firmó sino quién decidió no hacerlo."
+date: 2026-07-26 10:12:00 -0400
+tags: [gobernanza, mercados, latam]
+audio: true
+---
+
+La carta que pedía a Washington no imponer "restricciones prematuras" a los modelos de pesos abiertos [duplicó su lista de firmantes en poco más de veinticuatro horas](https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/): pasó de veinticinco empresas a cerca de cincuenta, y OpenAI y Google —dos de los grandes laboratorios de modelos cerrados que ayer no aparecían— sumaron su nombre. OpenAI lo hizo después de que su ausencia se comentara públicamente en X. Los pesos abiertos son los parámetros publicados de un modelo: cualquiera puede descargarlos, ejecutarlos en su propia infraestructura y adaptarlos, sin pagar por cada consulta.
+
+Al cierre del día quedaban dos ausentes, y no son casuales: Anthropic, cuyo director ejecutivo ha llamado al código abierto "a red herring" —una pista falsa—, y Amazon, su principal inversionista y el proveedor del silicio Trainium sobre el que Anthropic entrena y sirve sus modelos. Ninguna de las dos explicó su decisión. Con eso, la línea divisoria dejó de ser abierto contra cerrado y pasó a ser otra: quién vende cómputo contra quién vende acceso. Nvidia, que encabeza la carta, gana con cada modelo abierto que alguien corre en sus chips; Anthropic gana con cada tarea que alguien resuelve pagando su interfaz de programación.
+
+Para América Latina el problema es que ninguno de los dos bandos la incluye. La región depende de los pesos abiertos para ejecutar modelos en servidores propios, mantener soberanía sobre sus datos y sostener proyectos como Latam-GPT, y no aparece ni entre los cincuenta firmantes ni en la mesa donde la decisión se dirime. La escala del desbalance quedó clara el mismo día: [SK Group y Nvidia expandieron su alianza por más de US$500.000 millones](https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory), con una fábrica de inteligencia artificial de 2 gigavatios en Corea del Sur para 2027 y un acuerdo de memoria de largo plazo con SK hynix, firmado con el presidente surcoreano presente. Chile, que lidera la inversión regional, destinará este año cerca de US$1.000 millones a inteligencia artificial. El cuello de botella que ese contraste expone no es talento: es memoria y energía.
+
+## También hoy
+
+- **[Monday.com entra como la 21ª empresa que atribuye despidos a la IA en 2026](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/)** — cerca de 620 personas, un 20% de la plantilla, con la fórmula ya canónica: "no fue para reducir costos ni para reemplazar personas con IA". El recuento anual va en unos 140.000 empleos tecnológicos recortados en Estados Unidos, y ninguna de las 21 empresas publica el desglose por país.
+- **[Quince modelos intentaron volar un dron para encontrar y seguir a una persona en una oficina](https://www.anthropic.com/research/project-pilot)** — el mejor superó a los equipos humano-IA en cuatro de cinco subtareas. El obstáculo que sigue en pie no es seguir a la persona: es reconstruir mentalmente la habitación.
+- **[La agencia de datos de Brasil publica el primer informe de su laboratorio regulatorio de IA](https://www.gov.br/anpd/pt-br/assuntos/noticias/publicados-primeiros-resultados-do-sandbox-regulatorio-em-inteligencia-artificial)** — la ANPD acompaña desde marzo a tres empresas (Metatext, Synapse AI y Prevvine Tecnologia) que prueban sistemas de IA en un ambiente supervisado. Dos hallazgos útiles para cualquier país que copie el modelo: la coordinación entre participantes fue el primer punto de fricción, y el protocolo de datos sintéticos resultó insuficiente.
+
+## En la región
+
+El movimiento regional de la semana viene de Chile y llega desde el Congreso, no desde el Ejecutivo: la Cámara de Diputados [aprobó en general el proyecto que sanciona las imitaciones digitales realistas de imagen, cuerpo y voz generadas con IA](https://www.biobiochile.cl/noticias/nacional/chile/2026/07/23/camara-aprueba-proyecto-que-sanciona-las-deepfakes-creadas-con-ia-con-multas-de-hasta-716-millones.shtml) —el Boletín 17.795-19—, con 128 votos a favor, multas de 5.000 a 10.000 UTM (hasta unos 716 millones de pesos) y el reconocimiento de un nuevo "derecho a la integridad digital". Vuelve a comisión para las indicaciones y todavía debe pasar por el Senado, en un país que aún no tiene ley general de IA ni una autoridad de datos plenamente instalada para fiscalizar multas de ese tamaño. El proyecto se suma a un patrón regional con tres formas distintas de atacar el mismo problema: Chile sanciona el uso, Brasil prohibió la herramienta por decreto en mayo y la Unión Europea la prohíbe por norma desde diciembre. Ninguna de las tres resuelve el caso en que el generador está alojado fuera de la jurisdicción. Y al fondo del calendario está la fecha que ordena el resto: el 2 de agosto entran en aplicación las obligaciones de transparencia del Artículo 50 del reglamento europeo de IA, con guías finales adoptadas el 20 de julio, y varios marcos latinoamericanos en trámite están modelados sobre ese texto.
+
+## Hilos que seguimos
+
+Veníamos siguiendo la fragilidad del acceso: cuánto duran las herramientas de frontera en la región cuando la decisión de encenderlas o apagarlas se toma en otra capital, después de que un mecanismo de apagado gubernamental dejara a América Latina sin acceso a un modelo de punta en cuestión de horas y sin aviso. El capítulo de hoy no cambia el tablero, lo aclara: la vía de respaldo ante ese escenario —descargar los pesos y correr el modelo uno mismo— ahora tiene cincuenta empresas defendiéndola en Washington y dos defendiendo lo contrario con el mismo derecho a estar en la sala. La región, que es la que más necesitaría esa vía, sigue sin voz en ninguno de los dos lados.
+
+---
+
+*Si en un mismo día una carta empresarial define en Washington el acceso futuro de la región a los modelos abiertos, y una fábrica de dos gigavatios se firma con un jefe de Estado presente, ¿cuál es el instrumento equivalente con el que América Latina negocia? Y si la respuesta es una declaración ministerial, ¿estamos jugando el mismo juego o mirando cómo se juega?*
+
+<small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>

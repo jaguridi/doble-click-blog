@@ -1,0 +1,11 @@
+La carta que pedía al gobierno de Estados Unidos no imponer restricciones prematuras a los modelos de pesos abiertos duplicó sus firmantes en poco más de veinticuatro horas: pasó de veinticinco empresas a cerca de cincuenta. Los pesos abiertos son los parámetros publicados de un modelo: cualquiera puede descargarlos, ejecutarlos en su propia infraestructura y adaptarlos, sin pagar por cada consulta.
+
+Lo que informa hoy no es quién firmó, sino quién decidió no hacerlo. Dos de los grandes laboratorios de modelos cerrados que ayer faltaban sumaron su nombre. Al cierre del día quedaban dos ausentes: Anthropic, cuyo director ejecutivo ha llamado al código abierto una pista falsa, y Amazon, su principal inversionista y el proveedor de los chips sobre los que Anthropic entrena sus modelos. Ninguna de las dos explicó por qué.
+
+Con eso, la línea divisoria dejó de ser abierto contra cerrado. Ahora es otra: quién vende cómputo contra quién vende acceso. Nvidia, que encabeza la carta, gana con cada modelo abierto que alguien ejecuta en sus chips. Anthropic gana con cada tarea que alguien resuelve pagando por conectarse a su servicio.
+
+Para América Latina el problema es que ninguno de los dos bandos la incluye. La región depende de los pesos abiertos para correr modelos en servidores propios, mantener soberanía sobre sus datos y sostener sus propios proyectos de modelo regional. No aparece entre los firmantes ni en la mesa donde se decide. El mismo día, una alianza de más de quinientos mil millones de dólares levantó en Corea del Sur una fábrica de dos gigavatios, firmada con un jefe de Estado presente. Chile, que lidera la inversión regional, destinará este año cerca de mil millones de dólares.
+
+Si la decisión se toma allá, ¿con qué instrumento negocia la región acá?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
