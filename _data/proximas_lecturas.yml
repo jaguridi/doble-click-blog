@@ -20,3 +20,8 @@
   autores: "Gurnee et al. (Anthropic)"
   publicado: "Anthropic, Transformer Circuits, julio 2026"
   url: "https://transformer-circuits.pub/2026/workspace/index.html"
+
+- titulo: "Los gobiernos ya experimentan con IA generativa, pero casi ninguno mide los resultados"
+  paper: "Generative AI experimentation in government: Learning from emerging guidelines"
+  autores: "Tõnurist y von Knebel (OCDE)"
+  publicado: "OECD Working Papers on Public Governance, 2026"
