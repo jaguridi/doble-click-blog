@@ -1,0 +1,11 @@
+A las ocho de la tarde del domingo en Santiago, el laboratorio chino Moonshot publicó los pesos completos de su modelo Kimi K3. Son dos coma ocho billones de parámetros, una ventana de contexto de un millón de tokens y una licencia abierta. Es el modelo de pesos abiertos más grande que se haya liberado y el primero con capacidad cercana a la frontera que cualquiera puede descargar, inspeccionar y alojar en su propia infraestructura.
+
+Ese "cualquiera" tiene letra chica. La descarga son unos quinientos noventa y cuatro gigabytes, y hacerlo funcionar exige del orden de un coma cuatro terabytes de memoria rápida antes de cargar una sola línea de contexto. En la práctica, eso lo deja fuera del alcance de ministerios, poderes judiciales y universidades latinoamericanas, y dentro del alcance de las grandes nubes y de los proveedores de inferencia.
+
+Ahí está el punto que importa para la región. El argumento que hace atractivo un modelo abierto para un Estado es la soberanía de los datos: que la información no salga de la jurisdicción. Pero ese argumento sobrevive solo si alguien en la región puede efectivamente hospedar el modelo. Si no puede, el modelo es abierto y el alojamiento sigue siendo extranjero.
+
+El mismo fin de semana, mientras un modelo de frontera quedaba gratis para descargar, se conocía que Nvidia negocia respaldar con unos doscientos cincuenta mil millones de dólares el financiamiento de un centro de datos de OpenAI en Ohio. El costo de poder usar estos modelos se volvió una operación de crédito gigantesca entre unas pocas empresas.
+
+Si el modelo ya no es la barrera de entrada, y la barrera es el alojamiento, ¿qué debería estar comprando hoy un Estado latinoamericano: licencias, capacidad en la nube de un tercero, o gigavatios propios?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
