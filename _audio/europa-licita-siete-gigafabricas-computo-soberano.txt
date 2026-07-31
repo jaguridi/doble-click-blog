@@ -1,0 +1,9 @@
+La Comisión Europea abrió el llamado para construir siete gigafábricas de inteligencia artificial. El instrumento moviliza más de treinta mil millones de euros: hasta diez mil millones de fondos públicos que apalancan unos veinte mil millones privados. Cada instalación está obligada a albergar al menos cien mil chips de última generación, unas cuatro veces el mayor centro de datos que hoy opera en Europa, y a garantizar acceso a empresas pequeñas y medianas para entrenar y ajustar modelos. Las postulaciones cierran el doce de noviembre, las adjudicaciones se esperan a inicios de dos mil veintisiete y la construcción empieza ese mismo año.
+
+Lo interesante para América Latina no es la escala, que es inalcanzable, sino el instrumento. Europa transformó una aspiración difusa, la soberanía computacional, en algo que se puede auditar: un monto, un calendario, un mecanismo de adjudicación y una obligación explícita de que la capacidad quede disponible para quien no la financió. La región, en cambio, negocia centro de datos por centro de datos con grandes proveedores de nube que llegan con su propio hardware y conservan el control de la capacidad instalada. La distancia se mide con un solo dato: frente a una gigafábrica europea está el supercomputador de unos cinco millones de dólares con el que se entrenó Latam GPT en la Universidad de Tarapacá, en Chile.
+
+Y hay una contradicción que vale decir en voz alta, porque también sería la nuestra: la soberanía europea se construye con cartas de intención firmadas con tres empresas estadounidenses de chips.
+
+Si ni siquiera el bloque que inventó la regulación de la inteligencia artificial puede fabricar el silicio que necesita, ¿qué significa soberanía cuando la promete un país latinoamericano? ¿No sería más honesto discutir qué capacidad concreta queremos comprar, con qué presupuesto y bajo qué condiciones?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
