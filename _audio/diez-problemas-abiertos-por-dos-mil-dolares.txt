@@ -1,0 +1,9 @@
+Open A I publicó el sábado diez avances sobre problemas abiertos de matemáticas y computación teórica, generados por una versión interna de Astra, su próximo modelo insignia. Son problemas que llevaban al menos una década sin progreso, y en la mayoría de los casos mucho más: entre ellos, la primera mejora del exponente general de empaquetamiento de esferas desde mil novecientos setenta y ocho.
+
+Pero lo que distingue este anuncio no es la dificultad de los problemas. Son tres datos verificables. Cada resultado viene con una formalización en Lean cuatro, un lenguaje que permite que una computadora compruebe una demostración paso a paso, y esos certificados están publicados para que cualquiera los corra. El manuscrito tiene doscientas cuarenta y nueve páginas. Y el costo de cómputo declarado para encontrar los diez fue de unos dos mil dólares. Dejó de ser una demostración de fuerza bruta cara, y pasó a caber en el presupuesto discrecional de un departamento universitario, si tuviera el modelo.
+
+Ahí está el filo para la región. Ninguna universidad latinoamericana va a tener acceso a Astra en el corto plazo. Pero Lean es gratuito, corre en un computador común, y el capital humano matemático de Brasil, México, Argentina y Chile es real. La verificación formal es el único tramo de esta cadena que no requiere permiso ni cómputo de frontera. También es el tramo que ya se está ocupando: el mismo día se supo que un medallista Fields se toma licencia de su universidad para hacer exactamente eso, pero dentro de Open A I.
+
+Si la única entrada disponible a la matemática asistida por inteligencia artificial es convertirse en quien revisa lo que otros descubren, ¿es eso un lugar en la mesa, o el trabajo que sobra cuando ya no queda otro?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
