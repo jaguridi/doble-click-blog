@@ -45,5 +45,14 @@ jobs:
             echo "Nada nuevo que commitear"
           else
             git commit -m "Audio: genera mp3 de resumenes (ElevenLabs)"
-            git push
+            # Entre el checkout y este push pueden haber entrado otros commits
+            # (una routine, un push a mano). Sin esto el push se rechaza y el
+            # audio recien generado se pierde con el runner.
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "Push rechazado, reintento $i..."
+              sleep 5
+            done
+            echo "No se pudo pushear despues de 3 intentos"
+            exit 1
           fi
