@@ -98,6 +98,9 @@ eficiencia-ia-diseno:
 enciclica-papal-inteligencia-artificial:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+espacio-trabajo-global-modelos:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 estados-unidos-sin-supervision-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
@@ -176,6 +179,9 @@ mythos-anthropic-mercado-general:
 nvidia-proveedor-acreedor-accionista-frontera:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+ocde-experimentacion-ia-gobierno:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 onu-computo-ia-latam-ausente:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
