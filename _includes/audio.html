@@ -1,8 +1,12 @@
 {% assign _audiopath = '/assets/audio/' | append: page.slug | append: '.mp3' %}
 {% assign _audiofile = site.static_files | where: 'path', _audiopath | first %}
 {% if _audiofile %}
+{% assign _voz = site.data.voces[page.slug] %}
 <div class="lectura-audio">
-  <span class="audio-label">{{ include.label }}</span>
+  <p class="audio-cab">
+    <span class="audio-label">{{ include.label }}</span>
+    {% if _voz %}<span class="audio-voz">Narra {{ _voz }}</span>{% endif %}
+  </p>
   <audio controls preload="none" src="{{ _audiopath | relative_url }}"></audio>
   <div class="audio-speeds">
     <span class="audio-speeds-label">Velocidad</span>

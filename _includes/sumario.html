@@ -1,0 +1,39 @@
+{%- comment -%}
+Sumario de las secciones de la entrada ("También hoy", "En la región",
+"Lanzamientos", "Hilos que seguimos"…). Se arma en el navegador recorriendo los
+h2 del cuerpo, así no hay que tocar el markdown ni la rutina que lo genera.
+
+Si la entrada tiene menos de tres secciones no se muestra nada.
+{%- endcomment -%}
+<nav class="sumario" hidden aria-label="Secciones de esta entrada">
+  <span class="sumario-label">En esta entrada</span>
+</nav>
+<script>
+// El include va antes de .post-body en el HTML, así que hay que esperar a que el
+// documento esté armado para poder recorrer los h2 del cuerpo.
+document.addEventListener('DOMContentLoaded', function(){
+  var nav = document.querySelector('.sumario');
+  var cuerpo = document.querySelector('.post-body');
+  if (!nav || !cuerpo) return;
+
+  var titulos = cuerpo.querySelectorAll(':scope > h2');
+  if (titulos.length < 3) return;
+
+  // Igual que en buscador.html: NFD + quitar diacríticos, para que "En la región"
+  // quede como "en-la-region" y el ancla no lleve tildes.
+  var DIACRITICOS = new RegExp('[\\u0300-\\u036f]', 'g');
+  function slug(texto){
+    return texto.normalize('NFD').replace(DIACRITICOS, '')
+                .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+
+  titulos.forEach(function(h){
+    if (!h.id) h.id = slug(h.textContent) || 'seccion';
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    nav.appendChild(a);
+  });
+  nav.hidden = false;
+});
+</script>

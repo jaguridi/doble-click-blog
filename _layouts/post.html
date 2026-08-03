@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
-<article class="post">
+{%- assign _minutos = page.content | strip_html | number_of_words | divided_by: 200 | plus: 1 -%}
+<article class="post tono-{% include tono.html date=page.date %}">
   <header class="post-header">
-    <p class="post-meta"><span class="entry-date">{% include fecha.html date=page.date %}</span></p>
+    <p class="post-meta">
+      <span class="entry-date">{% include fecha.html date=page.date %}</span>
+      <span class="post-lectura">{{ _minutos }} min de lectura</span>
+    </p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
     {% if page.tags %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
   </header>
 
   {% if page.audio %}{% include audio.html label="▶ Escuchar la entrada" %}{% endif %}
+
+  {% include sumario.html %}
 
   <div class="post-body">
     {{ content }}

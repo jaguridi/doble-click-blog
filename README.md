@@ -25,6 +25,49 @@ No hay que tocar nada a mano en el día a día.
 - `index.md` — portada (lista de entradas).
 - `about.md` — qué es el blog + suscripción.
 
+## Diseño: el tono de cada entrada
+
+Cada entrada del blog diario tiene su propio color, para que dos publicaciones seguidas
+no se vean idénticas en la portada. Hay dos capas de color y conviene no mezclarlas:
+
+- **`--accent` / `--accent-text`** — la marca: header, footer, cursor parpadeante, botón
+  de suscripción. No cambia nunca.
+- **`--tono`** — la entrada: capitular, enlaces del cuerpo, líneas de los `h2`, caja de
+  audio y el cuadradito del feed. Rota entre cuatro colores (teja, ocre, oliva, ciruela).
+
+El tono sale de la **fecha**, no de la posición en la lista: `(día del año × 3) módulo 4`,
+en `_includes/tono.html`. Como 3 y 4 son coprimos, dos entradas de días seguidos nunca
+comparten tono, y el color de la portada es siempre el mismo que el de la entrada abierta
+y el del archivo. La routine no tiene que hacer nada: el cálculo es automático.
+
+**Doble Lectura** no rota: usa tinta fijo y un papel más frío (`.seccion-lectura`), para
+que se distinga del diario de un vistazo.
+
+Para volver al diseño anterior (acento único teja, sin modo oscuro):
+
+```bash
+git checkout diseno-v1
+```
+
+## Quién narra cada audio
+
+`_includes/audio.html` muestra la voz debajo del reproductor, leyéndola de
+`_data/voces.yml`. Ese archivo lo genera `_tools/voces_yml.py` a partir de los
+`_audio/<slug>.voice` (Jekyll no entra a los directorios que empiezan con `_`), y el
+workflow de audio lo regenera solo cada vez que produce un mp3. Para correrlo a mano:
+
+```bash
+python _tools/voces_yml.py
+```
+
+Si un slug no está en el mapa, simplemente no se muestra la voz.
+
+**Cuidado con los nombres:** los `.voice` guardan identificadores estilo edge-tts
+(`es-CO-SalomeNeural`), pero desde el 2026-08-03 el audio lo genera ElevenLabs, que usa
+voces distintas —mismo género y país, otro nombre— para esos mismos identificadores
+(Salomé → Virginia, Lorenzo → Cristian, Gonzalo → Andrés). El script decide qué nombre
+mostrar según la fecha de la entrada; la constante `MIGRACION` marca el corte.
+
 ## Dominio y GitHub Pages
 
 El sitio se sirve en el subdominio **`dobleclick.jaguridi.cl`** (definido en el archivo `CNAME`),

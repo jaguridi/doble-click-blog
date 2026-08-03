@@ -31,11 +31,16 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: python _tools/tts_elevenlabs.py
 
+      # Deja _data/voces.yml al día para que la página pueda mostrar quién narra
+      # (Jekyll no puede leer _audio/ directamente: empieza con "_").
+      - name: Actualizar el mapa de voces
+        run: python _tools/voces_yml.py
+
       - name: Commitear audios
         run: |
           git config user.name "doble-lectura-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/audio
+          git add assets/audio _data/voces.yml
           if git diff --cached --quiet; then
             echo "Nada nuevo que commitear"
           else

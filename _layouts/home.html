@@ -9,10 +9,11 @@ layout: default
 
 <section class="feed">
   <p class="feed-label">Últimas entradas</p>
+  {% assign _hoy = site.time | date: '%Y-%m-%d' %}
   {% for post in site.posts limit: 8 %}
-  <article class="entry" style="--i: {{ forloop.index0 }}">
+  <article class="entry tono-{% include tono.html date=post.date %}{% if forloop.first %} entry--principal{% endif %}" style="--i: {{ forloop.index0 }}">
     <a class="entry-link" href="{{ post.url | relative_url }}">
-      <span class="entry-date">{% include fecha.html date=post.date %}</span>
+      <span class="entry-date">{% include fecha.html date=post.date %}</span>{% assign _fecha_post = post.date | date: '%Y-%m-%d' %}{% if _fecha_post == _hoy %}<span class="entry-hoy">Hoy</span>{% endif %}
       <h2 class="entry-title">{{ post.title }}</h2>
       {% if post.description %}<p class="entry-desc">{{ post.description }}</p>{% endif %}
       {% if post.tags %}<ul class="tags">{% for t in post.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}

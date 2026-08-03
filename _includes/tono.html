@@ -1,0 +1,16 @@
+{%- comment -%}
+Devuelve el número de tono (0-3) que le toca a una entrada según su fecha.
+
+  {% include tono.html date=post.date %}  ->  "2"
+
+Se usa como sufijo de la clase CSS `tono-N` (ver assets/css/style.css). La fórmula
+es (día del año × 3) módulo 4: como 3 y 4 son coprimos, dos entradas de días
+seguidos nunca caen en el mismo tono, y la secuencia no se lee como una escalera.
+
+Que dependa de la fecha —y no de la posición en la lista— es lo importante: el
+tono de la portada, el de la entrada abierta y el del archivo son siempre el mismo.
+
+Doble Lectura no usa esto: tiene su propio tono fijo (tinta) vía .seccion-lectura.
+{%- endcomment -%}
+{%- assign _dia = include.date | date: "%j" | plus: 0 -%}
+{{- _dia | times: 3 | modulo: 4 -}}
