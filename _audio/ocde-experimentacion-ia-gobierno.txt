@@ -1,0 +1,17 @@
+Doble Lectura, de Doble Click. Hoy, un documento de la OCDE sobre cómo los gobiernos experimentan con inteligencia artificial generativa, y sobre lo que casi ninguno está midiendo.
+
+El punto de partida es un hecho que cualquiera que trabaje en el Estado reconoce: los funcionarios ya están usando estas herramientas, muchas veces sin aprobación formal ni supervisión clara. Entre esa adopción rápida y los mecanismos de gobernanza, que van bastante más lento, se abrió una brecha. El trabajo revisa las guías oficiales que catorce países ya publicaron, y se concentra en la etapa de experimentación, no en el despliegue a gran escala.
+
+El primer hallazgo es de forma. Las guías existen y son abundantes, pero están fragmentadas y son muy desparejas. Van desde declaraciones generales de valores hasta manuales detallados. Muchos gobiernos publicaron principios sobre uso ético y bastante poca orientación práctica sobre cómo diseñar y juzgar un experimento concreto. Y la consecuencia no es la que uno esperaría: esa disparidad no produce libertad, produce incertidumbre, y la incertidumbre produce aversión al riesgo o prácticas inconsistentes entre reparticiones.
+
+El segundo hallazgo es el más incómodo. El monitoreo y la evaluación son la debilidad crítica. Pocos gobiernos verifican de forma sistemática si un experimento entregó lo que prometía, si generó riesgos nuevos o si justifica escalar. Cuando hay evaluación, suele apoyarse en indicadores básicos como uso o satisfacción, y no en mediciones de desempeño, costo e impacto. Sin criterios comparables, un gobierno no tiene cómo cerrar un experimento que fracasó ni cómo decidir en qué invertir después.
+
+Para la región, el dato más elocuente no está en los hallazgos sino en el anexo. Entre los países cuyas guías se revisaron no hay ninguno de América Latina. La lista es de países de altos ingresos, con Reino Unido, Australia, Canadá y los nórdicos concentrando la mayor parte de los documentos. Eso define qué es este trabajo para un lector de acá: un mapa de lo que hicieron otros, no un diagnóstico de lo propio.
+
+De ahí salen dos lecturas. La de oportunidad: si incluso los países con más recursos publicaron principios y se quedaron cortos en evaluación, un país de la región que hoy esté escribiendo su guía puede saltarse esa etapa y partir con el marco de evaluación incorporado. Sale más barato al principio que agregado después.
+
+Y la de advertencia. El uso de estas herramientas sin supervisión no necesita una guía nacional para ocurrir. Ocurre igual, y probablemente ocurre más donde hay menos capacidad de fiscalización. Lo que cambia cuando no hay guía no es el uso, es la visibilidad del uso.
+
+La pregunta que deja es concreta. Cuando un organismo público anuncia que va a usar modelos de lenguaje para detectar irregularidades, lo primero que habría que preguntar no es si el modelo funciona, sino con qué criterios se va a medir si funcionó, y qué recurso tiene alguien marcado por error.
+
+El documento es de Piret Tõnurist y Moritz von Knebel, de la OCDE. Esta fue una lectura automática hecha por Claude; conviene revisar la fuente original antes de citarla.

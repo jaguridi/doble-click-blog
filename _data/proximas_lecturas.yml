@@ -15,17 +15,6 @@
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
 
-- titulo: "Los modelos de lenguaje tendrían algo parecido a un 'espacio de trabajo' interno"
-  paper: "Verbalizable Representations Form a Global Workspace in Language Models"
-  autores: "Lindsey (Anthropic)"
-  publicado: "Anthropic, Transformer Circuits, julio 2026"
-  url: "https://transformer-circuits.pub/2026/workspace/index.html"
-
-- titulo: "Los gobiernos ya experimentan con IA generativa, pero casi ninguno mide los resultados"
-  paper: "Generative AI experimentation in government: Learning from emerging guidelines"
-  autores: "Tõnurist y von Knebel (OCDE)"
-  publicado: "OECD Working Papers on Public Governance, 2026"
-
 - titulo: "Google mide su propia IA en la economía: mucha gente, poca automatización de punta a punta"
   paper: "Google's AI & Economy ATLAS v1.0: Mapping Gemini Usage in the Economy"
   autores: "Iscenko, Strand et al. (Google y Google DeepMind)"
