@@ -5,12 +5,14 @@
 
    --accent / --accent-text  = la marca. Header, footer, cursor parpadeante,
                                botón de suscripción. No cambia nunca.
-   --tono                    = la entrada. Capitular, enlaces del cuerpo, líneas
-                               de los h2, caja de audio, marcador del feed.
-                               Rota entre cuatro colores según la fecha de la
-                               entrada (ver .tono-0 … .tono-3 más abajo), así el
-                               color de la portada es el mismo que el de la
-                               entrada abierta y el del archivo.
+   --tono                    = el TEMA de la entrada. Capitular, enlaces del
+                               cuerpo, líneas de los h2, caja de audio, fecha y
+                               marcador del feed. Cuatro familias temáticas
+                               (ver .tono-0 … .tono-3 más abajo).
+
+   Lo que distingue una publicación de la siguiente en las listas NO es el color,
+   sino las franjas alternadas (--banda), como en una tabla. Así el color queda
+   libre para significar el tema y no la posición.
 
    Doble Lectura no rota: se queda siempre en tinta, con un papel más frío,
    para que se distinga del diario de un vistazo (ver .seccion-lectura).
@@ -20,6 +22,7 @@
   /* superficies y texto */
   --paper:#f7f4ec;
   --paper-2:#efeadd;
+  --banda:#f1ece0;           /* franja alterna de las listas (feed, archivo, lecturas) */
   --field:#fff;              /* fondo de inputs */
   --ink:#1c1a17;
   --ink-soft:#43403a;
@@ -45,37 +48,12 @@
   --wide:64rem;
 }
 
-/* La rotación. La asignan los layouts con (día del año × 3) módulo 4: dos
-   entradas de días seguidos nunca comparten tono, y la secuencia no se lee
-   como una escalera de colores. */
-.tono-0{ --tono:var(--teja); }
-.tono-1{ --tono:var(--ocre); }
-.tono-2{ --tono:var(--oliva); }
-.tono-3{ --tono:var(--ciruela); }
-
-/* ---------- modo oscuro ----------
-   Todo el color pasa por las variables de arriba, así que basta redefinirlas.
-   Los tonos suben de luminosidad para mantener el contraste sobre fondo oscuro. */
-@media (prefers-color-scheme: dark){
-  :root{
-    --paper:#16151a;
-    --paper-2:#1e1d24;
-    --field:#1e1d24;
-    --ink:#ece7dc;
-    --ink-soft:#c3bcae;
-    --muted:#8f887a;
-    --line:#33313a;
-
-    --accent:#ee7a5f;
-    --accent-text:#f0907a;
-
-    --teja:#ee7a5f;
-    --ocre:#d0ab45;
-    --oliva:#8fbf6c;
-    --ciruela:#e08bb0;
-    --tinta:#7fa8e8;
-  }
-}
+/* Las cuatro familias temáticas. Qué tema cae en cuál está en _data/familias.yml,
+   y el reparto lo resuelve _includes/tono.html a partir de los tags de la entrada. */
+.tono-0{ --tono:var(--teja); }      /* Gobernanza y política */
+.tono-1{ --tono:var(--ocre); }      /* Mercados e industria  */
+.tono-2{ --tono:var(--ciruela); }   /* Riesgo y seguridad    */
+.tono-3{ --tono:var(--oliva); }     /* Sociedad              */
 
 *{ box-sizing:border-box; }
 html{ -webkit-text-size-adjust:100%; }
@@ -96,13 +74,6 @@ body::before{
     radial-gradient(circle at 12% 8%, rgba(214,69,43,.05), transparent 38%),
     radial-gradient(circle at 92% 88%, rgba(40,42,80,.035), transparent 44%);
 }
-@media (prefers-color-scheme: dark){
-  body::before{
-    background:
-      radial-gradient(circle at 12% 8%, rgba(238,122,95,.055), transparent 38%),
-      radial-gradient(circle at 92% 88%, rgba(127,168,232,.045), transparent 44%);
-  }
-}
 .site-header,.site-main,.site-footer{ position:relative; z-index:1; }
 
 /* Doble Lectura: papel medio grado más frío y tinta fijo. Lo pone default.html
@@ -110,6 +81,7 @@ body::before{
 .seccion-lectura{
   --paper:#f6f6f9;
   --paper-2:#e9e9ef;
+  --banda:#eeeef4;
   --line:#d9d9e2;
   --tono:var(--tinta);
 }
@@ -118,20 +90,6 @@ body::before{
     radial-gradient(circle at 12% 8%, rgba(53,89,143,.05), transparent 38%),
     radial-gradient(circle at 92% 88%, rgba(40,42,80,.035), transparent 44%);
 }
-@media (prefers-color-scheme: dark){
-  .seccion-lectura{
-    --paper:#15161c;
-    --paper-2:#1d1f27;
-    --field:#1d1f27;
-    --line:#2f3240;
-  }
-  .seccion-lectura::before{
-    background:
-      radial-gradient(circle at 12% 8%, rgba(127,168,232,.06), transparent 38%),
-      radial-gradient(circle at 92% 88%, rgba(127,168,232,.03), transparent 44%);
-  }
-}
-
 /* ---------- header ---------- */
 .site-header{
   max-width:var(--wide); margin:0 auto;
@@ -184,20 +142,27 @@ body::before{
   font-family:"Space Mono", monospace; font-size:.74rem;
   text-transform:uppercase; letter-spacing:.16em; color:var(--muted); margin:0 0 .3rem;
 }
+/* Franjas alternadas, como una tabla: es lo que separa una publicación de la
+   siguiente de un vistazo. El color de cada entrada queda libre para significar
+   otra cosa; la franja sólo marca dónde empieza y termina cada una.
+   La primera entrada queda sin franja, sobre el papel, para que destaque. */
 .entry{
   position:relative;
-  border-bottom:1px solid var(--line);
+  padding:0 1.3rem;
+  margin:0 -1.3rem;
+  border-radius:3px;
   opacity:0; transform:translateY(12px);
   animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards;
   animation-delay:calc(var(--i,0) * 70ms + 80ms);
 }
+.entry:nth-of-type(even){ background:var(--banda); }
 @keyframes rise{ to{ opacity:1; transform:none; } }
 .entry-link{ display:block; text-decoration:none; color:inherit; padding:2rem 0 2rem 1.7rem; transition:padding-left .25s ease; }
 .entry-link:hover{ padding-left:2.3rem; }
 /* el cuadrado de la marca, en el tono de la entrada: es lo que distingue
    una publicación de la siguiente en la lista */
 .entry-link::before{
-  content:""; position:absolute; left:0; top:2.55rem;
+  content:""; position:absolute; left:1.3rem; top:2.55rem;
   width:.55rem; height:.55rem; background:var(--tono);
   transition:transform .25s ease;
 }
@@ -320,8 +285,9 @@ body::before{
 .coming-next-title{ display:block; font-family:"Fraunces", serif; font-weight:600; font-size:1.08rem; line-height:1.25; color:var(--ink); }
 .coming-next-cite{ display:block; font-family:"Space Mono", monospace; font-size:.7rem; line-height:1.5; color:var(--muted); margin-top:.2rem; }
 .lectura-list{ list-style:none; padding:0; margin:1.5rem 0 0; }
-.lectura-item{ position:relative; border-bottom:1px solid var(--line); padding:1.6rem 0 1.6rem 1.5rem; }
-.lectura-item::before{ content:""; position:absolute; left:0; top:2.05rem; width:.5rem; height:.5rem; background:var(--tono); }
+.lectura-item{ position:relative; padding:1.6rem 1.3rem 1.6rem 2.8rem; margin:0 -1.3rem; border-radius:3px; }
+.lectura-item:nth-child(even){ background:var(--banda); }
+.lectura-item::before{ content:""; position:absolute; left:1.3rem; top:2.05rem; width:.5rem; height:.5rem; background:var(--tono); }
 .lectura-item > a{ display:block; text-decoration:none; color:inherit; }
 .lectura-item > a:hover .lectura-title{ color:var(--tono); }
 .lectura-date{ display:block; font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.13em; color:var(--tono); }
@@ -368,10 +334,17 @@ body::before{
 .page-body h3{ font-size:1.3rem; margin:1.8rem 0 .5rem; }
 .page-body a{ color:var(--accent-text); }
 
+/* leyenda de familias temáticas (en /entradas/) */
+.leyenda-label{ font-family:"Space Mono", monospace; font-size:.66rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:0 0 .5rem; }
+.leyenda{ list-style:none; display:flex; flex-wrap:wrap; gap:.45rem 1.2rem; padding:0; margin:0 0 2rem; }
+.leyenda li{ display:flex; align-items:center; gap:.45rem; font-family:"Space Mono", monospace; font-size:.68rem; text-transform:uppercase; letter-spacing:.07em; color:var(--ink-soft); }
+.leyenda li::before{ content:""; width:.5rem; height:.5rem; background:var(--tono); flex:0 0 auto; }
+
 /* ---------- archive (entradas) ---------- */
 .archive-year{ font-family:"Space Mono", monospace; font-size:.8rem; letter-spacing:.16em; color:var(--accent-text); border-bottom:1px solid var(--line); padding-bottom:.4rem; margin:2.4rem 0 .3rem; }
 .archive-list{ list-style:none; padding:0; margin:0; }
-.archive-list li{ border-bottom:1px solid var(--line); }
+.archive-list li{ padding:0 1.3rem; margin:0 -1.3rem; border-radius:3px; }
+.archive-list li:nth-child(even){ background:var(--banda); }
 .archive-list a{ display:flex; gap:1.2rem; align-items:baseline; padding:.95rem 0; text-decoration:none; color:var(--ink); transition:padding-left .2s, color .2s; }
 .archive-list a:hover{ padding-left:.5rem; color:var(--tono); }
 .archive-date{ font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); flex:0 0 8rem; }
@@ -392,8 +365,12 @@ body::before{
   .site-header{ flex-direction:column; align-items:flex-start; gap:.7rem; padding:1.3rem 1.2rem; }
   .hero{ padding:3rem 0 2rem; }
   .site-main{ padding:0 1.2rem; }
+  /* las franjas se alinean con el padding del main, que en móvil es menor */
+  .entry, .archive-list li, .lectura-item{ padding-left:1.2rem; padding-right:1.2rem; margin:0 -1.2rem; }
+  .entry-link::before, .lectura-item::before{ left:1.2rem; }
   .entry-link{ padding-left:1.3rem; }
   .entry-link:hover{ padding-left:1.7rem; }
+  .lectura-item{ padding-left:2.6rem; }
   .archive-list a{ flex-direction:column; gap:.15rem; }
   .archive-date{ flex-basis:auto; }
   .post-body > p:first-of-type::first-letter{ font-size:3rem; }

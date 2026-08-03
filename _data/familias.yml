@@ -1,0 +1,38 @@
+# A qué familia de color pertenece cada tema. Define el color de la entrada:
+# el cuadradito del feed, la fecha, la capitular y los enlaces del cuerpo.
+#
+#   0 = teja      Gobernanza y política
+#   1 = ocre      Mercados e industria
+#   2 = ciruela   Riesgo y seguridad
+#   3 = oliva     Sociedad
+#
+# El color sale del PRIMER tag de la entrada que aparezca acá (ver _includes/tono.html).
+# Por eso "latam" no está en la lista: lo llevan las 68 entradas, así que no distingue
+# nada; al no estar mapeado, el include sigue de largo al tag siguiente.
+# Si ningún tag está mapeado, la entrada cae en la familia 0.
+#
+# Los temas vienen de _data/temas.yml. Están duplicados sin tilde porque el front
+# matter de las entradas a veces las omite (mismo cuidado que en _includes/buscador.html).
+
+# --- Gobernanza y política ---
+gobernanza: 0
+participación: 0
+participacion: 0
+ética: 0
+etica: 0
+
+# --- Mercados e industria ---
+mercados: 1
+lanzamientos: 1
+
+# --- Riesgo y seguridad ---
+seguridad: 2
+datos: 2
+
+# --- Sociedad ---
+trabajo: 3
+educación: 3
+educacion: 3
+salud: 3
+diseño: 3
+diseno: 3

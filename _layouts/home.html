@@ -11,7 +11,7 @@ layout: default
   <p class="feed-label">Últimas entradas</p>
   {% assign _hoy = site.time | date: '%Y-%m-%d' %}
   {% for post in site.posts limit: 8 %}
-  <article class="entry tono-{% include tono.html date=post.date %}{% if forloop.first %} entry--principal{% endif %}" style="--i: {{ forloop.index0 }}">
+  <article class="entry tono-{% include tono.html tags=post.tags %}{% if forloop.first %} entry--principal{% endif %}" style="--i: {{ forloop.index0 }}">
     <a class="entry-link" href="{{ post.url | relative_url }}">
       <span class="entry-date">{% include fecha.html date=post.date %}</span>{% assign _fecha_post = post.date | date: '%Y-%m-%d' %}{% if _fecha_post == _hoy %}<span class="entry-hoy">Hoy</span>{% endif %}
       <h2 class="entry-title">{{ post.title }}</h2>

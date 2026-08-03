@@ -2,7 +2,7 @@
 layout: default
 ---
 {%- assign _minutos = page.content | strip_html | number_of_words | divided_by: 200 | plus: 1 -%}
-<article class="post tono-{% include tono.html date=page.date %}">
+<article class="post tono-{% include tono.html tags=page.tags %}">
   <header class="post-header">
     <p class="post-meta">
       <span class="entry-date">{% include fecha.html date=page.date %}</span>

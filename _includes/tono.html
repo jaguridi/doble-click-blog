@@ -1,16 +1,28 @@
 {%- comment -%}
-Devuelve el número de tono (0-3) que le toca a una entrada según su fecha.
+Devuelve la familia de color (0-3) que le toca a una entrada según su tema.
 
-  {% include tono.html date=post.date %}  ->  "2"
+  {% include tono.html tags=post.tags %}  ->  "2"
 
-Se usa como sufijo de la clase CSS `tono-N` (ver assets/css/style.css). La fórmula
-es (día del año × 3) módulo 4: como 3 y 4 son coprimos, dos entradas de días
-seguidos nunca caen en el mismo tono, y la secuencia no se lee como una escalera.
+Se usa como sufijo de la clase CSS `tono-N` (ver assets/css/style.css):
 
-Que dependa de la fecha —y no de la posición en la lista— es lo importante: el
-tono de la portada, el de la entrada abierta y el del archivo son siempre el mismo.
+  0 = teja      Gobernanza y política
+  1 = ocre      Mercados e industria
+  2 = ciruela   Riesgo y seguridad
+  3 = oliva     Sociedad
+
+Gana el primer tag de la entrada que esté en _data/familias.yml. Los tags que no
+están ahí —"latam", sobre todo, que lo llevan todas las entradas— se saltan, así
+que [latam, gobernanza, mercados] da la familia de gobernanza. Sin ningún tag
+mapeado, cae en 0.
 
 Doble Lectura no usa esto: tiene su propio tono fijo (tinta) vía .seccion-lectura.
 {%- endcomment -%}
-{%- assign _dia = include.date | date: "%j" | plus: 0 -%}
-{{- _dia | times: 3 | modulo: 4 -}}
+{%- assign _fam = "" -%}
+{%- for _t in include.tags -%}
+  {%- if _fam == "" -%}
+    {%- assign _busca = site.data.familias[_t] -%}
+    {%- unless _busca == nil -%}{%- assign _fam = _busca -%}{%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if _fam == "" -%}{%- assign _fam = 0 -%}{%- endif -%}
+{{- _fam -}}

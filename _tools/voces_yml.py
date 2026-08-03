@@ -43,6 +43,7 @@ EDGE = {
     "es-CO-GonzaloNeural": "Gonzalo (Colombia)",
     "es-CL-CatalinaNeural": "Catalina (Chile)",
 }
+MOTOR_EDGE = "Microsoft Azure"
 
 ELEVENLABS = {
     "es-CO-SalomeNeural": "Virginia (Colombia)",
@@ -50,6 +51,7 @@ ELEVENLABS = {
     "es-CO-GonzaloNeural": "Andrés (Colombia)",
     "es-CL-CatalinaNeural": "Catalina (Chile)",
 }
+MOTOR_ELEVENLABS = "ElevenLabs"
 
 PATRON_VOZ = re.compile(r"es-[A-Z]{2}-[A-Za-z]+Neural")
 PATRON_FECHA_POST = re.compile(r"^(\d{4}-\d{2}-\d{2})-(.+)\.md$")
@@ -87,13 +89,15 @@ def main():
         fecha = fechas.get(slug)
         if fecha is None:
             sin_fecha.append(slug)
-        tabla = EDGE if (fecha is not None and fecha < MIGRACION) else ELEVENLABS
+        viejo = fecha is not None and fecha < MIGRACION
+        tabla = EDGE if viejo else ELEVENLABS
+        motor = MOTOR_EDGE if viejo else MOTOR_ELEVENLABS
 
         nombre = tabla.get(voz)
         if not nombre:
             sin_mapear.add(voz)
             continue
-        filas.append((slug, nombre))
+        filas.append((slug, nombre, motor))
 
     lineas = [
         "# Quién narra el audio de cada entrada — lo muestra _includes/audio.html.",
@@ -101,15 +105,19 @@ def main():
         "# que lee los .voice de _audio/. Un slug ausente simplemente no muestra la voz.",
         "",
     ]
-    lineas += ['%s: "%s"' % (slug, nombre) for slug, nombre in filas]
+    for slug, nombre, motor in filas:
+        lineas.append("%s:" % slug)
+        lineas.append('  voz: "%s"' % nombre)
+        lineas.append('  motor: "%s"' % motor)
     SALIDA.write_text("\n".join(lineas) + "\n", encoding="utf-8")
 
     print("%d voces escritas en %s" % (len(filas), SALIDA.relative_to(RAIZ)))
     reparto = {}
-    for _, nombre in filas:
-        reparto[nombre] = reparto.get(nombre, 0) + 1
-    for nombre, n in sorted(reparto.items(), key=lambda x: -x[1]):
-        print("   %-22s %d" % (nombre, n))
+    for _, nombre, motor in filas:
+        clave = "%s — %s" % (nombre, motor)
+        reparto[clave] = reparto.get(clave, 0) + 1
+    for clave, n in sorted(reparto.items(), key=lambda x: -x[1]):
+        print("   %-40s %d" % (clave, n))
     if sin_fecha:
         print("Sin fecha (se asumió ElevenLabs): %s" % ", ".join(sin_fecha))
     if sin_mapear:

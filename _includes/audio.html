@@ -5,7 +5,7 @@
 <div class="lectura-audio">
   <p class="audio-cab">
     <span class="audio-label">{{ include.label }}</span>
-    {% if _voz %}<span class="audio-voz">Narra {{ _voz }}</span>{% endif %}
+    {% if _voz %}<span class="audio-voz">Narra {{ _voz.voz }} · voz sintética de {{ _voz.motor }}</span>{% endif %}
   </p>
   <audio controls preload="none" src="{{ _audiopath | relative_url }}"></audio>
   <div class="audio-speeds">
