@@ -25,25 +25,43 @@ No hay que tocar nada a mano en el día a día.
 - `index.md` — portada (lista de entradas).
 - `about.md` — qué es el blog + suscripción.
 
-## Diseño: el tono de cada entrada
+## Diseño: franjas y color por tema
 
-Cada entrada del blog diario tiene su propio color, para que dos publicaciones seguidas
-no se vean idénticas en la portada. Hay dos capas de color y conviene no mezclarlas:
+Dos mecanismos distintos que conviene no confundir:
 
-- **`--accent` / `--accent-text`** — la marca: header, footer, cursor parpadeante, botón
-  de suscripción. No cambia nunca.
-- **`--tono`** — la entrada: capitular, enlaces del cuerpo, líneas de los `h2`, caja de
-  audio y el cuadradito del feed. Rota entre cuatro colores (teja, ocre, oliva, ciruela).
+- **Las franjas alternadas** (`--banda`) son las que separan una publicación de la
+  siguiente en la portada, el archivo y el índice de lecturas, como en una tabla.
+- **El color** (`--tono`) no marca la posición sino el **tema**: capitular, enlaces del
+  cuerpo, líneas de los `h2`, caja de audio, fecha y cuadradito del feed.
 
-El tono sale de la **fecha**, no de la posición en la lista: `(día del año × 3) módulo 4`,
-en `_includes/tono.html`. Como 3 y 4 son coprimos, dos entradas de días seguidos nunca
-comparten tono, y el color de la portada es siempre el mismo que el de la entrada abierta
-y el del archivo. La routine no tiene que hacer nada: el cálculo es automático.
+Encima de todo eso está la marca (`--accent` / `--accent-text`): header, footer, cursor
+parpadeante y botón de suscripción, que no cambian nunca.
 
-**Doble Lectura** no rota: usa tinta fijo y un papel más frío (`.seccion-lectura`), para
-que se distinga del diario de un vistazo.
+### Las cuatro familias temáticas
 
-Para volver al diseño anterior (acento único teja, sin modo oscuro):
+| Color | Familia | Temas |
+|---|---|---|
+| teja | Gobernanza y política | gobernanza, participación, ética |
+| ocre | Mercados e industria | mercados, lanzamientos |
+| ciruela | Riesgo y seguridad | seguridad, datos |
+| oliva | Sociedad | trabajo, educación, salud, diseño |
+
+El mapa vive en `_data/familias.yml` y lo resuelve `_includes/tono.html`, que toma el
+**primer tag de la entrada que esté en ese archivo**. `latam` queda fuera a propósito:
+lo llevan todas las entradas, así que no distingue nada y el include sigue de largo al
+tag siguiente. Si ningún tag está mapeado, la entrada cae en teja. La routine no tiene
+que hacer nada: sale de los `tags` que ya escribe.
+
+Al agregar un tema nuevo a `_data/temas.yml`, conviene agregarlo también a
+`_data/familias.yml` (con y sin tilde) para que no caiga en teja por descarte.
+
+La leyenda de `/entradas/` está escrita a mano en ese archivo: si cambian las familias,
+hay que actualizarla ahí.
+
+**Doble Lectura** no usa las familias: tiene tinta fijo y un papel más frío
+(`.seccion-lectura`), para que se distinga del diario de un vistazo.
+
+Para volver al diseño original (acento único teja, sin franjas):
 
 ```bash
 git checkout diseno-v1
