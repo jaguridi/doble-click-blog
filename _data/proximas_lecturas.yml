@@ -17,7 +17,7 @@
 
 - titulo: "Los modelos de lenguaje tendrían algo parecido a un 'espacio de trabajo' interno"
   paper: "Verbalizable Representations Form a Global Workspace in Language Models"
-  autores: "Gurnee et al. (Anthropic)"
+  autores: "Lindsey (Anthropic)"
   publicado: "Anthropic, Transformer Circuits, julio 2026"
   url: "https://transformer-circuits.pub/2026/workspace/index.html"
 
@@ -25,3 +25,14 @@
   paper: "Generative AI experimentation in government: Learning from emerging guidelines"
   autores: "Tõnurist y von Knebel (OCDE)"
   publicado: "OECD Working Papers on Public Governance, 2026"
+
+- titulo: "Google mide su propia IA en la economía: mucha gente, poca automatización de punta a punta"
+  paper: "Google's AI & Economy ATLAS v1.0: Mapping Gemini Usage in the Economy"
+  autores: "Iscenko, Strand et al. (Google y Google DeepMind)"
+  publicado: "Google, julio 2026"
+
+- titulo: "La IA generativa inunda el mercado del libro y diluye lo que gana cada título"
+  paper: "Generative AI floods and dilutes the market for books"
+  autores: "Chakrabarty et al. (Stony Brook, Columbia Law, U. Michigan)"
+  publicado: "arXiv, julio 2026"
+  url: "https://arxiv.org/abs/2607.20349"
