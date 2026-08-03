@@ -156,6 +156,10 @@ body::before{
   animation-delay:calc(var(--i,0) * 70ms + 80ms);
 }
 .entry:nth-of-type(even){ background:var(--banda); }
+/* En las listas filtrables (/entradas/ y /doble-lectura/) la franja no puede salir
+   de :nth-child: al filtrar por tema quedan filas ocultas en medio y la alternancia
+   se descuadra. La reparte buscador.html contando sólo lo visible. */
+.buscable.franja{ background:var(--banda); }
 @keyframes rise{ to{ opacity:1; transform:none; } }
 .entry-link{ display:block; text-decoration:none; color:inherit; padding:2rem 0 2rem 1.7rem; transition:padding-left .25s ease; }
 .entry-link:hover{ padding-left:2.3rem; }
@@ -286,7 +290,6 @@ body::before{
 .coming-next-cite{ display:block; font-family:"Space Mono", monospace; font-size:.7rem; line-height:1.5; color:var(--muted); margin-top:.2rem; }
 .lectura-list{ list-style:none; padding:0; margin:1.5rem 0 0; }
 .lectura-item{ position:relative; padding:1.6rem 1.3rem 1.6rem 2.8rem; margin:0 -1.3rem; border-radius:3px; }
-.lectura-item:nth-child(even){ background:var(--banda); }
 .lectura-item::before{ content:""; position:absolute; left:1.3rem; top:2.05rem; width:.5rem; height:.5rem; background:var(--tono); }
 .lectura-item > a{ display:block; text-decoration:none; color:inherit; }
 .lectura-item > a:hover .lectura-title{ color:var(--tono); }
@@ -344,7 +347,6 @@ body::before{
 .archive-year{ font-family:"Space Mono", monospace; font-size:.8rem; letter-spacing:.16em; color:var(--accent-text); border-bottom:1px solid var(--line); padding-bottom:.4rem; margin:2.4rem 0 .3rem; }
 .archive-list{ list-style:none; padding:0; margin:0; }
 .archive-list li{ padding:0 1.3rem; margin:0 -1.3rem; border-radius:3px; }
-.archive-list li:nth-child(even){ background:var(--banda); }
 .archive-list a{ display:flex; gap:1.2rem; align-items:baseline; padding:.95rem 0; text-decoration:none; color:var(--ink); transition:padding-left .2s, color .2s; }
 .archive-list a:hover{ padding-left:.5rem; color:var(--tono); }
 .archive-date{ font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); flex:0 0 8rem; }

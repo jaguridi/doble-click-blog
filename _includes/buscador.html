@@ -30,6 +30,15 @@ document.addEventListener('DOMContentLoaded', function(){
       var any = g.querySelectorAll('.buscable:not([style*="none"])').length > 0;
       g.style.display = any ? '' : 'none';
     });
+    // Franjas alternadas contando SOLO lo visible: con :nth-child, al filtrar
+    // quedan filas ocultas en medio y la alternancia se descuadra. Además así
+    // la alternancia sigue de largo entre un mes y el siguiente.
+    var n = 0;
+    items.forEach(function(it){
+      if (it.style.display === 'none') { it.classList.remove('franja'); return; }
+      it.classList.toggle('franja', n % 2 === 1);
+      n++;
+    });
     if (empty) empty.hidden = (visible !== 0);
   }
   chips.forEach(function(c){
@@ -41,5 +50,6 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   });
   if (search) search.addEventListener('input', apply);
+  apply();  // estado inicial: reparte las franjas al cargar
 });
 </script>
