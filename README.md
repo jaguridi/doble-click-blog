@@ -58,8 +58,9 @@ Al agregar un tema nuevo a `_data/temas.yml`, conviene agregarlo también a
 La leyenda de `/entradas/` está escrita a mano en ese archivo: si cambian las familias,
 hay que actualizarla ahí.
 
-**Doble Lectura** no usa las familias: tiene tinta fijo y un papel más frío
-(`.seccion-lectura`), para que se distinga del diario de un vistazo.
+**Doble Lectura** usa el mismo papel y las mismas familias que el diario: es la misma
+publicación, y lo que la distingue es el kicker ("Doble Lectura #N"), no el color. Una
+lectura de gobernanza y una entrada de gobernanza se ven del mismo color.
 
 Para volver al diseño original (acento único teja, sin franjas):
 

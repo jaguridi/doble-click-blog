@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post lectura">
+<article class="post lectura tono-{% include tono.html tags=page.tags %}">
   <header class="post-header">
     <p class="kicker">Doble Lectura{% if page.numero %} #{{ page.numero }}{% endif %}</p>
     <p class="post-meta"><span class="entry-date">{% include fecha.html date=page.date %}</span></p>

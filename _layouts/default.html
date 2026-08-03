@@ -12,11 +12,7 @@
   {% feed_meta %}
   {% seo %}
 </head>
-{%- comment -%}
-Doble Lectura lleva su propio papel (más frío) y su tono fijo en tinta. La clase
-va en el <body> para que cubra tanto el índice /doble-lectura/ como cada lectura.
-{%- endcomment -%}
-<body{% if page.collection == 'lecturas' or page.url == '/doble-lectura/' %} class="seccion-lectura"{% endif %}>
+<body>
   <header class="site-header">
     <a class="brand" href="{{ '/' | relative_url }}">Doble&nbsp;Click<span class="cursor" aria-hidden="true"></span></a>
     <nav class="site-nav">

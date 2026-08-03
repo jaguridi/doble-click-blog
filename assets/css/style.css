@@ -14,8 +14,8 @@
    sino las franjas alternadas (--banda), como en una tabla. Así el color queda
    libre para significar el tema y no la posición.
 
-   Doble Lectura no rota: se queda siempre en tinta, con un papel más frío,
-   para que se distinga del diario de un vistazo (ver .seccion-lectura).
+   Doble Lectura usa exactamente el mismo papel y las mismas familias que el
+   diario: es la misma publicación, y lo que la distingue es el kicker, no el color.
    ============================================================ */
 
 :root{
@@ -34,13 +34,11 @@
   --accent-text:#b8381f;     /* misma familia, un punto más oscura — la que pasa
                                 AA (4.5:1) en texto chico; el teja da 4.0:1 */
 
-  /* familia de tonos: misma saturación apagada, valor parecido.
-     Los cuatro primeros rotan por entrada; tinta queda reservado a Doble Lectura. */
+  /* familia de tonos: misma saturación apagada, valor parecido */
   --teja:#b8381f;
   --ocre:#7d5f10;
   --oliva:#4f6b3a;
   --ciruela:#8a3355;
-  --tinta:#35598f;
 
   --tono:var(--teja);        /* por defecto, si el layout no asigna clase */
 
@@ -76,20 +74,6 @@ body::before{
 }
 .site-header,.site-main,.site-footer{ position:relative; z-index:1; }
 
-/* Doble Lectura: papel medio grado más frío y tinta fijo. Lo pone default.html
-   en el <body>, así cubre tanto el índice de la sección como cada lectura. */
-.seccion-lectura{
-  --paper:#f6f6f9;
-  --paper-2:#e9e9ef;
-  --banda:#eeeef4;
-  --line:#d9d9e2;
-  --tono:var(--tinta);
-}
-.seccion-lectura::before{
-  background:
-    radial-gradient(circle at 12% 8%, rgba(53,89,143,.05), transparent 38%),
-    radial-gradient(circle at 92% 88%, rgba(40,42,80,.035), transparent 44%);
-}
 /* ---------- header ---------- */
 .site-header{
   max-width:var(--wide); margin:0 auto;

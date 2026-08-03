@@ -26,7 +26,7 @@ permalink: /doble-lectura/
 {% if lecturas.size == 0 %}<p class="empty">Pronto, la primera lectura.</p>{% endif %}
 <ul class="lectura-list">
 {% for l in lecturas %}
-  <li class="lectura-item buscable" data-tags="{{ l.tags | join: ' ' }}" data-text="{{ l.title | downcase | escape }} {{ l.description | downcase | escape }} {{ l.tags | join: ' ' | downcase }}">
+  <li class="lectura-item buscable tono-{% include tono.html tags=l.tags %}" data-tags="{{ l.tags | join: ' ' }}" data-text="{{ l.title | downcase | escape }} {{ l.description | downcase | escape }} {{ l.tags | join: ' ' | downcase }}">
     <a href="{{ l.url | relative_url }}">
       <span class="lectura-date">{% include fecha.html date=l.date corta=true %}</span>
       <span class="lectura-title">{{ l.title }}</span>
