@@ -1,0 +1,9 @@
+Hoy Alibaba anunció que va a publicar los pesos de su modelo más grande, Qwen tres punto ocho Max. Que un modelo tenga pesos abiertos significa que cualquiera puede descargarlo y ejecutarlo en su propio hardware, sin depender del servidor de nadie. Es un modelo enorme: dos coma cuatro billones de parámetros y una ventana de un millón de tokens, pensado para tareas que duran días, como desarrollo de software o reproducción de investigación. Los pesos llegan a mediados de agosto.
+
+Para América Latina el dato que importa no es el tamaño, sino la jurisdicción. Por primera vez, un modelo de capacidad de punta se puede correr sobre infraestructura propia, con los datos dentro del país y sin pagar la tarifa de un laboratorio cerrado. Ese es, justamente, el argumento que hoy traba buena parte de las compras públicas de inteligencia artificial en la región. Conviene una advertencia: las comparaciones que lo ubican a la altura de los modelos cerrados más avanzados vienen de pruebas internas de la propia empresa, sin verificación independiente.
+
+El mismo día se publicó el mapa de la pelea política que esto desata: ciento setenta y nueve empresas emergentes de Silicon Valley le pidieron a Washington que preserve el acceso a los modelos abiertos chinos, mientras otros laboratorios empujan en sentido contrario. La región es el mercado que esa discusión da por sentado, y no tiene a nadie sentado en la mesa.
+
+Queda la pregunta del día. Si el modelo dejó de ser el cuello de botella, y el cuello de botella pasó a ser dónde y bajo qué reglas corre el cómputo, ¿tiene sentido seguir escribiendo las políticas de inteligencia artificial en los ministerios de ciencia, y no en los de hacienda y energía?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
