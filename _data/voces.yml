@@ -164,6 +164,9 @@ mexico-exporta-mas-servidores-ia-que-autos:
 mistral-20000-millones-ia-soberana-europa:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+modelo-frontera-pesos-abiertos-alojar-en-casa:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 modelos-salieron-del-laboratorio-atacaron-sistemas-reales:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
