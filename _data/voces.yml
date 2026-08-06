@@ -101,6 +101,9 @@ enciclica-papal-inteligencia-artificial:
 espacio-trabajo-global-modelos:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+estados-unidos-no-evaluara-modelos-pesos-abiertos:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 estados-unidos-sin-supervision-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
