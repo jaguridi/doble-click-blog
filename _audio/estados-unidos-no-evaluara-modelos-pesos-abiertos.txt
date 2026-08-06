@@ -1,0 +1,9 @@
+La Casa Blanca les dijo a los grandes laboratorios de inteligencia artificial, en reuniones a puerta cerrada el cuatro de agosto, que su nuevo marco federal de revisión de seguridad no va a cubrir a los modelos de pesos abiertos. Pesos abiertos quiere decir que cualquiera puede descargar el modelo y correrlo en su propia infraestructura, sin pedirle permiso ni pagarle por uso a quien lo creó.
+
+El marco obliga a entregar los modelos cerrados con hasta treinta días de anticipación, para pruebas de ciberseguridad antes de cada lanzamiento. Los modelos abiertos, incluidos los chinos, quedan fuera de todo alcance federal. El director nacional de ciberseguridad justificó la exención diciendo que un régimen regulatorio estrangularía el crecimiento y la innovación. Desde la industria, Dario Amodei había pedido exactamente lo contrario: revisiones obligatorias para abiertos y cerrados por igual.
+
+Para América Latina la asimetría corre al revés de lo que conviene. Los modelos que la región adopta, por precio, por poder correrlos en infraestructura propia y por soberanía de los datos, son precisamente los que ningún Estado va a revisar. Y hay evidencia técnica reciente de que ahí está el riesgo. Una medición independiente encontró en un modelo abierto capacidad de frontera para ataques informáticos, sin ninguna mitigación y sin un solo rechazo. Y el instituto británico de seguridad midió en julio que la brecha en esa capacidad, entre modelos abiertos y cerrados, se acortó de seis a diez meses, a cuatro a siete meses.
+
+Si el país donde se producen decide no evaluarlos, la carga se traslada entera a quien los despliega: ministerios, bancos y hospitales de la región. Queda una pregunta abierta. ¿Cuál sería la unidad mínima viable de capacidad de evaluación propia, y quién la paga, antes de que se firme a ciegas la primera compra pública grande?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
