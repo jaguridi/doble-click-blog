@@ -215,6 +215,9 @@ pentagono-anthropic-seguridad-nacional-palanca:
 persuadir-modelos-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+peru-uruguay-costa-rica-ascenso-chatgpt:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 pesos-abiertos-carta-washington-america-latina:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
