@@ -1,0 +1,9 @@
+Por primera vez desde que publicó su marco de preparación en dos mil veintitrés, Open A I activó el nivel crítico de capacidad cibernética y frenó el desarrollo interno de Astra, un modelo que todavía no lanza. La empresa dice que sus evaluaciones preliminares muestran un rendimiento lo bastante fuerte como para no poder descartar ese nivel, que en su propia definición significa encontrar y aprovechar fallas de seguridad desconocidas, contra sistemas reales y bien protegidos, sin ninguna intervención humana.
+
+Las medidas son concretas. Suspendió las actividades internas con Astra que no cumplan nuevas salvaguardas y montó un monitoreo capaz de interrumpir actividad de alto riesgo. Pero lo notable no es la pausa, sino el procedimiento. El umbral lo definió, lo midió, lo verificó y lo aplicó la misma empresa que gana con el lanzamiento, sin auditoría externa publicada. Es una decisión responsable tomada en un sistema donde nadie más podría haberla tomado, ni tampoco contradicho.
+
+Para América Latina esto es concreto y no hipotético. La región importa capacidad ofensiva mucho más de lo que la produce, y su infraestructura crítica, energía, banca, registro civil, salud, es más antigua y peor defendida que la de los países donde se decide cuándo sale un modelo. Ninguno de los marcos en trámite en Brasil, Chile o Colombia obliga a declarar un umbral de capacidad ofensiva antes de operar en el mercado local, ni define quién audita esa declaración.
+
+Queda la pregunta. Si la única evidencia de que un modelo alcanzó una capacidad peligrosa son las evaluaciones internas de la empresa que decide lanzarlo, ¿qué tendría que existir en la región para que un país pueda verificar por su cuenta una sola de esas afirmaciones?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
