@@ -8,6 +8,9 @@ aisi-modelos-frontera-hacen-trampa-ciberseguridad:
 alibaba-veta-claude-code-ia-bloques:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+amazon-central-gas-propia-data-center-texas:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 anthropic-bolsa-windows-agentes-ia-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
