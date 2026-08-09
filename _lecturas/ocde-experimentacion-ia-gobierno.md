@@ -17,7 +17,7 @@ audio: true
 ## La ficha
 
 - **Qué es:** *Generative AI experimentation in government: Learning from emerging guidelines*
-- **Quiénes:** [Piret Tõnurist](https://www.oecd.org/en/about/people/piret-tonurist.html) y Moritz von Knebel, de la Dirección de Gobernanza Pública de la OCDE. El trabajo fue cofinanciado por la Unión Europea.
+- **Quiénes:** [Piret Tõnurist](https://www.oecd.org/en/about/people/piret-tonurist.html), de la Dirección de Gobernanza Pública de la OCDE, y Moritz von Knebel, consultor externo. El trabajo fue cofinanciado por la Unión Europea.
 - **Dónde:** *OECD Working Papers on Public Governance* No. 93, 2026. [doi.org/10.1787/42815683-en](https://doi.org/10.1787/42815683-en)
 - **Tipo:** revisión sistemática de guías oficiales de gobierno, complementada con literatura académica y estudios de caso. No es un experimento ni una medición de impacto.
 
@@ -25,7 +25,7 @@ audio: true
 
 El punto de partida del documento es un hecho que cualquiera que trabaje en el Estado reconoce: los funcionarios ya están usando IA generativa, muchas veces sin aprobación formal ni supervisión clara. Entre esa adopción rápida y descentralizada, y los mecanismos de gobernanza que van bastante más lento, se abrió una brecha. El trabajo se mete ahí, y elige un ángulo específico: no mira el despliegue a gran escala sino la experimentación, entendida como la etapa donde un gobierno prueba, aprende y decide si corresponde escalar.
 
-El método es una revisión de las guías oficiales que catorce países ya publicaron sobre el tema. El anexo lista los documentos revisados, y da una idea del universo: Reino Unido con siete guías distintas, Australia con siete, más Irlanda, Nueva Zelanda, Finlandia, Países Bajos, Canadá, Singapur, Emiratos Árabes Unidos, Suiza, Corea, Italia, Japón, Estados Unidos, Noruega y Suecia.
+El método es una revisión de las guías oficiales que los gobiernos ya publicaron sobre el tema. El texto reporta catorce países: Australia, Canadá, Finlandia, Irlanda, Italia, Japón, Nueva Zelanda, Noruega, Suecia, Suiza, Países Bajos, Reino Unido, Estados Unidos y Singapur. El anexo, que lista los documentos uno por uno, agrega además a Emiratos Árabes Unidos y a Corea, y da una idea del universo: Reino Unido aparece con siete guías distintas y Australia con siete.
 
 El primer hallazgo es de forma. Las guías existen y son abundantes, pero están fragmentadas y son muy desparejas entre sí. Van desde declaraciones generales de valores hasta manuales detallados con listas de verificación. Muchos gobiernos publicaron principios de alto nivel sobre uso ético o responsable, y bastante poca orientación operativa sobre cómo diseñar, correr y juzgar un experimento concreto. La consecuencia que señalan los autores no es la que uno esperaría: esa disparidad no produce libertad, produce incertidumbre, y la incertidumbre produce aversión al riesgo o prácticas inconsistentes entre reparticiones e incluso dentro de una misma. La falta de herramientas compartidas también multiplica la duplicación, porque cada equipo reinventa lo que otro ya probó.
 
@@ -48,4 +48,4 @@ Una prudencia final sobre qué tipo de evidencia es esta. Es una revisión de do
 - Es una revisión de guías oficiales publicadas, así que hereda el sesgo de lo que está escrito y en inglés. Un país puede tener prácticas de evaluación sin haberlas publicado como guía, y no aparecería aquí.
 - Los propios autores aclaran en las notas que su tabla principal solo recoge países cuyos documentos declaran principios de forma explícita, y que algunos casos, como Estados Unidos, emitieron orientación para agencias específicas o a nivel estatal que no queda representada.
 - El marco de evaluación en cinco áreas es una propuesta del documento, no un estándar acordado ni algo que se haya probado en terreno.
-- El trabajo fue cofinanciado por la Unión Europea, lo que ayuda a explicar el peso europeo de la muestra.
+- El trabajo fue cofinanciado por la Unión Europea. La propia publicación aclara que su contenido es responsabilidad exclusiva de la OCDE y no refleja necesariamente la posición de la Unión Europea. Vale tenerlo a la vista al leer un documento que evalúa guías de gobierno, varias de ellas de Estados miembros.
