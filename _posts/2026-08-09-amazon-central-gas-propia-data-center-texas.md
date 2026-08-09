@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Amazon se construye una central de gas para su data center"
+description: "Cuando la red eléctrica no alcanza, el hyperscaler no cambia de país: levanta su propia planta al lado del galpón."
+date: 2026-08-09 08:05:28 -0400
+tags: [mercados, gobernanza, latam]
+audio: true
+---
+
+En el condado de Pecos, Texas, Amazon está levantando una central de gas de 35 turbinas y 7,65 gigawatts —más grande que cualquier planta de gas en operación en Estados Unidos— dedicada por completo a alimentar un data center de inteligencia artificial que ni siquiera se conectará a la red eléctrica estatal. El hallazgo es de Cleanview, que cruzó permisos de construcción, el permiso de emisiones al aire y una imagen satelital del 24 de julio, y lo publicó en [Distilled](https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the); Amazon confirmó la operación y The New York Times publicó su propia versión el 8 de agosto.
+
+El permiso autoriza emitir más de 30 millones de toneladas de CO2 al año —33 millones según la cifra que replicó el Times—, más que cualquier otra fuente única del país y más del doble de la mayor planta de carbón estadounidense. Y no es un caso aislado: Cleanview cuenta cerca de 60 proyectos comparables de generación dedicada fuera de red anunciados desde comienzos de 2025, por unos 90 gigawatts en total. Es un cambio de escala en cómo se resuelve el problema de la energía para la IA, y ocurre fuera de los mecanismos habituales de planificación eléctrica.
+
+Para América Latina el asunto importa por una razón que no es ambiental sino estratégica. Chile, Brasil y Colombia compiten por atraer cómputo con un argumento repetido: matriz eléctrica limpia, capacidad disponible, buen clima regulatorio. Este caso muestra que cuando la red no da, el hyperscaler no se muda a otro país: se construye su propia central fósil al lado del galpón. La pregunta que casi ninguna licitación regional está haciendo hoy es quién genera la electricidad del data center y en qué inventario de emisiones queda registrada.
+
+## También hoy
+
+- **[Evo 2 diseña genomas completos de virus que funcionan](https://news.stanford.edu/stories/2026/08/evo-2-ai-tool-e-coli-killer-bacteriophages)** — Dieciséis bacteriófagos —virus que infectan bacterias— diseñados por un modelo generativo lograron matar E. coli. Es el primer caso publicado en que un modelo diseña organismos funcionales desde cero, y el único filtro entre esa secuencia y su impresión física en ADN sigue siendo voluntario.
+- **[El tribunal electoral de Brasil firma un acuerdo con ElevenLabs contra la clonación de voz](https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/eleicoes-2026-tse-fecha-acordo-com-elevenlabs-contra-deepfakes-de-voz)** — Una lista de voces protegidas para candidatos y autoridades, a ocho días de que arranque la campaña. Funciona mientras el fraude use esa plataforma y no un modelo abierto.
+- **[Alibaba planea cobrar un porcentaje de ingresos a los grandes usuarios comerciales de Qwen](https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/)** — Si los dos modelos abiertos chinos más capaces exigen acuerdo comercial por encima de cierta facturación, lo que queda realmente abierto es usarlos, no construir un negocio encima.
+- **[Uno de cada cinco trabajadores estadounidenses dice que la IA hace trabajo que antes delegaba en otra persona](https://epoch.ai/publications/one-in-five-workers-delegate-work-to-ai)** — La encuesta de Epoch AI con Ipsos mide sustitución, no solo adopción. La palabra que carga el dato para la región es *contratista*: nadie está midiendo cuántos encargos tercerizados dejan de llegar.
+- **[América Latina apenas asoma en el medallero de la Olimpiada Internacional de IA](https://avn.info.ve/cuatro-jovenes-venezolanos-destacan-en-olimpiada-internacional-de-inteligencia-artificial/)** — Terminó en Astana la competencia escolar. Brasil filtró 965.000 postulantes para enviar a cuatro chicos, Venezuela volvió con una mención honorífica y Rusia ganó por tercer año consecutivo.
+- **[OpenAI compra NextSlide y suma su equipo a ChatGPT](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/)** — Monto no divulgado y operación cerrada meses atrás: nos enteramos por un post de LinkedIn del fundador. Generar presentaciones dejó de ser un negocio y pasó a ser una función.
+
+## En la región
+
+Dos movimientos, ambos de continuidad institucional más que de norma nueva. En Colombia asumió el gobierno de Abelardo De La Espriella y con él [Alexandra Falla Zerrate como ministra TIC](https://www.mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/440206:Alexandra-Falla-Zerrate-asume-como-nueva-ministra-de-Tecnologias-de-la-Informacion-y-las-Comunicaciones), con seis prioridades declaradas que incluyen inteligencia artificial, soberanía digital y formación masiva de jóvenes en programación y ciencia de datos. El país llega a ese cambio con un documento CONPES de IA vigente, un proyecto de ley en trámite y el memorando con Chile por Latam-GPT, de modo que lo que está en juego no es una política nueva sino si sobreviven las que ya existen. En Brasil, el Tribunal Superior Electoral cerró un memorando con ElevenLabs —sin transferencia de recursos, vigente hasta fin de año— que crea una lista de voces protegidas, compromete soporte a las investigaciones sobre audios manipulados generados en esa plataforma e integra herramientas de voz al Asistente Electoral para electores con discapacidad visual y baja alfabetización digital. La campaña empieza el 16 de agosto. Y para quien trabaje en el sector público, una publicación útil que pasó algo desapercibida: la [Guía de implementación de proyectos de inteligencia artificial en el sector público 2026](https://www.cepal.org/es/publicaciones/90149-guia-implementacion-proyectos-inteligencia-artificial-sector-publico-2026), de CEPAL con la Cooperación Alemana, 57 páginas en español publicadas en julio.
+
+---
+
+*Si el argumento con que la región compite por atraer cómputo —energía limpia, capacidad disponible, buen clima regulatorio— deja de importar porque el comprador se construye su propia central al lado del data center, ¿qué le queda a un país latinoamericano para negociar? ¿Y sigue teniendo sentido competir aisladamente, en vez de fijar condiciones comunes?*
+
+<small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>
