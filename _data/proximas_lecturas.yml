@@ -14,12 +14,6 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-
-- titulo: "Google mide su propia IA en la economía: mucha gente, poca automatización de punta a punta"
-  paper: "Google's AI & Economy ATLAS v1.0: Mapping Gemini Usage in the Economy"
-  autores: "Iscenko, Strand et al. (Google y Google DeepMind)"
-  publicado: "Google, julio 2026"
-
 - titulo: "La IA generativa inunda el mercado del libro y diluye lo que gana cada título"
   paper: "Generative AI floods and dilutes the market for books"
   autores: "Chakrabarty et al. (Stony Brook, Columbia Law, U. Michigan)"

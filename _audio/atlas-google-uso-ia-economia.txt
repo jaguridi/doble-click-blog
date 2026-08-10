@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click. Hoy, qué muestra Google cuando mide cuánta de la economía toca realmente su propia inteligencia artificial.
+
+El reporte se llama ATLAS y es la primera entrega de una iniciativa de investigación económica de Google sobre sus propios registros de uso. Tomaron casi quince millones de conversaciones anonimizadas de dos semanas de abril de 2026, y las mapearon contra las clasificaciones oficiales de ocupaciones, de tareas y de uso del tiempo de Estados Unidos. No miden si la gente logró lo que quería. Miden qué le pide a la herramienta.
+
+El hallazgo central son dos cifras que hay que leer juntas. La inteligencia artificial aparece en el sesenta y ocho por ciento de las ocupaciones, que concentran más del ochenta y ocho por ciento del empleo estadounidense. Pero en la ocupación mediana cubre apenas el veintiuno por ciento de las tareas de ese oficio. Es una penetración ancha y delgada. Y cuando clasifican qué se le pide, la intención de que la máquina haga la tarea completa de punta a punta aparece en menos del diez por ciento de las conversaciones de trabajo cognitivo no rutinario. Lo que domina es pedir borradores, revisar, discutir ideas y buscar información.
+
+Hay dos datos más que van en direcciones opuestas. Uno: la inteligencia artificial también aparece en el trabajo manual, con mecánicos y técnicos usándola con fotos y video para diagnosticar. Otro: el uso escala con el sueldo. Mientras más gana una ocupación, más intensamente usa la herramienta.
+
+¿Y desde América Latina? La región aparece bien parada. Chile, Perú, Brasil, Argentina y Colombia están en los tramos altos de uso por habitante, por encima de lo que predice su nivel de ingreso. Y hay un dato lindo sobre el idioma: el español es la segunda lengua del conjunto de datos, y la gente no se cambia al inglés para las tareas importantes. Usa su propia lengua para el trabajo tanto como para la vida diaria.
+
+Pero conviene no quedarse solo con la parte amable. Cuando se mide el uso laboral como porcentaje del total de conversaciones de cada país, la región queda arriba y Estados Unidos y Europa quedan abajo. Los propios autores dicen que eso puede significar profesionales aprovechando la herramienta con más intensidad, o simplemente que hay menos uso casual porque los datos móviles se pagan por megabyte. Y advierten algo más: el mapa de quién construye con esta tecnología, vía interfaces de programación, sigue todavía más concentrado en los países ricos.
+
+La pregunta que deja es esa. Si en nuestros países la inteligencia artificial se usa proporcionalmente más para trabajar, ¿es porque multiplica la productividad, o porque es lo único para lo que alcanza? Con estos datos no se puede distinguir, y esa diferencia importa mucho para cualquier política pública.
+
+El reporte lo firman Zanna Iscenko, Scott Strand y un equipo de Google y Google DeepMind. Es evidencia de la propia empresa sobre su propio producto, sin revisión por pares. Y esto fue una lectura automática hecha con inteligencia artificial, así que conviene revisar el reporte original antes de citarlo.
