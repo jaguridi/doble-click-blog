@@ -251,6 +251,9 @@ tecnologia-democracia-pregunta-respuesta:
 terence-tao-agentes-codigo-investigacion:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+tests-seguridad-ia-fugas-entorno-pruebas:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 ue-eeuu-modelos-opuestos-gobernanza-ia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
