@@ -29,6 +29,9 @@ anthropic-valuacion-record-deepfakes-elecciones:
 apple-demanda-openai-guerra-talento-tribunales:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+atlas-google-uso-ia-economia:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 ban-fable-5-seguridad-nacional-negociacion:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
