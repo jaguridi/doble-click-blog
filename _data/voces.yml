@@ -170,6 +170,9 @@ laboratorios-piden-poder-pausar-la-frontera:
 leon-xiv-enciclica-inteligencia-artificial:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+meta-libera-modelo-agentico-corre-sin-conexion:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 mexico-exporta-mas-servidores-ia-que-autos:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
