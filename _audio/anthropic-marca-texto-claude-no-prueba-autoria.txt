@@ -1,0 +1,11 @@
+Desde este mes, todo texto que sale de Claude, el asistente de la empresa Anthropic, lleva una marca invisible. Los modelos lanzados desde el dos de agosto embeben en el texto una señal que una máquina puede leer, que el lector no percibe, que viaja al copiar y pegar y que puede sobrevivir a cierta edición. Las imágenes llevan además metadatos firmados que certifican de dónde vienen.
+
+La obligación es europea, viene de la ley de inteligencia artificial de la Unión Europea, pero la implementación es global. Nadie en América Latina la pidió, ningún regulador de la región puede verificarla, y aun así rige acá desde ya.
+
+Lo más revelador son las dos advertencias que publica la propia empresa. Primero: detectar la marca indica que el texto pudo pasar por Claude, no que Claude sea su autor, porque el modelo pudo haber traducido, resumido o corregido un texto humano. Segundo: la ausencia de marca no prueba nada, porque la edición intensa, el cambio de formato y los pasajes cortos la borran. Es decir, el instrumento que decanos, jueces y tribunales electorales esperaban para resolver disputas de autoría no sirve para resolver disputas de autoría. Y solo alcanza a los modelos cerrados. Un modelo abierto corriendo sin conexión en una notebook no marca nada y no tiene proveedor a quien obligar.
+
+Mientras tanto, en Chile, la Cámara de Diputadas y Diputados hizo algo distinto: en vez de esperar la ley, se aplicó a sí misma la obligación. Desde el primero de septiembre, todo documento institucional deberá declarar con un sello de color cuánta inteligencia artificial se usó para hacerlo, y toda actuación deberá tener un responsable humano identificable.
+
+Entonces, ¿la transparencia se juega en detectar la máquina en el producto, o en pedirle a la persona que declare cómo lo hizo?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
