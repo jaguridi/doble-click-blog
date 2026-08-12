@@ -17,6 +17,9 @@ anthropic-bolsa-windows-agentes-ia-latam:
 anthropic-casa-blanca-choque-personalidades:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+anthropic-marca-texto-claude-no-prueba-autoria:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 anthropic-otan-glasswing-claude-code-outage:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
