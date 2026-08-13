@@ -137,6 +137,9 @@ gobernanza-ia-dos-bloques-incompatibles:
 gobernar-ia-frontera-estado:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
+google-cables-submarinos-america-latina:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 gpt-5-6-tres-modelos-sin-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
