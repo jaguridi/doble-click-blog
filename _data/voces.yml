@@ -2,6 +2,9 @@
 # GENERADO: no editar a mano. Se regenera con `python _tools/voces_yml.py`,
 # que lee los .voice de _audio/. Un slug ausente simplemente no muestra la voz.
 
+agentes-ia-coluden-precios-sin-hablarse:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 aisi-modelos-frontera-hacen-trampa-ciberseguridad:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
