@@ -1,0 +1,9 @@
+Google dejó que sus usuarios apaguen la marca de agua visible en las imágenes, los videos y la música que genera su inteligencia artificial. Basta un interruptor en los ajustes de la aplicación Gemini. Lo que se mantiene siempre, elija lo que elija el usuario, es una marca invisible incrustada dentro del archivo y unos datos técnicos que registran su origen. Google además liberó una biblioteca de código abierto para que cualquier desarrollador pueda validar esas credenciales dentro de su propia aplicación.
+
+El resultado es que la transparencia se corrió de lugar. La señal que quedaba a la vista de cualquiera desaparece, y la que sobrevive solo la puede leer quien tenga la herramienta. Ahí aparece el problema para América Latina: nadie la tiene desplegada. Ni las autoridades electorales, ni las plataformas locales, ni los medios que verifican durante una campaña. Una persona que ve un video en su teléfono ya no tiene cómo saber, mirándolo, si lo generó una máquina.
+
+El mismo día, Anthropic publicó cómo funciona su propia marca de agua para texto y reconoció algo parecido: la marca establece la probabilidad de que el modelo haya participado, no la autoría; se degrada en textos cortos y en pasajes de datos duros, y la herramienta pública para detectarla todavía no existe. Dos laboratorios, la misma jornada, dejando por escrito que la transparencia obligatoria de este año protege sobre todo a quien tiene con qué leerla.
+
+Queda la pregunta. Si la única marca que sobrevive es la que solo puede leer quien tiene el detector, y en la región no lo tiene ni una autoridad electoral, ni una plataforma, ni un medio, ¿la transparencia protege al público, o le traslada la carga de la prueba a quien menos herramientas tiene?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
