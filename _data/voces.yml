@@ -140,6 +140,9 @@ gobernanza-ia-dos-bloques-incompatibles:
 gobernar-ia-frontera-estado:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
+google-apagar-marca-agua-visible:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 google-cables-submarinos-america-latina:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
