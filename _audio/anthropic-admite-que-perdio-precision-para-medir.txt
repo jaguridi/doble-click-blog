@@ -1,0 +1,9 @@
+Anthropic publicó su segundo informe de riesgos: ciento ochenta y seis páginas que la empresa se exige a sí misma. Lo más interesante no es lo que mide, sino lo que admite que ya no puede medir. Reconoce que sus instrumentos para estimar cuánto avanzan las capacidades de sus modelos perdieron precisión, y por eso sube el riesgo de daño catastrófico por desalineación de muy bajo a bajo, aclarando que el cambio refleja incertidumbre y no un hallazgo nuevo.
+
+Aparecen además dos revelaciones. La primera es un modelo interno, llamado Modelo dos, más capaz que Mythos cinco, en uso intensivo dentro de la empresa, que nunca corrió la batería completa de pruebas previa a un despliegue y que no hay planes de liberar. La segunda es un error de once meses: una bandera de configuración dejó apagado el filtro que bloquea información biológica peligrosa en todo el tráfico de retroalimentación humana. Ciento treinta y tres millones de intercambios con unos cincuenta mil contratistas externos.
+
+Ese segundo dato es el que aterriza en la región. Las personas que califican respuestas para enseñarle al sistema qué está bien y qué no son en buena parte trabajadores del Sur global contratados por intermediarios. América Latina ya está adentro: pone trabajo y queda expuesta cuando un filtro falla, sin una sola institución capaz de auditar el informe ni la escala con la que la empresa se puntúa a sí misma. Y el documento salió el mismo día que se conoció la mejor trimestral de su historia, a semanas de su salida a bolsa.
+
+Queda la pregunta. Si el único mecanismo para saber cómo se comporta un modelo de frontera es el informe que escribe quien lo vende, ¿qué está regulando exactamente un legislador latinoamericano cuando escribe que el proveedor deberá evaluar los riesgos del sistema?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
