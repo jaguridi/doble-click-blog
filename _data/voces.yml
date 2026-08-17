@@ -158,6 +158,9 @@ hassabis-organismo-global-estandares-ia-frontera:
 ia-codigo-retornos-experiencia:
   voz: "Catalina (Chile)"
   motor: "Microsoft Azure"
+ia-diluye-mercado-libros:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 ia-empleos-marco-transicion:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
