@@ -1,0 +1,11 @@
+El domingo dieciséis de agosto arrancó la campaña electoral en Brasil y, con ella, empezó a correr sobre una elección nacional real el experimento regulatorio de inteligencia artificial más ambicioso que ha intentado América Latina.
+
+No es una ley. Es una resolución del Tribunal Superior Electoral brasileño, actualizada este año, que obliga a que todo material de propaganda creado o alterado con inteligencia artificial lo declare de modo explícito, destacado y accesible. El aviso cambia según el soporte: identificación al inicio en los audios, marca de agua y audiodescripción en las imágenes, rótulo en los videos, una nota por página en los impresos.
+
+La resolución además prohíbe los videos y audios falsos hechos para desinformar, y prohíbe que un sistema de inteligencia artificial recomiende candidatos a los usuarios. Cierra una ventana de setenta y dos horas antes y veinticuatro horas después de la votación para contenido sintético nuevo con la imagen o la voz de un candidato. Las multas van de cinco mil a treinta mil reales, y en los casos graves llegan a la pérdida del mandato.
+
+Lo interesante para la región es la vía elegida. Brasil no esperó a su marco legal de inteligencia artificial, que sigue trabado en el Congreso, y reguló por resolución de un tribunal electoral: rápido, ejecutable y de alcance acotado. Chile, con su proyecto de ley todavía en trámite, y México, que acaba de trasladar el asunto a su instituto electoral, tienen desde hoy un caso real que mirar en vez de un modelo europeo que citar.
+
+Queda la pregunta. Si la vía rápida funciona y la legislativa no avanza, ¿nos estamos acostumbrando a una gobernanza hecha de resoluciones de organismos técnicos, eficaz pero sin debate parlamentario? ¿Y qué pasa el día en que ese mismo instrumento lo use un gobierno que no nos gusta?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
