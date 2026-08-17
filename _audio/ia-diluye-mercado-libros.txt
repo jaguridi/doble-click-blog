@@ -1,0 +1,19 @@
+Doble Lectura, de Doble Click. Hoy, qué le pasa al mercado del libro cuando se llena de novelas escritas con inteligencia artificial.
+
+El estudio es de investigadores de Stony Brook, de la Escuela de Derecho de Columbia y de la Universidad de Michigan. Tomaron más de catorce mil novelas autopublicadas en Amazon entre 2023 y 2026, con sus ventas diarias reales, y pasaron el texto completo de cada una por un detector de inteligencia artificial.
+
+El primer resultado calma los ánimos. Los libros con contenido sustancial de inteligencia artificial venden mal: son el veinte por ciento del catálogo y apenas el doce por ciento de las ventas.
+
+Pero el segundo es el que importa. Aunque cada uno venda poco, son muchísimos. Entre 2023 y 2026, la cantidad de libros que vendían algo en un trimestre creció diecinueve veces, mientras la plata que movía el mercado creció nueve. Entraron muchos más libros de los que el mercado podía pagar, y lo que gana cada título cayó. Cayó también para los libros donde el detector no encuentra nada: bajaron en siete de los ocho géneros analizados, y bajaron más justo donde hay más inteligencia artificial. En el género al que llegó más tarde y menos, fantasía y terror, esos ingresos incluso subieron treinta y cinco por ciento.
+
+O sea, la inteligencia artificial no cambió este mercado ganando por calidad. Lo cambió por volumen.
+
+¿Y desde América Latina? El paper no nos mira: es un mercado en inglés, en una sola plataforma. Pero los autores dicen que las condiciones que lo hicieron vulnerable no son exclusivas suyas. Costo de entrada casi cero, lectores que vuelven por lo mismo, rankings compartidos donde lo humano y lo sintético compiten de igual a igual, y ninguna obligación de declarar cómo se hizo el libro.
+
+De ahí sale una lectura que es mía y no del paper, así que la digo como hipótesis. Si el daño depende de cuántos títulos entran frente a cuánta plata hay para repartir, los mercados chicos son más frágiles, no menos. La ficción en español mueve mucho menos dinero que la estadounidense, así que se necesitan bastantes menos libros para producir el mismo efecto.
+
+Lo que sí queda como palanca concreta es la divulgación. Ninguno de estos libros declara si tiene texto de inteligencia artificial, y es la única de esas condiciones que se puede cambiar por decisión de una plataforma o de un regulador, sin esperar a que los tribunales resuelvan el pleito grande sobre entrenamiento.
+
+La pregunta que deja es esta. Si el mecanismo es la escala y no la calidad, confiar en que el público distinga lo bueno de lo malo no alcanza para proteger a quien escribe. ¿Qué instrumento le queda a un país mediano para que sus autores no terminen compitiendo contra una oferta infinita en el mismo estante?
+
+El estudio lo firman Tuhin Chakrabarty, Xinyue Liu, Jane Ginsburg y Paramveer Dhillon, y todavía no pasa por revisión de pares. Esto fue una lectura automática hecha con Claude, así que conviene revisar el trabajo original antes de citarlo.
