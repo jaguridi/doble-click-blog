@@ -50,6 +50,9 @@ banca-latinoamericana-agentes-voz-clientes:
 brasil-aprueba-primer-marco-ia-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+brasil-reglas-ia-campana-electoral:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 brasil-regular-ia-trabajo:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
