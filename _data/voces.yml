@@ -227,6 +227,9 @@ onu-computo-ia-latam-ausente:
 openai-cinco-por-ciento-gobierno-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+openai-disuelve-equipo-riesgos-catastroficos-antes-bolsa:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 openai-frena-modelo-riesgo-cibernetico-regla-propia:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
