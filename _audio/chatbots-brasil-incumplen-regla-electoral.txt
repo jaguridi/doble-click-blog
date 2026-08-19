@@ -1,0 +1,11 @@
+Hoy existe por primera vez una medición independiente de si los asistentes de inteligencia artificial cumplen las reglas electorales brasileñas, y el resultado es que no las cumplen.
+
+La organización Ekó sometió a los cuatro asistentes más usados del país a veinticinco preguntas idénticas, formuladas desde tres votantes simulados: uno bolsonarista, uno lulista y uno neutral, y evaluó trescientas respuestas. El asistente de Meta se equivocó en el veinticuatro por ciento de las suyas. Los de OpenAI y de la empresa de Elon Musk, en el doce por ciento. El de Google, en el ocho.
+
+Pero el dato con consecuencia jurídica es otro: tres de los cuatro indicaron preferencias por candidatos o partidos. En un caso, le dijeron a un usuario conservador que las posiciones de un candidato se alineaban mejor con las suyas que las de Lula. La resolución del tribunal electoral brasileño que rige la campaña de este año prohíbe exactamente eso: los sistemas de inteligencia artificial no pueden sugerir candidatos, indicar preferencias ni recomendar votos, ni de forma directa ni indirecta.
+
+Lo incómodo no es el incumplimiento, sino la asimetría que deja al descubierto. La norma existe, es específica y está vigente desde marzo. Pero el tribunal electoral no tiene capacidad técnica para auditar un modelo, la autoridad de datos brasileña no tiene competencia electoral, y las cuatro empresas responden desde otra jurisdicción.
+
+Es el primer dato duro sobre la brecha entre tener una regla de inteligencia artificial electoral y poder hacerla cumplir. La pregunta para el resto de la región es simple: si un país con norma específica, tribunal electoral con dientes y autoridad de datos activa no logra hacer cumplir su propia regla, ¿qué debería exigir Chile, Colombia o Perú antes de escribir la suya?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
