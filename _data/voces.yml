@@ -62,6 +62,9 @@ brasil-vota-marco-ia-latam:
 castigo-ia-deliberacion:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+chatbots-brasil-incumplen-regla-electoral:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 chile-copyright-ia-megarreforma-opt-out:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
