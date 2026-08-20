@@ -1,0 +1,9 @@
+La infraestructura de vigilancia con inteligencia artificial de un país latinoamericano completo cuesta un millón doscientos mil dólares. Esa es la noticia del día. Amnistía Internacional publicó un informe llamado Estado de vigilancia, el primero que reconstruye el inventario tecnológico de vigilancia masiva del Estado argentino usando solamente documentos de compra pública y pedidos de acceso a la información. No hubo filtración ni fuente anónima. El expediente estaba a la vista.
+
+Lo que el Estado compró entre dos mil veinticuatro y dos mil veinticinco se lee como un catálogo: plataformas de inteligencia de fuentes abiertas, capaces de recolectar y cruzar enormes volúmenes de datos de redes sociales y sitios web; licencias de reconocimiento facial; drones con seguimiento automatizado; y cámaras térmicas. La investigación combina veintiuna entrevistas a periodistas, activistas y defensores de derechos humanos con el análisis de decenas de expedientes de contratación. Un asesor de la organización lo resume así: estas tecnologías se han convertido en parte integrante de la infraestructura de control estatal.
+
+Y acá está el ángulo latinoamericano. Lo relevante no es Argentina: es el método. La compra pública se está convirtiendo en el punto de control más realista que tiene la región sobre la inteligencia artificial estatal, muy por delante de cualquier ley, porque es donde la capacidad se vuelve contrato antes de volverse política. Se adquiere por montos que no exigen licitación mayor, a proveedores que no se anuncian, y el único rastro público lo audita quien decida sentarse a leer las órdenes de compra.
+
+La pregunta que queda es incómoda de lo simple que es: qué encontraría el mismo ejercicio en los portales de compra pública de Chile, Colombia, Brasil o Perú, y quién tiene hoy el mandato y el presupuesto para hacerlo.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
