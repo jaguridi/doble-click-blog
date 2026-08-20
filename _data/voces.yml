@@ -14,6 +14,9 @@ alibaba-veta-claude-code-ia-bloques:
 amazon-central-gas-propia-data-center-texas:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+amnistia-vigilancia-argentina-ordenes-de-compra:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 anthropic-admite-que-perdio-precision-para-medir:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
