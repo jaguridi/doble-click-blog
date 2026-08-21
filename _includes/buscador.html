@@ -1,10 +1,16 @@
+{%- comment -%}
+Los chips son botones de alternancia: aria-pressed dice cuál está encendido, y el JS de
+abajo lo mueve junto con la clase .chip-on. El estado inicial ("Todo") ya viene en el HTML,
+para que sea correcto aunque el JS no llegue a correr.
+{%- endcomment -%}
 <div class="temas-chips">
-  <button class="chip chip-on" data-tag="">Todo</button>
-  {% for t in site.data.temas %}<button class="chip" data-tag="{{ t }}">{{ t }}</button>
+  <button class="chip chip-on" data-tag="" aria-pressed="true">Todo</button>
+  {% for t in site.data.temas %}<button class="chip" data-tag="{{ t }}" aria-pressed="false">{{ t }}</button>
   {% endfor %}
 </div>
-<input class="temas-search" type="search" placeholder="Filtrar por palabra...">
-<p class="temas-empty" hidden>Nada por aquí. Prueba con otro tema o palabra.</p>
+<label class="sr-only" for="temas-search">Filtrar por palabra</label>
+<input class="temas-search" id="temas-search" type="search" placeholder="Filtrar por palabra...">
+<p class="temas-empty" role="status" hidden>Nada por aquí. Prueba con otro tema o palabra.</p>
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   var chips = document.querySelectorAll('.temas-chips .chip');
@@ -43,8 +49,9 @@ document.addEventListener('DOMContentLoaded', function(){
   }
   chips.forEach(function(c){
     c.addEventListener('click', function(){
-      chips.forEach(function(x){ x.classList.remove('chip-on'); });
+      chips.forEach(function(x){ x.classList.remove('chip-on'); x.setAttribute('aria-pressed', 'false'); });
       c.classList.add('chip-on');
+      c.setAttribute('aria-pressed', 'true');
       activeTag = c.getAttribute('data-tag') || '';
       apply();
     });

@@ -8,21 +8,21 @@ permalink: /about/
 
 El foco es **la región**: qué de todo esto importa para América Latina, qué oportunidades abre y qué conversaciones conviene tener.
 
-### Cómo se hace
+## Cómo se hace
 
 Las entradas se generan de forma **automática** a partir de fuentes públicas (blogs oficiales de laboratorios, universidades, organismos multilaterales, prensa especializada y reguladores de la región) y enlazan siempre a la fuente original para poder profundizar.
 
-### Qué fuentes revisamos
+## Qué fuentes revisamos
 
 Cada día miramos un conjunto amplio de fuentes: los **laboratorios de IA frontera**, **universidades y centros de investigación de América Latina**, **ministerios y reguladores** de la región, **organismos multilaterales** y estándares, equipos de **seguridad y evaluación** de modelos, **análisis e industria**, **prensa latinoamericana** e **investigación con curaduría**.
 
 Puedes ver la lista, con ejemplos de cada categoría, en **[Fuentes](/fuentes/)**. ¿Crees que falta alguna? **[Sugiérenos una fuente →](/fuentes/#sugerir)**: la revisamos y, si encaja, la sumamos.
 
-### Una aclaración importante
+## Una aclaración importante
 
 Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por ser precisos y enlazar siempre a la fuente, pero puede haber errores de interpretación o de resumen. Conviene tomar este blog como un punto de partida, no como una fuente definitiva: antes de citar una noticia o tomar decisiones a partir de ella, verifica en el enlace a la fuente original.
 
-### Newsletter
+## Newsletter
 
 ¿Prefieres recibir la entrada del día por correo? Déjanos tu email y te llega cada mañana.
 

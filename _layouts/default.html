@@ -13,13 +13,33 @@
   {% seo %}
 </head>
 <body>
+  {%- comment -%}
+  Sección en curso. Se marca con aria-current="page" en el header y en el footer, y el CSS
+  le da el color de la marca y un subrayado fino. Las entradas del blog diario NO viven bajo
+  /entradas/ (su permalink es por fecha), así que se reconocen por su layout; las lecturas sí
+  cuelgan de /doble-lectura/ y por eso esa rama va antes. Si la URL no calza con ninguna
+  sección —404, /confirmar/, /baja/— _sec queda vacío y no se marca nada.
+  {%- endcomment -%}
+  {%- assign _url = page.url | default: '/' -%}
+  {%- assign _sec = '' -%}
+  {%- if _url == '/' -%}
+    {%- assign _sec = 'inicio' -%}
+  {%- elsif _url contains '/doble-lectura/' -%}
+    {%- assign _sec = 'lectura' -%}
+  {%- elsif _url contains '/entradas/' or page.layout == 'post' -%}
+    {%- assign _sec = 'entradas' -%}
+  {%- elsif _url contains '/about/' -%}
+    {%- assign _sec = 'about' -%}
+  {%- elsif _url contains '/fuentes/' -%}
+    {%- assign _sec = 'fuentes' -%}
+  {%- endif -%}
   <header class="site-header">
     <a class="brand" href="{{ '/' | relative_url }}">Doble&nbsp;Click<span class="cursor" aria-hidden="true"></span></a>
     <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}">Inicio</a>
-      <a href="{{ '/entradas/' | relative_url }}">Entradas</a>
-      <a href="{{ '/doble-lectura/' | relative_url }}">Doble Lectura</a>
-      <a href="{{ '/about/' | relative_url }}">Qué es esto</a>
+      <a href="{{ '/' | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>Inicio</a>
+      <a href="{{ '/entradas/' | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>Entradas</a>
+      <a href="{{ '/doble-lectura/' | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>Doble Lectura</a>
+      <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Qué es esto</a>
     </nav>
   </header>
 
@@ -31,11 +51,11 @@
     <div class="foot-top">
       <span class="foot-brand">Doble Click<span class="cursor" aria-hidden="true"></span></span>
       <nav class="foot-nav">
-        <a href="{{ '/' | relative_url }}">Inicio</a>
-        <a href="{{ '/entradas/' | relative_url }}">Entradas</a>
-        <a href="{{ '/doble-lectura/' | relative_url }}">Doble Lectura</a>
-        <a href="{{ '/about/' | relative_url }}">Qué es esto</a>
-        <a href="{{ '/fuentes/' | relative_url }}">Fuentes</a>
+        <a href="{{ '/' | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>Inicio</a>
+        <a href="{{ '/entradas/' | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>Entradas</a>
+        <a href="{{ '/doble-lectura/' | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>Doble Lectura</a>
+        <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Qué es esto</a>
+        <a href="{{ '/fuentes/' | relative_url }}"{% if _sec == 'fuentes' %} aria-current="page"{% endif %}>Fuentes</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       </nav>
     </div>

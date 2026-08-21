@@ -10,11 +10,11 @@
   <audio controls preload="none" src="{{ _audiopath | relative_url }}"></audio>
   <div class="audio-speeds">
     <span class="audio-speeds-label">Velocidad</span>
-    <button class="vel vel-on" data-vel="1">1&times;</button>
-    <button class="vel" data-vel="1.25">1.25&times;</button>
-    <button class="vel" data-vel="1.5">1.5&times;</button>
-    <button class="vel" data-vel="1.75">1.75&times;</button>
-    <button class="vel" data-vel="2">2&times;</button>
+    <button class="vel vel-on" data-vel="1" aria-pressed="true">1&times;</button>
+    <button class="vel" data-vel="1.25" aria-pressed="false">1.25&times;</button>
+    <button class="vel" data-vel="1.5" aria-pressed="false">1.5&times;</button>
+    <button class="vel" data-vel="1.75" aria-pressed="false">1.75&times;</button>
+    <button class="vel" data-vel="2" aria-pressed="false">2&times;</button>
   </div>
 </div>
 <script>
@@ -27,9 +27,13 @@ document.addEventListener('DOMContentLoaded', function(){
       audio.playbackRate = parseFloat(b.getAttribute('data-vel'));
     });
   });
+  // La velocidad viva es la del <audio>, no la del último clic: el usuario puede cambiarla
+  // desde los controles nativos del navegador. Marca y aria-pressed van juntos.
   audio.addEventListener('ratechange', function(){
     btns.forEach(function(x){
-      x.classList.toggle('vel-on', parseFloat(x.getAttribute('data-vel')) === audio.playbackRate);
+      var on = parseFloat(x.getAttribute('data-vel')) === audio.playbackRate;
+      x.classList.toggle('vel-on', on);
+      x.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
   });
 });
