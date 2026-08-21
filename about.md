@@ -8,7 +8,7 @@ permalink: /about/
 
 El foco es **la región**: qué de todo esto importa para América Latina, qué oportunidades abre y qué conversaciones conviene tener.
 
-## Cómo se hace
+## Cómo se hace {#como-se-hace}
 
 Las entradas se generan de forma **automática** a partir de fuentes públicas (blogs oficiales de laboratorios, universidades, organismos multilaterales, prensa especializada y reguladores de la región) y enlazan siempre a la fuente original para poder profundizar.
 
@@ -21,6 +21,18 @@ Puedes ver la lista, con ejemplos de cada categoría, en **[Fuentes](/fuentes/)*
 ## Una aclaración importante
 
 Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por ser precisos y enlazar siempre a la fuente, pero puede haber errores de interpretación o de resumen. Conviene tomar este blog como un punto de partida, no como una fuente definitiva: antes de citar una noticia o tomar decisiones a partir de ella, verifica en el enlace a la fuente original.
+
+## Quién responde por esto {#responsable}
+
+El proyecto lo mantiene **José Guridi**, investigador. Doble Click es un experimento personal de automatización editorial: no hay redacción, ni equipo, ni institución detrás.
+
+**Qué es automático.** Prácticamente todo lo que ves: la curación de fuentes cada día, la redacción de las entradas y de las Doble Lectura, el audio de cada pieza (voz sintética) y el envío del newsletter. No hay una persona escribiendo ni aprobando cada texto antes de que salga.
+
+**Qué supervisión hay.** Una revisión periódica, no previa a la publicación. Además, los reportes que dejan los lectores se procesan cada noche: cuando un error se verifica, la página se corrige y queda una **fe de erratas al pie**, para que la corrección se vea y no se disimule.
+
+**Cómo se corrige un error.** Al final de cada entrada y de cada lectura hay un formulario **"¿Viste un error?"**. Es la vía más rápida y la que deja registro: cuéntanos qué está mal —citando la frase, si puedes— y, si la tienes, la fuente que lo corrige.
+
+**Cómo contactar.** Para cualquier otra cosa —una fuente que falta, una consulta, una queja que no es una errata—: [correo de contacto — completar por el propietario].
 
 ## Newsletter
 

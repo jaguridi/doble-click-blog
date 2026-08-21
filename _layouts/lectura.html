@@ -9,6 +9,12 @@ layout: default
     {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
   </header>
 
+  {%- comment -%}
+  El mismo aviso que abre las entradas del diario: cómo se hizo esto, antes de leerlo.
+  El pie de la lectura conserva la advertencia larga con el enlace al paper original.
+  {%- endcomment -%}
+  <p class="aviso-auto"><a href="{{ '/about/' | relative_url }}#como-se-hace">Generado automáticamente · fuentes enlazadas · sin revisión humana previa</a></p>
+
   {% if page.audio %}{% include audio.html label="▶ Escuchar el resumen · 3 min" %}{% endif %}
 
   {% include sumario.html %}
@@ -18,6 +24,13 @@ layout: default
     {% if page.paper_keywords %}<p class="paper-keywords"><strong>Palabras clave del paper:</strong> {{ page.paper_keywords }}</p>{% endif %}
     {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude (IA) a partir de la fuente original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}
   </div>
+
+  {%- comment -%}
+  Hoy las lecturas no traen `fuentes` en el front matter —les basta el DOI del paper—,
+  pero el include queda puesto para el día que las traigan: si el campo no está, no
+  renderiza nada.
+  {%- endcomment -%}
+  {% include fuentes_entrada.html %}
 
   {% include reportar.html tipo="lectura" %}
 

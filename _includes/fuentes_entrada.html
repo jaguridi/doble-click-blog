@@ -1,0 +1,47 @@
+{%- comment -%}
+Caja "Fuentes utilizadas": qué se leyó para escribir la entrada, con la fecha de cada
+pieza y qué clase de fuente es. No sustituye a los enlaces del cuerpo —esos siguen
+donde estaban—: es el listado a la vista, para poder auditar la entrada sin recorrerla.
+
+Se muestra SÓLO si el front matter trae `fuentes`. Las entradas anteriores a este campo
+no muestran nada, y está bien así: acá no se infiere ni se completa nada a posteriori.
+
+  fuentes:
+    - nombre: "Poder360"
+      fecha: "2026-08-20"
+      url: "https://…"
+      tipo: prensa        # primaria | investigacion | regulador | prensa
+
+`tipo` es lo único que se traduce (el mapa está más abajo). Un valor fuera de la lista
+se muestra tal cual: mejor una etiqueta rara que una etiqueta falsa.
+{%- endcomment -%}
+{%- if page.fuentes and page.fuentes.size > 0 -%}
+<aside class="fuentes-uso" aria-labelledby="fuentes-uso-label">
+  <p class="fuentes-uso-label" id="fuentes-uso-label">Fuentes utilizadas</p>
+  <ul class="fuentes-uso-list">
+    {%- for f in page.fuentes -%}
+    {%- assign _nombre = f.nombre | default: f.url -%}
+    {%- case f.tipo -%}
+      {%- when 'primaria' -%}{%- assign _tipo = 'fuente primaria' -%}
+      {%- when 'investigacion' -%}{%- assign _tipo = 'investigación' -%}
+      {%- when 'regulador' -%}{%- assign _tipo = 'regulador' -%}
+      {%- when 'prensa' -%}{%- assign _tipo = 'prensa' -%}
+      {%- else -%}{%- assign _tipo = f.tipo -%}
+    {%- endcase -%}
+    <li class="fuentes-uso-item">
+      {%- if f.url -%}
+      <a class="fuentes-uso-nombre" href="{{ f.url }}" rel="noopener">{{ _nombre }}</a>
+      {%- else -%}
+      <span class="fuentes-uso-nombre">{{ _nombre }}</span>
+      {%- endif -%}
+      {%- if f.fecha or _tipo -%}
+      <span class="fuentes-uso-meta">
+        {%- if f.fecha -%}<span class="fuentes-uso-fecha">{% include fecha.html date=f.fecha corta=true %}</span>{%- endif -%}
+        {%- if _tipo -%}<span class="fuentes-uso-tipo">{{ _tipo }}</span>{%- endif -%}
+      </span>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</aside>
+{%- endif -%}

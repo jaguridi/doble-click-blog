@@ -253,6 +253,22 @@ body::before{
   font-family:"Newsreader", serif; font-style:italic; font-size:1.3rem;
   color:var(--ink-soft); margin:1.1rem 0 1.2rem; line-height:1.5; text-wrap:pretty;
 }
+/* Aviso de automatización, justo bajo la cabecera. Es un pie de imprenta, no una
+   advertencia: Space Mono chico y apagado, en minúsculas —las versalitas de la casa
+   gritarían—, con el subrayado fino de un enlace de cortesía. El margen negativo lo
+   sube contra el título: pertenece a la ficha de la entrada, no al cuerpo.
+   La advertencia extensa —qué puede fallar, dónde verificar— sigue al pie. */
+.aviso-auto{
+  font-family:"Space Mono", monospace; font-size:.7rem; line-height:1.6;
+  color:var(--muted); margin:-1.2rem 0 1.9rem;
+}
+.aviso-auto a{
+  color:inherit; text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, var(--tono) 30%, var(--line));
+  transition:color .15s, border-color .15s;
+}
+.aviso-auto a:hover{ color:var(--tono); border-bottom-color:var(--tono); }
+
 .post-body{ font-size:1.2rem; }
 .post-body p{ text-wrap:pretty; }
 .post-body > p:first-of-type::first-letter{
@@ -265,6 +281,41 @@ body::before{
   border-top-color:color-mix(in srgb, var(--tono) 30%, var(--line));
   scroll-margin-top:1.5rem; text-wrap:balance;
 }
+
+/* "En 60 segundos": el resumen de tres viñetas con que abren las entradas del diario.
+   No lleva clase en el markdown —la rutina escribe Markdown pelado—, así que se lo
+   reconoce por la posición: el primer h2 del cuerpo y la lista que le sigue.
+
+   El h2 pierde la línea superior (contra la cabecera quedaba a media pulgada del
+   título) y baja a rótulo, igual que .coming-next-label; la lista se lee como ficha,
+   con el papel un punto más oscuro y el filo en el tono del tema.
+
+   El :not(.lectura) NO es decorativo: el article de una Doble Lectura lleva las dos
+   clases —"post lectura"— y su ficha ya tiene su propia regla más abajo.
+   La capitular no se pierde: ::first-letter cuelga de p:first-of-type, y el primer
+   párrafo real sigue siendo el primer <p> del cuerpo. */
+.post:not(.lectura) .post-body > h2:first-child{
+  border-top:none; padding-top:0;
+  font-family:"Space Mono", monospace; font-weight:400; font-size:.72rem;
+  text-transform:uppercase; letter-spacing:.13em; color:var(--tono);
+  margin:0 0 .55rem;
+}
+.post:not(.lectura) .post-body > h2:first-child + ul{
+  list-style:none; padding:1rem 1.3rem; margin:0 0 2.2rem;
+  background:var(--paper-2); border-left:3px solid var(--tono); border-radius:0 4px 4px 0;
+}
+/* el mismo cuadrado del feed y del índice de lecturas, en chico */
+.post:not(.lectura) .post-body > h2:first-child + ul li{
+  position:relative; padding-left:1rem; margin:.45rem 0;
+  font-size:1.02rem; line-height:1.55; color:var(--ink-soft);
+}
+.post:not(.lectura) .post-body > h2:first-child + ul li:first-child{ margin-top:0; }
+.post:not(.lectura) .post-body > h2:first-child + ul li:last-child{ margin-bottom:0; }
+.post:not(.lectura) .post-body > h2:first-child + ul li::before{
+  content:""; position:absolute; left:0; top:.62em;
+  width:.35rem; height:.35rem; background:var(--tono);
+}
+
 .post-body h3{ font-family:"Fraunces", serif; font-weight:600; font-size:1.3rem; margin:1.8rem 0 .5rem; text-wrap:balance; }
 .post-body a{ color:var(--tono); text-decoration:none; border-bottom:1px solid var(--line); border-bottom-color:color-mix(in srgb, var(--tono) 35%, transparent); }
 .post-body a:hover{ background:color-mix(in srgb, var(--tono) 10%, transparent); border-bottom-color:var(--tono); }
@@ -521,6 +572,43 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 .fuentes-list li{ margin:0; }
 .fuentes-list a{ color:var(--ink); text-decoration:none; font-size:1.02rem; border-bottom:1px solid var(--line); border-bottom-color:color-mix(in srgb, var(--accent-text) 30%, transparent); }
 .fuentes-list a:hover{ color:var(--accent-text); background:color-mix(in srgb, var(--accent-text) 8%, transparent); border-bottom-color:var(--accent-text); }
+
+/* Caja "Fuentes utilizadas" al cierre de una entrada (_includes/fuentes_entrada.html).
+   Es la misma caja de ficha que .coming-next —papel un punto más oscuro, filo en el tono
+   del tema—, para que se lea como aparato y no como una sección más del texto. El nombre
+   de la fuente en Fraunces, la fecha y la etiqueta de tipo en Space Mono chico: quien
+   barre la lista distingue de un vistazo un regulador de un diario. */
+.fuentes-uso{
+  background:var(--paper-2); border-left:3px solid var(--tono); border-radius:0 4px 4px 0;
+  padding:1.1rem 1.3rem; margin:2.6rem auto 0; max-width:var(--maxw);
+}
+.fuentes-uso-label{
+  font-family:"Space Mono", monospace; font-size:.72rem;
+  text-transform:uppercase; letter-spacing:.13em; color:var(--tono); margin:0 0 .7rem;
+}
+.fuentes-uso-list{ list-style:none; padding:0; margin:0; }
+.fuentes-uso-item{ padding:.55rem 0; border-top:1px solid var(--line); }
+.fuentes-uso-item:first-child{ border-top:none; padding-top:0; }
+.fuentes-uso-item:last-child{ padding-bottom:0; }
+/* inline-block y no block: el subrayado debe abrazar el nombre, no cruzar la caja */
+.fuentes-uso-nombre{
+  display:inline-block; font-family:"Fraunces", serif; font-weight:600; font-size:1.05rem;
+  line-height:1.3; color:var(--ink); text-decoration:none; overflow-wrap:break-word;
+  border-bottom:1px solid color-mix(in srgb, var(--tono) 35%, transparent);
+}
+/* el <span> del caso sin url no debe fingir que es un enlace */
+span.fuentes-uso-nombre{ border-bottom:none; color:var(--ink-soft); }
+a.fuentes-uso-nombre:hover{ color:var(--tono); border-bottom-color:var(--tono); }
+.fuentes-uso-meta{
+  display:flex; flex-wrap:wrap; gap:.2rem .6rem; align-items:baseline; margin-top:.25rem;
+}
+.fuentes-uso-fecha{ font-family:"Space Mono", monospace; font-size:.7rem; color:var(--muted); }
+/* la etiqueta de tipo, encuadrada como los tags de la cabecera */
+.fuentes-uso-tipo{
+  font-family:"Space Mono", monospace; font-size:.64rem;
+  text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+  border:1px solid var(--line); border-radius:2px; padding:.1rem .4rem;
+}
 
 /* reportar un error (entradas y lecturas) */
 .reportar{ max-width:var(--maxw); margin:2.4rem auto 0; border-top:1px solid var(--line); padding-top:1.1rem; }

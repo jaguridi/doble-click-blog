@@ -13,6 +13,13 @@ layout: default
     {% if page.tags %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
   </header>
 
+  {%- comment -%}
+  Cómo se hizo esto, al lado del título y no sólo al pie: quien llega desde un enlace
+  suelto merece saberlo antes de leer, no después. Es una ficha técnica, no una alarma
+  —la advertencia larga sigue al final del cuerpo—, y enlaza al detalle en /about/.
+  {%- endcomment -%}
+  <p class="aviso-auto"><a href="{{ '/about/' | relative_url }}#como-se-hace">Generado automáticamente · fuentes enlazadas · sin revisión humana previa</a></p>
+
   {% if page.audio %}{% include audio.html label="▶ Escuchar la entrada" %}{% endif %}
 
   {% include sumario.html %}
@@ -20,6 +27,8 @@ layout: default
   <div class="post-body">
     {{ content }}
   </div>
+
+  {% include fuentes_entrada.html %}
 
   {% include reportar.html tipo="entrada" %}
 
