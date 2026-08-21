@@ -34,7 +34,7 @@ El proyecto lo mantiene **José Guridi**, investigador. Doble Click es un experi
 
 **Cómo se corrige un error.** Al final de cada entrada y de cada lectura hay un formulario **"¿Viste un error?"**. Es la vía más rápida y la que deja registro: cuéntanos qué está mal —citando la frase, si puedes— y, si la tienes, la fuente que lo corrige.
 
-**Cómo contactar.** Para cualquier otra cosa —una fuente que falta, una consulta, una queja que no es una errata—: [correo de contacto — completar por el propietario].
+**Cómo contactar.** Para cualquier otra cosa —una fuente que falta, una consulta, una queja que no es una errata—: [j.guridi.b@gmail.com](mailto:j.guridi.b@gmail.com).
 
 ## Newsletter
 
