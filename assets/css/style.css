@@ -86,7 +86,8 @@ body::before{
    largo sin espacios —un nombre de modelo, un enlace citado— para provocar scroll
    horizontal en todo el sitio. */
 .post-body, .page-body, .entry-desc, .lectura-sub, .lectura-cite,
-.coming-next-cite, .fuentes-list a{ overflow-wrap:break-word; }
+.coming-next-cite, .fuentes-list a, .lectura-dest-sub, .linea-texto,
+.lectura-cierre p{ overflow-wrap:break-word; }
 
 /* ---------- header ---------- */
 .site-header{
@@ -142,6 +143,26 @@ body::before{
 .hero-intro{ max-width:34rem; margin-top:1.6rem; color:var(--ink-soft); font-size:1.22rem; text-wrap:pretty; }
 .hero-intro p{ margin:.4rem 0; }
 .hero-intro a{ color:var(--accent-text); }
+
+/* Las dos líneas editoriales del sitio, al pie del hero: el diario y la lectura de los
+   lunes. No es un bloque promocional —no lleva caja, ni color de marca, ni botón—: es
+   una aclaración de qué sale acá, con la cadencia por delante en versalitas y el nombre
+   del producto en Fraunces, para que se lea como una ficha y no como un aviso. */
+.lineas{ list-style:none; padding:0; margin:2.2rem 0 0; max-width:38rem; display:grid; gap:1.1rem; }
+.linea{ padding-left:1rem; border-left:2px solid var(--line); }
+.linea-kicker{
+  font-family:"Space Mono", monospace; font-size:.7rem;
+  text-transform:uppercase; letter-spacing:.14em; color:var(--muted); margin:0 0 .2rem;
+}
+.linea-texto{ margin:0; color:var(--ink-soft); font-size:1.02rem; line-height:1.55; text-wrap:pretty; }
+.linea-texto strong{ font-family:"Fraunces", serif; font-weight:600; color:var(--ink); }
+/* el enlace de la línea, con el mismo trato discreto que .feed-more */
+.linea-texto a{
+  font-family:"Space Mono", monospace; font-size:.72rem;
+  text-transform:uppercase; letter-spacing:.1em; color:var(--muted);
+  text-decoration:none; white-space:nowrap;
+}
+.linea-texto a:hover{ color:var(--accent-text); }
 
 /* ---------- feed (home) ---------- */
 .feed{ padding:2.5rem 0 1rem; }
@@ -305,6 +326,50 @@ body::before{
 .lectura-sub{ color:var(--ink-soft); font-size:1.05rem; margin:.5rem 0 .4rem; max-width:42rem; text-wrap:pretty; }
 .lectura-cite{ font-family:"Space Mono", monospace; font-size:.74rem; line-height:1.55; color:var(--muted); margin:.3rem 0 0; }
 
+/* la lectura más reciente, arriba de la lista, con el mismo peso extra que .entry--principal
+   le da a la primera entrada del feed. Es el primer ítem de la lista filtrable, no un bloque
+   aparte: si el buscador lo esconde, el destacado se va con él (ver doble-lectura.html). */
+.lectura-item--principal::before{ top:1.95rem; width:.7rem; height:.7rem; }
+.lectura-item--principal .lectura-title{ font-size:clamp(1.9rem,4.6vw,2.6rem); font-weight:900; letter-spacing:-.022em; }
+.lectura-item--principal .lectura-sub{ font-size:1.15rem; }
+
+/* La lectura más reciente en la PORTADA (_includes/lectura_destacada.html). Va entre el
+   feed diario y el formulario, separada por una línea arriba, para que se lea como otra
+   sección y no como una entrada más del día. El color sigue siendo el del tema. */
+.lectura-dest{ margin:2.8rem 0 0; padding:2.2rem 0 0; border-top:1px solid var(--line); }
+.lectura-dest-kicker{
+  font-family:"Space Mono", monospace; font-size:.74rem;
+  text-transform:uppercase; letter-spacing:.16em; color:var(--tono); margin:0 0 1rem;
+}
+.lectura-dest-link{ display:block; position:relative; padding-left:1.7rem; text-decoration:none; color:inherit; }
+/* el mismo cuadrado del feed y del índice de lecturas, en el tono del tema */
+.lectura-dest-link::before{
+  content:""; position:absolute; left:0; top:.32rem;
+  width:.6rem; height:.6rem; background:var(--tono);
+  transition:transform .25s ease;
+}
+.lectura-dest-link:hover::before{ transform:scale(1.35); }
+.lectura-dest-title{
+  font-family:"Fraunces", serif; font-weight:600;
+  font-size:clamp(1.7rem,4vw,2.4rem); line-height:1.08; letter-spacing:-.018em;
+  margin:.4rem 0 .4rem; transition:color .2s; text-wrap:balance;
+}
+.lectura-dest-link:hover .lectura-dest-title{ color:var(--tono); }
+.lectura-dest-sub{ margin:.2rem 0 .6rem; color:var(--ink-soft); font-size:1.08rem; max-width:40rem; text-wrap:pretty; }
+/* la cita del paper y el enlace al índice se alinean con el título, no con el cuadrado */
+.lectura-dest .lectura-cite{ padding-left:1.7rem; max-width:40rem; }
+.lectura-dest .feed-more{ margin-top:1.2rem; padding-left:1.7rem; }
+
+/* Cierre de /doble-lectura/: dónde recibirla y dónde está su RSS. Es un pie, no una
+   llamada de atención: Space Mono chico y apagado, como .sub-note y .feed-more. */
+.lectura-cierre{ margin:3.2rem 0 1rem; padding-top:1.4rem; border-top:1px solid var(--line); max-width:42rem; }
+.lectura-cierre p{ font-family:"Space Mono", monospace; font-size:.76rem; line-height:1.7; color:var(--muted); margin:.5rem 0; }
+.lectura-cierre a{
+  color:var(--accent-text); text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, var(--accent-text) 35%, transparent);
+}
+.lectura-cierre a:hover{ border-bottom-color:var(--accent-text); }
+
 /* caja de audio (entradas y lecturas) */
 .lectura-audio{ max-width:var(--maxw); margin:1.6rem auto 0; padding:1rem 1.2rem; background:var(--paper-2); border-left:3px solid var(--tono); border-radius:0 4px 4px 0; }
 .audio-cab{ display:flex; flex-wrap:wrap; gap:.2rem .8rem; align-items:baseline; margin:0 0 .55rem; }
@@ -415,7 +480,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 @media (prefers-reduced-motion:reduce){
   .entry{ opacity:1; transform:none; animation:none; }
   .cursor{ animation:none; }
-  .entry-link, .entry-link::before, .archive-list a{ transition:none; }
+  .entry-link, .entry-link::before, .archive-list a, .lectura-dest-link::before{ transition:none; }
 }
 
 /* ---------- suscripción ---------- */

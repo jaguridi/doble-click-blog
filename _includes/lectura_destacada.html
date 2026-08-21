@@ -1,0 +1,30 @@
+{%- comment -%}
+La Doble Lectura más reciente, en ficha, para la portada.
+
+  {% assign ultima = site.lecturas | sort: "date" | last %}
+  {% include lectura_destacada.html lectura=ultima %}
+
+Recibe el documento de la colección `lecturas` en `lectura`. Si no llega ninguno
+—colección vacía: `last` sobre una lista vacía devuelve nil— no imprime nada, así
+que quien la incluye no necesita chequear antes.
+
+El bloque toma la familia de color del tema de la lectura, igual que las entradas
+del feed: acá el color sigue significando el tema, no la sección. Lo que la marca
+como otra cosa es el kicker y la línea que la separa del feed diario.
+
+(La variable se llama `_ld` porque `assign` dentro de un include escribe en el
+ámbito global de la página: mejor un nombre que no choque con nada de afuera.)
+{%- endcomment -%}
+{%- assign _ld = include.lectura -%}
+{%- if _ld -%}
+<section class="lectura-dest tono-{% include tono.html tags=_ld.tags %}">
+  <p class="lectura-dest-kicker">Doble Lectura{% if _ld.numero %} #{{ _ld.numero }}{% endif %}</p>
+  <a class="lectura-dest-link" href="{{ _ld.url | relative_url }}">
+    <span class="lectura-date">{% include fecha.html date=_ld.date %}</span>
+    <h2 class="lectura-dest-title">{{ _ld.title }}</h2>
+    {% if _ld.description %}<p class="lectura-dest-sub">{{ _ld.description }}</p>{% endif %}
+  </a>
+  {% if _ld.paper_titulo %}<p class="lectura-cite">Sobre <em>{{ _ld.paper_titulo }}</em>{% if _ld.paper_autores %}, de {{ _ld.paper_autores }}{% endif %}{% if _ld.paper_publicado %} · {{ _ld.paper_publicado }}{% endif %}.</p>{% endif %}
+  <p class="feed-more"><a href="{{ '/doble-lectura/' | relative_url }}">Ver todas las lecturas →</a></p>
+</section>
+{%- endif -%}

@@ -24,9 +24,19 @@ permalink: /doble-lectura/
 
 {% assign lecturas = site.lecturas | sort: "date" | reverse %}
 {% if lecturas.size == 0 %}<p class="empty">Pronto, la primera lectura.</p>{% endif %}
+{%- comment -%}
+La más reciente va destacada, pero NO sale de la lista: es el primer ítem de la misma
+lista filtrable, con la clase `lectura-item--principal` encima, y el realce es sólo
+tipográfico (ver style.css). Se hizo así a propósito: si fuera un bloque aparte fuera
+del buscador, al filtrar por un tema que no es el suyo quedaría arriba una lectura que
+contradice el filtro; y si fuera un bloque aparte pero `buscable`, el JS de
+buscador.html le repartiría franjas junto con la lista y habría que duplicar el markup.
+Como primer ítem, desaparece con el filtro igual que las demás y el destacado se
+apaga solo.
+{%- endcomment -%}
 <ul class="lectura-list">
 {% for l in lecturas %}
-  <li class="lectura-item buscable tono-{% include tono.html tags=l.tags %}" data-tags="{{ l.tags | join: ' ' }}" data-text="{{ l.title | downcase | escape }} {{ l.description | downcase | escape }} {{ l.tags | join: ' ' | downcase }}">
+  <li class="lectura-item buscable tono-{% include tono.html tags=l.tags %}{% if forloop.first %} lectura-item--principal{% endif %}" data-tags="{{ l.tags | join: ' ' }}" data-text="{{ l.title | downcase | escape }} {{ l.description | downcase | escape }} {{ l.tags | join: ' ' | downcase }}">
     <a href="{{ l.url | relative_url }}">
       <span class="lectura-date">{% include fecha.html date=l.date corta=true %}</span>
       <span class="lectura-title">{{ l.title }}</span>
@@ -36,3 +46,14 @@ permalink: /doble-lectura/
   </li>
 {% endfor %}
 </ul>
+
+{%- comment -%}
+Pie de la sección: por dónde recibirla y dónde está su feed. El RSS de Doble Lectura
+es aparte del de la portada (/feed.xml, sólo el diario); lo declara `feed.collections`
+en _config.yml. El ancla /#suscribete la agrega otra fase en la portada; hasta que
+exista, el enlace igual lleva al formulario que está al pie de la home.
+{%- endcomment -%}
+<section class="lectura-cierre">
+  <p>Doble Lectura sale los lunes. Si prefieres que te llegue por correo, <a href="{{ '/' | relative_url }}#suscribete">suscríbete al newsletter</a>.</p>
+  <p><a href="{{ '/feed-lecturas.xml' | relative_url }}">RSS de Doble Lectura →</a> El feed semanal de esta sección, sólo con las lecturas: las entradas del blog diario no vienen acá.</p>
+</section>

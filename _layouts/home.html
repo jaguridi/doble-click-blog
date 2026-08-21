@@ -5,6 +5,22 @@ layout: default
   <p class="kicker">Inteligencia artificial · perspectiva latinoamericana</p>
   <h1 class="hero-title">Doble Click<span class="cursor" aria-hidden="true"></span></h1>
   <div class="hero-intro">{{ content }}</div>
+  {%- comment -%}
+  Acá se publican dos cosas y conviene decirlo al entrar: el diario y la lectura de
+  los lunes. No es un bloque promocional —son dos líneas de aclaración editorial, con
+  su cadencia por delante—, y va dentro del hero para que la línea de abajo cierre
+  las tres cosas (título, intro y qué sale) como un solo bloque.
+  {%- endcomment -%}
+  <ul class="lineas">
+    <li class="linea">
+      <p class="linea-kicker">Todos los días</p>
+      <p class="linea-texto"><strong>Doble Click</strong> — Lanzamientos, investigación, gobernanza y movimientos de la industria, en una sola entrada.</p>
+    </li>
+    <li class="linea">
+      <p class="linea-kicker">Los lunes</p>
+      <p class="linea-texto"><strong>Doble Lectura</strong> — Un paper o un informe de política pública leído con calma: primero qué dice, después qué significa desde la región. <a href="{{ '/doble-lectura/' | relative_url }}">Ver las lecturas →</a></p>
+    </li>
+  </ul>
 </section>
 
 <section class="feed">
@@ -26,6 +42,16 @@ layout: default
   <p class="feed-more"><a href="{{ '/entradas/' | relative_url }}">Ver todas las entradas →</a></p>
   {% endif %}
 </section>
+
+{%- comment -%}
+La Doble Lectura más reciente, después de las entradas del día y antes del formulario:
+la portada es del diario, pero la sección semanal tiene que verse sin entrar al menú.
+
+`site.lecturas` NO viene ordenada por fecha, así que se ordena a mano y se toma la
+última. Con la colección vacía, `last` devuelve nil y el include no imprime nada.
+{%- endcomment -%}
+{%- assign ultima_lectura = site.lecturas | sort: "date" | last -%}
+{% include lectura_destacada.html lectura=ultima_lectura %}
 
 <section class="subscribe">
   <p class="kicker">Newsletter</p>
