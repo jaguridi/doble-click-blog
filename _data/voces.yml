@@ -53,6 +53,9 @@ banca-latinoamericana-agentes-voz-clientes:
 brasil-aprueba-primer-marco-ia-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+brasil-licita-supercomputador-soberania-computacional:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 brasil-reglas-ia-campana-electoral:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
