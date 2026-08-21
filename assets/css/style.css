@@ -408,7 +408,7 @@ body::before{
 .page-body h2,.page-body h3{ font-family:"Fraunces", serif; font-weight:600; text-wrap:balance; }
 /* Los h2 que vienen del Markdown de una página (about) no traen clase; los de /fuentes/
    sí (.fuentes-cat-title) y conservan su propio tamaño y su propio aire. */
-.page-body h2:not([class]){ font-size:1.5rem; margin:2.2rem 0 .6rem; }
+.page-body h2:not([class]){ font-size:1.5rem; margin:2.2rem 0 .6rem; scroll-margin-top:1.5rem; }
 .page-body h3{ font-size:1.3rem; margin:1.8rem 0 .5rem; }
 .page-body a{ color:var(--accent-text); }
 
@@ -484,7 +484,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 }
 
 /* ---------- suscripción ---------- */
-.subscribe{ margin:1rem 0 1rem; padding:2.4rem 0 1rem; border-top:1px solid var(--line); }
+/* scroll-margin-top: la portada y /doble-lectura/ enlazan a #suscribete; sin este
+   respiro el salto deja el título del bloque pegado al borde de la ventana. */
+.subscribe{ margin:1rem 0 1rem; padding:2.4rem 0 1rem; border-top:1px solid var(--line); scroll-margin-top:2rem; }
 .subscribe-title{ font-family:"Fraunces", serif; font-weight:600; font-size:clamp(1.6rem,3.5vw,2.2rem); letter-spacing:-.015em; margin:.3rem 0 .4rem; text-wrap:balance; }
 .subscribe-text{ color:var(--ink-soft); margin:0 0 1.1rem; }
 .sub-form{ display:flex; gap:.6rem; flex-wrap:wrap; align-items:stretch; margin:1rem 0 .4rem; max-width:32rem; }
@@ -492,7 +494,18 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 .sub-input:focus{ outline:none; border-color:var(--accent-text); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent-text) 18%, transparent); }
 .sub-btn{ font-family:"Space Mono", monospace; font-size:.78rem; text-transform:uppercase; letter-spacing:.1em; padding:.7rem 1.4rem; border:none; border-radius:4px; background:var(--accent-text); color:var(--paper); cursor:pointer; transition:background .2s; }
 .sub-btn:hover{ background:var(--accent); }
+.sub-btn:disabled{ background:var(--muted); cursor:progress; }
+/* El formulario se esconde solo cuando llegó señal real del servidor (ver el
+   script de _layouts/default.html); [hidden] necesita regla propia porque el
+   display:flex de .sub-form le gana a la hoja del navegador. */
+.sub-form[hidden]{ display:none; }
+/* .sub-ok es la región viva del envío: el JS la vacía al cargar y la va llenando
+   con "Enviando…", el acuse prudente o el aviso de que no hubo respuesta. Vacía
+   no debe ocupar alto, y por eso no se oculta: si desapareciera del render, el
+   lector de pantalla podría no anunciar los cambios. */
 .sub-ok{ font-family:"Space Mono", monospace; font-size:.92rem; color:var(--accent-text); margin:.6rem 0; }
+.sub-ok:empty{ margin:0; }
+.sub-ok.is-error{ color:var(--muted); }
 .sub-hp{ position:absolute !important; left:-9999px; width:1px; height:1px; overflow:hidden; }
 .sub-note{ font-family:"Space Mono", monospace; font-size:.72rem; color:var(--muted); line-height:1.5; margin:.4rem 0 0; max-width:32rem; }
 .confirm-box{ padding:1rem 0 2rem; font-size:1.15rem; }

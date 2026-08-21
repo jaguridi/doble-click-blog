@@ -53,16 +53,25 @@ la portada es del diario, pero la sección semanal tiene que verse sin entrar al
 {%- assign ultima_lectura = site.lecturas | sort: "date" | last -%}
 {% include lectura_destacada.html lectura=ultima_lectura %}
 
-<section class="subscribe">
+{%- comment -%}
+El id="suscribete" es el destino del enlace del hero y del pie de /doble-lectura/.
+No lo renombres sin cambiar los dos enlaces (y el scroll-margin-top del CSS, que
+evita que el salto deje el título pegado al borde de la ventana).
+
+El .sub-ok es la región viva del formulario: nace con el mensaje de éxito escrito
+y oculto —así, sin JavaScript, no aparece nunca— y el script de default.html lo
+vacía al cargar para ir contando el estado real del envío. Ver ahí el detalle.
+{%- endcomment -%}
+<section class="subscribe" id="suscribete">
   <p class="kicker">Newsletter</p>
   <h2 class="subscribe-title">Recíbelo por correo</h2>
-  <p class="subscribe-text">Una entrada cada mañana, directo a tu bandeja. Sin spam.</p>
+  <p class="subscribe-text">Una entrada cada mañana y, los lunes, la Doble Lectura. Nada más: sin spam.</p>
   <form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
     <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
     <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
     <button class="sub-btn" type="submit">Suscribirme</button>
   </form>
   <iframe name="sub-sink" title="suscripción" style="display:none"></iframe>
-  <p class="sub-ok" hidden>¡Casi listo! Te enviamos un correo para confirmar tu suscripción. 📬</p>
-  <p class="sub-note">Te llega un correo de confirmación. Solo usamos tu dirección para el newsletter, y puedes darte de baja cuando quieras.</p>
+  <p class="sub-ok" role="status" aria-live="polite" hidden>Solicitud enviada. Si la dirección es válida, te llegará un correo para confirmar la suscripción. 📬</p>
+  <p class="sub-note">Una sola lista para las dos cosas. La suscripción parte cuando haces clic en el correo de confirmación; solo usamos tu dirección para enviarte el newsletter y puedes darte de baja cuando quieras. <a href="{{ '/about/' | relative_url }}#privacidad">Cómo usamos tu correo →</a></p>
 </section>

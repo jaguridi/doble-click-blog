@@ -24,7 +24,7 @@ Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por
 
 ## Newsletter
 
-¿Prefieres recibir la entrada del día por correo? Déjanos tu email y te llega cada mañana.
+¿Prefieres recibirlo por correo? Te llega la entrada de cada mañana y, los lunes, la Doble Lectura: es una sola lista, te suscribes una vez y recibes las dos cosas. Antes de empezar te enviamos un único correo para confirmar, y la suscripción parte cuando haces clic en él.
 
 <form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
   <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
@@ -32,5 +32,13 @@ Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por
   <button class="sub-btn" type="submit">Suscribirme</button>
 </form>
 <iframe name="sub-sink" title="suscripción" style="display:none"></iframe>
-<p class="sub-ok" hidden>¡Casi listo! Te enviamos un correo para confirmar tu suscripción. 📬</p>
-<p class="sub-note">Te llega un correo de confirmación. Solo usamos tu dirección para el newsletter, y puedes darte de baja cuando quieras.</p>
+<p class="sub-ok" role="status" aria-live="polite" hidden>Solicitud enviada. Si la dirección es válida, te llegará un correo para confirmar la suscripción. 📬</p>
+<p class="sub-note">Solo usamos tu dirección para enviarte el newsletter y puedes darte de baja cuando quieras. <a href="{{ '/about/' | relative_url }}#privacidad">Cómo usamos tu correo →</a></p>
+
+## Privacidad {#privacidad}
+
+Tu correo se guarda en una **planilla privada de Google (Sheets)** que administra quien hace este blog. No hay nada más detrás: ni plataforma de marketing, ni perfilado, ni seguimiento de quién abre qué.
+
+Lo usamos **exclusivamente** para enviarte el newsletter. No lo compartimos con nadie ni lo usamos para ninguna otra cosa.
+
+Para darte de baja, al pie de cada correo hay un enlace **Darte de baja**: al hacer clic, tu dirección se elimina de la planilla. No hay que escribirle a nadie ni dar explicaciones.

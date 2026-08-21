@@ -63,14 +63,67 @@
   </footer>
 
   <script>
+  /* Estado de los formularios que hacen POST a un iframe oculto: la suscripción
+     (home y about), el reporte de error de las entradas y la sugerencia de fuente.
+
+     Lo que se puede saber, y lo que no. El Apps Script del otro lado responde
+     siempre 'OK' con HTTP 200 —también con un correo inválido o si algo revienta
+     adentro—, y además la respuesta cae dentro de un iframe de otro dominio, que
+     no podemos leer. O sea: la única señal disponible es que el iframe dispare su
+     'load' después del envío, y eso solo dice "el servidor contestó". Por eso el
+     mensaje de éxito de la suscripción habla de una solicitud enviada y de un
+     correo que quizá llegue, no de una suscripción hecha: prometer más sería
+     mentir con buena cara.
+
+     Cada formulario maneja SU iframe (target: sub-sink, report-sink, sug-sink) y
+     SU región viva. Sin JavaScript nada de esto corre y el envío funciona igual
+     que siempre —POST al iframe—, solo que sin acuse de recibo. */
   (function(){
-    document.querySelectorAll('.sub-form').forEach(function(f){
-      f.addEventListener('submit', function(){
-        setTimeout(function(){
-          f.style.display = 'none';
-          var ok = f.parentNode.querySelector('.sub-ok');
-          if (ok) ok.hidden = false;
-        }, 400);
+    var ESPERA = 10000;  // ms sin señal del iframe antes de dar el envío por perdido
+
+    document.querySelectorAll('.sub-form').forEach(function(form){
+      var zona   = form.parentNode.querySelector('.sub-ok');
+      var boton  = form.querySelector('button[type="submit"]') || form.querySelector('.sub-btn');
+      var nombre = form.getAttribute('target');
+      var marco  = nombre ? document.querySelector('iframe[name="' + nombre + '"]') : null;
+      if (!zona || !marco) return;  // sin región o sin iframe: se deja el envío crudo
+
+      /* El mensaje de éxito viene escrito en el HTML (y oculto, para quien no
+         tiene JS). Lo guardamos y dejamos la región vacía pero ya presente en el
+         DOM: así el lector de pantalla la tiene registrada y anuncia cada cambio. */
+      var exito = zona.textContent.trim();
+      zona.textContent = '';
+      zona.hidden = false;
+
+      var enviando = false, reloj = null;
+
+      function decir(texto, esError){
+        zona.textContent = texto;
+        zona.classList.toggle('is-error', !!esError);
+      }
+
+      /* Ojo: algunos navegadores disparan 'load' del iframe vacío al abrir la
+         página. La bandera `enviando` es lo que separa ese ruido de la respuesta
+         real al envío. */
+      marco.addEventListener('load', function(){
+        if (!enviando) return;
+        enviando = false;
+        clearTimeout(reloj);
+        decir(exito, false);
+        form.hidden = true;
+      });
+
+      form.addEventListener('submit', function(){
+        if (enviando) return;
+        enviando = true;
+        if (boton) boton.disabled = true;
+        decir('Enviando…', false);
+        reloj = setTimeout(function(){
+          if (!enviando) return;
+          enviando = false;
+          if (boton) boton.disabled = false;  // el formulario sigue ahí, con lo escrito
+          decir('No pudimos confirmar que la solicitud llegara. Inténtalo de nuevo en un momento.', true);
+        }, ESPERA);
       });
     });
   })();

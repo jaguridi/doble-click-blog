@@ -50,8 +50,9 @@ apaga solo.
 {%- comment -%}
 Pie de la sección: por dónde recibirla y dónde está su feed. El RSS de Doble Lectura
 es aparte del de la portada (/feed.xml, sólo el diario); lo declara `feed.collections`
-en _config.yml. El ancla /#suscribete la agrega otra fase en la portada; hasta que
-exista, el enlace igual lleva al formulario que está al pie de la home.
+en _config.yml. El ancla /#suscribete es el bloque de suscripción al pie de la
+portada (id="suscribete" en _layouts/home.html): es una sola lista para el diario
+y para las lecturas, así que este enlace lleva al formulario correcto.
 {%- endcomment -%}
 <section class="lectura-cierre">
   <p>Doble Lectura sale los lunes. Si prefieres que te llegue por correo, <a href="{{ '/' | relative_url }}#suscribete">suscríbete al newsletter</a>.</p>
