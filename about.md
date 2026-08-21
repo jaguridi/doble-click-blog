@@ -2,6 +2,8 @@
 layout: page
 title: Qué es esto
 permalink: /about/
+# La usa jekyll-seo-tag para la meta description y el og:description de esta página.
+description: "Qué es Doble Click, cómo se arma cada entrada con ayuda de IA y sin revisión humana previa, quién lo hace y cómo se usa tu correo si te suscribes."
 ---
 
 **Doble Click** es un blog diario sobre inteligencia artificial con perspectiva latinoamericana. Cada día reunimos lo más relevante que ocurrió en IA —lanzamientos, investigación, gobernanza, movimientos de la industria— y lo contamos en una sola entrada, pensada para un público general informado, en español neutro.

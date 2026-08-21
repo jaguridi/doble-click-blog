@@ -237,6 +237,16 @@ body::before{
 }
 .tags li::before{ content:"#"; opacity:.5; }
 
+/* Tags que sí llevan a alguna parte (cabecera de las entradas → /entradas/?tag=…).
+   El relleno y el "#" se mudan del <li> al <a> para que el recuadro entero sea
+   clickeable; el borde se queda en el <li>, así el dibujo no cambia en nada.
+   Hover discreto: el mismo --accent-text de los chips del buscador, sin subrayado. */
+.tags-link li{ padding:0; }
+.tags-link li::before{ content:none; }
+.tags-link a{ display:block; padding:.18rem .5rem; color:inherit; text-decoration:none; }
+.tags-link a::before{ content:"#"; opacity:.5; }
+.tags-link li:hover, .tags-link li:focus-within{ color:var(--accent-text); border-color:var(--accent-text); }
+
 /* ---------- post ---------- */
 .post{ max-width:var(--maxw); margin:0 auto; padding:3.5rem 0 2rem; }
 .post-header{ margin-bottom:2.2rem; }

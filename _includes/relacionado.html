@@ -1,11 +1,97 @@
 {%- comment -%}
-Lista hasta 3 entradas/lecturas que comparten al menos un tag con la página actual.
-Se ordena por fecha (más reciente primero). Lo usan los layouts post.html y lectura.html.
+Hasta 3 entradas/lecturas emparentadas con la página actual. Lo usan post.html y lectura.html.
+
+Dos reglas por encima del "comparte algún tag":
+
+1. `latam` NO cuenta. Lo lleva casi todo lo que se publica acá, así que compartirlo no
+   dice nada: dos textos que sólo coinciden en `latam` no están relacionados, y antes
+   esa coincidencia bastaba para llenar la lista de vecinos al azar.
+
+2. Se reserva un lugar para el otro formato. Si desde una entrada diaria hay alguna
+   Doble Lectura que comparte tema, aparece al menos una (y al revés, desde una lectura
+   hacia el diario). La idea es que quien entra por el diario tropiece con la sección
+   semanal, que es lo que menos se descubre sola.
+
+El reparto de los 3 lugares: 2 del mismo formato + 1 del otro cuando hay de los dos;
+si falta un lado, el que quede se lleva los 3. Dentro de cada grupo manda la fecha,
+de más nueva a más vieja. Si nadie comparte un tag que no sea `latam`, la sección
+entera no se imprime.
+
+Rendimiento (≈90 documentos entre posts y lecturas, y esto corre en cada página): una
+sola pasada por la colección combinada, y se corta apenas hay 3 candidatos de cada
+lado. Los candidatos se van juntando en dos strings con separadores propios porque
+Liquid no tiene forma de ir agregando elementos a un array; al final se parten con
+`split` para imprimirlos. Ojo con los separadores si algún título llegara a contener
+`|:|` o `|;|` —hoy ninguno lo hace—.
 {%- endcomment -%}
-{% capture _rel %}{% assign n = 0 %}{% assign _all = site.posts | concat: site.lecturas | sort: 'date' | reverse %}{% for it in _all %}{% if it.url != page.url and n < 3 %}{% assign sh = false %}{% for t in page.tags %}{% if it.tags contains t %}{% assign sh = true %}{% endif %}{% endfor %}{% if sh %}<li><a href="{{ it.url | relative_url }}">{% if it.collection == 'lecturas' %}<span class="rel-kind">Lectura</span> {% else %}<span class="rel-kind">Entrada</span> {% endif %}{{ it.title }}</a></li>{% assign n = n | plus: 1 %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
-{% if _rel contains "<li" %}
+{%- assign _CAMPO = '|:|' -%}
+{%- assign _ITEM = '|;|' -%}
+{%- assign _pag_es_lectura = false -%}
+{%- if page.collection == 'lecturas' -%}{%- assign _pag_es_lectura = true -%}{%- endif -%}
+{%- if _pag_es_lectura -%}
+  {%- assign _rotulo_mismo = 'Lectura' -%}
+  {%- assign _rotulo_otro = 'Entrada' -%}
+{%- else -%}
+  {%- assign _rotulo_mismo = 'Entrada' -%}
+  {%- assign _rotulo_otro = 'Lectura' -%}
+{%- endif -%}
+{%- assign _mismo = '' -%}
+{%- assign _otro = '' -%}
+{%- assign _n_mismo = 0 -%}
+{%- assign _n_otro = 0 -%}
+{%- assign _todos = site.posts | concat: site.lecturas | sort: 'date' | reverse -%}
+{%- for it in _todos -%}
+  {%- if _n_mismo >= 3 and _n_otro >= 3 -%}{%- break -%}{%- endif -%}
+  {%- if it.url != page.url -%}
+    {%- assign _comparte = false -%}
+    {%- for t in it.tags -%}
+      {%- unless t == 'latam' -%}
+        {%- if page.tags contains t -%}{%- assign _comparte = true -%}{%- break -%}{%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
+    {%- if _comparte -%}
+      {%- assign _it_es_lectura = false -%}
+      {%- if it.collection == 'lecturas' -%}{%- assign _it_es_lectura = true -%}{%- endif -%}
+      {%- if _it_es_lectura == _pag_es_lectura -%}
+        {%- if _n_mismo < 3 -%}
+          {%- assign _mismo = _mismo | append: it.url | append: _CAMPO | append: it.title | append: _ITEM -%}
+          {%- assign _n_mismo = _n_mismo | plus: 1 -%}
+        {%- endif -%}
+      {%- else -%}
+        {%- if _n_otro < 3 -%}
+          {%- assign _otro = _otro | append: it.url | append: _CAMPO | append: it.title | append: _ITEM -%}
+          {%- assign _n_otro = _n_otro | plus: 1 -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- comment -%}
+Reparto de los 3 lugares. Si hay algo del otro formato se le guarda uno desde el
+principio (por eso el mismo formato parte con tope 2); lo que el mismo formato no
+alcance a llenar se lo queda el otro, hasta lo que realmente haya.
+{%- endcomment -%}
+{%- assign _cupo_otro = 0 -%}
+{%- if _n_otro > 0 -%}{%- assign _cupo_otro = 1 -%}{%- endif -%}
+{%- assign _cupo_mismo = 3 | minus: _cupo_otro -%}
+{%- if _n_mismo < _cupo_mismo -%}{%- assign _cupo_mismo = _n_mismo -%}{%- endif -%}
+{%- assign _cupo_otro = 3 | minus: _cupo_mismo -%}
+{%- if _n_otro < _cupo_otro -%}{%- assign _cupo_otro = _n_otro -%}{%- endif -%}
+{%- assign _total = _cupo_mismo | plus: _cupo_otro -%}
+{%- if _total > 0 -%}
 <nav class="relacionado">
   <p class="relacionado-label">Relacionado</p>
-  <ul>{{ _rel }}</ul>
+  <ul>
+    {%- assign _lista_mismo = _mismo | split: _ITEM -%}
+    {%- for r in _lista_mismo limit: _cupo_mismo -%}
+      {%- assign _c = r | split: _CAMPO -%}
+    <li><a href="{{ _c[0] | relative_url }}"><span class="rel-kind">{{ _rotulo_mismo }}</span> {{ _c[1] }}</a></li>
+    {%- endfor -%}
+    {%- assign _lista_otro = _otro | split: _ITEM -%}
+    {%- for r in _lista_otro limit: _cupo_otro -%}
+      {%- assign _c = r | split: _CAMPO -%}
+    <li><a href="{{ _c[0] | relative_url }}"><span class="rel-kind">{{ _rotulo_otro }}</span> {{ _c[1] }}</a></li>
+    {%- endfor -%}
+  </ul>
 </nav>
-{% endif %}
+{%- endif -%}

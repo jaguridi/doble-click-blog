@@ -32,6 +32,16 @@ layout: default
       <span class="entry-date">{% include fecha.html date=post.date %}</span>{% assign _fecha_post = post.date | date: '%Y-%m-%d' %}{% if _fecha_post == _hoy %}<span class="entry-hoy">Hoy</span>{% endif %}
       <h2 class="entry-title">{{ post.title }}</h2>
       {% if post.description %}<p class="entry-desc">{{ post.description }}</p>{% endif %}
+      {%- comment -%}
+      Acá los tags quedan como TEXTO, no como enlaces a /entradas/?tag=…, aunque en la
+      cabecera de cada entrada (_layouts/post.html) sí lo sean. El motivo es de HTML, no
+      de diseño: toda la tarjeta es un solo <a class="entry-link">, y las anclas no se
+      pueden anidar —el navegador cierra la de afuera y el markup se parte—. Las salidas
+      eran sacar los tags del enlace (rompe el bloque clickeable completo, que es lo que
+      hace usable la portada en móvil) o achicar el área clickeable al título. Ninguna
+      compensa: quien quiera filtrar por tema tiene los chips en /entradas/ y los tags
+      enlazados dentro de la entrada, a un clic de distancia.
+      {%- endcomment -%}
       {% if post.tags %}<ul class="tags">{% for t in post.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
     </a>
   </article>

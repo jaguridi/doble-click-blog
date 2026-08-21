@@ -10,6 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% feed_meta %}
+  {%- comment -%}
+  {% feed_meta %} declara sólo /feed.xml —el del diario—; los feeds de colección que se
+  configuran en `feed.collections` (_config.yml) no los emite. Este es el de Doble
+  Lectura, escrito a mano. El tipo es Atom, no RSS, porque eso es lo que genera
+  jekyll-feed pese al nombre del archivo: poner application/rss+xml haría que un lector
+  se lo pidiera como otra cosa. El `title` los distingue en la lista de suscripción
+  del navegador, donde si no aparecerían los dos como "Doble Click".
+  {%- endcomment -%}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} · Doble Lectura" href="{{ '/feed-lecturas.xml' | relative_url }}">
   {% seo %}
 </head>
 <body>
@@ -56,7 +65,12 @@
         <a href="{{ '/doble-lectura/' | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>Doble Lectura</a>
         <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Qué es esto</a>
         <a href="{{ '/fuentes/' | relative_url }}"{% if _sec == 'fuentes' %} aria-current="page"{% endif %}>Fuentes</a>
+        {%- comment -%}
+        Dos feeds, dos enlaces: /feed.xml trae sólo el diario y /feed-lecturas.xml sólo
+        las lecturas de los lunes. No hay uno que junte las dos cosas, a propósito.
+        {%- endcomment -%}
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        <a href="{{ '/feed-lecturas.xml' | relative_url }}">RSS Lecturas</a>
       </nav>
     </div>
     <p class="foot-legal">Contenido curado de forma automática a partir de fuentes públicas. Verifica en la fuente original antes de citar.</p>

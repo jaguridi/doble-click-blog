@@ -10,7 +10,14 @@ layout: default
     </p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
-    {% if page.tags %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+    {%- comment -%}
+    Los tags de la cabecera son enlaces al archivo ya filtrado: /entradas/?tag=<tema>.
+    El buscador de esa página lee el parámetro y enciende el chip que corresponde.
+    `url_encode` es obligatorio: hay temas con tilde ("ética", "participación") y sin
+    escapar romperían la URL. La clase `tags-link` es la que le da el hover; la lista
+    de la portada usa `.tags` a secas porque ahí son texto (ver _layouts/home.html).
+    {%- endcomment -%}
+    {% if page.tags %}<ul class="tags tags-link">{% for t in page.tags %}<li><a href="{{ '/entradas/' | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a></li>{% endfor %}</ul>{% endif %}
   </header>
 
   {%- comment -%}

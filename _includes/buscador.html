@@ -47,16 +47,65 @@ document.addEventListener('DOMContentLoaded', function(){
     });
     if (empty) empty.hidden = (visible !== 0);
   }
+  // Enciende un chip y apaga los demás. Separado del listener de click porque también
+  // lo usa el arranque, cuando el estado viene en la URL y no de un clic.
+  function encender(c){
+    chips.forEach(function(x){ x.classList.remove('chip-on'); x.setAttribute('aria-pressed', 'false'); });
+    c.classList.add('chip-on');
+    c.setAttribute('aria-pressed', 'true');
+    activeTag = c.getAttribute('data-tag') || '';
+  }
+
+  /* Enlaces profundos: /entradas/?tag=etica&q=chile
+     Los tags enlazados de cada entrada apuntan acá con el tema en el parámetro.
+
+     El parámetro se compara con norm(): puede venir sin tilde ("etica", "participacion")
+     y el chip la lleva ("ética", "participación"). Si no calza con ningún chip —un tema
+     que se borró de _data/temas.yml, un enlace viejo, un parámetro escrito a mano— se
+     ignora y la página queda mostrando todo: mejor eso que un archivo en blanco.
+
+     Sin JavaScript el parámetro no hace nada y se ve la lista completa, como siempre. */
+  function chipDe(valor){
+    var objetivo = norm(valor).trim();
+    if (!objetivo) return null;
+    var hallado = null;
+    chips.forEach(function(c){
+      var t = c.getAttribute('data-tag');
+      if (!hallado && t && norm(t) === objetivo) hallado = c;
+    });
+    return hallado;
+  }
+
+  /* Deja la URL contando el filtro que está puesto, sin recargar ni ensuciar el historial
+     (replaceState, no pushState: los chips no son navegación, son un control de la misma
+     página). Con "Todo" y sin búsqueda, la URL vuelve a quedar limpia. */
+  function sincronizarURL(){
+    if (!window.URLSearchParams || !window.history || !history.replaceState) return;
+    var p = new URLSearchParams(location.search);
+    if (activeTag) { p.set('tag', activeTag); } else { p.delete('tag'); }
+    var q = search ? search.value.trim() : '';
+    if (q) { p.set('q', q); } else { p.delete('q'); }
+    var cadena = p.toString();
+    history.replaceState(null, '', location.pathname + (cadena ? '?' + cadena : '') + location.hash);
+  }
+
   chips.forEach(function(c){
     c.addEventListener('click', function(){
-      chips.forEach(function(x){ x.classList.remove('chip-on'); x.setAttribute('aria-pressed', 'false'); });
-      c.classList.add('chip-on');
-      c.setAttribute('aria-pressed', 'true');
-      activeTag = c.getAttribute('data-tag') || '';
+      encender(c);
       apply();
+      sincronizarURL();
     });
   });
   if (search) search.addEventListener('input', apply);
-  apply();  // estado inicial: reparte las franjas al cargar
+
+  // Estado inicial desde la URL, antes del primer apply().
+  if (window.URLSearchParams) {
+    var params = new URLSearchParams(location.search);
+    var inicial = chipDe(params.get('tag'));
+    if (inicial) encender(inicial);
+    var q0 = params.get('q');
+    if (q0 && search) search.value = q0;
+  }
+  apply();  // estado inicial: aplica el filtro de la URL y reparte las franjas
 });
 </script>
