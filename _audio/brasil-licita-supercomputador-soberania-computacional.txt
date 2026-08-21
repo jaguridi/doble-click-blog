@@ -1,0 +1,13 @@
+Durante años, la conversación latinoamericana sobre capacidad de cómputo consistió en negociar la llegada de infraestructura ajena. Esta semana Brasil cambió de estrategia.
+
+El jueves veinte, en el Parque Tecnológico Augusto Severo de Macaíba, en Rio Grande do Norte, el presidente Lula abrió la licitación del primer supercomputador estatal brasileño dedicado a inteligencia artificial: mil seiscientos millones de reales y siete mil doscientos petaflops de potencia. Eso lo pondría entre las diez máquinas de inteligencia artificial más potentes del mundo. Para dimensionarlo: el mayor supercomputador brasileño hasta hoy opera a veintisiete petaflops.
+
+Pero lo interesante no es el equipo. Es el pliego. El documento exige transferencia de tecnología, contratación de proveedores brasileños y capacitación de unas cinco mil personas. Y el anuncio no vino solo: el mismo día se presentaron un segundo supercomputador en Río de Janeiro para entrenar modelos en portugués, una estrategia de chips propios a diez y quince años, y un centro nacional de transparencia algorítmica alojado en una universidad federal. Cuatro piezas que forman algo que ningún otro Estado de la región había puesto por escrito: la máquina, el modelo en lengua propia, el chip y la institucionalidad de control.
+
+La tensión estaba a la vista desde el primer día. El único proveedor capaz de cumplir el pliego del primer equipo es estadounidense; los socios del segundo son chinos. La soberanía declarada consiste, por ahora, en elegir entre dos dependencias en vez de una.
+
+Aun así, el pliego es lo único replicable, y por eso importa fuera de Brasil. Mientras Chile propone un banco de créditos de cómputo en su próximo presupuesto y México monta un laboratorio nacional, Brasil eligió poner las cláusulas dentro del contrato.
+
+La pregunta queda abierta: ¿quién tiene hoy el mandato y el presupuesto para auditar esas cláusulas dentro de dieciocho meses?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
