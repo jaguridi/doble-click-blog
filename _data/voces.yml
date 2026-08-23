@@ -230,6 +230,9 @@ mythos-anthropic-mercado-general:
 nvidia-proveedor-acreedor-accionista-frontera:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+nvidia-sube-precios-cuenta-llega-2027:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 ocde-experimentacion-ia-gobierno:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
