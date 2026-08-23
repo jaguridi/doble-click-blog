@@ -1,0 +1,9 @@
+Nvidia le avisó a los fabricantes que ensamblan sus servidores que subirá más de quince por ciento el precio de los sistemas construidos con sus chips más nuevos. El alza afecta a los equipos que se despachan a comienzos de dos mil veintisiete, y llega apenas una semana antes de que la empresa reporte sus resultados. Lo informó la revista Fortune, a partir del reporteo de Bloomberg.
+
+El detalle que cambia la lectura es el margen. Nvidia ya gana setenta y cinco centavos por cada dólar que vende. Así que esto no es traspasar un costo al cliente: es el ejercicio de poder de mercado de un proveedor sin alternativa real. Cuando una sola empresa fija el precio del insumo básico de toda la industria, subirlo quince por ciento no requiere justificación ni negociación con nadie.
+
+Para América Latina la cadena es corta y se verifica con hechos de esta misma semana. Brasil acaba de licitar dos supercomputadores por dos mil trescientos millones de reales, con entrega prevista justamente en dos mil veintisiete. Chile discute una reserva estatal de capacidad de cómputo en el presupuesto del mismo año. Y todos los contratos de nube de la región se renegocian sobre precios que se fijan aguas arriba, en dólares, por una sola compañía. La soberanía computacional que varios países decidieron comprar acaba de encarecerse quince por ciento antes de llegar al puerto, y los pliegos ya firmados a precio fijo son los que absorben la diferencia.
+
+Queda una pregunta abierta. Si el proveedor único puede subir los precios un fin de semana cualquiera, sin dar explicaciones, ¿qué está comprando exactamente un Estado latinoamericano cuando firma un contrato de inteligencia artificial: una tecnología, o un lugar en la fila de otro?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
