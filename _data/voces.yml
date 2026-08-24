@@ -233,6 +233,9 @@ nvidia-proveedor-acreedor-accionista-frontera:
 nvidia-sube-precios-cuenta-llega-2027:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+observatorio-uso-real-ia:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 ocde-experimentacion-ia-gobierno:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
