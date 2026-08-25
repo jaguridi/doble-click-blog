@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Los cuatro chatbots más usados en Brasil incumplen la regla electoral"
-description: "La primera medición independiente muestra que tres de cuatro asistentes recomiendan candidatos, justo lo que la norma brasileña prohíbe, y que nadie tiene cómo fiscalizarlo."
+description: "La primera medición independiente muestra que tres de cuatro asistentes recomiendan candidatos, justo lo que la norma brasileña prohíbe, y que ninguna de las autoridades brasileñas involucradas tiene cómo fiscalizarlo."
 date: 2026-08-19 08:12:33 -0400
 tags: [gobernanza, latam, participación, datos]
 audio: true

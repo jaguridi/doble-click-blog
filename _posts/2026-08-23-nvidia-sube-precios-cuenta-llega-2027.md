@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Nvidia sube 15% sus servidores y la cuenta llega en 2027"
-description: "El alza no traspasa costos: con 75% de margen bruto, es poder de mercado puro sobre los equipos que América Latina acaba de comprar."
+description: "El alza difícilmente traspasa costos: con 75% de margen bruto, apunta al poder de mercado sobre los equipos que América Latina acaba de comprar."
 date: 2026-08-23 08:04:36 -0400
 tags: [mercados, latam, gobernanza]
 ---
 
 Nvidia le comunicó a los fabricantes que ensamblan sus servidores un alza de más de 15% en los sistemas construidos con sus chips Vera Rubin y Grace Blackwell, con efecto sobre equipos que se despachan a comienzos de 2027. Lo informó [Fortune, a partir del reporteo de Bloomberg](https://fortune.com/2026/08/22/nvidia-customers-ai-related-price-hikes-15-percent-vera-rubin-grace-blackwell-chips/), que suma además alzas de hasta 39% en tarjetas gráficas de consumo. El anuncio llega la semana previa a que la empresa reporte resultados.
 
-El detalle que cambia la lectura es el margen. Nvidia ya opera con 75% de margen bruto, así que esto no es un traspaso de costos hacia el cliente: es el ejercicio de poder de mercado de un proveedor sin alternativa real. Cuando una sola empresa fija el precio del insumo básico de toda la industria —los chips donde se entrenan y se ejecutan los modelos—, subirlo 15% no requiere justificación ni negociación.
+El detalle que cambia la lectura es el margen. Nvidia ya opera con 75% de margen bruto, así que difícilmente sea un traspaso de costos hacia el cliente: el margen es compatible con el ejercicio de poder de mercado de un proveedor sin alternativa real, aunque por sí solo no lo demuestre. Cuando una sola empresa fija el precio del insumo básico de toda la industria —los chips donde se entrenan y se ejecutan los modelos—, subirlo 15% no requiere justificación ni negociación.
 
 Para América Latina la cadena causal es corta y se puede verificar con hechos de esta misma semana. Brasil acaba de licitar dos supercomputadores por R$ 2.300 millones con entrega prevista justamente en 2027. Chile discute un banco de tokens —una reserva estatal de capacidad de cómputo comprada por adelantado— en el Presupuesto 2027. Y todos los contratos de nube de la región se renegocian sobre precios que se fijan aguas arriba, en dólares, por una sola compañía. La soberanía computacional que varios países de la región decidieron comprar acaba de encarecerse 15% antes de llegar al puerto, y los pliegos ya firmados a precio fijo son los que absorben la diferencia.
 

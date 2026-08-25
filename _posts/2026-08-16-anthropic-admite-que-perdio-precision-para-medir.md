@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anthropic admite que perdió precisión para medir sus propios riesgos"
-description: "El informe que la empresa escribe sobre sí misma reconoce que sus instrumentos ya no alcanzan, y sigue siendo el único mecanismo de rendición de cuentas que existe."
+description: "El informe que la empresa escribe sobre sí misma reconoce que sus instrumentos ya no alcanzan, y sigue siendo el único mecanismo de rendición de cuentas disponible."
 date: 2026-08-16 08:05:41 -0400
 tags: [seguridad, gobernanza, latam, trabajo]
 audio: true
@@ -32,7 +32,7 @@ Fin de semana sin publicaciones nuevas en los organismos multilaterales ni en lo
 
 ## Hilos que seguimos
 
-La demanda contra xAI por imágenes de abuso sexual infantil generadas con Grok venía sumando denunciantes desde hace semanas; la de hoy es la cuarta identificada como Jane Doe, y con ella ya son al menos seis acciones legales acumuladas contra la empresa en Estados Unidos y Reino Unido. El patrón se repite en cada capítulo: la respuesta de la empresa es restringir el acceso a la función, no eliminarla, y el único lugar donde la historia avanza es un tribunal fuera de la región. Ninguna autoridad de datos latinoamericana tiene hoy cómo ordenar nada sobre un caso así, aunque la foto de origen fuera de alguien que vive acá.
+La demanda contra xAI por imágenes de abuso sexual infantil generadas con Grok venía sumando denunciantes desde hace semanas; la de hoy es la cuarta identificada como Jane Doe, y con ella ya son al menos seis acciones legales acumuladas contra la empresa en Estados Unidos y Reino Unido. El patrón se repite en cada capítulo: la respuesta de la empresa es restringir el acceso a la función, no eliminarla, y el único lugar donde la historia avanza es un tribunal fuera de la región. Hasta donde alcanzan sus leyes, ninguna autoridad de datos latinoamericana puede ordenar nada sobre un caso así, aunque la foto de origen fuera de alguien que vive acá.
 
 ---
 

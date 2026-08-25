@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Amnistía reconstruyó la vigilancia estatal argentina leyendo órdenes de compra"
-description: "El inventario de vigilancia con IA de un país entero costó 1,2 millones de dólares y estaba documentado en portales públicos que nadie había abierto."
+description: "El inventario de vigilancia con IA de un país entero costó 1,2 millones de dólares y estaba documentado en portales públicos, a la vista de quien se sentara a leerlos."
 date: 2026-08-20 08:05:17 -0400
 tags: [gobernanza, latam, datos]
 audio: true
