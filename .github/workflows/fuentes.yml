@@ -1,0 +1,55 @@
+name: Control de enlaces de /fuentes/
+
+# Revisa una vez al mes que los enlaces de _data/fuentes.yml sigan vivos y que
+# no haya redirecciones permanentes a URLs nuevas, via _tools/check_fuentes.py.
+#
+# Es SOLO un reporte: no abre issues, no commitea, no toca contenido. Los
+# hallazgos quedan en el log del run y en el resumen del run. La decisión de
+# corregir o dar de baja una fuente es editorial y la toma una persona: el
+# script no distingue "el organismo cerró" de "el sitio bloquea bots", y
+# tampoco ve el caso importante — un enlace que responde 200 pero apunta a un
+# organismo que ya no existe (INAI México, extinguido en 2025).
+
+on:
+  schedule:
+    # Día 1 de cada mes, 12:00 UTC.
+    - cron: '0 12 1 * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # El script funciona sin PyYAML (cae a un parser por regex del formato
+      # inline del archivo), pero con PyYAML lee el YAML de verdad y no se
+      # pierde nada si algún día cambia el formato de una entrada.
+      - name: Instalar PyYAML
+        run: pip install --quiet pyyaml
+
+      - name: Revisar enlaces
+        id: check
+        run: |
+          set -o pipefail
+          python _tools/check_fuentes.py | tee reporte_fuentes.txt
+
+      # El log del run ya tiene el reporte completo; esto lo deja además en la
+      # portada del run, que es donde se mira primero.
+      - name: Publicar el reporte en el resumen del run
+        if: always()
+        run: |
+          {
+            echo '## Control de enlaces de /fuentes/'
+            echo
+            echo '```'
+            cat reporte_fuentes.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
