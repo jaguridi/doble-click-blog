@@ -1,0 +1,9 @@
+La primera medición de campo de la campaña electoral brasileña encontró algo distinto de lo que todos estaban buscando. Una alianza de medios y organizaciones de investigación identificó en TikTok cincuenta videos, con siete millones cuatrocientas mil visualizaciones, que simulan entrevistas callejeras a votantes que no existen. Están generados enteramente con inteligencia artificial y declaran preferencia por uno u otro candidato. No son deepfakes de políticos: son ciudadanos sintéticos, personas inventadas de cero.
+
+El dato que ordena todo el hallazgo es el que menos se comenta. Solo el dieciocho por ciento de esos videos circulaba sin etiqueta de inteligencia artificial. Es decir, el ochenta y dos por ciento sí estaba rotulado como contenido sintético, y era ilegal de todos modos. La resolución del Tribunal Superior Electoral brasileño prohíbe el contenido sintético que cree o manipule imágenes y voces de personas, sean reales, fallecidas o ficticias, con fines electorales. Esa prohibición no se levanta poniendo un aviso. Un especialista en derecho electoral lo resumió así: un video que simula a un elector inexistente no es propaganda, fabrica un hecho social que nunca ocurrió.
+
+Para el resto de América Latina el problema es que esta categoría no aparece en ninguna ley en trámite. Ni el proyecto chileno sobre deepfakes, ni el proyecto brasileño de inteligencia artificial, ni la ley peruana la nombran: todas protegen la imagen de personas reales, escritas pensando en una víctima que pueda reclamar. Brasil tiene la regla más exigente del continente, y el incumplimiento se coló por el único hueco donde no hay nadie suplantado.
+
+Queda la pregunta. Si el etiquetado obligatorio deja pasar el ochenta y dos por ciento de los videos que la propia ley prohíbe, ¿qué está regulando realmente la región: la mentira, o solo el aviso de que podría haberla?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
