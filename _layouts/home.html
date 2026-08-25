@@ -23,11 +23,34 @@ layout: default
   </ul>
 </section>
 
+{%- comment -%}
+La Doble Lectura más reciente. No va al final de la portada sino intercalada en el
+feed, después de la tercera entrada: quien baja tres titulares del diario ya se topa
+con la sección semanal, sin tener que llegar al pie ni pasar por el menú.
+
+`site.lecturas` NO viene ordenada por fecha, así que se ordena a mano y se toma la
+última. Con la colección vacía, `last` devuelve nil y el include no imprime nada.
+{%- endcomment -%}
+{%- assign ultima_lectura = site.lecturas | sort: "date" | last -%}
+
 <section class="feed">
   <p class="feed-label">Últimas entradas</p>
   {% assign _hoy = site.time | date: '%Y-%m-%d' %}
+  {%- comment -%}
+  Un solo loop, con la destacada insertada después de la tercera vuelta: partirlo en
+  dos (limit/offset) obligaba a duplicar el markup de la entrada y a mantener las dos
+  copias sincronizadas. Dos detalles que dependen de esta inserción:
+
+  · Las franjas alternadas salen de `.entry:nth-of-type(even)`, que cuenta sólo los
+    <article> hermanos. La destacada es un <section>, así que no entra en la cuenta y
+    la alternancia del feed sigue igual que antes de intercalarla.
+  · La animación de entrada sí es un orden visual, no de tipo: la destacada ocupa el
+    cuarto lugar, así que recibe `--i: 3` y las entradas de la cuarta en adelante se
+    corren un puesto. Si no, dos bloques entrarían con el mismo retardo.
+  {%- endcomment -%}
   {% for post in site.posts limit: 8 %}
-  <article class="entry tono-{% include tono.html tags=post.tags %}{% if forloop.first %} entry--principal{% endif %}" style="--i: {{ forloop.index0 }}">
+  {%- if forloop.index0 < 3 -%}{%- assign _i = forloop.index0 -%}{%- else -%}{%- assign _i = forloop.index0 | plus: 1 -%}{%- endif -%}
+  <article class="entry tono-{% include tono.html tags=post.tags %}{% if forloop.first %} entry--principal{% endif %}" style="--i: {{ _i }}">
     <a class="entry-link" href="{{ post.url | relative_url }}">
       <span class="entry-date">{% include fecha.html date=post.date %}</span>{% assign _fecha_post = post.date | date: '%Y-%m-%d' %}{% if _fecha_post == _hoy %}<span class="entry-hoy">Hoy</span>{% endif %}
       <h2 class="entry-title">{{ post.title }}</h2>
@@ -45,23 +68,25 @@ layout: default
       {% if post.tags %}<ul class="tags">{% for t in post.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
     </a>
   </article>
+  {%- if forloop.index == 3 %}
+  {% include lectura_destacada.html lectura=ultima_lectura orden=3 %}
+  {% endif -%}
   {% else %}
   <p class="empty">Todavía no hay entradas publicadas. Vuelve pronto.</p>
+  {% include lectura_destacada.html lectura=ultima_lectura orden=0 %}
   {% endfor %}
+  {%- comment -%}
+  Con menos de tres entradas el `if` de adentro nunca se cumple: la destacada iría a
+  parar fuera de la portada. Este bloque la recupera al final del feed (el `else` del
+  loop cubre el caso extremo de cero entradas).
+  {%- endcomment -%}
+  {% if site.posts.size > 0 and site.posts.size < 3 %}
+  {% include lectura_destacada.html lectura=ultima_lectura orden=site.posts.size %}
+  {% endif %}
   {% if site.posts.size > 8 %}
   <p class="feed-more"><a href="{{ '/entradas/' | relative_url }}">Ver todas las entradas →</a></p>
   {% endif %}
 </section>
-
-{%- comment -%}
-La Doble Lectura más reciente, después de las entradas del día y antes del formulario:
-la portada es del diario, pero la sección semanal tiene que verse sin entrar al menú.
-
-`site.lecturas` NO viene ordenada por fecha, así que se ordena a mano y se toma la
-última. Con la colección vacía, `last` devuelve nil y el include no imprime nada.
-{%- endcomment -%}
-{%- assign ultima_lectura = site.lecturas | sort: "date" | last -%}
-{% include lectura_destacada.html lectura=ultima_lectura %}
 
 {%- comment -%}
 El id="suscribete" es el destino del enlace del hero y del pie de /doble-lectura/.

@@ -1,12 +1,17 @@
 ---
 layout: page
-title: Qué es esto
+title: Método
+# El permalink NO cambia con el rótulo: /about/ está enlazado desde el pie de los
+# formularios (#privacidad), desde otras páginas del sitio y desde fuera. El nombre
+# visible es "Método"; la dirección se queda donde está.
 permalink: /about/
 # La usa jekyll-seo-tag para la meta description y el og:description de esta página.
-description: "Qué es Doble Click, cómo se arma cada entrada con ayuda de IA y sin revisión humana previa, quién lo hace y cómo se usa tu correo si te suscribes."
+description: "Qué son Doble Click y Doble Lectura, cómo se arma cada entrada con ayuda de IA y sin revisión humana previa, quién lo hace y cómo se usa tu correo si te suscribes."
 ---
 
 **Doble Click** es un blog diario sobre inteligencia artificial con perspectiva latinoamericana. Cada día reunimos lo más relevante que ocurrió en IA —lanzamientos, investigación, gobernanza, movimientos de la industria— y lo contamos en una sola entrada, pensada para un público general informado, en español neutro.
+
+Los lunes se suma **[Doble Lectura](/doble-lectura/)**: el análisis semanal de un paper o un informe de política pública, leído con calma. Primero qué dice el documento y después qué significa desde la región. Son dos cadencias de la misma cosa —el diario corre con la noticia, la lectura se detiene en un texto— y llegan juntas si te suscribes al newsletter.
 
 El foco es **la región**: qué de todo esto importa para América Latina, qué oportunidades abre y qué conversaciones conviene tener.
 
@@ -18,7 +23,9 @@ Las entradas se generan de forma **automática** a partir de fuentes públicas (
 
 Cada día miramos un conjunto amplio de fuentes: los **laboratorios de IA frontera**, **universidades y centros de investigación de América Latina**, **ministerios y reguladores** de la región, **organismos multilaterales** y estándares, equipos de **seguridad y evaluación** de modelos, **análisis e industria**, **prensa latinoamericana** e **investigación con curaduría**.
 
-Puedes ver la lista, con ejemplos de cada categoría, en **[Fuentes](/fuentes/)**. ¿Crees que falta alguna? **[Sugiérenos una fuente →](/fuentes/#sugerir)**: la revisamos y, si encaja, la sumamos.
+**[Ver la lista de fuentes →](/fuentes/)**
+
+Esa lista es **representativa, no exhaustiva**: muestra a qué clase de fuente le prestamos atención y con ejemplos de cada categoría, pero la curaduría interna es más amplia y cambia con lo que va apareciendo. ¿Crees que falta alguna? **[Sugiérenos una fuente →](/fuentes/#sugerir)**: la revisamos y, si encaja, la sumamos.
 
 ## Una aclaración importante
 

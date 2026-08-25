@@ -1,5 +1,5 @@
 {%- comment -%}
-Caja "Fuentes utilizadas": qué se leyó para escribir la entrada, con la fecha de cada
+Caja "Fuentes clave": qué se leyó para escribir la entrada, con la fecha de cada
 pieza y qué clase de fuente es. No sustituye a los enlaces del cuerpo —esos siguen
 donde estaban—: es el listado a la vista, para poder auditar la entrada sin recorrerla.
 
@@ -10,14 +10,23 @@ no muestran nada, y está bien así: acá no se infiere ni se completa nada a po
     - nombre: "Poder360"
       fecha: "2026-08-20"
       url: "https://…"
-      tipo: prensa        # primaria | investigacion | regulador | prensa
+      tipo: prensa        # primaria | investigacion | regulador | prensa | empresarial
+      nivel: 3            # opcional, 1 a 4 — qué tan cerca del hecho está la fuente
 
-`tipo` es lo único que se traduce (el mapa está más abajo). Un valor fuera de la lista
-se muestra tal cual: mejor una etiqueta rara que una etiqueta falsa.
+`tipo` dice qué clase de fuente es; `nivel` dice a qué distancia del hecho está, que
+no es lo mismo: un regulador y un laboratorio son tipos distintos y los dos hablan en
+primera persona de lo suyo (nivel 1). La escala va de la fuente primaria u oficial (1)
+a la parte interesada (4), pasando por el análisis independiente especializado (2) y
+la prensa (3).
+
+Los dos campos son opcionales y se traducen a texto acá abajo. Un `tipo` fuera de la
+lista se muestra tal cual —mejor una etiqueta rara que una etiqueta falsa—; un `nivel`
+que no sea 1, 2, 3 o 4 no muestra nada, porque un número inventado no significa nada
+para quien lee.
 {%- endcomment -%}
 {%- if page.fuentes and page.fuentes.size > 0 -%}
 <aside class="fuentes-uso" aria-labelledby="fuentes-uso-label">
-  <p class="fuentes-uso-label" id="fuentes-uso-label">Fuentes utilizadas</p>
+  <p class="fuentes-uso-label" id="fuentes-uso-label">Fuentes clave</p>
   <ul class="fuentes-uso-list">
     {%- for f in page.fuentes -%}
     {%- assign _nombre = f.nombre | default: f.url -%}
@@ -26,7 +35,23 @@ se muestra tal cual: mejor una etiqueta rara que una etiqueta falsa.
       {%- when 'investigacion' -%}{%- assign _tipo = 'investigación' -%}
       {%- when 'regulador' -%}{%- assign _tipo = 'regulador' -%}
       {%- when 'prensa' -%}{%- assign _tipo = 'prensa' -%}
+      {%- when 'empresarial' -%}{%- assign _tipo = 'fuente empresarial' -%}
       {%- else -%}{%- assign _tipo = f.tipo -%}
+    {%- endcase -%}
+    {%- comment -%}
+    `plus: 0` normaliza el nivel venga como venga del YAML: 3 y "3" dan 3, y cualquier
+    cosa que no sea un número —o el campo ausente— da 0, que no calza con ningún `when`
+    y deja `_nivel` vacío. Ojo: hay que reiniciarlo en cada vuelta, porque un `assign`
+    dentro del loop sobrevive a la iteración y la fuente siguiente heredaría el nivel
+    de la anterior.
+    {%- endcomment -%}
+    {%- assign _nivel = '' -%}
+    {%- assign _nivel_n = f.nivel | plus: 0 -%}
+    {%- case _nivel_n -%}
+      {%- when 1 -%}{%- assign _nivel = 'nivel 1 — primaria/oficial' -%}
+      {%- when 2 -%}{%- assign _nivel = 'nivel 2 — independiente especializada' -%}
+      {%- when 3 -%}{%- assign _nivel = 'nivel 3 — prensa' -%}
+      {%- when 4 -%}{%- assign _nivel = 'nivel 4 — interesada' -%}
     {%- endcase -%}
     <li class="fuentes-uso-item">
       {%- if f.url -%}
@@ -34,10 +59,11 @@ se muestra tal cual: mejor una etiqueta rara que una etiqueta falsa.
       {%- else -%}
       <span class="fuentes-uso-nombre">{{ _nombre }}</span>
       {%- endif -%}
-      {%- if f.fecha or _tipo -%}
+      {%- if f.fecha or _tipo or _nivel != '' -%}
       <span class="fuentes-uso-meta">
         {%- if f.fecha -%}<span class="fuentes-uso-fecha">{% include fecha.html date=f.fecha corta=true %}</span>{%- endif -%}
         {%- if _tipo -%}<span class="fuentes-uso-tipo">{{ _tipo }}</span>{%- endif -%}
+        {%- if _nivel != '' -%}<span class="fuentes-uso-nivel">{{ _nivel }}</span>{%- endif -%}
       </span>
       {%- endif -%}
     </li>

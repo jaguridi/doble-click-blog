@@ -369,7 +369,9 @@ body::before{
 /* índice de la sección: intro + cada entrada con su pequeña ficha (título, subtítulo y cita del paper) */
 .lectura-intro{ color:var(--ink-soft); margin:0 0 .5rem; max-width:42rem; text-wrap:pretty; }
 
-/* "Coming next": las próximas lecturas en cola (alimentado por _data/proximas_lecturas.yml) */
+/* "Próximas lecturas": la cola de lo que viene (alimentada por _data/proximas_lecturas.yml).
+   Las clases siguen diciendo `coming-next` —era el rótulo original— y se dejan así: el
+   nombre está en el CSS, en el HTML y en el buscador, y renombrarlo no arregla nada. */
 .coming-next{ background:var(--paper-2); border-left:3px solid var(--tono); border-radius:0 4px 4px 0; padding:1.1rem 1.3rem; margin:1.6rem 0 .5rem; max-width:42rem; }
 .coming-next-label{ font-family:"Space Mono", monospace; font-size:.72rem; text-transform:uppercase; letter-spacing:.13em; color:var(--tono); margin:0 0 .7rem; }
 .coming-next-list{ list-style:none; padding:0; margin:0; }
@@ -394,10 +396,22 @@ body::before{
 .lectura-item--principal .lectura-title{ font-size:clamp(1.9rem,4.6vw,2.6rem); font-weight:900; letter-spacing:-.022em; }
 .lectura-item--principal .lectura-sub{ font-size:1.15rem; }
 
-/* La lectura más reciente en la PORTADA (_includes/lectura_destacada.html). Va entre el
-   feed diario y el formulario, separada por una línea arriba, para que se lea como otra
-   sección y no como una entrada más del día. El color sigue siendo el del tema. */
-.lectura-dest{ margin:2.8rem 0 0; padding:2.2rem 0 0; border-top:1px solid var(--line); }
+/* La lectura más reciente en la PORTADA (_includes/lectura_destacada.html). Va intercalada
+   en el feed, después de la tercera entrada del diario, así que cierra por arriba y por
+   abajo: una línea sola bastaba cuando era el último bloque de la página, pero acá abajo
+   sigue habiendo diario y hace falta decir dónde termina el paréntesis. El color sigue
+   siendo el del tema.
+
+   Sin franja propia, a propósito: las franjas son del feed diario y contarla como una más
+   confundiría las dos cadencias. El aire de los márgenes es lo que la despega de la entrada
+   de arriba y de la de abajo, tenga banda o no. */
+.lectura-dest{
+  margin:1.4rem -1.3rem; padding:2rem 1.3rem;
+  border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+  opacity:0; transform:translateY(12px);
+  animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards;
+  animation-delay:calc(var(--i,0) * 70ms + 80ms);
+}
 .lectura-dest-kicker{
   font-family:"Space Mono", monospace; font-size:.74rem;
   text-transform:uppercase; letter-spacing:.16em; color:var(--tono); margin:0 0 1rem;
@@ -519,6 +533,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
   .site-main{ padding:0 1.2rem; }
   /* las franjas se alinean con el padding del main, que en móvil es menor */
   .entry, .archive-list li, .lectura-item{ padding-left:1.2rem; padding-right:1.2rem; margin:0 -1.2rem; }
+  /* la destacada de la portada se alinea con las franjas del feed, pero conserva su
+     margen vertical: por eso va aparte y no en la regla de arriba */
+  .lectura-dest{ padding-left:1.2rem; padding-right:1.2rem; margin-left:-1.2rem; margin-right:-1.2rem; }
   .entry-link::before, .lectura-item::before{ left:1.2rem; }
   .entry-link{ padding-left:1.3rem; }
   .entry-link:hover{ padding-left:1.7rem; }
@@ -539,7 +556,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
   .audio-speeds{ gap:.5rem; }
 }
 @media (prefers-reduced-motion:reduce){
-  .entry{ opacity:1; transform:none; animation:none; }
+  .entry, .lectura-dest{ opacity:1; transform:none; animation:none; }
   .cursor{ animation:none; }
   .entry-link, .entry-link::before, .archive-list a, .lectura-dest-link::before{ transition:none; }
 }
@@ -583,7 +600,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 .fuentes-list a{ color:var(--ink); text-decoration:none; font-size:1.02rem; border-bottom:1px solid var(--line); border-bottom-color:color-mix(in srgb, var(--accent-text) 30%, transparent); }
 .fuentes-list a:hover{ color:var(--accent-text); background:color-mix(in srgb, var(--accent-text) 8%, transparent); border-bottom-color:var(--accent-text); }
 
-/* Caja "Fuentes utilizadas" al cierre de una entrada (_includes/fuentes_entrada.html).
+/* Caja "Fuentes clave" al cierre de una entrada (_includes/fuentes_entrada.html).
    Es la misma caja de ficha que .coming-next —papel un punto más oscuro, filo en el tono
    del tema—, para que se lea como aparato y no como una sección más del texto. El nombre
    de la fuente en Fraunces, la fecha y la etiqueta de tipo en Space Mono chico: quien
@@ -618,6 +635,13 @@ a.fuentes-uso-nombre:hover{ color:var(--tono); border-bottom-color:var(--tono); 
   font-family:"Space Mono", monospace; font-size:.64rem;
   text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
   border:1px solid var(--line); border-radius:2px; padding:.1rem .4rem;
+}
+/* El nivel (a qué distancia del hecho está la fuente) va sin recuadro y en minúscula:
+   es un dato de segundo orden y encuadrarlo lo pondría a competir con el tipo, que es
+   lo que se barre de un vistazo. Misma familia y tamaño, un punto más apagado. */
+.fuentes-uso-nivel{
+  font-family:"Space Mono", monospace; font-size:.64rem;
+  letter-spacing:.04em; color:var(--muted); opacity:.85;
 }
 
 /* reportar un error (entradas y lecturas) */

@@ -48,7 +48,12 @@
       <a href="{{ '/' | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>Inicio</a>
       <a href="{{ '/entradas/' | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>Entradas</a>
       <a href="{{ '/doble-lectura/' | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>Doble Lectura</a>
-      <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Qué es esto</a>
+      {%- comment -%}
+      El rótulo dice "Método" pero el permalink sigue siendo /about/: hay enlaces
+      internos (el pie del formulario, /about/#privacidad) y externos apuntando ahí.
+      Cambiar la URL para que calce con el nombre rompería más de lo que ordena.
+      {%- endcomment -%}
+      <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Método</a>
     </nav>
   </header>
 
@@ -63,7 +68,7 @@
         <a href="{{ '/' | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>Inicio</a>
         <a href="{{ '/entradas/' | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>Entradas</a>
         <a href="{{ '/doble-lectura/' | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>Doble Lectura</a>
-        <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Qué es esto</a>
+        <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Método</a>
         <a href="{{ '/fuentes/' | relative_url }}"{% if _sec == 'fuentes' %} aria-current="page"{% endif %}>Fuentes</a>
         {%- comment -%}
         Dos feeds, dos enlaces: /feed.xml trae sólo el diario y /feed-lecturas.xml sólo
