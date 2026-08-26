@@ -284,6 +284,9 @@ pesos-abiertos-cincuenta-firmas-dos-ausencias:
 politicos-funcionarios-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+primer-chip-openai-gana-nvidia-eficiencia:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 primer-ransomware-agente-ia-autonomo:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
