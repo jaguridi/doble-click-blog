@@ -1,0 +1,9 @@
+La empresa detrás de ChatGPT estrenó su primer chip propio, y esta vez hizo algo inusual: publicó los resultados y dejó que un equipo externo los midiera en su propio laboratorio, con algunas pruebas verificadas en persona.
+
+El chip se llama Jalapeño y sirve para ejecutar modelos ya entrenados, es decir, para responder cada vez que alguien escribe algo. Los números incomodan a Nvidia: entre una y media y casi dos veces más trabajo de inteligencia artificial por cada vatio consumido, y respuestas hasta tres veces y media más rápidas que las mejores tarjetas disponibles hoy. Setecientos vatios contra mil cuatrocientos. El veredicto de quienes hicieron la medición es la frase para retener: los chips de primera generación normalmente no son competitivos, y este le gana a todos los que pudieron probar.
+
+Para América Latina lo que importa no es la rivalidad entre proveedores, sino el precio del token, la unidad mínima de texto que se cobra cada vez que se usa un modelo. Es lo único de toda esta cadena que la región paga todos los días. Si servir un modelo se vuelve el doble de eficiente, y quien se queda con ese ahorro es el mismo que vende el modelo, el resultado no es un token más barato: es un proveedor más difícil de reemplazar. Llega justo cuando Brasil comprometió dos mil quinientos millones de reales en un supercomputador de arquitectura abierta, y Chile discute un banco de tokens en su presupuesto. Ambas apuestas suponen que el problema se resuelve comprando cómputo o comprando acceso, y la frontera de la eficiencia acaba de mudarse a un lugar donde no se vende ninguna de las dos cosas.
+
+Entonces, si el costo de servir un modelo cae a la mitad, ¿en qué momento, y por qué vía, llegaría esa baja a quien paga el token en la región?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
