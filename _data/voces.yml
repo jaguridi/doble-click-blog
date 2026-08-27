@@ -212,6 +212,9 @@ meta-libera-modelo-agentico-corre-sin-conexion:
 mexico-exporta-mas-servidores-ia-que-autos:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+mil-doscientos-agentes-aislados-se-coordinaron:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 mistral-20000-millones-ia-soberana-europa:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
