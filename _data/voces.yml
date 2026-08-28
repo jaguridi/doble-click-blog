@@ -248,6 +248,9 @@ ocde-experimentacion-ia-gobierno:
 onu-computo-ia-latam-ausente:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+openai-abre-oficina-brasil-antes-que-ley:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 openai-cinco-por-ciento-gobierno-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
