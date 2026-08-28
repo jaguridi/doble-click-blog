@@ -1,0 +1,11 @@
+OpenAI abrió su operación comercial en Brasil, con equipo propio en São Paulo. Es su primera oficina en el continente americano fuera de Estados Unidos, y no llegó sola: junto al anuncio vino un memorando de entendimiento con la empresa municipal de tecnología de São Paulo, para llevar inteligencia artificial a la administración pública de una ciudad de once millones y medio de habitantes. Hasta ayer, un laboratorio de frontera le vendía a la región de forma remota. Desde hoy tiene domicilio, interlocutor y contraparte pública.
+
+Las cifras que explican la elección las publica la propia empresa, así que conviene leerlas con esa advertencia. Brasil es uno de los tres mayores mercados de ChatGPT del mundo, con una base que casi se duplicó en un año y unos doscientos quince millones de mensajes diarios. Es también el segundo país del mundo en desarrolladores usando sus herramientas de programación.
+
+El detalle que importa es el orden de los acontecimientos. El acuerdo con la ciudad no tiene monto público ni información sobre un proceso competitivo, y ocurre mientras el proyecto de ley de inteligencia artificial brasileño sigue sin votarse en la Cámara de Diputados. Primero llega el proveedor con contrato municipal; después, la ley que debía definir sus obligaciones.
+
+El mismo día, la autoridad de protección de datos de Brasil multó a la dueña de TikTok por tratar datos de niños y adolescentes sin base legal, y le ordenó activar por defecto la configuración más restrictiva en las cuentas de menores de dieciséis años. Es la primera vez que un regulador de la región le dice a una plataforma global cómo debe venir configurado su producto.
+
+¿Puede un Estado ser regulador exigente de una plataforma extranjera y cliente sin condiciones de otra al mismo tiempo?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
