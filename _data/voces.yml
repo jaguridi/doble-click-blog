@@ -233,6 +233,9 @@ musk-grok-4-cursor-fable-bloqueada:
 mythos-anthropic-mercado-general:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+nube-china-aterriza-brasil-48-horas:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 nvidia-proveedor-acreedor-accionista-frontera:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
