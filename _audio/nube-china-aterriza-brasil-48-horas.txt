@@ -1,0 +1,9 @@
+El jueves por la tarde, Alibaba Cloud encendió su primera región de nube en América del Sur: dos centros de datos en Brasil. Es la primera operación de infraestructura de la compañía china en el subcontinente y la segunda en América Latina, después de México. Dos días antes, OpenAI había abierto en São Paulo su primera oficina comercial en las Américas fuera de Estados Unidos. En cuarenta y ocho horas, Brasil recibió las dos mitades del tablero.
+
+La nueva región ofrece cómputo, almacenamiento, redes, seguridad y bases de datos, y la empresa anunció que sumará herramientas de agentes, es decir, sistemas que ejecutan tareas por su cuenta. El argumento de venta es que los datos se quedan físicamente en Brasil y que la conexión es más rápida. Alibaba no dijo cuánto invirtió en el país; la cifra que circula, cincuenta y tres mil millones de dólares a tres años, es su plan global de infraestructura.
+
+Lo relevante no es el monto, sino lo que cambia para quien decide. Hasta el miércoles, un ministerio, un banco o una empresa brasileña elegía entre proveedores. Desde el jueves elige, de hecho, entre bloques. Y lo hace antes de que exista la ley que definiría las obligaciones de cualquiera de los dos: el proyecto de ley de inteligencia artificial brasileño sigue sin fecha de votación, y su relator ya avisó que se posterga hasta después de las elecciones de octubre.
+
+La contracara la puso el mismo día la cámara de internet argentina: menos de cuarenta megavatios instalados en todo el país, y apenas catorce centros de datos de más de un megavatio. Queda la pregunta del día. ¿Cuándo tiene un Estado latinoamericano poder real frente a un proveedor de nube? ¿Antes de que se instale, cuando puede poner condiciones pero no tiene nada que ofrecer, o después, cuando ya hay obra hundida en su territorio y también dependencia?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
