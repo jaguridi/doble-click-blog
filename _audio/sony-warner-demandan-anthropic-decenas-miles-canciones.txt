@@ -1,0 +1,9 @@
+El litigio por derechos de autor contra la inteligencia artificial dejó los libros y entró a la música. La noche del viernes, Sony Music Publishing y Warner Chappell, las dos mayores editoras musicales del mundo, demandaron a la empresa Anthropic ante un tribunal federal del norte de California, y nombraron también, de forma personal, a sus dos cofundadores. Hablan de una campaña descarada de descarga ilegal y raspado de obras protegidas, e identifican decenas de miles de composiciones.
+
+Son cuatro cargos, y el que conviene mirar es el cuarto: remoción de la información de gestión de derechos, es decir, los datos de autoría que viajan pegados a cada obra. Ese cargo no discute de dónde salió el material, sino qué se le borró antes de entrenar, y por esa vía podría llegar a tocar el entrenamiento mismo. Las editoras piden juicio por jurado y hasta ciento cincuenta mil dólares por obra. Anthropic dice que discrepa y que se defenderá con firmeza.
+
+Para América Latina el problema es de silla vacía. Los derechos editoriales del grueso del reggaetón, el regional mexicano, el sertanejo y la cumbia están administrados por Sony y Warner, no por quienes los compusieron. Son las editoras las que van a litigar, en California, bajo qué condiciones se podrá entrenar sobre ese repertorio, y llegan tres días después de haber entrado como accionistas de la empresa Stability. Litigan por un lado y coinvierten por el otro, sin ninguna parte latinoamericana en la mesa.
+
+Queda la pregunta del día. Si el pulido automático borra parte de las señales de quién escribió, ¿en qué momento un Estado que pone asistentes de escritura en sus escuelas deja de ofrecer una ayuda y pasa a imponer una voz?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
