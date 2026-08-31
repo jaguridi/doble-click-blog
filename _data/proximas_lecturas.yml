@@ -15,12 +15,6 @@
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
 
-- titulo: "La IA sube las notas de las tareas y baja las de los exámenes: evidencia de 26.811 estudiantes chinos"
-  paper: "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education"
-  autores: "Strömberg, Lei y Wu (Estocolmo, U. de Hong Kong)"
-  publicado: "SSRN, junio 2026"
-  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6977138"
-
 - titulo: "¿Qué significa diseñar con responsabilidad una IA para el bienestar mental?"
   paper: "Framing Responsible Design of AI for Mental Well-Being: AI as Primary Care, Nutritional Supplement, or Yoga Instructor?"
   autores: "Cooper, Guridi et al. (Cornell, USC, U. Washington, Weill Cornell)"
