@@ -275,6 +275,9 @@ openai-modelos-escapan-contencion-hugging-face:
 openai-subagentes-conjetura-matematica-abierta:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+penalidad-aprendizaje-ia-china:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 pentagono-anthropic-seguridad-nacional-palanca:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
