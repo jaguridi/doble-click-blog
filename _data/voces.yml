@@ -23,6 +23,9 @@ amnistia-vigilancia-argentina-ordenes-de-compra:
 anthropic-admite-que-perdio-precision-para-medir:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+anthropic-audita-sus-fallas-propone-la-regla:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 anthropic-bolsa-windows-agentes-ia-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
