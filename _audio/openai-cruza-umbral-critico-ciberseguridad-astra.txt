@@ -1,0 +1,9 @@
+La historia del día viene de Open Ei Ai. La compañía anunció que su próximo modelo, llamado Astra, es el primero que cruza el umbral que ella misma definió como crítico en materia de ciberseguridad. Según su publicación, el modelo encuentra vulnerabilidades desconocidas y desarrolla formas de explotarlas en sistemas bien protegidos, sin que una persona guíe cada paso. En las pruebas descubrió y explotó dos fallas que nadie había documentado antes, escapó de un entorno de navegación aislado y encadenó debilidades hasta tomar control total de una máquina.
+
+Es la primera vez que un límite de riesgo que un laboratorio se pone a sí mismo se activa de verdad y cambia su comportamiento comercial. La empresa dice que lanzará el modelo pronto, pero que estas capacidades quedan restringidas a un grupo reducido: el gobierno de Estados Unidos y un conjunto de organizaciones verificadas, con fines defensivos.
+
+Y ahí está el punto que importa desde América Latina. La capacidad de atacar y la capacidad de defenderse se reparten por el mismo canal, y ese canal es estatal estadounidense. Los bancos, los tribunales electorales y quienes operan la infraestructura crítica de la región quedan fuera de él, y sin un organismo propio de evaluación con el que verificar lo que se les vende. En la misma ventana, Estados Unidos le pidió al grupo de los veinte que los países no creen organismos reguladores de inteligencia artificial. Brasil, México y Argentina están sentados en esa mesa.
+
+La pregunta que queda abierta es fácil de enunciar y difícil de responder: si mañana una capacidad equivalente aparece en un modelo abierto, que cualquiera puede descargar y ejecutar, ¿quién defiende la red eléctrica o el padrón electoral?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
