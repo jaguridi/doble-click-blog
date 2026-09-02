@@ -260,6 +260,9 @@ openai-abre-oficina-brasil-antes-que-ley:
 openai-cinco-por-ciento-gobierno-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+openai-cruza-umbral-critico-ciberseguridad-astra:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 openai-disuelve-equipo-riesgos-catastroficos-antes-bolsa:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
