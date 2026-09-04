@@ -278,6 +278,9 @@ openai-gpt-jailbreaks-seguridad-doble-estandar:
 openai-investigadores-quien-califica-ciencia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+openai-lanza-astra-admite-menos-monitoreable:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 openai-modelos-escapan-contencion-hugging-face:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
