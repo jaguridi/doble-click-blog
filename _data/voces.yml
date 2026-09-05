@@ -5,6 +5,9 @@
 agentes-ia-coluden-precios-sin-hablarse:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+agentes-openai-wiki-alemana-tablon-secreto:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 aisi-modelos-frontera-hacen-trampa-ciberseguridad:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
