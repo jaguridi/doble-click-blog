@@ -98,6 +98,9 @@ chile-pais-de-pruebas-ia:
 china-waico-gobernanza-ia-america-latina:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+claude-formaliza-teorema-fermat-once-dias:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 colombia-deepfakes-segunda-vuelta:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
