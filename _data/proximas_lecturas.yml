@@ -15,8 +15,4 @@
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
 
-- titulo: "¿Qué significa diseñar con responsabilidad una IA para el bienestar mental?"
-  paper: "Framing Responsible Design of AI for Mental Well-Being: AI as Primary Care, Nutritional Supplement, or Yoga Instructor?"
-  autores: "Cooper, Guridi et al. (Cornell, USC, U. Washington, Weill Cornell)"
-  publicado: "CHI 2026"
-  url: "https://doi.org/10.1145/3772318.3791556"
+[]

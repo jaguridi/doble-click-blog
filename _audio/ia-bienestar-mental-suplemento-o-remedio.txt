@@ -1,0 +1,17 @@
+Doble Lectura, de Doble Click. Hoy, qué significa diseñar con responsabilidad una inteligencia artificial para el bienestar mental, según un estudio que presentará este año la conferencia CHI.
+
+Antes de partir, una aclaración: el autor de este blog es coautor del paper. Lo leemos igual que cualquier otro.
+
+El objeto del estudio son las herramientas no clínicas. ChatGPT, Replika y compañía, usadas para desahogarse o sentirse mejor, sin receta ni supervisión de un profesional. La ley estadounidense separa esto con nitidez: lo clínico lo regula la agencia de medicamentos como dispositivo médico, y lo no clínico lo mira la agencia de comercio con mano liviana, como tecnología de consumo. Millones de personas ya están del lado liviano.
+
+Los autores no evalúan ningún chatbot ni miden ningún efecto. Preguntan. Entrevistaron a veinticuatro expertos en ética médica, política de salud, regulación y diseño de tecnología sanitaria, y analizaron más de cien documentos regulatorios.
+
+Lo que encontraron es un mapa de dos ejes: si la herramienta es un producto o un servicio, y si garantiza o no un resultado de salud. Quedan cuatro casillas. El suplemento nutricional no garantiza nada. El remedio de venta libre sí garantiza alivio para un síntoma definido. La atención primaria garantiza el resultado, y si no puede darlo queda obligada a derivar. Y el profesor de yoga puede mejorar o arruinar los beneficios probados del yoga, y aun así no promete ninguno.
+
+Lo valioso no es la ocurrencia, sino lo que ordena. Cada casilla trae riesgos distintos. En una herramienta tipo remedio lo urgente es seguridad, efectividad y acceso equitativo. En una tipo suplemento es casi lo contrario: su efectividad clínica importa poco, y lo que importa es que no reemplace la atención clínica ni el autocuidado. Y todos los entrevistados exigieron lo mismo: que la herramienta declare su ingrediente activo, el mecanismo probado por el cual mejora el bienestar. Ninguno consideró diseño responsable a una herramienta que no puede nombrarlo.
+
+¿Y desde América Latina? El análisis regulatorio es solo de Estados Unidos, y los autores lo declaran. Pero la capa de diseño sí viaja, y llega antes que la ley, que es cuando sirve. Donde se tensiona es en la derivación: derivar de forma efectiva supone que existe a quién derivar, y acá el especialista muchas veces no está. Y pedir que la herramienta no sustituya la atención clínica supone que esa atención está disponible. Para mucha gente en la región, el chatbot gratis y en español no compite con el psicólogo. Compite con nada. Eso último es lectura nuestra, no de los autores.
+
+La pregunta que deja es directa. Si tuvieras que escribir en la portada de tu herramienta qué mejora, en quién y por qué mecanismo probado, ¿podrías? Si la respuesta es que sirve para todo y para todos, el paper sugiere que eso no es versatilidad, sino ausencia de un responsable.
+
+El estudio es de Ned Cooper, José Guridi, Angel Hsing-Chi Hwang, Beth Kolko, Emma McGinty y Qian Yang. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar el paper original.
