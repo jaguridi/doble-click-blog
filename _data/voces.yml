@@ -185,6 +185,9 @@ gpt-5-6-tres-modelos-sin-latam:
 hassabis-organismo-global-estandares-ia-frontera:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+ia-bienestar-mental-suplemento-o-remedio:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 ia-codigo-retornos-experiencia:
   voz: "Catalina (Chile)"
   motor: "Microsoft Azure"
