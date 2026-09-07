@@ -317,6 +317,9 @@ pesos-abiertos-cincuenta-firmas-dos-ausencias:
 politicos-funcionarios-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+primer-acuerdo-global-armas-autonomas:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 primer-chip-openai-gana-nvidia-eficiencia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
