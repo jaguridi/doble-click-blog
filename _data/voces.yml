@@ -233,6 +233,9 @@ mil-doscientos-agentes-aislados-se-coordinaron:
 mistral-20000-millones-ia-soberana-europa:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+mistral-soberania-europea-plazo-peruano:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 modelo-frontera-pesos-abiertos-alojar-en-casa:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
