@@ -1,0 +1,13 @@
+Europa acaba de ponerle precio a la soberanía tecnológica. La empresa francesa Mistral cerró una ronda de tres mil millones de euros, a una valuación superior a los veintiún mil millones. Es el doble de lo que valía hace un año y la mayor operación tecnológica de la historia del continente, liderada por Samsung Electronics, con la entrada del Gran Ducado de Luxemburgo entre los inversores.
+
+Pero lo más útil no es la cifra. Es que la compañía puso por escrito, en su propio anuncio, una definición de soberanía que se puede auditar capa por capa. Son cuatro: datos que no salen de la organización, modelos controlables y personalizables, cómputo privado y predecible, y sistemas en producción que se pueden auditar. Eso convierte una palabra política en una lista de verificación.
+
+Y viene con su contracara, escrita en el mismo anuncio: con tres mil millones de euros, Mistral sigue por detrás de los modelos abiertos chinos y no compite con los cerrados estadounidenses. Ese dinero no compra frontera. Compra independencia.
+
+Ahí está el ángulo latinoamericano. Si Europa, con veinte países cliente y un Estado entre sus accionistas, llega hasta ahí, el objetivo realista de la región probablemente no sea un modelo propio de frontera, sino control sobre datos, despliegue y contratos. La discusión regional suele quedar atrapada en cuántos parámetros y cuántos terabytes, cuando la pregunta accionable es cuál de esas cuatro capas puede controlar de verdad un país, y cuál conviene alquilar sin pudor.
+
+Y hay una fecha concreta. El diez de septiembre, Perú se convierte en el primer país latinoamericano donde hospitales, colegios, juzgados y bancos tienen que explicar qué decide su algoritmo. Sin una sola sanción escrita para quien no lo haga.
+
+Entonces, si la soberanía útil está en la capa de despliegue y no en la del modelo, ¿no es más soberano un reglamento con dientes que un modelo propio sin presupuesto de cómputo?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
