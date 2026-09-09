@@ -1,0 +1,11 @@
+Hoy en Doble Click: diez mil agentes de inteligencia artificial trabajaron ochenta y ocho horas seguidas sobre uno de los siete problemas del milenio, y produjeron una demostración.
+
+La empresa OpenAI anunció que sus agentes probaron que las ecuaciones de Navier Stokes, las que describen cómo se mueven los fluidos, pueden romperse. Un fluido inicialmente suave y en reposo, empujado por una fuerza suave, alcanza una singularidad en tiempo finito. Conviene ser preciso, porque buena parte de la cobertura lo mezcló: se probaron dos de los enunciados de la formulación oficial del problema, no la suavidad global, y la empresa declaró que no reclamará el millón de dólares del premio.
+
+Lo interesante no es el titular, sino cómo viene empaquetado. La prueba está formalizada en Lean, un lenguaje que permite escribir matemática de modo que un computador revise cada paso. Es decir: su corrección no depende de creerle al modelo. Cualquiera puede verificarla.
+
+Y ahí está el punto para América Latina. Lean es gratis y abierto, y el talento matemático de la región es real y competitivo. Lo que no es gratis es el motor: ciento treinta mil millones de tokens de salida para un solo problema. Un departamento de matemáticas en Santiago, en São Paulo o en Ciudad de México puede auditar este resultado mañana por la mañana. Ninguno puede producirlo. La barrera de entrada a la matemática de frontera dejó de ser el conocimiento y pasó a ser la factura de cómputo.
+
+Queda la pregunta del día. Si verificar es gratis y producir cuesta lo que ningún presupuesto público regional alcanza, ¿aceptar el rol de auditor es una estrategia honesta, o solo un nombre digno para la dependencia?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
