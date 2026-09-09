@@ -125,6 +125,9 @@ copilot-cobro-token-facturas-latam:
 demostrar-expertise-codigo-ia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+diez-mil-agentes-navier-stokes-lean:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 diez-problemas-abiertos-por-dos-mil-dolares:
   voz: "Catalina (Chile)"
   motor: "Microsoft Azure"
