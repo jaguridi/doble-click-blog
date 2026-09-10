@@ -1,0 +1,11 @@
+Hoy en Doble Click: un modelo de frontera abierto, y una decisión incómoda para América Latina.
+
+Hace dos días, tres agencias de seguridad de Estados Unidos acusaron públicamente a la empresa china DeepSeek de entrenar sus modelos copiando a escala industrial las respuestas de los modelos estadounidenses más avanzados. Cuarenta y ocho horas después, DeepSeek respondió con un lanzamiento: publicó su nuevo modelo, llamado uve cuatro punto uno Flash, bajo una licencia abierta, la más permisiva que existe. Cualquiera puede descargarlo, correrlo y modificarlo.
+
+No es un gesto simbólico. Es un modelo que entiende texto e imágenes, con quinientos cincuenta y dos mil millones de parámetros, y que activa solo una fracción de ellos en cada operación. Lo verdaderamente importante no está en los puntajes de las pruebas, sino en la contabilidad: usa apenas un cuarto de la memoria que necesitaba la generación anterior. Y el precio queda en treinta centavos de dólar por millón de palabras procesadas.
+
+Para la región esto no es una noticia de producto. Es una decisión que hay que tomar el lunes. América Latina despliega sobre modelos abiertos chinos por una razón simple: son los únicos que caben en el presupuesto de un ministerio o de una universidad pública, y correrlos en casa es la única forma de soberanía de datos disponible cuando no puedes comprar cómputo de frontera. Esa elección, que hasta el martes era técnica y presupuestaria, ahora carga una capa de riesgo jurídico puesta por un gobierno extranjero.
+
+Y aquí está lo incómodo: ningún país latinoamericano tiene hoy un instituto capaz de evaluar ese modelo por sí mismo. Así que la decisión termina tomándose eligiendo entre dos relatos de seguridad nacional ajenos, ninguno escrito pensando en nosotros. El precio del modelo bajó otra vez. El costo de no poder evaluarlo, no.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
