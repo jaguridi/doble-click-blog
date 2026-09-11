@@ -359,6 +359,9 @@ ue-eeuu-modelos-opuestos-gobernanza-ia:
 unesco-santo-domingo-cumbre-ia-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+universidades-latam-usan-ia-sin-reglas-escritas:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 veto-anthropic-dia-2-amazon-g7-evian:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
