@@ -1,0 +1,11 @@
+Este sábado la propuesta de frenar la carrera de la inteligencia artificial dejó de ser una pregunta y pasó a ser un plan escrito. Dario Amodei, director ejecutivo de Anthropic, publicó un ensayo que pide desacelerar deliberadamente la mejora de capacidades de los modelos más avanzados. Su frase central es corta: debemos bajar el ritmo al que mejoramos las capacidades.
+
+El plan tiene tres pasos. Primero, instalar evaluadores externos permanentes dentro de los laboratorios, con acceso equivalente al de un empleado y derecho a publicar sus hallazgos sin control de la empresa. Anthropic se comprometió a eso por su cuenta. Segundo, coordinar entre laboratorios de países democráticos para fijar estándares y límites al ritmo. Tercero, negociar con gobiernos autoritarios, empezando por prohibiciones acotadas de usos peligrosos. Horas después, el director ejecutivo de OpenAI dijo que hará lo mismo con evaluadores independientes, y Elon Musk respaldó el texto.
+
+La urgencia se apoya en un plazo concreto: Amodei sostiene que un enjambre de agentes desalineado podría causar daños por cientos de miles de millones de dólares en un horizonte de seis a doce meses.
+
+Para América Latina el problema no es estar en desacuerdo con el diagnóstico. Es que en los tres escalones la región aparece del lado que recibe la decisión. No existe en la región una organización evaluadora con capacidad equivalente a la estadounidense. El segundo paso se coordina entre laboratorios que la región no tiene. Y el tercero es diplomacia entre Washington y Beijing. El único mecanismo que un país sin laboratorios propios puede exigir por su cuenta es la evaluación independiente antes del despliegue, como condición para entrar a su mercado. Pero exigirla requiere gente capaz de hacerla, y eso es justamente lo que escasea.
+
+Queda la pregunta: ¿qué tendría que construir la región, y con qué presupuesto, para no quedarse con la única alternativa que le resta, que es confiar?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
