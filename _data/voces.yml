@@ -362,6 +362,9 @@ terence-tao-agentes-codigo-investigacion:
 tests-seguridad-ia-fugas-entorno-pruebas:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+tres-maneras-gobernar-ia-region-escribio-una:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 ue-eeuu-modelos-opuestos-gobernanza-ia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
