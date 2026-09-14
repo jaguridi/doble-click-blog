@@ -1,0 +1,17 @@
+Doble Lectura, de Doble Click. Hoy, qué pasa cuando en vez de preguntarle a los expertos por el riesgo de catástrofe por inteligencia artificial, se le pregunta a los propios modelos.
+
+La discusión sobre ese riesgo está estancada hace años. Algunos líderes de la industria hablan de entre diez y veinticinco por ciento de probabilidad de un desenlace catastrófico. Yann LeCun la pone por debajo de la de un asteroide. Un grupo de investigadores del Forecasting Research Institute propone meter un insumo nuevo: los pronósticos de los modelos de frontera.
+
+Armaron un tablero que se actualiza de forma periódica. Toman los cuatro modelos mejor rankeados en un índice de capacidades, les entregan treinta y cinco preguntas con criterios de resolución precisos, y se quedan con la mediana de los cuatro.
+
+Definen catástrofe como un evento que mata al menos al diez por ciento de la población humana en cinco años. Para catástrofe causada por inteligencia artificial, los modelos dan cero coma cuarenta y siete por ciento al dos mil treinta, y seis por ciento al dos mil cincuenta. Eso es entre cinco y siete veces más alto que lo que estiman los superpronosticadores humanos. Y hay una cifra menos comentada: la probabilidad de desempoderamiento humano les sale todavía mayor, veintiocho por ciento al dos mil cien.
+
+La parte más interesante no son los números, sino el intento de validarlos. Los autores muestran que en preguntas reales ya resueltas los modelos recientes son tan buenos como los superpronosticadores, y que en mundos simulados, donde sí se pueden generar miles de eventos raros, la precisión sube fuerte con la capacidad del modelo. De ahí su idea central: como pronosticar mejor depende de lo mismo que empuja el riesgo, estos pronósticos serían más confiables justo en los futuros donde el riesgo es más alto.
+
+¿Y desde América Latina? La región no aparece en ninguna parte. El menú de políticas se armó con propuestas de think tanks y políticos estadounidenses. Pero hay un resultado que le habla directo a la región sin proponérselo: en cada comparación, las medidas internacionales le ganan a las nacionales. Para un país que no entrena modelos de frontera ni tiene jurisdicción sobre quienes los entrenan, eso explica por qué la política nacional, por buena que sea, no toca este riesgo, y por qué lo que se juega está en la mesa multilateral.
+
+Dos advertencias. El paper presenta un producto de la propia casa, así que es validación interna, no auditoría independiente. Y los autores reconocen que no está establecido que acertar en mundos simulados se traduzca en acertar sobre catástrofes reales.
+
+La pregunta que deja es simple. Si una de estas cifras se mueve fuerte hacia arriba el próximo trimestre, ¿alguien en la región está encargado de notarlo?
+
+El estudio es de Jason Abaluck, Ezra Karger, Nick Merrill, Philip Tetlock, Eva Vivalt y Bridget Williams. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar la fuente original.

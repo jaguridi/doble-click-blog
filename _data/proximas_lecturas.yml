@@ -15,4 +15,55 @@
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
 
-[]
+- titulo: "Las venas abiertas de la auditoría algorítmica: el Sur Global casi no audita la IA que ya usa"
+  paper: "Open Veins of AI Auditing: How AI Scrutiny Lags Deployment in the Global South"
+  autores: "Galdon Clavell y Magaard (Eticas Foundation)"
+  publicado: "arXiv, julio 2026"
+  url: "https://arxiv.org/abs/2607.21317"
+
+- titulo: "Quién decide de verdad el resultado de una consulta ciudadana en Polis"
+  paper: "It Takes Three to Converse: Empirical Observations on How the Developer, the Convener and the Participant Shaped 119 Polis Conversations"
+  autores: "Gelauff"
+  publicado: "arXiv, agosto 2026"
+  url: "https://arxiv.org/abs/2608.28368"
+
+- titulo: "¿Están naciendo autoridades de IA en América Latina?"
+  paper: "The Rise of AI Authorities? A Closer Look at Latin America's Institutional Responses and External Influences"
+  autores: "Saverino et al."
+  publicado: "University of Bologna Law Review, 2026"
+  url: "https://doi.org/10.60923/issn.2531-6133/21439"
+
+- titulo: "Delegar en la IA generativa: dónde queda la dirección humana de la tarea"
+  paper: "Governing Delegation to Generative Artificial Intelligence: Human Direction, Work-Related Orientation, and Modes of Use"
+  autores: "Fábrega (CICS-UDD, Chile)"
+  publicado: "arXiv, agosto 2026"
+  url: "https://arxiv.org/abs/2608.17624"
+
+- titulo: "Cuando los agentes de IA inundan los servicios del Estado"
+  paper: "Characterizing Agentic Flooding of Government Services"
+  autores: "Schmitz et al."
+  publicado: "arXiv, agosto 2026"
+  url: "https://arxiv.org/abs/2608.16603"
+
+- titulo: "IA generativa en un gobierno local: 25 entrevistas a funcionarios en Vietnam"
+  paper: "Generative AI in Developing Countries: Adoption Dynamics in Vietnamese Local Government"
+  autores: "Nguyen et al."
+  publicado: "Informatics, 2026"
+  url: "https://doi.org/10.3390/informatics13020022"
+
+- titulo: "El déficit deliberativo: una crítica empírica al uso de LLM en el debate democrático"
+  paper: "The Deliberative Deficit: An Empirical Critique of LLMs in Democratic Discourse"
+  autores: "Flechtner"
+  publicado: "arXiv, agosto 2026"
+  url: "https://arxiv.org/abs/2608.10186"
+
+- titulo: "La frontera dentada: en qué tareas la IA mejora el trabajo del conocimiento y en cuáles lo empeora"
+  paper: "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality"
+  autores: "Dell'Acqua et al."
+  publicado: "Organization Science, 2026"
+  url: "https://doi.org/10.1287/orsc.2025.21838"
+
+- titulo: "¿Estamos listos para la IA? Del índice de medición a la gobernanza de la política"
+  paper: "Are We Ready for AI? From Measurement to Policy Governance"
+  autores: "Levy Yeyati (BID)"
+  publicado: "BID, Nota Técnica IDB-TN-03318, marzo 2026"
