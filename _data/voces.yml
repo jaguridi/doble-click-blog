@@ -209,6 +209,9 @@ ia-empleos-marco-transicion:
 ia-estudiar-paises-pobres:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+ia-pronostica-su-propio-riesgo:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 imagenes-ia-espacios-publicos:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
