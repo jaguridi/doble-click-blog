@@ -164,6 +164,9 @@ estados-unidos-sin-supervision-ia:
 europa-licita-siete-gigafabricas-computo-soberano:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+examen-ia-region-usa-estrena-version:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 fable-5-tokio-agentes-autonomos-benchmarks:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
