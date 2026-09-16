@@ -1,0 +1,9 @@
+Meta lanzó Meta One, una escalera global de suscripciones que va desde dos dólares con noventa y nueve centavos hasta cuatrocientos noventa y nueve dólares al mes. Lo que queda detrás de ese plan pago es el uso intensivo de inteligencia artificial en Instagram, Facebook, WhatsApp y el asistente de la compañía: más generación y edición de imágenes y de video, y el agente de negocios. La empresa insiste en que la experiencia básica sigue siendo gratis, y reporta quince millones de suscripciones y pruebas acumuladas.
+
+Para América Latina el dato relevante no es el precio, sino el canal. WhatsApp es la aplicación por la que buena parte de la región conoció la inteligencia artificial generativa sin pagar nada. Y el experimento que Meta empezó en mayo con dos mercados de prueba, Guatemala y Bolivia, es hoy un producto global con ocho escalones cobrados en dólares. Quedan dos preguntas abiertas: cuánto sobrevive del piso gratuito, y a qué tipo de cambio se paga el escalón siguiente.
+
+El mismo día dejó otra señal en la misma dirección. Cloudflare, un gran proveedor de infraestructura de internet, activó por defecto el bloqueo de los rastreadores que recorren la web sin distinguir si el contenido va a un buscador o a entrenar un modelo. Sin ley de por medio, una empresa acaba de fijar quién puede entrenar con el contenido de la web abierta.
+
+Si el precio de la inteligencia artificial en la región se fija en dólares desde California, y las condiciones de uso del contenido regional se fijan desde un panel de configuración, ¿qué le queda por regular a un Estado latinoamericano que no tenga que negociar empresa por empresa?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
