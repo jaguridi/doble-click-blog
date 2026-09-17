@@ -302,6 +302,9 @@ openai-cruza-umbral-critico-ciberseguridad-astra:
 openai-disuelve-equipo-riesgos-catastroficos-antes-bolsa:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+openai-escribe-reglas-contar-sus-fallas:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 openai-frena-modelo-riesgo-cibernetico-regla-propia:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
