@@ -1,0 +1,11 @@
+Cinco días después de pedirle a la industria que desacelere, el laboratorio Anthropic puso números sobre su propia mesa. Publicó las primeras métricas internas del ritmo de desarrollo dentro de un laboratorio de frontera, y reveló que su modelo, Claude, ya lidera el veintiséis por ciento del trabajo de investigación e ingeniería de inteligencia artificial de la empresa. Liderar, en su definición, significa que el modelo fija el objetivo y lo ejecuta, con revisión humana posterior. En más del noventa por ciento del trabajo participa al menos como colaborador.
+
+Los datos son de agosto de este año y describen una fábrica más que un asistente. Unos treinta mil agentes trabajando al mismo tiempo en la plataforma interna. Todas las acciones pasando por un monitor antes de ejecutarse. Una tasa de bloqueo de una cada cuarenta y siete mil decisiones. Y un seis por ciento del poder de cómputo destinado a seguridad. La empresa pide que los demás laboratorios publiquen lo mismo, con metodología pública y verificación de terceros.
+
+Es la primera cifra dura de cuánta inteligencia artificial construye inteligencia artificial. Y arrastra el problema de origen de todo este debate: la publica, sin auditoría externa, la empresa que se mide a sí misma mientras negocia su salida a la bolsa.
+
+Para América Latina la pregunta no es si el dato es interesante, sino quién lo verifica. Ninguna autoridad de la región tiene hoy mandato ni equipo técnico para auditar una medición así, y esa ventana se abre justo cuando los Estados de la región compran estos modelos para sus servicios públicos.
+
+Queda la pregunta. ¿Qué tendría que pasar para que América Latina pueda exigir esa medición en lugar de recibirla?
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
