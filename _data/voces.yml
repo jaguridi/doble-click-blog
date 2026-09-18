@@ -44,6 +44,9 @@ anthropic-marca-texto-claude-no-prueba-autoria:
 anthropic-otan-glasswing-claude-code-outage:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+anthropic-publica-cuanta-ia-construye-su-ia:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 anthropic-seul-socios-fable-5-bloqueada:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
