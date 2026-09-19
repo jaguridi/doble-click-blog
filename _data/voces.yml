@@ -83,6 +83,9 @@ brasil-regular-ia-trabajo:
 brasil-vota-marco-ia-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+california-dos-meses-apagado-emergencia-ia:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 castigo-ia-deliberacion:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
