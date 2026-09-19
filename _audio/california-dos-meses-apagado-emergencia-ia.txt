@@ -1,0 +1,9 @@
+El gobernador de California firmó el dieciocho de septiembre una orden ejecutiva que convoca a un grupo de expertos. Tienen dos meses para recomendar cómo reforzar las leyes estatales de seguridad de inteligencia artificial. Son cuatro medidas en estudio. Auditores independientes trabajando dentro de los laboratorios de frontera. Marcos de seguridad verificados, con reportes de transparencia. Un apagado de emergencia cuya eficacia comprueben de forma continua organizaciones independientes. Y una definición ampliada de incidente crítico, que incluya la pérdida de control. Newsom justificó la orden en que ninguna ley federal obliga a reportar incidentes peligrosos.
+
+El auditor dentro del laboratorio ya funciona como iniciativa privada. Anthropic nombró a Accenture su primer evaluador integrado, con acceso de nivel empleado a la compañía. Accenture, además, vende despliegues de la misma tecnología que le tocaría evaluar.
+
+Nuestra lectura es que ahí cambia el plano de la discusión regional. El proyecto de ley brasileño dos mil trescientos treinta y ocho, y el boletín chileno dieciséis mil ochocientos veintiuno, se construyeron sobre la clasificación de sistemas por nivel de riesgo. Ese trabajo se resuelve al escribir el texto de la ley. Un apagado verificable y un auditor con acceso interno se resuelven en otro lugar: exigen entrar al laboratorio y contar con alguien que sepa comprobar lo que ve. La lectura contraria es que la orden todavía no obliga a nada, porque el panel solo recomienda, y las leyes se escriben después.
+
+El panel tiene dos meses para entregar sus recomendaciones. Ahí se verá si el apagado de emergencia queda escrito como obligación verificable, o como compromiso de cada laboratorio.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
