@@ -197,6 +197,9 @@ google-apagar-marca-agua-visible:
 google-cables-submarinos-america-latina:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+google-modelo-sistemas-tres-empresas-reales:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 gpt-5-6-tres-modelos-sin-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
