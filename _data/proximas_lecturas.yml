@@ -14,12 +14,22 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
+- titulo: "La frontera dentada: en qué tareas la IA mejora el trabajo del conocimiento y en cuáles lo empeora"
+  paper: "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality"
+  autores: "Dell'Acqua et al."
+  publicado: "Organization Science, 2026"
+  url: "https://doi.org/10.1287/orsc.2025.21838"
 
 - titulo: "Las venas abiertas de la auditoría algorítmica: el Sur Global casi no audita la IA que ya usa"
   paper: "Open Veins of AI Auditing: How AI Scrutiny Lags Deployment in the Global South"
   autores: "Galdon Clavell y Magaard (Eticas Foundation)"
   publicado: "arXiv, julio 2026"
   url: "https://arxiv.org/abs/2607.21317"
+
+- titulo: "¿Estamos listos para la IA? Del índice de medición a la gobernanza de la política"
+  paper: "Are We Ready for AI? From Measurement to Policy Governance"
+  autores: "Levy Yeyati (BID)"
+  publicado: "BID, Nota Técnica IDB-TN-03318, marzo 2026"
 
 - titulo: "Quién decide de verdad el resultado de una consulta ciudadana en Polis"
   paper: "It Takes Three to Converse: Empirical Observations on How the Developer, the Convener and the Participant Shaped 119 Polis Conversations"
@@ -56,14 +66,3 @@
   autores: "Flechtner"
   publicado: "arXiv, agosto 2026"
   url: "https://arxiv.org/abs/2608.10186"
-
-- titulo: "La frontera dentada: en qué tareas la IA mejora el trabajo del conocimiento y en cuáles lo empeora"
-  paper: "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality"
-  autores: "Dell'Acqua et al."
-  publicado: "Organization Science, 2026"
-  url: "https://doi.org/10.1287/orsc.2025.21838"
-
-- titulo: "¿Estamos listos para la IA? Del índice de medición a la gobernanza de la política"
-  paper: "Are We Ready for AI? From Measurement to Policy Governance"
-  autores: "Levy Yeyati (BID)"
-  publicado: "BID, Nota Técnica IDB-TN-03318, marzo 2026"
