@@ -338,6 +338,9 @@ penalidad-aprendizaje-ia-china:
 pentagono-anthropic-seguridad-nacional-palanca:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+persona-con-ia-rinde-como-equipo:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 persuadir-modelos-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
