@@ -59,6 +59,9 @@ apple-demanda-openai-guerra-talento-tribunales:
 atlas-google-uso-ia-economia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+aviso-incidentes-graves-ia-mesa-bilateral:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 ban-fable-5-seguridad-nacional-negociacion:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
