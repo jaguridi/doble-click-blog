@@ -1,0 +1,17 @@
+Doble Lectura, de Doble Click. Hoy, qué pasa cuando una persona con inteligencia artificial hace el trabajo que antes pedía dos.
+
+El estudio es un experimento de campo dentro de Procter and Gamble, publicado en Organization Science. Participaron 791 profesionales de las áreas comercial y de investigación y desarrollo. Cada uno dedicó una jornada a un taller de desarrollo de producto, sobre desafíos reales de su propia unidad de negocio. El sorteo los repartió en cuatro grupos: solos sin la herramienta, en pareja sin la herramienta, solos con ella y en pareja con ella. Evaluadores expertos, que no sabían en qué grupo estaba cada quien, puntuaron las soluciones.
+
+El primer resultado es el que da el título. La persona que trabajó sola con inteligencia artificial llegó al mismo nivel de calidad que la pareja humana que trabajó sin ella. Y sumar la herramienta a la pareja casi no movió el promedio por sobre eso.
+
+El segundo resultado es sobre las fronteras entre especialidades. Sin la herramienta, los del área comercial proponían ideas comerciales y los de investigación y desarrollo proponían ideas técnicas. Con la herramienta esa diferencia se diluye, y ambos grupos generan una mezcla parecida, sin que la calidad se resienta. Los que más ganaron fueron justamente los que no trabajan a diario en desarrollo de producto.
+
+El tercer resultado es el más incómodo. Todos generaron cinco ideas y después eligieron una para desarrollar. La inteligencia artificial subió la calidad promedio de esas cinco ideas. Pero al momento de elegir cuál desarrollar, los que trabajaron sin ella se quedaron con su mejor idea cerca de la mitad de las veces, y los que trabajaron con ella, cerca de un tercio. Los autores lo describen así: la herramienta amplifica la calidad, no mejora la decisión.
+
+¿Y desde América Latina? Nuestra lectura es que el resultado más útil es el de sustitución. Para una empresa mediana que no tiene un área de investigación y desarrollo separada de la comercial, el problema no es que falten ideas, sino que no hay con quién cruzarlas. Sumar un segundo profesional especializado cuesta un sueldo. Lo que recibieron los participantes fue una licencia y una hora de entrenamiento.
+
+Hay también una consecuencia práctica para quien escribe las bases para contratar un asistente de inteligencia artificial en el sector público. Sirve especificarlo para generar y redactar borradores, y dejar por escrito que elegir entre alternativas sigue siendo una decisión humana documentada.
+
+Lo que todavía falta saber es qué ocurre cuando el uso se sostiene en el tiempo. El experimento duró una jornada, en una sola empresa, con un solo modelo. Esa pregunta la dejan abierta los propios autores.
+
+El estudio es de Fabrizio Dell'Acqua, Charles Ayoubi, Hila Lifshitz, Raffaella Sadun, Ethan Mollick, Lilach Mollick y sus coautores, cuatro de ellos profesionales de la misma empresa donde se hizo el experimento. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar la fuente original.
