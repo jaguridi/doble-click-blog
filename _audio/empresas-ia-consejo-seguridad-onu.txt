@@ -1,0 +1,11 @@
+El Consejo de Seguridad de las Naciones Unidas dedicó el veintitrés de septiembre una sesión de alto nivel a la inteligencia artificial, convocada y presidida por Francia, según el acta oficial de la organización. Expusieron el investigador Yoshua Bengio, copresidente del Panel Científico Internacional Independiente sobre inteligencia artificial, y los directores ejecutivos de OpenAI, Anthropic y Hugging Face.
+
+Dario Amodei, de Anthropic, propuso acuerdos acotados, como prohibir el uso de la inteligencia artificial para desarrollar armas biológicas, además de sistemas de verificación y estándares comunes de prueba. Clément Delangue dijo que Hugging Face fue la primera empresa en divulgar públicamente un ciberataque de un agente autónomo. Entre los Estados, Estados Unidos dijo que el diálogo internacional no puede derivar hacia la gobernanza global, y China ofreció cinco mil oportunidades de formación para países en desarrollo.
+
+Dos países latinoamericanos hablaron en la sesión. Panamá pidió que la inteligencia artificial siga bajo dirección, supervisión y control humanos. Colombia advirtió que los países del Sur Global que no participen en su producción enfrentarán una brecha.
+
+A nuestro juicio, lo práctico está en quién escribe las pruebas. Según reportó el medio The Information, Google, OpenAI y Anthropic preparan un organismo que fijaría estándares comunes de evaluación para sus modelos. Si se concreta, las empresas evaluadas diseñarían al evaluador, y los gobiernos que compran estos sistemas heredarían pruebas que no ayudaron a definir. También es cierto que un estándar entre laboratorios puede llegar mucho antes que un acuerdo entre Estados. Como declaración de interés, esta entrada se genera con modelos de Anthropic.
+
+Lo que falta saber es si la sesión dejará algún texto del Consejo, más allá del registro de posiciones.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
