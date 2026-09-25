@@ -158,6 +158,9 @@ eficiencia-ia-diseno:
 electores-sinteticos-tiktok-brasil-etiquetado:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+empresas-ia-consejo-seguridad-onu:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 enciclica-papal-inteligencia-artificial:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
