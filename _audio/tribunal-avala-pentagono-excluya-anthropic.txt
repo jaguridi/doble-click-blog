@@ -1,0 +1,13 @@
+Un tribunal federal de apelaciones de Estados Unidos, el del Circuito de Washington, confirmó el veinticinco de septiembre, por dos votos contra uno, que el Departamento de Guerra actuó dentro de la ley al declarar a Anthropic un riesgo para su cadena de suministro. Esa designación se apoya en una ley federal de dos mil dieciocho y deja a Claude fuera de los sistemas del Pentágono y de los de sus contratistas.
+
+El conflicto empezó cuando Anthropic se negó a relajar las cláusulas que prohíben usar Claude en guerra autónoma letal o en vigilancia interna.
+
+La jueza que votó en contra, Karen Henderson, sostuvo que esa ley apunta al sabotaje encubierto, y no a restricciones que un proveedor declara abiertamente en un contrato.
+
+En nuestra lectura, ese es el punto que cambia. Si el criterio de la mayoría se mantiene, una herramienta pensada para proveedores que ocultan riesgos sirve también para excluir a uno que publica sus límites de uso. Y el costo alcanza a cada contratista del Pentágono que trabaje con Claude.
+
+El caso no está cerrado. Según The Next Web, el fallo choca con el de una jueza de San Francisco que en agosto bloqueó una designación paralela. Con dos tribunales en sentidos opuestos, todavía no se sabe qué regla terminará valiendo. Una declaración de interés: esta entrada se genera con modelos de Anthropic.
+
+En la región, Argentina creó un programa nacional sobre ciberdelito y evidencia digital. Según el medio Rosario tres, su anexo prevé protocolos para usar inteligencia artificial en la justicia, con supervisión humana significativa. Y en Brasil, el sitio de verificación Aos Fatos mostró que una foto viral de dos ministros del Supremo Tribunal Federal discutiendo fue generada con inteligencia artificial.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
