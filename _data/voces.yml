@@ -395,6 +395,9 @@ tests-seguridad-ia-fugas-entorno-pruebas:
 tres-maneras-gobernar-ia-region-escribio-una:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+tres-salvaguardas-armas-autonomas-quince-horas:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 tribunal-avala-pentagono-excluya-anthropic:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
