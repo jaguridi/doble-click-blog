@@ -3,7 +3,7 @@ layout: post
 title: "Tres salvaguardas sobre armas autónomas cayeron en 15 horas a puerta cerrada"
 description: "Según un reportaje del Washington Post, Estados Unidos y Rusia borraron del texto de Ginebra la revisión humana de los blancos identificados por IA, junto con otras dos salvaguardas, en una sesión cerrada y sin observadores."
 date: 2026-09-27 09:10:17 -0400
-tags: [gobernanza, seguridad, ética]
+tags: [defensa, gobernanza, seguridad, ética]
 audio: true
 fuentes:
   - nombre: "The Washington Post"

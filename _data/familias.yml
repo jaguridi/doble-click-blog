@@ -20,14 +20,18 @@ participación: 0
 participacion: 0
 ética: 0
 etica: 0
+elecciones: 0
 
 # --- Mercados e industria ---
 mercados: 1
 lanzamientos: 1
+infraestructura: 1
 
 # --- Riesgo y seguridad ---
 seguridad: 2
 datos: 2
+agentes: 2
+defensa: 2
 
 # --- Sociedad ---
 trabajo: 3

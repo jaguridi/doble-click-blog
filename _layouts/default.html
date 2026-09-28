@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.url != '/' %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · {{ site.tagline }}{% endif %}</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='62' height='62' x='19' y='19' fill='%23D6452B'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +18,7 @@
   del navegador, donde si no aparecerían los dos como "Doble Click".
   {%- endcomment -%}
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} · Doble Lectura" href="{{ '/feed-lecturas.xml' | relative_url }}">
-  {% seo %}
+  {% include seo.html %}
 </head>
 <body>
   {%- comment -%}

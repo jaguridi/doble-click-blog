@@ -8,14 +8,12 @@ author: Doble Click
 lang: es
 timezone: America/Santiago
 
-# Tarjeta grande al compartir en redes (la imagen por defecto se inyecta vía `defaults`, abajo).
-twitter:
-  card: summary_large_image
+# Metadatos para compartir: los arma _includes/seo.html (tarjeta grande, imagen por
+# familia temática). Ya no se usa jekyll-seo-tag.
 
 # Diseño propio (layouts en _layouts/). No usamos tema externo.
 plugins:
   - jekyll-feed      # genera /feed.xml (RSS) — lo consume el newsletter
-  - jekyll-seo-tag   # metadatos para compartir
   - jekyll-sitemap   # genera /sitemap.xml para buscadores
 
 # Feeds RSS. Por defecto jekyll-feed genera /feed.xml SOLO con los posts (blog diario)
@@ -51,11 +49,9 @@ defaults:
   - scope: { path: "", type: "lecturas" }
     values:
       layout: lectura
-  # Imagen social por defecto (Open Graph) en todas las páginas; una entrada puede
-  # sobreescribirla poniendo `image:` en su propio front matter.
-  - scope: { path: "" }
-    values:
-      image: /assets/og-image.png
+  # La imagen social ya no va por defaults: _includes/seo.html elige la tarjeta de la
+  # familia temática (assets/og/) o la general. Una página puede fijar la suya con
+  # `image:` en su front matter.
 
 # No publicar estos archivos en el sitio
 exclude:

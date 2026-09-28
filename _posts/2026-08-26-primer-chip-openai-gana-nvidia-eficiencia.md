@@ -3,7 +3,7 @@ layout: post
 title: "El primer chip de OpenAI le gana a Nvidia en eficiencia"
 description: "La frontera del costo de servir un modelo se movió a un lugar donde no se vende hardware ni acceso, justo cuando la región apuesta a comprar ambos."
 date: 2026-08-26 08:24:41 -0400
-tags: [mercados, latam, lanzamientos]
+tags: [infraestructura, mercados, latam, lanzamientos]
 audio: true
 ---
 

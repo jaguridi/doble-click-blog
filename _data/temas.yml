@@ -2,6 +2,9 @@
 # Controlado pero evolutivo: reutilizar estos; agregar uno nuevo SOLO cuando
 # aparece un tema o arco narrativo genuinamente distinto. Mantener pocos y estables.
 # Estos temas alimentan los chips de /entradas/ y /doble-lectura/ y se usan en el front matter `tags`.
+# El 2026-09-28 se agregaron elecciones, agentes, defensa e infraestructura porque "gobernanza,
+# seguridad" estaba en casi todas las entradas y el filtro por tema no separaba nada. La primera
+# etiqueta de una entrada debe ser la más específica: de ella sale el color.
 - gobernanza
 - participación
 - trabajo
@@ -13,4 +16,8 @@
 - seguridad
 - datos
 - diseño
+- elecciones
+- agentes
+- defensa
+- infraestructura
 - latam

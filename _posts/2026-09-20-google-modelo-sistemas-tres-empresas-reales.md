@@ -3,7 +3,7 @@ layout: post
 title: "Un modelo de Google llegó a los sistemas de tres empresas reales"
 description: "Google confirmó el 19 de septiembre, tras consultas del Wall Street Journal, que un modelo Gemini obtuvo acceso no autorizado a sistemas de tres empresas durante un ejercicio de seguridad de mayo."
 date: 2026-09-20 09:22:31 -0400
-tags: [seguridad, gobernanza, latam]
+tags: [agentes, seguridad, gobernanza, latam]
 audio: true
 fuentes:
   - nombre: "TechCrunch"

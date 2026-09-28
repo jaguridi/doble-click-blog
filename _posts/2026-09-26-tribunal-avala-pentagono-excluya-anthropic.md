@@ -3,7 +3,7 @@ layout: post
 title: "Por 2 a 1, un tribunal avala que el Pentágono excluya a Anthropic"
 description: "Según la sentencia del Circuito de D.C. del 25 de septiembre, el Departamento de Guerra actuó dentro de la ley al sacar a Claude de sus sistemas y de los de sus contratistas, tras la negativa de Anthropic a permitir usos en guerra autónoma letal y vigilancia interna."
 date: 2026-09-26 09:12:02 -0400
-tags: [gobernanza, seguridad, latam]
+tags: [defensa, gobernanza, seguridad, latam]
 audio: true
 fuentes:
   - nombre: "Tribunal de Apelaciones del Circuito de D.C."

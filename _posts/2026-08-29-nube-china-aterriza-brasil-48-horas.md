@@ -3,7 +3,7 @@ layout: post
 title: "La nube china aterriza en Brasil, 48 horas después de OpenAI"
 description: "Alibaba Cloud encendió sus primeros data centers en América del Sur y Brasil quedó como la única jurisdicción de la región con presencia física de los dos bloques tecnológicos."
 date: 2026-08-29 08:05:16 -0400
-tags: [latam, mercados, gobernanza, datos]
+tags: [infraestructura, latam, mercados, gobernanza]
 audio: true
 ---
 

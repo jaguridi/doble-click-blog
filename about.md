@@ -5,13 +5,13 @@ title: Método
 # formularios (#privacidad), desde otras páginas del sitio y desde fuera. El nombre
 # visible es "Método"; la dirección se queda donde está.
 permalink: /about/
-# La usa jekyll-seo-tag para la meta description y el og:description de esta página.
+# La usa _includes/seo.html para la meta description y el og:description de esta página.
 description: "Qué son Doble Click y Doble Lectura, cómo se arma cada entrada con ayuda de IA y sin revisión humana previa, quién lo hace y cómo se usa tu correo si te suscribes."
 ---
 
-**Doble Click** es un blog diario sobre inteligencia artificial con perspectiva latinoamericana. Cada día reunimos lo más relevante que ocurrió en IA —lanzamientos, investigación, gobernanza, movimientos de la industria— y lo contamos en una sola entrada, pensada para un público general informado, en español neutro.
+**Doble Click** es un blog diario sobre inteligencia artificial con perspectiva latinoamericana. Cada día reunimos lo más relevante que ocurrió en IA (lanzamientos, investigación, gobernanza, movimientos de la industria) y lo contamos en una sola entrada, pensada para un público general informado, en español neutro.
 
-Los lunes se suma **[Doble Lectura](/doble-lectura/)**: el análisis semanal de un paper o un informe de política pública, leído con calma. Primero qué dice el documento y después qué significa desde la región. Son dos cadencias de la misma cosa —el diario corre con la noticia, la lectura se detiene en un texto— y llegan juntas si te suscribes al newsletter.
+Los lunes se suma **[Doble Lectura](/doble-lectura/)**: el análisis semanal de un paper o un informe de política pública, leído con calma. Primero qué dice el documento y después qué significa desde la región. Son dos cadencias de la misma cosa: el diario corre con la noticia y la lectura se detiene en un texto. Llegan juntas si te suscribes al newsletter.
 
 El foco es **la región**: qué de todo esto importa para América Latina, qué oportunidades abre y qué conversaciones conviene tener.
 
@@ -21,7 +21,7 @@ Las entradas se generan de forma **automática** a partir de fuentes públicas (
 
 ## Qué fuentes revisamos
 
-Cada día miramos un conjunto amplio de fuentes: los **laboratorios de IA frontera**, **universidades y centros de investigación de América Latina**, **ministerios y reguladores** de la región, **organismos multilaterales** y estándares, equipos de **seguridad y evaluación** de modelos, **análisis e industria**, **prensa latinoamericana** e **investigación con curaduría**.
+Miramos un conjunto amplio de fuentes, algunas cada día y otras en un barrido semanal: los **laboratorios de IA frontera**, **universidades y centros de investigación de América Latina**, **ministerios y reguladores** de la región, **organismos multilaterales** y estándares, equipos de **seguridad y evaluación** de modelos, **análisis e industria**, **prensa latinoamericana** e **investigación con curaduría**.
 
 **[Ver la lista de fuentes →](/fuentes/)**
 
@@ -35,13 +35,13 @@ Las entradas se publican **sin revisión humana previa**. Hacemos lo posible por
 
 El proyecto lo mantiene **José Guridi**, investigador. Doble Click es un experimento personal de automatización editorial: no hay redacción, ni equipo, ni institución detrás.
 
-**Qué es automático.** Prácticamente todo lo que ves: la curación de fuentes cada día, la redacción de las entradas y de las Doble Lectura, el audio de cada pieza (voz sintética) y el envío del newsletter. No hay una persona escribiendo ni aprobando cada texto antes de que salga.
+**Qué es automático.** Prácticamente todo lo que ves: la curación de fuentes cada día, la redacción de las entradas y de las Doble Lectura (con Claude, los modelos de Anthropic), el audio de cada pieza (voz sintética) y el envío del newsletter. No hay una persona escribiendo ni aprobando cada texto antes de que salga.
 
-**Qué supervisión hay.** Una revisión periódica, no previa a la publicación. Además, los reportes que dejan los lectores se procesan cada noche: cuando un error se verifica, la página se corrige y queda una **fe de erratas al pie**, para que la corrección se vea y no se disimule.
+**Qué supervisión hay.** Una revisión periódica, no previa a la publicación. Cada Doble Lectura pasa además por una segunda revisión automática, contra el documento original, antes de que salga el correo del lunes. Y los reportes que dejan los lectores se procesan cada noche: cuando un error se verifica, la página se corrige y queda una **fe de erratas al pie**, para que la corrección se vea y no se disimule.
 
-**Cómo se corrige un error.** Al final de cada entrada y de cada lectura hay un formulario **"¿Viste un error?"**. Es la vía más rápida y la que deja registro: cuéntanos qué está mal —citando la frase, si puedes— y, si la tienes, la fuente que lo corrige.
+**Cómo se corrige un error.** Al final de cada entrada y de cada lectura hay un formulario **"¿Viste un error?"**. Es la vía más rápida y la que deja registro: cuéntanos qué está mal, citando la frase si puedes, y, si la tienes, la fuente que lo corrige.
 
-**Cómo contactar.** Para cualquier otra cosa —una fuente que falta, una consulta, una queja que no es una errata—: [j.guridi.b@gmail.com](mailto:j.guridi.b@gmail.com).
+**Cómo contactar.** Para cualquier otra cosa (una fuente que falta, una consulta, una queja que no es una errata): [j.guridi.b@gmail.com](mailto:j.guridi.b@gmail.com).
 
 ## Newsletter
 

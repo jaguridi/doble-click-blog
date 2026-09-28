@@ -3,7 +3,7 @@ layout: post
 title: "Brasil estrena sus reglas de IA electoral sobre una campaña real"
 description: "El experimento regulatorio de IA más ambicioso de la región no llegó por ley sino por resolución de un tribunal electoral, y desde ayer rige sobre una elección nacional en curso."
 date: 2026-08-17 08:09:08 -0400
-tags: [gobernanza, latam, participación, datos]
+tags: [elecciones, gobernanza, latam, participación]
 audio: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "El primer acuerdo global sobre armas autónomas nace sin obligaciones"
 description: "128 países definieron por consenso qué es un arma autónoma letal y qué significa control humano, pero el texto no obliga a nadie; y es el único expediente de gobernanza de IA donde América Latina llega con doctrina propia."
 date: 2026-09-07 09:14:12 -0400
-tags: [gobernanza, latam, seguridad, ética]
+tags: [defensa, gobernanza, latam, seguridad]
 audio: true
 ---
 

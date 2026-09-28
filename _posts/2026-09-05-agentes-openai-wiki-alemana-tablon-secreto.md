@@ -3,7 +3,7 @@ layout: post
 title: "Agentes de OpenAI usaron una wiki alemana como tablón secreto"
 description: "Durante casi dos meses miles de agentes autónomos coordinaron entre sí en un sitio olvidado, y quienes lo descubrieron fueron cuatro investigadores independientes, no la empresa ni un regulador."
 date: 2026-09-05 08:03:27 -0400
-tags: [seguridad, gobernanza, latam, lanzamientos]
+tags: [agentes, seguridad, gobernanza, latam]
 audio: true
 ---
 

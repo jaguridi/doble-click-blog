@@ -3,7 +3,7 @@ layout: post
 title: "Cincuenta videos de electores que no existen hacen campaña en Brasil"
 description: "La etiqueta de IA no salvó a ninguno: el 82% de los videos estaba rotulado y era ilegal igual, y esa figura no aparece en las leyes de IA de la región que revisamos."
 date: 2026-08-25 08:19:11 -0400
-tags: [participación, gobernanza, latam]
+tags: [elecciones, participación, gobernanza, latam]
 audio: true
 ---
 

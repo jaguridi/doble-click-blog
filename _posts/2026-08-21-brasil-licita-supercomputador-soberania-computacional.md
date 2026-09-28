@@ -3,7 +3,7 @@ layout: post
 title: "Brasil deja de esperar el cómputo ajeno y compra el suyo"
 description: "El pliego de licitación, no la máquina, es lo que hace de este anuncio la primera estrategia completa de soberanía computacional escrita por un Estado de la región."
 date: 2026-08-21 08:14:22 -0400
-tags: [gobernanza, latam, mercados]
+tags: [infraestructura, gobernanza, latam, mercados]
 audio: true
 ---
 

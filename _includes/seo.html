@@ -1,0 +1,66 @@
+{%- comment -%}
+Metadatos para buscadores y para compartir. Reemplaza a {% seo %} de jekyll-seo-tag,
+que emitía el <title> dos veces, un twitter:site vacío ("@") y un twitter:creator con
+el nombre del sitio, y no permitía elegir la imagen según el tema de la entrada.
+
+Imagen: si la página trae `image:` en su front matter, se usa esa. Si no, las entradas
+y las lecturas usan la tarjeta de su familia temática (assets/og/click-N.png o
+lectura-N.png, con N de 0 a 3 según _includes/tono.html), y el resto del sitio la
+tarjeta general. Las rutas son estables a propósito: las redes cachean por URL.
+{%- endcomment -%}
+{%- assign _es_lectura = false -%}
+{%- if page.collection == 'lecturas' -%}{%- assign _es_lectura = true -%}{%- endif -%}
+{%- assign _es_articulo = false -%}
+{%- if page.layout == 'post' or _es_lectura -%}{%- assign _es_articulo = true -%}{%- endif -%}
+
+{%- if page.url == '/' or page.title == nil -%}
+  {%- assign _full = site.title | append: ' · ' | append: site.tagline -%}
+  {%- assign _og_title = site.title -%}
+{%- else -%}
+  {%- assign _full = page.title | append: ' · ' | append: site.title -%}
+  {%- assign _og_title = page.title -%}
+{%- endif -%}
+
+{%- assign _desc = page.description | default: site.description | strip_html | normalize_whitespace | strip -%}
+{%- assign _url = page.url | absolute_url -%}
+
+{%- if page.image -%}
+  {%- assign _img = page.image | absolute_url -%}
+{%- elsif _es_articulo -%}
+  {%- capture _fam -%}{% include tono.html tags=page.tags %}{%- endcapture -%}
+  {%- assign _fam = _fam | strip -%}
+  {%- if _es_lectura -%}{%- assign _pref = '/assets/og/lectura-' -%}{%- else -%}{%- assign _pref = '/assets/og/click-' -%}{%- endif -%}
+  {%- assign _img = _pref | append: _fam | append: '.png' | absolute_url -%}
+{%- else -%}
+  {%- assign _img = '/assets/og-image.png' | absolute_url -%}
+{%- endif -%}
+<title>{{ _full | escape }}</title>
+<meta name="description" content="{{ _desc | escape }}">
+<link rel="canonical" href="{{ _url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="es">
+<meta property="og:title" content="{{ _og_title | escape }}">
+<meta property="og:description" content="{{ _desc | escape }}">
+<meta property="og:url" content="{{ _url }}">
+<meta property="og:image" content="{{ _img }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{%- if _es_articulo and page.date %}
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{%- else %}
+<meta property="og:type" content="website">
+{%- endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ _og_title | escape }}">
+<meta name="twitter:description" content="{{ _desc | escape }}">
+<meta name="twitter:image" content="{{ _img }}">
+{%- if _es_articulo and page.date %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ page.title | jsonify }},"description":{{ _desc | jsonify }},"url":{{ _url | jsonify }},"mainEntityOfPage":{{ _url | jsonify }},"image":{{ _img | jsonify }},"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},"inLanguage":"es","author":{"@type":"Organization","name":{{ site.title | jsonify }},"url":{{ '/about/' | absolute_url | jsonify }}},"publisher":{"@type":"Organization","name":{{ site.title | jsonify }},"url":{{ '/' | absolute_url | jsonify }}}}
+</script>
+{%- else %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ site.description | strip | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"inLanguage":"es"}
+</script>
+{%- endif %}

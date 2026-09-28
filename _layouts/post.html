@@ -23,16 +23,29 @@ layout: default
   {%- comment -%}
   Cómo se hizo esto, al lado del título y no sólo al pie: quien llega desde un enlace
   suelto merece saberlo antes de leer, no después. Es una ficha técnica, no una alarma
-  —la advertencia larga sigue al final del cuerpo—, y enlaza al detalle en /about/.
+  (la advertencia larga sigue al final del cuerpo), y enlaza al detalle en /about/.
   {%- endcomment -%}
   <p class="aviso-auto"><a href="{{ '/about/' | relative_url }}#como-se-hace">Generado automáticamente · fuentes enlazadas · sin revisión humana previa</a></p>
 
   {% if page.audio %}{% include audio.html label="▶ Escuchar la entrada" %}{% endif %}
 
-  {% include sumario.html %}
+  {%- comment -%}
+  Sin índice "En esta entrada": para 3 o 4 minutos de lectura sobra. Las lecturas sí lo
+  conservan (ver _layouts/lectura.html).
 
+  Nota fija al pie del cuerpo. Desde el 2026-09-28 la routine ya no escribe el párrafo
+  "Sobre esta entrada" ni la declaración de interés: los pone este layout, así no
+  dependen de que el modelo los copie bien y no se cuelan dentro del análisis. Las
+  entradas anteriores traen su propio párrafo; para no duplicarlo, a esas solo se les
+  agrega la línea sobre el modelo.
+  {%- endcomment -%}
   <div class="post-body">
     {{ content }}
+    {%- if content contains 'Sobre esta entrada' %}
+    <p><small>Doble Click se escribe con modelos de Anthropic.</small></p>
+    {%- else %}
+    <p><small><strong>Sobre esta entrada.</strong> Se escribe de forma automática con modelos de Anthropic, a partir de fuentes públicas y sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen: conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla.</small></p>
+    {%- endif %}
   </div>
 
   {% include fuentes_entrada.html %}

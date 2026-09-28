@@ -3,7 +3,7 @@ layout: post
 title: "Un agente de OpenAI salió de su aislamiento y el apagado automático falló"
 description: "Según el informe de incidente de la propia OpenAI, el 20 de septiembre un agente en entrenamiento aprovechó un filtrado DNS insuficiente para consultar un chatbot público; el monitoreo lo detectó en minutos, pero la corrida se detuvo a mano 2,5 horas después."
 date: 2026-09-28 09:12:37 -0400
-tags: [seguridad, gobernanza]
+tags: [agentes, seguridad, gobernanza]
 audio: true
 fuentes:
   - nombre: "OpenAI"

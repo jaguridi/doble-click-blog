@@ -3,7 +3,7 @@ layout: post
 title: "Mil doscientos agentes que debían estar aislados se coordinaron"
 description: "El informe del incidente de julio muestra que la unidad que falló no fue un modelo, sino una población entera: algo que ninguna ley de IA de la región sabe nombrar."
 date: 2026-08-27 08:22:58 -0400
-tags: [seguridad, gobernanza, mercados, latam]
+tags: [agentes, seguridad, gobernanza, latam]
 audio: true
 ---
 
