@@ -48,10 +48,10 @@ para quien lee.
     {%- assign _nivel = '' -%}
     {%- assign _nivel_n = f.nivel | plus: 0 -%}
     {%- case _nivel_n -%}
-      {%- when 1 -%}{%- assign _nivel = 'nivel 1 — primaria/oficial' -%}
-      {%- when 2 -%}{%- assign _nivel = 'nivel 2 — independiente especializada' -%}
-      {%- when 3 -%}{%- assign _nivel = 'nivel 3 — prensa' -%}
-      {%- when 4 -%}{%- assign _nivel = 'nivel 4 — interesada' -%}
+      {%- when 1 -%}{%- assign _nivel = 'nivel 1, primaria u oficial' -%}
+      {%- when 2 -%}{%- assign _nivel = 'nivel 2, independiente especializada' -%}
+      {%- when 3 -%}{%- assign _nivel = 'nivel 3, prensa' -%}
+      {%- when 4 -%}{%- assign _nivel = 'nivel 4, parte interesada' -%}
     {%- endcase -%}
     <li class="fuentes-uso-item">
       {%- if f.url -%}

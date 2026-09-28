@@ -1,4 +1,4 @@
-# Fuentes públicas que revisamos para Doble Click — versión curada por categorías.
+# Fuentes públicas que revisamos para Doble Click: versión curada por categorías.
 #
 # Esta es una muestra representativa, no la lista completa: cada categoría tiene muchas más
 # fuentes de las que mostramos acá. La lista interna granular (señales de talento y capital,
@@ -7,10 +7,25 @@
 # Cuando se aprueba una fuente sugerida por un lector, se agrega a la categoría que corresponda.
 # La página /fuentes/ se arma sola a partir de este archivo.
 
+ultima_revision: "2026-09-28"
+
 intro: >-
-  Cada día revisamos un conjunto amplio de fuentes públicas para armar la entrada. Estas son las
-  familias principales, con algunos ejemplos de cada una. No es la lista completa, pero da una idea
-  de dónde miramos.
+  Estas son las familias de fuentes públicas con que se arman las entradas, con ejemplos de cada
+  una. No es la lista completa: la curación interna es más amplia y cambia con lo que va
+  apareciendo. Algunas fuentes se leen cada día y otras, como los organismos y centros de
+  investigación, en un barrido semanal.
+
+criterio: >-
+  Los agregadores y la prensa tecnológica sirven para enterarse de una noticia, pero la cita va al
+  original: el documento, la norma, el comunicado o el paper. Cuando un medio republica un
+  despacho de agencia, se cita a la agencia. Las cifras que una empresa publica sobre sí misma se
+  presentan como cifras de la empresa.
+
+niveles:
+  - { nivel: 1, nombre: "Primaria u oficial", texto: "El documento, la norma, la sentencia o el organismo que decide. Una empresa es fuente primaria de lo que anuncia, no de lo bien que funciona." }
+  - { nivel: 2, nombre: "Independiente especializada", texto: "Investigación, centros académicos, sociedad civil y evaluadores que no venden lo que analizan." }
+  - { nivel: 3, nombre: "Prensa", texto: "Medios que reportan, contrastan y a veces llegan primero. Se usan con su atribución." }
+  - { nivel: 4, nombre: "Parte interesada", texto: "Quien habla de su propio producto o negocio: sus cifras se marcan como tales." }
 
 categorias:
   - nombre: "Laboratorios de IA frontera"
@@ -26,23 +41,23 @@ categorias:
       - { nombre: "Mistral AI", url: "https://mistral.ai/news/" }
       - { nombre: "Microsoft Research", url: "https://www.microsoft.com/en-us/research/blog/" }
       - { nombre: "Hugging Face", url: "https://huggingface.co/blog" }
-      - { nombre: "Qwen — Alibaba (China)", url: "https://qwenlm.github.io/blog/" }
+      - { nombre: "Qwen, de Alibaba (China)", url: "https://qwen.ai/blog" }
       - { nombre: "DeepSeek (China)", url: "https://github.com/orgs/deepseek-ai/repositories" }
-      - { nombre: "Kimi — Moonshot AI (China)", url: "https://www.kimi.com/en/blog/" }
+      - { nombre: "Kimi, de Moonshot AI (China)", url: "https://www.kimi.com/en/blog/" }
 
   - nombre: "Universidades y centros de investigación en América Latina"
     descripcion: "Lo que se investiga y se discute sobre IA desde la región."
     fuentes:
-      - { nombre: "C4AI — Universidade de São Paulo (Brasil)", url: "https://c4ai.inova.usp.br/" }
+      - { nombre: "C4AI, Universidade de São Paulo (Brasil)", url: "https://c4ai.inova.usp.br/" }
       - { nombre: "Cetic.br / NIC.br (Brasil)", url: "https://cetic.br/pt/noticias/indice/" }
-      - { nombre: "AI Hub — FGV Direito Rio (Brasil)", url: "https://direitorio.fgv.br/pesquisa/ai-hub-nucleo-de-estudos-avancados-em-inteligencia-artificial" }
-      - { nombre: "IIMAS — UNAM (México)", url: "https://www.iimas.unam.mx/" }
-      - { nombre: "DCC — Universidad de Chile", url: "https://www.dcc.uchile.cl/" }
+      - { nombre: "AI Hub, FGV Direito Rio (Brasil)", url: "https://direitorio.fgv.br/pesquisa/ai-hub-nucleo-de-estudos-avancados-em-inteligencia-artificial" }
+      - { nombre: "IIMAS, UNAM (México)", url: "https://www.iimas.unam.mx/" }
+      - { nombre: "DCC, Universidad de Chile", url: "https://www.dcc.uchile.cl/" }
       - { nombre: "Ingeniería UC (Chile)", url: "https://www.ing.uc.cl/" }
       - { nombre: "Universidad de los Andes (Colombia)", url: "https://uniandes.edu.co/" }
-      - { nombre: "Depto. de Computación — UBA (Argentina)", url: "https://www.dc.uba.ar/" }
-      - { nombre: "CENIA — Centro Nacional de IA (Chile)", url: "https://www.cenia.cl/" }
-      - { nombre: "IMFD — Inst. Milenio Fundamentos de los Datos (Chile)", url: "https://imfd.cl/" }
+      - { nombre: "Depto. de Computación, UBA (Argentina)", url: "https://www.dc.uba.ar/" }
+      - { nombre: "CENIA, Centro Nacional de IA (Chile)", url: "https://www.cenia.cl/" }
+      - { nombre: "IMFD, Inst. Milenio Fundamentos de los Datos (Chile)", url: "https://imfd.cl/" }
 
   - nombre: "Gobernanza regional: ministerios y reguladores"
     descripcion: >-
@@ -52,24 +67,25 @@ categorias:
     fuentes:
       - { nombre: "Min. de Ciencia, Tecnología, Conocimiento e Innovación (Chile)", url: "https://www.minciencia.gob.cl/" }
       - { nombre: "Ministério da Ciência, Tecnologia e Inovação (Brasil)", url: "https://www.gov.br/mcti/" }
-      - { nombre: "MinTIC (Colombia)", url: "https://www.mintic.gov.co/" }
+      - { nombre: "MinTIC (Colombia)", url: "https://www.mintic.gov.co/portal/inicio/" }
       - { nombre: "SECIHTI (México)", url: "https://secihti.mx/" }
-      - { nombre: "ANPD — Autoridade Nacional de Proteção de Dados (Brasil)", url: "https://www.gov.br/anpd/" }
+      - { nombre: "ANPD, Autoridade Nacional de Proteção de Dados (Brasil)", url: "https://www.gov.br/anpd/" }
       - { nombre: "AGESIC (Uruguay)", url: "https://www.gub.uy/agesic/" }
-      - { nombre: "PCM — Sec. de Gobierno y Transformación Digital, IA (Perú)", url: "https://www.gob.pe/institucion/pcm/tema/transformacion-digital/tecnologias-digitales/inteligencia-artificial" }
-      - { nombre: "AAIP — Agencia de Acceso a la Información Pública (Argentina)", url: "https://www.argentina.gob.ar/aaip/noticias" }
+      - { nombre: "PCM, Sec. de Gobierno y Transformación Digital, IA (Perú)", url: "https://www.gob.pe/institucion/pcm/tema/transformacion-digital/tecnologias-digitales/inteligencia-artificial" }
+      - { nombre: "AAIP, Agencia de Acceso a la Información Pública (Argentina)", url: "https://www.argentina.gob.ar/aaip/noticias" }
       - { nombre: "Secretaría Anticorrupción y Buen Gobierno (México)", url: "https://www.gob.mx/buengobierno/" }
-      - { nombre: "TSE — Tribunal Superior Eleitoral (Brasil)", url: "https://www.tse.jus.br/" }
+      - { nombre: "TSE, Tribunal Superior Eleitoral (Brasil)", url: "https://www.tse.jus.br/" }
 
   - nombre: "Organismos multilaterales y estándares"
     descripcion: "Gobernanza global, cooperación regional y normas técnicas."
     fuentes:
-      - { nombre: "UNESCO — Inteligencia Artificial", url: "https://www.unesco.org/en/artificial-intelligence" }
+      - { nombre: "UNESCO, Inteligencia Artificial", url: "https://www.unesco.org/en/artificial-intelligence" }
       - { nombre: "OECD.AI Policy Observatory", url: "https://oecd.ai/" }
       - { nombre: "CEPAL", url: "https://www.cepal.org/" }
-      - { nombre: "fAIr LAC — BID", url: "https://fairlac.iadb.org/" }
-      - { nombre: "GPAI — Global Partnership on AI", url: "https://gpai.ai/" }
-      - { nombre: "NIST — AI Risk Management Framework", url: "https://www.nist.gov/itl/ai-risk-management-framework" }
+      - { nombre: "fAIr LAC, BID", url: "https://fairlac.iadb.org/" }
+      - { nombre: "NIST, AI Risk Management Framework", url: "https://www.nist.gov/itl/ai-risk-management-framework" }
+      - { nombre: "Naciones Unidas, cobertura de reuniones", url: "https://press.un.org/en" }
+      - { nombre: "Panel Científico Internacional Independiente sobre IA (ONU)", url: "https://www.un.org/independent-international-scientific-panel-ai/en" }
 
   - nombre: "Sociedad civil y política tecnológica"
     descripcion: >-
@@ -80,12 +96,12 @@ categorias:
       - { nombre: "Access Now", url: "https://www.accessnow.org/" }
       - { nombre: "AlgorithmWatch", url: "https://algorithmwatch.org/en/" }
       - { nombre: "Ada Lovelace Institute", url: "https://www.adalovelaceinstitute.org/" }
-      - { nombre: "Carnegie — Technology and International Affairs", url: "https://carnegieendowment.org/programs/technology-and-international-affairs" }
+      - { nombre: "Carnegie, Technology and International Affairs", url: "https://carnegieendowment.org/programs/technology-and-international-affairs" }
 
   - nombre: "Sociedad civil latinoamericana"
     descripcion: >-
       Organizaciones de la región que investigan vigilancia, protección de datos, plataformas y
-      regulación de IA. Trabajan sobre casos y leyes de acá, y suelen llegar antes que la prensa a
+      regulación de IA. Trabajan sobre casos y leyes de la región, y suelen llegar antes que la prensa a
       lo que pasa en cada país.
     fuentes:
       - { nombre: "Derechos Digitales (regional)", url: "https://www.derechosdigitales.org/" }
@@ -93,17 +109,22 @@ categorias:
       - { nombre: "Data Privacy Brasil", url: "https://dataprivacy.com.br/" }
       - { nombre: "Fundación Karisma (Colombia)", url: "https://karisma.org.co/" }
       - { nombre: "Hiperderecho (Perú)", url: "https://hiperderecho.org/publicaciones/" }
-      - { nombre: "ADC — Asociación por los Derechos Civiles (Argentina)", url: "https://adc.org.ar/category/inteligencia-artificial/" }
+      - { nombre: "ADC, Asociación por los Derechos Civiles (Argentina)", url: "https://adc.org.ar/category/inteligencia-artificial/" }
+      - { nombre: "R3D, Red en Defensa de los Derechos Digitales (México)", url: "https://r3d.mx/" }
+      - { nombre: "TEDIC (Paraguay)", url: "https://www.tedic.org/" }
+      - { nombre: "IPANDETEC (Centroamérica)", url: "https://www.ipandetec.org/" }
 
   - nombre: "Seguridad y evaluación de IA"
     descripcion: "Quienes miden capacidades, riesgos y comportamiento de los modelos."
     fuentes:
-      - { nombre: "AI Safety Institute (Reino Unido)", url: "https://www.aisi.gov.uk/" }
+      - { nombre: "AI Security Institute (Reino Unido)", url: "https://www.aisi.gov.uk/" }
+      - { nombre: "CAISI, NIST (Estados Unidos)", url: "https://www.nist.gov/caisi" }
       - { nombre: "METR", url: "https://metr.org/" }
       - { nombre: "Apollo Research", url: "https://www.apolloresearch.ai/" }
       - { nombre: "Epoch AI", url: "https://epoch.ai/" }
       - { nombre: "Center for AI Safety", url: "https://safe.ai/" }
-      - { nombre: "Stanford HAI — AI Index", url: "https://hai.stanford.edu/ai-index" }
+      - { nombre: "Transluce", url: "https://transluce.org/" }
+      - { nombre: "Stanford HAI, AI Index", url: "https://hai.stanford.edu/ai-index" }
 
   - nombre: "Análisis e industria"
     descripcion: "Voces que explican el negocio, las tendencias y los casos de uso."
@@ -113,29 +134,32 @@ categorias:
       - { nombre: "The Batch (DeepLearning.AI)", url: "https://www.deeplearning.ai/the-batch/" }
       - { nombre: "Rest of World", url: "https://restofworld.org/" }
       - { nombre: "One Useful Thing (Ethan Mollick)", url: "https://www.oneusefulthing.org/" }
-      - { nombre: "AI Snake Oil", url: "https://www.aisnakeoil.com/" }
+      - { nombre: "AI as Normal Technology (Narayanan y Kapoor)", url: "https://www.normaltech.ai/" }
 
   - nombre: "Periodismo especializado en tecnología"
     descripcion: >-
       Medios que cubren la industria a diario. Están en inglés, y buena parte de las noticias del
-      día aparecen primero ahí.
+      día aparecen primero ahí. Sirven para enterarse; cuando hay un anuncio o documento original,
+      la cita va a ese original.
     fuentes:
       - { nombre: "MIT Technology Review", url: "https://www.technologyreview.com/topic/artificial-intelligence/" }
-      - { nombre: "TechCrunch — AI", url: "https://techcrunch.com/category/artificial-intelligence/" }
-      - { nombre: "The Verge — AI", url: "https://www.theverge.com/ai-artificial-intelligence" }
-      - { nombre: "Ars Technica — AI", url: "https://arstechnica.com/ai/" }
+      - { nombre: "TechCrunch, AI", url: "https://techcrunch.com/category/artificial-intelligence/" }
       - { nombre: "404 Media", url: "https://www.404media.co/" }
       - { nombre: "Platformer (Casey Newton)", url: "https://www.platformer.news/" }
-      - { nombre: "Reuters — Tecnología", url: "https://www.reuters.com/technology/artificial-intelligence/" }
+      - { nombre: "Reuters, Tecnología", url: "https://www.reuters.com/technology/artificial-intelligence/" }
 
   - nombre: "Prensa de la región"
     descripcion: >-
       Medios latinoamericanos con buena cobertura de tecnología y política digital, junto a las
       redacciones que hacen investigación y verificación sobre plataformas, elecciones y
-      desinformación en la región.
+      desinformación en la región. Cuando un medio republica un despacho de agencia, se cita a la
+      agencia.
     fuentes:
       - { nombre: "Bloomberg Línea", url: "https://www.bloomberglinea.com/" }
       - { nombre: "DPL News", url: "https://dplnews.com/" }
+      - { nombre: "Infobae, Tecno", url: "https://www.infobae.com/tecno/" }
+      - { nombre: "JOTA (Brasil)", url: "https://www.jota.info/" }
+      - { nombre: "Chequeado (Argentina)", url: "https://chequeado.com/" }
       - { nombre: "Wired en Español", url: "https://es.wired.com/" }
       - { nombre: "MIT Technology Review en Español", url: "https://www.technologyreview.es/" }
       - { nombre: "El Mostrador (Chile)", url: "https://www.elmostrador.cl/" }
@@ -147,11 +171,11 @@ categorias:
   - nombre: "Infraestructura, chips y energía"
     descripcion: >-
       La parte física de la IA: centros de datos, semiconductores y cuánta electricidad consume
-      todo esto. Nvidia y TSMC son parte interesada —venden lo que describen—, así que los usamos
+      todo esto. Nvidia y TSMC son parte interesada, porque venden lo que describen, así que los usamos
       para saber qué se anunció y qué se está fabricando, no para medir el tamaño del fenómeno.
       Para eso están la IEA y SemiAnalysis, que no venden chips.
     fuentes:
-      - { nombre: "IEA — Energy and AI", url: "https://www.iea.org/reports/key-questions-on-energy-and-ai" }
+      - { nombre: "IEA, Energy and AI", url: "https://www.iea.org/reports/key-questions-on-energy-and-ai" }
       - { nombre: "SemiAnalysis", url: "https://semianalysis.com/" }
       - { nombre: "Nvidia", url: "https://blogs.nvidia.com/" }
       - { nombre: "TSMC", url: "https://pr.tsmc.com/english/news" }
@@ -159,8 +183,6 @@ categorias:
   - nombre: "Investigación con curaduría"
     descripcion: "Papers ya filtrados por relevancia, más fáciles de seguir que arXiv en crudo."
     fuentes:
-      - { nombre: "Hugging Face — Daily Papers", url: "https://huggingface.co/papers" }
-      - { nombre: "Papers with Code", url: "https://paperswithcode.com/" }
-      - { nombre: "The Gradient", url: "https://thegradient.pub/" }
+      - { nombre: "Hugging Face, Daily Papers", url: "https://huggingface.co/papers" }
       - { nombre: "Semantic Scholar", url: "https://www.semanticscholar.org/" }
       - { nombre: "alphaXiv", url: "https://www.alphaxiv.org/" }

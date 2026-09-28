@@ -3,10 +3,24 @@ layout: page
 title: Fuentes
 permalink: /fuentes/
 # La usa jekyll-seo-tag para la meta description y el og:description de esta página.
-description: "Las fuentes públicas que se revisan cada día para armar las entradas de Doble Click, y el formulario para sugerir una que falte."
+description: "Las fuentes públicas con que se arman las entradas de Doble Click, qué tan cerca del hecho está cada una, y el formulario para sugerir una que falte."
 ---
 
 <p class="fuentes-intro">{{ site.data.fuentes.intro }}</p>
+{%- if site.data.fuentes.criterio %}
+<p class="fuentes-desc">{{ site.data.fuentes.criterio }}</p>
+{%- endif %}
+{%- if site.data.fuentes.niveles %}
+<section class="fuentes-cat fuentes-niveles">
+  <h2 class="fuentes-cat-title">Qué tan cerca del hecho está cada fuente</h2>
+  <p class="fuentes-desc">Cada entrada muestra al pie sus fuentes clave con uno de estos cuatro niveles.</p>
+  <ul class="fuentes-list">
+    {%- for n in site.data.fuentes.niveles %}
+    <li><strong>Nivel {{ n.nivel }}, {{ n.nombre | downcase }}.</strong> {{ n.texto }}</li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
 
 {% for cat in site.data.fuentes.categorias %}
 <section class="fuentes-cat">
@@ -19,6 +33,9 @@ description: "Las fuentes públicas que se revisan cada día para armar las entr
   </ul>
 </section>
 {% endfor %}
+{%- if site.data.fuentes.ultima_revision %}
+<p class="fuentes-desc"><em>Lista revisada por última vez el {% include fecha.html date=site.data.fuentes.ultima_revision %}.</em></p>
+{%- endif %}
 
 <section class="sugerir" id="sugerir">
   <h2 class="fuentes-cat-title">¿Conoces una fuente que deberíamos seguir?</h2>
