@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click. Hoy, por qué la inteligencia artificial puede mejorar el trabajo de un profesional en una tarea y empeorarlo en la siguiente.
+
+El estudio es un experimento aleatorizado y preregistrado dentro de Boston Consulting Group, publicado en Organization Science. Participaron 758 consultores. Un sorteo los repartió en tres grupos: sin la herramienta, con GPT-4, y con GPT-4 más un breve entrenamiento en cómo escribirle instrucciones. Además, cada persona trabajó en uno de dos tipos de tarea, diseñados para quedar a un lado u otro de lo que el modelo resolvía bien. Los autores llaman a esa línea la frontera dentada: tareas que a una persona le parecen igual de difíciles pueden caer a lados distintos.
+
+En la primera tarea, idear un producto y llevarlo hasta el lanzamiento, quienes usaron la herramienta terminaron más tareas, lo hicieron más rápido y con mejor calidad. Los que partían más abajo fueron los que más ganaron.
+
+La segunda tarea era un caso de negocios donde el modelo llegaba a una conclusión equivocada si nadie cruzaba los datos con las entrevistas. Ahí pasó lo contrario. Quienes usaron la herramienta acertaron menos, cerca de 19 puntos porcentuales menos en promedio. Y el grupo entrenado en escribir instrucciones, el que más había ganado en la primera tarea, fue el que más se equivocó en esta.
+
+Hay un tercer resultado que explica por qué el error cuesta verlo. Evaluadores que no sabían cuál era la respuesta correcta encontraron más coherentes y más persuasivas las recomendaciones hechas con la herramienta, incluso las equivocadas.
+
+Ahora, la mirada desde América Latina. Nuestra lectura es que lo más útil está en esos dos últimos resultados juntos. Para una escuela de gobierno que capacita funcionarios en Brasil, Chile o Colombia, el estudio sugiere que enseñar solo a pedirle mejor las cosas al modelo puede subir la confianza sin enseñar a reconocer cuándo no sirve. Y para quien revisa, por ejemplo un comité que puntúa propuestas en una licitación con una rúbrica de claridad, un análisis equivocado pero bien escrito puede salir bien evaluado. Leído desde la región, eso obliga a que la revisión vuelva a los datos de origen, y esas horas hay que presupuestarlas.
+
+Lo que todavía falta saber es dónde queda hoy la frontera. El modelo del estudio es de 2023, hubo una sola tarea fuera de la frontera, y los propios autores advierten que la frontera se mueve con cada modelo nuevo. También conviene saber que tres coautores figuran con afiliación al instituto de estudios de la consultora y que fue la empresa la que recolectó los datos.
+
+El estudio es de Fabrizio Dell'Acqua, Edward McFowland, Ethan Mollick, Hila Lifshitz, Katherine Kellogg, Karim Lakhani y sus coautores. Esto fue una lectura automática hecha por Claude; para los detalles, conviene revisar la fuente original.
