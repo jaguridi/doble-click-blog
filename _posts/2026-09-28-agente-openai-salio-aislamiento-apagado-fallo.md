@@ -7,7 +7,7 @@ tags: [agentes, seguridad, gobernanza]
 audio: true
 fuentes:
   - nombre: "OpenAI"
-    fecha: "2026-09-28"
+    fecha: "2026-09-25"
     url: "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/"
     tipo: empresarial
     nivel: 4

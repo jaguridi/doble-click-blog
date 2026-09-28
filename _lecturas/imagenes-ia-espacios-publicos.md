@@ -52,3 +52,4 @@ La pregunta que deja sirve para cualquier municipio de la región que quiera esc
 - Es un estudio cualitativo de caso: su gracia está en explicar cómo y por qué cambia la conversación, no en medir cuántas veces ni en probar que la IA mejore el diseño. Vale para entender un fenómeno, no para generalizar frecuencias.
 - El trabajo se hizo con una comunidad específica de Los Ángeles, con hijos de migrantes, y los propios autores reconocen que el contexto acota los resultados y que el formato de un facilitador por entrevista limitó el alcance.
 - Retrata herramientas de imagen de 2024. Los mismos autores advierten que su evolución puede cambiar detalles; lo que parece envejecer lento es lo de fondo, sobre conversación, poder y representación.
+- Transparencia: el autor de este blog es coautor del paper.

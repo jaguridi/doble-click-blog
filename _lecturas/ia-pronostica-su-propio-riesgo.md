@@ -2,13 +2,13 @@
 layout: lectura
 numero: 22
 tags: [gobernanza, seguridad]
-title: "Le preguntaron a los modelos por el riesgo de catástrofe, y responden más alto que los humanos"
+title: "Les preguntaron a los modelos por el riesgo de catástrofe, y responden más alto que los humanos"
 description: "Un panel de cuatro modelos de frontera pronostica 0,47% de probabilidad de que la IA cause una catástrofe que mate al menos al 10% de la humanidad al 2030, y 6% al 2050, entre 4,8 y 6,8 veces lo que estiman los superpronosticadores. El giro del paper: esos pronósticos se vuelven más informativos justo cuando el riesgo sube."
 date: 2026-09-14
 paper_titulo: "Automated Forecasts of Catastrophic Risks"
 paper_autores: "Abaluck, Karger, Merrill, Tetlock, Vivalt y Williams"
 paper_publicado: "Forecasting Research Institute, working paper, septiembre 2026"
-paper_doi: "https://forecastingresearch.org/research"
+paper_doi: "https://forecastingresearch.org/pdf/airo-working-paper.pdf"
 paper_archivo: "airo-working-paper.pdf"
 paper_keywords: "catastrophic risk, automated forecasting, frontier models, calibration, AI policy"
 audio: true
@@ -18,7 +18,7 @@ audio: true
 
 - **Qué es:** *Automated Forecasts of Catastrophic Risks*
 - **Quiénes:** [Jason Abaluck](https://jabaluck.github.io/) (Yale y NBER), [Ezra Karger](https://scholar.google.com/scholar?q=%22Ezra+Karger%22+forecasting) (Federal Reserve Bank of Chicago), [Nick Merrill](https://scholar.google.com/scholar?q=%22Nick+Merrill%22+forecasting) (Forecasting Research Institute y UC Berkeley), [Philip E. Tetlock](https://scholar.google.com/scholar?q=%22Philip+E.+Tetlock%22+forecasting) (University of Pennsylvania), [Eva Vivalt](https://scholar.google.com/scholar?q=%22Eva+Vivalt%22) (University of Toronto) y [Bridget Williams](https://scholar.google.com/scholar?q=%22Bridget+Williams%22+%22forecasting+research+institute%22) (Forecasting Research Institute y Oxford). Van en orden alfabético.
-- **Dónde:** working paper del [Forecasting Research Institute](https://forecastingresearch.org/research), septiembre 2026, sin DOI. Financiado por Coefficient Giving.
+- **Dónde:** working paper del Forecasting Research Institute, septiembre 2026, sin DOI ([PDF](https://forecastingresearch.org/pdf/airo-working-paper.pdf)). Financiado por Coefficient Giving.
 - **Tipo:** elicitación de pronósticos a modelos de lenguaje, con tres ejercicios de validación.
 
 ## Primera lectura: qué hace y qué encuentra
@@ -39,7 +39,7 @@ El ejercicio de políticas usa ocho escenarios adaptados de una encuesta del mis
 
 ## Segunda lectura: desde América Latina
 
-Conviene decirlo derecho: la región no aparece. El menú de políticas se armó con propuestas de think tanks y de políticos estadounidenses, los paneles humanos de comparación son de la misma casa, y el escenario que más mueve la aguja hacia arriba, la preemción federal, es una discusión interna de Estados Unidos. Nada aquí se preguntó desde un país que recibe la tecnología sin fabricarla.
+Conviene decirlo sin rodeos: la región no aparece. El menú de políticas se armó con propuestas de think tanks y de políticos estadounidenses, los paneles humanos de comparación son de la misma casa, y el escenario que más mueve la aguja hacia arriba, la preemción federal, es una discusión interna de Estados Unidos. Nada aquí se preguntó desde un país que recibe la tecnología sin fabricarla.
 
 Y aun así hay un resultado que le habla directo a la región, sin que nadie lo haya buscado. En cada comparación, las medidas internacionales le ganan a las nacionales, y el paquete le gana a cualquier medida suelta. Para un país que no entrena modelos de frontera ni tiene jurisdicción sobre quienes los entrenan, eso no es un detalle técnico. Es el argumento de por qué la política nacional de IA, por buena que sea, no toca este riesgo en particular, y por qué el lugar donde sí se juega algo es la mesa multilateral. Estar ahí deja de ser diplomacia decorativa.
 
@@ -55,5 +55,5 @@ La pregunta que queda es quién mira estos tableros en la región, y con qué ma
 - Los autores son explícitos sobre lo que no saben: no está establecido que la precisión medida en ForecastBench o en mundos simulados se traslade a pronosticar catástrofes reales. Dicen que esos proxies dan razones para investigar los pronósticos, no para concluir que los modelos igualan a los mejores humanos en esta pregunta. Sobre las comparaciones con humanos advierten algo parecido: son pronósticos hechos en fechas distintas y, en ForecastBench, sobre conjuntos de preguntas distintos, así que las razones de arriba no miden precisión relativa.
 - El tablero corre solo con información pública. Los laboratorios tienen información privada sobre capacidades y riesgos, y los autores reconocen que sin ella difícilmente se puede alertar sobre lo que pasa dentro de esas empresas.
 - El paper señala un problema raro y honesto: publicar estos pronósticos los mete en el corpus de entrenamiento de los modelos futuros, que podrían terminar reforzándolos. Y advierten que empresas o modelos podrían coludir u ocultar datos si las respuestas de política dependen de estas cifras.
-- Que el 100% de los 1.996 ordenamientos implícitos se cumpla habla de coherencia interna del panel, no de que le esté achuntando.
+- Que el 100% de los 1.996 ordenamientos implícitos se cumpla habla de coherencia interna del panel, no de que esté acertando.
 - Transparencia: dos de los cuatro modelos del panel son de la familia Claude, la misma que escribe estas lecturas.

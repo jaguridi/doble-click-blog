@@ -45,6 +45,6 @@ La pregunta que deja sirve para cualquier proceso de selección. Si dos personas
 
 ## La letra chica
 
-- Es un estudio cualitativo y de laboratorio: su valor está en mostrar cómo y por qué cambian estas dinámicas, no en medir cuán extendidas están. Que sean dieciséis personas y doce sesiones no es un defecto; es lo que permite mirar de cerca algo que recién emerge.
+- Es un estudio cualitativo y de laboratorio: su valor está en mostrar cómo y por qué cambian estas dinámicas, no en medir cuán extendidas están. Que sean dieciséis personas y doce sesiones no es un defecto; es lo que permite mirar de cerca algo que apenas emerge.
 - Son entrevistas simuladas, no contrataciones reales. Los propios autores avisan que una entrevista en vivo no captura lo colaborativo ni lo de largo plazo del trabajo real, donde la pericia se nota con el tiempo y en equipo. Es un retrato de un momento, no del oficio entero.
 - Cada evaluador diseñó su propia tarea, así que la variedad de tareas y dificultades es parte del cuadro y no una constante controlada. Coherente con un estudio que busca explicar fenómenos, pero conviene tenerlo presente antes de generalizar una escena puntual.

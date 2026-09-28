@@ -1,7 +1,7 @@
 ---
 layout: lectura
 numero: 20
-tags: [educación, datos, latam]
+tags: [educación, datos]
 title: "Con IA suben las notas de las tareas y bajan las de las pruebas"
 description: "Treinta meses de registros de 26.811 estudiantes de secundaria en un condado chino. Tras adoptar IA generativa, las notas de las tareas suben 18% y el tiempo para hacerlas cae un tercio, pero las pruebas a libro cerrado caen 20% en seis meses, y el efecto en los exámenes de admisión tarda dos años en aparecer completo."
 date: 2026-08-31
@@ -23,7 +23,7 @@ audio: true
 
 ## Primera lectura: qué hace y qué encuentra
 
-Conviene partir por el diseño, porque de ahí sale casi toda la fuerza del paper. Los autores obtuvieron de la oficina de educación de un condado del centro de China, que ellos describen como representativo de los condados fuera de la costa desarrollada, los registros de 26.811 estudiantes de séptimo a duodécimo grado, el 90 por ciento de los matriculados en secundaria ahí. Los datos van de septiembre de 2022 a junio de 2025 y juntan tres cosas que rara vez aparecen en el mismo conjunto: las notas de las pruebas mensuales a libro cerrado, la nota y el tiempo de entrega de las tareas semanales en nueve asignaturas, y los dos exámenes nacionales de alto impacto, el Zhongkao, que ordena a los estudiantes hacia distintos liceos, y el Gaokao, que en la práctica decide el ingreso a la universidad.
+Conviene partir por el diseño, porque de ahí sale casi toda la fuerza del paper. Los autores obtuvieron de la oficina de educación de un condado del centro de China, que ellos describen como representativo de los condados fuera de la costa desarrollada, los registros de 26.811 estudiantes de séptimo a duodécimo grado, el 90 por ciento de los matriculados en secundaria ahí. Los datos van de septiembre de 2022 a junio de 2025 y juntan tres cosas que rara vez aparecen en el mismo conjunto: las notas de las pruebas mensuales a libro cerrado, la nota y el tiempo de entrega de las tareas semanales en nueve asignaturas, y los dos exámenes nacionales de alto impacto, el Zhongkao, que ordena a los estudiantes hacia distintas escuelas de nivel medio, y el Gaokao, que en la práctica decide el ingreso a la universidad.
 
 Una encuesta de junio de 2025 preguntó en qué mes cada estudiante empezó a usar IA generativa. La adopción pasó de casi cero en 2022 a cerca del 80 por ciento en 2025, y avanzó de forma escalonada, lo que habilita el diseño: comparar cómo cambian los resultados de quienes adoptaron en un mes dado contra los de quienes nunca adoptaron. Las herramientas más usadas fueron Doubao, DeepSeek, ChatGLM, Ernie Bot y Qwen, no aplicaciones educativas especializadas.
 
@@ -45,7 +45,7 @@ Una precisión de los autores conviene no saltársela: el ahorro de tiempo en ta
 
 Hay una nota optimista que ellos mismos presentan como sugerente y no como establecida. Medida a los cinco meses de uso, la penalidad pasó de alrededor de 25 por ciento a comienzos de 2023 a alrededor de 16 por ciento en junio de 2025, y el patrón se mantiene al fijar la muestra en los adoptantes tempranos. Algo se está adaptando, en los estudiantes o en los profesores, aunque la pérdida está lejos de desaparecer.
 
-Sus tres sugerencias de política son sobrias y baratas, que es lo que las vuelve pertinentes para ministerios sin presupuesto para reformas grandes. Dar información creíble a los estudiantes sobre el costo de aprendizaje de externalizar tareas, porque hoy no lo perciben. Aumentar el peso de las evaluaciones presenciales y a libro cerrado. Y que profesores y apoderados monitoreen insumos, tiempo de estudio y esfuerzo, en vez de productos, que es lo que la IA volvió poco informativo.
+Sus tres sugerencias de política son sobrias y baratas, que es lo que las vuelve pertinentes para ministerios sin presupuesto para reformas grandes. Dar información creíble a los estudiantes sobre el costo de aprendizaje de externalizar tareas, porque hoy no lo perciben. Aumentar el peso de las evaluaciones presenciales y a libro cerrado. Y que profesores y familias monitoreen insumos, tiempo de estudio y esfuerzo, en vez de productos, que es lo que la IA volvió poco informativo.
 
 La pregunta que deja es directa para cualquier ministerio de la región. Si la nota de la tarea ya no dice si el estudiante aprendió, ¿con qué se está evaluando?
 

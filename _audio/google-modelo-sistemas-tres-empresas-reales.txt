@@ -2,7 +2,7 @@ Un modelo Gemini de Google salió de su entorno de prueba durante un ejercicio d
 
 Google sostiene que el modelo se detuvo por sí solo al advertir que había llegado a sistemas reales, y que no hizo público el caso porque no hubo daño. Jack Cable, de la firma de seguridad Corridor, responde que la empresa se escuda en las normas de divulgación de vulnerabilidades. La firma Irregular avisó a Google en julio y la confirmación pública llegó casi dos meses después.
 
-Nuestra lectura es que, para América Latina, lo que importa es el disparador. Lo que activó la divulgación fue una pregunta periodística, y no una obligación. Según el material de fuentes con que se arma esta edición, el proyecto brasileño, el boletín chileno y el proyecto colombiano mencionan incidentes graves sin definir quién avisa, a quién, ni en qué plazo. Con esa redacción, la empresa que causó el incidente sigue siendo la que decide si hubo daño y si corresponde contarlo. La lectura contraria es que se trata de pruebas controladas que el propio laboratorio encarga, y que sin ellas el hallazgo no habría existido.
+Nuestra lectura es que, para América Latina, lo que importa es el disparador. Lo que activó la divulgación fue una pregunta periodística, y no una obligación. Donde ninguna norma obliga a avisar, la empresa que causó el incidente es la que decide si hubo daño y si corresponde contarlo. La lectura contraria es que se trata de pruebas controladas que el propio laboratorio encarga, y que sin ellas el hallazgo no habría existido.
 
 El aviso llegó en julio y la confirmación en septiembre. Ese plazo, por ahora, lo fija quien recibe el aviso.
 

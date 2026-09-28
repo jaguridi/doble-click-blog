@@ -1,7 +1,7 @@
 ---
 layout: lectura
 numero: 1
-tags: [gobernanza, participación]
+tags: [participación, gobernanza, latam]
 title: "Políticos y funcionarios no quieren lo mismo de la IA"
 description: "Veinte entrevistas dentro del Estado en Chile y Uruguay para entender por qué los gobiernos casi no usan IA al consultar a la ciudadanía. El hallazgo incómodo: el problema no es el algoritmo, sino que nadie se hace responsable de la decisión."
 date: 2026-06-04
@@ -48,3 +48,4 @@ La pregunta que deja sirve para cualquier ministerio de la región. Ahora que us
 
 - Es un estudio cualitativo: su valor está en explicar el porqué y el cómo de estas decisiones, no en medir cuántos ni en probar que el NLP funcione. Los números de las tablas dicen cuántos entrevistados mencionaron cada cosa, no qué tan extendido está.
 - Habla de NLP en un momento previo a la masificación de los LLM. Los propios autores advierten que ese avance puede cambiar algunos detalles. Lo organizacional, en cambio, envejece lento, porque trata de personas e instituciones.
+- Transparencia: el autor de este blog es coautor del paper.

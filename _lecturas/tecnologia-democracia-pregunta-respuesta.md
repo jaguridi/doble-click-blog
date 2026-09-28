@@ -46,4 +46,4 @@ La pregunta que deja es la suya, llevada a la región: cuando un gobierno latino
 ## La letra chica
 
 - Es un ensayo conceptual, no un estudio empírico. Su valor está en ordenar un debate y proponer puentes, no en medir nada ni en demostrar que tal o cual herramienta funcione. Quien busque datos o casos no los va a encontrar acá, y eso no es un defecto: es lo que el texto se propone.
-- El recorrido se mueve casi entero en la literatura del norte global, Europa y Estados Unidos. La dimensión geopolítica y latinoamericana aparece recién al final y como límite reconocido por el propio autor, no como desarrollo. Tratarla como una contribución del paper sería ir más lejos de lo que el texto da.
+- El recorrido se mueve casi entero en la literatura del norte global, Europa y Estados Unidos. La dimensión geopolítica y latinoamericana aparece solo al final y como límite reconocido por el propio autor, no como desarrollo. Tratarla como una contribución del paper sería ir más lejos de lo que el texto da.

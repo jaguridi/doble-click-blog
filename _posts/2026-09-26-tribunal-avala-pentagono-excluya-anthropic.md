@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Por 2 a 1, un tribunal avala que el Pentágono excluya a Anthropic"
-description: "Según la sentencia del Circuito de D.C. del 25 de septiembre, el Departamento de Guerra actuó dentro de la ley al sacar a Claude de sus sistemas y de los de sus contratistas, tras la negativa de Anthropic a permitir usos en guerra autónoma letal y vigilancia interna."
+description: "Según la sentencia del Circuito de D.C. del 25 de septiembre, el Departamento de Guerra actuó dentro de la ley al sacar a Claude de sus sistemas y del trabajo que sus contratistas hacen para él, tras la negativa de Anthropic a permitir usos en guerra autónoma letal y vigilancia interna."
 date: 2026-09-26 09:12:02 -0400
 tags: [defensa, gobernanza, seguridad, latam]
 audio: true
@@ -11,11 +11,6 @@ fuentes:
     url: "https://media.cadc.uscourts.gov/opinions/docs/2026/09/26-1049-2194984.pdf"
     tipo: primaria
     nivel: 1
-  - nombre: "The Next Web"
-    fecha: "2026-09-26"
-    url: "https://thenextweb.com/news/anthropic-pentagon-supply-chain-risk-appeals-court-ruling"
-    tipo: prensa
-    nivel: 3
   - nombre: "Boletín Oficial de Argentina"
     fecha: "2026-09-25"
     url: "https://www.argentina.gob.ar/normativa/nacional/norma-430504"
@@ -36,14 +31,14 @@ fuentes:
 ## En 60 segundos
 
 - **Qué pasó.** El 25 de septiembre, un tribunal de apelaciones de Estados Unidos avaló por 2 a 1 que el Pentágono declarara a Anthropic riesgo para su cadena de suministro.
-- **Por qué importa.** La designación saca a Claude de los sistemas del Pentágono y de sus contratistas porque Anthropic no aceptó usos en guerra autónoma ni vigilancia interna.
-- **Qué falta saber.** Cómo se resuelve el choque con el fallo de agosto de una jueza de San Francisco, que bloqueó una designación paralela.
+- **Por qué importa.** La designación saca a Claude de los sistemas del Pentágono y del trabajo que sus contratistas hacen para él, porque Anthropic no aceptó usos en guerra autónoma ni vigilancia interna.
+- **Qué falta saber.** Si Anthropic lleva el caso a otra instancia, y cómo convive esta designación con la paralela que una jueza de San Francisco anuló en agosto bajo otra ley.
 
-El Tribunal de Apelaciones del Circuito de D.C. confirmó el 25 de septiembre, por 2 votos contra 1, que el Departamento de Guerra de Estados Unidos actuó dentro de la ley al designar a Anthropic como riesgo para su cadena de suministro, según [la sentencia del caso 26-1049](https://media.cadc.uscourts.gov/opinions/docs/2026/09/26-1049-2194984.pdf). La designación se apoya en una ley federal de seguridad de la cadena de suministro de 2018 y excluye a Claude de los sistemas del Pentágono y de sus contratistas. El conflicto empezó cuando Anthropic se negó a relajar las cláusulas que prohíben usar Claude en guerra autónoma letal o en vigilancia interna.
+El Tribunal de Apelaciones del Circuito de D.C. confirmó el 25 de septiembre, por 2 votos contra 1, que el Departamento de Guerra de Estados Unidos actuó dentro de la ley al designar a Anthropic como riesgo para su cadena de suministro, según [la sentencia del caso 26-1049](https://media.cadc.uscourts.gov/opinions/docs/2026/09/26-1049-2194984.pdf). La designación se apoya en una ley federal de seguridad de la cadena de suministro de 2018 y excluye a Claude de los sistemas del Pentágono y del trabajo que sus contratistas hacen para el Departamento. El conflicto empezó cuando Anthropic se negó a relajar las cláusulas que prohíben usar Claude en guerra autónoma letal o en vigilancia interna.
 
 La jueza disidente, Karen Henderson, sostuvo que esa ley apunta al sabotaje encubierto y no a restricciones declaradas en un contrato. En nuestra lectura, ahí está el mecanismo que cambia: si el criterio de la mayoría se mantiene, una herramienta pensada para proveedores que ocultan riesgos sirve también para excluir a uno que publica sus límites de uso. El costo no se queda en Anthropic. Cada contratista del Pentágono que trabaje con Claude tendría que reemplazarlo para seguir vendiéndole al Departamento. Para la mayoría del tribunal, en cambio, el Departamento se mantuvo dentro de lo que la ley le permite.
 
-El caso sigue abierto por otro frente. Según [The Next Web](https://thenextweb.com/news/anthropic-pentagon-supply-chain-risk-appeals-court-ruling), el fallo choca con el de una jueza de San Francisco que en agosto bloqueó una designación paralela, decisión que contamos en la [entrada del 29 de agosto](https://dobleclick.jaguridi.cl/2026/08/29/nube-china-aterriza-brasil-48-horas.html). Con dos tribunales en sentidos opuestos, todavía no se sabe qué regla terminará valiendo. Declaración de interés: esta entrada se genera con modelos de Anthropic.
+El caso sigue abierto por otro frente. En agosto, una jueza de San Francisco anuló una designación paralela, decisión que contamos en la [entrada del 29 de agosto](https://dobleclick.jaguridi.cl/2026/08/29/nube-china-aterriza-brasil-48-horas.html). La sentencia no contradice ese fallo: la mayoría dice no tener objeción a él, porque se apoyó en otra ley, que exige mala intención de un adversario, mientras que la de 2018 no la exige.
 
 ## También hoy
 
@@ -60,6 +55,8 @@ En Argentina, el Ministerio de Justicia creó por la [Resolución 483/2026](http
 ## Lanzamientos
 
 - **[Copilot Home, Code y Autopilot, de Microsoft](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)**: Autopilot es un agente que trabaja por su cuenta y Code crea aplicaciones a partir de instrucciones en lenguaje natural. Llega al programa Frontier en las próximas semanas, sin precios publicados.
-- **[Lentes con función de audífono, de Meta](https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/)**: costarán 150 dólares, frente a unos 1.600 de un audífono tradicional, según TechCrunch. No hay fecha ni regiones de venta.
+- **[Lentes con función de audífono, de Meta](https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/)**: costarán 150 dólares; un investigador de Meta dijo a TechCrunch que un audífono tradicional puede llegar a costar 1.600. No hay fecha ni regiones de venta.
+
+<small>**Fe de erratas (28 de septiembre de 2026).** La versión original decía, citando a un medio, que este fallo "choca" con el de una jueza de San Francisco y que había "dos tribunales en sentidos opuestos". La sentencia dice lo contrario: la mayoría no tiene objeción a ese fallo, que aplicó otra ley. También se precisó que la exclusión alcanza al trabajo que los contratistas hacen para el Departamento, no a todos sus sistemas, y que la cifra de 1.600 dólares por un audífono la dio un investigador de Meta. Corregido en una revisión editorial.</small>
 
 <small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>
