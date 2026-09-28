@@ -1,15 +1,14 @@
-# Cola pública "Coming next" de Doble Lectura.
+# Cola pública "Próximas lecturas" de Doble Lectura.
 #
 # La página /doble-lectura/ muestra las 3 primeras entradas de esta lista en el
-# cuadro "Coming next".
+# cuadro "Próximas lecturas".
 #
 # NO se edita a mano en el día a día: la rutina semanal "publicador" REGENERA este
 # archivo cada lunes a partir de lo que haya en la carpeta `pendientes/` del repo
-# privado doble-lectura-inbox (las fuentes que José ya aprobó). Es decir, refleja la
-# cola real de papers/reportes que vienen, en el orden en que se publicarán (la más
-# antigua primero). Si quieres adelantar o reordenar algo, lo natural es mover los
-# archivos en `pendientes/`; igual puedes editar esto a mano para un arreglo puntual,
-# pero el próximo lunes la rutina lo vuelve a escribir desde `pendientes/`.
+# privado doble-lectura-inbox, en el orden en que se publicarán: primero lo que
+# nombre `pendientes/ORDEN.txt`, si existe, y después el resto por antigüedad. Para
+# adelantar o reordenar algo, edita `ORDEN.txt` en el inbox; un arreglo a mano acá
+# dura hasta el lunes siguiente.
 #
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
