@@ -380,6 +380,9 @@ primer-chip-openai-gana-nvidia-eficiencia:
 primer-ransomware-agente-ia-autonomo:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+respuestas-chatbots-brasil-recomendaron-candidatos:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 santo-domingo-cumbre-abre-veto-colombia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
