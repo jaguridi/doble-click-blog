@@ -1,0 +1,15 @@
+Hola, esto es Doble Click.
+
+En Brasil, a pocos días de la primera vuelta, un estudio oficial midió cómo responden los chatbots cuando se les pregunta por las elecciones. Lo hacen la fiscalía federal brasileña, el Ministério Público Federal, y el centro de investigación ITS Rio. Se llama Boca de IA y va por su quinta ronda, publicada el veinticinco de septiembre.
+
+El resultado, según la publicación de la fiscalía: en conjunto, una de cada cinco respuestas de las siete herramientas de IA más usadas del país recomendó candidatos. Las diferencias entre productos son grandes. Perplexity lo hizo en ochenta y nueve por ciento de sus respuestas. Meta AI, en veintitrés por ciento.
+
+Según la misma fiscalía, una resolución del Tribunal Superior Electoral prohíbe esas recomendaciones.
+
+¿Por qué importa? Esta es una lectura nuestra, no un dato del estudio: la distancia entre una herramienta y otra sugiere que el resultado depende de cómo cada empresa configura su producto. Por eso una cifra por herramienta podría servirle a la fiscalía más que una advertencia general, porque permite comparar a cada empresa entre una ronda y la siguiente. Para el votante, la consecuencia es simple: quien pregunte a un chatbot por quién votar puede recibir una recomendación o una negativa, según la herramienta que use.
+
+Lo que falta saber: la fiscalía anunció una sexta ronda antes de la primera vuelta, el cuatro de octubre. Esa medición mostrará si las herramientas cambiaron sus respuestas.
+
+También hoy: OpenAI decidió no lanzar su modelo GPT seis punto uno Astra, previsto para octubre. La empresa dijo a la revista Newsweek que rindió peor que su antecesor en las evaluaciones de alineamiento, pero no publicó esas evaluaciones.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
