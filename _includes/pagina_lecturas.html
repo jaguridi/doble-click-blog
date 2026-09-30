@@ -4,7 +4,8 @@ Cuerpo del índice de Doble Lectura, el mismo para /doble-lectura/ y /en/doble-l
 "Próximas lecturas" sale de _data/proximas_lecturas.yml, que la rutina del lunes regenera
 en español. En inglés se muestra `titulo_en` si la entrada lo trae y, si no, el título
 original del paper (que casi siempre está en inglés); los meses de `publicado` se pasan
-al inglés acá mismo. Así la cola en inglés no depende de que alguien traduzca ese archivo.
+al inglés acá mismo, igual que el "y" entre autores. Así la cola en inglés no depende de
+que alguien traduzca ese archivo.
 {%- endcomment -%}
 {%- include idioma.html -%}
 <p class="lectura-intro">{{ t.lecturas.intro }}</p>
@@ -20,15 +21,18 @@ al inglés acá mismo. Así la cola en inglés no depende de que alguien traduzc
       {%- for _m in site.data.i18n.es.fecha.meses -%}
         {%- assign _p_publicado = _p_publicado | replace: _m, site.data.i18n.en.fecha.meses[forloop.index0] -%}
       {%- endfor -%}
+      {%- assign _p_publicado = _p_publicado | replace: 'Nota Técnica', 'Technical Note' | replace: 'Preprint arXiv', 'arXiv preprint' -%}
+      {%- assign _p_autores = p.autores | replace: ' y otros', ' et al.' | replace: ' y ', ' and ' -%}
       {%- assign _p_titulo = p.titulo_en | default: p.paper | default: p.titulo -%}
     {%- else -%}
+      {%- assign _p_autores = p.autores -%}
       {%- assign _p_publicado = p.publicado -%}
       {%- assign _p_titulo = p.titulo -%}
     {%- endif %}
     <li class="coming-next-item">
       <span class="coming-next-title">{{ _p_titulo }}</span>
-      {% if _lang == 'en' and _p_titulo == p.paper %}{% if p.autores %}<span class="coming-next-cite">{{ t.lectura.de | capitalize }} {{ p.autores }}{% if _p_publicado %} · {{ _p_publicado }}{% endif %}</span>{% endif %}
-      {% elsif p.paper %}<span class="coming-next-cite">{{ t.lectura.sobre }} <em>{{ p.paper }}</em>{% if p.autores %}, {{ t.lectura.de }} {{ p.autores }}{% endif %}{% if _p_publicado %} · {{ _p_publicado }}{% endif %}</span>{% endif %}
+      {% if _lang == 'en' and _p_titulo == p.paper %}{% if p.autores %}<span class="coming-next-cite">{{ t.lectura.de | capitalize }} {{ _p_autores }}{% if _p_publicado %} · {{ _p_publicado }}{% endif %}</span>{% endif %}
+      {% elsif p.paper %}<span class="coming-next-cite">{{ t.lectura.sobre }} <em>{{ p.paper }}</em>{% if p.autores %}, {{ t.lectura.de }} {{ _p_autores }}{% endif %}{% if _p_publicado %} · {{ _p_publicado }}{% endif %}</span>{% endif %}
     </li>
   {% endfor %}
   </ul>
