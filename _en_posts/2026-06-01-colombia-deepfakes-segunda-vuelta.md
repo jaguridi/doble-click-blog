@@ -5,10 +5,10 @@ description: "A fake poll with the Gemini logo in plain sight exposes the regula
 date: 2026-06-01 10:00:00 -0400
 tags: [seguridad, participación, latam, gobernanza]
 audio: true
-hash_original: "4c5ba204197c"
+hash_original: "466cc31fd0a0"
 ---
 
-Colombia entered its presidential runoff with the clock against it: there are 21 days left until June 21 and there is no institutional mechanism to respond to the deepfakes that appeared during the May 31 first round. El Tiempo [documented the circulation of a fake poll](https://www.eltiempo.com/politica/elecciones-colombia-2026/resultados-elecciones-presidenciales-en-colombia-2026-falta-una-hora-para-que-cierren-las-urnas-de-votacion-asi-avanza-la-jornada-electoral-3560900) that gave 53% to one of the candidates, with the Gemini logo visible in the lower right corner. It is the first recorded case in Latin America of an AI model's brand appearing inside active electoral disinformation.
+Colombia entered its presidential runoff with the clock against it: there are 20 days left until June 21 and there is no institutional mechanism to respond to the deepfakes that appeared during the May 31 first round. El Tiempo [documented the circulation of a fake poll](https://www.eltiempo.com/politica/elecciones-colombia-2026/resultados-elecciones-presidenciales-en-colombia-2026-falta-una-hora-para-que-cierren-las-urnas-de-votacion-asi-avanza-la-jornada-electoral-3560900) that gave 53% to one of the candidates, with the Gemini logo visible in the lower right corner. It is the first recorded case in Latin America of an AI model's brand appearing inside active electoral disinformation.
 
 The result left Abelardo de la Espriella (43.7%) and Iván Cepeda (40.9%) headed for the runoff, on an election day marked by cloned audio and manipulated videos circulating on WhatsApp. The Electoral Observation Mission (MOE) summed up the underlying shift: "the central challenge is no longer the physical tampering of votes, but the systematic deception of voters." The contrast with Brazil is sharp. Four days before Colombians went to the polls, Brazil finished approving PL 2338, its first comprehensive AI legal framework, and its Superior Electoral Court heads into the October elections with five specific measures already in force. Colombia has no equivalent to the TSE, no AI framework and, for now, no authority with a clear mandate to act within three weeks. The good news is that the problem is no longer hypothetical: there is now concrete public evidence on which to build responses, and the Brazilian experience offers a map of what can be done.
 
@@ -34,5 +34,7 @@ Copilot's change adds to a broader shift we had been following: the end of the s
 ---
 
 *If the Gemini logo appeared on a fake poll hours before the polls opened, what will happen in the June 21 runoff when the next forgery carries another model's logo? The answer will say a lot about who takes responsibility.*
+
+<small>**Correction (September 30, 2026).** The original version said "there are 21 days left until June 21"; the correct number is 20 days, since this entry is dated June 1 and the runoff was held on June 21, according to [El Tiempo](https://www.eltiempo.com/politica/elecciones-colombia-2026/resultados-elecciones-presidenciales-en-colombia-2026-falta-una-hora-para-que-cierren-las-urnas-de-votacion-asi-avanza-la-jornada-electoral-3560900).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

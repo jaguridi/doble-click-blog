@@ -5,7 +5,7 @@ description: "The first serious brake on the AI race is not technical: it is an 
 date: 2026-09-12 09:03:25 -0400
 tags: [gobernanza, seguridad, mercados, latam]
 audio: true
-hash_original: "7f9976779ff1"
+hash_original: "6b9357597650"
 ---
 
 The lab that pushed the artificial intelligence race hardest has just asked for permission to slow it down. OpenAI [asked the U.S. Congress whether a coordinated slowdown among labs would violate antitrust law](https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/), after its chief scientist, Jakub Pachocki, proposed on September 6 that the research community agree to slow the pace while shared safety standards are set. Sam Altman said internally that the company could slow down, possibly together with other labs, assuming that some competitors would not go along.
@@ -34,10 +34,12 @@ Three pieces moved today and none comes from a Latin American parliament. The fi
 
 ## Threads we're following
 
-The letter from the 771 mathematicians closes the chapter we opened three days ago, when a swarm of ten thousand agents produced and formalized a frontier proof on the Navier-Stokes equations and the discussion was about who can pay for that compute. The mathematical community's response points to something else: the problem is not only the cost, it is the pace of announcements, and for the first time that pace carried a public price: a withdrawn sponsorship and a suspended competition. The education thread runs in parallel: last week UNESCO's mapping showed Latin American universities already using AI without written rules, and today PISA shows exactly the same pattern one level down, among teenagers. High adoption, absent governance, at both ends of the system.
+The letter from the 771 mathematicians closes the chapter we opened three days ago, when a swarm of ten thousand agents produced and formalized a frontier proof on the Navier-Stokes equations and the discussion was about who can pay for that compute. The mathematical community's response points to something else: the problem is not only the cost, it is the pace of announcements, and for the first time that pace carried a public price: a withdrawn sponsorship and a suspended competition. The education thread runs in parallel: this week UNESCO's mapping showed Latin American universities already using AI without written rules, and today PISA shows exactly the same pattern one level down, among teenagers. High adoption, absent governance, at both ends of the system.
 
 ---
 
 *If most of the claims AI agents are generating against the state come from people who were entitled to file them, what part of the fiscal balance of a Latin American public service was financed by the friction of red tape? And what will a ministry do when it discovers that its budget depended on people giving up before reaching the counter?*
+
+<small>**Correction (September 30, 2026).** The original version said UNESCO's mapping of AI in Latin American universities came out "last week"; the correct timing is "this week," since it was published on Wednesday, September 9, according to [UNESCO IESALC](https://www.iesalc.unesco.org/en/articles/new-unesco-iesalc-study-reveals-widespread-ai-adoption-higher-education-across-latin-america-and).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

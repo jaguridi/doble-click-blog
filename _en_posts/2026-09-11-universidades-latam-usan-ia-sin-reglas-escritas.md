@@ -4,14 +4,14 @@ title: "The region's universities already use AI, but almost none govern it"
 description: "The first regional mapping shows that 87% of Latin American higher education institutions use artificial intelligence and only 26% have a formal strategy."
 date: 2026-09-11 09:04:52 -0400
 tags: [educación, gobernanza, latam, seguridad]
-hash_original: "8d6bd5ed0793"
+hash_original: "6d684b1e9ecf"
 ---
 
-For years, the conversation about artificial intelligence in Latin American classrooms was sustained by anecdotes. Today there is data: UNESCO IESALC presented [the first regional mapping of artificial intelligence adoption in Latin American universities](https://www.iesalc.unesco.org/en/articles/new-unesco-iesalc-study-reveals-widespread-ai-adoption-higher-education-across-latin-america-and), covering 200 higher education institutions in 19 countries. The gap fits in two numbers: 87% of institutions already use AI in at least one area (74% in teaching and learning, 57% in research support) and only 26% have a formal strategy for doing so.
+For years, the conversation about artificial intelligence in Latin American classrooms was sustained by anecdotes. Today there is data: on September 9, UNESCO IESALC presented [the first regional mapping of artificial intelligence adoption in Latin American universities](https://www.iesalc.unesco.org/en/articles/new-unesco-iesalc-study-reveals-widespread-ai-adoption-higher-education-across-latin-america-and), covering 200 higher education institutions in 19 countries. The gap fits in two numbers: 87% of institutions already use AI in at least one area (74% in teaching and learning, 57% in research support) and only 26% have a formal strategy for doing so.
 
 The most uncomfortable detail is not the size of the gap but how it is distributed. Private institutions outperform public ones in planning and governance, so the university that serves the students with the least margin to absorb a plagiarism accusation or an automated grading error is also the one operating without written rules. On the student side, one in two says they are not clear on what use is acceptable: it is not that they break a rule, it is that they do not know what the rule is.
 
-On the same day and in the same building, [more than 25 education ministers adopted a joint declaration](https://www.unesco.org/en/articles/education-ministers-call-education-remain-common-good-age-ai-unescos-digital-learning-week) with eight commitments, among them accounting for the total cost of ownership before adopting a tool and building pooled regional governance capacity. Read together, the two documents give the exact measure of the problem: policy is signed at the multilateral level, purchasing is negotiated university by university, and in between there is almost nothing. The [full study](https://unesdoc.unesco.org/ark:/48223/pf0000399333) and the [ministerial declaration](https://unesdoc.unesco.org/ark:/48223/pf0000399360) are published in UNESCO's repository.
+One day earlier and in the same building, [more than 25 education ministers adopted a joint declaration](https://www.unesco.org/en/articles/education-ministers-call-education-remain-common-good-age-ai-unescos-digital-learning-week) with eight commitments, among them accounting for the total cost of ownership before adopting a tool and building pooled regional governance capacity. Read together, the two documents give the exact measure of the problem: policy is signed at the multilateral level, purchasing is negotiated university by university, and in between there is almost nothing. The [full study](https://unesdoc.unesco.org/ark:/48223/pf0000399333) and the [ministerial declaration](https://unesdoc.unesco.org/ark:/48223/pf0000399360) are published in UNESCO's repository.
 
 ## Also today
 
@@ -39,5 +39,7 @@ We had been following an unusual streak: researchers with direct access to front
 ---
 
 *If 87% of the region's universities already use artificial intelligence and only 26% have a written strategy, what is governing that difference today: the disciplinary code, each instructor's judgment, or the terms of service of a provider that nobody read?*
+
+<small>**Correction (September 30, 2026).** The original version said that UNESCO IESALC presented the regional mapping today and that the ministerial declaration was adopted on the same day; the correct dates are September 9 for the mapping and one day earlier, September 8, for the declaration, according to [UNESCO IESALC](https://www.iesalc.unesco.org/en/articles/new-unesco-iesalc-study-reveals-widespread-ai-adoption-higher-education-across-latin-america-and) and [UNESCO](https://www.unesco.org/en/articles/education-ministers-call-education-remain-common-good-age-ai-unescos-digital-learning-week).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

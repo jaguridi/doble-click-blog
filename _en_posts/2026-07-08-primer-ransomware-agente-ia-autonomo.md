@@ -5,7 +5,7 @@ description: "A real attack with no human intervention confirms that AI-driven o
 date: 2026-07-08 10:02:49 -0400
 tags: [seguridad, latam, gobernanza, lanzamientos]
 audio: true
-hash_original: "fd6555e729d6"
+hash_original: "86cdc98c132d"
 ---
 
 The cybersecurity firm Sysdig documented what it describes as the first ransomware operated entirely by an autonomous artificial intelligence agent. Dubbed ["JadePuffer"](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion), the program exploited a known vulnerability in Langflow, a platform for building AI applications, moved through the network, escalated privileges and encrypted more than 1,300 configurations with no human intervention, adapting in real time to the failures it encountered along the way.
@@ -20,7 +20,7 @@ The finding matters above all because of its timing: it comes just one week afte
 
 ## In the region
 
-The week closed with the first UN Global Dialogue on AI governance in Geneva moving from the opening to concrete commitments: [Chile presented four proposals](https://www.un.org/global-dialogue-ai-governance/en) (regulatory sandboxes, ISO certifications, open data and continuing education) and the region confirmed a next meeting in New York for May 2027. In parallel, [UNESCO and CAF set up the Regional Group of Specialists on Disinformation and AI](https://www.unesco.org/en/articles/latin-america-and-caribbean-consolidate-regional-roadmap-ethical-inclusive-and-human-centered), a follow-up mechanism (with a rapid-response manual for disinformation) to the Santo Domingo Roadmap signed a year ago.
+The week closed with the first UN Global Dialogue on AI governance in Geneva moving from the opening to concrete commitments: [Chile presented four proposals](https://www.un.org/global-dialogue-ai-governance/en) (regulatory sandboxes, ISO certifications, open data and continuing education) and the region confirmed a next meeting in New York for May 2027. In parallel, [UNESCO and CAF set up the Regional Group of Specialists on Disinformation and AI](https://www.unesco.org/en/articles/latin-america-and-caribbean-consolidate-regional-roadmap-ethical-inclusive-and-human-centered), a follow-up mechanism (with a rapid-response manual for disinformation) to the Santo Domingo Roadmap signed in late June.
 
 On the legislative front, [Chile reopened for the third time the dispute over AI and copyright](https://www.elmostrador.cl/noticias/pais/2026/07/08/la-tercera-vida-de-articulo-sobre-ia-quiroz-reabre-disputa-sobre-propiedad-intelectual/) within its sweeping reform bill: the attempt to exempt AI platforms from paying for protected content is back on the table after two previous rejections, with a deadline for amendments that expires on July 9. A side note is worthwhile: the [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html), which was expected to include a chapter devoted to AI, ended up treating it as just one more of the "technological shocks" in a report focused on geographic disparities in employment.
 
@@ -37,5 +37,7 @@ This offensive comes in the middle of a story we have been following: for about 
 ---
 
 *If fully autonomous ransomware is already real and the region never had access to the defenses designed to contain it, is Latin America more exposed to the risks of AI than to its benefits?*
+
+<small>**Correction (September 30, 2026).** The original version said the Santo Domingo Roadmap was signed a year ago; the correct date is June 25 and 26, 2026, when it was adopted at the ministerial summit in Santo Domingo, according to [OECD.AI](https://oecd.ai/en/dashboards/policy-initiatives/santo-domingo-declaration-%E2%80%94-third-ministerial-summit-and-high-authorities-on-the-ethics-of-artificial-intelligence-in-latin-america-and-the-caribbean) and [UNESCO](https://www.unesco.org/en/articles/latin-america-and-caribbean-consolidate-regional-roadmap-ethical-inclusive-and-human-centered).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

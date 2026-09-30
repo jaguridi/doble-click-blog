@@ -5,14 +5,14 @@ description: "While a model solves an 80-year-old math problem, the country that
 date: 2026-05-24 10:00:00 -0400
 tags: [gobernanza, latam]
 audio: true
-hash_original: "8d1381dbac69"
+hash_original: "08cd1b5de287"
 ---
 
 The week closed with a governance decision that redraws the map of artificial intelligence: the US government [permanently scrapped](https://www.artificialintelligence-news.com/news/trump-ai-executive-order-scrapped-musk-zuckerberg-china/) the only oversight mechanism that had been proposed for the most advanced models, a voluntary 90-day safety review scheme before each launch. It was not postponed: it was discarded. The executive order would have created a first public checkpoint for technologies that today operate without any.
 
 What stands out is the contrast with what those same models are achieving. This week OpenAI announced that [a general-purpose model disproved the Erdős conjecture](https://openai.com/index/model-disproves-discrete-geometry-conjecture/), a problem that had been open for 80 years, without having been trained specifically for mathematics. Mathematician Tim Gowers, a Fields medalist, described it as a "milestone in mathematical AI." Capabilities that grow at full speed and oversight that disappears are, for now, moving in opposite directions.
 
-For Latin America the scene has an uncomfortable side: the region has no seat in these decisions and no market weight to influence them. For reference, the region's most ambitious sovereign compute budget (the Coatlicue project in Mexico, about $6 billion over five years) is equivalent to less than 1% of [the funding round Anthropic is about to close](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week). The underlying question is what the region's governments can negotiate when they control neither the benchmark regulation nor the money.
+For Latin America the scene has an uncomfortable side: the region has no seat in these decisions and no market weight to influence them. For reference, the region's most ambitious sovereign compute budget (the Coatlicue project in Mexico, about 6 billion pesos over two years) is equivalent to about 1% of [the funding round Anthropic is about to close](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week). The underlying question is what the region's governments can negotiate when they control neither the benchmark regulation nor the money.
 
 ## Also today
 
@@ -38,5 +38,7 @@ The Erdős result and the Nobel prediction add to something we had been observin
 ---
 
 *If the most capable models advance faster than the rules that should accompany them, what can a Latin American government offer in exchange for a seat at the table?*
+
+<small>**Correction (September 30, 2026).** The original version said the Coatlicue project cost about $6 billion over five years; the correct figure is about 6 billion pesos (about $326 million) over two years of construction, according to [El Financiero](https://www.elfinanciero.com.mx/tech/2025/11/26/una-supercomputadora-del-pueblo-de-mexico-asi-es-coatlicue-que-costara-6-mil-mdp/). At that figure, the project is equivalent to about 1% of Anthropic's round, not less than 1% as the original version said.</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

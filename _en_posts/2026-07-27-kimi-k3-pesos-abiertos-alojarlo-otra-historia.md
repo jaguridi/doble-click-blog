@@ -5,14 +5,14 @@ description: "The largest open model in history is available to anyone, but runn
 date: 2026-07-27 10:15:00 -0400
 tags: [lanzamientos, latam, mercados, gobernanza]
 audio: true
-hash_original: "803072b60639"
+hash_original: "e3c8df7e5c87"
 ---
 
 At 00:00 UTC today (8 p.m. Sunday in Santiago), Chinese lab Moonshot AI [published the full weights of Kimi K3 on Hugging Face](https://huggingface.co/moonshotai/Kimi-K3): 2.8 trillion parameters, a one-million-token context window and a modified MIT license. It is the largest open-weights model ever released and the first with near-frontier capability that anyone can download, inspect and host on their own infrastructure. Eleven days ago, Moonshot had announced the model and promised to publish it; today it delivered.
 
 The "anyone," however, comes with fine print. The download is about 594 GB in four-bit quantization (a technique that compresses the model so it takes up less space), and getting it to run requires on the order of 1.4 terabytes of fast memory before loading a single line of context. In practice, that puts it out of reach of Latin American ministries, judiciaries and universities, and within reach of the clouds and inference providers. The argument that makes an open model attractive to a state is data sovereignty: keeping information from leaving the jurisdiction. That argument survives only if someone in the region can actually host the model. If not, the model is open and the hosting is still foreign.
 
-The distance between the two is measured in racks of silicon, and this week made it clear how much they cost. The same weekend, [Nvidia negotiated to back the financing of OpenAI's data campus in Piketon, Ohio, with about $250 billion](https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says): 10 GW built on a former uranium enrichment plant, in a project worth at least half a trillion dollars, plus another $350 billion under discussion for chip purchases. Investor Michael Burry summed it up in four words: "Around and around we go." The chip supplier guarantees the debt with which its customer buys its chips.
+The distance between the two is measured in racks of silicon, and this week made it clear how much they cost. The same weekend, [Nvidia negotiated to back the financing of OpenAI's data campus in Piketon, Ohio, with about $250 billion](https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says): 10 GW built on a former uranium enrichment plant, in a project worth at least half a trillion dollars, plus another $350 billion under discussion for chip purchases. Investor Michael Burry summed it up in five words: "Around and around we go." The chip supplier guarantees the debt with which its customer buys its chips.
 
 ## Also today
 
@@ -35,5 +35,7 @@ This is the third time in a week that the conversation has come back to the same
 ---
 
 *If the model is no longer the barrier to entry and the barrier is now hosting, what should a Latin American state be buying today: licenses, capacity in a third party's cloud, or gigawatts of its own?*
+
+<small>**Correction (September 30, 2026).** The original version said Michael Burry summed it up in four words; the quoted phrase, "Around and around we go," has five, according to [Benzinga on Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-moves-backstop-250-015059079.html).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

@@ -5,14 +5,14 @@ description: "This week, Latin America's access to the AI frontier is defined by
 date: 2026-06-18 10:07:00 -0400
 tags: [mercados, gobernanza, latam, lanzamientos]
 audio: true
-hash_original: "09673c72cfe5"
+hash_original: "02f04ee721ee"
 ---
 
 The story we had been following about the ban on Anthropic's most powerful models has just taken a structural turn. While Claude Fable 5 and Mythos 5 remain blocked by a US export directive, xAI —Elon Musk's artificial intelligence company— launched [Grok 4](https://x.ai/news/grok-4) on June 17, its most powerful model, available worldwide, Latin America included, from day one. And one day earlier, SpaceX —also Musk's— announced the [purchase of Cursor for $60 billion](https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html), described as the largest venture-backed acquisition in history.
 
 To recall the context: less than a week ago the US government used an export control to "switch off" Anthropic's two most capable models across the planet, after a way to get around their safety barriers was detected. What is new today is that the space left empty by that ban is being filled, precisely, by a competitor's ecosystem. According to [xAI's own benchmarks](https://techcrunch.com/2026/06/17/xai-launches-grok-4-claims-most-powerful-ai-model/), Grok 4 —a model with about 1.5 trillion parameters— outperforms Claude Opus 4.8 on tests such as ARC-AGI (64% versus 55%). But the most relevant part is not technical; it is about market power: today a single owner controls the compute that Anthropic rents to train its models (a contract with SpaceX worth about $45 billion through 2029), the most widely adopted artificial intelligence programming tool among professional developers (Cursor, with 17.9% of the market according to the 2026 Stack Overflow survey) and the most recent frontier model available in the region (Grok 4).
 
-The detail that closes the circle is personal and political: David Sacks —CEO of SpaceXAI and, at the same time, artificial intelligence adviser to President Trump— was the one who called Anthropic's conduct "blackmail" and helped keep the ban in force. For Latin America the reading is concrete and uncomfortable: for the first time in recent history, the region's access to the most advanced models does not depend on which one performs best, but on the map of conflicts of interest between Silicon Valley and Washington. No multilateral mechanism, no regional body and no Latin American government was consulted on any of these decisions.
+The other detail is political: David Sacks —artificial intelligence adviser to President Trump— was the one who called Anthropic's conduct "blackmail" and helped keep the ban in force. For Latin America the reading is concrete and uncomfortable: for the first time in recent history, the region's access to the most advanced models does not depend on which one performs best, but on decisions made between Silicon Valley and Washington. No multilateral mechanism, no regional body and no Latin American government was consulted on any of these decisions.
 
 ## Also today
 
@@ -37,5 +37,7 @@ June is becoming the most concentrated window of frontier models in recent histo
 ---
 
 *How much of an AI model's advantage in 2026 is technical merit and how much is geopolitics and corporate power? And can a region without a seat at any of these tables —not at the G7, not in the office that dictates export controls, not on the labs' boards— build its own capacity, or only choose which dependency to depend on?*
+
+<small>**Correction (September 30, 2026).** The original version described David Sacks as "CEO of SpaceXAI"; in fact, Sacks does not run that company: he is co-chair of the President's Council of Advisors on Science and Technology (PCAST) and was the White House AI czar, according to [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls). For the same reason, the idea that his role "closed the circle" and the reference to a "map of conflicts of interest," which rested on that title, were removed from the paragraph.</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

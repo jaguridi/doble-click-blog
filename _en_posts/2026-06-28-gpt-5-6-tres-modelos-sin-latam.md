@@ -5,7 +5,7 @@ description: "OpenAI's model went from rumor to product: Sol, Terra and Luna now
 date: 2026-06-28 10:03:55 -0400
 tags: [gobernanza, latam, lanzamientos, mercados]
 audio: true
-hash_original: "837ffb4892e8"
+hash_original: "0d78f2a92d59"
 ---
 
 What was a leak last week is today a product with a name and a price. OpenAI unveiled **GPT-5.6**, split into three models (Sol, Terra and Luna), and confirmed what had been anticipated: it went straight to an access list of about twenty organizations approved by the White House, with no availability for the general public or for Latin America ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)). This completes a pattern that began two days ago: on June 26, the most capable models of the two most influential frontier labs, OpenAI's GPT-5.6 and Anthropic's Mythos 5, were placed on the same day under access lists approved by the US government.
@@ -18,7 +18,7 @@ Meanwhile, the map of what can actually be used in the region is rearranging its
 
 - **[Grok 4.3 comes to SuperGrok and X Premium+ with no business requirements](https://x.ai/news/grok-4)** — It is the first mass access to the Grok 4 line in the region: with Fable 5 blocked, it is the model with the best score on the ARC-AGI reasoning test (64%) available to individual paying users, with no need to be a "trusted partner."
 - **[Baseten closes a $1.5 billion round at a $13 billion valuation](https://www.businesswire.com/news/home/20260622645563)** — The largest inference infrastructure round to date; the company processes a billion calls a day and grew its revenue twentyfold in a year. No presence of its own in LatAm.
-- **[Japan approves a $2.3 trillion AI and semiconductor plan through 2040](https://cryptobriefing.com/japan-ai-semiconductor-plan/)** — The largest sovereign AI plan in history. For scale: Mexico's Coatlicue plan ($6 billion over five years) amounts to 0.9% of what Japan plans to invest over the same horizon.
+- **[Japan approves a $2.3 trillion AI and semiconductor plan through 2040](https://cryptobriefing.com/japan-ai-semiconductor-plan/)** — The largest sovereign AI plan in history. For scale: Mexico's Coatlicue plan (6 billion pesos over two years) amounts to about 0.1% of what Japan plans to invest over the same horizon.
 - **[OpenCode surpasses 160,000 stars on GitHub and 7.5 million monthly users](https://abhs.in/blog/opencode-github-stars)** — Its adoption curve coincides with the start of the Fable 5 blockade: it is the first quantified sign of developers migrating to open-source tools during the ban.
 - **[Claude Code ships its first major update since the ban](https://docs.anthropic.com/en/release-notes/claude-code)** — It lets administrators limit which model versions their team uses and fixes a bug in structured output generation. With Fable 5 blocked, it runs on Opus 4.8 and Sonnet 4.6 for all users in the region.
 
@@ -37,5 +37,7 @@ The blockade of Fable 5, the Anthropic model banned early this month over a safe
 ---
 
 *If access to the most capable models is increasingly defined by lists drawn up in Washington, what concrete mechanism (prior consultation, a collective regional voice, or formal representation) would need to exist so that the next "June 26" is not decided, once again, without the region in the room?*
+
+<small>**Correction (September 30, 2026).** The original version said the Coatlicue plan cost $6 billion over five years and amounted to 0.9% of what Japan plans to invest over the same horizon; the correct figure is 6 billion pesos (about $326 million) over two years, according to [El Financiero](https://www.elfinanciero.com.mx/tech/2025/11/26/una-supercomputadora-del-pueblo-de-mexico-asi-es-coatlicue-que-costara-6-mil-mdp/), which amounts to about 0.1% of Japan's investment over that period.</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

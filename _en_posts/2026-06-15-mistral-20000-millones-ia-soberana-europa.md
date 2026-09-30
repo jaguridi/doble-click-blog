@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Mistral negotiates 20 billion and offers itself as Europe's sovereign AI"
+title: "Mistral negotiates a valuation of 20 billion and offers itself as Europe's sovereign AI"
 description: "A European alternative nearly doubles its value just as the United States keeps Anthropic's most powerful models switched off for the rest of the world."
 date: 2026-06-15 10:06:06 -0400
 tags: [mercados, gobernanza, latam]
 audio: true
-hash_original: "85e05826b20d"
+hash_original: "ad4865ec2807"
 ---
 
 French startup Mistral AI is in talks to raise about 3 billion euros at a valuation close to 20 billion, as [revealed by Bloomberg](https://www.bloomberg.com/news/articles/2026-06-12/france-s-mistral-in-funding-talks-at-about-20-billion-valuation). The figure nearly doubles what it was worth just nine months ago, and it comes at a very particular moment: the round is being negotiated just as Anthropic's two most advanced models remain switched off across the planet by order of the US government. Mistral, which presents itself as the "sovereign" European option against the US duopoly, thus finds a sales argument handed to it on a silver platter.
@@ -34,5 +34,7 @@ The backdrop to all this is the story we have been following since June 12: that
 ---
 
 *If the lesson of the week is that AI infrastructure can be switched off from afar, is it enough to change providers, or does real sovereignty require building the region's own capabilities?*
+
+<small>**Correction (September 30, 2026).** The original headline said "Mistral negotiates 20 billion"; the correct headline is "Mistral negotiates a valuation of 20 billion": that figure, in euros, is the valuation, and the round is about 3 billion euros, according to [TechCrunch](https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/), citing Bloomberg.</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

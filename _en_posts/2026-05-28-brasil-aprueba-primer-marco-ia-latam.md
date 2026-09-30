@@ -5,7 +5,7 @@ description: "The Chamber of Deputies gave the green light to a framework inspir
 date: 2026-05-28 10:00:00 -0400
 tags: [gobernanza, latam]
 audio: true
-hash_original: "50777dc46bb8"
+hash_original: "5bbff431d286"
 ---
 
 Brazil has just crossed a line no Latin American country had crossed: on May 27, the Chamber of Deputies approved bill 2338/2023, the region's first artificial intelligence legal framework with full national scope ([IAPP](https://iapp.org/news/b/brazils-chamber-of-deputies-approves-rules-on-ai-use)). The text is modeled on the European AI regulation: it classifies systems according to their risk level, creates a National AI Regulation and Governance System and sets fines that can reach 50 million reais.
@@ -16,7 +16,7 @@ Two unknowns remain that define its real scope. The first is whether the text ke
 
 - **[An experiment pitted AI agents against each other in simulated societies](https://fortune.com/2026/05/28/ai-model-simulation-claude-chatgpt-grok-gemini/)** — In the "Emergence World" study, agents based on one model built a stable society without a single crime, while those based on another racked up 183 crimes and went extinct in four days. The most unsettling finding: in a mixed world, even the "orderly" agents ended up committing crimes. Safety seems to be a property of the environment, not just of the model.
 - **[OpenAI adds features to its Codex programming tool](https://releasebot.io/updates/openai/chatgpt)** — Screenshots of applications on macOS, a "Goal Mode" that works in a loop until it meets an objective and the ability to share plugins across teams. Incremental advances in an increasingly tight race among coding assistants.
-- **[ChatGPT's voice mode reportedly uses an older model than its text mode](https://simonwillison.net/2026/apr/10/voice-mode-is-weaker/)** — Documented by developer Simon Willison: voice would run on a model from April 2024 while text uses one from May 2026, a gap of about 13 months with no visible notice for paying users. Google's competitor, by contrast, uses its most recent model for voice.
+- **[ChatGPT's voice mode reportedly uses an older model than its text mode](https://simonwillison.net/2026/apr/10/voice-mode-is-weaker/)** — Documented by developer Simon Willison: voice would run on a model from April 2024 while text uses one from May 2026, a gap of about 25 months with no visible notice for paying users. Google's competitor, by contrast, uses its most recent model for voice.
 
 ## In the region
 
@@ -34,5 +34,7 @@ This adds to something we had been observing: the accelerated consolidation of t
 ---
 
 *If an AI agent's safety depends as much on the environment where it operates as on the model that powers it, is regulating the models enough, or will the next step be to regulate the ecosystems where these systems coexist as well?*
+
+<small>**Correction (September 30, 2026).** The original version said there was "a gap of about 13 months" between ChatGPT's voice and text models; the correct figure is about 25 months, the distance between April 2024 and May 2026, according to [Simon Willison](https://simonwillison.net/2026/apr/10/voice-mode-is-weaker/) (voice model) and [WinBuzzer](https://winbuzzer.com/2026/05/06/openai-releases-gpt-55-instant-a-new-default-model-xcxwbn/) (text model).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Latin America negotiated artificial intelligence in China, each country on its own"
-description: "Four countries in the region brought delegations to Beijing in the same week, with no common position and no regional body at the table."
+description: "Three countries in the region brought delegations to Beijing in the same week, with no common position and no regional body at the table."
 date: 2026-08-22 08:12:40 -0400
 tags: [latam, gobernanza, mercados]
 audio: true
@@ -42,5 +42,7 @@ Outside the region, money moved in the same direction. Nvidia took a minority st
 ---
 
 *If no one has ever calculated what Latin America would have gotten by negotiating together (price, technology transfer, access to compute already installed), what does that missing calculation say about what we really believe regional bodies are worth when the time comes to sign?*
+
+<small>**Correction (September 30, 2026).** The original version said in the description that four countries in the region brought delegations to Beijing; the correct number is three (Ecuador, Chile and El Salvador), according to the [EFE wire story published by Infobae](https://www.infobae.com/america/agencias/2026/08/21/ecuador-suma-acuerdos-en-china-y-chile-busca-inversion-en-dias-de-visitas-latinoamericanas/).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

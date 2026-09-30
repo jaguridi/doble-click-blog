@@ -5,14 +5,14 @@ description: "A meeting and a leak reveal that the first government shutdown of 
 date: 2026-06-16 10:06:42 -0400
 tags: [gobernanza, seguridad, latam, mercados]
 audio: true
-hash_original: "68f6092fcd67"
+hash_original: "f6d8592643d8"
 ---
 
 What this week looked like a technical dispute turned out to be, above all, personal. On Monday, June 15, senior Anthropic executives met in Washington with Trump administration officials to try to reverse the order that cut off global access to its most powerful models, Claude Fable 5 and Mythos 5. That same day, [Axios](https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos) revealed that the origin of the cutoff was not a safety protocol but a falling-out between people. As context: a few days ago the US government used an export control to "switch off" those two models around the world, Latin America included, after a way to get around their safety barriers (a "jailbreak") was detected.
 
-According to Axios's reconstruction, when the government warned Anthropic about the problem before acting, CEO Dario Amodei declined to describe it as a serious risk and refused to fix it or withdraw the model voluntarily. David Sacks —Trump's artificial intelligence adviser and, at the same time, CEO of xAI, a direct competitor of Anthropic— went so far as to describe the company's stance as "blackmail" of the government, as reported by [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls). Anthropic responds that it worked with federal agencies on pre-launch testing and that the jailbreak is not universal. The meeting, reported by [CNBC](https://www.cnbc.com/2026/06/15/anthropic-mythos-trump-ai.html), resolved nothing: the ban remains in force with no timeline for resolution, while a Semafor report claims that a Chinese group may already have accessed the compromised version.
+According to Axios's reconstruction, when the government warned Anthropic about the problem before acting, CEO Dario Amodei declined to describe it as a serious risk and refused to fix it or withdraw the model voluntarily. David Sacks —Trump's artificial intelligence adviser— went so far as to describe the company's stance as "blackmail" of the government, as reported by [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls). Anthropic responds that it worked with federal agencies on pre-launch testing and that the jailbreak is not universal. The meeting, reported by [CNBC](https://www.cnbc.com/2026/06/15/anthropic-mythos-trump-ai.html), resolved nothing: the ban remains in force with no timeline for resolution, while a Semafor report claims that a Chinese group may already have accessed the compromised version.
 
-For Latin America the reading is uncomfortable and direct. The region's access to the most capable AI models on the planet does not depend on a multilateral mechanism, a negotiation between states or a process with a right of appeal, but on whether the head of a lab and a US government adviser —who also runs the competition— manage to get along. Whoever was not at the table where the decision was made also has no way to influence when it is lifted.
+For Latin America the reading is uncomfortable and direct. The region's access to the most capable AI models on the planet does not depend on a multilateral mechanism, a negotiation between states or a process with a right of appeal, but on whether the head of a lab and a US government adviser manage to get along. Whoever was not at the table where the decision was made also has no way to influence when it is lifted.
 
 ## Also today
 
@@ -27,5 +27,7 @@ Five days before Colombia's presidential runoff, several oversight institutions 
 ---
 
 *What institution —regional, multilateral or yet to be invented— would today have the authority and technical capacity to respond both to the shutdown of a model decided between two people in Washington and to an election in which the state has already admitted that disinformation overwhelmed it?*
+
+<small>**Correction (September 30, 2026).** The original version described David Sacks as "CEO of xAI, a direct competitor of Anthropic" and said he "also runs the competition"; in fact, Sacks does not run xAI: he is co-chair of the President's Council of Advisors on Science and Technology (PCAST) and was the White House AI czar, according to [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

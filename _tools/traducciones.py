@@ -104,7 +104,9 @@ def version_traducida(ruta_es, objetivo):
         return None
     log = git("log", "--format=%H", "--follow", "--", ruta_es)
     for sha in log.stdout.split():
-        show = git("show", "%s:%s" % (sha, ruta_es))
+        # cat-file y no `git show sha:ruta`: en Windows, show intenta leer el argumento como
+        # un archivo antes de resolverlo y falla con rutas largas ("Filename too long").
+        show = git("cat-file", "blob", "%s:%s" % (sha, ruta_es))
         if show.returncode == 0 and hash_de(show.stdout) == objetivo:
             return show.stdout
     return None

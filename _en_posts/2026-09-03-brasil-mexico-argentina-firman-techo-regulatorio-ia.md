@@ -5,12 +5,12 @@ description: "All twenty G20 members unanimously backed a framework that discour
 date: 2026-09-03 08:20:11 -0400
 tags: [gobernanza, latam, ética, lanzamientos]
 audio: true
-hash_original: "a69f2ca4b420"
+hash_original: "b5a6eafd8b17"
 ---
 
 All twenty members of the G20 unanimously backed the Carolina Principles, the light-touch artificial intelligence regulatory framework that the United States had been pushing since Monday: [United States reaches an agreement with the G20 to promote more flexible AI regulation](https://www.bloomberglinea.com/mundo/estados-unidos/eeuu-logra-un-acuerdo-con-el-g20-para-impulsar-una-regulacion-mas-flexible-de-la-ia/). The announcement was made by U.S. Commerce Secretary Howard Lutnick at the close of the technology and innovation summit in Chapel Hill, North Carolina. What was a request yesterday is a signed agreement today, and three of the signatures are Latin American.
 
-The text commits the signatories to reserving new regulation for genuinely novel considerations, preferring sectoral approaches over regulatory bodies dedicated to AI, directing public funds to fundamental research and opening commercial opportunities to emerging technologies. It recognizes each country's sovereignty and calls for flexible application according to national circumstances. The tension appears when you look at the legislative calendar: Brazil, Mexico and Argentina signed a commitment not to create dedicated AI authorities in the same month in which their legislatures are debating precisely that institutional design—PL 2338 in Brazil's Chamber, Bill No. 16.821-19 in Chile's Senate and bill 043/2025 in Colombia's Senate, all on the table at once. None of the three countries that signed published a position of its own. Three days earlier, the Financial Stability Board had asked the same G20 for the opposite: to treat frontier models as a systemic risk.
+The text commits the signatories to reserving new regulation for genuinely novel considerations, preferring sectoral approaches over regulatory bodies dedicated to AI, directing public funds to fundamental research and opening commercial opportunities to emerging technologies. It recognizes each country's sovereignty and calls for flexible application according to national circumstances. The tension appears when you look at the legislative calendar: Brazil, Mexico and Argentina signed a commitment not to create dedicated AI authorities in the same month in which three legislatures in the region are debating precisely that institutional design—PL 2338 in Brazil's Chamber, Bill No. 16.821-19 in Chile's Senate and bill 043/2025 in Colombia's Senate, all on the table at once. None of the three countries that signed published a position of its own. Three days earlier, the Financial Stability Board had asked the same G20 for the opposite: to treat frontier models as a systemic risk.
 
 There is a detail worth keeping in mind when reading any summary of this, including this one: no official text has been published on any U.S. government domain. What is known about the framework comes from what was announced at the summit and from press coverage. The document will be presented for formal adoption at the leaders' summit in December, in Florida.
 
@@ -41,5 +41,7 @@ This adds to a story we have been following since Monday. When the Carolina Prin
 ---
 
 *If a country's regulatory framework is negotiated at a trade summit and signed without its legislature knowing, what is left to decide for the legislator who was drafting that very law?*
+
+<small>**Correction (September 30, 2026).** The original version said that Brazil, Mexico and Argentina signed in the same month in which "their legislatures" are debating that institutional design; the correct wording is "three legislatures in the region," because the bills cited are from Brazil, Chile and Colombia, and Chile and Colombia are not G20 members, according to [the Council on Foreign Relations](https://www.cfr.org/backgrounders/what-does-g20-do).</small>
 
 <small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "La Tilde: the Pentagon quietly runs an AI-powered Spanish-language outlet"
-description: "An investigation by The Intercept reveals that the US Army produces geotargeted Spanish-language propaganda for Latin America using language models at almost zero cost."
+description: "An investigation by The Intercept reveals that the US military produces geotargeted Spanish-language propaganda for Latin America using language models at almost zero cost."
 date: 2026-06-05 09:00:00 -0400
 tags: [seguridad, latam, gobernanza, ética]
 audio: true
