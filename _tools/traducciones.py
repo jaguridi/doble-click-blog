@@ -14,6 +14,14 @@ Uso:
   python _tools/traducciones.py --lista          # solo las rutas en español pendientes, una por línea
   python _tools/traducciones.py --diff [RUTA…]   # qué cambió en el español desde que se tradujo
   python _tools/traducciones.py --sellar RUTA…   # guarda el hash actual del original en esas traducciones
+  python _tools/traducciones.py --verificar [RUTA…]  # compara la estructura de cada par (ver abajo)
+
+--verificar no juzga la traducción, solo lo que se puede perder sin darse cuenta: que el
+front matter sea YAML válido y traiga las mismas claves, que los campos que no se traducen
+(fecha, tags, DOI, fuentes…) sean idénticos, que estén los mismos enlaces externos en el
+mismo orden, que los internos apunten a /en/, que haya los mismos encabezados y que no
+queden números con formato español ("12,5%", "3.000 millones"). Sin rutas, revisa todos los pares. Sale con
+código 1 si encuentra algo.
 
 --diff busca en el historial de git la versión del español cuyo hash calza con el de la
 traducción y muestra la diferencia con la versión actual. Sin rutas, lo hace para todas
@@ -138,17 +146,119 @@ def sellar(ruta_en):
     print("sellada %s (%s)" % (ruta_en, valor))
 
 
+# Campos que la traducción copia tal cual (ver _tools/traduccion_en.md).
+FIJOS = ["layout", "date", "tags", "audio", "numero", "paper_titulo", "paper_doi", "paper_archivo"]
+FIJOS_FUENTE = ["url", "tipo", "nivel", "fecha"]
+RE_ENLACE = re.compile(r"\]\((https?://[^)\s]+|/[^)\s]*)\)|href=\"([^\"]+)\"")
+DOMINIO = "https://dobleclick.jaguridi.cl"
+
+
+def partes(texto):
+    """(front matter como texto, cuerpo)."""
+    texto = texto.replace("\r\n", "\n")
+    m = re.match(r"^---\n(.*?)\n---\n?", texto, re.S)
+    return (m.group(1), texto[m.end():]) if m else ("", texto)
+
+
+def enlaces(cuerpo):
+    return [a or b for a, b in RE_ENLACE.findall(cuerpo)]
+
+
+def es_interno(url):
+    return url.startswith("/") or url.startswith(DOMINIO)
+
+
+def verificar_par(ruta_es, ruta_en):
+    problemas = []
+    if not os.path.exists(os.path.join(RAIZ, ruta_en)):
+        return ["no existe la traducción"]
+    fm_es, cuerpo_es = partes(leer(ruta_es))
+    fm_en, cuerpo_en = partes(leer(ruta_en))
+    try:
+        import yaml
+        d_es = yaml.safe_load(fm_es) or {}
+        d_en = yaml.safe_load(fm_en) or {}
+    except ImportError:
+        d_es = d_en = None
+    except Exception as e:  # YAML inválido
+        return ["front matter inválido: %s" % str(e).splitlines()[0]]
+    if d_es is not None:
+        faltan = set(d_es) - set(d_en)
+        sobran = set(d_en) - set(d_es) - {CAMPO}
+        if faltan:
+            problemas.append("faltan claves: %s" % ", ".join(sorted(faltan)))
+        if sobran:
+            problemas.append("claves que el original no tiene: %s" % ", ".join(sorted(sobran)))
+        for k in FIJOS:
+            if k in d_es and d_es.get(k) != d_en.get(k):
+                problemas.append("%s distinto: %r / %r" % (k, d_es.get(k), d_en.get(k)))
+        f_es, f_en = d_es.get("fuentes") or [], d_en.get("fuentes") or []
+        if len(f_es) != len(f_en):
+            problemas.append("fuentes: %d en el original, %d en la traducción" % (len(f_es), len(f_en)))
+        else:
+            for i, (a, b) in enumerate(zip(f_es, f_en)):
+                for k in FIJOS_FUENTE:
+                    if (a or {}).get(k) != (b or {}).get(k):
+                        problemas.append("fuentes[%d].%s distinto" % (i, k))
+    ext_es = [u for u in enlaces(cuerpo_es) if not es_interno(u)]
+    ext_en = [u for u in enlaces(cuerpo_en) if not es_interno(u)]
+    if ext_es != ext_en:
+        solo_es = [u for u in ext_es if u not in ext_en]
+        solo_en = [u for u in ext_en if u not in ext_es]
+        detalle = ("; solo en el original: %s" % ", ".join(solo_es[:3])) if solo_es else ""
+        detalle += ("; solo en la traducción: %s" % ", ".join(solo_en[:3])) if solo_en else ""
+        problemas.append("enlaces externos distintos (%d / %d)%s" % (len(ext_es), len(ext_en), detalle or "; mismo conjunto, otro orden"))
+    for u in enlaces(cuerpo_en):
+        ruta = u[len(DOMINIO):] if u.startswith(DOMINIO) else u
+        if es_interno(u) and ruta.startswith("/") and not ruta.startswith("/en/") and not ruta.startswith("/assets/"):
+            problemas.append("enlace interno sin /en/: %s" % u)
+    for nivel in ("## ", "### "):
+        n_es = len(re.findall(r"^%s" % nivel, cuerpo_es, re.M))
+        n_en = len(re.findall(r"^%s" % nivel, cuerpo_en, re.M))
+        if n_es != n_en:
+            problemas.append("encabezados '%s': %d / %d" % (nivel.strip(), n_es, n_en))
+    # "1.276 billion" es correcto en inglés; lo que delata un número sin convertir es la
+    # coma decimal ("12,5%") o la palabra en español que quedó al lado.
+    for m in re.finditer(r"(?<![\w.,/-])\d{1,3},\d+ ?%|\b\d[\d.,]* (?:millones|billones|mil millones)\b", cuerpo_en):
+        problemas.append("número con formato español: %r" % m.group(0))
+    return problemas
+
+
 def main():
     ap = argparse.ArgumentParser(description="Estado de la edición en inglés.")
     ap.add_argument("--check", action="store_true", help="código de salida 1 si hay pendientes")
     ap.add_argument("--lista", action="store_true", help="solo las rutas pendientes")
     ap.add_argument("--diff", nargs="*", metavar="RUTA", help="cambios del español desde la traducción")
     ap.add_argument("--sellar", nargs="+", metavar="RUTA", help="guarda el hash del original")
+    ap.add_argument("--verificar", nargs="*", metavar="RUTA", help="compara la estructura de cada par")
     a = ap.parse_args()
 
     if a.sellar:
         for r in a.sellar:
             sellar(r)
+        return
+
+    if a.verificar is not None:
+        if a.verificar:
+            pares = [par_de(r) for r in a.verificar]
+        else:
+            pares = []
+            for es, en in PARES:
+                for p in sorted(glob.glob(os.path.join(RAIZ, es, "*.md"))):
+                    nombre = os.path.basename(p)
+                    if os.path.exists(os.path.join(RAIZ, en, nombre)):
+                        pares.append(("%s/%s" % (es, nombre), "%s/%s" % (en, nombre)))
+        con_problemas = 0
+        for es, en in pares:
+            problemas = verificar_par(es, en)
+            if problemas:
+                con_problemas += 1
+                print(en)
+                for p in problemas:
+                    print("  - " + p)
+        print("%d de %d traducciones con algo que revisar." % (con_problemas, len(pares)))
+        if con_problemas:
+            sys.exit(1)
         return
 
     faltantes, desactualizadas, al_dia, huerfanas = estado()
