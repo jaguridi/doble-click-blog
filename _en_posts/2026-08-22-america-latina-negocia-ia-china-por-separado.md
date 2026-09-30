@@ -5,7 +5,7 @@ description: "Three countries in the region brought delegations to Beijing in th
 date: 2026-08-22 08:12:40 -0400
 tags: [latam, gobernanza, mercados]
 audio: true
-hash_original: "e398240af341"
+hash_original: "cdc33650133b"
 ---
 
 Latin America spent the week negotiating artificial intelligence capacity in Beijing, one country at a time. The EFE news agency reported that [Ecuador, Chile, and El Salvador had high-level delegations in China within the same window of days](https://www.infobae.com/america/agencias/2026/08/21/ecuador-suma-acuerdos-en-china-y-chile-busca-inversion-en-dias-de-visitas-latinoamericanas/). Ecuador closed seven agreements for $42.7 million in non-reimbursable funds; Chile ended a five-day tour with cooperation agreed on artificial intelligence, the digital economy, scientific innovation, and industrial chains; and the president of El Salvador's Legislative Assembly met with his Chinese counterpart.

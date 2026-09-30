@@ -5,7 +5,7 @@ description: "The tender specifications, not the machine, are what make this ann
 date: 2026-08-21 08:14:22 -0400
 tags: [infraestructura, gobernanza, latam, mercados]
 audio: true
-hash_original: "4222190fd04a"
+hash_original: "a1d8f874df79"
 ---
 
 For years, the Latin American conversation about computing capacity consisted of negotiating the arrival of other people's infrastructure. This week Brazil changed strategy: on Thursday the 20th, at the Augusto Severo Technology Park in Macaíba, in Rio Grande do Norte, [Lula opened the tender for Brazil's first state supercomputer dedicated to artificial intelligence](https://www.poder360.com.br/poder-governo/lula-anuncia-supercomputador-nem-chines-nem-americano-e-melhor/), for 1.06 billion reais and 7,200 petaflops of power. That figure would place it among the ten most powerful AI machines in the world. For scale: Santos Dumont, the largest Brazilian supercomputer to date, operates at 27 petaflops.

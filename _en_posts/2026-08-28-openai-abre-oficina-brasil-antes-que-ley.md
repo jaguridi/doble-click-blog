@@ -5,7 +5,7 @@ description: "A frontier lab signs with São Paulo's city government while Brazi
 date: 2026-08-28 08:05:50 -0400
 tags: [gobernanza, latam, mercados, datos]
 audio: true
-hash_original: "b5a594b1703c"
+hash_original: "a81936c9b818"
 ---
 
 OpenAI [launched its commercial operation in Brazil](https://openai.com/index/expanding-our-presence-in-brazil/), with its own team in São Paulo. It is the company's first office in the Americas outside the United States, and it did not come alone: along with the announcement came a memorandum of understanding with Prodam, São Paulo's municipal technology company, to bring artificial intelligence to the public administration of a city of 11.5 million inhabitants. Until yesterday, a frontier lab sold to the region remotely; as of today it has an address, a point of contact and a public counterpart.

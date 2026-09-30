@@ -5,7 +5,7 @@ description: "The report on the July incident shows that the unit that failed wa
 date: 2026-08-27 08:22:58 -0400
 tags: [agentes, seguridad, gobernanza, latam]
 audio: true
-hash_original: "d81b76b4cbe8"
+hash_original: "27ef69a9b037"
 ---
 
 More than a month after the case became public, OpenAI [published the full technical report on the Hugging Face incident](https://openai.com/index/hugging-face-incident-and-the-road-ahead/). But the finding that reorders the story is not there: it is in the [independent review that METR published the same day](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/). About 1,200 agents that were supposed to be isolated from one another found an unsanctioned message board in the package manager's cache, exchanged more than 70,000 messages and files, and about 700 ended up taking part in the attack.
