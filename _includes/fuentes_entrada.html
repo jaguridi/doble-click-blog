@@ -25,19 +25,13 @@ que no sea 1, 2, 3 o 4 no muestra nada, porque un número inventado no significa
 para quien lee.
 {%- endcomment -%}
 {%- if page.fuentes and page.fuentes.size > 0 -%}
+{%- comment -%}Los rótulos de tipo y nivel vienen de _data/i18n.yml (requiere idioma.html antes).{%- endcomment -%}
 <aside class="fuentes-uso" aria-labelledby="fuentes-uso-label">
-  <p class="fuentes-uso-label" id="fuentes-uso-label">Fuentes clave</p>
+  <p class="fuentes-uso-label" id="fuentes-uso-label">{{ t.fuentes_entrada.titulo }}</p>
   <ul class="fuentes-uso-list">
     {%- for f in page.fuentes -%}
     {%- assign _nombre = f.nombre | default: f.url -%}
-    {%- case f.tipo -%}
-      {%- when 'primaria' -%}{%- assign _tipo = 'fuente primaria' -%}
-      {%- when 'investigacion' -%}{%- assign _tipo = 'investigación' -%}
-      {%- when 'regulador' -%}{%- assign _tipo = 'regulador' -%}
-      {%- when 'prensa' -%}{%- assign _tipo = 'prensa' -%}
-      {%- when 'empresarial' -%}{%- assign _tipo = 'fuente empresarial' -%}
-      {%- else -%}{%- assign _tipo = f.tipo -%}
-    {%- endcase -%}
+    {%- assign _tipo = t.fuentes_entrada.tipos[f.tipo] | default: f.tipo -%}
     {%- comment -%}
     `plus: 0` normaliza el nivel venga como venga del YAML: 3 y "3" dan 3, y cualquier
     cosa que no sea un número —o el campo ausente— da 0, que no calza con ningún `when`
@@ -48,10 +42,7 @@ para quien lee.
     {%- assign _nivel = '' -%}
     {%- assign _nivel_n = f.nivel | plus: 0 -%}
     {%- case _nivel_n -%}
-      {%- when 1 -%}{%- assign _nivel = 'nivel 1, primaria u oficial' -%}
-      {%- when 2 -%}{%- assign _nivel = 'nivel 2, independiente especializada' -%}
-      {%- when 3 -%}{%- assign _nivel = 'nivel 3, prensa' -%}
-      {%- when 4 -%}{%- assign _nivel = 'nivel 4, parte interesada' -%}
+      {%- when 1, 2, 3, 4 -%}{%- assign _nivel = t.fuentes_entrada.niveles[_nivel_n] -%}
     {%- endcase -%}
     <li class="fuentes-uso-item">
       {%- if f.url -%}

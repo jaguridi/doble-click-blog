@@ -6,6 +6,11 @@
 #
 # Cuando se aprueba una fuente sugerida por un lector, se agrega a la categoría que corresponda.
 # La página /fuentes/ se arma sola a partir de este archivo.
+#
+# Versión en inglés (/en/sources/): lee la misma lista de fuentes y, para los textos, los
+# campos terminados en `_en` (intro_en, criterio_en, nombre_en, texto_en, descripcion_en).
+# Si una categoría nueva no los trae, la página en inglés muestra el texto en español
+# hasta que alguien los agregue: no se rompe nada.
 
 ultima_revision: "2026-09-28"
 
@@ -14,18 +19,32 @@ intro: >-
   una. No es la lista completa: la curación interna es más amplia y cambia con lo que va
   apareciendo. Algunas fuentes se leen cada día y otras, como los organismos y centros de
   investigación, en un barrido semanal.
+intro_en: >-
+  These are the families of public sources the posts are built from, with examples of each.
+  It is not the complete list: the internal curation is broader and changes with what comes
+  up. Some sources are read every day and others, like international bodies and research
+  centers, in a weekly sweep.
 
 criterio: >-
   Los agregadores y la prensa tecnológica sirven para enterarse de una noticia, pero la cita va al
   original: el documento, la norma, el comunicado o el paper. Cuando un medio republica un
   despacho de agencia, se cita a la agencia. Las cifras que una empresa publica sobre sí misma se
   presentan como cifras de la empresa.
+criterio_en: >-
+  Aggregators and the tech press are useful for learning about a story, but the citation goes
+  to the original: the document, the regulation, the press release or the paper. When an
+  outlet republishes a wire story, we cite the wire agency. Figures a company publishes about
+  itself are presented as the company's figures.
 
 niveles:
-  - { nivel: 1, nombre: "Primaria u oficial", texto: "El documento, la norma, la sentencia o el organismo que decide. Una empresa es fuente primaria de lo que anuncia, no de lo bien que funciona." }
-  - { nivel: 2, nombre: "Independiente especializada", texto: "Investigación, centros académicos, sociedad civil y evaluadores que no venden lo que analizan." }
-  - { nivel: 3, nombre: "Prensa", texto: "Medios que reportan, contrastan y a veces llegan primero. Se usan con su atribución." }
-  - { nivel: 4, nombre: "Parte interesada", texto: "Quien habla de su propio producto o negocio: sus cifras se marcan como tales." }
+  - { nivel: 1, nombre: "Primaria u oficial", texto: "El documento, la norma, la sentencia o el organismo que decide. Una empresa es fuente primaria de lo que anuncia, no de lo bien que funciona.",
+      nombre_en: "Primary or official", texto_en: "The document, the regulation, the ruling or the body that decides. A company is a primary source for what it announces, not for how well it works." }
+  - { nivel: 2, nombre: "Independiente especializada", texto: "Investigación, centros académicos, sociedad civil y evaluadores que no venden lo que analizan.",
+      nombre_en: "Independent specialist", texto_en: "Research, academic centers, civil society and evaluators who don't sell what they analyze." }
+  - { nivel: 3, nombre: "Prensa", texto: "Medios que reportan, contrastan y a veces llegan primero. Se usan con su atribución.",
+      nombre_en: "Press", texto_en: "Outlets that report, cross-check and sometimes get there first. Used with attribution." }
+  - { nivel: 4, nombre: "Parte interesada", texto: "Quien habla de su propio producto o negocio: sus cifras se marcan como tales.",
+      nombre_en: "Interested party", texto_en: "Whoever is talking about their own product or business: their figures are flagged as such." }
 
 categorias:
   - nombre: "Laboratorios de IA frontera"
@@ -33,6 +52,11 @@ categorias:
       Los anuncios y la investigación de quienes construyen los modelos. Incluye a los
       laboratorios chinos, que llevan buena parte del ritmo de lanzamientos y aparecen seguido en
       las entradas. Son comunicados de empresa: confirman qué se lanzó, no si es el mejor.
+    nombre_en: "Frontier AI labs"
+    descripcion_en: >-
+      Announcements and research from the people who build the models. Includes the Chinese labs,
+      which set much of the pace of releases and show up often in the posts. These are company
+      communications: they confirm what was released, not whether it is the best.
     fuentes:
       - { nombre: "Anthropic", url: "https://www.anthropic.com/news" }
       - { nombre: "OpenAI", url: "https://openai.com/news/" }
@@ -47,6 +71,9 @@ categorias:
 
   - nombre: "Universidades y centros de investigación en América Latina"
     descripcion: "Lo que se investiga y se discute sobre IA desde la región."
+    nombre_en: "Universities and research centers in Latin America"
+    descripcion_en: >-
+      What is being researched and debated about AI from the region.
     fuentes:
       - { nombre: "C4AI, Universidade de São Paulo (Brasil)", url: "https://c4ai.inova.usp.br/" }
       - { nombre: "Cetic.br / NIC.br (Brasil)", url: "https://cetic.br/pt/noticias/indice/" }
@@ -64,6 +91,11 @@ categorias:
       Estrategias nacionales, autoridades de protección de datos y reguladores de los países de la
       región. Seguimos a varios; estos son algunos. Cuando una entrada afirma algo sobre una ley o
       una decisión de autoridad, el enlace va acá y no a la nota de prensa que la comentó.
+    nombre_en: "Regional governance: ministries and regulators"
+    descripcion_en: >-
+      National strategies, data protection authorities and regulators across the region. We
+      follow several; these are some of them. When a post says something about a law or an
+      official decision, the link goes here and not to the news story that covered it.
     fuentes:
       - { nombre: "Min. de Ciencia, Tecnología, Conocimiento e Innovación (Chile)", url: "https://www.minciencia.gob.cl/" }
       - { nombre: "Ministério da Ciência, Tecnologia e Inovação (Brasil)", url: "https://www.gov.br/mcti/" }
@@ -78,6 +110,9 @@ categorias:
 
   - nombre: "Organismos multilaterales y estándares"
     descripcion: "Gobernanza global, cooperación regional y normas técnicas."
+    nombre_en: "Multilateral bodies and standards"
+    descripcion_en: >-
+      Global governance, regional cooperation and technical standards.
     fuentes:
       - { nombre: "UNESCO, Inteligencia Artificial", url: "https://www.unesco.org/en/artificial-intelligence" }
       - { nombre: "OECD.AI Policy Observatory", url: "https://oecd.ai/" }
@@ -91,6 +126,11 @@ categorias:
     descripcion: >-
       Organizaciones que investigan y vigilan cómo se regula y se usa la IA. Estas trabajan sobre
       todo el debate global, europeo y estadounidense; las de la región van aparte, más abajo.
+    nombre_en: "Civil society and tech policy"
+    descripcion_en: >-
+      Organizations that research and monitor how AI is regulated and used. These work mostly on
+      the global, European and US debate; the region's organizations are listed separately,
+      further down.
     fuentes:
       - { nombre: "Tech Policy Press", url: "https://www.techpolicy.press/" }
       - { nombre: "Access Now", url: "https://www.accessnow.org/" }
@@ -103,6 +143,11 @@ categorias:
       Organizaciones de la región que investigan vigilancia, protección de datos, plataformas y
       regulación de IA. Trabajan sobre casos y leyes de la región, y suelen llegar antes que la prensa a
       lo que pasa en cada país.
+    nombre_en: "Latin American civil society"
+    descripcion_en: >-
+      Organizations in the region that research surveillance, data protection, platforms and AI
+      regulation. They work on the region's cases and laws, and often get to what is happening in
+      each country before the press does.
     fuentes:
       - { nombre: "Derechos Digitales (regional)", url: "https://www.derechosdigitales.org/" }
       - { nombre: "InternetLab (Brasil)", url: "https://internetlab.org.br/" }
@@ -116,6 +161,9 @@ categorias:
 
   - nombre: "Seguridad y evaluación de IA"
     descripcion: "Quienes miden capacidades, riesgos y comportamiento de los modelos."
+    nombre_en: "AI safety and evaluation"
+    descripcion_en: >-
+      Those who measure the capabilities, risks and behavior of models.
     fuentes:
       - { nombre: "AI Security Institute (Reino Unido)", url: "https://www.aisi.gov.uk/" }
       - { nombre: "CAISI, NIST (Estados Unidos)", url: "https://www.nist.gov/caisi" }
@@ -128,6 +176,9 @@ categorias:
 
   - nombre: "Análisis e industria"
     descripcion: "Voces que explican el negocio, las tendencias y los casos de uso."
+    nombre_en: "Analysis and industry"
+    descripcion_en: >-
+      Voices that explain the business, the trends and the use cases.
     fuentes:
       - { nombre: "Stratechery (Ben Thompson)", url: "https://stratechery.com/" }
       - { nombre: "Import AI (Jack Clark)", url: "https://importai.substack.com/" }
@@ -141,6 +192,11 @@ categorias:
       Medios que cubren la industria a diario. Están en inglés, y buena parte de las noticias del
       día aparecen primero ahí. Sirven para enterarse; cuando hay un anuncio o documento original,
       la cita va a ese original.
+    nombre_en: "Specialized tech journalism"
+    descripcion_en: >-
+      Outlets that cover the industry daily. They are in English, and much of the day's news
+      appears there first. They are useful for keeping up; when there is an original announcement
+      or document, the citation goes to that original.
     fuentes:
       - { nombre: "MIT Technology Review", url: "https://www.technologyreview.com/topic/artificial-intelligence/" }
       - { nombre: "TechCrunch, AI", url: "https://techcrunch.com/category/artificial-intelligence/" }
@@ -154,6 +210,12 @@ categorias:
       redacciones que hacen investigación y verificación sobre plataformas, elecciones y
       desinformación en la región. Cuando un medio republica un despacho de agencia, se cita a la
       agencia.
+    nombre_en: "The region's press"
+    descripcion_en: >-
+      Latin American outlets with good coverage of technology and digital policy, along with the
+      newsrooms that do investigation and fact-checking on platforms, elections and
+      disinformation in the region. When an outlet republishes a wire story, we cite the wire
+      agency.
     fuentes:
       - { nombre: "Bloomberg Línea", url: "https://www.bloomberglinea.com/" }
       - { nombre: "DPL News", url: "https://dplnews.com/" }
@@ -174,6 +236,13 @@ categorias:
       todo esto. Nvidia y TSMC son parte interesada, porque venden lo que describen, así que los usamos
       para saber qué se anunció y qué se está fabricando, no para medir el tamaño del fenómeno.
       Para eso están la IEA y SemiAnalysis, que no venden chips.
+    nombre_en: "Infrastructure, chips and energy"
+    descripcion_en: >-
+      The physical side of AI: data centers, semiconductors and how much electricity all of this
+      uses. Nvidia and TSMC are interested parties, because they sell what they describe, so we
+      use them to know what was announced and what is being manufactured, not to measure the size
+      of the phenomenon. That is what the IEA and SemiAnalysis are for, since they don't sell
+      chips.
     fuentes:
       - { nombre: "IEA, Energy and AI", url: "https://www.iea.org/reports/key-questions-on-energy-and-ai" }
       - { nombre: "SemiAnalysis", url: "https://semianalysis.com/" }
@@ -182,6 +251,9 @@ categorias:
 
   - nombre: "Investigación con curaduría"
     descripcion: "Papers ya filtrados por relevancia, más fáciles de seguir que arXiv en crudo."
+    nombre_en: "Curated research"
+    descripcion_en: >-
+      Papers already filtered for relevance, easier to follow than raw arXiv.
     fuentes:
       - { nombre: "Hugging Face, Daily Papers", url: "https://huggingface.co/papers" }
       - { nombre: "Semantic Scholar", url: "https://www.semanticscholar.org/" }

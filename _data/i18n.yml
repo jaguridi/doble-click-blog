@@ -1,0 +1,334 @@
+# Textos de la interfaz en los dos idiomas del sitio.
+#
+# Los layouts y los includes no escriben texto visible: lo leen de acá, con la clave del
+# idioma de la página (ver _includes/idioma.html, que deja `t` apuntando a es: o a en:).
+# Las dos ramas tienen que tener las mismas claves: una que falte en inglés sale vacía,
+# no en español.
+#
+# El contenido (entradas, lecturas, Método) no vive acá sino en sus propios archivos:
+# _posts/ y _en_posts/, _lecturas/ y _en_lecturas/, about.md y en/about.md.
+
+es:
+  codigo: es
+  og_locale: es
+  # El otro idioma: a dónde apunta el selector del header y cómo se anuncia.
+  otro:
+    codigo: en
+    nombre: English
+    corto: EN
+    aria: "Read this page in English"
+    inicio: /en/
+    sin_traduccion: "This page isn't available in English yet: go to the English home page"
+  url:
+    inicio: /
+    entradas: /entradas/
+    lecturas: /doble-lectura/
+    about: /about/
+    fuentes: /fuentes/
+    feed: /feed.xml
+    feed_lecturas: /feed-lecturas.xml
+  sitio:
+    # tagline y description del español son los de _config.yml (los usa también
+    # jekyll-feed): no se repiten acá, seo.html cae a ellos.
+    kicker: "Inteligencia artificial · perspectiva latinoamericana"
+    feed_lecturas_titulo: "Doble Lectura"
+  nav:
+    inicio: Inicio
+    entradas: Entradas
+    lecturas: Doble Lectura
+    about: Método
+    fuentes: Fuentes
+    rss: RSS
+    rss_lecturas: RSS Lecturas
+    idioma: Idioma
+  pie_legal: "Contenido curado de forma automática a partir de fuentes públicas. Verifica en la fuente original antes de citar."
+  formulario:
+    enviando: "Enviando…"
+    error: "No pudimos confirmar que la solicitud llegara. Inténtalo de nuevo en un momento."
+  portada:
+    todos_los_dias: Todos los días
+    linea_diario: "Lanzamientos, investigación, gobernanza y movimientos de la industria, en una sola entrada."
+    los_lunes: Los lunes
+    linea_lectura: "Un paper o un informe de política pública leído con calma: primero qué dice, después qué significa desde la región."
+    ver_lecturas: "Ver las lecturas →"
+    ultimas: Últimas entradas
+    hoy: Hoy
+    vacia: "Todavía no hay entradas publicadas. Vuelve pronto."
+    ver_todas: "Ver todas las entradas →"
+  suscripcion:
+    kicker: Newsletter
+    titulo: Recíbelo por correo
+    texto: "Una entrada cada mañana y, los lunes, la Doble Lectura. Nada más: sin spam."
+    placeholder: tu@correo.com
+    aria_correo: Tu correo electrónico
+    iframe: suscripción
+    boton: Suscribirme
+    ok: "Solicitud enviada. Si la dirección es válida, te llegará un correo para confirmar la suscripción. 📬"
+    nota: "Una sola lista para las dos cosas. La suscripción parte cuando haces clic en el correo de confirmación; solo usamos tu dirección para enviarte el newsletter y puedes darte de baja cuando quieras."
+    nota_about: "Solo usamos tu dirección para enviarte el newsletter y puedes darte de baja cuando quieras."
+    nota_enlace: "Cómo usamos tu correo →"
+    idioma_newsletter: ""
+  entrada:
+    min_lectura: min de lectura
+    aviso_auto: "Generado automáticamente · fuentes enlazadas · sin revisión humana previa"
+    escuchar: "▶ Escuchar la entrada"
+    # Las entradas anteriores al 2026-09-28 traen su propio párrafo "Sobre esta entrada";
+    # a esas el layout solo les suma la línea del modelo. Ver _layouts/post.html.
+    marca_sobre: "Sobre esta entrada"
+    linea_modelo: "Doble Click se escribe con modelos de Anthropic."
+    sobre: "<strong>Sobre esta entrada.</strong> Se escribe de forma automática con modelos de Anthropic, a partir de fuentes públicas y sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen: conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla."
+    anterior: "← Anterior"
+    siguiente: "Siguiente →"
+    todas: "← Todas las entradas"
+  lectura:
+    escuchar: "▶ Escuchar el resumen · 3 min"
+    palabras_clave: "Palabras clave del paper:"
+    automatica: "<strong>Lectura automática.</strong> Este texto lo generó Claude, un modelo de Anthropic, a partir de la fuente original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la"
+    fuente_original: fuente original
+    todas: "← Todas las lecturas"
+    sobre: Sobre
+    de: de
+    ver_todas: "Ver todas las lecturas →"
+  audio:
+    narra: Narra
+    voz_sintetica: voz sintética de
+    velocidad: Velocidad
+  buscador:
+    todo: Todo
+    etiqueta: Filtrar por palabra
+    placeholder: "Filtrar por palabra..."
+    vacio: "Nada por aquí. Prueba con otro tema o palabra."
+  fecha:
+    meses: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+  fuentes_entrada:
+    titulo: Fuentes clave
+    tipos:
+      primaria: fuente primaria
+      investigacion: investigación
+      regulador: regulador
+      prensa: prensa
+      empresarial: fuente empresarial
+    niveles: ["", "nivel 1, primaria u oficial", "nivel 2, independiente especializada", "nivel 3, prensa", "nivel 4, parte interesada"]
+  relacionado:
+    titulo: Relacionado
+    entrada: Entrada
+    lectura: Lectura
+  reportar:
+    resumen: "¿Viste un error? Repórtalo"
+    nota: "Cuéntanos qué está mal, citando la frase si puedes, y, si la tienes, la fuente que lo corrige. Un proceso automático revisa los reportes cada noche: si el error se verifica, la página se corrige y queda una fe de erratas al pie."
+    que: "¿Qué está mal?"
+    que_placeholder: "Ej.: dice que el reporte es de la OCDE, pero el enlace lleva a un documento de UNESCO…"
+    que_aria: Descripción del error
+    fuente: Fuente que lo corrige
+    fuente_aria: Enlace a la fuente correcta
+    opcional: opcional
+    correo: Tu correo
+    boton: Enviar reporte
+    iframe: reporte de error
+    ok: "Gracias. Revisamos los reportes cada noche: si el error se confirma, corregimos la página y lo anotamos en una fe de erratas. 🔎"
+    nota_correo: "Tu correo es opcional: solo lo usamos si necesitamos más contexto sobre el reporte. No te suscribe al newsletter."
+  sumario:
+    aria: Secciones de esta entrada
+    titulo: En esta entrada
+  archivo:
+    leyenda: El color de cada entrada indica su familia temática
+    vacio: Todavía no hay entradas publicadas.
+  familias: [Gobernanza y política, Mercados e industria, Riesgo y seguridad, Sociedad]
+  lecturas:
+    intro: "Cada lunes tomamos un paper o un reporte de política y lo leemos con calma: primero <strong>qué dice</strong>, y después <strong>qué significa desde América Latina</strong>. Es el complemento pausado del blog diario."
+    proximas: Próximas lecturas
+    vacio: Pronto, la primera lectura.
+    cierre: 'Doble Lectura sale los lunes. Si prefieres que te llegue por correo, <a href="/#suscribete">suscríbete al newsletter</a>.'
+    cierre_rss: "RSS de Doble Lectura →"
+    cierre_rss_texto: "El feed semanal de esta sección, sólo con las lecturas: las entradas del blog diario no vienen acá."
+  fuentes:
+    niveles_titulo: Qué tan cerca del hecho está cada fuente
+    niveles_texto: Cada entrada muestra al pie sus fuentes clave con uno de estos cuatro niveles.
+    nivel: Nivel
+    revisada: Lista revisada por última vez el
+    sugerir_titulo: "¿Conoces una fuente que deberíamos seguir?"
+    sugerir_texto: "Propón un blog, un medio, un centro de investigación o una cuenta que creas que aporta. Revisamos cada sugerencia: si encaja con lo que hacemos, la sumamos a la lista; si no, la dejamos pasar; y cuando es un caso de criterio, queda para revisión humana."
+    enlace: Enlace de la fuente
+    que: "¿Qué es?"
+    que_placeholder: "Nombre o una línea: blog del lab X, medio Y…"
+    que_aria: Nombre o descripción de la fuente
+    motivo: "¿Por qué deberíamos seguirla?"
+    motivo_placeholder: "Qué cubre, por qué es valiosa, qué nos estamos perdiendo…"
+    boton: Enviar sugerencia
+    iframe: sugerencia
+    ok: "¡Gracias! Recibimos tu sugerencia. La revisamos y, si encaja, la sumamos a la lista. 🔎"
+    nota: "Dejar tu correo es opcional: solo lo usamos si necesitamos más contexto sobre la fuente o para avisarte si la incluimos. No te suscribe al newsletter ni lo compartimos."
+  # Los temas se guardan en español en el front matter (son claves: deciden el color y
+  # el filtro). En español se muestran tal cual; la rama en: los traduce.
+  temas: {}
+
+en:
+  codigo: en
+  og_locale: en_US
+  otro:
+    codigo: es
+    nombre: Español
+    corto: ES
+    aria: "Leer esta página en español"
+    inicio: /
+    sin_traduccion: "Esta página todavía no está en español: ir a la portada en español"
+  url:
+    inicio: /en/
+    entradas: /en/posts/
+    lecturas: /en/doble-lectura/
+    about: /en/about/
+    fuentes: /en/sources/
+    feed: /en/feed.xml
+    feed_lecturas: /en/feed-lecturas.xml
+  sitio:
+    tagline: "Artificial intelligence, with a Latin American accent"
+    description: "A daily look at artificial intelligence from a Latin American perspective. Curated from public sources. One post a day."
+    kicker: "Artificial intelligence · Latin American perspective"
+    feed_lecturas_titulo: "Doble Lectura (English)"
+  nav:
+    inicio: Home
+    entradas: Posts
+    lecturas: Doble Lectura
+    about: Method
+    fuentes: Sources
+    rss: RSS
+    rss_lecturas: RSS Readings
+    idioma: Language
+  pie_legal: "Content curated automatically from public sources. Check the original source before citing."
+  formulario:
+    enviando: "Sending…"
+    error: "We couldn't confirm that your request went through. Please try again in a moment."
+  portada:
+    todos_los_dias: Every day
+    linea_diario: "Launches, research, governance and industry moves, in a single post."
+    los_lunes: Mondays
+    linea_lectura: "A paper or a public policy report, read slowly: first what it says, then what it means from the region."
+    ver_lecturas: "See all readings →"
+    ultimas: Latest posts
+    hoy: Today
+    vacia: "No posts published yet. Check back soon."
+    ver_todas: "See all posts →"
+  suscripcion:
+    kicker: Newsletter
+    titulo: Get it by email
+    texto: "One post every morning and, on Mondays, Doble Lectura. Nothing else: no spam."
+    placeholder: you@email.com
+    aria_correo: Your email address
+    iframe: subscription
+    boton: Subscribe
+    ok: "Request sent. If the address is valid, you'll get an email to confirm your subscription. 📬"
+    nota: "One list for both. Your subscription starts when you click the link in the confirmation email; we only use your address to send you the newsletter, and you can unsubscribe at any time."
+    nota_about: "We only use your address to send you the newsletter, and you can unsubscribe at any time."
+    nota_enlace: "How we use your email →"
+    # La versión en inglés del newsletter todavía no existe: se dice antes de que alguien
+    # se suscriba esperando otra cosa.
+    idioma_newsletter: "For now the newsletter goes out in Spanish only; an English edition is on the way."
+  entrada:
+    min_lectura: min read
+    aviso_auto: "Generated automatically · sources linked · no prior human review"
+    escuchar: "▶ Listen to this post"
+    marca_sobre: "About this entry"
+    linea_modelo: "Doble Click is written with Anthropic models."
+    sobre: "<strong>About this entry.</strong> It is written automatically with Anthropic models, from public sources and without human review before publication. It may contain errors of interpretation or summary: please check each story against its original source (the links lead there) before citing it."
+    anterior: "← Previous"
+    siguiente: "Next →"
+    todas: "← All posts"
+  lectura:
+    escuchar: "▶ Listen to the summary · 3 min"
+    palabras_clave: "Paper keywords:"
+    automatica: "<strong>Automated reading.</strong> This text was generated by Claude, an Anthropic model, from the original source, without line-by-line human review. It may contain errors or debatable interpretations; to check any point, see the"
+    fuente_original: original source
+    todas: "← All readings"
+    sobre: On
+    de: by
+    ver_todas: "See all readings →"
+  audio:
+    narra: Narrated by
+    voz_sintetica: synthetic voice by
+    velocidad: Speed
+  buscador:
+    todo: All
+    etiqueta: Filter by keyword
+    placeholder: "Filter by keyword..."
+    vacio: "Nothing here. Try another topic or keyword."
+  fecha:
+    meses: [January, February, March, April, May, June, July, August, September, October, November, December]
+  fuentes_entrada:
+    titulo: Key sources
+    tipos:
+      primaria: primary source
+      investigacion: research
+      regulador: regulator
+      prensa: press
+      empresarial: company source
+    niveles: ["", "level 1, primary or official", "level 2, independent specialist", "level 3, press", "level 4, interested party"]
+  relacionado:
+    titulo: Related
+    entrada: Post
+    lectura: Reading
+  reportar:
+    resumen: "Spotted an error? Report it"
+    nota: "Tell us what's wrong, quoting the sentence if you can and, if you have it, the source that corrects it. An automated process reviews reports every night: if the error is verified, the page is corrected and a correction note is added at the bottom."
+    que: "What's wrong?"
+    que_placeholder: "E.g.: it says the report is from the OECD, but the link goes to a UNESCO document…"
+    que_aria: Description of the error
+    fuente: Source that corrects it
+    fuente_aria: Link to the correct source
+    opcional: optional
+    correo: Your email
+    boton: Send report
+    iframe: error report
+    ok: "Thank you. We review reports every night: if the error is confirmed, we correct the page and log it in a correction note. 🔎"
+    nota_correo: "Your email is optional: we only use it if we need more context about the report. It doesn't subscribe you to the newsletter."
+  sumario:
+    aria: Sections of this reading
+    titulo: In this reading
+  archivo:
+    leyenda: Each post's color shows its topic family
+    vacio: No posts published yet.
+  familias: [Governance and policy, Markets and industry, Risk and safety, Society]
+  lecturas:
+    intro: "Every Monday we take a paper or a policy report and read it slowly: first <strong>what it says</strong>, and then <strong>what it means from Latin America</strong>. It is the unhurried companion to the daily blog."
+    proximas: Coming up
+    vacio: The first reading is coming soon.
+    cierre: 'Doble Lectura comes out on Mondays. If you''d rather get it by email, <a href="/en/#suscribete">subscribe to the newsletter</a> (in Spanish for now).'
+    cierre_rss: "Doble Lectura RSS →"
+    cierre_rss_texto: "The weekly feed for this section, with readings only: daily blog posts aren't included."
+  fuentes:
+    niveles_titulo: How close to the facts each source is
+    niveles_texto: Every post lists its key sources at the bottom, each with one of these four levels.
+    nivel: Level
+    revisada: List last reviewed on
+    sugerir_titulo: "Know a source we should follow?"
+    sugerir_texto: "Suggest a blog, a news outlet, a research center or an account you think adds something. We review every suggestion: if it fits what we do, we add it to the list; if not, we pass; and when it's a judgment call, it goes to human review."
+    enlace: Link to the source
+    que: "What is it?"
+    que_placeholder: "Name or one line: lab X's blog, outlet Y…"
+    que_aria: Name or description of the source
+    motivo: "Why should we follow it?"
+    motivo_placeholder: "What it covers, why it's valuable, what we're missing…"
+    boton: Send suggestion
+    iframe: suggestion
+    ok: "Thank you! We got your suggestion. We'll review it and, if it fits, add it to the list. 🔎"
+    nota: "Leaving your email is optional: we only use it if we need more context about the source or to let you know if we add it. It doesn't subscribe you to the newsletter, and we don't share it."
+  temas:
+    gobernanza: governance
+    participación: participation
+    participacion: participation
+    trabajo: work
+    educación: education
+    educacion: education
+    salud: health
+    mercados: markets
+    lanzamientos: launches
+    ética: ethics
+    etica: ethics
+    seguridad: safety
+    datos: data
+    diseño: design
+    diseno: design
+    elecciones: elections
+    agentes: agents
+    defensa: defense
+    infraestructura: infrastructure
+    latam: latam

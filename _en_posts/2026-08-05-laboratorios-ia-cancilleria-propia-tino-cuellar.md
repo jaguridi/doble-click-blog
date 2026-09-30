@@ -1,0 +1,45 @@
+---
+layout: post
+title: "AI labs are building their own foreign ministries"
+description: "Anthropic created an executive post dedicated to negotiating with governments and filled it with a former supreme court justice: on the other side of that table, the region has no equivalent structure."
+date: 2026-08-05 08:05:55 -0400
+tags: [gobernanza, latam, seguridad]
+audio: true
+hash_original: "dab03a870f3b"
+---
+
+Anthropic created the post of global head of public affairs and [gave it to Mariano-Florentino "Tino" Cuéllar](https://www.anthropic.com/news/tino-cuellar), born in Matamoros, Tamaulipas, who for years crossed the border on foot every day to go to school in Brownsville. He will report directly to the company's president, Daniela Amodei, and will be in charge of policy, international relations and relations with governments in every country where the lab operates. He does not come from a lobbying firm: he is leaving the presidency of the Carnegie Endowment for International Peace, he was a justice of the California Supreme Court between 2015 and 2021 (the first Mexican immigrant on that court), he directed Stanford's Freeman Spogli Institute and he worked in the White House under three administrations.
+
+What is interesting is not the biography but what the post reveals. Frontier labs have stopped treating public policy as crisis management and have begun building something resembling a foreign ministry: executive rank, portfolios by region and, above all, continuity. On the other side of that table, the Latin American ministries that negotiate deployment conditions, data access and compute capacity have no equivalent structure, and in several cases they change heads every two years. That the first person to hold that seat was born in Tamaulipas is good news; it guarantees nothing.
+
+The scale of the counterpart helps put the conversation in perspective. The same day, it emerged that Anthropic [signed a six-year, $10 billion compute contract with Volta](https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/), a startup founded this year that, together with the crypto miner Bitdeer, is building a 133-megawatt data center in Norway. Decisions of that magnitude (where infrastructure is installed, with what energy, under what rules) are exactly the ones that will now have a permanent, professionalized counterpart when they reach a government's table.
+
+## Also today
+
+- **[SaferAI measures GLM-5.2 and finds frontier capability with no mitigation at all](https://www.safer-ai.org/research/glm-5-2-evaluation-report)** — Z.ai's open model falls within the confidence intervals of Claude Opus 4.7 and GPT-5.5 on cyberattack tasks and did not refuse a single dangerous task. Because it is open weights (downloadable and modifiable by anyone), the safeguard cannot live inside the model.
+- **[Texas freezes new data centers and orders audits](https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/)** — The queue of projects waiting to connect to the power grid went from 233 to 474 gigawatts in seven months, five times the system's peak demand.
+- **[Apple expands its lawsuit against OpenAI](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/)** — It argues that eleven more former employees may have taken confidential information and asks for an injunction against development of the AI device. OpenAI denies the allegations.
+- **[Palantir reports $1.94 billion in revenue, 93% more than a year earlier](https://qz.com/palantir-q2-2026-earnings-revenue-guidance-080426)** — Its U.S. commercial business grew 149% and its government business 90%; it raised its annual guidance to 8.15-8.16 billion, the largest upward revision in its history.
+- **[Microsoft puts its engineers on a token budget](https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/)** — "Tokenmaxxing is not what we are optimizing for," the company says, according to 404 Media, after its own engineers spent thousands of dollars a month on model queries.
+- **[Nvidia's AI safety alliance now has 120 companies](https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/)** — It went from 37 to 120 members in seven days and presented an incident reporting mechanism: the industry regulates itself in weeks while regulators deliberate for years.
+
+## In the region
+
+Tuesday brought no dated publications from regional bodies (not UNESCO, OECD, ECLAC, IDB or CENIA, nor the data authorities and ministries of Brazil, Chile, Colombia, Mexico, Argentina, Peru and Uruguay), but it did bring two references worth reading carefully. The first is Texas: the list of data the state now requires before approving a data center (on-site and off-site electricity consumption, water, noise, light control, tax incentives used, ownership structure) is practically the same list that no country in the region asks for before signing, and it comes from the jurisdiction that served as the model for the argument that deregulation attracts compute. Meanwhile, an analysis by Dean Jackson and Sam Totoni published in Tech Policy Press describes the repertoire the industry uses to neutralize community opposition to these facilities: confidentiality agreements with local governments, special purpose vehicles that hide the real buyer, employment promises no one audits and framing the project as a matter of national security, a script the authors read as adapted from the extractive industries.
+
+On the consumer side, a figure with an asterisk: the Loymark Barometer reports that **[56% of respondents in Colombia, Mexico, Ecuador and Costa Rica bought something after an AI recommendation](https://www.infobae.com/colombia/2026/08/04/inteligencia-artificial-ya-influye-en-las-compras-de-mas-de-la-mitad-de-los-consumidores-en-colombia-y-la-region-segun-estudio/) (via Infobae)**. The figure works as a symptom that AI has already entered the purchase funnel in the region, but the sample is 135 people surveyed online between July 13 and 20: it cannot be generalized, and we found no official page or downloadable document for the study.
+
+## Launches
+
+- **[AI-generated covers and remixes, from Spotify](https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/)** — Merlin, which licenses on behalf of more than 30,000 independent labels and distributors, joins Universal Music Group as a partner in the product: users will be able to create versions of music by artists who have explicitly opted in, with credit and compensation, as an additional paid service. It cannot be tried yet (it starts as a preview with a limited group of users), but it matters because the model of paid voluntary participation is the flip side of silent training, and because much of the Latin repertoire is distributed through independent labels represented by Merlin.
+- **[Wrinkles](https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/)** — An audio guide that detects where you are and narrates the stories of the place without you needing to look at the screen, with 1.3 million declared points of interest in 177 countries and the option to attach photos and family memories to specific places. Free on iOS and Android; it monetizes on the supply side, with museums, tourism offices and universities uploading content. It remains to be seen how much it has to say about Valparaíso or downtown Bogotá compared with a European museum, and in what language.
+
+## Threads we're following
+
+Yesterday we reported that a model with cutting-edge capability was going to become available with open weights, meaning downloadable so that a ministry or a university can run it on its own infrastructure, without depending on a foreign cloud. The SaferAI report published today puts the other side of that coin on the table: a comparable open model can reach frontier capability on offensive tasks with no built-in mitigation, and its developer has published no safety framework or risk assessment. It is the first independent evaluation of that gap with a published methodology, and it comes just as the region begins to look at open models for price and for data sovereignty. Adopting them is not just a budget decision: it means accepting that the safeguard will have to be built around the model, not inside it.
+
+---
+
+*If the asymmetry at the table is no longer one of money but of institutional continuity, what would the region have to build (a permanent unit, a shared technical body, something smaller and faster) to come to that conversation with someone who won't be gone in two years?*
+
+<small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

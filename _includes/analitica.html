@@ -38,8 +38,12 @@ con una alerta; repetirlo la quita.
       async src="//gc.zgo.at/count.js"></script>
 <script>
 (function(){
-  /* Entradas y lecturas traen slug; las páginas sueltas no, y para ellas basta la ruta. */
-  var SLUG = {{ page.slug | default: '' | jsonify }} || location.pathname.replace(/^\/|\/$/g, '') || 'inicio';
+  /* Entradas y lecturas traen slug; las páginas sueltas no, y para ellas basta la ruta.
+     Las traducciones comparten el slug con el original: se les antepone "en/" para que
+     el panel distinga qué se leyó en cada idioma. */
+  var SLUG = {{ page.slug | default: '' | jsonify }};
+  if (SLUG && {{ page.lang | default: 'es' | jsonify }} === 'en') SLUG = 'en/' + SLUG;
+  SLUG = SLUG || location.pathname.replace(/^\/|\/$/g, '') || 'inicio';
   var ya = {};
 
   /* count.js carga en async: si alguien hace clic antes de que llegue, o un bloqueador
@@ -101,7 +105,7 @@ con una alerta; repetirlo la quita.
 
     if (a.closest('.relacionado')) {
       var tipo = a.querySelector('.rel-kind');
-      evento('relacionado/' + (tipo ? tipo.textContent.trim().toLowerCase() : 'otro'));
+      evento('relacionado/' + ((tipo && tipo.getAttribute('data-rel')) || 'otro'));
     } else if (a.closest('.post-nav')) {
       evento('navegacion/' + (a.classList.contains('prev') ? 'anterior' : 'siguiente'));
     } else if (/\/feed-lecturas\.xml$/.test(a.pathname)) {

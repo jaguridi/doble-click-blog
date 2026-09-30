@@ -20,6 +20,7 @@ abajo: va intercalada entre entradas, así que necesita cerrar por los dos lados
 (La variable se llama `_ld` porque `assign` dentro de un include escribe en el
 ámbito global de la página: mejor un nombre que no choque con nada de afuera.)
 {%- endcomment -%}
+{%- comment -%}Requiere idioma.html antes: los rótulos salen de `t`.{%- endcomment -%}
 {%- assign _ld = include.lectura -%}
 {%- if _ld -%}
 <section class="lectura-dest tono-{% include tono.html tags=_ld.tags %}" style="--i: {{ include.orden | default: 0 }}">
@@ -29,7 +30,7 @@ abajo: va intercalada entre entradas, así que necesita cerrar por los dos lados
     <h2 class="lectura-dest-title">{{ _ld.title }}</h2>
     {% if _ld.description %}<p class="lectura-dest-sub">{{ _ld.description }}</p>{% endif %}
   </a>
-  {% if _ld.paper_titulo %}<p class="lectura-cite">Sobre <em>{{ _ld.paper_titulo }}</em>{% if _ld.paper_autores %}, de {{ _ld.paper_autores }}{% endif %}{% if _ld.paper_publicado %} · {{ _ld.paper_publicado }}{% endif %}.</p>{% endif %}
-  <p class="feed-more"><a href="{{ '/doble-lectura/' | relative_url }}">Ver todas las lecturas →</a></p>
+  {% if _ld.paper_titulo %}<p class="lectura-cite">{{ t.lectura.sobre }} <em>{{ _ld.paper_titulo }}</em>{% if _ld.paper_autores %}, {{ t.lectura.de }} {{ _ld.paper_autores }}{% endif %}{% if _ld.paper_publicado %} · {{ _ld.paper_publicado }}{% endif %}.</p>{% endif %}
+  <p class="feed-more"><a href="{{ t.url.lecturas | relative_url }}">{{ t.lectura.ver_todas }}</a></p>
 </section>
 {%- endif -%}

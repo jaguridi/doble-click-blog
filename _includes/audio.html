@@ -1,15 +1,28 @@
+{%- comment -%}
+Reproductor del resumen hablado. Requiere idioma.html antes.
+
+Las traducciones al inglés comparten el slug con el original, así que buscan su audio en
+otra carpeta: assets/audio/en/<slug>.mp3 (y la voz en _data/voces_en.yml). Mientras no
+exista, la versión en inglés simplemente no muestra reproductor: nunca el audio en
+español debajo de un texto en inglés.
+{%- endcomment -%}
+{% if _lang == 'en' %}
+{% assign _audiopath = '/assets/audio/en/' | append: page.slug | append: '.mp3' %}
+{% assign _voz = site.data.voces_en[page.slug] %}
+{% else %}
 {% assign _audiopath = '/assets/audio/' | append: page.slug | append: '.mp3' %}
+{% assign _voz = site.data.voces[page.slug] %}
+{% endif %}
 {% assign _audiofile = site.static_files | where: 'path', _audiopath | first %}
 {% if _audiofile %}
-{% assign _voz = site.data.voces[page.slug] %}
 <div class="lectura-audio">
   <p class="audio-cab">
     <span class="audio-label">{{ include.label }}</span>
-    {% if _voz %}<span class="audio-voz">Narra {{ _voz.voz }} · voz sintética de {{ _voz.motor }}</span>{% endif %}
+    {% if _voz %}<span class="audio-voz">{{ t.audio.narra }} {{ _voz.voz }} · {{ t.audio.voz_sintetica }} {{ _voz.motor }}</span>{% endif %}
   </p>
   <audio controls preload="none" src="{{ _audiopath | relative_url }}"></audio>
   <div class="audio-speeds">
-    <span class="audio-speeds-label">Velocidad</span>
+    <span class="audio-speeds-label">{{ t.audio.velocidad }}</span>
     <button class="vel vel-on" data-vel="1" aria-pressed="true">1&times;</button>
     <button class="vel" data-vel="1.25" aria-pressed="false">1.25&times;</button>
     <button class="vel" data-vel="1.5" aria-pressed="false">1.5&times;</button>

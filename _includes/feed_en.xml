@@ -1,0 +1,15 @@
+{%- comment -%}
+Feed Atom de la edición en inglés. Lo usan en/feed.xml (entradas) y en/feed-lecturas.xml
+(lecturas), con include.docs = la colección y include.titulo = el título del feed.
+
+No se generan con jekyll-feed porque esa gema les pone xml:lang="es" (lo toma de
+site.lang) y un título armado con el nombre interno de la colección ("En_posts"). El
+formato es el mismo que el de los feeds en español, para que cualquier lector los trate
+igual. Como en jekyll-feed, van las 10 más recientes.
+{%- endcomment -%}
+{%- assign _docs = include.docs | sort: 'date' | reverse -%}
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator><link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" /><link href="{{ '/en/' | absolute_url }}" rel="alternate" type="text/html" hreflang="en" /><updated>{{ site.time | date_to_xmlschema }}</updated><id>{{ page.url | absolute_url | xml_escape }}</id><title type="html">{{ include.titulo | xml_escape }}</title><subtitle>{{ site.data.i18n.en.sitio.description | xml_escape }}</subtitle><author><name>{{ site.author | xml_escape }}</name></author>
+{%- for post in _docs limit: 10 -%}
+<entry xml:lang="en"><title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title><link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" /><published>{{ post.date | date_to_xmlschema }}</published><updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated><id>{{ post.id | absolute_url | xml_escape }}</id><content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[{{ post.content | strip | replace: ']]>', ']]&gt;' }}]]></content><author><name>{{ site.author | xml_escape }}</name></author>{% for tg in post.tags %}<category term="{{ site.data.i18n.en.temas[tg] | default: tg | xml_escape }}" />{% endfor %}{% if post.description %}<summary type="html"><![CDATA[{{ post.description | strip_html | normalize_whitespace | replace: ']]>', ']]&gt;' }}]]></summary>{% endif %}</entry>
+{%- endfor -%}
+</feed>

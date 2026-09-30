@@ -1,0 +1,78 @@
+{%- comment -%}
+Cuerpo de la página de fuentes, el mismo para /fuentes/ y /en/sources/. Lee
+_data/fuentes.yml: en inglés usa los campos `_en` y, si falta alguno, cae al español.
+{%- endcomment -%}
+{%- include idioma.html -%}
+{%- assign F = site.data.fuentes -%}
+{%- if _lang == 'en' -%}
+  {%- assign _intro = F.intro_en | default: F.intro -%}
+  {%- assign _criterio = F.criterio_en | default: F.criterio -%}
+{%- else -%}
+  {%- assign _intro = F.intro -%}
+  {%- assign _criterio = F.criterio -%}
+{%- endif %}
+<p class="fuentes-intro">{{ _intro }}</p>
+{%- if _criterio %}
+<p class="fuentes-desc">{{ _criterio }}</p>
+{%- endif %}
+{%- if F.niveles %}
+<section class="fuentes-cat fuentes-niveles">
+  <h2 class="fuentes-cat-title">{{ t.fuentes.niveles_titulo }}</h2>
+  <p class="fuentes-desc">{{ t.fuentes.niveles_texto }}</p>
+  <ul class="fuentes-list">
+    {%- for n in F.niveles %}
+    {%- if _lang == 'en' -%}{%- assign _n_nombre = n.nombre_en | default: n.nombre -%}{%- assign _n_texto = n.texto_en | default: n.texto -%}{%- else -%}{%- assign _n_nombre = n.nombre -%}{%- assign _n_texto = n.texto -%}{%- endif %}
+    <li><strong>{{ t.fuentes.nivel }} {{ n.nivel }}, {{ _n_nombre | downcase }}.</strong> {{ _n_texto }}</li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
+
+{% for cat in F.categorias %}
+{%- if _lang == 'en' -%}{%- assign _c_nombre = cat.nombre_en | default: cat.nombre -%}{%- assign _c_desc = cat.descripcion_en | default: cat.descripcion -%}{%- else -%}{%- assign _c_nombre = cat.nombre -%}{%- assign _c_desc = cat.descripcion -%}{%- endif %}
+<section class="fuentes-cat">
+  <h2 class="fuentes-cat-title">{{ _c_nombre }}</h2>
+  <p class="fuentes-desc">{{ _c_desc }}</p>
+  <ul class="fuentes-list">
+    {% for f in cat.fuentes %}
+    <li><a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.nombre }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{%- if F.ultima_revision %}
+<p class="fuentes-desc"><em>{{ t.fuentes.revisada }} {% include fecha.html date=F.ultima_revision %}.</em></p>
+{%- endif %}
+
+<section class="sugerir" id="sugerir">
+  <h2 class="fuentes-cat-title">{{ t.fuentes.sugerir_titulo }}</h2>
+  <p class="fuentes-desc">{{ t.fuentes.sugerir_texto }}</p>
+
+  <form class="sub-form sug-form" action="{{ site.newsletter_endpoint }}" method="post" target="sug-sink">
+    <input type="hidden" name="action" value="suggest">
+    {%- if _lang == 'en' %}
+    <input type="hidden" name="lang" value="en">
+    {%- endif %}
+    <label class="sug-field">
+      <span class="sug-label">{{ t.fuentes.enlace }}</span>
+      <input class="sub-input" type="url" name="url" placeholder="https://…" required aria-label="{{ t.fuentes.enlace }}">
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">{{ t.fuentes.que }} <em>({{ t.reportar.opcional }})</em></span>
+      <input class="sub-input" type="text" name="nombre" placeholder="{{ t.fuentes.que_placeholder }}" aria-label="{{ t.fuentes.que_aria }}">
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">{{ t.fuentes.motivo }} <em>({{ t.reportar.opcional }})</em></span>
+      <textarea class="sub-input sug-textarea" name="motivo" rows="3" placeholder="{{ t.fuentes.motivo_placeholder }}" aria-label="{{ t.fuentes.motivo }}"></textarea>
+    </label>
+    <label class="sug-field">
+      <span class="sug-label">{{ t.reportar.correo }} <em>({{ t.reportar.opcional }})</em></span>
+      <input class="sub-input" type="email" name="correo" placeholder="{{ t.suscripcion.placeholder }}" aria-label="{{ t.suscripcion.aria_correo }}">
+    </label>
+    <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
+    <button class="sub-btn" type="submit">{{ t.fuentes.boton }}</button>
+  </form>
+  <iframe name="sug-sink" title="{{ t.fuentes.iframe }}" style="display:none"></iframe>
+  <p class="sub-ok" role="status" aria-live="polite" hidden>{{ t.fuentes.ok }}</p>
+  <p class="sub-note">{{ t.fuentes.nota }}</p>
+</section>

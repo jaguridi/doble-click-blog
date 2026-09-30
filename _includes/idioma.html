@@ -1,0 +1,21 @@
+{%- comment -%}
+Idioma de la página. Lo incluye cada layout (y cada página que escriba texto propio) al
+principio, porque en Jekyll cada layout se renderiza por separado y un `assign` de
+default.html no llega a post.html, que se arma antes.
+
+  {% include idioma.html %}
+
+Deja dos variables:
+
+  _lang   "es" o "en". Sale de `page.lang`, que en/ y las colecciones en inglés traen
+          por defecto (ver `defaults` en _config.yml). Todo lo demás es español.
+  t       los textos de la interfaz en ese idioma (_data/i18n.yml).
+
+Las listas de entradas y lecturas de cada idioma NO se arman acá, para no ordenarlas en
+cada página que no las usa: donde hacen falta, `_posts/` es `site.posts` (ya viene de la
+más nueva a la más vieja) y `_en_posts/` es `site.en_posts | reverse` (las colecciones
+propias vienen al revés).
+{%- endcomment -%}
+{%- assign _lang = 'es' -%}
+{%- if page.lang == 'en' -%}{%- assign _lang = 'en' -%}{%- endif -%}
+{%- assign t = site.data.i18n[_lang] -%}

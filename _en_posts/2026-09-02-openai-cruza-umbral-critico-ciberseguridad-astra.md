@@ -1,0 +1,42 @@
+---
+layout: post
+title: "OpenAI crosses its own critical threshold and decides who gets to defend themselves"
+description: "For the first time, a lab actually triggers a risk limit it set for itself, and the way defensive capability is being allocated leaves Latin America outside the channel."
+date: 2026-09-02 08:05:24 -0400
+tags: [seguridad, gobernanza, latam]
+audio: true
+hash_original: "9a76f4791ca6"
+---
+
+On September 1, OpenAI announced that its next model, called Astra, is the first to cross the "Critical" cyber capability threshold of its own preparedness framework. In [Responding to the next frontier of critical cyber capabilities](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/), the company maintains that the model finds unknown vulnerabilities and develops ways to exploit them in hardened systems without a person guiding each step. It is the first time a self-declared risk limit has actually been triggered and changed a lab's commercial behavior.
+
+The results the company reports explain why. In testing, Astra earned a perfect score on ExploitBench—a standardized vulnerability-exploitation test—discovered and exploited two zero-day flaws (defects no one had documented before) in a modified version of that test, escaped a hardened browser sandbox and chained operating-system weaknesses until it obtained root access, that is, full control of the machine. OpenAI says it will release Astra soon, but that access to those capabilities will be restricted to a small group: the U.S. government and the verified organizations in its trusted access program, geared toward defensive use.
+
+That is the angle that matters from the region. Frontier offensive capability and the equivalent defensive capability are distributed through the same channel, and that channel runs through the U.S. government. Latin America's banks, electoral courts and critical infrastructure operators are left outside it, and without an evaluation institute of their own with which to verify what they are sold. The operational question is not whether the model exists: it is who defends the power grid or the voter roll on the day an equivalent capability appears in open weights, that is, in a model anyone can download and run.
+
+## Also today
+
+- **[The United States presents the "Carolina Principles" and asks the G20 not to create AI regulatory bodies](https://gizmodo.com/trump-admin-to-tell-g20-governments-to-back-off-from-regulating-ai-report-says-2000805455) (via Gizmodo)** — Brazil, Mexico and Argentina sit at that table; Brazil is being asked to do exactly the opposite of what its Congress is about to approve.
+- **[AfterQuery becomes Y Combinator's fastest unicorn](https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/)** — It reached a $3.2 billion valuation five months after its Series A, hiring doctors and lawyers to train models. The article does not publish a geographic breakdown of that workforce.
+- **[A German audit measured what Google's AI summaries show about elections](https://algorithmwatch.org/de/google-ki-ubersichten-meinungsbildung/)** — AlgorithmWatch analyzed 4,480 queries about three elections: AI summaries appeared in 39.1% of election queries versus 65.3% of non-political ones, and almost half of the cited links were concentrated in ten domains. The study exists because a European law requires Google to open that data to researchers.
+- **[Anthropic signs a $35 billion compute deal with Lambda](https://www.datacenterdynamics.com/en/news/anthropic-signs-35bn-cloud-agreement-with-lambda-report/)** — About 350 MW on a campus in Nueces County, Texas. None of the company's four major compute deals lands in Latin America.
+
+## In the region
+
+The day's regional move is a finished law, not an announcement: the plenary of Brazil's Senate [approved Bill 278/2026](https://www12.senado.leg.br/noticias/materias/2026/09/01/incentivo-para-instalacao-de-data-centers-no-brasil-e-aprovado-pelo-senado) by voice vote, with no opposition and under urgency procedure, and the Special Tax Regime for Data Center Services (Redata) goes to the president for signature without returning to the Chamber. It suspends import duties and other taxes on technology equipment, with official forgone tax revenue of 5.2 billion reais in 2026 and 1 billion reais in each of the following two years. What matters for the rest of the region is that the text came out with written, measurable commitments, not declarative ones: clean or renewable energy, a Water Efficiency Index equal to or below 0.05 liters per kWh with annual measurement, investment of 2% of the value of the benefiting products and a reservation of 10% of services for the domestic market. That sets a concrete benchmark for Chile, Mexico, Colombia and Uruguay, which are pursuing the same projects and until now competed with arguments—renewable energy, proximity, stability—rather than instruments. What remains pending is what no version of the text resolved: compute capacity reserved for public research. Brazilian civil society organizations objected that sovereignty does not boil down to installing servers on national territory.
+
+## Launches
+
+- **[Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)** — The same model with two levels of safeguards: Fable 5.1 is generally available on Claude.ai, the API and the three clouds; Mythos 5.1 only through verified access. The per-token price does not change ($10 per million input tokens, $50 for output), but cache reads drop 75%, which is what really changes the budget of a regional team doing long agentic work. Its [system card](https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf) admits that the verified-access variant more readily accepts claims of authorization it cannot verify: fewer false positives and more cooperation with misuse are the same lever.
+- **[Google Pics](https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/)** — Generative design inside Workspace: posters and social media pieces from a prompt, without templates or a blank canvas. It arrives in the coming weeks for Workspace customers and AI Pro and Ultra subscribers. The feature that changes real work in the region is translating the text inside an image, and the target is Canva, a tool with very high penetration in Latin America.
+- **[Solaris, from Runway](https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time/) (via The Decoder)** — It generates a software interface frame by frame, as if it were video, instead of running code, and responds to clicks, drags and voice. It is research with early access by application form, and it matters more as a regulatory warning than as a tool: the company itself acknowledges unstable text, no support for screen readers and the risk of wrong but convincing interfaces.
+
+## Threads we're following
+
+Yesterday we reported that Anthropic published an audit of its own failures and proposed a verifiable mechanism for coordinating the industry's pace, and that the open problem was who does the verifying. Today the same question arrives from the other side: OpenAI triggers a threshold it set for itself, assesses on its own that it was crossed and chooses, also on its own, the list of those who receive the tool to defend themselves. In the same window, the United States asks the G20 to ensure that no country creates a body that could verify any of that. It is also the second time in two days that frontier capability has been allocated through a U.S. government channel, after the Pentagon opened its AI portal excluding Claude.
+
+---
+
+*If a lab alone decides when its model is dangerous and to whom it hands the defense, what is left for a Latin American state to protect its critical infrastructure: buy defense services from whoever makes the threat, build its own evaluation capacity, or negotiate as a regional bloc the access it cannot get on its own?*
+
+<small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>

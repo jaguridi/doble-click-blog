@@ -1,7 +1,17 @@
+{%- comment -%}
+Fecha en el idioma de la página: "30 de septiembre de 2026" / "30 sep 2026" en español,
+"September 30, 2026" / "Sep 30, 2026" en inglés. Lee `_lang` si ya está puesto (lo deja
+idioma.html) y si no, el `lang` de la página.
+{%- endcomment -%}
+{%- assign _f_lang = _lang | default: page.lang | default: 'es' -%}
 {%- assign m = include.date | date: "%-m" -%}
-{%- assign meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
+{%- assign meses = site.data.i18n[_f_lang].fecha.meses -%}
 {%- assign idx = m | minus: 1 -%}
 {%- assign mes = meses[idx] -%}
 {%- assign dia = include.date | date: "%-d" -%}
 {%- assign anio = include.date | date: "%Y" -%}
+{%- if _f_lang == 'en' -%}
+{%- if include.corta -%}{{ mes | slice: 0, 3 }} {{ dia }}, {{ anio }}{%- else -%}{{ mes }} {{ dia }}, {{ anio }}{%- endif -%}
+{%- else -%}
 {%- if include.corta -%}{{ dia }} {{ mes | slice: 0, 3 }} {{ anio }}{%- else -%}{{ dia }} de {{ mes }} de {{ anio }}{%- endif -%}
+{%- endif -%}

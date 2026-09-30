@@ -23,35 +23,47 @@ lado. Los candidatos se van juntando en dos strings con separadores propios porq
 Liquid no tiene forma de ir agregando elementos a un array; al final se parten con
 `split` para imprimirlos. Ojo con los separadores si algún título llegara a contener
 `|:|` o `|;|` —hoy ninguno lo hace—.
+
+Cada idioma se relaciona solo consigo mismo: una traducción recomienda traducciones.
+Requiere idioma.html antes. `data-rel` lleva el tipo sin traducir para las
+estadísticas (ver analitica.html), que así cuentan lo mismo en los dos idiomas.
 {%- endcomment -%}
 {%- assign _CAMPO = '|:|' -%}
 {%- assign _ITEM = '|;|' -%}
 {%- assign _pag_es_lectura = false -%}
-{%- if page.collection == 'lecturas' -%}{%- assign _pag_es_lectura = true -%}{%- endif -%}
+{%- if page.collection == 'lecturas' or page.collection == 'en_lecturas' -%}{%- assign _pag_es_lectura = true -%}{%- endif -%}
 {%- if _pag_es_lectura -%}
-  {%- assign _rotulo_mismo = 'Lectura' -%}
-  {%- assign _rotulo_otro = 'Entrada' -%}
+  {%- assign _rotulo_mismo = t.relacionado.lectura -%}
+  {%- assign _rotulo_otro = t.relacionado.entrada -%}
+  {%- assign _clave_mismo = 'lectura' -%}
+  {%- assign _clave_otro = 'entrada' -%}
 {%- else -%}
-  {%- assign _rotulo_mismo = 'Entrada' -%}
-  {%- assign _rotulo_otro = 'Lectura' -%}
+  {%- assign _rotulo_mismo = t.relacionado.entrada -%}
+  {%- assign _rotulo_otro = t.relacionado.lectura -%}
+  {%- assign _clave_mismo = 'entrada' -%}
+  {%- assign _clave_otro = 'lectura' -%}
 {%- endif -%}
 {%- assign _mismo = '' -%}
 {%- assign _otro = '' -%}
 {%- assign _n_mismo = 0 -%}
 {%- assign _n_otro = 0 -%}
-{%- assign _todos = site.posts | concat: site.lecturas | sort: 'date' | reverse -%}
+{%- if _lang == 'en' -%}
+  {%- assign _todos = site.en_posts | concat: site.en_lecturas | sort: 'date' | reverse -%}
+{%- else -%}
+  {%- assign _todos = site.posts | concat: site.lecturas | sort: 'date' | reverse -%}
+{%- endif -%}
 {%- for it in _todos -%}
   {%- if _n_mismo >= 3 and _n_otro >= 3 -%}{%- break -%}{%- endif -%}
   {%- if it.url != page.url -%}
     {%- assign _comparte = false -%}
-    {%- for t in it.tags -%}
-      {%- unless t == 'latam' -%}
-        {%- if page.tags contains t -%}{%- assign _comparte = true -%}{%- break -%}{%- endif -%}
+    {%- for tg in it.tags -%}
+      {%- unless tg == 'latam' -%}
+        {%- if page.tags contains tg -%}{%- assign _comparte = true -%}{%- break -%}{%- endif -%}
       {%- endunless -%}
     {%- endfor -%}
     {%- if _comparte -%}
       {%- assign _it_es_lectura = false -%}
-      {%- if it.collection == 'lecturas' -%}{%- assign _it_es_lectura = true -%}{%- endif -%}
+      {%- if it.collection == 'lecturas' or it.collection == 'en_lecturas' -%}{%- assign _it_es_lectura = true -%}{%- endif -%}
       {%- if _it_es_lectura == _pag_es_lectura -%}
         {%- if _n_mismo < 3 -%}
           {%- assign _mismo = _mismo | append: it.url | append: _CAMPO | append: it.title | append: _ITEM -%}
@@ -80,17 +92,17 @@ alcance a llenar se lo queda el otro, hasta lo que realmente haya.
 {%- assign _total = _cupo_mismo | plus: _cupo_otro -%}
 {%- if _total > 0 -%}
 <nav class="relacionado">
-  <p class="relacionado-label">Relacionado</p>
+  <p class="relacionado-label">{{ t.relacionado.titulo }}</p>
   <ul>
     {%- assign _lista_mismo = _mismo | split: _ITEM -%}
     {%- for r in _lista_mismo limit: _cupo_mismo -%}
       {%- assign _c = r | split: _CAMPO -%}
-    <li><a href="{{ _c[0] | relative_url }}"><span class="rel-kind">{{ _rotulo_mismo }}</span> {{ _c[1] }}</a></li>
+    <li><a href="{{ _c[0] | relative_url }}"><span class="rel-kind" data-rel="{{ _clave_mismo }}">{{ _rotulo_mismo }}</span> {{ _c[1] }}</a></li>
     {%- endfor -%}
     {%- assign _lista_otro = _otro | split: _ITEM -%}
     {%- for r in _lista_otro limit: _cupo_otro -%}
       {%- assign _c = r | split: _CAMPO -%}
-    <li><a href="{{ _c[0] | relative_url }}"><span class="rel-kind">{{ _rotulo_otro }}</span> {{ _c[1] }}</a></li>
+    <li><a href="{{ _c[0] | relative_url }}"><span class="rel-kind" data-rel="{{ _clave_otro }}">{{ _rotulo_otro }}</span> {{ _c[1] }}</a></li>
     {%- endfor -%}
   </ul>
 </nav>

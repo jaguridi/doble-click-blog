@@ -2,61 +2,9 @@
 layout: page
 title: Doble Lectura
 permalink: /doble-lectura/
+ref: lecturas
 # La usa _includes/seo.html para la meta description y el og:description de esta página.
 description: "Cada lunes, un paper o un informe de política sobre inteligencia artificial leído con calma: qué dice y qué significa desde América Latina."
 ---
-<p class="lectura-intro">Cada lunes tomamos un paper o un reporte de política y lo leemos con calma: primero <strong>qué dice</strong>, y después <strong>qué significa desde América Latina</strong>. Es el complemento pausado del blog diario.</p>
-
-{% assign proximas = site.data.proximas_lecturas %}
-{% if proximas and proximas.size > 0 %}
-<aside class="coming-next">
-  <p class="coming-next-label">Próximas lecturas</p>
-  <ul class="coming-next-list">
-  {% for p in proximas limit:3 %}
-    <li class="coming-next-item">
-      <span class="coming-next-title">{{ p.titulo }}</span>
-      {% if p.paper %}<span class="coming-next-cite">Sobre <em>{{ p.paper }}</em>{% if p.autores %}, de {{ p.autores }}{% endif %}{% if p.publicado %} · {{ p.publicado }}{% endif %}</span>{% endif %}
-    </li>
-  {% endfor %}
-  </ul>
-</aside>
-{% endif %}
-
-{% include buscador.html %}
-
-{% assign lecturas = site.lecturas | sort: "date" | reverse %}
-{% if lecturas.size == 0 %}<p class="empty">Pronto, la primera lectura.</p>{% endif %}
-{%- comment -%}
-La más reciente va destacada, pero NO sale de la lista: es el primer ítem de la misma
-lista filtrable, con la clase `lectura-item--principal` encima, y el realce es sólo
-tipográfico (ver style.css). Se hizo así a propósito: si fuera un bloque aparte fuera
-del buscador, al filtrar por un tema que no es el suyo quedaría arriba una lectura que
-contradice el filtro; y si fuera un bloque aparte pero `buscable`, el JS de
-buscador.html le repartiría franjas junto con la lista y habría que duplicar el markup.
-Como primer ítem, desaparece con el filtro igual que las demás y el destacado se
-apaga solo.
-{%- endcomment -%}
-<ul class="lectura-list">
-{% for l in lecturas %}
-  <li class="lectura-item buscable tono-{% include tono.html tags=l.tags %}{% if forloop.first %} lectura-item--principal{% endif %}" data-tags="{{ l.tags | join: ' ' }}" data-text="{{ l.title | downcase | escape }} {{ l.description | downcase | escape }} {{ l.tags | join: ' ' | downcase }}">
-    <a href="{{ l.url | relative_url }}">
-      <span class="lectura-date">{% include fecha.html date=l.date corta=true %}</span>
-      <span class="lectura-title">{{ l.title }}</span>
-    </a>
-    {% if l.description %}<p class="lectura-sub">{{ l.description }}</p>{% endif %}
-    {% if l.paper_titulo %}<p class="lectura-cite">Sobre <em>{{ l.paper_titulo }}</em>{% if l.paper_autores %}, de {{ l.paper_autores }}{% endif %}{% if l.paper_publicado %} · {{ l.paper_publicado }}{% endif %}.</p>{% endif %}
-  </li>
-{% endfor %}
-</ul>
-
-{%- comment -%}
-Pie de la sección: por dónde recibirla y dónde está su feed. El RSS de Doble Lectura
-es aparte del de la portada (/feed.xml, sólo el diario); lo declara `feed.collections`
-en _config.yml. El ancla /#suscribete es el bloque de suscripción al pie de la
-portada (id="suscribete" en _layouts/home.html): es una sola lista para el diario
-y para las lecturas, así que este enlace lleva al formulario correcto.
-{%- endcomment -%}
-<section class="lectura-cierre">
-  <p>Doble Lectura sale los lunes. Si prefieres que te llegue por correo, <a href="{{ '/' | relative_url }}#suscribete">suscríbete al newsletter</a>.</p>
-  <p><a href="{{ '/feed-lecturas.xml' | relative_url }}">RSS de Doble Lectura →</a> El feed semanal de esta sección, sólo con las lecturas: las entradas del blog diario no vienen acá.</p>
-</section>
+{%- comment -%}El cuerpo es el mismo en los dos idiomas: ver _includes/pagina_lecturas.html.{%- endcomment -%}
+{% include pagina_lecturas.html %}
