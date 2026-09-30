@@ -1,0 +1,133 @@
+{%- comment -%}
+Estadísticas del sitio con GoatCounter (panel: https://dobleclickjg.goatcounter.com).
+Sin cookies ni banner, y sin guardar nada que identifique a quien lee.
+
+count.js cuenta sola cada página vista. El script de abajo agrega algunos gestos que
+dicen cómo se usa el sitio; cada uno llega al panel como un "evento" y su nombre parte
+con un prefijo fijo, para poder filtrarlos:
+
+  llego-al-final/<slug>   vio el final del cuerpo de una entrada o lectura (scroll, no
+                          prueba que la haya leído)
+  audio-play/<slug>       le dio play al audio (una vez por visita)
+  audio-fin/<slug>        lo escuchó hasta el final
+  fuente/<dominio>        abrió un enlace a otro sitio desde una entrada o lectura
+  externo/<dominio>       lo mismo, desde cualquier otra página
+  relacionado/<tipo>      abrió una recomendación del bloque "Relacionado" (entrada | lectura)
+  navegacion/<sentido>    pasó a la entrada anterior o a la siguiente
+  filtro/<tema>           encendió un tema en el archivo /entradas/
+  busqueda                escribió en el buscador del archivo
+  suscripcion/<página>    envió el formulario del newsletter (no dice si después confirmó)
+  reporte-error/<slug>    envió un reporte de error
+  sugerencia-fuente       envió una fuente desde /fuentes/
+  rss/<feed>              hizo clic en un enlace a un feed (diario | lecturas)
+
+Ningún evento lleva el correo, lo escrito en un formulario ni el texto buscado. Si cambia
+esta lista, cambia también el párrafo "Estadísticas del sitio" de about.md, que se la
+cuenta a quien lee.
+
+/confirmar/ y /baja/ no cargan el contador: llevan en la URL el token del suscriptor, y
+count.js le manda a GoatCounter la query completa (la necesita para leer utm_source y
+utm_campaign). Ese token basta para dar de baja a alguien, así que no sale del sitio.
+
+Para no contarte a ti mismo: abre https://dobleclick.jaguridi.cl/#toggle-goatcounter una
+vez en cada navegador (el del celular también). Deja una marca en ese navegador y avisa
+con una alerta; repetirlo la quita.
+{%- endcomment -%}
+{%- unless page.url == '/confirmar/' or page.url == '/baja/' -%}
+<script data-goatcounter="https://dobleclickjg.goatcounter.com/count"
+      async src="//gc.zgo.at/count.js"></script>
+<script>
+(function(){
+  /* Entradas y lecturas traen slug; las páginas sueltas no, y para ellas basta la ruta. */
+  var SLUG = {{ page.slug | default: '' | jsonify }} || location.pathname.replace(/^\/|\/$/g, '') || 'inicio';
+  var ya = {};
+
+  /* count.js carga en async: si alguien hace clic antes de que llegue, o un bloqueador
+     no la deja cargar, el evento se pierde sin romper nada. */
+  function evento(nombre, titulo){
+    if (!window.goatcounter || !window.goatcounter.count) return;
+    window.goatcounter.count({ path: nombre, title: titulo || '', event: true });
+  }
+  function unaVez(nombre, titulo){
+    if (ya[nombre]) return;
+    ya[nombre] = true;
+    evento(nombre, titulo);
+  }
+  function tituloPagina(){
+    return document.title.replace(/ · Doble Click$/, '');
+  }
+
+  /* Final del cuerpo: el último elemento de .post-body (la nota "Sobre esta entrada" en
+     el diario, el aviso de lectura automática en las lecturas). Cuenta cuando su borde
+     de arriba entra en pantalla o ya quedó atrás. No sirve un IntersectionObserver: si
+     alguien salta de golpe al pie (tecla Fin, un deslizón largo en el celular), el
+     elemento pasa de estar abajo a estar arriba sin haber estado nunca a la vista, y el
+     observador no avisa. Solo se mira al hacer scroll, así que abrir la página no basta. */
+  var cuerpo = document.querySelector('article.post .post-body');
+  var fin = cuerpo && cuerpo.lastElementChild;
+  if (fin) {
+    var alBajar = function(){
+      if (fin.getBoundingClientRect().top > window.innerHeight) return;
+      unaVez('llego-al-final/' + SLUG, tituloPagina());
+      window.removeEventListener('scroll', alBajar);
+    };
+    window.addEventListener('scroll', alBajar, { passive: true });
+  }
+
+  var audio = document.querySelector('.lectura-audio audio');
+  if (audio) {
+    audio.addEventListener('play', function(){ unaVez('audio-play/' + SLUG, tituloPagina()); });
+    audio.addEventListener('ended', function(){ unaVez('audio-fin/' + SLUG, tituloPagina()); });
+  }
+
+  var buscador = document.querySelector('.temas-search');
+  if (buscador) buscador.addEventListener('input', function(){ unaVez('busqueda'); });
+
+  /* Un solo oyente para todos los clics. auxclick cubre el clic con la rueda, que abre
+     el enlace en otra pestaña sin disparar 'click'; el botón derecho se descarta. */
+  function alClic(e){
+    if (e.type === 'auxclick' && e.button !== 1) return;
+    if (!e.target.closest) return;
+
+    var chip = e.target.closest('.temas-chips .chip');
+    if (chip) {
+      var tema = chip.getAttribute('data-tag');
+      if (tema) evento('filtro/' + tema);
+      return;
+    }
+
+    var a = e.target.closest('a[href]');
+    if (!a) return;
+
+    if (a.closest('.relacionado')) {
+      var tipo = a.querySelector('.rel-kind');
+      evento('relacionado/' + (tipo ? tipo.textContent.trim().toLowerCase() : 'otro'));
+    } else if (a.closest('.post-nav')) {
+      evento('navegacion/' + (a.classList.contains('prev') ? 'anterior' : 'siguiente'));
+    } else if (/\/feed-lecturas\.xml$/.test(a.pathname)) {
+      evento('rss/lecturas');
+    } else if (/\/feed\.xml$/.test(a.pathname)) {
+      evento('rss/diario');
+    } else if (/^https?:$/.test(a.protocol) && a.hostname && a.hostname !== location.hostname) {
+      var dominio = a.hostname.replace(/^www\./, '');
+      evento((a.closest('article.post') ? 'fuente/' : 'externo/') + dominio);
+    }
+  }
+  document.addEventListener('click', alClic);
+  document.addEventListener('auxclick', alClic);
+
+  /* 'submit' solo se dispara si el navegador dio el formulario por válido (correo bien
+     escrito, campos obligatorios llenos). Cada formulario se reconoce por su iframe. */
+  document.addEventListener('submit', function(e){
+    var destino = e.target.getAttribute('target');
+    if (destino === 'sub-sink') {
+      evento('suscripcion/' + (location.pathname.replace(/^\/|\/$/g, '') || 'inicio'));
+    } else if (destino === 'report-sink') {
+      evento('reporte-error/' + SLUG, tituloPagina());
+    } else if (destino === 'sug-sink') {
+      evento('sugerencia-fuente');
+    }
+  });
+})();
+</script>
+{%- endunless -%}

@@ -63,3 +63,5 @@ Tu correo se guarda en una **planilla privada de Google (Sheets)** que administr
 Lo usamos **exclusivamente** para enviarte el newsletter. No lo compartimos con nadie ni lo usamos para ninguna otra cosa.
 
 Para darte de baja, al pie de cada correo hay un enlace **Darte de baja**: al hacer clic, tu dirección se elimina de la planilla. No hay que escribirle a nadie ni dar explicaciones.
+
+**Estadísticas del sitio.** Las visitas se cuentan con [GoatCounter](https://www.goatcounter.com/), un contador de código abierto que no usa cookies ni guarda datos que identifiquen a quien lee. Además de las páginas vistas, suma algunos gestos: si alguien llegó al final de una entrada, le dio play al audio, abrió una fuente o envió un formulario. Nunca registra lo que escribes: ni tu correo, ni el texto de un reporte, ni lo que buscas en el archivo. Sirve para saber qué se lee y qué conviene mejorar, no quién lo lee.
