@@ -99,6 +99,19 @@ CNAME   dobleclick   →   jaguridi.github.io
 En GitHub: Settings → Pages → Source `Deploy from a branch`, branch `main`, carpeta `/ (root)`,
 Custom domain `dobleclick.jaguridi.cl`, y "Enforce HTTPS" una vez emitido el certificado.
 
+## Estadísticas
+
+Visitas y uso con GoatCounter, sin cookies: el panel está en
+`https://dobleclickjg.goatcounter.com`. Todo vive en `_includes/analitica.html`, que
+además de contar páginas vistas manda algunos eventos (llegar al final de una entrada,
+play al audio, abrir una fuente, filtrar el archivo, enviar un formulario). La lista de
+eventos y sus nombres está en el comentario de ese archivo. `/confirmar/` y `/baja/` no
+cargan el contador porque llevan el token del suscriptor en la URL.
+
+Para compartir un enlace y saber cuánto tráfico trajo, agrégale
+`?utm_source=linkedin&utm_campaign=<nombre>`: el panel lo muestra como origen y campaña.
+Para no contar tus propias visitas, abre `/#toggle-goatcounter` una vez en cada navegador.
+
 ## Correr local (opcional)
 
 ```bash
