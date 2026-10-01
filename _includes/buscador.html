@@ -2,15 +2,20 @@
 Los chips son botones de alternancia: aria-pressed dice cuál está encendido, y el JS de
 abajo lo mueve junto con la clase .chip-on. El estado inicial ("Todo") ya viene en el HTML,
 para que sea correcto aunque el JS no llegue a correr.
+
+En inglés el chip muestra la traducción del tema pero guarda la clave en español en
+data-tag: es lo que traen las entradas en `tags` y lo que viaja en ?tag=. Así un enlace
+/en/posts/?tag=gobernanza funciona igual que /entradas/?tag=gobernanza. Requiere
+idioma.html antes.
 {%- endcomment -%}
 <div class="temas-chips">
-  <button class="chip chip-on" data-tag="" aria-pressed="true">Todo</button>
-  {% for t in site.data.temas %}<button class="chip" data-tag="{{ t }}" aria-pressed="false">{{ t }}</button>
+  <button class="chip chip-on" data-tag="" aria-pressed="true">{{ t.buscador.todo }}</button>
+  {% for tg in site.data.temas %}<button class="chip" data-tag="{{ tg }}" aria-pressed="false">{{ t.temas[tg] | default: tg }}</button>
   {% endfor %}
 </div>
-<label class="sr-only" for="temas-search">Filtrar por palabra</label>
-<input class="temas-search" id="temas-search" type="search" placeholder="Filtrar por palabra...">
-<p class="temas-empty" role="status" hidden>Nada por aquí. Prueba con otro tema o palabra.</p>
+<label class="sr-only" for="temas-search">{{ t.buscador.etiqueta }}</label>
+<input class="temas-search" id="temas-search" type="search" placeholder="{{ t.buscador.placeholder }}">
+<p class="temas-empty" role="status" hidden>{{ t.buscador.vacio }}</p>
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   var chips = document.querySelectorAll('.temas-chips .chip');

@@ -1,0 +1,80 @@
+{%- comment -%}
+Cuerpo del índice de Doble Lectura, el mismo para /doble-lectura/ y /en/doble-lectura/.
+
+"Próximas lecturas" sale de _data/proximas_lecturas.yml, que la rutina del lunes regenera
+en español. En inglés se muestra `titulo_en` si la entrada lo trae y, si no, el título
+original del paper (que casi siempre está en inglés); los meses de `publicado` se pasan
+al inglés acá mismo, igual que el "y" entre autores. Así la cola en inglés no depende de
+que alguien traduzca ese archivo.
+{%- endcomment -%}
+{%- include idioma.html -%}
+<p class="lectura-intro">{{ t.lecturas.intro }}</p>
+
+{% assign proximas = site.data.proximas_lecturas %}
+{% if proximas and proximas.size > 0 %}
+<aside class="coming-next">
+  <p class="coming-next-label">{{ t.lecturas.proximas }}</p>
+  <ul class="coming-next-list">
+  {% for p in proximas limit:3 %}
+    {%- if _lang == 'en' -%}
+      {%- assign _p_publicado = p.publicado -%}
+      {%- for _m in site.data.i18n.es.fecha.meses -%}
+        {%- assign _p_publicado = _p_publicado | replace: _m, site.data.i18n.en.fecha.meses[forloop.index0] -%}
+      {%- endfor -%}
+      {%- assign _p_publicado = _p_publicado | replace: 'Nota Técnica', 'Technical Note' | replace: 'Preprint arXiv', 'arXiv preprint' -%}
+      {%- assign _p_autores = p.autores | replace: ' y otros', ' et al.' | replace: ' y ', ' and ' -%}
+      {%- assign _p_titulo = p.titulo_en | default: p.paper | default: p.titulo -%}
+    {%- else -%}
+      {%- assign _p_autores = p.autores -%}
+      {%- assign _p_publicado = p.publicado -%}
+      {%- assign _p_titulo = p.titulo -%}
+    {%- endif %}
+    <li class="coming-next-item">
+      <span class="coming-next-title">{{ _p_titulo }}</span>
+      {% if _lang == 'en' and _p_titulo == p.paper %}{% if p.autores %}<span class="coming-next-cite">{{ t.lectura.de | capitalize }} {{ _p_autores }}{% if _p_publicado %} · {{ _p_publicado }}{% endif %}</span>{% endif %}
+      {% elsif p.paper %}<span class="coming-next-cite">{{ t.lectura.sobre }} <em>{{ p.paper }}</em>{% if p.autores %}, {{ t.lectura.de }} {{ _p_autores }}{% endif %}{% if _p_publicado %} · {{ _p_publicado }}{% endif %}</span>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</aside>
+{% endif %}
+
+{% include buscador.html %}
+
+{% if _lang == 'en' %}{% assign lecturas = site.en_lecturas | sort: "date" | reverse %}{% else %}{% assign lecturas = site.lecturas | sort: "date" | reverse %}{% endif %}
+{% if lecturas.size == 0 %}<p class="empty">{{ t.lecturas.vacio }}</p>{% endif %}
+{%- comment -%}
+La más reciente va destacada, pero NO sale de la lista: es el primer ítem de la misma
+lista filtrable, con la clase `lectura-item--principal` encima, y el realce es sólo
+tipográfico (ver style.css). Se hizo así a propósito: si fuera un bloque aparte fuera
+del buscador, al filtrar por un tema que no es el suyo quedaría arriba una lectura que
+contradice el filtro; y si fuera un bloque aparte pero `buscable`, el JS de
+buscador.html le repartiría franjas junto con la lista y habría que duplicar el markup.
+Como primer ítem, desaparece con el filtro igual que las demás y el destacado se
+apaga solo.
+{%- endcomment -%}
+<ul class="lectura-list">
+{% for l in lecturas %}
+  {%- capture _temas_texto %}{% if _lang == 'en' %}{% for tg in l.tags %} {{ t.temas[tg] }}{% endfor %}{% endif %}{% endcapture %}
+  <li class="lectura-item buscable tono-{% include tono.html tags=l.tags %}{% if forloop.first %} lectura-item--principal{% endif %}" data-tags="{{ l.tags | join: ' ' }}" data-text="{{ l.title | downcase | escape }} {{ l.description | downcase | escape }} {{ l.tags | join: ' ' | downcase }}{{ _temas_texto | downcase }}">
+    <a href="{{ l.url | relative_url }}">
+      <span class="lectura-date">{% include fecha.html date=l.date corta=true %}</span>
+      <span class="lectura-title">{{ l.title }}</span>
+    </a>
+    {% if l.description %}<p class="lectura-sub">{{ l.description }}</p>{% endif %}
+    {% if l.paper_titulo %}<p class="lectura-cite">{{ t.lectura.sobre }} <em>{{ l.paper_titulo }}</em>{% if l.paper_autores %}, {{ t.lectura.de }} {{ l.paper_autores }}{% endif %}{% if l.paper_publicado %} · {{ l.paper_publicado }}{% endif %}.</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+{%- comment -%}
+Pie de la sección: por dónde recibirla y dónde está su feed. El RSS de Doble Lectura
+es aparte del de la portada (/feed.xml, sólo el diario); lo declara `feed.collections`
+en _config.yml. El ancla /#suscribete es el bloque de suscripción al pie de la
+portada (id="suscribete" en _layouts/home.html): es una sola lista para el diario
+y para las lecturas, así que este enlace lleva al formulario correcto.
+{%- endcomment -%}
+<section class="lectura-cierre">
+  <p>{{ t.lecturas.cierre }}</p>
+  <p><a href="{{ t.url.feed_lecturas | relative_url }}">{{ t.lecturas.cierre_rss }}</a> {{ t.lecturas.cierre_rss_texto }}</p>
+</section>

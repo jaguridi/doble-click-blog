@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /en/feed-lecturas.xml
+sitemap: false
+---
+{% include feed_en.xml docs=site.en_lecturas titulo="Doble Click · Doble Lectura (English)" %}

@@ -7,21 +7,29 @@ Imagen: si la página trae `image:` en su front matter, se usa esa. Si no, las e
 y las lecturas usan la tarjeta de su familia temática (assets/og/click-N.png o
 lectura-N.png, con N de 0 a 3 según _includes/tono.html), y el resto del sitio la
 tarjeta general. Las rutas son estables a propósito: las redes cachean por URL.
+
+Idioma: lo incluye default.html después de idioma.html y alterno.html, así que acá ya
+están `_lang`, `t` y `_alt_url`. Cuando la página existe en los dos idiomas se emiten
+las etiquetas hreflang (las dos versiones y x-default, que es la española: el original).
+Es lo que le permite a un buscador mostrar a cada quien la versión de su idioma sin que
+el sitio tenga que redirigirlo.
 {%- endcomment -%}
+{%- assign _tagline = t.sitio.tagline | default: site.tagline -%}
+{%- assign _descripcion_sitio = t.sitio.description | default: site.description -%}
 {%- assign _es_lectura = false -%}
-{%- if page.collection == 'lecturas' -%}{%- assign _es_lectura = true -%}{%- endif -%}
+{%- if page.collection == 'lecturas' or page.collection == 'en_lecturas' -%}{%- assign _es_lectura = true -%}{%- endif -%}
 {%- assign _es_articulo = false -%}
 {%- if page.layout == 'post' or _es_lectura -%}{%- assign _es_articulo = true -%}{%- endif -%}
 
-{%- if page.url == '/' or page.title == nil -%}
-  {%- assign _full = site.title | append: ' · ' | append: site.tagline -%}
+{%- if page.url == t.url.inicio or page.title == nil -%}
+  {%- assign _full = site.title | append: ' · ' | append: _tagline -%}
   {%- assign _og_title = site.title -%}
 {%- else -%}
   {%- assign _full = page.title | append: ' · ' | append: site.title -%}
   {%- assign _og_title = page.title -%}
 {%- endif -%}
 
-{%- assign _desc = page.description | default: site.description | strip_html | normalize_whitespace | strip -%}
+{%- assign _desc = page.description | default: _descripcion_sitio | strip_html | normalize_whitespace | strip -%}
 {%- assign _url = page.url | absolute_url -%}
 
 {%- if page.image -%}
@@ -37,8 +45,17 @@ tarjeta general. Las rutas son estables a propósito: las redes cachean por URL.
 <title>{{ _full | escape }}</title>
 <meta name="description" content="{{ _desc | escape }}">
 <link rel="canonical" href="{{ _url }}">
+{%- if _alt_url != '' %}
+{%- if _lang == 'es' -%}{%- assign _url_es = _url -%}{%- else -%}{%- assign _url_es = _alt_url | absolute_url -%}{%- endif %}
+<link rel="alternate" hreflang="{{ _lang }}" href="{{ _url }}">
+<link rel="alternate" hreflang="{{ t.otro.codigo }}" href="{{ _alt_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ _url_es }}">
+{%- endif %}
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:locale" content="es">
+<meta property="og:locale" content="{{ t.og_locale }}">
+{%- if _alt_url != '' %}
+<meta property="og:locale:alternate" content="{{ site.data.i18n[t.otro.codigo].og_locale }}">
+{%- endif %}
 <meta property="og:title" content="{{ _og_title | escape }}">
 <meta property="og:description" content="{{ _desc | escape }}">
 <meta property="og:url" content="{{ _url }}">
@@ -57,10 +74,10 @@ tarjeta general. Las rutas son estables a propósito: las redes cachean por URL.
 <meta name="twitter:image" content="{{ _img }}">
 {%- if _es_articulo and page.date %}
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ page.title | jsonify }},"description":{{ _desc | jsonify }},"url":{{ _url | jsonify }},"mainEntityOfPage":{{ _url | jsonify }},"image":{{ _img | jsonify }},"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},"inLanguage":"es","author":{"@type":"Organization","name":{{ site.title | jsonify }},"url":{{ '/about/' | absolute_url | jsonify }}},"publisher":{"@type":"Organization","name":{{ site.title | jsonify }},"url":{{ '/' | absolute_url | jsonify }}}}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ page.title | jsonify }},"description":{{ _desc | jsonify }},"url":{{ _url | jsonify }},"mainEntityOfPage":{{ _url | jsonify }},"image":{{ _img | jsonify }},"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},"inLanguage":"{{ _lang }}",{% if _lang == 'en' and _alt_url != '' %}"translationOfWork":{"@id":{{ _alt_url | absolute_url | jsonify }}},{% endif %}"author":{"@type":"Organization","name":{{ site.title | jsonify }},"url":{{ t.url.about | absolute_url | jsonify }}},"publisher":{"@type":"Organization","name":{{ site.title | jsonify }},"url":{{ t.url.inicio | absolute_url | jsonify }}}}
 </script>
 {%- else %}
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ site.description | strip | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"inLanguage":"es"}
+{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ _descripcion_sitio | strip | jsonify }},"url":{{ t.url.inicio | absolute_url | jsonify }},"inLanguage":"{{ _lang }}"}
 </script>
 {%- endif %}

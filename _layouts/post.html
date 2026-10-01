@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{%- include idioma.html -%}
 {%- assign _minutos = page.content | strip_html | number_of_words | divided_by: 200 | plus: 1 -%}
 <article class="post tono-{% include tono.html tags=page.tags %}">
   <header class="post-header">
     <p class="post-meta">
       <span class="entry-date">{% include fecha.html date=page.date %}</span>
-      <span class="post-lectura">{{ _minutos }} min de lectura</span>
+      <span class="post-lectura">{{ _minutos }} {{ t.entrada.min_lectura }}</span>
     </p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
@@ -16,8 +17,11 @@ layout: default
     `url_encode` es obligatorio: hay temas con tilde ("ética", "participación") y sin
     escapar romperían la URL. La clase `tags-link` es la que le da el hover; la lista
     de la portada usa `.tags` a secas porque ahí son texto (ver _layouts/home.html).
+
+    En inglés el enlace lleva la misma clave en español (/en/posts/?tag=gobernanza) y
+    lo que se lee es la traducción de _data/i18n.yml; un tema sin traducir se ve tal cual.
     {%- endcomment -%}
-    {% if page.tags %}<ul class="tags tags-link">{% for t in page.tags %}<li><a href="{{ '/entradas/' | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a></li>{% endfor %}</ul>{% endif %}
+    {% if page.tags %}<ul class="tags tags-link">{% for tg in page.tags %}<li><a href="{{ t.url.entradas | relative_url }}?tag={{ tg | url_encode }}">{{ t.temas[tg] | default: tg }}</a></li>{% endfor %}</ul>{% endif %}
   </header>
 
   {%- comment -%}
@@ -25,9 +29,9 @@ layout: default
   suelto merece saberlo antes de leer, no después. Es una ficha técnica, no una alarma
   (la advertencia larga sigue al final del cuerpo), y enlaza al detalle en /about/.
   {%- endcomment -%}
-  <p class="aviso-auto"><a href="{{ '/about/' | relative_url }}#como-se-hace">Generado automáticamente · fuentes enlazadas · sin revisión humana previa</a></p>
+  <p class="aviso-auto"><a href="{{ t.url.about | relative_url }}#como-se-hace">{{ t.entrada.aviso_auto }}</a></p>
 
-  {% if page.audio %}{% include audio.html label="▶ Escuchar la entrada" %}{% endif %}
+  {% if page.audio %}{% include audio.html label=t.entrada.escuchar %}{% endif %}
 
   {%- comment -%}
   Sin índice "En esta entrada": para 3 o 4 minutos de lectura sobra. Las lecturas sí lo
@@ -37,14 +41,15 @@ layout: default
   "Sobre esta entrada" ni la declaración de interés: los pone este layout, así no
   dependen de que el modelo los copie bien y no se cuelan dentro del análisis. Las
   entradas anteriores traen su propio párrafo; para no duplicarlo, a esas solo se les
-  agrega la línea sobre el modelo.
+  agrega la línea sobre el modelo. En las traducciones ese párrafo se llama "About this
+  entry" (t.entrada.marca_sobre).
   {%- endcomment -%}
   <div class="post-body">
     {{ content }}
-    {%- if content contains 'Sobre esta entrada' %}
-    <p><small>Doble Click se escribe con modelos de Anthropic.</small></p>
+    {%- if content contains t.entrada.marca_sobre %}
+    <p><small>{{ t.entrada.linea_modelo }}</small></p>
     {%- else %}
-    <p><small><strong>Sobre esta entrada.</strong> Se escribe de forma automática con modelos de Anthropic, a partir de fuentes públicas y sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen: conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla.</small></p>
+    <p><small>{{ t.entrada.sobre }}</small></p>
     {%- endif %}
   </div>
 
@@ -58,17 +63,17 @@ layout: default
     <div class="post-nav">
       {% if page.previous %}
       <a class="post-nav-link prev" href="{{ page.previous.url | relative_url }}">
-        <span class="post-nav-kicker">← Anterior</span>
+        <span class="post-nav-kicker">{{ t.entrada.anterior }}</span>
         <span class="post-nav-title">{{ page.previous.title }}</span>
       </a>
       {% endif %}
       {% if page.next %}
       <a class="post-nav-link next" href="{{ page.next.url | relative_url }}">
-        <span class="post-nav-kicker">Siguiente →</span>
+        <span class="post-nav-kicker">{{ t.entrada.siguiente }}</span>
         <span class="post-nav-title">{{ page.next.title }}</span>
       </a>
       {% endif %}
     </div>
-    <a class="back-link" href="{{ '/entradas/' | relative_url }}">← Todas las entradas</a>
+    <a class="back-link" href="{{ t.url.entradas | relative_url }}">{{ t.entrada.todas }}</a>
   </nav>
 </article>

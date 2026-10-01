@@ -44,11 +44,36 @@ collections:
   lecturas:
     output: true
     permalink: /doble-lectura/:title/
+  # Versión en inglés: traducciones fieles del español, con el MISMO nombre de archivo
+  # (slug en español incluido), que es lo que empareja las dos versiones. Van en
+  # colecciones propias y no en _posts para que nunca se mezclen con site.posts: el
+  # feed del diario (/feed.xml) lo lee el newsletter y tiene que seguir siendo solo
+  # español. Ver _tools/traduccion_en.md y la sección "Versión en inglés" del README.
+  en_posts:
+    output: true
+    permalink: /en/:year/:month/:day/:title:output_ext
+  en_lecturas:
+    output: true
+    permalink: /en/doble-lectura/:title/
 
 defaults:
   - scope: { path: "", type: "lecturas" }
     values:
       layout: lectura
+  # El idioma de cada página sale de `lang` (español si no lo trae). Todo lo que cuelga
+  # de en/ y las dos colecciones en inglés quedan en inglés sin tener que escribirlo en
+  # cada archivo.
+  - scope: { path: "en" }
+    values:
+      lang: en
+  - scope: { path: "", type: "en_posts" }
+    values:
+      layout: post
+      lang: en
+  - scope: { path: "", type: "en_lecturas" }
+    values:
+      layout: lectura
+      lang: en
   # La imagen social ya no va por defaults: _includes/seo.html elige la tarjeta de la
   # familia temática (assets/og/) o la general. Una página puede fijar la suya con
   # `image:` en su front matter.

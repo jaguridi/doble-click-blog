@@ -55,8 +55,8 @@ que hacer nada: sale de los `tags` que ya escribe.
 Al agregar un tema nuevo a `_data/temas.yml`, conviene agregarlo también a
 `_data/familias.yml` (con y sin tilde) para que no caiga en teja por descarte.
 
-La leyenda de `/entradas/` está escrita a mano en ese archivo: si cambian las familias,
-hay que actualizarla ahí.
+Los nombres de la leyenda de `/entradas/` están en `familias:` de `_data/i18n.yml`, en los
+dos idiomas: si cambian las familias, hay que actualizarlos ahí.
 
 **Doble Lectura** usa el mismo papel y las mismas familias que el diario: es la misma
 publicación, y lo que la distingue es el kicker ("Doble Lectura #N"), no el color. Una
@@ -111,6 +111,49 @@ cargan el contador porque llevan el token del suscriptor en la URL.
 Para compartir un enlace y saber cuánto tráfico trajo, agrégale
 `?utm_source=linkedin&utm_campaign=<nombre>`: el panel lo muestra como origen y campaña.
 Para no contar tus propias visitas, abre `/#toggle-goatcounter` una vez en cada navegador.
+
+## Versión en inglés
+
+El sitio es bilingüe. El español es el original y vive donde siempre; el inglés es una
+traducción fiel que cuelga de `/en/` (`/en/`, `/en/posts/`, `/en/doble-lectura/`,
+`/en/about/`, `/en/sources/`, y sus feeds `/en/feed.xml` y `/en/feed-lecturas.xml`).
+
+- **Contenido.** Cada entrada de `_posts/` tiene su traducción en `_en_posts/` y cada lectura
+  de `_lecturas/` en `_en_lecturas/`, **con el mismo nombre de archivo**: eso es lo que las
+  empareja. Son colecciones aparte, no un `_posts` más, para que el inglés nunca entre en
+  `site.posts` ni en `/feed.xml`, que es el que lee el newsletter.
+- **Textos de la interfaz.** Los layouts e includes no escriben texto: lo leen de
+  `_data/i18n.yml` (ramas `es:` y `en:`) a través de `_includes/idioma.html`, que cada
+  layout incluye al principio. Las páginas de archivo, lecturas y fuentes comparten el
+  cuerpo (`_includes/pagina_*.html`) y solo cambia su front matter. Método no: `about.md` y
+  `en/about.md` son dos textos, y un cambio en uno hay que llevarlo al otro a mano.
+- **Temas.** Las `tags` quedan en español en las dos versiones (deciden color y filtro); el
+  sitio las muestra traducidas con `temas:` de `_data/i18n.yml`.
+- **Fuentes.** `_data/fuentes.yml` trae los textos en inglés en los campos `_en`. Una
+  categoría nueva sin ellos se ve en español en `/en/sources/` hasta que alguien los agregue.
+- **Selector e idioma del navegador.** El botón ES/EN del header lleva a la misma página en
+  el otro idioma (`_includes/alterno.html` busca la pareja). Al entrar al sitio, si quien lee
+  no eligió idioma, se le muestra el que prefiere su navegador; la elección del botón se
+  guarda y manda desde ahí. Los buscadores no se redirigen: tienen las etiquetas `hreflang`.
+  El detalle está en el comentario de `_layouts/default.html`.
+- **Audio.** Solo en español por ahora. El reproductor en inglés busca
+  `assets/audio/en/<slug>.mp3` y, mientras no exista, no aparece.
+
+### Mantener las traducciones al día
+
+Cada traducción guarda en `hash_original` el hash del español con que se hizo. Así se sabe
+qué falta y qué quedó viejo cuando el original cambia (una fe de erratas, una revisión):
+
+```bash
+python _tools/traducciones.py            # informe: por traducir, desactualizadas
+python _tools/traducciones.py --diff     # qué cambió en el español desde que se tradujo
+python _tools/traducciones.py --sellar _en_posts/AAAA-MM-DD-slug.md   # después de traducir
+```
+
+La guía de estilo de la traducción (glosario, números, monedas, enlaces internos) está en
+`_tools/traduccion_en.md`. Una entrada de hoy que todavía no se tradujo simplemente no tiene
+versión en inglés: el selector lleva a la portada en inglés y nadie es redirigido a una
+página que no existe.
 
 ## Correr local (opcional)
 

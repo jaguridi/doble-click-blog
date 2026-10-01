@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mistral negocia 20.000 millones y se ofrece como la IA soberana de Europa"
+title: "Mistral negocia una valoración de 20.000 millones y se ofrece como la IA soberana de Europa"
 description: "Una alternativa europea casi duplica su valor justo cuando Estados Unidos mantiene apagados los modelos más potentes de Anthropic para el resto del mundo."
 date: 2026-06-15 10:06:06 -0400
 tags: [mercados, gobernanza, latam]
@@ -33,5 +33,7 @@ El telón de fondo de todo esto es la historia que venimos siguiendo desde el 12
 ---
 
 *Si la lección de la semana es que la infraestructura de IA puede apagarse desde lejos, ¿basta con cambiar de proveedor, o la verdadera soberanía pasa por construir capacidades propias en la región?*
+
+<small>**Fe de erratas (30 de septiembre de 2026).** El título original decía "Mistral negocia 20.000 millones"; lo correcto es "Mistral negocia una valoración de 20.000 millones": esa cifra, en euros, es la valoración, y la ronda es de unos 3.000 millones de euros, según [TechCrunch](https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/), que cita a Bloomberg.</small>
 
 <small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>

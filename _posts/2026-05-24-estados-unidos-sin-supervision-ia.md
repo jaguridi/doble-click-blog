@@ -11,7 +11,7 @@ La semana cerró con una decisión de gobernanza que reordena el mapa de la inte
 
 Lo llamativo es el contraste con lo que esos mismos modelos están logrando. Esta semana OpenAI anunció que [un modelo de propósito general refutó la conjetura de Erdős](https://openai.com/index/model-disproves-discrete-geometry-conjecture/), un problema abierto durante 80 años, sin haber sido entrenado específicamente para matemáticas. El matemático Tim Gowers, medalla Fields, lo describió como un "hito en la IA matemática". Capacidades que crecen a toda velocidad y supervisión que desaparece avanzan, por ahora, en direcciones opuestas.
 
-Para América Latina la escena tiene un costado incómodo: la región no tiene asiento en estas decisiones ni peso de mercado para influir en ellas. Como referencia, el presupuesto soberano de cómputo más ambicioso de la región —el proyecto Coatlicue en México, unos 6.000 millones de dólares en cinco años— equivale a menos del 1% de [la ronda de financiamiento que Anthropic está por cerrar](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week). La pregunta de fondo es qué pueden negociar los gobiernos de la región cuando no controlan ni la regulación de referencia ni el dinero.
+Para América Latina la escena tiene un costado incómodo: la región no tiene asiento en estas decisiones ni peso de mercado para influir en ellas. Como referencia, el presupuesto soberano de cómputo más ambicioso de la región —el proyecto Coatlicue en México, unos 6.000 millones de pesos en dos años— equivale a cerca del 1% de [la ronda de financiamiento que Anthropic está por cerrar](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week). La pregunta de fondo es qué pueden negociar los gobiernos de la región cuando no controlan ni la regulación de referencia ni el dinero.
 
 ## También hoy
 
@@ -37,5 +37,7 @@ Lo de Erdős y la predicción del Nobel se suman a algo que veníamos observando
 ---
 
 *Si los modelos más capaces avanzan más rápido que las reglas que deberían acompañarlos, ¿qué puede ofrecer un gobierno latinoamericano a cambio de un asiento en la mesa?*
+
+<small>**Fe de erratas (30 de septiembre de 2026).** La versión original decía que el proyecto Coatlicue costaba unos 6.000 millones de dólares en cinco años; lo correcto es unos 6.000 millones de pesos (unos 326 millones de dólares) en dos años de construcción, según [El Financiero](https://www.elfinanciero.com.mx/tech/2025/11/26/una-supercomputadora-del-pueblo-de-mexico-asi-es-coatlicue-que-costara-6-mil-mdp/). Con esa cifra, el proyecto equivale a cerca del 1% de la ronda de Anthropic, y no a menos del 1% como decía la versión original.</small>
 
 <small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>

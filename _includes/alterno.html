@@ -1,0 +1,37 @@
+{%- comment -%}
+La misma página en el otro idioma, si existe. Deja `_alt_url` (ruta relativa, o vacía).
+Requiere que antes se haya incluido idioma.html.
+
+· Entradas y lecturas: se emparejan por nombre de archivo, que es idéntico en las dos
+  versiones (_posts/2026-09-30-slug.md ↔ _en_posts/2026-09-30-slug.md). Una entrada de
+  hoy que todavía no se traduce no tiene pareja, y `_alt_url` queda vacía.
+· Páginas sueltas: por `ref` en el front matter (index.md y en/index.md llevan
+  `ref: inicio`, y así el resto). Una página sin `ref` no tiene pareja.
+
+Con `_alt_url` vacía, el selector de idioma lleva a la portada del otro idioma, no se
+emiten las etiquetas hreflang y la detección de idioma del navegador no redirige.
+{%- endcomment -%}
+{%- assign _alt_url = '' -%}
+{%- assign _alt_doc = nil -%}
+{%- case page.collection -%}
+  {%- when 'posts' -%}
+    {%- assign _alt_ruta = page.path | replace_first: '_posts/', '_en_posts/' -%}
+    {%- assign _alt_doc = site.en_posts | where: 'path', _alt_ruta | first -%}
+  {%- when 'en_posts' -%}
+    {%- assign _alt_ruta = page.path | replace_first: '_en_posts/', '_posts/' -%}
+    {%- assign _alt_doc = site.posts | where: 'path', _alt_ruta | first -%}
+  {%- when 'lecturas' -%}
+    {%- assign _alt_ruta = page.path | replace_first: '_lecturas/', '_en_lecturas/' -%}
+    {%- assign _alt_doc = site.en_lecturas | where: 'path', _alt_ruta | first -%}
+  {%- when 'en_lecturas' -%}
+    {%- assign _alt_ruta = page.path | replace_first: '_en_lecturas/', '_lecturas/' -%}
+    {%- assign _alt_doc = site.lecturas | where: 'path', _alt_ruta | first -%}
+  {%- else -%}
+    {%- if page.ref -%}
+      {%- assign _pares = site.pages | where: 'ref', page.ref -%}
+      {%- for _p in _pares -%}
+        {%- if _p.url != page.url -%}{%- assign _alt_doc = _p -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+{%- endcase -%}
+{%- if _alt_doc -%}{%- assign _alt_url = _alt_doc.url -%}{%- endif -%}

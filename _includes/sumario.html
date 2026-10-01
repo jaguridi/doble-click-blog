@@ -5,8 +5,8 @@ h2 del cuerpo, así no hay que tocar el markdown ni la rutina que lo genera.
 
 Si la entrada tiene menos de tres secciones no se muestra nada.
 {%- endcomment -%}
-<nav class="sumario" hidden aria-label="Secciones de esta entrada">
-  <span class="sumario-label">En esta entrada</span>
+<nav class="sumario" hidden aria-label="{{ t.sumario.aria }}">
+  <span class="sumario-label">{{ t.sumario.titulo }}</span>
 </nav>
 <script>
 // El include va antes de .post-body en el HTML, así que hay que esperar a que el

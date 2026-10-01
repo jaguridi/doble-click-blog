@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "América Latina negoció inteligencia artificial en China, cada país por su cuenta"
-description: "Cuatro países de la región llevaron delegaciones a Beijing en la misma semana, sin una posición común y sin ningún organismo regional en la mesa."
+description: "Tres países de la región llevaron delegaciones a Beijing en la misma semana, sin una posición común y sin ningún organismo regional en la mesa."
 date: 2026-08-22 08:12:40 -0400
 tags: [latam, gobernanza, mercados]
 audio: true
@@ -41,5 +41,7 @@ Fuera de la región, el dinero se movió en la misma dirección. Nvidia tomó un
 ---
 
 *Si nadie ha calculado nunca qué habría conseguido América Latina negociando junta —precio, transferencia tecnológica, acceso al cómputo ya instalado—, ¿qué dice esa ausencia de cálculo sobre lo que de verdad creemos que valen los organismos regionales cuando llega el momento de firmar?*
+
+<small>**Fe de erratas (30 de septiembre de 2026).** La versión original decía en la descripción que cuatro países de la región llevaron delegaciones a Beijing; lo correcto es tres (Ecuador, Chile y El Salvador), según el [cable de EFE publicado en Infobae](https://www.infobae.com/america/agencias/2026/08/21/ecuador-suma-acuerdos-en-china-y-chile-busca-inversion-en-dias-de-visitas-latinoamericanas/).</small>
 
 <small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>

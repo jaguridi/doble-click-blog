@@ -5,6 +5,8 @@ title: Método
 # formularios (#privacidad), desde otras páginas del sitio y desde fuera. El nombre
 # visible es "Método"; la dirección se queda donde está.
 permalink: /about/
+# Empareja esta página con en/about.md para el selector de idioma (ver _includes/alterno.html).
+ref: about
 # La usa _includes/seo.html para la meta description y el og:description de esta página.
 description: "Qué son Doble Click y Doble Lectura, cómo se arma cada entrada con ayuda de IA y sin revisión humana previa, quién lo hace y cómo se usa tu correo si te suscribes."
 ---
@@ -18,6 +20,8 @@ El foco es **la región**: qué de todo esto importa para América Latina, qué 
 ## Cómo se hace {#como-se-hace}
 
 Las entradas se generan de forma **automática** a partir de fuentes públicas (blogs oficiales de laboratorios, universidades, organismos multilaterales, prensa especializada y reguladores de la región) y enlazan siempre a la fuente original para poder profundizar.
+
+Hay además una **[edición en inglés](/en/)**: cada entrada y cada Doble Lectura se traduce del español, también de forma automática. El original es el español; cuando se corrige, la traducción se actualiza.
 
 ## Qué fuentes revisamos
 
@@ -47,14 +51,8 @@ El proyecto lo mantiene **José Guridi**, investigador. Doble Click es un experi
 
 ¿Prefieres recibirlo por correo? Te llega la entrada de cada mañana y, los lunes, la Doble Lectura: es una sola lista, te suscribes una vez y recibes las dos cosas. Antes de empezar te enviamos un único correo para confirmar, y la suscripción parte cuando haces clic en él.
 
-<form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
-  <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
-  <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
-  <button class="sub-btn" type="submit">Suscribirme</button>
-</form>
-<iframe name="sub-sink" title="suscripción" style="display:none"></iframe>
-<p class="sub-ok" role="status" aria-live="polite" hidden>Solicitud enviada. Si la dirección es válida, te llegará un correo para confirmar la suscripción. 📬</p>
-<p class="sub-note">Solo usamos tu dirección para enviarte el newsletter y puedes darte de baja cuando quieras. <a href="{{ '/about/' | relative_url }}#privacidad">Cómo usamos tu correo →</a></p>
+{% include idioma.html %}{% include form_suscripcion.html %}
+<p class="sub-note">{{ t.suscripcion.nota_about }} <a href="{{ t.url.about | relative_url }}#privacidad">{{ t.suscripcion.nota_enlace }}</a></p>
 
 ## Privacidad {#privacidad}
 

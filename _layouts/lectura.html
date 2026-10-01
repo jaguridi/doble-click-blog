@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{%- include idioma.html -%}
 <article class="post lectura tono-{% include tono.html tags=page.tags %}">
   <header class="post-header">
     <p class="kicker">Doble Lectura{% if page.numero %} #{{ page.numero }}{% endif %}</p>
@@ -13,16 +14,16 @@ layout: default
   El mismo aviso que abre las entradas del diario: cómo se hizo esto, antes de leerlo.
   El pie de la lectura conserva la advertencia larga con el enlace al paper original.
   {%- endcomment -%}
-  <p class="aviso-auto"><a href="{{ '/about/' | relative_url }}#como-se-hace">Generado automáticamente · fuentes enlazadas · sin revisión humana previa</a></p>
+  <p class="aviso-auto"><a href="{{ t.url.about | relative_url }}#como-se-hace">{{ t.entrada.aviso_auto }}</a></p>
 
-  {% if page.audio %}{% include audio.html label="▶ Escuchar el resumen · 3 min" %}{% endif %}
+  {% if page.audio %}{% include audio.html label=t.lectura.escuchar %}{% endif %}
 
   {% include sumario.html %}
 
   <div class="post-body">
     {{ content }}
-    {% if page.paper_keywords %}<p class="paper-keywords"><strong>Palabras clave del paper:</strong> {{ page.paper_keywords }}</p>{% endif %}
-    {% if page.paper_doi %}<small><strong>Lectura automática.</strong> Este texto lo generó Claude, un modelo de Anthropic, a partir de la fuente original, sin revisión humana línea por línea. Puede contener errores o interpretaciones discutibles; para validar cualquier punto, revisa la <a href="{{ page.paper_doi }}">fuente original</a>.</small>{% endif %}
+    {% if page.paper_keywords %}<p class="paper-keywords"><strong>{{ t.lectura.palabras_clave }}</strong> {{ page.paper_keywords }}</p>{% endif %}
+    {% if page.paper_doi %}<small>{{ t.lectura.automatica }} <a href="{{ page.paper_doi }}">{{ t.lectura.fuente_original }}</a>.</small>{% endif %}
   </div>
 
   {%- comment -%}
@@ -37,6 +38,6 @@ layout: default
   {% include relacionado.html %}
 
   <nav class="post-foot">
-    <a class="back-link" href="{{ '/doble-lectura/' | relative_url }}">← Todas las lecturas</a>
+    <a class="back-link" href="{{ t.url.lecturas | relative_url }}">{{ t.lectura.todas }}</a>
   </nav>
 </article>

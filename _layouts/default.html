@@ -1,5 +1,7 @@
+{%- include idioma.html -%}
+{%- include alterno.html -%}
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'es' }}">
+<html lang="{{ _lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {%- if _lang == 'es' %}
   {% feed_meta %}
+  {%- endif %}
   {%- comment -%}
   {% feed_meta %} declara sólo /feed.xml —el del diario—; los feeds de colección que se
   configuran en `feed.collections` (_config.yml) no los emite. Este es el de Doble
@@ -16,9 +20,55 @@
   jekyll-feed pese al nombre del archivo: poner application/rss+xml haría que un lector
   se lo pidiera como otra cosa. El `title` los distingue en la lista de suscripción
   del navegador, donde si no aparecerían los dos como "Doble Click".
+
+  Las páginas en inglés declaran sus propios feeds (en/feed.xml y en/feed-lecturas.xml,
+  escritos a mano: jekyll-feed les pondría xml:lang="es") y no los del español.
   {%- endcomment -%}
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} · Doble Lectura" href="{{ '/feed-lecturas.xml' | relative_url }}">
+  {%- if _lang == 'en' %}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} (English)" href="{{ t.url.feed | relative_url }}">
+  {%- endif %}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} · {{ t.sitio.feed_lecturas_titulo }}" href="{{ t.url.feed_lecturas | relative_url }}">
   {% include seo.html %}
+  {%- comment -%}
+  Detección de idioma. GitHub Pages no ve el Accept-Language del navegador, así que se
+  decide acá, antes de pintar nada, y con location.replace (no queda en el historial).
+
+  · Si quien lee ya eligió idioma con el selector del header, manda esa elección: se
+    guarda en localStorage con la clave 'dc-idioma'.
+  · Si no eligió, manda el navegador: el primer idioma de navigator.languages que sea
+    español o inglés. Alguien con el navegador en portugués o en francés se queda en la
+    página a la que llegó.
+  · Solo se redirige al ENTRAR al sitio (sin referrer del mismo dominio): una vez
+    adentro, los enlaces ya mantienen el idioma, y así tampoco hay forma de caer en un
+    rebote si el navegador no deja guardar la elección.
+  · Nunca a un buscador ni a un previsualizador de enlaces: Googlebot ejecuta JavaScript
+    con el navegador en inglés, y redirigirlo sacaría del índice las páginas en español.
+    Para los buscadores están las etiquetas hreflang de seo.html.
+  · Solo si la página existe en el otro idioma (`_alt_url`, ver alterno.html): una
+    entrada de hoy que todavía no se traduce se lee en español.
+  {%- endcomment -%}
+  {%- if _alt_url != '' %}
+  <script>
+  (function(){
+    var AQUI = '{{ _lang }}', OTRO = '{{ t.otro.codigo }}', DESTINO = {{ _alt_url | jsonify }};
+    var elegido = null;
+    try { elegido = localStorage.getItem('dc-idioma'); } catch (e) {}
+    if (elegido === AQUI) return;
+    if (elegido !== OTRO) {
+      if (/bot|crawl|spider|slurp|preview|facebookexternalhit|embedly|lighthouse|headless/i.test(navigator.userAgent)) return;
+      try { if (document.referrer && new URL(document.referrer).host === location.host) return; } catch (e) {}
+      var lista = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ''];
+      var prefiere = null;
+      for (var i = 0; i < lista.length; i++) {
+        var l = String(lista[i] || '').slice(0, 2).toLowerCase();
+        if (l === 'es' || l === 'en') { prefiere = l; break; }
+      }
+      if (prefiere !== OTRO) return;
+    }
+    location.replace(DESTINO + location.search + location.hash);
+  })();
+  </script>
+  {%- endif %}
 </head>
 <body>
   {%- comment -%}
@@ -28,31 +78,49 @@
   cuelgan de /doble-lectura/ y por eso esa rama va antes. Si la URL no calza con ninguna
   sección —404, /confirmar/, /baja/— _sec queda vacío y no se marca nada.
   {%- endcomment -%}
+  {%- comment -%}
+  En inglés las secciones tienen su propia ruta (/en/posts/, /en/sources/…): se comparan
+  contra las de _data/i18n.yml y no contra un texto fijo.
+  {%- endcomment -%}
   {%- assign _url = page.url | default: '/' -%}
   {%- assign _sec = '' -%}
-  {%- if _url == '/' -%}
+  {%- if _url == t.url.inicio -%}
     {%- assign _sec = 'inicio' -%}
-  {%- elsif _url contains '/doble-lectura/' -%}
+  {%- elsif _url contains t.url.lecturas -%}
     {%- assign _sec = 'lectura' -%}
-  {%- elsif _url contains '/entradas/' or page.layout == 'post' -%}
+  {%- elsif _url contains t.url.entradas or page.layout == 'post' -%}
     {%- assign _sec = 'entradas' -%}
-  {%- elsif _url contains '/about/' -%}
+  {%- elsif _url contains t.url.about -%}
     {%- assign _sec = 'about' -%}
-  {%- elsif _url contains '/fuentes/' -%}
+  {%- elsif _url contains t.url.fuentes -%}
     {%- assign _sec = 'fuentes' -%}
   {%- endif -%}
+  {%- comment -%}
+  Selector de idioma: la misma página en el otro idioma o, si todavía no existe, la
+  portada del otro idioma (y el title lo avisa). `lang` y `hreflang` le dicen al lector
+  de pantalla en qué idioma pronunciar el rótulo. El clic guarda la elección para la
+  detección de idioma del <head>.
+  {%- endcomment -%}
+  {%- if _alt_url != '' -%}
+    {%- assign _idioma_href = _alt_url -%}
+    {%- assign _idioma_title = t.otro.aria -%}
+  {%- else -%}
+    {%- assign _idioma_href = t.otro.inicio -%}
+    {%- assign _idioma_title = t.otro.sin_traduccion -%}
+  {%- endif -%}
   <header class="site-header">
-    <a class="brand" href="{{ '/' | relative_url }}">Doble&nbsp;Click<span class="cursor" aria-hidden="true"></span></a>
+    <a class="brand" href="{{ t.url.inicio | relative_url }}">Doble&nbsp;Click<span class="cursor" aria-hidden="true"></span></a>
     <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>Inicio</a>
-      <a href="{{ '/entradas/' | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>Entradas</a>
-      <a href="{{ '/doble-lectura/' | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>Doble Lectura</a>
+      <a href="{{ t.url.inicio | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>{{ t.nav.inicio }}</a>
+      <a href="{{ t.url.entradas | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>{{ t.nav.entradas }}</a>
+      <a href="{{ t.url.lecturas | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>{{ t.nav.lecturas }}</a>
       {%- comment -%}
       El rótulo dice "Método" pero el permalink sigue siendo /about/: hay enlaces
       internos (el pie del formulario, /about/#privacidad) y externos apuntando ahí.
       Cambiar la URL para que calce con el nombre rompería más de lo que ordena.
       {%- endcomment -%}
-      <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Método</a>
+      <a href="{{ t.url.about | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>{{ t.nav.about }}</a>
+      <a class="idioma" href="{{ _idioma_href | relative_url }}" hreflang="{{ t.otro.codigo }}" lang="{{ t.otro.codigo }}" title="{{ _idioma_title }}" aria-label="{{ _idioma_title }}">{{ t.otro.corto }}</a>
     </nav>
   </header>
 
@@ -64,20 +132,20 @@
     <div class="foot-top">
       <span class="foot-brand">Doble Click<span class="cursor" aria-hidden="true"></span></span>
       <nav class="foot-nav">
-        <a href="{{ '/' | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>Inicio</a>
-        <a href="{{ '/entradas/' | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>Entradas</a>
-        <a href="{{ '/doble-lectura/' | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>Doble Lectura</a>
-        <a href="{{ '/about/' | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>Método</a>
-        <a href="{{ '/fuentes/' | relative_url }}"{% if _sec == 'fuentes' %} aria-current="page"{% endif %}>Fuentes</a>
+        <a href="{{ t.url.inicio | relative_url }}"{% if _sec == 'inicio' %} aria-current="page"{% endif %}>{{ t.nav.inicio }}</a>
+        <a href="{{ t.url.entradas | relative_url }}"{% if _sec == 'entradas' %} aria-current="page"{% endif %}>{{ t.nav.entradas }}</a>
+        <a href="{{ t.url.lecturas | relative_url }}"{% if _sec == 'lectura' %} aria-current="page"{% endif %}>{{ t.nav.lecturas }}</a>
+        <a href="{{ t.url.about | relative_url }}"{% if _sec == 'about' %} aria-current="page"{% endif %}>{{ t.nav.about }}</a>
+        <a href="{{ t.url.fuentes | relative_url }}"{% if _sec == 'fuentes' %} aria-current="page"{% endif %}>{{ t.nav.fuentes }}</a>
         {%- comment -%}
         Dos feeds, dos enlaces: /feed.xml trae sólo el diario y /feed-lecturas.xml sólo
         las lecturas de los lunes. No hay uno que junte las dos cosas, a propósito.
         {%- endcomment -%}
-        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-        <a href="{{ '/feed-lecturas.xml' | relative_url }}">RSS Lecturas</a>
+        <a href="{{ t.url.feed | relative_url }}">{{ t.nav.rss }}</a>
+        <a href="{{ t.url.feed_lecturas | relative_url }}">{{ t.nav.rss_lecturas }}</a>
       </nav>
     </div>
-    <p class="foot-legal">Contenido curado de forma automática a partir de fuentes públicas. Verifica en la fuente original antes de citar.</p>
+    <p class="foot-legal">{{ t.pie_legal }}</p>
   </footer>
 
   <script>
@@ -135,16 +203,24 @@
         if (enviando) return;
         enviando = true;
         if (boton) boton.disabled = true;
-        decir('Enviando…', false);
+        decir({{ t.formulario.enviando | jsonify }}, false);
         reloj = setTimeout(function(){
           if (!enviando) return;
           enviando = false;
           if (boton) boton.disabled = false;  // el formulario sigue ahí, con lo escrito
-          decir('No pudimos confirmar que la solicitud llegara. Inténtalo de nuevo en un momento.', true);
+          decir({{ t.formulario.error | jsonify }}, true);
         }, ESPERA);
       });
     });
   })();
+
+  /* El selector de idioma guarda la elección antes de navegar: desde ahí en adelante
+     manda ella y no el idioma del navegador (ver la detección en el <head>). */
+  document.querySelectorAll('.site-nav .idioma').forEach(function(a){
+    a.addEventListener('click', function(){
+      try { localStorage.setItem('dc-idioma', a.getAttribute('hreflang')); } catch (e) {}
+    });
+  });
   </script>
   {% include analitica.html %}
 </body>

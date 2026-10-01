@@ -11,7 +11,7 @@ A las 00:00 UTC de hoy —las ocho de la tarde del domingo en Santiago— el lab
 
 El "cualquiera", sin embargo, tiene letra chica. La descarga son unos 594 GB en cuantización de cuatro bits —una técnica que comprime el modelo para que ocupe menos— y hacerlo funcionar exige del orden de 1,4 terabytes de memoria rápida antes de cargar una sola línea de contexto. Eso lo deja, en la práctica, fuera del alcance de ministerios, poderes judiciales y universidades latinoamericanas, y dentro del alcance de las nubes y los proveedores de inferencia. El argumento que hace atractivo un modelo abierto para un Estado es la soberanía de datos: que la información no salga de la jurisdicción. Ese argumento sobrevive solo si alguien en la región puede efectivamente hospedar el modelo. Si no, el modelo es abierto y el alojamiento sigue siendo extranjero.
 
-La distancia entre ambas cosas se mide en racks de silicio, y esta semana quedó a la vista cuánto cuestan. El mismo fin de semana, [Nvidia negoció respaldar con unos USD 250.000 millones el financiamiento del campus de datos de OpenAI en Piketon, Ohio](https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says): 10 GW levantados sobre una antigua planta de enriquecimiento de uranio, en un proyecto de al menos medio billón de dólares, más otros USD 350.000 millones en discusión para compra de chips. El inversionista Michael Burry lo resumió en cuatro palabras: "Around and around we go" —el proveedor de chips garantiza la deuda con la que su cliente compra sus chips.
+La distancia entre ambas cosas se mide en racks de silicio, y esta semana quedó a la vista cuánto cuestan. El mismo fin de semana, [Nvidia negoció respaldar con unos USD 250.000 millones el financiamiento del campus de datos de OpenAI en Piketon, Ohio](https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says): 10 GW levantados sobre una antigua planta de enriquecimiento de uranio, en un proyecto de al menos medio billón de dólares, más otros USD 350.000 millones en discusión para compra de chips. El inversionista Michael Burry lo resumió en cinco palabras: "Around and around we go" —el proveedor de chips garantiza la deuda con la que su cliente compra sus chips.
 
 ## También hoy
 
@@ -34,5 +34,7 @@ Esta es la tercera vez en una semana que la conversación vuelve al mismo punto.
 ---
 
 *Si el modelo dejó de ser la barrera de entrada y la barrera pasó a ser el alojamiento, ¿qué debería estar comprando hoy un Estado latinoamericano: licencias, capacidad en la nube de un tercero, o gigavatios propios?*
+
+<small>**Fe de erratas (30 de septiembre de 2026).** La versión original decía que Michael Burry lo resumió en cuatro palabras; la frase citada, "Around and around we go", tiene cinco, según [Benzinga en Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-moves-backstop-250-015059079.html).</small>
 
 <small>**Sobre esta entrada.** Se genera de forma automática a partir de fuentes públicas, sin revisión humana antes de publicarse. Puede contener errores de interpretación o de resumen; conviene verificar cada noticia en su fuente original (los enlaces llevan ahí) antes de citarla o tomar decisiones a partir de ella.</small>

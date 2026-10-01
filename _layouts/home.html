@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+{%- include idioma.html -%}
 <section class="hero">
-  <p class="kicker">Inteligencia artificial · perspectiva latinoamericana</p>
+  <p class="kicker">{{ t.sitio.kicker }}</p>
   <h1 class="hero-title">Doble Click<span class="cursor" aria-hidden="true"></span></h1>
   <div class="hero-intro">{{ content }}</div>
   {%- comment -%}
@@ -13,12 +14,12 @@ layout: default
   {%- endcomment -%}
   <ul class="lineas">
     <li class="linea">
-      <p class="linea-kicker">Todos los días</p>
-      <p class="linea-texto"><strong>Doble Click.</strong> Lanzamientos, investigación, gobernanza y movimientos de la industria, en una sola entrada.</p>
+      <p class="linea-kicker">{{ t.portada.todos_los_dias }}</p>
+      <p class="linea-texto"><strong>Doble Click.</strong> {{ t.portada.linea_diario }}</p>
     </li>
     <li class="linea">
-      <p class="linea-kicker">Los lunes</p>
-      <p class="linea-texto"><strong>Doble Lectura.</strong> Un paper o un informe de política pública leído con calma: primero qué dice, después qué significa desde la región. <a href="{{ '/doble-lectura/' | relative_url }}">Ver las lecturas →</a></p>
+      <p class="linea-kicker">{{ t.portada.los_lunes }}</p>
+      <p class="linea-texto"><strong>Doble Lectura.</strong> {{ t.portada.linea_lectura }} <a href="{{ t.url.lecturas | relative_url }}">{{ t.portada.ver_lecturas }}</a></p>
     </li>
   </ul>
 </section>
@@ -30,11 +31,20 @@ con la sección semanal, sin tener que llegar al pie ni pasar por el menú.
 
 `site.lecturas` NO viene ordenada por fecha, así que se ordena a mano y se toma la
 última. Con la colección vacía, `last` devuelve nil y el include no imprime nada.
+
+La portada en inglés (en/index.md) usa este mismo layout con las colecciones en inglés.
+`site.posts` ya viene de la más nueva a la más vieja; `site.en_posts`, al revés.
 {%- endcomment -%}
-{%- assign ultima_lectura = site.lecturas | sort: "date" | last -%}
+{%- if _lang == 'en' -%}
+  {%- assign _feed = site.en_posts | reverse -%}
+  {%- assign ultima_lectura = site.en_lecturas | sort: "date" | last -%}
+{%- else -%}
+  {%- assign _feed = site.posts -%}
+  {%- assign ultima_lectura = site.lecturas | sort: "date" | last -%}
+{%- endif -%}
 
 <section class="feed">
-  <p class="feed-label">Últimas entradas</p>
+  <p class="feed-label">{{ t.portada.ultimas }}</p>
   {% assign _hoy = site.time | date: '%Y-%m-%d' %}
   {%- comment -%}
   Un solo loop, con la destacada insertada después de la tercera vuelta: partirlo en
@@ -48,11 +58,11 @@ con la sección semanal, sin tener que llegar al pie ni pasar por el menú.
     cuarto lugar, así que recibe `--i: 3` y las entradas de la cuarta en adelante se
     corren un puesto. Si no, dos bloques entrarían con el mismo retardo.
   {%- endcomment -%}
-  {% for post in site.posts limit: 8 %}
+  {% for post in _feed limit: 8 %}
   {%- if forloop.index0 < 3 -%}{%- assign _i = forloop.index0 -%}{%- else -%}{%- assign _i = forloop.index0 | plus: 1 -%}{%- endif -%}
   <article class="entry tono-{% include tono.html tags=post.tags %}{% if forloop.first %} entry--principal{% endif %}" style="--i: {{ _i }}">
     <a class="entry-link" href="{{ post.url | relative_url }}">
-      <span class="entry-date">{% include fecha.html date=post.date %}</span>{% assign _fecha_post = post.date | date: '%Y-%m-%d' %}{% if _fecha_post == _hoy %}<span class="entry-hoy">Hoy</span>{% endif %}
+      <span class="entry-date">{% include fecha.html date=post.date %}</span>{% assign _fecha_post = post.date | date: '%Y-%m-%d' %}{% if _fecha_post == _hoy %}<span class="entry-hoy">{{ t.portada.hoy }}</span>{% endif %}
       <h2 class="entry-title">{{ post.title }}</h2>
       {% if post.description %}<p class="entry-desc">{{ post.description }}</p>{% endif %}
       {%- comment -%}
@@ -65,14 +75,14 @@ con la sección semanal, sin tener que llegar al pie ni pasar por el menú.
       compensa: quien quiera filtrar por tema tiene los chips en /entradas/ y los tags
       enlazados dentro de la entrada, a un clic de distancia.
       {%- endcomment -%}
-      {% if post.tags %}<ul class="tags">{% for t in post.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+      {% if post.tags %}<ul class="tags">{% for tg in post.tags %}<li>{{ t.temas[tg] | default: tg }}</li>{% endfor %}</ul>{% endif %}
     </a>
   </article>
   {%- if forloop.index == 3 %}
   {% include lectura_destacada.html lectura=ultima_lectura orden=3 %}
   {% endif -%}
   {% else %}
-  <p class="empty">Todavía no hay entradas publicadas. Vuelve pronto.</p>
+  <p class="empty">{{ t.portada.vacia }}</p>
   {% include lectura_destacada.html lectura=ultima_lectura orden=0 %}
   {% endfor %}
   {%- comment -%}
@@ -80,11 +90,11 @@ con la sección semanal, sin tener que llegar al pie ni pasar por el menú.
   parar fuera de la portada. Este bloque la recupera al final del feed (el `else` del
   loop cubre el caso extremo de cero entradas).
   {%- endcomment -%}
-  {% if site.posts.size > 0 and site.posts.size < 3 %}
-  {% include lectura_destacada.html lectura=ultima_lectura orden=site.posts.size %}
+  {% if _feed.size > 0 and _feed.size < 3 %}
+  {% include lectura_destacada.html lectura=ultima_lectura orden=_feed.size %}
   {% endif %}
-  {% if site.posts.size > 8 %}
-  <p class="feed-more"><a href="{{ '/entradas/' | relative_url }}">Ver todas las entradas →</a></p>
+  {% if _feed.size > 8 %}
+  <p class="feed-more"><a href="{{ t.url.entradas | relative_url }}">{{ t.portada.ver_todas }}</a></p>
   {% endif %}
 </section>
 
@@ -98,15 +108,9 @@ y oculto —así, sin JavaScript, no aparece nunca— y el script de default.htm
 vacía al cargar para ir contando el estado real del envío. Ver ahí el detalle.
 {%- endcomment -%}
 <section class="subscribe" id="suscribete">
-  <p class="kicker">Newsletter</p>
-  <h2 class="subscribe-title">Recíbelo por correo</h2>
-  <p class="subscribe-text">Una entrada cada mañana y, los lunes, la Doble Lectura. Nada más: sin spam.</p>
-  <form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
-    <input class="sub-input" type="email" name="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
-    <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
-    <button class="sub-btn" type="submit">Suscribirme</button>
-  </form>
-  <iframe name="sub-sink" title="suscripción" style="display:none"></iframe>
-  <p class="sub-ok" role="status" aria-live="polite" hidden>Solicitud enviada. Si la dirección es válida, te llegará un correo para confirmar la suscripción. 📬</p>
-  <p class="sub-note">Una sola lista para las dos cosas. La suscripción parte cuando haces clic en el correo de confirmación; solo usamos tu dirección para enviarte el newsletter y puedes darte de baja cuando quieras. <a href="{{ '/about/' | relative_url }}#privacidad">Cómo usamos tu correo →</a></p>
+  <p class="kicker">{{ t.suscripcion.kicker }}</p>
+  <h2 class="subscribe-title">{{ t.suscripcion.titulo }}</h2>
+  <p class="subscribe-text">{{ t.suscripcion.texto }}{% if t.suscripcion.idioma_newsletter != '' %} {{ t.suscripcion.idioma_newsletter }}{% endif %}</p>
+  {% include form_suscripcion.html %}
+  <p class="sub-note">{{ t.suscripcion.nota }} <a href="{{ t.url.about | relative_url }}#privacidad">{{ t.suscripcion.nota_enlace }}</a></p>
 </section>

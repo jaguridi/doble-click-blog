@@ -123,6 +123,13 @@ body::before{
   color:var(--accent-text);
   text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:.4em;
 }
+/* Selector de idioma: el último del menú, en una cajita para que no se lea como una
+   sección más. Dice a qué idioma lleva (EN desde el español, ES desde el inglés). */
+.site-nav a.idioma{
+  border:1px solid var(--line); border-radius:3px;
+  padding:.05rem .4rem; margin-left:-.2rem; line-height:1.5;
+}
+.site-nav a.idioma:hover{ border-color:var(--accent-text); }
 
 /* ---------- main ---------- */
 .site-main{ max-width:var(--wide); margin:0 auto; padding:0 1.5rem; }
@@ -529,6 +536,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 @media (max-width:640px){
   body{ font-size:1.1rem; }
   .site-header{ flex-direction:column; align-items:flex-start; gap:.7rem; padding:1.3rem 1.2rem; }
+  /* En columna, el selector de idioma quedaba solo en una segunda fila del menú: sube a
+     la esquina, a la altura de la marca. El header ya es position:relative. */
+  .site-nav a.idioma{ position:absolute; top:1.45rem; right:1.2rem; margin-left:0; }
   .hero{ padding:3rem 0 2rem; }
   .site-main{ padding:0 1.2rem; }
   /* las franjas se alinean con el padding del main, que en móvil es menor */

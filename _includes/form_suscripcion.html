@@ -1,0 +1,22 @@
+{%- comment -%}
+Formulario del newsletter: el mismo en la portada y en Método, en los dos idiomas.
+Requiere idioma.html antes (usa `t` y `_lang`).
+
+El .sub-ok es la región viva del formulario: nace con el mensaje de éxito escrito
+y oculto —así, sin JavaScript, no aparece nunca— y el script de default.html lo
+vacía al cargar para ir contando el estado real del envío. Ver ahí el detalle.
+
+Desde inglés se manda además `lang=en`. El Apps Script de hoy no lo lee (envía un solo
+newsletter, en español), pero así, el día que exista la edición en inglés, basta con
+que lo guarde: quien se suscribió desde /en/ ya viene marcado.
+{%- endcomment -%}
+<form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
+  <input class="sub-input" type="email" name="email" placeholder="{{ t.suscripcion.placeholder }}" required aria-label="{{ t.suscripcion.aria_correo }}">
+  {%- if _lang == 'en' %}
+  <input type="hidden" name="lang" value="en">
+  {%- endif %}
+  <span class="sub-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>
+  <button class="sub-btn" type="submit">{{ t.suscripcion.boton }}</button>
+</form>
+<iframe name="sub-sink" title="{{ t.suscripcion.iframe }}" style="display:none"></iframe>
+<p class="sub-ok" role="status" aria-live="polite" hidden>{{ t.suscripcion.ok }}</p>

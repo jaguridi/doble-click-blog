@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Twenty-five companies urge Washington not to shut down open weights"
+description: "Latin America's cheapest route to frontier AI depends on a decision the region has no seat in."
+date: 2026-07-25 10:08:00 -0400
+tags: [gobernanza, latam, mercados, lanzamientos]
+audio: true
+hash_original: "2218d2244cab"
+---
+
+Twenty-five companies, among them Nvidia, Microsoft, Meta, Mistral, Hugging Face, the Linux Foundation, Mozilla, IBM, Dell, Palantir, Andreessen Horowitz and Y Combinator, published a joint letter on July 24, [*Open Weights and American AI Leadership*](https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf), urging the US government not to impose "premature restrictions" on open-weights models. Open weights are, in short, a model's published parameters: anyone can download them, run them on their own infrastructure and adapt them. The text arrives just as Washington weighs banning Chinese models and the Treasury threatens Moonshot AI with sanctions.
+
+The letter's argument is economic before it is ideological: open weights let startups, universities and public institutions build without training a model from scratch or paying frontier prices for every task. The absences say as much as the signatures (OpenAI, Anthropic and Google, the three big closed-model labs, do not appear), which also makes the document a competitive move; and it is worth remembering that all the signatories have a direct commercial interest in the outcome.
+
+For Latin America, the issue is not abstract. The region is among the most dependent on open weights: Latam-GPT was built on them, and governments and companies use them as a cheap route to data sovereignty, running the models on their own servers. If Washington restricts them, LatAm loses its most affordable access to frontier capability without having had a seat at either table: neither in the letter nor in the negotiation that prompted it. The financial backdrop reinforces the dependence: [Stripe is negotiating to buy OpenRouter for about $10 billion](https://www.axios.com/2026/07/24/stripe-openrouter-merger-ai-currency), nearly eight times its May valuation (that platform is the practical gateway to frontier models for regional teams without corporate contracts with the labs), while [Moonshot AI seeks a valuation of up to $50 billion ahead of an IPO in Hong Kong](https://qz.com/moonshot-ai-pre-ipo-funding-50-billion-valuation-072126), with recurring revenue that went from $100 million in March to $300 million in June, just as Washington weighs restricting its models.
+
+## Also today
+
+- **[Representatives Lieu and Moran introduce the "AI Kill Switch Act"](https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can)** — it is the second government shutdown mechanism for frontier AI in two months. The first left Latin America without access to Fable 5 within hours and with no prior notice.
+- **[Researchers escape the Claude Cowork sandbox on Mac with a single message](https://www.accomplish.ai/blog/sharedroot-escaping-claude-cowork-sandbox/)** — SSH keys and cloud credentials were exposed on about 500,000 machines. Anthropic closed the report as "informative" and moved default execution to the cloud.
+- **[UNAM suspends first-year enrollment in all its undergraduate programs](https://www.elfinanciero.com.mx/nacional/2026/07/24/unam-suspende-inscripciones-de-nuevo-ingreso-a-licenciatura-por-posibles-anomalias-en-examen-de-admision/)** — the largest university in the region halts admission of an entire cohort because it can no longer tell who used AI on its first fully online exam.
+- **[An Indiana judge catches a court reporter submitting an official transcript with AI errors](https://www.404media.co/judge-caught-court-reporter-using-ai-transcript-errors/)** — it is the first documented case against a court reporter rather than a lawyer: the problem has moved from the parties' filings to the court record itself.
+- **[A report on AI communications governance](https://www.arctera.com/research/ai-communications-governance)** — a survey of 500 professionals in finance, health care and energy in the Americas and EMEA: 78% expect the risk of AI-assisted communications to increase in 12 to 24 months and 55% already have policies, but only 19% have the logging and detection controls needed to *prove* what the AI produced and who reviewed it. It is a vendor study with a direct commercial interest in selling that evidence layer, so the figures should be read with caution; even so, the gap it documents (having a policy without being able to demonstrate compliance) is the blind spot of the frameworks now being written in Brazil, Chile and Colombia.
+
+## In the region
+
+On July 23 and 24 in Mexico City, the UN closed the [second regional meeting of the "AI and Human Development" initiative](https://mexico.un.org/es/319837-mientras-la-inteligencia-artificial-transforma-el-mundo-l%C3%ADderes-y-lideresas-de-pensamiento), led by Deputy Secretary-General Amina J. Mohammed and organized with the Government of Mexico, as a follow-up to the inaugural meeting in Cairo and on the way to the General Assembly in September. The contrast of the day is one of speed: the only forum where the region has an institutional voice met for two days and leads to nothing until September, while the letter from the 25 companies was published, circulated and debated within hours. In the Southern Cone, news also circulated of a non-binding recommendation by the Mercosur Parliament for member states to legislate on AI with common principles (safety, data protection, non-discrimination, explainability and human oversight of critical decisions), but we were unable to confirm it in an official source from the body, so we are noting it as pending verification and without a link. In Brazil (PL 2338/2023) and Chile (Boletín 16.821-19), no legislative developments this week.
+
+## Launches
+
+- **[Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)** — Anthropic places its new model close to Fable 5 in capability, at $5 and $25 per million input and output tokens (half the price of Fable 5), with a one-million-token context window and a fast mode that is 2.5 times quicker. It is already available in the API and as the default model in Claude Max. It is the third frontier price cut in a week, along with DeepSeek V4 in general availability and Qwen 3.6-Plus: cost per task is no longer the main barrier for regional teams.
+- **[FLUX 3](https://bfl.ai/models/flux-3)** — a multimodal model from Black Forest Labs: clips of up to 20 seconds with native audio, image editing and robotic action prediction from the same weights. For now there is only early access to the video variant, with no public API or pricing. It promises multilingual dialogue, which remains to be verified in Spanish and Portuguese. A juicy detail: the company signed the open-weights letter on the same day its most capable model came out in closed access and with private weights.
+- **[Health in ChatGPT](https://openai.com/index/health-in-chatgpt/)** — a panel that connects medical records and Apple Health data inside ChatGPT. Only in the United States, for users over 18, on web and iOS: it cannot be tried from the region, but it is exactly the precedent that Latin America's data authorities will have to evaluate before it arrives.
+
+## Threads we're following
+
+We had been following the story of access shutdowns: the first government shutdown mechanism for frontier AI left the region without Fable 5 within hours and without warning, and since then the open question has been how fragile Latin American access is when the decision is made in another capital. Today's chapter adds two pieces to the same board: a bill that institutionalizes that shutdown button, and a business letter defending the only route (open weights) that would allow work to continue if the button is pressed.
+
+---
+
+*If the price of frontier capability is cut in half in a week and, at the same time, the open route that sustains that drop is left at the mercy of a Washington decision in which the region has no part, what does "AI sovereignty" mean in Latin America today: having our own models, having the capacity to audit other people's, or simply having a plan for the day access is switched off?*
+
+<small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>
