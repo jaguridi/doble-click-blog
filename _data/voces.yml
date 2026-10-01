@@ -167,6 +167,9 @@ empresas-ia-consejo-seguridad-onu:
 enciclica-papal-inteligencia-artificial:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+entrenar-buscador-resumenes-westlaw-no-uso-legitimo:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 espacio-trabajo-global-modelos:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
