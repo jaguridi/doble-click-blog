@@ -1,0 +1,13 @@
+Un tribunal federal de apelaciones de Estados Unidos confirmó que la empresa ROSS Intelligence infringió los derechos de autor de Thomson Reuters. ROSS entrenó su buscador jurídico con resúmenes de sentencias tomados de Westlaw, el servicio de búsqueda legal de Thomson Reuters.
+
+La decisión es de la Corte de Apelaciones del Tercer Circuito y está fechada el veintinueve de septiembre. Según el fallo, dos mil doscientos cuarenta y tres de esos resúmenes son lo bastante originales para tener protección. Otra empresa, LegalEase, había redactado para ROSS unos veinticinco mil memorandos de entrenamiento que incorporaban miles de ellos.
+
+El tribunal rechazó además que ese uso fuera legítimo bajo la doctrina estadounidense que permite usar obras protegidas sin permiso en ciertos casos. Pesaron dos razones: ROSS buscaba competir directamente con Westlaw, y su sistema solo devolvía pasajes de sentencias, sin generar texto nuevo.
+
+Lo que sigue es una interpretación de Doble Click, no una conclusión del tribunal. Quien entrene un motor de búsqueda con textos de terceros para sustituir el producto original podría tener que pagar una licencia, en lugar de defender ese uso en un juicio.
+
+Lo que falta saber es qué pasará con los modelos que sí generan texto, como los chatbots. El propio tribunal separó este caso de las demandas contra esos sistemas. Y según el fallo, el Departamento de Justicia sostuvo en otro litigio que entrenar un modelo de lenguaje es transformador. Esa discusión queda para las demandas contra los modelos generativos.
+
+En la región, el viceministro de Industria de Paraguay, Javier Viveros, presentó el proyecto Yguazú Digital, según el medio JOTA. Busca usar la energía de Itaipú para convertir al país en un polo de inteligencia artificial.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
