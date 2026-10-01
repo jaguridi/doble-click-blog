@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, how Brazil is regulating artificial intelligence, and why labor ended up in the blind spot.
+
+This study is neither an experiment nor a series of interviews. It is a structured reading of fifty-seven Brazilian public policy documents, from January 2019 to July 2024: bills, court decisions, government programs, letters and manifestos from unions and social movements. The authors read them with one underlying question: who is included and who is left out when a country decides how to govern artificial intelligence. And they go through three dimensions: regulation, development and governance.
+
+On regulation, they find a country still without a national law. The center of the debate is a bill known as the artificial intelligence bill, which sets general principles but barely touches labor rights. It came to accumulate one hundred forty-five amendments, and even so it was not voted on, held back by lobbying from big tech and from industry.
+
+On development, Brazil leads the region, with more artificial intelligence companies than Chile or Mexico, although it is far behind the United States and China. The government launched an ambitious plan, with an enormous investment. But labor enters almost only as workforce training. There is a lot of talk about sovereignty, and very little about the rights of those who work.
+
+Governance is where things are most alive. The struggle is not waged only by the state and companies. Unions, movements and associations push. The largest union federation backed the bill. The cultural sector mobilized after the Hollywood strikes. Dubbing actors organized against being replaced by synthetic voices. And some called for protecting data workers, the people who annotate and label to train the models. But that pressure remains confined to letters and hearings, without a broader mobilization.
+
+From Latin America, the reading is direct. This is the region's strong case, the one with the most companies and the biggest plan. If even there labor is left out, it is hard to imagine it faring better where the state apparatus is smaller. And there is a warning that applies to any country: you can have a tidy artificial intelligence policy with investment behind it, and the world of work can still be left out of the conversation. The existence of regulation does not guarantee that it protects those who work.
+
+The question it leaves is who sits at that table. As long as workers' voices do not move from the formal letter to something more, artificial intelligence will continue to be governed without them.
+
+This study is by Grohmann, Paraná, Valente and Figaro. This was an automated reading made with Claude, so it's a good idea to check the original source before citing it.

@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, an OpenAI report on which jobs artificial intelligence affects, and when.
+
+The starting idea is simple. Almost every analysis asks the same thing: how many of a job's tasks artificial intelligence could do. That is called exposure. The report says that this measure, on its own, is too crude. The fact that the machine can do many tasks does not mean the job is going to disappear.
+
+So they add two layers. The first is human necessity. Even if artificial intelligence can do the mental work, sometimes a person is still needed. For regulatory reasons, because someone has to sign off or answer for it. For relational reasons, because the value lies in care or teaching. Or for physical reasons, because someone has to act in the real world. The second layer is how demand responds. If a service gets cheaper, people sometimes buy so much more of it that the same staff, or even more, is needed.
+
+With those layers, the report sorts jobs in the United States into four groups. It estimates that eighteen percent face a high risk of automation in the near term. Twenty-four percent get reorganized: workers are still needed, but there could be fewer of them. Twelve percent could grow thanks to artificial intelligence. And forty-six percent would see few changes for now. The underlying conclusion is that many highly exposed jobs are not headed for automation, but for redesign.
+
+To validate all this, they use real ChatGPT usage. And a clear finding emerges there: in the jobs the framework flags as highest risk, ChatGPT is used about three times more than in those under the least pressure.
+
+And from Latin America? The most useful thing is not the number, it is the method. Separating what the machine can do from whether a person is still needed helps avoid confusing capability with layoffs. In a region with a lot of care work, person-to-person work and public employment, that distinction matters. But there is a big caveat. This is a report by OpenAI itself, which measures impact using its own product and estimates two of its three layers with its own models. It is internal evidence, not an independent audit. Before basing a policy on this, it is worth asking for local measurements.
+
+The question it leaves is concrete. If knowing how many tasks the machine can do is not enough to know where it will hurt, the task is not to make lists of doomed jobs, but to have the capacity to measure, in time, where pressure is showing up.
+
+The report is signed by Alex Martin Richmond, of OpenAI's economic team, with an opening note by its chief economist, Ronnie Chatterji. This was an automated reading made by Claude, so it's a good idea to check the original source.

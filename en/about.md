@@ -23,7 +23,7 @@ Posts are generated **automatically** from public sources (official lab blogs, u
 
 Doble Click is written in Spanish. This English edition is a **translation of the Spanish original**, also done automatically with Claude, Anthropic's models: every post and every Doble Lectura has its counterpart, with the same sources and links. When the Spanish original is corrected, the translation is updated to match. If a translation says something the original doesn't, the Spanish version is the one that counts, and we would like to hear about it through the error form.
 
-The newest post may take a few hours to appear in English: until then, it is only available in Spanish. The audio summaries are Spanish-only for now.
+The newest post may take a few hours to appear in English: until then, it is only available in Spanish. The audio summaries are dubbed into English, with synthetic American voices, for every Doble Lectura and for posts since September 27, 2026; earlier posts have audio in Spanish only.
 
 ## Which sources we follow
 

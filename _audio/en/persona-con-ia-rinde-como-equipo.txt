@@ -1,0 +1,17 @@
+Doble Lectura, from Doble Click. Today, what happens when one person with artificial intelligence does the work that used to take two.
+
+The study is a field experiment inside Procter and Gamble, published in Organization Science. It involved 791 professionals from the commercial and research and development areas. Each one spent a workday in a product development workshop, on real challenges from their own business unit. A random draw split them into four groups: alone without the tool, in pairs without the tool, alone with it, and in pairs with it. Expert evaluators, who did not know which group each person was in, scored the solutions.
+
+The first result is the one behind the title. The person who worked alone with artificial intelligence reached the same level of quality as the human pair that worked without it. And adding the tool to the pair barely moved the average beyond that.
+
+The second result is about the boundaries between specialties. Without the tool, people from the commercial area proposed commercial ideas and people from research and development proposed technical ideas. With the tool that difference fades, and both groups generate a similar mix, without quality suffering. And those who do not usually work in product development, alone and with the tool, reached the level of the teams that included someone who does it every day.
+
+The third result is the most uncomfortable. Everyone generated five ideas and then chose one to develop. Artificial intelligence raised the average quality of those five ideas. But when it came to choosing which one to develop, the pairs that worked without it seem to have chosen better: they kept their best idea about half the time, and the conditions with the tool, around thirty-seven percent of the time. Even so, the ideas chosen with the tool were still of higher quality. The authors describe it this way: the tool amplifies quality, it does not improve the decision.
+
+And from Latin America? Our reading is that the most useful result is the substitution one. For a mid-sized company that does not have a research and development area separate from the commercial one, the problem is not a lack of ideas, but that there is no one to cross them with. Adding a second specialized professional costs a salary. What the participants received was a license and an hour of training.
+
+There is also a practical consequence for whoever writes the terms of reference for procuring an artificial intelligence assistant in the public sector. It helps to specify it for generating and writing drafts, and to put in writing that choosing between alternatives remains a documented human decision.
+
+What we still do not know is what happens when use is sustained over time. The experiment lasted one workday, at a single company, with a single model. The authors themselves leave that question open.
+
+The study is by Fabrizio Dell'Acqua, Charles Ayoubi, Hila Lifshitz, Raffaella Sadun, Ethan Mollick, Lilach Mollick, and their coauthors, four of them professionals at the same company where the experiment was carried out. This was an automated reading made by Claude; for the details, it is worth checking the original source.

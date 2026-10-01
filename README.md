@@ -136,7 +136,11 @@ traducción fiel que cuelga de `/en/` (`/en/`, `/en/posts/`, `/en/doble-lectura/
   no eligió idioma, se le muestra el que prefiere su navegador; la elección del botón se
   guarda y manda desde ahí. Los buscadores no se redirigen: tienen las etiquetas `hreflang`.
   El detalle está en el comentario de `_layouts/default.html`.
-- **Audio.** Solo en español por ahora. El reproductor en inglés busca
+- **Audio.** El inglés es el doblaje del guion en español: `_audio/en/<slug>.txt` y su
+  `.voice` hacen el mp3, y quién narra queda en `_data/voces_en.yml`. Se doblan todas las
+  Doble Lectura y las entradas desde el 2026-09-27 (`DOBLAJE_DESDE` en
+  `_tools/traducciones.py`), alternando Matilda y Eric, voces de fábrica de ElevenLabs. El
+  reproductor en inglés busca
   `assets/audio/en/<slug>.mp3` y, mientras no exista, no aparece.
 
 ### Mantener las traducciones al día
@@ -148,7 +152,14 @@ qué falta y qué quedó viejo cuando el original cambia (una fe de erratas, una
 python _tools/traducciones.py            # informe: por traducir, desactualizadas
 python _tools/traducciones.py --diff     # qué cambió en el español desde que se tradujo
 python _tools/traducciones.py --sellar _en_posts/AAAA-MM-DD-slug.md   # después de traducir
+python _tools/traducciones.py --voces    # voz alternada para cada guion en inglés nuevo
+python _tools/traducciones.py --sellar _audio/en/slug.txt             # después de doblar
 ```
+
+El informe trae también el estado del audio en inglés: guiones por doblar, desactualizados
+(el guion en español cambió) y doblajes sellados que todavía no tienen mp3. El hash del
+guion en español con que se dobló cada uno queda en `_audio/en/sellos.yml`. Al pushear, el
+Action de audio regenera el mp3 en inglés cada vez que su guion o su voz cambian.
 
 La guía de estilo de la traducción (glosario, números, monedas, enlaces internos) está en
 `_tools/traduccion_en.md`. Una entrada de hoy que todavía no se tradujo simplemente no tiene

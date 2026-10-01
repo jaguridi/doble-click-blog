@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, how much of the real-world use of artificial intelligence gets lost depending on how it is measured.
+
+The work is by eighteen researchers from universities and labs, led by teams from MIT, Stanford, and the University of Maryland. They built something that did not exist: a public observatory of real-world use. They pooled seven different collections of conversations with artificial intelligence assistants, more than twenty-three thousand conversations between 2023 and 2026, and labeled them all with a single taxonomy of one hundred forty-five traits.
+
+The first result is that the sources are not interchangeable. In public Grok conversations, two out of three include information seeking. In WildChat, barely one in four. Academic integrity problems range from twenty-three percent in one source to forty percent in another. In other words, which database you take the figures from changes the picture of use.
+
+The second finding is the most uncomfortable, and it is about how things are measured. The Anthropic Economic Index, in its March 2025 version, first keeps only the conversations relevant to some occupation and only then analyzes the tasks. The authors reproduced that filter and applied it to their own sources. Almost forty-eight percent of the conversations were discarded as non-occupational. And what gets discarded is not random junk: that is where health and relationships, harassment, and sexual content are concentrated. A framework can look complete while systematically leaving out precisely the most sensitive uses.
+
+And from Latin America? The region barely appears, and the authors state this as a limitation: they say the regions of the Global South remain largely out of reach. But the result translates directly. When artificial intelligence policy is discussed here, the figures cited almost always come from two or three reports by the companies themselves. This paper warns that the choice of source and the choice of filter are not technical details: they are decisions that change the result before the analysis begins.
+
+And I will add something that is my reading and not the paper's. The United States and Europe can check those reports against their own measurements. A mid-sized country in the region usually cannot, and it depends more on someone else's data. The good news is that this check does not require privileged access to anyone's servers. The authors published the taxonomy and the tools, and the total annotation cost they report was five thousand six hundred eighty dollars.
+
+The question it leaves is concrete. Who in the region is going to contribute the conversations in Spanish and Portuguese that today are not in any observatory?
+
+The work is led by Shayne Longpre, Anka Reuel, and Dayeon Ki, with fifteen more coauthors, and it has not yet been peer reviewed. This was an automated reading made with Claude, so it is worth checking the original work before citing it.

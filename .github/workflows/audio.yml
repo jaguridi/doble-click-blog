@@ -3,7 +3,8 @@ name: Audio de Doble Click / Doble Lectura
 # Genera el mp3 del resumen hablado de cada entrada usando ElevenLabs
 # (eleven_multilingual_v2), via el script _tools/tts_elevenlabs.py. Se dispara
 # cuando aparece o cambia un guion en _audio/. Lee _audio/<slug>.txt +
-# _audio/<slug>.voice y deja assets/audio/<slug>.mp3.
+# _audio/<slug>.voice y deja assets/audio/<slug>.mp3. El doblaje al inglés hace lo
+# mismo desde _audio/en/ hacia assets/audio/en/, y anota quién narra en _data/voces_en.yml.
 # Requiere el secret ELEVENLABS_API_KEY en el repo.
 
 on:
@@ -26,7 +27,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generar audios faltantes (ElevenLabs)
+      - name: Generar audios faltantes, en español y en inglés (ElevenLabs)
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: python _tools/tts_elevenlabs.py
@@ -40,7 +41,7 @@ jobs:
         run: |
           git config user.name "doble-lectura-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/audio _data/voces.yml
+          git add assets/audio _data/voces.yml _data/voces_en.yml
           if git diff --cached --quiet; then
             echo "Nada nuevo que commitear"
           else

@@ -1,0 +1,13 @@
+Doble Lectura, from Doble Click. Today, two opposite ways of bringing technology and democracy together, according to an essay by Iñaki Goñi.
+
+Let's start with what kind of text this is, because that organizes everything. It is not a study with data or experiments. It is an essay that puts into conversation two academic fields that study almost the same thing and almost never talk to each other. On one side, deliberative democracy, which thinks about how to get people to truly deliberate on public matters. On the other, science and technology studies, which study how science and technology are made and governed.
+
+The finding is a simple and elegant observation. In deliberative democracy, citizen participation is the problem, and technology arrives as the solution: digital tools and artificial intelligence that promise to organize mountains of opinions and bring deliberation to the masses. In the other field, the equation is reversed: technology is the problem, and citizen participation is the answer, because bringing people in is what makes technical decisions legitimate. The same pair works as a problem in one field and as a remedy in the other.
+
+And here comes the uncomfortable point. Goñi argues that, without careful dialogue, both fields end up in their own version of solutionism. Some expect a good tool to fix deliberation. Others believe that adding more participation is enough to fix legitimacy. In both cases, a complicated problem is reduced to a sellable recipe. The text proposes that each field teach the other what it lacks: that technology is never neutral and that its design changes with use, and, from the other side, a more serious theory of democracy and of how political systems work from the inside.
+
+And from Latin America? The author himself closes with a geopolitical question: at a global scale, whose democracy is being fixed by whose technology, and which company sells the tool to which government. It is no minor detail that Goñi worked in Chile and on its constitutional process before leaving for Edinburgh. The region has fallen into both of the temptations he describes: believing that a platform unlocks public conversation, and believing that opening a process already makes it legitimate.
+
+The question it leaves, brought to the region, is this: when a government brings technology and participation together, which one is it treating as the problem and which as the magic solution? If one simply comes to rescue the other, that is where solutionism shows up.
+
+The essay is by Iñaki Goñi. This was an automated reading made by Claude; for the details, it's a good idea to check the original source.

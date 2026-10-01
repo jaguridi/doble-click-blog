@@ -1,0 +1,17 @@
+Doble Lectura, from Doble Click. Today, an OECD document on how governments are experimenting with generative artificial intelligence, and on what almost none of them are measuring.
+
+The starting point is a fact that anyone who works in government will recognize: civil servants are already using these tools, often without formal approval or clear oversight. Between that rapid adoption and the governance mechanisms, which move considerably more slowly, a gap has opened. The work reviews the official guidelines that fourteen countries have already published, and focuses on the experimentation stage, not on large-scale deployment.
+
+The first finding is about form. The guidelines exist and are plentiful, but they are fragmented and very uneven. They range from general statements of values to detailed manuals. Many governments published principles on ethical use and rather little practical guidance on how to design and judge a concrete experiment. And the consequence is not the one you might expect: that disparity does not produce freedom, it produces uncertainty, and uncertainty produces risk aversion or inconsistent practices across agencies.
+
+The second finding is the most uncomfortable. Monitoring and evaluation are the critical weakness. Few governments systematically check whether an experiment delivered what it promised, whether it created new risks or whether it justifies scaling up. When there is evaluation, it tends to rely on basic indicators such as usage or satisfaction, and not on measurements of performance, cost and impact. Without comparable criteria, a government has no way to shut down an experiment that failed or to decide what to invest in next.
+
+For the region, the most telling fact is not in the findings but in the annex. Among the countries whose guidelines were reviewed, there is none from Latin America. The list is of high-income countries, with the United Kingdom, Australia, Canada and the Nordic countries accounting for most of the documents. That defines what this work is for a reader here: a map of what others did, not a diagnosis of our own situation.
+
+Two readings follow from that. The first is about opportunity: if even the countries with the most resources published principles and fell short on evaluation, a country in the region that is writing its guidelines today can skip that stage and start with the evaluation framework built in. It is cheaper to do it at the beginning than to add it later.
+
+And the warning. The use of these tools without oversight does not need national guidelines to happen. It happens anyway, and it probably happens more where there is less oversight capacity. What changes when there are no guidelines is not the use, it is the visibility of the use.
+
+The question it leaves is concrete. When a public agency announces that it will use language models to detect irregularities, the first thing to ask is not whether the model works, but by what criteria it will be measured whether it worked, and what recourse someone flagged by mistake has.
+
+The document is by Piret Tõnurist and Moritz von Knebel, of the OECD. This was an automated reading made by Claude; it's a good idea to check the original source before citing it.

@@ -1,0 +1,17 @@
+Doble Lectura, from Doble Click. Today, what happens when artificial intelligence writes the code and it falls to the person to direct it.
+
+Anthropic looked at about 400,000 sessions of Claude Code, its tool for programming by conversing with the model, from some 235,000 users, between October and April. They did not read conversations one by one: automated classifiers label each session and they work with the aggregates. It matters to say this up front, because almost everything that follows is inferred figures, not direct measurements.
+
+The first thing they find is how the work is split. The person makes about 70 percent of the planning decisions, but only 20 percent of the execution decisions. The model runs about ten actions for every instruction. The person defines what to do; the model works out how.
+
+The core of the study is expertise, and here it pays to be precise. What is measured is not profession or degree, but how much the person knows about the domain of the task. And that is where the finding behind the title appears: profession matters little. In sessions that produce code, software occupations have 34 percent verified success and the rest 29 percent. Just five points. People in management, sales or law come out very close to the engineers. What makes it possible to direct the model well looks more like knowing the problem than knowing how to write code.
+
+But the novice gap is real. By the strict yardstick, novices reach 15 percent success, and from intermediate upward, 28 to 33 percent. And when the task gets complicated, almost one in five novices gives up. Most of the gain is in going from novice to intermediate; from there to expert, the improvement is small. You do not need to be the best in the field, but starting from zero comes at a high cost.
+
+It is worth reading all this with caution for a fundamental reason: it is a study by Anthropic about its own product, with data we cannot audit and inferred metrics. It does not look at whether the code was actually used in the real world. That does not invalidate the data, but it calls for prudence.
+
+And from Latin America? The study is global and does not break out the region, so this is my own reading. If what pays off is knowing the problem and not knowing how to program, the door opens for a profile that used to be left out: researchers, public officials, accountants, lawyers, people at small and medium-sized businesses who know their subject even if they have never programmed. But the brake is also clear: the democratization is partial. Access to the tool is not enough without a minimum of practice to get through that first stretch, the one of no longer being a novice. Handing out licenses without that leaves many people in the 15 percent.
+
+The question that remains is whether these returns to expertise hold up or shrink over time. If they hold up, the message is that the tool lowers the coding barrier, but knowing one's own field still makes the difference. And that cannot be downloaded.
+
+The report is by Zoe Hitzig, Maxim Massenkoff, Eva Lyubich, Ryan Heller and Peter McCrory. This was an automated reading done by Claude; for the details, it is worth checking the original source.

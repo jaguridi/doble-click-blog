@@ -1,0 +1,17 @@
+Doble Lectura, from Doble Click. Today, what it means to responsibly design an artificial intelligence for mental well-being, according to a study presented this year at the CHI conference.
+
+Before we start, a clarification: the author of this blog is a coauthor of the paper. We read it the same way as any other.
+
+The subject of the study is non-clinical tools. ChatGPT, Replika, and the like, used to vent or to feel better, without a prescription or supervision by a professional. American law draws a sharp line here: the clinical side is regulated by the drug agency as a medical device, and the non-clinical side is overseen by the trade agency with a light hand, as consumer technology. Millions of people are already on the light side.
+
+The authors do not evaluate any chatbot or measure any effect. They ask. They interviewed twenty-four experts in medical ethics, health policy, regulation, and health technology design, and they analyzed more than a hundred regulatory documents.
+
+What they found is a map with two axes: whether the tool is a product or a service, and whether or not it guarantees a health outcome. That leaves four boxes. The nutritional supplement guarantees nothing. The over-the-counter medicine does guarantee relief for a defined symptom. Primary care guarantees the outcome, and if it cannot deliver it, it is obligated to refer. And the yoga instructor can enhance or ruin the proven benefits of yoga, and even so promises none of them.
+
+What is valuable is not the clever idea but what it organizes. Each box carries different risks. In a medicine-type tool, the urgent concerns are safety, effectiveness, and equitable access. In a supplement-type tool it is almost the opposite: its clinical effectiveness matters little, and what matters is that it not replace clinical care or self-care. And all the interviewees demanded the same thing: that the tool declare its active ingredient, the proven mechanism by which it improves well-being. None of them regarded a tool that cannot name it as responsible design.
+
+And from Latin America? The regulatory analysis covers only the United States, and the authors say so. But the design layer does travel, and it arrives before the law, which is when it is useful. Where it comes under strain is referral: referring effectively assumes there is someone to refer to, and here the specialist is often not there. And asking that the tool not substitute for clinical care assumes that such care is available. For many people in the region, the free, Spanish-language chatbot does not compete with the psychologist. It competes with nothing. That last point is our reading, not the authors'.
+
+The question it leaves is direct. If you had to write on the front page of your tool what it improves, in whom, and through what proven mechanism, could you? If the answer is that it works for everything and everyone, the paper suggests that is not versatility, but the absence of anyone accountable.
+
+The study is by Ned Cooper, José Guridi, Angel Hsing-Chi Hwang, Beth Kolko, Emma McGinty, and Qian Yang. This was an automated reading made by Claude; for the details, it is worth checking the original paper.

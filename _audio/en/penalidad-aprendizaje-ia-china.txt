@@ -1,0 +1,13 @@
+Doble Lectura, from Doble Click. Today, what happens to learning when students do their homework with artificial intelligence.
+
+The study follows 26,811 secondary school students in a county in central China for thirty months, between September 2022 and June 2025. The researchers obtained the complete records from the local education office: scores on the monthly closed-book tests, the grade and submission time for weekly homework in nine subjects, and the two major national admission exams. Since the adoption of artificial intelligence was staggered, student by student, they could compare those who started using it against those who never used it.
+
+The central result is a very clean divergence. Six months after starting to use artificial intelligence, homework grades rise eighteen percent and the time spent on it falls from sixty-four to forty-five minutes. On closed-book tests, by contrast, scores fall twenty percent. The effect also shows up on the admission exams, but it takes about two years to reach its full magnitude, eighteen percent on one and twenty-four percent on the other. From this the authors draw a conclusion that is uncomfortable for almost all of the previous literature: short studies underestimate the long-term cost.
+
+What is interesting is the mechanism, because the paper does not say that artificial intelligence does harm on its own. The loss is concentrated in the eighty-one percent of users who outsource their homework, that is, who submit it in less time than even the fastest student who does not use these tools. Those who use artificial intelligence but spend the same time on homework as the others get test scores similar to theirs, and they were not better students to begin with.
+
+And from Latin America? The most translatable finding is a measurement problem. Among those who use artificial intelligence, better homework grades come with worse test scores. Homework stops telling you whether the student learned, and that only shows up in an in-person assessment. I would add, as my reading and not the paper's, that this matters a lot where classroom grades count toward university admission, as in Chile, Brazil, or Mexico. The authors propose three cheap things: tell students how much outsourcing costs them, increase the weight of in-person tests, and have teachers and parents look at study time instead of the homework grade.
+
+The question it leaves is direct. If the homework grade no longer tells you whether the student learned, what is being used to assess them?
+
+The work is by David Strömberg, Victor Lei, and Yanhui Wu, and it has not yet been peer reviewed. This was an automated reading made with Claude, so it is worth checking the original work before citing it.
