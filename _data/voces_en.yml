@@ -102,6 +102,10 @@ respuestas-chatbots-brasil-recomendaron-candidatos:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "8fc02791ef5f"
+supremo-brasil-multa-abogado-orden-oculta-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "76f33c3f9a9b"
 taxonomia-regulacion-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
