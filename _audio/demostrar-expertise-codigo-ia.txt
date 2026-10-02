@@ -6,7 +6,7 @@ El primer hallazgo, y el que da el título, es que los evaluadores casi no cambi
 
 El segundo hallazgo es que la pericia empezó a mostrarse de maneras nuevas. Ahora se mira qué herramienta elige el candidato, cómo le habla al modelo y qué hace con lo que el modelo le devuelve. Y, al mismo tiempo, se apagan señales viejas: cuando la inteligencia artificial descompone la tarea o arregla el error de un viaje, el candidato pierde la oportunidad de mostrar cómo piensa.
 
-Y un tercer punto: apareció una expectativa de mayor productividad que nadie definió bien, y eso generó malentendidos. Una candidata evitó la inteligencia artificial para lucir su comprensión, y temió que eso la hiciera ver inexperta. Otro la usó de inmediato y dejó al evaluador sin convencer.
+Y otro punto: apareció una expectativa de mayor productividad que nadie definió bien, y eso generó malentendidos. Una candidata evitó la inteligencia artificial para lucir su comprensión, y temió que eso la hiciera ver inexperta. Otro la usó de inmediato y dejó al evaluador sin convencer.
 
 ¿Y desde América Latina? El estudio no separa la región, así que esto es lectura mía. Buena parte del trabajo de programación que la región le vende al mundo pasa por este filtro: la entrevista técnica remota. Si entregar código correcto ya no alcanza, quien nunca aprendió a dirigir bien a la inteligencia artificial puede quedar mal parado, aunque sepa programar. La salida no es prohibir ni permitir sin más, sino explicitar qué se está evaluando.
 

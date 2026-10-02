@@ -1,6 +1,6 @@
 Doble Lectura, de Doble Click. Hoy, qué parte del uso real de la inteligencia artificial se pierde según cómo se lo mida.
 
-El trabajo es de dieciocho investigadores de universidades y laboratorios, encabezados por equipos del MIT, Stanford y la Universidad de Maryland. Armaron algo que no existía: un observatorio público de uso real. Juntaron siete colecciones distintas de conversaciones con asistentes de inteligencia artificial, más de veintitrés mil conversaciones entre 2023 y 2026, y las etiquetaron todas con una misma taxonomía de ciento cuarenta y cinco rasgos.
+El trabajo es de diecinueve investigadores de universidades y laboratorios, encabezados por equipos del MIT, Stanford y la Universidad de Maryland. Armaron un observatorio público de uso real. Juntaron siete colecciones distintas de conversaciones con asistentes de inteligencia artificial, más de veintitrés mil conversaciones entre 2023 y 2025, y las etiquetaron todas con una misma taxonomía de ciento cuarenta y cinco rasgos.
 
 El primer resultado es que las fuentes no son intercambiables. En las conversaciones públicas de Grok, dos de cada tres incluyen búsqueda de información. En WildChat, apenas una de cada cuatro. Los problemas de integridad académica van del veintitrés por ciento en una fuente al cuarenta por ciento en otra. O sea, de qué base de datos saque uno las cifras cambia el retrato del uso.
 
@@ -12,4 +12,4 @@ Y agrego algo que es lectura mía y no del paper. Estados Unidos y Europa pueden
 
 La pregunta que deja es concreta. ¿Quién en la región va a poner las conversaciones en español y en portugués que hoy no están en ningún observatorio?
 
-El trabajo lo encabezan Shayne Longpre, Anka Reuel y Dayeon Ki, con quince coautores más, y todavía no pasa por revisión de pares. Esto fue una lectura automática hecha con Claude, así que conviene revisar el trabajo original antes de citarlo.
+El trabajo lo encabezan Shayne Longpre, Anka Reuel y Dayeon Ki, con dieciséis coautores más, y todavía no pasa por revisión de pares. Esto fue una lectura automática hecha con Claude, así que conviene revisar el trabajo original antes de citarlo.

@@ -1,6 +1,6 @@
 Doble Lectura, from Doble Click. Today, how much of the real-world use of artificial intelligence gets lost depending on how it is measured.
 
-The work is by eighteen researchers from universities and labs, led by teams from MIT, Stanford, and the University of Maryland. They built something that did not exist: a public observatory of real-world use. They pooled seven different collections of conversations with artificial intelligence assistants, more than twenty-three thousand conversations between 2023 and 2026, and labeled them all with a single taxonomy of one hundred forty-five traits.
+The work is by nineteen researchers from universities and labs, led by teams from MIT, Stanford, and the University of Maryland. They built a public observatory of real-world use. They pooled seven different collections of conversations with artificial intelligence assistants, more than twenty-three thousand conversations between 2023 and 2025, and labeled them all with a single taxonomy of one hundred forty-five traits.
 
 The first result is that the sources are not interchangeable. In public Grok conversations, two out of three include information seeking. In WildChat, barely one in four. Academic integrity problems range from twenty-three percent in one source to forty percent in another. In other words, which database you take the figures from changes the picture of use.
 
@@ -12,4 +12,4 @@ And I will add something that is my reading and not the paper's. The United Stat
 
 The question it leaves is concrete. Who in the region is going to contribute the conversations in Spanish and Portuguese that today are not in any observatory?
 
-The work is led by Shayne Longpre, Anka Reuel, and Dayeon Ki, with fifteen more coauthors, and it has not yet been peer reviewed. This was an automated reading made with Claude, so it is worth checking the original work before citing it.
+The work is led by Shayne Longpre, Anka Reuel, and Dayeon Ki, with sixteen more coauthors, and it has not yet been peer reviewed. This was an automated reading made with Claude, so it is worth checking the original work before citing it.

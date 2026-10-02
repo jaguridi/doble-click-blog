@@ -6,7 +6,7 @@ The first finding, and the one that gives the title, is that evaluators barely c
 
 The second finding is that expertise began to show itself in new ways. Now the focus is on which tool the candidate chooses, how they talk to the model and what they do with what the model gives back. And, at the same time, old signals fade: when the artificial intelligence breaks down the task or fixes the bug in one go, the candidate loses the chance to show how they think.
 
-And a third point: an expectation of higher productivity emerged that no one defined well, and that led to misunderstandings. One candidate avoided artificial intelligence to show off her understanding, and feared it would make her look inexperienced. Another used it right away and left the evaluator unconvinced.
+And another point: an expectation of higher productivity emerged that no one defined well, and that led to misunderstandings. One candidate avoided artificial intelligence to show off her understanding, and feared it would make her look inexperienced. Another used it right away and left the evaluator unconvinced.
 
 And from Latin America? The study does not break out the region, so this is my own reading. A good share of the programming work the region sells to the world goes through this filter: the remote technical interview. If handing in correct code is no longer enough, someone who never learned to direct artificial intelligence well can come off badly, even if they know how to program. The way out is not simply to ban or allow, but to make explicit what is being evaluated.
 
