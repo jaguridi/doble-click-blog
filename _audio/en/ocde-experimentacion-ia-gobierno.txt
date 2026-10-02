@@ -10,8 +10,8 @@ For the region, the most telling fact is not in the findings but in the annex. A
 
 Two readings follow from that. The first is about opportunity: if even the countries with the most resources published principles and fell short on evaluation, a country in the region that is writing its guidelines today can skip that stage and start with the evaluation framework built in. It is cheaper to do it at the beginning than to add it later.
 
-And the warning. The use of these tools without oversight does not need national guidelines to happen. It happens anyway, and it probably happens more where there is less oversight capacity. What changes when there are no guidelines is not the use, it is the visibility of the use.
+And the warning, which is more mine than the document's. The use of these tools without oversight does not need national guidelines to happen. It happens anyway, and it probably happens more where there is less oversight capacity. What changes when there are no guidelines is not the use, it is the visibility of the use.
 
 The question it leaves is concrete. When a public agency announces that it will use language models to detect irregularities, the first thing to ask is not whether the model works, but by what criteria it will be measured whether it worked, and what recourse someone flagged by mistake has.
 
-The document is by Piret Tõnurist and Moritz von Knebel, of the OECD. This was an automated reading made by Claude; it's a good idea to check the original source before citing it.
+The document is by Piret Tõnurist, of the OECD Public Governance Directorate, and Moritz von Knebel, an external consultant. This was an automated reading made by Claude; it's a good idea to check the original source before citing it.

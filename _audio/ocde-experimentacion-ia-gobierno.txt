@@ -10,8 +10,8 @@ Para la región, el dato más elocuente no está en los hallazgos sino en el ane
 
 De ahí salen dos lecturas. La de oportunidad: si incluso los países con más recursos publicaron principios y se quedaron cortos en evaluación, un país de la región que hoy esté escribiendo su guía puede saltarse esa etapa y partir con el marco de evaluación incorporado. Sale más barato al principio que agregado después.
 
-Y la de advertencia. El uso de estas herramientas sin supervisión no necesita una guía nacional para ocurrir. Ocurre igual, y probablemente ocurre más donde hay menos capacidad de fiscalización. Lo que cambia cuando no hay guía no es el uso, es la visibilidad del uso.
+Y la de advertencia, que es más mía que del documento. El uso de estas herramientas sin supervisión no necesita una guía nacional para ocurrir. Ocurre igual, y probablemente ocurre más donde hay menos capacidad de fiscalización. Lo que cambia cuando no hay guía no es el uso, es la visibilidad del uso.
 
 La pregunta que deja es concreta. Cuando un organismo público anuncia que va a usar modelos de lenguaje para detectar irregularidades, lo primero que habría que preguntar no es si el modelo funciona, sino con qué criterios se va a medir si funcionó, y qué recurso tiene alguien marcado por error.
 
-El documento es de Piret Tõnurist y Moritz von Knebel, de la OCDE. Esta fue una lectura automática hecha por Claude; conviene revisar la fuente original antes de citarla.
+El documento es de Piret Tõnurist, de la Dirección de Gobernanza Pública de la OCDE, y Moritz von Knebel, consultor externo. Esta fue una lectura automática hecha por Claude; conviene revisar la fuente original antes de citarla.
