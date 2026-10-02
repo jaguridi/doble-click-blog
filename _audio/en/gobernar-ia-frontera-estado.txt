@@ -1,0 +1,13 @@
+Doble Lectura, from Doble Click. Today: how the state should govern an artificial intelligence that is advancing faster than the evidence about its risks.
+
+The text is a conceptual article by Fábio Correa Xavier, technology director at a court of accounts in Brazil. It is not a study with new data. It is a synthesis that organizes recent reports and ends by proposing a framework for governing artificial intelligence in the public sector.
+
+His starting point is what the International AI Safety Report 2026 calls the evidence dilemma. Capabilities are advancing faster than knowledge about their harms. If the state acts too soon, it can lock in poorly calibrated rules. If it waits for complete evidence, it leaves society exposed. And since no one knows how fast the technology will advance through 2030, rules written only once age badly.
+
+In response, the author proposes adaptive governance, with six layers that work in a cycle. Closely monitor what artificial intelligence is starting to be able to do. Classify each use according to its risk and how sensitive the sector is. Define controls that activate on their own when certain signals appear. Don't rely on a single safeguard, but combine several. Redesign the organization, not just install software. And review everything on a fixed cycle, instead of certifying just once. His underlying thesis is clear: governing artificial intelligence in the state is a problem of institutional design, not of the model's technical performance.
+
+From Latin America, there is a nuance worth noting. The author is from the region, but his framework is conceived in universal terms and relies almost entirely on global sources. It is a proposal made from the region more than about the region. And it assumes considerable institutional capacity: teams that monitor models, review cycles, mature data management. In states with thin technical teams and high political turnover, that is an uphill battle. The article itself points out that artificial intelligence governance depends on data governance: without organized data with clear rules, there is no auditable system worth the name. For much of the region, that is still the pending task.
+
+The question it leaves is an uncomfortable one. At this point, the problem is no longer whether there is uncertainty about where artificial intelligence is headed, but whether public institutions can govern responsibly while that uncertainty persists.
+
+This was a reading of an article by Fábio Correa Xavier. It was prepared automatically by Claude, an artificial intelligence, so it's a good idea to check the original source before citing any data. Until the next Doble Lectura.

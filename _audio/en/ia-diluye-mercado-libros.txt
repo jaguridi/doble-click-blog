@@ -1,0 +1,19 @@
+Doble Lectura, from Doble Click. Today, what happens to the book market when it fills up with novels written with artificial intelligence.
+
+The study is by researchers from Stony Brook, Columbia Law School, and the University of Michigan. They took more than fourteen thousand novels self-published on Amazon between 2023 and 2026, with their real daily sales, and ran the full text of each one through an artificial intelligence detector.
+
+The first result calms things down. Books with substantial artificial intelligence content sell poorly: they are twenty percent of the catalog and just twelve percent of sales.
+
+But the second is the one that matters. Even if each one sells little, there are a great many of them. Between 2023 and 2026, the number of books that sold anything in a quarter grew nineteenfold, while the money moving through the market grew ninefold. Many more books came in than the market could pay for, and what each title earns fell. It also fell for books where the detector finds nothing: they dropped in seven of the eight genres analyzed, and they dropped more precisely where there is more artificial intelligence. In the genre it reached later and less, fantasy and horror, those earnings even rose thirty-five percent.
+
+In other words, artificial intelligence did not change this market by winning on quality. It changed it through volume.
+
+And from Latin America? The paper does not look at us: it is an English-language market, on a single platform. But the authors say the conditions that made it vulnerable are not unique to it. Near-zero entry costs, readers who come back for more of the same, shared rankings where human and synthetic work compete on equal footing, and no obligation to disclose how the book was made.
+
+From there comes a reading that is mine and not the paper's, so I offer it as a hypothesis. If the damage depends on how many titles come in compared with how much money there is to go around, small markets are more fragile, not less. Fiction in Spanish moves much less money than fiction in the United States, so far fewer books are needed to produce the same effect.
+
+What does remain as a concrete lever is disclosure. None of these books states whether it contains artificial intelligence text, and it is the only one of those conditions that can be changed by a decision of a platform or a regulator, without waiting for the courts to settle the big lawsuit over training.
+
+The question it leaves is this. If the mechanism is scale and not quality, trusting the public to tell good from bad is not enough to protect those who write. What instrument does a mid-sized country have left so that its authors do not end up competing against an infinite supply on the same shelf?
+
+The study is by Tuhin Chakrabarty, Xinyue Liu, Jane Ginsburg, and Paramveer Dhillon, and it has not yet been peer reviewed. This was an automated reading made with Claude, so it is worth checking the original work before citing it.

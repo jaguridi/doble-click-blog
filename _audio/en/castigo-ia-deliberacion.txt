@@ -1,0 +1,13 @@
+Doble Lectura, from Doble Click. Today, what happens when an artificial intelligence moderates a citizen conversation.
+
+Imagine you are invited to an online public consultation, the kind where people discuss a topic and try to reach agreements. And you are told that whoever is going to organize the contributions, summarize the arguments and moderate the discussion is not a person, but an artificial intelligence tool. Would you still take part?
+
+A study done in Germany, with almost 1,800 people, found that many would say no. The researchers showed each participant identical descriptions of tasks in a deliberation, and at random attributed them to an artificial intelligence or to a human moderator. The only thing that changed was who did the work. And what they call an AI penalty appeared: just by learning that there was a machine involved, without ever having used it, people were less willing to participate and expected a lower-quality conversation.
+
+There are two details worth highlighting. The first is that the rejection was strongest precisely in the tasks where experts see the most promise, such as summarizing information and organizing arguments. The second, and perhaps the most important, is who penalizes more. It was not the people with less education or fewer resources. What made the difference was what each person thinks of artificial intelligence. Those who perceive it as risky pull away; those who see benefits in it, hardly at all. That is why the authors speak of a new divide: on top of the usual inequalities comes another one, which follows attitudes toward the technology.
+
+What does this mean from Latin America? The study is German, so the numbers do not carry over directly. But the underlying idea does matter. The region has a long tradition of participation, such as participatory budgeting and public consultations. And governments are starting to use artificial intelligence to process what citizens say. If announcing that there is a machine involved drives away the most skeptical, the process may end up listening to a less representative version of the public. There is also a difficult tension: being transparent about the use of artificial intelligence is the right thing to do, but according to this study that notice has a cost in participation.
+
+The question that remains is uncomfortable. When the tool is easy to use, what decides who participates is no longer the technology, but trust. How do you build that trust without hiding that the machine is there?
+
+This work is by Andreas Jungherr and Adrian Rauchfleisch, published in 2025. This was an automated reading done by Claude, so it is worth checking the original source before citing it.

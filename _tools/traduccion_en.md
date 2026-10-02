@@ -127,6 +127,41 @@ El párrafo fijo de las entradas antiguas se traduce así:
 
 > `<small>**About this entry.** It is generated automatically from public sources, without human review before publication. It may contain errors of interpretation or summary; please check each story against its original source (the links lead there) before citing it or making decisions based on it.</small>`
 
+## Audio en inglés (doblaje)
+
+El audio en inglés es el **doblaje del guion en español**, no un resumen nuevo de la
+traducción: `_audio/<slug>.txt` se traduce a `_audio/en/<slug>.txt`, con el mismo slug.
+Se doblan todas las Doble Lectura y las entradas desde el 27 de septiembre de 2026; las
+anteriores quedan con audio solo en español. `python _tools/traducciones.py` dice cuáles
+faltan, y un GitHub Action convierte cada guion en mp3: tú no generas audio.
+
+Valen las reglas del cuerpo (fiel, sin corregir, inglés estadounidense sobrio, mismo
+glosario, misma tabla de números), más las de un texto que se escucha:
+
+- **Mismos párrafos, en el mismo orden.** Una frase larga puede partirse en dos.
+- **Texto plano.** Sin markdown, URLs, rayas (— –) ni símbolos: "percent" y no `%`, "30
+  billion dollars" y no `$30 billion`, "number 19" y no `#19`, "and" y no `&`. Los números
+  van en palabras cuando ayudan al oído ("Mythos five", "the third clause"); los años y las
+  cifras grandes pueden quedar en dígitos ("2026", "2,243 summaries").
+- **Mismos nombres y cifras que la traducción del texto.** Antes de guardar, compara cada
+  nombre propio, cifra y fecha con `_en_posts/` o `_en_lecturas/`. Si el guion en español
+  dice algo distinto del texto, no lo arregles: dóblalo como está y repórtalo.
+- **Doble Click y Doble Lectura no se traducen**, tampoco al oído.
+- **Aperturas y cierres fijos.** "Hola, esto es Doble Click." → "Hi, this is Doble Click."
+  · "Doble Lectura, de Doble Click." → "Doble Lectura, from Doble Click." · El cierre de las
+  entradas es siempre: "This was an automated Doble Click entry; please verify each story
+  against its sources." Los cierres de las lecturas cambian de una a otra: se traducen tal
+  cual, con el crédito de los autores.
+
+La voz va en `_audio/en/<slug>.voice` y se alterna entre una mujer y un hombre de Estados
+Unidos (`en-US-female`, `en-US-male`). No la elijas a mano: `python _tools/traducciones.py
+--voces` se la asigna a cada guion nuevo, por orden de fecha, siguiendo la alternancia.
+
+Si el guion en español cambia (una fe de erratas también corrige el audio), el doblaje
+aparece como desactualizado; `--diff _audio/<slug>.txt` muestra qué cambió y se aplica el
+mismo cambio, como en el texto. Al sellar el guion en inglés, el Action regenera el mp3
+solo.
+
 ## Actualizar una traducción existente
 
 Cuando el original cambió, `python _tools/traducciones.py --diff` muestra qué cambió en el
@@ -139,6 +174,7 @@ completo.
 
 ```bash
 python _tools/traducciones.py --sellar _en_posts/AAAA-MM-DD-slug.md   # o varias rutas
+python _tools/traducciones.py --sellar _audio/en/slug.txt             # el doblaje
 python _tools/traducciones.py                                          # debe quedar al día
 ```
 

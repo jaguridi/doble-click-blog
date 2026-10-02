@@ -1,0 +1,120 @@
+# Quién narra el audio en inglés de cada entrada — lo muestra _includes/audio.html.
+# GENERADO por _tools/tts_elevenlabs.py cada vez que produce un mp3: no editar a mano.
+# `guion` es el hash del guion y la voz con que se hizo el mp3; si cambian, se regenera.
+
+agente-openai-salio-aislamiento-apagado-fallo:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "761686b72de4"
+atlas-google-uso-ia-economia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "6f35546f939c"
+brasil-regular-ia-trabajo:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "610f0367362b"
+castigo-ia-deliberacion:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "4d47a9941da0"
+chile-pais-de-pruebas-ia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "4c24728d1bb5"
+demostrar-expertise-codigo-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "064986ab247b"
+eficiencia-ia-diseno:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "6c63b2a7bf74"
+entrenar-buscador-resumenes-westlaw-no-uso-legitimo:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "b79e4ce2ebc4"
+espacio-trabajo-global-modelos:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "1079f32734e9"
+frontera-dentada-ia-consultores:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "249f6f8e6c12"
+gobernar-ia-frontera-estado:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "8b260abf31d8"
+ia-bienestar-mental-suplemento-o-remedio:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "032f9682fec2"
+ia-codigo-retornos-experiencia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "dcd07f51385d"
+ia-diluye-mercado-libros:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "cdb84a671387"
+ia-empleos-marco-transicion:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "d3dd9e5e2824"
+ia-estudiar-paises-pobres:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "d417fb0a8b94"
+ia-pronostica-su-propio-riesgo:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "84a62aace92f"
+imagenes-ia-espacios-publicos:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "a6a7d6d02d49"
+observatorio-uso-real-ia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "eae451d2ed69"
+ocde-experimentacion-ia-gobierno:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "dd832087cc58"
+penalidad-aprendizaje-ia-china:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "6d61de36eeff"
+persona-con-ia-rinde-como-equipo:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "81c28e264c5a"
+persuadir-modelos-ia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "d441443f75d3"
+politicos-funcionarios-ia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "a328da9c9601"
+respuestas-chatbots-brasil-recomendaron-candidatos:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "8fc02791ef5f"
+taxonomia-regulacion-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "97515e2d24c5"
+tecnologia-democracia-pregunta-respuesta:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "38d6c217a77f"
+tres-salvaguardas-armas-autonomas-quince-horas:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "569ed99a2d65"
+uruguay-discutir-ingreso-ocde-cumbre-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "7fa463d861bf"

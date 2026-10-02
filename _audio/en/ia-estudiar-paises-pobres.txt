@@ -1,0 +1,13 @@
+Doble Lectura, from Doble Click. Today, what people use artificial intelligence for, depending on the country where they live.
+
+Madeleine Daepp and Isaac Slaughter analyzed a huge database of anonymized conversations from a free chatbot available almost everywhere in the world. In total, almost seven hundred thousand conversations from more than fifty thousand users in two hundred twenty-seven countries, over six months of 2024. They did not evaluate whether artificial intelligence is useful. They described what people use it for, depending on where they live and what language they write in.
+
+The first finding runs counter to what happened with the internet. The most frequent use is studying. And here comes the striking part: the poorer the country, the more artificial intelligence is used for learning and for improving one's work. In the richest countries, by contrast, what weighs more is leisure, entertainment. Put simply, where there are fewer resources, this technology is being used above all to study.
+
+The second finding is about language. English appears as the language of artificial intelligence far beyond how many people actually master it, especially in Asia and Africa. Why? Because when the local language works poorly in the model, people end up writing in English. African languages, which perform worst on the tests, are almost absent from use. By contrast, where people can use their own language well, they use it.
+
+From Latin America, the study does not separate us out as a bloc, so this is our own reading. The good news is that Spanish and Portuguese are among the languages best served by the models, so the hardest part of the language gap hits other regions. And given our income level, it is likely that here too educational use weighs a lot. That opens an opportunity the authors themselves talk about: if artificial intelligence really helps people learn, it could make it possible to leapfrog stages right where it is needed most. But they themselves warn of the flip side: that depends on models being designed so that people really learn, and not just to copy.
+
+The question that remains is this. If what people do most with artificial intelligence in countries like ours is study, are we treating it as a copying problem, or as the learning infrastructure it already seems to be?
+
+This Doble Lectura is based on the work of Madeleine Daepp and Isaac Slaughter, a preprint published in 2026. It was an automated reading made with artificial intelligence, without line-by-line human review, so it is worth checking the original paper before citing it.

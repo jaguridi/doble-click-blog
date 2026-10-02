@@ -1,0 +1,13 @@
+A federal appeals court in the United States confirmed that the company ROSS Intelligence infringed Thomson Reuters' copyright. ROSS trained its legal search engine on summaries of court decisions taken from Westlaw, Thomson Reuters' legal research service.
+
+The decision is from the Court of Appeals for the Third Circuit and is dated September twenty-ninth. According to the ruling, 2,243 of those summaries are original enough to be protected. Another company, LegalEase, had drafted some twenty-five thousand training memos for ROSS that incorporated thousands of them.
+
+The court also rejected the argument that this was fair use, under the US doctrine that allows protected works to be used without permission in certain cases. Two reasons weighed: ROSS sought to compete directly with Westlaw, and its system only returned passages from court decisions, without generating new text.
+
+What follows is an interpretation by Doble Click, not a conclusion of the court. Anyone who trains a search engine on third-party texts to replace the original product may have to pay for a license, instead of defending that use in court.
+
+What we don't know yet is what will happen with the models that do generate text, such as chatbots. The court itself separated this case from the lawsuits against those systems. And according to the ruling, the Department of Justice argued in another case that training a language model is transformative. That debate is left for the lawsuits against generative models.
+
+In the region, Paraguay's Deputy Minister of Industry, Javier Viveros, presented the Yguazú Digital project, according to the outlet JOTA. It seeks to use energy from Itaipú to turn the country into an artificial intelligence hub.
+
+This was an automated Doble Click entry; please verify each story against its sources.

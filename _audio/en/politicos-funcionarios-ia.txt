@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, why governments barely use artificial intelligence to process what citizens think, according to a study with twenty interviews in ministries in Chile and Uruguay.
+
+The answer is not technical. The study interviewed two groups that are almost never analyzed separately: politicians, the appointed officials, and career civil servants, the ones who design and implement. It found that both look at the same tool and see different things, because they build their legitimacy in opposite places.
+
+Politicians build it outward, in citizens' trust and good press. That is why they are drawn to a tool that looks objective and modern, one that dispels the suspicion of human manipulation when opinions are counted. The study gives the risk a name: the illusion of objectivity, believing that something is reliable just because no person touched it.
+
+Civil servants build it inward, in front of their superiors, and they live drowning in workload. They want something that saves them time, but since they are the ones who operate the system, they see the concrete risks that politicians barely mention: errors, sensitive data, surveillance.
+
+The result? No one takes charge. Politicians say civil servants resist and do not know about technology; civil servants say politicians do not lead or give them time to learn. And on top of that, public procurement is not built for this. For the authors, what holds back adoption is not the quality of the algorithm, but that lack of clarity about who is responsible.
+
+And from Latin America? First, this is evidence from inside the region, not extrapolated from the Global North, and seen from two of the countries with the longest track record in digital government. If the responsibility gap shows up even there, it is reasonable to think it weighs more heavily where institutions are more fragile. Today, moreover, any team can paste citizen comments into a chatbot without a tender or an audit, so the study's warning becomes more urgent, not less.
+
+The question it leaves works for any ministry in the region: now that using artificial intelligence is so easy, who answers for it when it is used to listen to citizens? If the answer is no one, the study suggests that is where the problem lies, and not in the algorithm.
+
+The study is by Jose Guridi, Cristóbal Cheyre and Qian Yang. This was an automated reading done by Claude; for the details, it is best to check the original paper.

@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, what happens to programming interviews when artificial intelligence is allowed.
+
+A team from Cornell University and Fujitsu set up twelve simulated programming interviews. In each one, two software engineers: one played the evaluator and the other the candidate. The candidate had thirty minutes to solve a problem while sharing their screen and could use any artificial intelligence tool they wanted. It is a qualitative study: it does not measure productivity or evaluate models, but describes how expertise is demonstrated and judged when the model is on the table.
+
+The first finding, and the one that gives the title, is that evaluators barely changed their criteria. Understanding the problem, explaining the code, handling errors: the usual. What changed was the evidence they accept. Finished code, which for decades was the ultimate proof that someone knows what they are doing, is no longer enough, because now the model can write it. One evaluator noticed that the tidy comments were there, but the artificial intelligence had generated them, so they did not count as the candidate's own expertise. That is why evaluators now ask more follow-up questions: they ask candidates to modify the solution, explain it line by line, say what would happen if something were changed. The test shifts from the product to the process.
+
+The second finding is that expertise began to show itself in new ways. Now the focus is on which tool the candidate chooses, how they talk to the model and what they do with what the model gives back. And, at the same time, old signals fade: when the artificial intelligence breaks down the task or fixes the bug in one go, the candidate loses the chance to show how they think.
+
+And a third point: an expectation of higher productivity emerged that no one defined well, and that led to misunderstandings. One candidate avoided artificial intelligence to show off her understanding, and feared it would make her look inexperienced. Another used it right away and left the evaluator unconvinced.
+
+And from Latin America? The study does not break out the region, so this is my own reading. A good share of the programming work the region sells to the world goes through this filter: the remote technical interview. If handing in correct code is no longer enough, someone who never learned to direct artificial intelligence well can come off badly, even if they know how to program. The way out is not simply to ban or allow, but to make explicit what is being evaluated.
+
+The question that remains is uncomfortable: if two equally capable people are judged differently just because of how they position themselves in front of artificial intelligence, is expertise being measured, or the ability to read expectations?
+
+The study is by Yeonju Jang, Mose Sakashita, Koichiro Niinuma and Aakar Gupta. This was an automated reading done by Claude; for the details, it is worth checking the original source.

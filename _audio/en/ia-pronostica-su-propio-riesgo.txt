@@ -1,0 +1,17 @@
+Doble Lectura, from Doble Click. Today, what happens when, instead of asking experts about the risk of catastrophe from artificial intelligence, you ask the models themselves.
+
+The debate over that risk has been stuck for years. Some industry leaders speak of a ten to twenty-five percent probability of a catastrophic outcome. Yann LeCun puts it below the odds of an asteroid. A group of researchers from the Forecasting Research Institute proposes adding a new input: the forecasts of frontier models.
+
+They built a dashboard that is updated periodically. They take the four top-ranked models on a capabilities index, give them thirty-five questions with precise resolution criteria, and keep the median of the four.
+
+They define catastrophe as an event that kills at least ten percent of the human population within five years. For a catastrophe caused by artificial intelligence, the models give zero point four seven percent by 2030, and six percent by 2050. That is between five and seven times higher than what human superforecasters estimate. And there is a less discussed figure: the probability of human disempowerment comes out even higher, twenty-eight percent by 2100.
+
+The most interesting part is not the numbers but the attempt to validate them. The authors show that on real questions that have already been resolved, recent models are as good as the superforecasters, and that in simulated worlds, where thousands of rare events can actually be generated, accuracy rises sharply with the model's capability. Hence their central idea: since forecasting better depends on the same thing that drives the risk, these forecasts would be more reliable precisely in the futures where the risk is highest.
+
+And from Latin America? The region does not appear anywhere. The policy menu was put together from proposals by American think tanks and politicians. But there is a result that speaks directly to the region without setting out to: in every comparison, international measures beat national ones. For a country that does not train frontier models and has no jurisdiction over those who train them, that explains why national policy, however good, does not touch this risk, and why what is at stake lies at the multilateral table.
+
+Two caveats. The paper presents a product of its own house, so it is internal validation, not an independent audit. And the authors acknowledge that it is not established that getting things right in simulated worlds translates into getting things right about real catastrophes.
+
+The question it leaves is simple. If one of these figures moves sharply upward next quarter, is anyone in the region in charge of noticing?
+
+The study is by Jason Abaluck, Ezra Karger, Nick Merrill, Philip Tetlock, Eva Vivalt, and Bridget Williams. This was an automated reading made by Claude; for the details, it is worth checking the original source.

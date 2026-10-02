@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, why artificial intelligence can improve a professional's work on one task and make it worse on the next.
+
+The study is a randomized, preregistered experiment inside Boston Consulting Group, published in Organization Science. It involved 758 consultants. A random draw split them into three groups: without the tool, with GPT-4, and with GPT-4 plus a brief training on how to write instructions for it. In addition, each person worked on one of two types of task, designed to fall on one side or the other of what the model handled well. The authors call that line the jagged frontier: tasks that seem equally difficult to a person can fall on different sides.
+
+On the first task, coming up with a product and taking it all the way to launch, those who used the tool completed more tasks, and did them faster and with better quality. Those who started lower were the ones who gained the most.
+
+The second task was a business case where the model reached the wrong conclusion if no one cross-checked the data against the interviews. There, the opposite happened. Those who used the tool got it right less often, about 19 percentage points less on average. The group trained in writing instructions, the one that had gained the most on the first task, got it right even less often on this one, although that difference is weak and that group spent less time on the task.
+
+There is a third result that explains why the error is hard to see. Evaluators who did not know the correct answer found the recommendations made with the tool more coherent and more persuasive, even the wrong ones.
+
+Now, the view from Latin America. The most solid point is that, outside the frontier, those who used the tool got it right less often, and their mistakes were more convincing. For a school of government, the study suggests that teaching people to ask the model for things better is not enough: they also need to practice with tasks where it gets things wrong. And for whoever does the reviewing, for example a committee that scores proposals in a procurement process with a rubric for clarity, a wrong but well-written analysis can come out well rated. Read from the region, that forces the review to go back to the source data, and those hours have to be budgeted for.
+
+What we still do not know is where the frontier lies today. The model in the study is from 2023, there was only one task outside the frontier, and the authors themselves warn that the frontier moves with each new model. It is also worth knowing that three coauthors are listed as affiliated with the consulting firm's research institute, and that it was the company that collected the data.
+
+The study is by Fabrizio Dell'Acqua, Edward McFowland, Ethan Mollick, Hila Lifshitz, Katherine Kellogg, Karim Lakhani, and their coauthors. This was an automated reading made by Claude; for the details, it is worth checking the original source.

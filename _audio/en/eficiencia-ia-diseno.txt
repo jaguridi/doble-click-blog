@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, how artificial intelligence is being adopted in design teams, according to a qualitative study with fifteen user experience designers in the United States, Canada and South Korea.
+
+Almost all of them adopt it looking for one thing only: efficiency. But when you dig deeper, what the study calls hidden work appears. The time spent writing instructions, the failed attempts, checking what the model makes up, fixing things before having something usable. That cost is almost never measured. And beneath the enthusiasm, a more persistent fear shows through: the fear of becoming dispensable. Several say it bluntly: I feel like I'm losing my core skills.
+
+Within the team, the tool does not arrive through training, it arrives through word of mouth. An enthusiastic colleague tries it, shows it at lunch, and it spreads. That leads to uneven adoption and some friction: whoever adopts faster starts doing tasks that others used to do. A trust problem also appears, when someone presents work done by the model as their own. And a curious pattern: treating the machine's answer as the final answer, without debating it the way we would debate a colleague's proposal.
+
+At the level of the organization, the finding is that designers are not the ones who decide. Adoption depends on management, on compliance teams, on clients. Leadership measures success in productivity and savings; the designer experiences something else: artificial intelligence did not take work off their plate, it added new responsibilities without removing the old ones.
+
+The central idea of the paper is that the word efficiency is not neutral. It means different things to the manager and to the designer, and artificial intelligence puts that difference on the table.
+
+And from Latin America? The study looks at the Global North and Asia. In the region, with smaller teams and tighter budgets, the tension between becoming more efficient and becoming dispensable may be sharper: automating a function can literally cost a job. And in agencies or startups, where those formal approvals do not exist, adoption is faster, but it is left without frameworks for resolving who decides and who answers when something goes wrong.
+
+The question it leaves, and one that applies to any team in the region: before adopting artificial intelligence to look modern or to cut costs, who can say no without consequences? And who absorbs the hidden work when the model fails?
+
+The study is by Inha Cha, Catherine Wieczorek and Richmond Wong, from Georgia Tech. This was an automated reading done by Claude; for the details, it is best to check the original paper.
