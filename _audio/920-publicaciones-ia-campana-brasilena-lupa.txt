@@ -1,0 +1,11 @@
+Brasil vota este domingo cuatro de octubre en primera vuelta, y llega con un primer balance del uso de inteligencia artificial en la campaña.
+
+La agencia de verificación Lupa, con su proyecto VigIA, contó novecientas veinte publicaciones hechas o alteradas con inteligencia artificial entre el dieciséis de agosto y el veintiocho de septiembre. Seis de cada diez eran deepfakes, es decir, videos, audios o imágenes que imitan a personas reales. Al menos treinta usaban a periodistas de TV Globo para anunciar encuestas o resultados falsos. Lula apareció en trescientas setenta y nueve publicaciones, y Flávio Bolsonaro en ciento noventa.
+
+Lo más revelador es quién publicó. Los perfiles oficiales de candidatos sumaron doscientas veintiséis piezas. Usuarios y militantes, cuatrocientas treinta y cuatro. Cuentas anónimas, doscientas cincuenta y una. Y quinientas cuarenta y nueve piezas no traían ningún aviso de uso de inteligencia artificial, un aviso que, según Lupa, exigen las reglas del tribunal electoral para la propaganda. Entre las que sí lo traían, la mayoría tenía la etiqueta puesta por la plataforma, no por el autor.
+
+Nuestra interpretación, y es solo eso, es que el cumplimiento de esa regla podría depender más de lo que detectan las redes sociales que de lo que declaran los partidos. Las marcas de agua ofrecen otra pista: veinte piezas conservaban la de la herramienta que las generó, quince de ellas de Gemini.
+
+Lo que falta saber: Lupa consultó al tribunal electoral, que no respondió antes de la publicación. Tampoco se sabe si habrá sanciones antes de una eventual segunda vuelta, prevista para el veinticinco de octubre.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
