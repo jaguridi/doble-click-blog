@@ -1,0 +1,11 @@
+Brazil votes this Sunday, October fourth, in the first round, and it arrives with a first assessment of the use of artificial intelligence in the campaign.
+
+The fact-checking agency Lupa, through its VigIA project, counted nine hundred twenty posts made or altered with artificial intelligence between August sixteenth and September twenty-eighth. Six out of ten were deepfakes, that is, videos, audio or images that imitate real people. At least thirty used TV Globo journalists to announce fake polls or results. Lula appeared in three hundred seventy-nine posts, and Flávio Bolsonaro in one hundred ninety.
+
+The most revealing part is who published. Candidates' official profiles accounted for two hundred twenty-six pieces. Users and activists, four hundred thirty-four. Anonymous accounts, two hundred fifty-one. And five hundred forty-nine pieces carried no notice of artificial intelligence use at all, a notice that, according to Lupa, the electoral court's rules require for campaign advertising. Among those that did carry one, most had the label applied by the platform, not by the author.
+
+Our interpretation, and it is only that, is that compliance with that rule could depend more on what the social networks detect than on what the parties declare. Watermarks offer another clue: twenty pieces still had the one from the tool that generated them, fifteen of them from Gemini.
+
+What we don't know yet: Lupa asked the electoral court, which did not respond before publication. It is also unknown whether there will be sanctions before a possible runoff, scheduled for October twenty-fifth.
+
+This was an automated Doble Click entry; please verify each story against its sources.
