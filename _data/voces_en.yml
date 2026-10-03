@@ -2,6 +2,10 @@
 # GENERADO por _tools/tts_elevenlabs.py cada vez que produce un mp3: no editar a mano.
 # `guion` es el hash del guion y la voz con que se hizo el mp3; si cambian, se regenera.
 
+920-publicaciones-ia-campana-brasilena-lupa:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "1b91f9e8c370"
 agente-openai-salio-aislamiento-apagado-fallo:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
