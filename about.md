@@ -49,14 +49,14 @@ El proyecto lo mantiene **José Guridi**, investigador. Doble Click es un experi
 
 ## Newsletter
 
-¿Prefieres recibirlo por correo? Te llega la entrada de cada mañana y, los lunes, la Doble Lectura: es una sola lista, te suscribes una vez y recibes las dos cosas. Antes de empezar te enviamos un único correo para confirmar, y la suscripción parte cuando haces clic en él.
+¿Prefieres recibirlo por correo? Te llega la entrada de cada mañana y, los lunes, la Doble Lectura: es una sola lista, te suscribes una vez y recibes las dos cosas. Antes de empezar te enviamos un único correo para confirmar, y la suscripción parte cuando haces clic en él. Si te suscribes desde la [edición en inglés](/en/), te llega en inglés; cada correo trae un enlace para cambiar de idioma.
 
 {% include idioma.html %}{% include form_suscripcion.html %}
 <p class="sub-note">{{ t.suscripcion.nota_about }} <a href="{{ t.url.about | relative_url }}#privacidad">{{ t.suscripcion.nota_enlace }}</a></p>
 
 ## Privacidad {#privacidad}
 
-Tu correo se guarda en una **planilla privada de Google (Sheets)** que administra quien hace este blog. No hay nada más detrás: ni plataforma de marketing, ni perfilado, ni seguimiento de quién abre qué.
+Tu correo se guarda, junto con el idioma en que prefieres recibirlo, en una **planilla privada de Google (Sheets)** que administra quien hace este blog. No hay nada más detrás: ni plataforma de marketing, ni perfilado, ni seguimiento de quién abre qué.
 
 Lo usamos **exclusivamente** para enviarte el newsletter. No lo compartimos con nadie ni lo usamos para ninguna otra cosa.
 

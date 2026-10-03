@@ -220,9 +220,9 @@ en:
     nota: "One list for both. Your subscription starts when you click the link in the confirmation email; we only use your address to send you the newsletter, and you can unsubscribe at any time."
     nota_about: "We only use your address to send you the newsletter, and you can unsubscribe at any time."
     nota_enlace: "How we use your email →"
-    # La versión en inglés del newsletter todavía no existe: se dice antes de que alguien
-    # se suscriba esperando otra cosa.
-    idioma_newsletter: "For now the newsletter goes out in Spanish only; an English edition is on the way."
+    # Quien se suscribe desde /en/ queda en inglés (el formulario manda lang=en y el Apps
+    # Script lo guarda en la planilla). Se dice antes de suscribirse.
+    idioma_newsletter: "It arrives in English, and every email has a link to switch to Spanish."
   entrada:
     min_lectura: min read
     aviso_auto: "Generated automatically · sources linked · no prior human review"
@@ -291,7 +291,7 @@ en:
     intro: "Every Monday we take a paper or a policy report and read it slowly: first <strong>what it says</strong>, and then <strong>what it means from Latin America</strong>. It is the unhurried companion to the daily blog."
     proximas: Coming up
     vacio: The first reading is coming soon.
-    cierre: 'Doble Lectura comes out on Mondays. If you''d rather get it by email, <a href="/en/#suscribete">subscribe to the newsletter</a> (in Spanish for now).'
+    cierre: 'Doble Lectura comes out on Mondays. If you''d rather get it by email, <a href="/en/#suscribete">subscribe to the newsletter</a>.'
     cierre_rss: "Doble Lectura RSS →"
     cierre_rss_texto: "The weekly feed for this section, with readings only: daily blog posts aren't included."
   fuentes:
