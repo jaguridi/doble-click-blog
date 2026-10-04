@@ -1,0 +1,11 @@
+Starting October ninth, anyone who uses the Gemini app without paying for a subscription will have a single model available, the one called Flash Lite. That is what Google's help page says.
+
+The change also affects the paid plans. AI Plus will keep Flash Lite and Flash, but will lose the Pro model. Its subscribers will get an email with the date the change reaches them. The AI Pro and AI Ultra plans keep all three models and add an option called Deep Think. According to the specialized site 9to5Google, AI Plus costs four dollars and ninety-nine cents a month, and AI Pro, nineteen dollars and ninety-nine cents.
+
+Each model will have three effort levels: low, medium and high. The higher levels use up more of the usage limit, which Google calculates based on the processing each answer requires. As an interpretation, that suggests users might have to choose between asking for more effort and keeping more queries.
+
+In Brazil, Google launched AI Plus in October 2025, at twenty-four reais and ninety-nine centavos a month, according to the outlet TechTudo. There, the federal prosecutor's office and the research center ITS Rio measure how chatbots answer questions about candidates, in a study called Boca de IA. If there is a runoff, scheduled for October twenty-fifth, and those measurements continue, a free account and a paid one will no longer query the same model. Comparing results would require noting the plan used for each query.
+
+What we don't know yet is whether the cut also reaches AI Plus subscribers in Brazil, and on what date.
+
+This was an automated Doble Click entry; please verify each story against its sources.
