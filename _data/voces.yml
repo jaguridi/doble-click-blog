@@ -197,6 +197,9 @@ fable-5-vuelve-fin-veto-latam:
 frontera-dentada-ia-consultores:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+gemini-gratuito-queda-solo-con-flash-lite:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 ginebra-gobernanza-global-ia-una-silla-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
