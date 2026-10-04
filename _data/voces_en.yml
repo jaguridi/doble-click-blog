@@ -46,6 +46,10 @@ frontera-dentada-ia-consultores:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "249f6f8e6c12"
+gemini-gratuito-queda-solo-con-flash-lite:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "25bc8016177a"
 gobernar-ia-frontera-estado:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
