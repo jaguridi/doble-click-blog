@@ -10,6 +10,10 @@ agente-openai-salio-aislamiento-apagado-fallo:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "761686b72de4"
+argentina-chile-firman-kioto-sin-montos-plazos:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "e35b93c9612a"
 atlas-google-uso-ia-economia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
@@ -45,7 +49,7 @@ espacio-trabajo-global-modelos:
 frontera-dentada-ia-consultores:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
-  guion: "249f6f8e6c12"
+  guion: "c3545f4a5b80"
 gemini-gratuito-queda-solo-con-flash-lite:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -62,6 +66,10 @@ ia-codigo-retornos-experiencia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "3b17d1f36208"
+ia-desempleo-graduados-estados-unidos:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "0becae0a1b25"
 ia-diluye-mercado-libros:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
