@@ -2,8 +2,8 @@
 layout: lectura
 numero: 24
 tags: [trabajo, gobernanza]
-title: "The same GPT-4 that improved the work of 758 consultants made them get another task wrong"
-description: "A preregistered experiment with 758 BCG consultants shows that GPT-4 sped up and improved their work on product development tasks. On a business case that fell outside its reach, the opposite happened: those who used the tool got it right less often, and their wrong answers sounded more convincing."
+title: "With GPT-4, consultants improved on some tasks and got another one right less often"
+description: "In an experiment with 758 BCG consultants, GPT-4 sped up and improved product development tasks. On a case outside its reach, those who used it got it right less often, and their wrong answers were more convincing."
 date: 2026-09-28
 paper_titulo: "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality"
 paper_autores: "Dell'Acqua, McFowland, Mollick, Lifshitz, Kellogg, Lakhani et al."
@@ -12,14 +12,14 @@ paper_doi: "https://doi.org/10.1287/orsc.2025.21838"
 paper_archivo: "cola-00-jagged-frontier-dellacqua.pdf"
 paper_keywords: "technology and innovation management, organizational economics, economics and organization, organization and management theory, research design and methods, field experiments, implementation of new technology, organizational processes"
 audio: true
-hash_original: "e8abafde8e2a"
+hash_original: "ca943242a284"
 ---
 
 ## At a glance
 
 - **What it is:** *Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality*
 - **Who:** [Fabrizio Dell'Acqua](https://scholar.google.com/scholar?q=%22Fabrizio+Dell%27Acqua%22), [Edward McFowland III](https://scholar.google.com/scholar?q=%22Edward+McFowland+III%22), [Hila Lifshitz](https://scholar.google.com/scholar?q=%22Hila+Lifshitz%22), and [Karim R. Lakhani](https://scholar.google.com/scholar?q=%22Karim+R.+Lakhani%22) (Digital Data Design Institute, Harvard Business School), [Ethan Mollick](https://scholar.google.com/scholar?q=%22Ethan+Mollick%22) (Wharton), [Katherine C. Kellogg](https://scholar.google.com/scholar?q=%22Katherine+C.+Kellogg%22) (MIT Sloan), and Saran Rajendran, Lisa Krayer, and François Candelon (BCG Henderson Institute).
-- **Where:** *Organization Science*, vol. 37, no. 2, March-April 2026, pp. 403-423, open access. [doi.org/10.1287/orsc.2025.21838](https://doi.org/10.1287/orsc.2025.21838)
+- **Where:** *Organization Science*, vol. 37, no. 2, March-April 2026, pp. 403-423, open access. [doi.org/10.1287/orsc.2025.21838](https://doi.org/10.1287/orsc.2025.21838). It circulated earlier as a working paper, starting in September 2023.
 - **Type:** randomized, preregistered experiment within a single company.
 
 ## First reading: what it does and what it finds
@@ -43,7 +43,7 @@ On average, using AI cut accuracy by 19 percentage points. The trained group, wh
 
 The third finding explains why the error is hard to see. Evaluators who did not know the correct answer scored the coherence and persuasiveness of each recommendation. Those who used AI were rated higher, including when they had gotten it wrong. The authors conclude that AI improves presentation and argumentation even when the analysis is wrong. One additional result: inside the frontier, those who started in the bottom half on the baseline task gained the most, although the top half also improved.
 
-What is established is that the same model, used by the same professionals on tasks from their own line of work, raised performance on some and lowered it on another, and that from inside the work it was not obvious which was which.
+In sum, the same model, used by the same professionals on tasks from their own line of work, raised performance on some and lowered it on another. The study did not measure whether participants perceived which side of the frontier their task was on; the authors leave understanding how workers perceive it as an open question.
 
 ## Second reading: from Latin America
 
@@ -51,13 +51,13 @@ This is the second Doble Lectura in a row about an experiment by a largely share
 
 What is most useful for the region lies in two results of different strength. The solid one: outside the frontier, those who used AI got it right less often, and their wrong answers were more convincing to those who evaluated them. The fragile one: the group trained in writing instructions got it right even less often, with a weak difference and after working for less time.
 
-For the schools of government that train public servants, the fragile result allows only one prudent reading: teaching people to ask the model for things better did not protect against error on the task where the model failed. The study did not measure participants' confidence, so it does not say why the trained group got it right less often. It does suggest that a course should include tasks where the model gets things wrong, not just examples where it shines.
+For those who design AI courses for public servants, the solid result already says something: the group that received the training in instructions also got it right less often than the group without AI. The study did not measure participants' confidence, so it does not explain why. What the region would need to find out is whether the training currently offered to public servants includes tasks where the model fails, or only examples where it gets things right, and whether any of it measures how often participants get that type of task right.
 
-The solid result concerns whoever does the reviewing, for example a committee that scores proposals in a procurement process with a rubric for clarity and justification. If the documents it receives are written with AI, the finding on coherence indicates that such a rubric may reward a well-written but mistaken analysis. Read from the region, the practical consequence is that review has to go back to the source data, and that requires budgeting reviewer hours to redo parts of the analysis, not just to read the document.
+The finding on coherence concerns whoever evaluates documents. Evaluators who did not know the correct answer scored the recommendations made with AI higher, including the wrong ones. The question for the region is how many public evaluation processes score clarity and justification without checking against the source data, and whether their results change when applicants write with AI. The study does not answer that; it shows the risk in a single business case.
 
-A third point remains open. That the consultants with the lowest initial performance gained the most inside the frontier suggests the tool could narrow gaps in public teams with little experience. It is not yet known whether that advantage holds when the same team faces, without warning, a task that falls outside.
+A third point remains open. That the consultants with the lowest initial performance gained the most inside the frontier suggests the tool could narrow gaps in public teams with little experience. The design does not make it possible to know whether that advantage holds when the same team faces, without warning, a task that falls outside: each person worked on only one type of task.
 
-The concrete implication for a ministry adopting AI assistants is where to put the effort. This evidence points to mapping which tasks in its own workflow fall outside the frontier and strengthening human review there: training in instructions improved performance inside the frontier, but it did not protect outside it.
+The authors close their introduction with a warning that works as an agenda: the effectiveness of AI in knowledge work will depend on human judgment to distinguish which tasks in the workflow lend themselves to relying on it and where human expertise should prevail. For an agency adopting AI assistants, that translates into a prior question: which of its own tasks fall outside the frontier of the model it uses, and who checked.
 
 ## The fine print
 
@@ -68,4 +68,4 @@ The concrete implication for a ministry adopting AI assistants is where to put t
 - Conflict of interest: three coauthors are listed as affiliated with the BCG Henderson Institute, and the company collected the data. The preregistration did not include the jagged frontier framing.
 - It applies to complex professional work with a 2023 model. Where the frontier lies today is something each organization has to measure again.
 
-<small>**Revised on September 28, 2026.** The original version stated that the group trained in writing instructions "made the most mistakes" and that such a course "can raise confidence in the tool." In the paper, the difference between the two AI groups is significant only at the 10% level, that group spent less time on the task, and confidence was not measured. Those sentences and the title were adjusted.</small>
+<small>**Revised on September 28, 2026.** The original version stated that the group trained in writing instructions "made the most mistakes" and that such a course "can raise confidence in the tool." In the paper, the difference between the two AI groups is significant only at the 10% level, that group spent less time on the task, and confidence was not measured. Those sentences and the title were adjusted. **Revised on October 5, 2026.** The claim that from inside the work it was not obvious which task fell outside the frontier, something the study did not measure, was removed, and the recommendations in the second reading became open questions.</small>

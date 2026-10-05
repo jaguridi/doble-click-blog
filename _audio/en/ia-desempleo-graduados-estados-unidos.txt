@@ -1,0 +1,15 @@
+Doble Lectura, from Doble Click. Today, whether artificial intelligence is already showing up in unemployment among people who have just graduated from college in the United States.
+
+The study is a working paper by Robert Fairlie and Jane Wu, of the University of California, Los Angeles, published in September in the CESifo series. They use the monthly household survey the United States relies on to calculate its official unemployment, and they focus on people aged twenty-two to twenty-five who have a bachelor's degree and are no longer studying.
+
+One detail shapes the entire analysis. Every Northern Hemisphere summer, when a new class graduates, unemployment in this group rises by about two points. That is why the authors do not compare summer 2026 with the previous months, but with the same months of the previous years.
+
+What they find is that this unemployment did not spike. Between June and August 2026 it averaged seven point three percent, within the range of the summers since 2022. Nor is there a significant rise relative to older graduates or to young people without a college degree. The authors also add those who are not looking for work but say they want a job. With that broader measure, 2026 was the highest summer of the five, although by very little and without statistical significance.
+
+When they look at the occupations most exposed to artificial intelligence, the estimates are positive, but none is significant. The authors stress that their analysis is descriptive and that it does not rule out larger effects in the coming classes.
+
+Now, the view from Latin America, which is the blog's interpretation and not the study's. What this work leaves is above all a method. To replicate it, the calendar would have to be adjusted: in countries like Chile or Argentina the university year ends around December, so the comparison window is different. It would also be necessary to check whether the employment surveys of the statistics institutes, such as the INE in Chile, DANE in Colombia or INEGI in Mexico, make it possible to isolate young graduates who want to work without looking. And there is a hypothesis of our own: where informality is high, a graduate without a formal job might not show up as unemployed, but in an informal job or one below their training. If artificial intelligence were to reduce entry-level jobs, the signal might show up there first.
+
+The main question remains open. A single summer and a single country are enough to rule out a large, visible jump in 2026, but not to measure slower effects or effects concentrated in certain jobs.
+
+The study is by Robert Fairlie and Jane Wu. This is an automated reading made with Claude; it is worth checking the original source.
