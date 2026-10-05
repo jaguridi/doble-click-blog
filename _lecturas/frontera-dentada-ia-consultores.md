@@ -2,8 +2,8 @@
 layout: lectura
 numero: 24
 tags: [trabajo, gobernanza]
-title: "El mismo GPT-4 que mejoró el trabajo de 758 consultores los hizo equivocarse en otra tarea"
-description: "Un experimento preregistrado con 758 consultores de BCG muestra que GPT-4 aceleró y mejoró su trabajo en tareas de desarrollo de producto. En un caso de negocios que quedaba fuera de su alcance pasó lo contrario: quienes usaron la herramienta acertaron menos, y sus respuestas equivocadas sonaban más convincentes."
+title: "Con GPT-4, consultores mejoraron en unas tareas y acertaron menos en otra"
+description: "En un experimento con 758 consultores de BCG, GPT-4 aceleró y mejoró tareas de desarrollo de producto. En un caso fuera de su alcance, quienes lo usaron acertaron menos y sus respuestas erradas convencían más."
 date: 2026-09-28
 paper_titulo: "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality"
 paper_autores: "Dell'Acqua, McFowland, Mollick, Lifshitz, Kellogg, Lakhani et al."
@@ -18,7 +18,7 @@ audio: true
 
 - **Qué es:** *Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality*
 - **Quiénes:** [Fabrizio Dell'Acqua](https://scholar.google.com/scholar?q=%22Fabrizio+Dell%27Acqua%22), [Edward McFowland III](https://scholar.google.com/scholar?q=%22Edward+McFowland+III%22), [Hila Lifshitz](https://scholar.google.com/scholar?q=%22Hila+Lifshitz%22) y [Karim R. Lakhani](https://scholar.google.com/scholar?q=%22Karim+R.+Lakhani%22) (Digital Data Design Institute, Harvard Business School), [Ethan Mollick](https://scholar.google.com/scholar?q=%22Ethan+Mollick%22) (Wharton), [Katherine C. Kellogg](https://scholar.google.com/scholar?q=%22Katherine+C.+Kellogg%22) (MIT Sloan), y Saran Rajendran, Lisa Krayer y François Candelon (BCG Henderson Institute).
-- **Dónde:** *Organization Science*, vol. 37, núm. 2, marzo-abril de 2026, pp. 403-423, en acceso abierto. [doi.org/10.1287/orsc.2025.21838](https://doi.org/10.1287/orsc.2025.21838)
+- **Dónde:** *Organization Science*, vol. 37, núm. 2, marzo-abril de 2026, pp. 403-423, en acceso abierto. [doi.org/10.1287/orsc.2025.21838](https://doi.org/10.1287/orsc.2025.21838). Circuló antes como working paper, desde septiembre de 2023.
 - **Tipo:** experimento aleatorizado y preregistrado, dentro de una sola empresa.
 
 ## Primera lectura: qué hace y qué encuentra
@@ -42,7 +42,7 @@ En promedio, usar IA restó 19 puntos porcentuales de acierto. El grupo entrenad
 
 El tercer hallazgo explica por qué el error es difícil de ver. Evaluadores que no conocían la respuesta correcta puntuaron la coherencia y la capacidad de persuasión de cada recomendación. Quienes usaron IA salieron mejor evaluados, también cuando se habían equivocado. Los autores concluyen que la IA mejora la presentación y la argumentación aunque el análisis esté mal. Un resultado adicional: dentro de la frontera, los que partían en la mitad inferior de la tarea de base fueron los que más ganaron, aunque la mitad superior también mejoró.
 
-Lo que queda establecido es que el mismo modelo, usado por los mismos profesionales en tareas de su oficio, subió el desempeño en unas y lo bajó en otra, y que desde adentro del trabajo no era evidente cuál era cuál.
+En suma, el mismo modelo, usado por los mismos profesionales en tareas de su oficio, subió el desempeño en unas y lo bajó en otra. El estudio no midió si los participantes percibían de qué lado de la frontera estaba su tarea; los autores dejan como pendiente entender cómo la perciben los trabajadores.
 
 ## Segunda lectura: desde América Latina
 
@@ -50,13 +50,13 @@ Es la segunda Doble Lectura seguida sobre un experimento de un equipo en buena p
 
 Lo más útil para la región está en dos resultados de distinta solidez. El sólido: fuera de la frontera, quienes usaron IA acertaron menos, y sus respuestas equivocadas convencieron más a quienes las evaluaron. El frágil: el grupo entrenado en escribir instrucciones acertó todavía menos, con una diferencia débil y habiendo trabajado menos tiempo.
 
-Para las escuelas de gobierno que capacitan funcionarios, el resultado frágil admite una sola lectura prudente: enseñar a pedirle mejor las cosas al modelo no protegió contra el error en la tarea donde el modelo fallaba. El estudio no midió la confianza de los participantes, así que no dice por qué el grupo entrenado acertó menos. Sí sugiere que un curso debería incluir tareas donde el modelo se equivoca, y no solo ejemplos donde brilla.
+Para quien diseña cursos de IA para funcionarios, el resultado sólido ya dice algo: el grupo que recibió el entrenamiento en instrucciones también acertó menos que el grupo sin IA. El estudio no midió la confianza de los participantes, así que no explica por qué. Lo que habría que averiguar en la región es si las capacitaciones que se ofrecen hoy a funcionarios incluyen tareas donde el modelo falla, o solo ejemplos donde acierta, y si alguna mide cuánto aciertan los participantes en ese tipo de tareas.
 
-El resultado sólido toca a quien revisa, por ejemplo un comité que puntúa propuestas en una licitación con una rúbrica de claridad y fundamentación. Si los documentos que recibe se escriben con IA, el hallazgo sobre la coherencia indica que esa rúbrica puede premiar un análisis equivocado bien redactado. Leído desde la región, la consecuencia práctica es que la revisión tiene que volver a los datos de origen, y eso exige presupuestar horas de revisor para rehacer partes del análisis, no solo para leer el documento.
+El hallazgo sobre la coherencia toca a quien evalúa documentos. Evaluadores que no conocían la respuesta correcta puntuaron mejor las recomendaciones hechas con IA, también las equivocadas. La pregunta para la región es cuántos procesos de evaluación pública puntúan claridad y fundamentación sin contrastar con los datos de origen, y si sus resultados cambian cuando quienes postulan escriben con IA. El estudio no responde eso; muestra el riesgo en un solo caso de negocios.
 
-Un tercer punto queda abierto. Que los consultores de menor desempeño inicial hayan ganado más dentro de la frontera sugiere que la herramienta podría achicar brechas en equipos públicos con poca experiencia. Todavía no se sabe si esa ventaja se mantiene cuando el mismo equipo enfrenta, sin aviso, una tarea que queda fuera.
+Un tercer punto queda abierto. Que los consultores de menor desempeño inicial hayan ganado más dentro de la frontera sugiere que la herramienta podría achicar brechas en equipos públicos con poca experiencia. El diseño no permite saber si esa ventaja se mantiene cuando el mismo equipo enfrenta, sin aviso, una tarea que queda fuera: cada persona trabajó en un solo tipo de tarea.
 
-La implicación concreta para un ministerio que adopta asistentes de IA es dónde poner el esfuerzo. Esta evidencia apunta a mapear qué tareas del propio flujo quedan fuera de la frontera y reforzar ahí la revisión humana: el entrenamiento en instrucciones mejoró el rendimiento dentro de la frontera, pero no protegió fuera de ella.
+Los autores cierran su introducción con una advertencia que funciona como agenda: la eficacia de la IA en el trabajo del conocimiento dependerá del juicio humano para distinguir qué tareas del flujo se prestan para apoyarse en ella y dónde debe primar la experiencia humana. Para un organismo que adopta asistentes de IA, eso se traduce en una pregunta previa: qué tareas propias quedan fuera de la frontera del modelo que usa, y quién lo comprobó.
 
 ## La letra chica
 
@@ -67,4 +67,4 @@ La implicación concreta para un ministerio que adopta asistentes de IA es dónd
 - Conflicto de interés: tres coautores figuran con afiliación al BCG Henderson Institute, y la empresa recolectó los datos. El preregistro no incluía el encuadre de la frontera dentada.
 - Vale para trabajo profesional complejo con un modelo de 2023. Dónde queda hoy la frontera es algo que cada organización tiene que volver a medir.
 
-<small>**Revisado el 28 de septiembre de 2026.** La versión original afirmaba que el grupo entrenado en escribir instrucciones "fue el que más se equivocó" y que un curso así "puede subir la confianza en la herramienta". En el paper, la diferencia entre los dos grupos con IA es significativa solo al 10%, ese grupo trabajó menos tiempo en la tarea y la confianza no se midió. Se ajustaron esas frases y el título.</small>
+<small>**Revisado el 28 de septiembre de 2026.** La versión original afirmaba que el grupo entrenado en escribir instrucciones "fue el que más se equivocó" y que un curso así "puede subir la confianza en la herramienta". En el paper, la diferencia entre los dos grupos con IA es significativa solo al 10%, ese grupo trabajó menos tiempo en la tarea y la confianza no se midió. Se ajustaron esas frases y el título. **Revisado el 5 de octubre de 2026.** Se quitó la afirmación de que desde adentro del trabajo no era evidente qué tarea quedaba fuera de la frontera, algo que el estudio no midió, y las recomendaciones de la segunda lectura pasaron a preguntas abiertas.</small>

@@ -3,7 +3,7 @@ layout: lectura
 numero: 25
 tags: [trabajo, datos]
 title: "La IA todavía no asoma en el desempleo de los graduados estadounidenses"
-description: "Con microdatos de la encuesta oficial de empleo, Fairlie y Wu no encuentran un alza significativa del desempleo entre universitarios de 22 a 25 años en el verano de 2026, tampoco frente a otros grupos."
+description: "Con microdatos de la encuesta oficial de empleo, Fairlie y Wu no encuentran un alza significativa del desempleo entre graduados de 22 a 25 años en el verano de 2026, tampoco frente a otros grupos."
 date: 2026-10-05
 paper_titulo: "The Early Impacts of AI on Employment Among Recent College Graduates"
 paper_autores: "Fairlie y Wu"
@@ -31,7 +31,7 @@ Los números centrales:
 - Con la medida ampliada, 2026 marcó 10,4%, el más alto de los cinco veranos, apenas 0,3 puntos sobre el máximo anterior.
 - En la regresión principal, que descuenta la tendencia previa, el coeficiente del verano de 2026 es -0,008, con un error estándar de 0,007.
 
-Ese coeficiente se lee en puntos de probabilidad: 0,008 equivale a 0,8 puntos porcentuales de desempleo. Es una estimación pequeña, con un margen de error de su mismo tamaño, y no es estadísticamente distinta de cero; tampoco con la medida ampliada ni comparando solo con 2022.
+Ese coeficiente se lee en puntos de probabilidad: -0,008 equivale a 0,8 puntos porcentuales menos de desempleo que lo que anticipaba la tendencia. Es una estimación pequeña, con un margen de error de su mismo tamaño, y no es estadísticamente distinta de cero; tampoco con la medida ampliada ni comparando solo con 2022.
 
 El segundo hallazgo viene de comparar con grupos que, según los autores, deberían estar menos expuestos a la IA. Frente a graduados de 30 a 49 años, la brecha del desempleo oficial se mantuvo estable entre 2025 y 2026. Frente a jóvenes de la misma edad sin título universitario, la ventaja de los graduados en la medida ampliada se achicó a su menor nivel de los cinco veranos. En las regresiones, ninguna de esas diferencias resulta significativa.
 
