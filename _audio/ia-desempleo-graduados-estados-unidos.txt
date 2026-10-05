@@ -1,0 +1,15 @@
+Doble Lectura, de Doble Click: hoy, si la inteligencia artificial ya se nota en el desempleo de quienes acaban de egresar de la universidad en Estados Unidos.
+
+El estudio es un documento de trabajo de Robert Fairlie y Jane Wu, de la Universidad de California en Los Ángeles, publicado en septiembre en la serie de CESifo. Usan la encuesta mensual de hogares con la que Estados Unidos calcula su desempleo oficial, y se concentran en personas de veintidós a veinticinco años que tienen una licenciatura y ya no estudian.
+
+Un detalle condiciona todo el análisis. Cada verano del hemisferio norte, cuando sale una nueva generación, el desempleo de este grupo sube cerca de dos puntos. Por eso los autores no comparan el verano de 2026 con los meses anteriores, sino con los mismos meses de los años previos.
+
+Lo que encuentran es que ese desempleo no se disparó. Entre junio y agosto de 2026 promedió siete coma tres por ciento, dentro del rango de los veranos desde 2022. Tampoco aparece un alza significativa frente a graduados de mayor edad ni frente a jóvenes sin título universitario. Los autores suman además a quienes no buscan empleo pero dicen querer uno. Con esa medida ampliada, 2026 fue el verano más alto de los cinco, aunque por muy poco y sin significancia estadística.
+
+Cuando miran las ocupaciones más expuestas a la inteligencia artificial, las estimaciones son positivas, pero ninguna es significativa. Los autores insisten en que su análisis es descriptivo y en que no descarta efectos mayores en las próximas generaciones.
+
+Ahora, la mirada desde América Latina, que es interpretación del blog y no del estudio. Lo que este trabajo deja es sobre todo un método. Para replicarlo, habría que ajustar el calendario: en países como Chile o Argentina el año universitario termina hacia diciembre, así que la ventana de comparación es otra. También habría que revisar si las encuestas de empleo de los institutos de estadística, como el INE en Chile, el DANE en Colombia o el INEGI en México, permiten aislar a graduados jóvenes que quieren trabajar sin estar buscando. Y hay una hipótesis propia: donde la informalidad es alta, un graduado sin empleo formal quizás no aparezca como desempleado, sino en un trabajo informal o por debajo de su formación. Si la inteligencia artificial redujera los puestos de entrada, la señal podría verse primero ahí.
+
+Queda abierto lo principal. Un solo verano y un solo país alcanzan para descartar un salto grande y visible en 2026, pero no para medir efectos más lentos o concentrados en ciertos empleos.
+
+El estudio es de Robert Fairlie y Jane Wu. Esta es una lectura automática hecha con Claude; conviene revisar la fuente original.
