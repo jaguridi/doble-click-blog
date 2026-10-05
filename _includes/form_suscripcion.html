@@ -6,9 +6,9 @@ El .sub-ok es la región viva del formulario: nace con el mensaje de éxito escr
 y oculto —así, sin JavaScript, no aparece nunca— y el script de default.html lo
 vacía al cargar para ir contando el estado real del envío. Ver ahí el detalle.
 
-Desde inglés se manda además `lang=en`. El Apps Script de hoy no lo lee (envía un solo
-newsletter, en español), pero así, el día que exista la edición en inglés, basta con
-que lo guarde: quien se suscribió desde /en/ ya viene marcado.
+Desde inglés se manda además `lang=en`: el Apps Script lo guarda en la columna `idioma`
+de la planilla y desde ahí ese suscriptor recibe la edición en inglés (/en/feed.xml y
+/en/feed-lecturas.xml). Sin `lang`, queda en español.
 {%- endcomment -%}
 <form class="sub-form" action="{{ site.newsletter_endpoint }}" method="post" target="sub-sink">
   <input class="sub-input" type="email" name="email" placeholder="{{ t.suscripcion.placeholder }}" required aria-label="{{ t.suscripcion.aria_correo }}">

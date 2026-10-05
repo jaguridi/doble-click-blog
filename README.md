@@ -142,6 +142,11 @@ traducción fiel que cuelga de `/en/` (`/en/`, `/en/posts/`, `/en/doble-lectura/
   `_tools/traducciones.py`), alternando Matilda y Eric, voces de fábrica de ElevenLabs. El
   reproductor en inglés busca
   `assets/audio/en/<slug>.mp3` y, mientras no exista, no aparece.
+- **Newsletter.** Una sola lista con una columna `idioma`. Quien se suscribe desde `/en/`
+  (el formulario manda `lang=en`) recibe la edición en inglés, que sale de `/en/feed.xml` y
+  `/en/feed-lecturas.xml` cuando la traducción está publicada; el resto, la española. Cada
+  correo trae un enlace para cambiar de idioma. Todo eso vive en el Apps Script del
+  newsletter, no en este repo.
 
 ### Mantener las traducciones al día
 
