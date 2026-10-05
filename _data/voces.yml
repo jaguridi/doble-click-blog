@@ -233,6 +233,9 @@ ia-bienestar-mental-suplemento-o-remedio:
 ia-codigo-retornos-experiencia:
   voz: "Catalina (Chile)"
   motor: "Microsoft Azure"
+ia-desempleo-graduados-estados-unidos:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 ia-diluye-mercado-libros:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
