@@ -13,6 +13,16 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
+- titulo: "Derechos humanos y regulación de la IA: el informe de una comisión del Parlamento británico"
+  paper: "Human Rights and the Regulation of AI"
+  autores: "Joint Committee on Human Rights (Parlamento del Reino Unido)"
+  publicado: "Fourth Report of Session 2026-27, septiembre 2026"
+
+- titulo: "Lo que la capacitación no resuelve: trabajadores negros de Atlanta ante la IA"
+  paper: "(404) Job Not Found: What Workforce Training Can't Fix for Black Atlantans in the Age of AI"
+  autores: "Akanegbu"
+  publicado: "Informe, 2026"
+
 - titulo: "Las venas abiertas de la auditoría algorítmica: el Sur Global casi no audita la IA que ya usa"
   paper: "Open Veins of AI Auditing: How AI Scrutiny Lags Deployment in the Global South"
   autores: "Galdon Clavell y Magaard (Eticas Foundation)"
