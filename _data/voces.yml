@@ -62,6 +62,9 @@ anthropic-valuacion-record-deepfakes-elecciones:
 apple-demanda-openai-guerra-talento-tribunales:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+argentina-chile-firman-kioto-sin-montos-plazos:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 atlas-google-uso-ia-economia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
