@@ -356,6 +356,9 @@ openai-investigadores-quien-califica-ciencia:
 openai-lanza-astra-admite-menos-monitoreable:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+openai-marca-texto-chatgpt-europa-sinonimos-debilitan:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 openai-modelos-escapan-contencion-hugging-face:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
