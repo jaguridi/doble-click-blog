@@ -1,0 +1,13 @@
+OpenAI anunció el cinco de octubre que pondrá una marca invisible en los textos que ChatGPT y Codex generen para usuarios de la Unión Europea. Llegará a todos los planes en las próximas semanas.
+
+El sistema se llama textGrain. Ajusta la elección de palabras del modelo y deja un patrón que un detector puede reconocer, aunque quien lee no lo note. El medio TechCrunch lo vincula a las reglas de transparencia de la ley europea de inteligencia artificial, vigentes desde el dos de agosto. Para los desarrolladores que usan los modelos de OpenAI en sus propios productos, la marca es opcional en todo el mundo y viene desactivada.
+
+Las cifras de desempeño vienen de pruebas de la propia empresa, no de una evaluación independiente. Según el sitio BleepingComputer, la detección cae de cerca de noventa y dos por ciento a sesenta y seis. Eso pasa si se cambia una de cada diez palabras por un sinónimo. Si se cambia una de cada cuatro, baja a diecisiete por ciento.
+
+Nuestra interpretación es que esas cifras ponen un límite a quien quiera usar la marca como prueba. Una universidad que revise un ensayo, o un empleador que evalúe un informe, obtendría una probabilidad, y una edición menor podría bajarla mucho. Fuera de Europa, el texto quedará marcado solo si cada desarrollador activa la opción.
+
+Lo que falta saber es cuándo podrán usar el detector universidades, tribunales o empleadores. Por ahora, OpenAI dice que lo abrirá primero a investigadores y organizaciones expertas aprobadas.
+
+En Brasil, el Tribunal de Justicia de Rio Grande do Sul prepara agentes de inteligencia artificial propios para bajar sus costos de uso, según el medio Convergência Digital.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
