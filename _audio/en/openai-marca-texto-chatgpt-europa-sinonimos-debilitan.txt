@@ -1,0 +1,13 @@
+On October fifth, OpenAI announced that it will put an invisible watermark on the text that ChatGPT and Codex generate for users in the European Union. It will reach all plans in the coming weeks.
+
+The system is called textGrain. It adjusts the model's choice of words and leaves a pattern that a detector can recognize, even though the reader does not notice it. The outlet TechCrunch links it to the transparency rules of the European artificial intelligence law, in force since August second. For developers who use OpenAI's models in their own products, the watermark is optional worldwide and comes turned off.
+
+The performance figures come from the company's own tests, not from an independent evaluation. According to the site BleepingComputer, detection falls from about ninety-two percent to sixty-six. That happens if one in every ten words is swapped for a synonym. If one in every four is swapped, it drops to seventeen percent.
+
+Our interpretation is that those figures set a limit for anyone who wants to use the watermark as evidence. A university reviewing an essay, or an employer evaluating a report, would get a probability, and a minor edit could lower it a lot. Outside Europe, text will be watermarked only if each developer turns on the option.
+
+What we don't know yet is when universities, courts or employers will be able to use the detector. For now, OpenAI says it will open it first to approved researchers and expert organizations.
+
+In Brazil, the Court of Justice of Rio Grande do Sul is preparing its own artificial intelligence agents to lower its usage costs, according to the outlet Convergência Digital.
+
+This was an automated Doble Click entry; please verify each story against its sources.
