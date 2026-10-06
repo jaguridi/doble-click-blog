@@ -98,6 +98,10 @@ ocde-experimentacion-ia-gobierno:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "65520af98093"
+openai-marca-texto-chatgpt-europa-sinonimos-debilitan:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "3787dcb2d14e"
 penalidad-aprendizaje-ia-china:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
