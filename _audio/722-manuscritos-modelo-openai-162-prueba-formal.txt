@@ -1,0 +1,15 @@
+OpenAI publicó setecientos veintidós manuscritos de matemáticas escritos por un modelo interno que la empresa no ha lanzado. Están agrupados en trescientas setenta y dos familias de resultados y se pueden consultar en un repositorio abierto que la propia empresa subió a GitHub el seis de octubre.
+
+Según OpenAI, durante la evaluación el modelo recibió unos cuatro mil problemas abiertos, y cada resultado usó en promedio tres horas de cómputo de razonamiento. Son cifras que la empresa da sobre su propio modelo, sin una evaluación independiente.
+
+El dato que pesa es otro. Solo ciento sesenta y dos manuscritos traen su resultado principal formalizado en Lean, un lenguaje en que una computadora revisa cada paso de una demostración. Los otros quinientos sesenta no tienen esa comprobación. La propia OpenAI advierte que algunos de ellos podrían tener errores y promete registrar las correcciones como versiones nuevas.
+
+Nuestra interpretación es que el trabajo pesado podría recaer en matemáticos ajenos a la empresa. Ellos tendrían que revisar esos manuscritos uno por uno. Y no podrán repetir el procedimiento, porque el modelo que produjo los resultados no está disponible.
+
+Hay dos excepciones al método. Una región libre de ceros de la función zeta de Riemann, cuya redacción editaron personas, y la conjetura de Hodge para variedades abelianas de un tipo especial.
+
+Lo que falta saber es cuántos de los resultados sin formalizar resistirán la revisión externa, y cuántos de los cuatro mil problemas planteados terminaron sin un resultado publicable. OpenAI no lo informa en su repositorio.
+
+En Brasil, mañana jueves ocho de octubre se abren las propuestas por el supercomputador de inteligencia artificial del sector público, una contratación de casi novecientos sesenta millones de reales.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
