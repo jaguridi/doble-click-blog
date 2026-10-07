@@ -1,0 +1,15 @@
+OpenAI published seven hundred twenty-two mathematics manuscripts written by an internal model that the company has not released. They are grouped into three hundred seventy-two families of results and can be consulted in an open repository that the company itself uploaded to GitHub on October sixth.
+
+According to OpenAI, during the evaluation the model received about four thousand open problems, and each result used an average of three hours of reasoning compute. These are figures the company gives about its own model, without an independent evaluation.
+
+The figure that matters is a different one. Only one hundred sixty-two manuscripts come with their main result formalized in Lean, a language in which a computer checks each step of a proof. The other five hundred sixty do not have that check. OpenAI itself warns that some of them could contain errors and promises to record corrections as new versions.
+
+Our interpretation is that the heavy lifting could fall on mathematicians outside the company. They would have to review those manuscripts one by one. And they will not be able to repeat the procedure, because the model that produced the results is not available.
+
+There are two exceptions to the method. A zero-free region for the Riemann zeta function, whose write-up was edited by people, and the Hodge conjecture for abelian varieties of a special type.
+
+What we don't know yet is how many of the unformalized results will withstand outside review, and how many of the four thousand problems posed ended without a publishable result. OpenAI does not report that in its repository.
+
+In Brazil, tomorrow, Thursday, October eighth, proposals will be opened for the public sector's artificial intelligence supercomputer, a contract worth almost nine hundred sixty million reais.
+
+This was an automated Doble Click entry; please verify each story against its sources.

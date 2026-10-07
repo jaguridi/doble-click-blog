@@ -1,6 +1,7 @@
 # Hash del guion en español (_audio/<slug>.txt) con que se dobló cada guion en inglés.
 # Lo escribe `python _tools/traducciones.py --sellar _audio/en/<slug>.txt`: no editar a mano.
 
+722-manuscritos-modelo-openai-162-prueba-formal: "1e447799b46e"
 920-publicaciones-ia-campana-brasilena-lupa: "ebefa4233314"
 agente-openai-salio-aislamiento-apagado-fallo: "d11cc69605a1"
 argentina-chile-firman-kioto-sin-montos-plazos: "5385d7514633"
