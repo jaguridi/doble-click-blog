@@ -80,6 +80,9 @@ ban-fable-5-seguridad-nacional-negociacion:
 banca-latinoamericana-agentes-voz-clientes:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+banco-mundial-gestion-pesa-mas-que-costo-ia:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 brasil-aprueba-primer-marco-ia-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
