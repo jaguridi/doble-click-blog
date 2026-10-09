@@ -1,0 +1,15 @@
+The São Paulo section of the Brazilian Bar Association sued Talisman AI on October seventh. It is the company behind Enter, an artificial intelligence startup for legal work.
+
+The information comes from the Brazilian outlet Lawletter, which reviewed the case file. The case is before a federal civil court in São Paulo. The Bar Association argues that analyzing case files, recommending strategy and drafting filings for specific cases are acts that only lawyers can perform. It seeks one million reais for collective moral damages and independent audits every six months for at least five years. As an urgent measure, it also asks for the preservation of the company's records going back to January 2024.
+
+Enter responds that licensed lawyers review, sign and file the documents. In August, the Bar Association's Federal Council had authorized lawsuits of this kind against artificial intelligence companies.
+
+There is a precedent with a different outcome. In November 2025, a federal court in Rio de Janeiro ruled on a similar case, according to the outlet Convergência Digital. It concluded that using artificial intelligence to produce filings for the special courts was not the illegal practice of the profession.
+
+As an interpretation, the dispute seems to be less about the final signature than about the earlier steps. Suppose the São Paulo court declares the analysis of the case and the recommendation of strategy to be reserved to lawyers. Tools like this one could still be sold, but those functions would have to fall under a registered professional.
+
+What we don't know yet is when the court will rule on the urgent request about the records.
+
+In other news from Brazil, the opening of bids for the state's artificial intelligence supercomputer has been moved to November fourth.
+
+This was an automated Doble Click entry; please verify each story against its sources.
