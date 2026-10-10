@@ -1,0 +1,11 @@
+OpenAI informó el ocho de octubre que prohibió las cuentas de Dark Clark, una operación de influencia rusa centrada en la política y la cultura de América Latina. Lo dice el informe de la propia empresa, que medios especializados en ciberseguridad como CyberScoop y The Record reportaron después.
+
+Según OpenAI, la operación usaba una fachada: el Social Research Center, un supuesto centro de estudios latinoamericano encabezado por Mia Clark, una persona ficticia. La empresa afirma que sus empleados en la región no sabían que trabajaban para un grupo ruso. La red buscaba dañar la imagen de Ucrania e intervino en la política de Argentina y Bolivia.
+
+Algunas de sus piezas ya se conocían. En Ecuador difundió un video de TikTok sobre el reclutamiento de ecuatorianos para Ucrania, que el verificador Lupa Media calificó como falso en marzo. También difundió un audio falso del cónsul ucraniano. En Bolivia, durante las protestas de mayo, difundió un audio falso sobre cortes de agua en La Paz, que el gobierno desmintió. Según The Record, los operadores recurrieron a ChatGPT para crear supuestas filtraciones de documentos y libretos de esos audios. OpenAI le dio a la operación un cinco en su propia escala de impacto, que va de uno a seis.
+
+Lo que sigue es una interpretación, no un hecho del informe. Los verificadores pudieron desmentir cada pieza meses antes. Pero conectar esas piezas con un mismo origen parece haber dependido de datos de cuentas que solo tiene la empresa dueña del modelo. La atribución a Rusia viene de OpenAI.
+
+Lo que falta saber es si gobiernos, medios o verificadores de la región tendrán acceso a ese tipo de datos, o recibirán avisos, antes de que una campaña así avance.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
