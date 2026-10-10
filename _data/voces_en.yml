@@ -110,6 +110,10 @@ ocde-experimentacion-ia-gobierno:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "65520af98093"
+openai-cierra-red-rusa-falso-centro-estudios:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "e2f7ba80bd01"
 openai-marca-texto-chatgpt-europa-sinonimos-debilitan:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
