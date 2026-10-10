@@ -338,6 +338,9 @@ onu-computo-ia-latam-ausente:
 openai-abre-oficina-brasil-antes-que-ley:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+openai-cierra-red-rusa-falso-centro-estudios:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 openai-cinco-por-ciento-gobierno-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
