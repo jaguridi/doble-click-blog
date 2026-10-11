@@ -1,0 +1,11 @@
+A year ago, the Argentine government announced that OpenAI and the company Sur Energy had signed a letter of intent for a large data center in Argentina. The project, called Stargate Argentina, spoke of up to five hundred megawatts and an investment of up to twenty-five billion dollars.
+
+This October tenth, the fact-checking site Chequeado looked into what became of it. Its conclusion is that the project shows no progress or concrete investment. Argentina's Ministry of Economy told the outlet that there had been no movement at all to register it under Argentina's incentive regime for large investments. Sur Energy did not respond to the inquiries, and its media center shows no press releases after the announcement.
+
+There is a detail that helps explain the situation. An OpenAI spokesperson told Chequeado that the company would be a possible buyer of compute capacity, and that Sur Energy would lead the development. Our interpretation, not a fact from the sources, is that the announced figure therefore depends on the local partner finding those who would finance and build the facility.
+
+One path remains open. According to Chequeado, the Argentine Senate is considering a new regime, known as the Super RIGI, which has already passed the Chamber of Deputies. It is designed for new sectors, such as compute infrastructure, and requires investments of more than one billion dollars. If it is approved, the project would have an option to apply for it, although that does not replace an investor.
+
+What we don't know yet is whether Sur Energy is moving ahead and who would put up the capital.
+
+This was an automated Doble Click entry; please verify each story against its sources.
