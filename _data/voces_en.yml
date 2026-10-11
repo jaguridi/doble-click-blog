@@ -138,6 +138,10 @@ respuestas-chatbots-brasil-recomendaron-candidatos:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "8fc02791ef5f"
+stargate-argentina-un-ano-openai-posible-cliente:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "e51abb3b9f00"
 supremo-brasil-multa-abogado-orden-oculta-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
