@@ -1,0 +1,17 @@
+Esta es Doble Lectura, de Doble Click, y hoy el tema es un informe del Parlamento británico sobre derechos humanos e inteligencia artificial.
+
+Lo publicó en septiembre la comisión mixta de derechos humanos, integrada por diputados de la Cámara de los Comunes y miembros de la Cámara de los Lores. No es un estudio con datos nuevos. Es el resultado de una investigación parlamentaria que reunió más de setenta documentos de evidencia escrita y diez sesiones de audiencias con académicos, organizaciones civiles, reguladores, grandes empresas tecnológicas y el ministro de inteligencia artificial.
+
+Su diagnóstico central es sobre quién responde cuando algo sale mal. Según la comisión, las leyes británicas actúan sobre todo en el momento del uso. La responsabilidad cae en quien despliega un sistema, no en quien lo diseñó, y la comisión estima que eso probablemente deja pasar daños que se podrían haber evitado.
+
+Identifica además dos vacíos. Antes del lanzamiento, salvo casos muy acotados, los reguladores no pueden probar un sistema ni frenar su salida al mercado; el instituto público que evalúa los modelos más avanzados trabaja solo con acuerdos voluntarios. Después del lanzamiento, nadie está obligado a avisarle a una persona que una inteligencia artificial intervino en una decisión sobre ella. Sin ese aviso, razona la comisión, no hay forma de reclamar.
+
+Por eso recomienda una ley específica, con obligaciones según el nivel de riesgo, algunas prohibiciones, aprobación previa para los sistemas de alto riesgo y un organismo supervisor independiente con un registro público de incidentes. Son recomendaciones al gobierno, apoyadas en testimonios, no en una medición de cuántos daños ocurren.
+
+Ahora, la segunda lectura, que es interpretación del blog. El propio informe menciona a Uruguay entre los firmantes del convenio del Consejo de Europa sobre inteligencia artificial, el mismo que el Reino Unido quiere ratificar. El gobierno británico sostuvo que su ley ya era compatible con ese convenio, y la comisión concluyó que la ley no asegura un remedio efectivo a los afectados. A juicio del blog, Uruguay tendría que hacerse una pregunta parecida antes de ratificar: si su legislación obliga a avisar cuando una inteligencia artificial participa en una decisión que afecta a alguien.
+
+Hay también una comparación con Chile. El registro británico de algoritmos públicos es obligatorio para los ministerios, pero no para municipios ni policías, y la comisión lo considera limitado. En Chile existe un repositorio de algoritmos públicos impulsado por la Universidad Adolfo Ibáñez. Lo que habría que medir es qué parte de los algoritmos que usan municipios y policías aparece ahí.
+
+Queda abierto qué hará el nuevo gobierno británico, que asumió al cierre de la investigación, y si los reguladores aceptarán un organismo único: el de igualdad ya advirtió que duplicaría funciones.
+
+El informe es de la Comisión Conjunta de Derechos Humanos del Parlamento del Reino Unido. Esta fue una lectura automática hecha con Claude; conviene revisar la fuente original.
