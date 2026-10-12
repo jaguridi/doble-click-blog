@@ -1,0 +1,17 @@
+This is Doble Lectura, from Doble Click, and today's topic is a British Parliament report on human rights and artificial intelligence.
+
+It was published in September by the joint committee on human rights, made up of members of the House of Commons and members of the House of Lords. It is not a study with new data. It is the result of a parliamentary inquiry that gathered more than seventy pieces of written evidence and ten hearing sessions with academics, civil society organizations, regulators, big tech companies, and the artificial intelligence minister.
+
+Its central diagnosis is about who is accountable when something goes wrong. According to the committee, British laws act mainly at the point of use. Responsibility falls on whoever deploys a system, not on whoever designed it, and the committee considers that this probably lets through harms that could have been prevented.
+
+It also identifies two gaps. Before launch, except in very limited cases, regulators cannot test a system or stop it from reaching the market; the public institute that evaluates the most advanced models works only through voluntary agreements. After launch, no one is required to tell a person that an artificial intelligence was involved in a decision about them. Without that notice, the committee reasons, there is no way to challenge it.
+
+That is why it recommends a specific law, with obligations according to the level of risk, some prohibitions, prior approval for high risk systems, and an independent oversight body with a public register of incidents. These are recommendations to the government, supported by testimony, not by a measurement of how many harms occur.
+
+Now, the second reading, which is the blog's interpretation. The report itself mentions Uruguay among the signatories of the Council of Europe convention on artificial intelligence, the same one the United Kingdom wants to ratify. The British government argued that its law was already compatible with that convention, and the committee concluded that the law does not ensure an effective remedy for those affected. In the blog's view, Uruguay would have to ask itself a similar question before ratifying: whether its legislation requires giving notice when an artificial intelligence takes part in a decision that affects someone.
+
+There is also a comparison with Chile. The British register of public algorithms is mandatory for ministries, but not for local councils or police forces, and the committee considers it limited. In Chile there is a repository of public algorithms promoted by Universidad Adolfo Ibáñez. What would need to be measured is what share of the algorithms used by municipalities and police appears there.
+
+It remains open what the new British government, which took office at the close of the inquiry, will do, and whether regulators will accept a single body: the equality regulator has already warned that it would duplicate functions.
+
+The report is from the Joint Committee on Human Rights of the UK Parliament. This was an automated reading made with Claude; please check the original source.
