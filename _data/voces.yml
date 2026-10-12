@@ -158,6 +158,9 @@ deepseek-modelo-abierto-region-debe-elegir:
 demostrar-expertise-codigo-ia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+derechos-humanos-regulacion-ia-reino-unido:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 diez-mil-agentes-navier-stokes-lean:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
