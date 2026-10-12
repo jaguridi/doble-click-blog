@@ -46,6 +46,10 @@ demostrar-expertise-codigo-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "c2efa274a840"
+derechos-humanos-regulacion-ia-reino-unido:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "548d7674c80b"
 eficiencia-ia-diseno:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -102,6 +106,10 @@ imagenes-ia-espacios-publicos:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "a6a7d6d02d49"
+justicia-electoral-brasil-suma-peritos-contenidos-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "a4c6f7186555"
 observatorio-uso-real-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
