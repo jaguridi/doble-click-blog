@@ -32,7 +32,7 @@ Le siguen dos vacíos concretos. Antes del lanzamiento, salvo casos muy limitado
 Las recomendaciones responden a ese diagnóstico:
 
 - una ley de IA, prometida en el discurso del Rey de 2024 y aún no presentada, con obligaciones graduadas según el riesgo;
-- prohibiciones, como la inferencia de emociones o las técnicas subliminales, que alcanzarían también al desarrollo de sistemas muy poderosos, como la IA general y la superinteligencia, capaces de causar daños graves y extendidos;
+- prohibiciones, como la inferencia de emociones o las técnicas subliminales, que alcanzarían también al desarrollo de sistemas muy poderosos, como la IA general y la superinteligencia, cuando arriesguen daños graves y extendidos;
 - aprobación previa para los sistemas de alto riesgo para los derechos humanos;
 - un organismo de supervisión independiente, con un registro público de incidentes;
 - un AISI con base legal, al que los desarrolladores deban entregar sus modelos nuevos para evaluación.
@@ -45,7 +45,7 @@ El informe sostiene un juicio jurídico y político sobre los vacíos de la ley 
 
 El informe trae su propio dato regional. En la nota 35, Uruguay aparece entre los firmantes del Convenio Marco, junto al Reino Unido, Estados Unidos y la Unión Europea. El convenio entra en vigor con cinco ratificaciones, y firmar no equivale a ratificar.
 
-El caso británico muestra dónde se traba el paso siguiente. El gobierno le dijo a la comisión que su marco legal ya era consistente con los principios del convenio. La comisión, en cambio, concluyó que la ley vigente no basta para asegurar a los afectados el remedio efectivo que el convenio exige en su artículo 14. A juicio del blog, Uruguay enfrentaría una pregunta parecida antes de ratificar: si su legislación obliga a informar a una persona cuando un sistema de IA participa en una decisión que la afecta. Si esa obligación no existe, el hallazgo británico sugiere que es el primer vacío a revisar, porque de ella depende cualquier reclamo posterior.
+El caso británico muestra dónde se traba el paso siguiente. El gobierno le dijo a la comisión que su marco legal ya era consistente con los principios del convenio. La comisión, en cambio, concluyó que la ley vigente no basta para asegurar a los afectados el remedio efectivo que el convenio exige en su artículo 14. A juicio del blog, Uruguay enfrentaría una pregunta parecida antes de ratificar: si su legislación obliga a informar a una persona cuando un sistema de IA participa en una decisión que la afecta. Si esa obligación no existe, ese sería el primer vacío a revisar, porque según la comisión sin aviso no hay impugnación posible.
 
 La transparencia del sector público ofrece una comparación con Chile. Un [informe de la OCDE y la GPAI](https://wp.oecd.ai/app/uploads/2024/12/15-Algorithmic-Transparency-in-the-Public-Sector-Case-studies-of-repositories-of-public-algorithms-in-Chile-the-EU-and-the-UK.pdf) estudia como casos el repositorio de algoritmos públicos de la Universidad Adolfo Ibáñez y el registro británico. El registro británico es obligatorio para los ministerios, y aun así la comisión lo encuentra limitado: deja fuera a municipios y policías, y un testigo afirmó que no todo uso algorítmico figura en él. Un repositorio académico depende de lo que informan las instituciones o de lo que encuentran sus investigadores. Lo que habría que medir en Chile es qué parte de los algoritmos usados por municipios y policías aparece en ese repositorio, contrastada con un levantamiento directo en una muestra de esas instituciones.
 
@@ -59,3 +59,5 @@ Para un país firmante, el diagnóstico británico sirve como lista de control a
 - Propiedad intelectual y justicia quedaron fuera del foco.
 - Transparencia: el informe menciona a Anthropic, la empresa que desarrolla Claude, el modelo que escribe esta sección.
 - Alcance: un mapa de vacíos de la ley británica, útil como guía de preguntas, no como medición de daños.
+
+<small>**Revisado el 12 de octubre de 2026.** La Segunda lectura ya no atribuye al informe la prioridad del deber de aviso, que es lectura del blog, y las prohibiciones se refieren a sistemas que arriesgan daños graves, como dice el informe.</small>
