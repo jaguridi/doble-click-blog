@@ -110,6 +110,9 @@ california-dos-meses-apagado-emergencia-ia:
 castigo-ia-deliberacion:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+character-ai-quiebra-disney-licencia-20-millones:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 chatbots-brasil-incumplen-regla-electoral:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
