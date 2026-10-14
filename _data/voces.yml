@@ -2,6 +2,9 @@
 # GENERADO: no editar a mano. Se regenera con `python _tools/voces_yml.py`,
 # que lee los .voice de _audio/. Un slug ausente simplemente no muestra la voz.
 
+15000-becas-7-millones-licencias-colombia-google:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 722-manuscritos-modelo-openai-162-prueba-formal:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
