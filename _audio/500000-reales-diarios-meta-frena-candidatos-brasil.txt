@@ -1,0 +1,11 @@
+En Brasil, un ministro del Tribunal Superior Electoral prohibió a Meta restringir en Facebook el alcance de las publicaciones sobre los candidatos a la presidencia.
+
+La decisión la firmó el quince de octubre el ministro Marco Aurélio Bellizze, según la agencia Agência Brasil. El texto de la decisión no estaba disponible en el sitio del tribunal. La orden impide reducir la distribución de esas publicaciones, bloquear que se recomienden o limitar los resultados de búsqueda. Exige trato igual para Lula y para Flávio Bolsonaro, con una multa de quinientos mil reales por cada día de incumplimiento.
+
+Todo empezó con una denuncia de la campaña de Lula. El asistente Meta AI no generaba imágenes del presidente, pero sí de Flávio Bolsonaro. En su examen preliminar, el ministro concluyó que el control de las instrucciones falló, y dijo que no hay elementos para afirmar que fuera un criterio deliberado. Meta respondió que prohibió de forma temporal la recomendación de candidatos.
+
+¿Por qué importa el calendario? Desde el veintidós de octubre la ley prohíbe nuevos contenidos sintéticos y el impulso pagado de propaganda. La segunda vuelta es el veinticinco. Es una interpretación de Doble Click: en ese tramo final, ninguna campaña podría compensar con avisos pagados una caída de alcance en Facebook. Así, la multa diaria sería la principal presión sobre Meta.
+
+Queda por saber cómo comprobará el tribunal que Meta trata igual a ambos candidatos, cuando la distribución depende de sistemas automáticos. Y si alguna campaña pedirá aplicar la multa antes de la votación del veinticinco de octubre.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
