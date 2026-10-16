@@ -1,0 +1,11 @@
+In Brazil, a justice of the Superior Electoral Court barred Meta from restricting the reach of Facebook posts about the presidential candidates.
+
+Justice Marco Aurélio Bellizze signed the decision on October fifteenth, according to the news agency Agência Brasil. The text of the decision was not available on the court's website. The order prohibits reducing the distribution of those posts, blocking them from being recommended, or limiting search results. It requires equal treatment for Lula and for Flávio Bolsonaro, with a fine of five hundred thousand reais for each day of noncompliance.
+
+It all began with a complaint from Lula's campaign. The Meta AI assistant would not generate images of the president, but it did generate them of Flávio Bolsonaro. In his preliminary review, the justice concluded that the control over the instructions failed, and he said there is no evidence to claim it was a deliberate choice. Meta responded that it had temporarily prohibited recommending candidates.
+
+Why does the calendar matter? Starting October twenty second, the law bans new synthetic content and paid boosting of political ads. The runoff is on the twenty fifth. This is Doble Click's interpretation: in that final stretch, no campaign could make up for a drop in Facebook reach with paid ads. So the daily fine would be the main pressure on Meta.
+
+What we don't know yet is how the court will verify that Meta treats both candidates equally, when distribution depends on automated systems. And whether either campaign will ask for the fine to be applied before the October twenty fifth vote.
+
+This was an automated Doble Click entry; please verify each story against its sources.
