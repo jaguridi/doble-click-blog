@@ -134,6 +134,9 @@ chile-ia-pago-contenido-entrenamiento:
 chile-pais-de-pruebas-ia:
   voz: "Catalina (Chile)"
   motor: "Microsoft Azure"
+china-propone-controlar-exportacion-grandes-modelos-ia:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 china-waico-gobernanza-ia-america-latina:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
