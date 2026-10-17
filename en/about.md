@@ -51,14 +51,14 @@ The project is run by **José Guridi**, a researcher. Doble Click is a personal 
 
 ## Newsletter
 
-Would you rather get it by email? You receive each morning's post and, on Mondays, Doble Lectura: it is a single list, you subscribe once and get both. Before it starts we send you a single email to confirm, and your subscription begins when you click it. **For now the newsletter goes out in Spanish only**; an English edition is on the way.
+Would you rather get it by email? You receive each morning's post and, on Mondays, Doble Lectura: it is a single list, you subscribe once and get both. Before it starts we send you a single email to confirm, and your subscription begins when you click it. If you subscribe from this English edition, **you get it in English**, a little after the Spanish one, once the translation is published; every email has a link to switch languages.
 
 {% include idioma.html %}{% include form_suscripcion.html %}
 <p class="sub-note">{{ t.suscripcion.nota_about }} <a href="{{ t.url.about | relative_url }}#privacidad">{{ t.suscripcion.nota_enlace }}</a></p>
 
 ## Privacy {#privacidad}
 
-Your email is stored in a **private Google spreadsheet (Sheets)** managed by the person who runs this blog. There is nothing else behind it: no marketing platform, no profiling, no tracking of who opens what.
+Your email is stored, along with the language you want to receive it in, in a **private Google spreadsheet (Sheets)** managed by the person who runs this blog. There is nothing else behind it: no marketing platform, no profiling, no tracking of who opens what.
 
 We use it **exclusively** to send you the newsletter. We don't share it with anyone or use it for anything else.
 
