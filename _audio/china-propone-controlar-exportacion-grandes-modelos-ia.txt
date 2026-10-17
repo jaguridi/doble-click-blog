@@ -1,0 +1,15 @@
+China propone controlar la exportación de sus grandes modelos de inteligencia artificial.
+
+El dieciséis de octubre, los ministerios de Comercio y de Ciencia y Tecnología de China publicaron un borrador que suma cuarenta tecnologías a su lista de exportaciones prohibidas y restringidas. Veintitrés son de inteligencia artificial: grandes modelos, agentes, clústeres de cómputo y procesamiento de información.
+
+Según el anexo del borrador, quedan restringidos los pesos, el código y la arquitectura de los modelos más grandes. El criterio considera el cómputo usado para entrenarlos, un tamaño de dos billones de parámetros o más, o un lugar entre los diez primeros de rankings globales públicos. Lo publicado como código abierto o en artículos académicos queda fuera. Además, desde el dieciséis de octubre los exportadores deben registrarse antes en una plataforma del Ministerio de Comercio.
+
+El vocero del ministerio aclaró que el control no alcanza a las conexiones con que otros programas consultan un modelo. Tampoco a las aplicaciones web ni al software que se usa como servicio en línea.
+
+Nuestra interpretación es esta: quien usa un modelo chino por internet no debería notar cambios. Lo que podría requerir licencia es entregar el modelo mismo, por ejemplo a una universidad o a un ministerio de otro país que quiera procesar sus datos en servidores propios. Y publicar un modelo como código abierto podría volverse la vía con menos trámites para distribuirlo fuera de China.
+
+Falta saber qué cambiará en el texto final y desde cuándo regiría. La consulta pública recibe comentarios hasta el quince de noviembre.
+
+En Brasil, el pleno del Tribunal Superior Electoral confirmó por unanimidad la orden que prohíbe a Meta restringir el alcance de los candidatos presidenciales en Facebook, según la Agência Brasil.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
