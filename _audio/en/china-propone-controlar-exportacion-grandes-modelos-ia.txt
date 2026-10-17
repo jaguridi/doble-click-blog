@@ -1,0 +1,15 @@
+China proposes controlling the export of its large artificial intelligence models.
+
+On October sixteenth, China's ministries of Commerce and of Science and Technology published a draft that adds forty technologies to its list of prohibited and restricted exports. Twenty-three are artificial intelligence: large models, agents, compute clusters and information processing.
+
+According to the draft's annex, the weights, code and architecture of the largest models are restricted. The criterion considers the compute used to train them, a size of two trillion parameters or more, or a place among the top ten in public global rankings. Anything published as open source or in academic papers is excluded. In addition, starting October sixteenth, exporters must first register on a Ministry of Commerce platform.
+
+The ministry's spokesperson clarified that the control does not reach the connections other programs use to query a model. Nor does it reach web applications or software used as an online service.
+
+Our reading is this: someone who uses a Chinese model over the internet should not notice any changes. What could require a license is handing over the model itself, for example to a university or a ministry in another country that wants to process its data on its own servers. And publishing a model as open source could become the path with the least paperwork for distributing it outside China.
+
+What we don't know yet is what will change in the final text and from when it would apply. The public consultation accepts comments until November fifteenth.
+
+In Brazil, the full bench of the Superior Electoral Court unanimously upheld the order that bars Meta from restricting the reach of the presidential candidates on Facebook, according to Agência Brasil.
+
+This was an automated Doble Click entry; please verify each story against its sources.
