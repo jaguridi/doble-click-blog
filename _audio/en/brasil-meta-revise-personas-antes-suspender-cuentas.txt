@@ -1,0 +1,11 @@
+In Brazil, the Ministry of Justice wants Meta to explain how it decides which posts it deletes, which accounts it suspends and whose reach it reduces.
+
+According to the newspaper O Globo, which obtained two technical notes signed on October sixteenth, the National Secretariat for Digital Rights concludes that Meta does not disclose those criteria. The notes have not yet been published on the ministry's website, so what is known comes from that press coverage.
+
+The ministry proposes that the Federal Prosecutor's Office for Citizens' Rights, part of the Federal Public Prosecutor's Office, file a lawsuit with an urgent measure. Meta would have fifteen days to restore what it restricted without a specific justification, with a fine of five hundred thousand reais per day. The notes also propose banning suspensions and reach cuts without a person first reviewing the case, when they affect media outlets, civil society organizations and student groups. And they ask Brazil's data protection authority to consider an audit of Meta's automated systems.
+
+One possible interpretation, and it is only that, is that the human review rule would require Meta to know what kind of holder is behind each account. If a judge accepts it, that criterion could end up in the hands of a court and not only the company.
+
+What we don't know yet is whether the Prosecutor's Office will file the lawsuit, and when, and how Meta will respond. The timeline is tight: Brazil's presidential runoff is on October twenty-fifth.
+
+This was an automated Doble Click entry; please verify each story against its sources.
