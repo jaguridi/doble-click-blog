@@ -1,0 +1,15 @@
+In Doble Lectura, from Doble Click, an ethnography of what artificial intelligence training does not fix for Black workers in Atlanta.
+
+The report is by anthropologist Anuli Akanegbu, of the Data and Society institute. Over six months she visited training programs, technology conferences, and community organizations in Atlanta, and interviewed thirty-four people: course participants, instructors, employers, and officials. It is a qualitative study. It seeks to explain how training works, not to measure how often each thing happens.
+
+The author starts from a critique of the term artificial intelligence literacy. She argues that the term lacks a clear definition, and that this vagueness leaves the worker to guess what is being asked of them. In her fieldwork, several people did not know whether it meant programming, using a chatbot, or putting the right keywords in their résumé.
+
+Her study found that courses devoted solely to artificial intelligence appeared mostly in offices, offered by companies to their own staff. In programs for working-class adults, the tool came in as a secondary topic, often as an aid to get past the automated filters that screen résumés.
+
+The core lies in those programs. Akanegbu describes free courses held during working hours, which exclude anyone who works full time. Many participants arrived with years of experience, but the programs steered them toward entry-level jobs. None of the programs she observed offered guaranteed employment. The exception she highlights is DataWorks, at Georgia Tech, the only one she found that pays its participants to learn while they work.
+
+Now, the view from Latin America. What follows is the blog's reading, not the report's, and these are questions rather than conclusions. The first is whether something similar happens in the region with the cost of training. One would need to compare how many people drop out of public courses among those who work full time and those who do not, and see whether that changes when the course pays for the hours. In Chile, the SENCE records, and in Colombia, the SENA records, would be the place to look for that data. The second is what happens to those who finish: whether they find formal employment and better wages a year later, or go back to an entry-level job. The author herself recommends that programs track those outcomes, instead of counting only enrollees.
+
+What remains open is how much each barrier weighs. The report explains mechanisms in one city, but it does not measure how many participants find employment, nor does it compare programs.
+
+The report is by Anuli Akanegbu, published by Data and Society in 2026. This was an automated reading made with Claude; please check the original source.
