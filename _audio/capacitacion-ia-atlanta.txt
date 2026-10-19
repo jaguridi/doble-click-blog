@@ -1,0 +1,15 @@
+En Doble Lectura, de Doble Click, una etnografía sobre lo que la capacitación en inteligencia artificial no resuelve para trabajadores negros de Atlanta.
+
+El informe es de la antropóloga Anuli Akanegbu, del instituto Data and Society. Durante seis meses recorrió programas de capacitación, conferencias tecnológicas y organizaciones comunitarias de Atlanta, y entrevistó a treinta y cuatro personas: participantes de cursos, docentes, empleadores y funcionarios. Es un estudio cualitativo. Busca explicar cómo funciona la capacitación, no medir con qué frecuencia pasa cada cosa.
+
+La autora parte de una crítica al término alfabetización en inteligencia artificial. Sostiene que el término carece de una definición clara, y que esa vaguedad deja al trabajador la tarea de adivinar qué se le exige. En su trabajo de campo, varias personas no sabían si eso significaba programar, usar un chatbot o poner las palabras clave correctas en el currículum.
+
+Su estudio encontró que los cursos dedicados solo a la inteligencia artificial aparecían sobre todo en oficinas, ofrecidos por empresas a su propio personal. En los programas para adultos de clase trabajadora, la herramienta llegaba como tema secundario, muchas veces como ayuda para pasar los filtros automáticos que seleccionan currículums.
+
+Lo central está en esos programas. Akanegbu describe cursos gratuitos con horario de jornada laboral, que dejan fuera a quien trabaja tiempo completo. Muchos participantes llegaban con años de experiencia, pero los programas los orientaban hacia puestos de entrada. Ninguno de los programas que observó ofrecía empleo garantizado. La excepción que destaca es DataWorks, de Georgia Tech, el único que encontró que paga a sus participantes por aprender mientras trabajan.
+
+Ahora, la mirada desde América Latina. Lo que sigue es lectura del blog, no del informe, y son preguntas más que conclusiones. La primera es si en la región pasa algo parecido con el costo de capacitarse. Habría que comparar cuántos abandonan los cursos públicos entre quienes trabajan jornada completa y quienes no, y ver si eso cambia cuando el curso paga las horas. En Chile, los registros del SENCE, y en Colombia, los del SENA, serían el lugar donde buscar ese dato. La segunda es qué pasa con quienes terminan: si consiguen empleo formal y mejor salario un año después, o vuelven a un puesto de entrada. La propia autora recomienda que los programas sigan esos resultados, en vez de contar solo inscritos.
+
+Queda abierto cuánto pesa cada barrera. El informe explica mecanismos en una ciudad, pero no mide cuántos participantes consiguen empleo ni compara programas.
+
+El informe es de Anuli Akanegbu, publicado por Data and Society en 2026. Esta fue una lectura automática hecha con Claude; conviene revisar la fuente original.
