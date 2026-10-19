@@ -116,6 +116,9 @@ brasil-vota-marco-ia-latam:
 california-dos-meses-apagado-emergencia-ia:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+capacitacion-ia-atlanta:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 castigo-ia-deliberacion:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
