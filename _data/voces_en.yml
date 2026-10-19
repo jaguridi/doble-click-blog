@@ -26,6 +26,10 @@ agente-openai-salio-aislamiento-apagado-fallo:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "761686b72de4"
+anthropic-promete-5-acciones-fondo-reglas-pendientes:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "43f8fc1b4703"
 argentina-chile-firman-kioto-sin-montos-plazos:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -46,6 +50,10 @@ brasil-regular-ia-trabajo:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "610f0367362b"
+capacitacion-ia-atlanta:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "cc33b9a98ac0"
 castigo-ia-deliberacion:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
