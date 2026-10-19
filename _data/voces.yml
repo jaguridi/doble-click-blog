@@ -62,6 +62,9 @@ anthropic-marca-texto-claude-no-prueba-autoria:
 anthropic-otan-glasswing-claude-code-outage:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+anthropic-promete-5-acciones-fondo-reglas-pendientes:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 anthropic-publica-cuanta-ia-construye-su-ia:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
