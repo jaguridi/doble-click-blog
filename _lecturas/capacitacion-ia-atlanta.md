@@ -3,7 +3,7 @@ layout: lectura
 numero: 27
 tags: [trabajo, educación]
 title: "Capacitarse en IA no asegura empleo: una etnografía en Atlanta"
-description: "Durante seis meses de trabajo de campo, Akanegbu observó cursos gratuitos que obligan a elegir entre estudiar y ganar dinero, y que orientan a adultos con experiencia hacia puestos de entrada."
+description: "Durante seis meses de trabajo de campo, Akanegbu observó cursos gratuitos que a menudo obligan a elegir entre estudiar y ganar dinero, y que orientan a adultos con experiencia hacia puestos de entrada."
 date: 2026-10-19
 paper_titulo: "(404) Job Not Found: What Workforce Training Can't Fix for Black Atlantans in the Age of AI"
 paper_autores: "Akanegbu"
@@ -31,17 +31,17 @@ El material de campo es este:
 - diez sitios, entre instituciones públicas, empresas, organizaciones sin fines de lucro, conferencias y programas comunitarios de capacitación;
 - 34 entrevistas semiestructuradas, de 15 a 90 minutos, con participantes de programas, docentes, empleadores, funcionarios y gestores.
 
-El punto de partida es conceptual. Akanegbu sostiene que la alfabetización en IA (*AI literacy*) no tiene una definición clara, y llama *strategic abstraction* a esa vaguedad: se exige la habilidad sin decir en qué consiste, y la tarea de interpretarla queda en manos del trabajador. En su campo, varios trabajadores no sabían si eso significaba programar, usar un chatbot, manejar datos o incluir las palabras clave correctas en el currículum.
+Akanegbu arranca por un problema conceptual. Sostiene que la alfabetización en IA (*AI literacy*) no tiene una definición clara, y llama *strategic abstraction* a esa vaguedad: se exige la habilidad sin decir en qué consiste, y la tarea de interpretarla queda en manos del trabajador. En su campo, varios trabajadores no sabían si eso significaba programar, usar un chatbot, manejar datos o incluir las palabras clave correctas en el currículum.
 
 Su estudio encontró, además, que los cursos dedicados solo a IA aparecían sobre todo en entornos de oficina, ofrecidos por empleadores a su propio personal. En los programas para adultos de clase trabajadora, la IA llegaba como tema secundario dentro de cursos de alfabetización digital, ciberseguridad o preparación laboral. Ahí se la presentaba como ayuda para buscar empleo, por ejemplo para pasar los filtros automáticos que seleccionan currículums.
 
 El hallazgo que sostiene el título está en esos programas. La autora describe cursos gratuitos con horario de lunes a viernes en jornada laboral, que dejan fuera a quien trabaja tiempo completo. Una organización a veces entrega un estipendio mensual de 200 dólares, que su propia orientadora laboral considera insuficiente para dejar de trabajar tiempo completo. Muchos participantes llegaban con años de experiencia en otros sectores, pero los programas los dirigían hacia puestos de entrada. Ninguno de los programas que observó ofrecía empleo garantizado, y según la autora los empleadores seguían prefiriendo títulos universitarios de cuatro años. El informe dedica además un apartado a DataWorks, de Georgia Tech, el único programa que la autora encontró que paga a sus participantes por trabajar y aprender en el puesto, con seguro de salud incluido.
 
-Lo que el trabajo de campo permite afirmar es un mecanismo. En la Atlanta de 2025, el obstáculo que la autora vio repetirse no era la falta de cursos, sino el costo de tomarlos y la distancia entre terminar uno y conseguir trabajo. El informe no mide cuántos participantes consiguen empleo ni compara resultados entre programas.
+Lo que el trabajo de campo permite afirmar es un mecanismo. En la Atlanta de 2025, los obstáculos que la autora vio repetirse fueron el costo de tomar los cursos, el desconocimiento de que existían y la distancia entre terminar uno y conseguir trabajo. El informe no mide cuántos participantes consiguen empleo ni compara resultados entre programas.
 
 ## Segunda lectura: desde América Latina
 
-Dos mecanismos del informe pueden someterse a prueba con datos de la región. Lo que sigue son preguntas del blog, no conclusiones del informe.
+Dos mecanismos del informe pueden someterse a prueba con datos de la región. Son preguntas del blog, no conclusiones del informe.
 
 El primero es el costo de capacitarse. Akanegbu retrata cursos gratuitos cuyo horario coincide con la jornada laboral. Para saber si pasa algo parecido en la región, habría que comparar la deserción en cursos públicos entre quienes tienen empleo de jornada completa y quienes no, y ver si cambia cuando el curso incluye un pago que compense las horas. En Chile, el [SENCE](https://sence.gob.cl) administra la capacitación con financiamiento público; en Colombia, el [SENA](https://www.sena.edu.co) la imparte. Sus registros de participantes serían el lugar donde buscar ese dato.
 
@@ -56,4 +56,6 @@ El eje racial del informe tiene una historia propia del sur de Estados Unidos. E
 - La tasa de certificación del 97% de un programa de ciberseguridad la informa la dirección del propio programa; el informe no la verifica.
 - Varias cifras de contexto, como la sindicalización en Georgia o el desempleo de graduados, vienen de otras fuentes que el informe cita, no de su trabajo de campo.
 - Financiamiento: Robert Wood Johnson Foundation.
-- Alcance: una ciudad, seis meses de campo y un método que explica mecanismos. Sirve para saber qué medir, no cuánto pesa cada barrera.
+- Una ciudad, seis meses de campo y un método que explica mecanismos: el informe indica qué medir, no cuánto pesa cada barrera.
+
+<small>**Revisado el 19 de octubre de 2026.** La bajada dice que los cursos a menudo obligan a elegir entre estudiar y ganar dinero, como dice el informe, y la Primera lectura suma el desconocimiento de los programas entre las barreras y ya no afirma que la falta de cursos no fuera un obstáculo, algo que el informe no dice.</small>
