@@ -1,0 +1,13 @@
+The United States Army is looking for companies to build artificial intelligence agents for cyber operations. The program is called ECHOTRIBBLE, and its documents circulated among potential contractors.
+
+They were made public by the outlet The Intercept on October nineteenth. According to its report, the program focuses mostly on offensive missions. The agents would move from one device to another, including cloud systems and air-gapped equipment, and would then self-destruct. Army Cyber Command did not answer the outlet's questions, so this description depends on the documents and on The Intercept's reading of them.
+
+There is also a public solicitation, from the Cyber Fusion Innovation Center together with that command. It calls for a tool that autonomously moves through infrastructure, identifies and neutralizes threats or targets, and operates with minimal human oversight. An industry event, on June twenty-fourth, brought together forty-three attendees from twenty-nine organizations.
+
+Why it matters. Since July, the known cases of agents that attacked real systems have been escapes that their own operators did not intend. In this program, attacking is what is being contracted. This is our own reading: the degree of human control over each action could end up set in the procurement requirements that the Army negotiates with its suppliers.
+
+What we don't know yet. What Cyber Command will say in response, which companies will compete for the contract, and how the reach of agents that jump from one machine to another would be limited.
+
+In the region, Colombia's Senate heard comments on a bill on artificial intelligence in health care, ahead of its first debate.
+
+This was an automated Doble Click entry; please verify each story against its sources.
