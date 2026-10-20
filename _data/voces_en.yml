@@ -26,6 +26,10 @@ agente-openai-salio-aislamiento-apagado-fallo:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "761686b72de4"
+agentes-ia-atacan-falla-contencion-pedido-militar:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "ceb7d16e4b8a"
 anthropic-promete-5-acciones-fondo-reglas-pendientes:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
