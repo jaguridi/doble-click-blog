@@ -1,0 +1,13 @@
+El Ejército de Estados Unidos busca empresas que le construyan agentes de inteligencia artificial para operaciones cibernéticas. El programa se llama ECHOTRIBBLE, y sus documentos circularon entre posibles contratistas.
+
+Los dio a conocer el medio The Intercept el diecinueve de octubre. Según su reportaje, el programa se enfoca sobre todo en misiones ofensivas. Los agentes pasarían de un dispositivo a otro, incluidos sistemas en la nube y equipos aislados de la red, y después se autodestruirían. El Comando Cibernético del Ejército no respondió las preguntas del medio, así que esta descripción depende de los documentos y de la lectura de The Intercept.
+
+Hay además una convocatoria pública, del Cyber Fusion Innovation Center junto con ese comando. Pide una herramienta que recorra infraestructuras de forma autónoma, identifique y neutralice amenazas u objetivos, y opere con supervisión humana mínima. Un evento con la industria, el veinticuatro de junio, reunió a cuarenta y tres asistentes de veintinueve organizaciones.
+
+Por qué importa. Desde julio, los casos conocidos de agentes que atacaron sistemas reales fueron fugas que sus propios operadores no buscaban. En este programa, atacar es lo que se contrata. Esta es una lectura del blog: el grado de control humano sobre cada acción podría quedar fijado en los requisitos de compra que el Ejército negocia con sus proveedores.
+
+Qué falta saber. Qué responderá el Comando Cibernético, qué empresas competirán por el contrato y cómo se limitaría el recorrido de agentes que saltan de un equipo a otro.
+
+En la región, el Senado de Colombia escuchó observaciones a un proyecto de ley sobre inteligencia artificial en salud, antes de su primer debate.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
