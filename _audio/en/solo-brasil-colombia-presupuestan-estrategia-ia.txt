@@ -1,0 +1,13 @@
+On October twentieth, the fourth edition of the Latin American Artificial Intelligence Index was presented. It is produced by the Chilean center CENIA and the Economic Commission for Latin America and the Caribbean. It measures twenty countries in the region.
+
+Chile tops the ranking with seventy-one point four points. It is followed by Brazil, with sixty-eight point four, and Uruguay, with sixty-seven. Mexico came in eighth.
+
+The widest gap is in compute, that is, in the graphics processors used to train and run artificial intelligence models. The index compares the region with five countries outside it. According to its website, those five have an average of about two hundred forty-five processors per million inhabitants. In the region, the figure is eight point five. And Brazil holds almost eighty-eight percent of those there are.
+
+Another finding of the index concerns governments. Eighty-five percent of the countries have a national artificial intelligence strategy in force or in preparation. But only Brazil and Colombia specify how much money they will devote to carrying it out. Chile, which leads the ranking, is not among them.
+
+What follows is an interpretation by Doble Click, not a finding of the index. Without an allocated amount, a congress would lack a budget line to debate, and a ministry would lack a spending target to be held accountable against. That could weigh most on compute, which requires large and sustained purchases.
+
+It remains to be seen whether Chile and the other countries without a defined budget will allocate funds to their strategies, and on what timeline.
+
+This was an automated Doble Click entry; please verify each story against its sources.
