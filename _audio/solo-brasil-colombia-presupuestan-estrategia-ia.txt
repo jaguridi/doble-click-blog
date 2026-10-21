@@ -1,0 +1,13 @@
+El veinte de octubre se presentó la cuarta versión del Índice Latinoamericano de Inteligencia Artificial. Lo elaboran el centro chileno CENIA y la Comisión Económica para América Latina y el Caribe. Mide a veinte países de la región.
+
+Chile encabeza el ranking con setenta y uno coma cuatro puntos. Le siguen Brasil, con sesenta y ocho coma cuatro, y Uruguay, con sesenta y siete. México quedó octavo.
+
+La brecha más amplia está en el cómputo, es decir, en los procesadores gráficos con que se entrenan y ejecutan los modelos de inteligencia artificial. El índice compara a la región con cinco países de fuera de ella. Según su sitio, esos cinco tienen en promedio unos doscientos cuarenta y cinco procesadores por cada millón de habitantes. En la región, la cifra es ocho coma cinco. Y Brasil concentra casi el ochenta y ocho por ciento de los que hay.
+
+Otro dato del índice toca a los gobiernos. El ochenta y cinco por ciento de los países tiene una estrategia nacional de inteligencia artificial vigente o en preparación. Pero solo Brasil y Colombia especifican cuánto dinero destinan a ejecutarla. Chile, que lidera el ranking, no está entre ellos.
+
+Lo que sigue es una interpretación de Doble Click, no un dato del índice. Sin un monto asignado, un congreso carecería de una partida que discutir, y un ministerio, de una meta de gasto contra la cual rendir cuentas. Eso podría pesar más en el cómputo, que exige compras grandes y sostenidas.
+
+Queda por saber si Chile y los demás países sin presupuesto definido asignarán fondos a sus estrategias, y en qué plazo.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
