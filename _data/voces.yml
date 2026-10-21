@@ -449,6 +449,9 @@ respuestas-chatbots-brasil-recomendaron-candidatos:
 santo-domingo-cumbre-abre-veto-colombia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+solo-brasil-colombia-presupuestan-estrategia-ia:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 sony-warner-demandan-anthropic-decenas-miles-canciones:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
