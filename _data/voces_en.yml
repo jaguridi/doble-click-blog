@@ -182,6 +182,10 @@ respuestas-chatbots-brasil-recomendaron-candidatos:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "8fc02791ef5f"
+solo-brasil-colombia-presupuestan-estrategia-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "79e133c4852e"
 stargate-argentina-un-ano-openai-posible-cliente:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
