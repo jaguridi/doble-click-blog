@@ -1,0 +1,13 @@
+The PHP project, a programming language for web servers, released four new versions on October twenty-first. They fix two critical vulnerabilities. Through them, an attacker without credentials could run their own programs on a server.
+
+According to the PHP Foundation, the firm Calif reported the problem on August eleventh, while it was auditing the code. OpenAI reported the same root cause that day, and the company Wiz added other attack vectors.
+
+The release was coordinated, but the schedule broke down. The flaws' identifiers circulated on forums on October twentieth, and the project moved the release up by a day. According to the foundation, the company Chainguard published its patch more than six hours before the agreed time. When the flaws were disclosed, the security team knew of no attacks capable of exploiting them.
+
+The official PHP advisory says that all installations serving web requests are at risk. And it clarifies that version eight point one and earlier no longer receive updates from the project.
+
+For anyone maintaining a site on those versions, there are three ways out. They are the distribution that installed PHP, a company that sells extended support, or a set of reduced patches that have to be compiled by hand. This is our own reading: each option has a cost, so the burden of the fix could fall mostly on those who did not update in time.
+
+It remains to be seen whether attacks exploiting these flaws will appear now that they are public. The foundation, for its part, is asking companies, governments and web hosting firms for funding.
+
+This was an automated Doble Click entry; please verify each story against its sources.
