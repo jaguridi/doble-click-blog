@@ -1,0 +1,13 @@
+El proyecto PHP, un lenguaje de programación para servidores web, publicó el veintiuno de octubre cuatro versiones nuevas. Corrigen dos vulnerabilidades críticas. Con ellas, un atacante sin credenciales podría ejecutar sus propios programas en un servidor.
+
+Según la PHP Foundation, la firma Calif reportó el problema el once de agosto, mientras auditaba el código. OpenAI informó la misma causa ese día, y la empresa Wiz sumó otras formas de ataque.
+
+La publicación estaba coordinada, pero el calendario se rompió. Los identificadores de las fallas circularon en foros el veinte de octubre, y el proyecto adelantó un día la salida. Según la fundación, la empresa Chainguard publicó su parche más de seis horas antes de la hora acordada. Al divulgarse las fallas, el equipo de seguridad no conocía ataques capaces de aprovecharlas.
+
+El aviso oficial de PHP dice que están en riesgo todas las instalaciones que atienden solicitudes web. Y aclara que la versión ocho punto uno y las anteriores ya no reciben actualizaciones del proyecto.
+
+Para quien mantiene un sitio en esas versiones, quedan tres salidas. Son la distribución que instaló PHP, una empresa que venda soporte extendido o unos parches reducidos que hay que compilar a mano. Esta es una lectura nuestra: cada salida tiene un costo, así que el peso de la corrección podría caer sobre todo en quien no actualizó a tiempo.
+
+Queda por ver si aparecen ataques que aprovechen estas fallas ahora que son públicas. La fundación, por su parte, pide fondos a empresas, gobiernos y firmas de alojamiento web.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
