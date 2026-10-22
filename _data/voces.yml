@@ -431,6 +431,9 @@ pesos-abiertos-carta-washington-america-latina:
 pesos-abiertos-cincuenta-firmas-dos-ausencias:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+php-corrige-dos-fallas-criticas-servidores-web:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 politicos-funcionarios-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
