@@ -413,6 +413,9 @@ openai-modelos-escapan-contencion-hugging-face:
 openai-subagentes-conjetura-matematica-abierta:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+paraguay-vendera-286-mw-centro-datos-ia:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 penalidad-aprendizaje-ia-china:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
