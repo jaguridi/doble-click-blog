@@ -1,0 +1,13 @@
+The National Electricity Administration, Paraguay's state-owned power company, signed a fifteen-year contract on October twenty-second. It will supply an artificial intelligence data center in Yguazú. The customer is Kuntur, a Paraguayan company linked to Araico.
+
+The details were given by the head of the state company, Miguel Báez, according to the newspaper ABC Color. In other words, they come from the state company itself through the press, and not from the text of the contract.
+
+Delivery begins on December first, 2026, with six megawatts. It rises to one hundred forty-six megawatts in April 2028 and reaches two hundred eighty-six in April 2029. The initial rate is forty-eight dollars and ninety-one cents per megawatt hour at high voltage. At a lower voltage it rises to fifty-six thirty-nine. The price is adjusted each year for US inflation, with a floor of two point five percent. The connection works are paid for by the company.
+
+The two hundred eighty-six megawatt limit was set by the state company. According to Báez, if the complex needs more, Kuntur will have to obtain that energy from another generator. Our reading is that, in that case, the state company's control over the price would extend only up to that cap.
+
+One question remains open. Asked about the role of Crusoe, the US company partnered with Araico in a compute complex powered by energy from Itaipú, Báez did not specify it.
+
+The next milestone is December first, when delivery of the first six megawatts begins.
+
+This was an automated Doble Click entry; please verify each story against its sources.
