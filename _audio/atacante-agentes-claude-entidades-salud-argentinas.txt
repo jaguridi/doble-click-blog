@@ -1,0 +1,13 @@
+Un atacante usó agentes de Claude contra entidades de salud en Argentina. Así lo informa la firma de ciberseguridad CrowdStrike, en una investigación publicada en su blog el veintiuno de octubre.
+
+Según la empresa, cuatro actores que no se habían reportado antes usaron agentes de inteligencia artificial en intrusiones reales entre mayo y agosto de este año. Uno de ellos opera en español e inglés. Comprometió al menos quince entidades de salud con sede en Argentina, y de al menos una sacó credenciales e historias clínicas.
+
+Para hacerlo armó un sistema propio con dos agentes de Claude Code. Un agente supervisor elegía la tarea siguiente y otro, el ejecutor, la realizaba. Otro de los actores, de habla china, atacó a empresas privadas de Brasil y Estados Unidos. Llegó a los modelos Claude a través de un servicio intermediario con sede en China.
+
+Conviene tener presente de dónde viene la información. Todos estos detalles los da CrowdStrike, y lo publicado no incluye una verificación independiente.
+
+La firma tampoco nombró a las entidades argentinas ni confirmó cuáles recibieron aviso, según el boletín especializado Dark News, que publicó el caso el veinticinco de octubre. Así, el informe no permite a los pacientes saber si sus historias clínicas salieron. En Argentina, la Agencia de Acceso a la Información Pública atiende denuncias y lleva el registro de quienes infringen la ley de protección de datos personales. Una denuncia ante esa agencia podría ser la vía para que un paciente sepa si su información fue expuesta.
+
+Lo que falta saber es qué entidades fueron atacadas, si recibieron aviso y si alguna informó el incidente a esa autoridad.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
