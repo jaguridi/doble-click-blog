@@ -13,12 +13,6 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-- titulo: "Las venas abiertas de la auditoría algorítmica: el Sur Global casi no audita la IA que ya usa"
-  paper: "Open Veins of AI Auditing: How AI Scrutiny Lags Deployment in the Global South"
-  autores: "Galdon Clavell y Magaard (Eticas Foundation)"
-  publicado: "arXiv, julio 2026"
-  url: "https://arxiv.org/abs/2607.21317"
-
 - titulo: "¿Estamos listos para la IA? Del índice de medición a la gobernanza de la política"
   paper: "Are We Ready for AI? From Measurement to Policy Governance"
   autores: "Levy Yeyati (BID)"

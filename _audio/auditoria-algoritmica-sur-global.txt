@@ -1,0 +1,15 @@
+En Doble Lectura, de Doble Click, un paper sobre lo poco que se audita la inteligencia artificial que ya funciona en el Sur Global.
+
+El texto es de Gemma Galdon Clavell y Alexandra Magaard, y lo publica Eticas Foundation como preprint, sin revisión por pares. Combina un conteo con la experiencia de la propia organización auditando sistemas en América Latina, África y Asia.
+
+El conteo primero. Con una definición estricta de auditoría, el paper revisa una década de trabajo publicado en África, América Latina, el Caribe y el sur y sudeste de Asia, y cuenta menos de veinte auditorías y evaluaciones hechas por alguien distinto del desarrollador. En el Caribe, en el sudeste asiático y en África subsahariana su equipo no halló ninguna auditoría completa publicada.
+
+El caso más concreto es una auditoría que Eticas entregó en 2020 y que nunca se publicó. Revisó un sistema nacional de alerta de riesgo infantil en un país del Cono Sur, que el paper no identifica. El modelo puntúa a unos tres coma nueve millones de niños. Se presentaba con una métrica que sonaba muy alta, pero en el umbral que dispara las alertas dejaba sin marcar a cerca de uno de cada cuatro niños que sí fueron separados de su familia. La auditoría también encontró que el modelo predecía lo que era más fácil de predecir, no el daño que decía prevenir.
+
+La tesis del paper es que el problema no es de capacidad sino de financiamiento. Cada evaluación de su registro existió porque un banco de desarrollo, una agencia o un programa de Naciones Unidas decidió pagarla. Ninguna existió por obligación legal. Por eso proponen que los financiadores exijan evaluaciones independientes y su publicación.
+
+Ahora, la mirada desde América Latina. Esto es interpretación del blog, no del paper. Las tres auditorías del texto son de sistemas latinoamericanos, y el contraste que más pesa es entre la de Robot Laura, un sistema hospitalario brasileño que el BID mandó auditar y publicó, y la del sistema infantil, que nunca se publicó. Al blog le parece que el BID sería el primer lugar donde probar la propuesta: verificar si sus revisiones internas exigen hoy publicar las auditorías. En Brasil, según el paper, el plan nacional de inteligencia artificial destina menos del medio por ciento de su presupuesto a supervisión. Y en Chile, el repositorio de algoritmos públicos del GobLab de la Universidad Adolfo Ibáñez permitiría contar cuántos sistemas estatales tienen alguna evaluación publicada.
+
+Queda abierto cuántas auditorías se encargaron en la región y nunca salieron a la luz. También hay que leer el paper sabiendo quién lo escribe: Eticas vende auditorías, y su propuesta haría crecer el mercado en el que participa. Es un conflicto de interés que el lector debe tener presente. Los casos muestran que evaluar es posible y encuentra fallas, no con qué frecuencia fallan los sistemas.
+
+El paper es de Gemma Galdon Clavell y Alexandra Magaard, de Eticas Foundation. Esta fue una lectura automática hecha con Claude; conviene revisar la fuente original.
