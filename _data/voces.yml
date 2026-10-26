@@ -83,6 +83,9 @@ apple-demanda-openai-guerra-talento-tribunales:
 argentina-chile-firman-kioto-sin-montos-plazos:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+atacante-agentes-claude-entidades-salud-argentinas:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 atlas-google-uso-ia-economia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
