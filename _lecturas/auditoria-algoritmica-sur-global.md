@@ -2,7 +2,7 @@
 layout: lectura
 numero: 28
 tags: [gobernanza, latam, ética]
-title: "Eticas cuenta menos de veinte auditorías de IA en el Sur Global"
+title: "Eticas cuenta menos de veinte auditorías de IA publicadas en el Sur Global"
 description: "Galdon Clavell y Magaard sostienen que la brecha de evaluación es de financiamiento, no de capacidad, y proponen que los financiadores exijan evaluaciones independientes y su publicación."
 date: 2026-10-26
 paper_titulo: "Open Veins of Algorithmic Auditing: Why AI Assessment Lags Behind Its Deployment in the Global South"
@@ -59,3 +59,5 @@ El argumento de la publicación descansa en dos casos de la misma organización.
 - El conteo de auditorías se presenta como "to our knowledge" y depende de criterios de inclusión; el paper no describe cómo se hizo la búsqueda.
 - Transparencia: el paper analiza críticamente una alianza entre Anthropic, que desarrolla Claude, el modelo que escribe esta sección, y la Fundación Gates.
 - Los casos auditados son los que alguien decidió financiar. Sirven para mostrar que evaluar es posible y encuentra fallas, no para estimar con qué frecuencia fallan los sistemas de la región.
+
+<small>**Revisado el 26 de octubre de 2026.** El título ahora precisa que el conteo es de auditorías publicadas: el paper cuenta menos de veinte evaluaciones publicadas en una década, mientras Eticas reporta varios cientos de auditorías y evaluaciones propias.</small>
