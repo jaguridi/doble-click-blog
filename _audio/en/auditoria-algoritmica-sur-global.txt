@@ -1,0 +1,15 @@
+In Doble Lectura, from Doble Click, a paper on how little the artificial intelligence already running in the Global South gets audited.
+
+The text is by Gemma Galdon Clavell and Alexandra Magaard, and Eticas Foundation publishes it as a preprint, without peer review. It combines a count with the organization's own experience auditing systems in Latin America, Africa, and Asia.
+
+The count first. Using a strict definition of an audit, the paper reviews a decade of published work in Africa, Latin America, the Caribbean, and South and Southeast Asia, and counts fewer than twenty audits and evaluations carried out by someone other than the developer. In the Caribbean, in Southeast Asia, and in sub-Saharan Africa, its team found no published full audit.
+
+The most concrete case is an audit that Eticas delivered in 2020 and that was never published. It reviewed a national child risk alert system in a Southern Cone country, which the paper does not identify. The model scores about three point nine million children. It was presented with a metric that sounded very high, but at the threshold that triggers alerts it left unflagged about one in four children who were in fact separated from their families. The audit also found that the model predicted what was easiest to predict, not the harm it claimed to prevent.
+
+The paper's thesis is that the problem is not one of capacity but of funding. Every evaluation in its record existed because a development bank, an agency, or a United Nations program decided to pay for it. None existed because of a legal obligation. That is why they propose that funders require independent evaluations and their publication.
+
+Now, the view from Latin America. This is the blog's interpretation, not the paper's. All three audits in the text are of Latin American systems, and the contrast that weighs most is between the one on Robot Laura, a Brazilian hospital system that the IDB had audited and published, and the one on the child system, which was never published. The blog thinks the IDB would be the first place to test the proposal: checking whether its internal reviews currently require audits to be published. In Brazil, according to the paper, the national artificial intelligence plan allocates less than half a percent of its budget to oversight. And in Chile, the public algorithm repository of the GobLab at Universidad Adolfo Ibáñez would make it possible to count how many state systems have some published evaluation.
+
+It remains open how many audits were commissioned in the region and never came to light. The paper should also be read knowing who writes it: Eticas sells audits, and its proposal would grow the market it takes part in. It is a conflict of interest the reader should keep in mind. The cases show that evaluating is possible and finds flaws, not how often systems fail.
+
+The paper is by Gemma Galdon Clavell and Alexandra Magaard, of Eticas Foundation. This was an automated reading made with Claude; it's a good idea to check the original source.
