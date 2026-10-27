@@ -1,0 +1,11 @@
+Anthropic, the company that develops the Claude models, filed its prospectus to go public on October twenty-sixth. It submitted it to the United States securities regulator and would list on the Nasdaq under the symbol A, N, T. According to the company's own announcement, it has not yet set the price or the number of shares.
+
+The figures come from the prospectus, meaning they are reported by the company itself. In the first half of 2026, its revenue was 16.286 billion dollars. A year earlier it had been 1.163 billion. The net loss for the half year reached 80.7 billion. But almost all of that amount, 72.388 billion, corresponds to an accounting adjustment on convertible notes, derivatives and other financial instruments. The operating loss was 693 million.
+
+Since January, the company has signed or expanded compute contracts with future minimum payments of about 417 billion dollars. That sum is more than twenty-five times what it billed in the half year. This suggests that much of the cost is already locked in, while revenue will depend on how much its customers keep consuming.
+
+For anyone thinking of buying, the key point is control. The seven cofounders will hold shares with fifty point one percent of the vote, and a trust called the Long-Term Benefit Trust will elect the majority of the board. New shareholders could not use their votes to replace those who run the company.
+
+What we don't know yet is when Anthropic will set the price and size of the offering.
+
+This was an automated Doble Click entry; please verify each story against its sources.
