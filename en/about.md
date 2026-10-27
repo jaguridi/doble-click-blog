@@ -11,7 +11,7 @@ description: "What Doble Click and Doble Lectura are, how each post is put toget
 
 **Doble Click** is a daily blog about artificial intelligence from a Latin American perspective. Every day we gather the most relevant things that happened in AI (launches, research, governance, industry moves) and tell them in a single post, written for an informed general audience.
 
-On Mondays it is joined by **[Doble Lectura](/en/doble-lectura/)**: a weekly analysis of a paper or a public policy report, read slowly. First what the document says, and then what it means from the region. They are two paces of the same thing: the daily post moves with the news and the reading stops to dwell on one text. You get both if you subscribe to the newsletter.
+On Mondays and Thursdays it is joined by **[Doble Lectura](/en/doble-lectura/)**: an analysis of a paper or a public policy report, read slowly. First what the document says, and then what it means from the region. They are two paces of the same thing: the daily post moves with the news and the reading stops to dwell on one text. You get both if you subscribe to the newsletter.
 
 The focus is **the region**: what in all of this matters for Latin America, what opportunities it opens up and which conversations are worth having.
 
@@ -43,7 +43,7 @@ The project is run by **José Guridi**, a researcher. Doble Click is a personal 
 
 **What is automated.** Practically everything you see: the daily curation of sources, the writing of the posts and of Doble Lectura (with Claude, Anthropic's models), the translation into English, the audio for each piece (synthetic voice) and the newsletter delivery. No one writes or approves each text before it goes out.
 
-**What oversight there is.** A periodic review, not one before publication. Each Doble Lectura also goes through a second automated review, against the original document, before the Monday email goes out. And the reports readers leave are processed every night: when an error is verified, the page is corrected and a **correction note is added at the bottom**, so the correction is visible and not hidden.
+**What oversight there is.** A periodic review, not one before publication. Each Doble Lectura also goes through a second automated review, against the original document, before the Monday and Thursday emails go out. And the reports readers leave are processed every night: when an error is verified, the page is corrected and a **correction note is added at the bottom**, so the correction is visible and not hidden.
 
 **How an error gets corrected.** At the end of every post and every reading there is a **"Spotted an error?"** form. It is the fastest route and the one that leaves a record: tell us what's wrong, quoting the sentence if you can and, if you have it, the source that corrects it. Corrections are made to the Spanish original and then carried over to the translation.
 
@@ -51,7 +51,7 @@ The project is run by **José Guridi**, a researcher. Doble Click is a personal 
 
 ## Newsletter
 
-Would you rather get it by email? You receive each morning's post and, on Mondays, Doble Lectura: it is a single list, you subscribe once and get both. Before it starts we send you a single email to confirm, and your subscription begins when you click it. **For now the newsletter goes out in Spanish only**; an English edition is on the way.
+Would you rather get it by email? You receive each morning's post and, on Mondays and Thursdays, Doble Lectura: it is a single list, you subscribe once and get both. Before it starts we send you a single email to confirm, and your subscription begins when you click it. **For now the newsletter goes out in Spanish only**; an English edition is on the way.
 
 {% include idioma.html %}{% include form_suscripcion.html %}
 <p class="sub-note">{{ t.suscripcion.nota_about }} <a href="{{ t.url.about | relative_url }}#privacidad">{{ t.suscripcion.nota_enlace }}</a></p>

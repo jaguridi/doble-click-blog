@@ -8,7 +8,7 @@ layout: default
   <div class="hero-intro">{{ content }}</div>
   {%- comment -%}
   Acá se publican dos cosas y conviene decirlo al entrar: el diario y la lectura de
-  los lunes. No es un bloque promocional —son dos líneas de aclaración editorial, con
+  los lunes y jueves. No es un bloque promocional —son dos líneas de aclaración editorial, con
   su cadencia por delante—, y va dentro del hero para que la línea de abajo cierre
   las tres cosas (título, intro y qué sale) como un solo bloque.
   {%- endcomment -%}
@@ -18,7 +18,7 @@ layout: default
       <p class="linea-texto"><strong>Doble Click.</strong> {{ t.portada.linea_diario }}</p>
     </li>
     <li class="linea">
-      <p class="linea-kicker">{{ t.portada.los_lunes }}</p>
+      <p class="linea-kicker">{{ t.portada.lunes_y_jueves }}</p>
       <p class="linea-texto"><strong>Doble Lectura.</strong> {{ t.portada.linea_lectura }} <a href="{{ t.url.lecturas | relative_url }}">{{ t.portada.ver_lecturas }}</a></p>
     </li>
   </ul>
@@ -27,7 +27,7 @@ layout: default
 {%- comment -%}
 La Doble Lectura más reciente. No va al final de la portada sino intercalada en el
 feed, después de la tercera entrada: quien baja tres titulares del diario ya se topa
-con la sección semanal, sin tener que llegar al pie ni pasar por el menú.
+con Doble Lectura, sin tener que llegar al pie ni pasar por el menú.
 
 `site.lecturas` NO viene ordenada por fecha, así que se ordena a mano y se toma la
 última. Con la colección vacía, `last` devuelve nil y el include no imprime nada.

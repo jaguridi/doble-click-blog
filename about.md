@@ -13,7 +13,7 @@ description: "Qué son Doble Click y Doble Lectura, cómo se arma cada entrada c
 
 **Doble Click** es un blog diario sobre inteligencia artificial con perspectiva latinoamericana. Cada día reunimos lo más relevante que ocurrió en IA (lanzamientos, investigación, gobernanza, movimientos de la industria) y lo contamos en una sola entrada, pensada para un público general informado, en español neutro.
 
-Los lunes se suma **[Doble Lectura](/doble-lectura/)**: el análisis semanal de un paper o un informe de política pública, leído con calma. Primero qué dice el documento y después qué significa desde la región. Son dos cadencias de la misma cosa: el diario corre con la noticia y la lectura se detiene en un texto. Llegan juntas si te suscribes al newsletter.
+Los lunes y los jueves se suma **[Doble Lectura](/doble-lectura/)**: el análisis de un paper o un informe de política pública, leído con calma. Primero qué dice el documento y después qué significa desde la región. Son dos cadencias de la misma cosa: el diario corre con la noticia y la lectura se detiene en un texto. Llegan juntas si te suscribes al newsletter.
 
 El foco es **la región**: qué de todo esto importa para América Latina, qué oportunidades abre y qué conversaciones conviene tener.
 
@@ -41,7 +41,7 @@ El proyecto lo mantiene **José Guridi**, investigador. Doble Click es un experi
 
 **Qué es automático.** Prácticamente todo lo que ves: la curación de fuentes cada día, la redacción de las entradas y de las Doble Lectura (con Claude, los modelos de Anthropic), el audio de cada pieza (voz sintética) y el envío del newsletter. No hay una persona escribiendo ni aprobando cada texto antes de que salga.
 
-**Qué supervisión hay.** Una revisión periódica, no previa a la publicación. Cada Doble Lectura pasa además por una segunda revisión automática, contra el documento original, antes de que salga el correo del lunes. Y los reportes que dejan los lectores se procesan cada noche: cuando un error se verifica, la página se corrige y queda una **fe de erratas al pie**, para que la corrección se vea y no se disimule.
+**Qué supervisión hay.** Una revisión periódica, no previa a la publicación. Cada Doble Lectura pasa además por una segunda revisión automática, contra el documento original, antes de que salga el correo de los lunes y los jueves. Y los reportes que dejan los lectores se procesan cada noche: cuando un error se verifica, la página se corrige y queda una **fe de erratas al pie**, para que la corrección se vea y no se disimule.
 
 **Cómo se corrige un error.** Al final de cada entrada y de cada lectura hay un formulario **"¿Viste un error?"**. Es la vía más rápida y la que deja registro: cuéntanos qué está mal, citando la frase si puedes, y, si la tienes, la fuente que lo corrige.
 
@@ -49,7 +49,7 @@ El proyecto lo mantiene **José Guridi**, investigador. Doble Click es un experi
 
 ## Newsletter
 
-¿Prefieres recibirlo por correo? Te llega la entrada de cada mañana y, los lunes, la Doble Lectura: es una sola lista, te suscribes una vez y recibes las dos cosas. Antes de empezar te enviamos un único correo para confirmar, y la suscripción parte cuando haces clic en él.
+¿Prefieres recibirlo por correo? Te llega la entrada de cada mañana y, los lunes y los jueves, la Doble Lectura: es una sola lista, te suscribes una vez y recibes las dos cosas. Antes de empezar te enviamos un único correo para confirmar, y la suscripción parte cuando haces clic en él.
 
 {% include idioma.html %}{% include form_suscripcion.html %}
 <p class="sub-note">{{ t.suscripcion.nota_about }} <a href="{{ t.url.about | relative_url }}#privacidad">{{ t.suscripcion.nota_enlace }}</a></p>

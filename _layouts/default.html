@@ -139,7 +139,7 @@
         <a href="{{ t.url.fuentes | relative_url }}"{% if _sec == 'fuentes' %} aria-current="page"{% endif %}>{{ t.nav.fuentes }}</a>
         {%- comment -%}
         Dos feeds, dos enlaces: /feed.xml trae sólo el diario y /feed-lecturas.xml sólo
-        las lecturas de los lunes. No hay uno que junte las dos cosas, a propósito.
+        las lecturas. No hay uno que junte las dos cosas, a propósito.
         {%- endcomment -%}
         <a href="{{ t.url.feed | relative_url }}">{{ t.nav.rss }}</a>
         <a href="{{ t.url.feed_lecturas | relative_url }}">{{ t.nav.rss_lecturas }}</a>

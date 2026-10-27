@@ -19,7 +19,7 @@ plugins:
 # Feeds RSS. Por defecto jekyll-feed genera /feed.xml SOLO con los posts (blog diario)
 # — ese es el del newsletter diario y no se toca. Acá agregamos un feed aparte para la
 # colección "lecturas" en /feed-lecturas.xml, que es el que lee el Apps Script para el
-# newsletter semanal de Doble Lectura.
+# newsletter de Doble Lectura.
 feed:
   collections:
     lecturas:
