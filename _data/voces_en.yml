@@ -30,6 +30,10 @@ agentes-ia-atacan-falla-contencion-pedido-militar:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "ceb7d16e4b8a"
+anthropic-pide-salir-bolsa-sin-ceder-control:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "0aecb323e7c3"
 anthropic-promete-5-acciones-fondo-reglas-pendientes:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
