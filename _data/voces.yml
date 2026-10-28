@@ -338,6 +338,9 @@ meta-le-pone-precio-a-la-ia-en-whatsapp:
 meta-libera-modelo-agentico-corre-sin-conexion:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+meta-ofrece-37500-millones-acciones-nvidia-amd:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 mexico-exporta-mas-servidores-ia-que-autos:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
