@@ -1,0 +1,13 @@
+Brasil atará cada línea móvil a una prueba facial contra deepfakes.
+
+La Anatel, la agencia de telecomunicaciones de Brasil, publicó una norma técnica. Obliga a las operadoras a validar con reconocimiento facial a sus usuarios personas físicas y a los microemprendedores individuales. Según el medio especializado Teletime, el regulador la divulgó el veintiocho de octubre.
+
+La captura del rostro tendrá que incluir una prueba de vida, pensada para impedir que alguien muestre una foto, una máscara o un video en lugar de su cara. Después, la imagen se compara con una base biométrica del gobierno o de un proveedor privado. Y el sistema debe detectar deepfakes y otro contenido sintético generado con inteligencia artificial. Las empresas quedan exentas.
+
+Los plazos son largos. Las nuevas líneas prepago tienen hasta el treinta de septiembre de dos mil veintisiete. Las líneas pospago, la portabilidad y el cambio de chip, hasta el treinta y uno de diciembre de ese año. Las líneas que ya existen deben registrarse de nuevo antes de que termine dos mil veintiocho. Desde enero de dos mil veintinueve, las que no se validen se suspenden por ciento veinte días, y desde mayo se cancelan.
+
+La norma también exige un reporte mensual sobre cómo se validó cada usuario. Hay cuatro vías: contra una base biométrica, solo con documento, por una liberación excepcional o por poder. Esta es una lectura nuestra: ese reporte podría mostrar cuántas personas no aparecen en las bases biométricas disponibles.
+
+Queda por saber qué proveedores privados de bases biométricas contratarán las operadoras, y cuántos usuarios terminarán validados solo con un documento.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
