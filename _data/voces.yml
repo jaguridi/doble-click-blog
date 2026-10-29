@@ -302,6 +302,9 @@ ia-pronostica-su-propio-riesgo:
 imagenes-ia-espacios-publicos:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+indices-preparacion-ia-bid:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 justicia-electoral-brasil-suma-peritos-contenidos-ia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
