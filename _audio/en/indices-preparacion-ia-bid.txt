@@ -1,0 +1,15 @@
+This is Doble Lectura, from Doble Click, and today we talk about the rankings that say which countries are prepared for artificial intelligence.
+
+Governments, donors, and international organizations look at these indexes to set priorities. Eduardo Levy Yeyati, in a technical note from the Inter-American Development Bank published this year, asked how much they agree with one another. He reviewed seven of the most cited, among them those of Oxford Insights, the International Monetary Fund, Stanford, and an index of responsible artificial intelligence.
+
+The answer is that they agree little. Depending on which ranking you consult, the world leader may be Singapore, Estonia, or China. The average correlation among the seven indexes falls between thirty-three and forty-seven percent, depending on which one is excluded from the calculation. Some pairs move closely together and others are almost unrelated. The author argues that this is not noise: each index measures a different idea of being prepared, whether that is doing research, commercializing, governing, or adapting to change.
+
+For Latin America, the note estimates that, at equal income per person, the region gets lower scores in four of the seven indexes. The author interprets this as a sign that the rankings undervalue the region. That claim is worth reading at its real strength: it is an association, and the analysis cannot separate a measurement bias from a real capacity gap.
+
+His proposal is a different kind of dashboard, with no ranking and no link to financing, where each country measures its gaps against similar countries and according to its own strategy. The note proposes that the Bank coordinate a pilot in the region.
+
+Now, the blog's reading. The note's own table contains an uncomfortable finding for its narrative. The text says the rankings penalize the region for rewarding patents and commerce, and not the ethical frameworks of Brazil and Chile. But the largest regional penalty appears precisely in the index based on human rights, and in the commercial and academic indexes it is not significant. For this blog, that changes the question: one would have to look at whether the lag of Brazil and Chile in that index lies in the written rules or in their enforcement. And with Uruguay, the note states that its digital government is undervalued, but it does not test this. Its own data would make it possible, by comparing its position in an index focused on the public sector with the one it has in a commercial index.
+
+What remains open is how one would choose between sources that do not agree, a rule the proposal does not yet define.
+
+The note is by Eduardo Levy Yeyati, of Universidad Torcuato di Tella and the Inter-American Development Bank. This was an automated reading made with Claude; it is worth checking the original source.

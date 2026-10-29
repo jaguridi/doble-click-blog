@@ -1,0 +1,13 @@
+Brazil will tie every mobile line to a facial check against deepfakes.
+
+Anatel, Brazil's telecommunications agency, published a technical standard. It requires carriers to validate their individual users and individual microentrepreneurs with facial recognition. According to the trade outlet Teletime, the regulator released it on October twenty-eighth.
+
+Face capture will have to include a liveness test, designed to prevent someone from showing a photo, a mask, or a video instead of their face. The image is then compared against a biometric database from the government or a private provider. And the system must detect deepfakes and other synthetic content generated with artificial intelligence. Companies are exempt.
+
+The deadlines are long. New prepaid lines have until September thirtieth, 2027. Postpaid lines, number portability, and SIM swaps have until December thirty-first of that year. Existing lines must be registered again before the end of 2028. Starting in January 2029, those that are not validated are suspended for 120 days, and starting in May they are canceled.
+
+The standard also requires a monthly report on how each user was validated. There are four routes: against a biometric database, with a document only, by an exceptional release, or by proxy. This is our interpretation: that report could show how many people do not appear in the available biometric databases.
+
+What we don't know yet is which private biometric database providers the carriers will hire, and how many users will end up validated with a document alone.
+
+This was an automated Doble Click entry; please verify each story against its sources.

@@ -8,11 +8,11 @@ date: 2026-10-05
 paper_titulo: "The Early Impacts of AI on Employment Among Recent College Graduates"
 paper_autores: "Fairlie and Wu"
 paper_publicado: "CESifo Working Paper 12994, 2026"
-paper_doi: "https://scholar.google.com/scholar?q=%22The+Early+Impacts+of+AI+on+Employment+Among+Recent+College+Graduates%22"
+paper_doi: "https://econpapers.repec.org/RePEc:ces:ceswps:_12994"
 paper_archivo: "cesifo1_wp12994.pdf"
 paper_keywords: "AI, technological change, unemployment, job loss, college graduates"
 audio: true
-hash_original: "1839e44b8f20"
+hash_original: "14ad380176b1"
 ---
 
 ## At a glance
@@ -59,3 +59,5 @@ What is also missing is a measure of exposure designed for local occupations. Th
 - The occupation analysis loses 15.5% of the unemployed and 35.8% of the broader measure, who have no reported occupation: precisely the group of greatest concern, the paper warns.
 - Transparency: one of the exposure measures is the Anthropic Economic Index, built from the use of Claude, the family of models that writes this section.
 - One summer, one country: enough to rule out a large, visible jump in 2026, not slow or concentrated effects.
+
+<small>**Reviewed on October 29, 2026.** The source link now leads to the CESifo Working Paper 12994 record on RePEc rather than to a search.</small>
