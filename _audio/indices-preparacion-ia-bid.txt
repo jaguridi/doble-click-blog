@@ -1,0 +1,15 @@
+Esto es Doble Lectura, de Doble Click, y hoy hablamos de los rankings que dicen qué países están preparados para la inteligencia artificial.
+
+Gobiernos, donantes y organismos internacionales miran estos índices para fijar prioridades. Eduardo Levy Yeyati, en una nota técnica del Banco Interamericano de Desarrollo publicada este año, se preguntó cuánto coinciden entre sí. Revisó siete de los más citados, entre ellos los de Oxford Insights, el Fondo Monetario Internacional, Stanford y un índice de inteligencia artificial responsable.
+
+La respuesta es que coinciden poco. Según qué ranking se consulte, el líder mundial puede ser Singapur, Estonia o China. La correlación promedio entre los siete índices queda entre treinta y tres y cuarenta y siete por ciento, según cuál se excluya del cálculo. Algunos pares van muy juntos y otros casi no se relacionan. El autor sostiene que eso no es ruido: cada índice mide una idea distinta de estar preparado, sea investigar, comercializar, gobernar o adaptarse a los cambios.
+
+Para América Latina, la nota estima que, a igual ingreso por habitante, la región saca puntajes más bajos en cuatro de los siete índices. El autor lo interpreta como una señal de que los rankings subvaloran a la región. Conviene leer esa afirmación con su fuerza real: es una asociación, y el análisis no permite separar un sesgo de medición de una brecha real de capacidad.
+
+Su propuesta es un tablero distinto, sin ranking y sin vínculo con el financiamiento, donde cada país mida sus brechas frente a países parecidos y según su propia estrategia. La nota propone que el Banco coordine un piloto en la región.
+
+Ahora, la lectura del blog. La propia tabla de la nota trae un dato incómodo para su relato. El texto dice que los rankings castigan a la región por premiar patentes y comercio, y no los marcos éticos de Brasil y Chile. Pero la penalización regional más grande aparece justo en el índice basado en derechos humanos, y en los índices comerciales y académicos no es significativa. Para este blog, eso cambia la pregunta: habría que mirar si el rezago de Brasil y Chile en ese índice está en las normas escritas o en su aplicación. Y con Uruguay, la nota afirma que su gobierno digital queda subvalorado, pero no lo pone a prueba. Sus mismos datos permitirían hacerlo, comparando su posición en un índice centrado en el sector público con la que tiene en uno comercial.
+
+Lo que queda abierto es cómo se elegiría entre fuentes que no coinciden, una regla que la propuesta todavía no define.
+
+La nota es de Eduardo Levy Yeyati, de la Universidad Torcuato di Tella y el Banco Interamericano de Desarrollo. Esta fue una lectura automática hecha con Claude; conviene revisar la fuente original.
