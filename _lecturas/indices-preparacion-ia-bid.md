@@ -8,7 +8,7 @@ date: 2026-10-29
 paper_titulo: "Are We Ready for AI? From Measurement to Policy Governance"
 paper_autores: "Levy Yeyati"
 paper_publicado: "Banco Interamericano de Desarrollo, Nota Técnica IDB-TN-03318, marzo de 2026"
-paper_doi: "https://scholar.google.com/scholar?q=%22Are+We+Ready+for+AI%3F+From+Measurement+to+Policy+Governance%22"
+paper_doi: "https://publications.iadb.org/en/are-we-ready-ai-measurement-policy-governance"
 paper_archivo: "cola-02-bid-are-we-ready-for-ai.pdf"
 paper_keywords: "artificial intelligence governance, readiness measurement, Latin America and the Caribbean, development indicators, adaptive frameworks, policy learning, innovation metrics"
 audio: true
@@ -53,7 +53,7 @@ Para este blog, ese resultado cambia la pregunta para Brasil y Chile. Si la regi
 
 Sobre Uruguay, la nota afirma que su gobierno digital puntúa modestamente porque los índices sobrepesan publicaciones y patentes, pero no lo pone a prueba. Sus propios datos permitirían hacerlo: Uruguay figura en la muestra de Tortoise, y Oxford Insights, centrado en la capacidad del sector público, es el índice de mayor cobertura. Si la tesis es correcta, su posición en Oxford debería ser bastante mejor que en Tortoise.
 
-El piloto que la nota propone deja al BID como coordinador, sin evaluar ni puntuar países, y suma un índice compuesto, CoRPI, armado sobre todo con los subcomponentes de estos mismos rankings. En el pilar de gobernanza, el apéndice muestra entre esos subcomponentes correlaciones que van de negativas a muy altas. Cuando dos miden lo mismo, CoRPI conserva uno y usa el otro para contrastar, sin decir con qué criterio elige. Esa regla influiría en la posición de cada país de la región, y un piloto tendría que fijarla antes de comparar.
+La propuesta deja al BID como coordinador de un piloto del tablero, sin evaluar ni puntuar países, y suma un índice compuesto, CoRPI, armado sobre todo con los subcomponentes de estos mismos rankings. En el pilar de gobernanza, el apéndice muestra entre esos subcomponentes correlaciones que van de negativas a muy altas. Cuando dos miden lo mismo, CoRPI conserva uno y usa el otro para contrastar, sin decir con qué criterio elige. Esa regla influiría en la posición de cada país de la región, y un piloto tendría que fijarla antes de comparar.
 
 ## La letra chica
 
@@ -63,3 +63,5 @@ El piloto que la nota propone deja al BID como coordinador, sin evaluar ni puntu
 - Los casos de Uruguay, Chile y Brasil son ilustrativos.
 - Conflicto de interés: es una nota del BID que se apoya en el marco de transformación digital del propio banco y le asigna la coordinación del piloto.
 - Sirve como evidencia de que los rankings discrepan; no alcanza para afirmar cuánto subvaloran a la región.
+
+<small>**Revisado el 29 de octubre de 2026.** El enlace a la fuente lleva ahora a la página de la nota en el BID y no a una búsqueda, y la Segunda lectura ya no ubica a CoRPI dentro del piloto, que la nota plantea solo para el tablero AARS.</small>
