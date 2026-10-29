@@ -14,11 +14,6 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-- titulo: "¿Estamos listos para la IA? Del índice de medición a la gobernanza de la política"
-  paper: "Are We Ready for AI? From Measurement to Policy Governance"
-  autores: "Levy Yeyati (BID)"
-  publicado: "BID, Nota Técnica IDB-TN-03318, marzo 2026"
-
 - titulo: "Quién decide de verdad el resultado de una consulta ciudadana en Polis"
   paper: "It Takes Three to Converse: Empirical Observations on How the Developer, the Convener and the Participant Shaped 119 Polis Conversations"
   autores: "Gelauff"
