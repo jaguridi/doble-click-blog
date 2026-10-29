@@ -58,6 +58,10 @@ banco-mundial-gestion-pesa-mas-que-costo-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "2cac61754092"
+brasil-atara-linea-movil-prueba-facial-deepfakes:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "7101c89d69a3"
 brasil-meta-revise-personas-antes-suspender-cuentas:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -154,6 +158,10 @@ imagenes-ia-espacios-publicos:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "a6a7d6d02d49"
+indices-preparacion-ia-bid:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "6c2b9fa14f0f"
 justicia-electoral-brasil-suma-peritos-contenidos-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
