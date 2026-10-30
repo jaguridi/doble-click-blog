@@ -1,0 +1,13 @@
+La firma de ciberseguridad CrowdStrike publicó el veintinueve de octubre un informe sobre un grupo de espionaje que llama VAPOR PANDA y que vincula con China. Según la empresa, desde el diecisiete de octubre el grupo usó agentes de inteligencia artificial contra más de doscientas organizaciones. Fueron al menos catorce países, en apenas once días.
+
+Para la región, el dato central es otro. CrowdStrike dice que el grupo entró de forma extensa en los ministerios de Relaciones Exteriores de dos países latinoamericanos, y que probablemente comprometió un tercero. La empresa no dice cuáles son. En una de esas cancillerías encontró una puerta trasera, un programa que permite al atacante volver a entrar sin ser visto. El grupo también preparó archivos para atacar cancillerías de Centroamérica y de Asia.
+
+El sistema funcionó sobre todo con el modelo DeepSeek y con otro modelo comercial pagado por suscripción. Una sola intrusión consumió unos mil cuatrocientos millones de unidades de texto, la medida con que se cobra el uso de estos modelos. Un operador humano daba las órdenes en chino, y en un momento ordenó localizar máquinas sin el programa de vigilancia de CrowdStrike.
+
+Todo esto lo afirma la propia empresa, que vende servicios de seguridad, así que conviene tomarlo como su versión de los hechos.
+
+El informe podría ser útil para los gobiernos centroamericanos. Al final reúne las huellas técnicas del programa espía, y sus equipos podrían revisar con ellas sus propias redes sin esperar un aviso.
+
+Lo que falta saber es qué países sufrieron las intrusiones, si CrowdStrike avisó a esas cancillerías y si algún gobierno confirmará el ataque por su cuenta.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
