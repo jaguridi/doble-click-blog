@@ -470,6 +470,9 @@ pesos-abiertos-cincuenta-firmas-dos-ausencias:
 php-corrige-dos-fallas-criticas-servidores-web:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+polis-consultas-ciudadanas:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 politicos-funcionarios-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
