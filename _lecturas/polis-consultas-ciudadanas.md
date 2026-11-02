@@ -56,4 +56,4 @@ El hallazgo sobre participantes queda como pregunta para la región. Gelauff rec
 - Entre marzo de 2025 y julio de 2026, un error del código volvió uniforme la prioridad de las frases. El autor sugiere que podría servir como experimento natural.
 - Es un estudio observacional y varios convocantes se repiten: un solo operador, DEMDIS, de Eslovaquia, aparece en 22 de las 119 consultas.
 - El autor declara haber usado Claude Code, de la misma familia de modelos que escribe esta sección, para scripts y borradores de redacción.
-- Alcanza para leer con cautela los grupos que informa Polis; no para medir cómo se comporta la ciudadanía.
+- Da razones para tomar con cautela los grupos que informa Polis. Sobre la conducta de quienes participan, deja hipótesis y no efectos probados.
