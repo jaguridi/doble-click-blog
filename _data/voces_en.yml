@@ -94,6 +94,10 @@ china-propone-controlar-exportacion-grandes-modelos-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "b68dc3c127fe"
+colombia-exige-devolver-dinero-centros-potencia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "abfbfa819484"
 demostrar-expertise-codigo-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -226,6 +230,10 @@ php-corrige-dos-fallas-criticas-servidores-web:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "0995cbe2fa5f"
+polis-consultas-ciudadanas:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "5e76ce52e829"
 politicos-funcionarios-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
