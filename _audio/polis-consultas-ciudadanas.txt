@@ -1,0 +1,15 @@
+En Doble Lectura, la sección de Doble Click sobre investigación en inteligencia artificial, revisamos hoy qué hay detrás de los grupos de opinión que entrega Polis, una herramienta de consulta ciudadana.
+
+Polis funciona así: cada persona ve frases cortas, una a la vez, y marca si está de acuerdo, en desacuerdo o si prefiere pasar. También puede proponer frases propias. Al final, un motor matemático separa a los participantes en grupos, y ese número de grupos suele encabezar los informes.
+
+Lodewijk Gelauff, investigador afiliado al laboratorio de democracia deliberativa de Stanford, reunió los datos públicos de ciento diecinueve consultas. Su pregunta fue qué parte del resultado decide la plataforma, qué parte decide quien organiza y qué parte decide quien vota.
+
+Lo más importante que informa es que no pudo reproducir los grupos publicados a partir de los votos exportados. El motor recalcula en ciclos, cada ciclo parte del anterior, y el archivo guarda solo el estado final. Además, el código nunca entrega menos de dos grupos ni más de cinco. Cuando el autor recalculó con las mismas reglas sobre los votos finales, el resultado no coincidió en más de un tercio de los casos, y en la mayoría de esas diferencias aparecían más grupos. El autor aclara que su cálculo no es más correcto: solo es distinto.
+
+El estudio también describe que la plataforma da mucha más visibilidad a las frases que despiertan acuerdo que a las que generan rechazo, y que quienes organizan definen el tono con las frases iniciales y con su política de moderación. Sobre los participantes, el autor observa que, cuando la lista de frases es corta, la gente tiende a responderlas casi todas. Lo presenta como una hipótesis, no como un efecto probado.
+
+Ahora, la mirada desde América Latina, que es interpretación de este blog. El paper registra dos proyectos brasileños de esta familia: la plataforma EJ, Empurrando Juntas, que reescribió el método en código propio, y Pentano, que reescribió solo la parte matemática. El mismo paper advierte que esas versiones no corren sobre el motor que analiza. Por eso, para el blog, saber si las consultas hechas con EJ arrastran los mismos límites exige revisar su propio código. Y la hipótesis sobre listas cortas queda como pregunta abierta para la región: el autor advierte que una misma interfaz puede recibirse distinto según la cultura, y en su corpus ningún país latinoamericano figura entre los que más consultas aportan.
+
+Lo que queda abierto es cuánto de esto se aplica fuera del código original. Se trata de un preprint sin revisión por pares, con datos observacionales.
+
+El estudio es de Lodewijk Gelauff. Esta fue una lectura automática hecha con Claude; conviene revisar la fuente original.
