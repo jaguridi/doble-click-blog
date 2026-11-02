@@ -14,12 +14,6 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-- titulo: "Quién decide de verdad el resultado de una consulta ciudadana en Polis"
-  paper: "It Takes Three to Converse: Empirical Observations on How the Developer, the Convener and the Participant Shaped 119 Polis Conversations"
-  autores: "Gelauff"
-  publicado: "arXiv, agosto 2026"
-  url: "https://arxiv.org/abs/2608.28368"
-
 - titulo: "¿Están naciendo autoridades de IA en América Latina?"
   paper: "The Rise of AI Authorities? A Closer Look at Latin America's Institutional Responses and External Influences"
   autores: "Saverino et al."
