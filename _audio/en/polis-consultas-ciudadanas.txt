@@ -1,0 +1,15 @@
+In Doble Lectura, the Doble Click section on artificial intelligence research, today we look at what lies behind the opinion groups produced by Polis, a citizen consultation tool.
+
+Polis works like this: each person sees short statements, one at a time, and marks whether they agree, disagree, or would rather pass. They can also propose statements of their own. At the end, a mathematical engine sorts the participants into groups, and that number of groups often leads the reports.
+
+Lodewijk Gelauff, a researcher affiliated with Stanford's deliberative democracy lab, gathered the public data from one hundred nineteen consultations. His question was which part of the result is decided by the platform, which part by the organizers, and which part by the voters.
+
+The most important thing he reports is that he could not reproduce the published groups from the exported votes. The engine recalculates in cycles, each cycle starts from the previous one, and the file keeps only the final state. In addition, the code never returns fewer than two groups or more than five. When the author recalculated with the same rules on the final votes, the result did not match in more than a third of the cases, and in most of those differences more groups appeared. The author clarifies that his calculation is not more correct: it is only different.
+
+The study also describes that the platform gives much more visibility to statements that draw agreement than to those that draw rejection, and that the organizers set the tone with the seed statements and with their moderation policy. On the participants, the author observes that, when the list of statements is short, people tend to answer almost all of them. He presents this as a hypothesis, not as a proven effect.
+
+Now, the view from Latin America, which is this blog's interpretation. The paper records two Brazilian projects in this family: the EJ platform, Empurrando Juntas, which rewrote the method in its own code, and Pentano, which rewrote only the mathematical part. The paper itself warns that those versions do not run on the engine it analyzes. That is why, in the blog's view, knowing whether consultations run with EJ carry the same limits requires reviewing their own code. And the hypothesis about short lists remains an open question for the region: the author warns that the same interface can be received differently depending on the culture, and in his corpus no Latin American country is among those contributing the most consultations.
+
+What remains open is how much of this applies outside the original code. This is a preprint without peer review, with observational data.
+
+The study is by Lodewijk Gelauff. This was an automated reading made with Claude; it's a good idea to check the original source.
