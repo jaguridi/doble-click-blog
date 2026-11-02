@@ -173,6 +173,9 @@ claude-formaliza-teorema-fermat-once-dias:
 colombia-deepfakes-segunda-vuelta:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+colombia-exige-devolver-dinero-centros-potencia:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 colombia-experimento-electoral-ia-margen-minimo:
   voz: "Catalina (Chile)"
   motor: "Microsoft Azure"
