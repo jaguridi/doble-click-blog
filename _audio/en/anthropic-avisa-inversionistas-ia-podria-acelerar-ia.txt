@@ -1,0 +1,11 @@
+Anthropic, the company that develops the assistant Claude, filed the first amendment to its prospectus for going public with the U.S. securities regulator on November second. The document adds a new risk.
+
+According to the company itself, its internal estimates and what it expects from future models indicate that it could imminently reach a threshold defined by its Responsible Scaling Policy. That threshold corresponds to drastically accelerated progress attributable to artificial intelligence. The company makes clear that it has not designated any of its current models above that limit.
+
+The same text acknowledges that, in the past, Anthropic has not identified significant acceleration, and that it might not identify it in the future. It also says that it does not anticipate using Claude to design and build its next most advanced models fully autonomously, without significant human oversight. And it adds that it is weighing changes to its policy.
+
+Why does it matter? A prospectus is what people who are thinking of buying shares read. In this case, the risk depends on a measurement that only the company makes, and the company itself admits it might not detect the leap. Our interpretation is that, without outside access to those estimates, the crossing of the threshold would become known when Anthropic declares it. It is worth remembering that everything cited comes from the company itself, which is an interested party.
+
+Anthropic seeks to list on the Nasdaq under the symbol A N T. What we don't know yet is what changes it will make to its safety policy, and when the registration that will allow it to sell shares will take effect.
+
+This was an automated Doble Click entry; please verify each story against its sources.
