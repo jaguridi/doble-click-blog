@@ -1,0 +1,11 @@
+Anthropic, la empresa que desarrolla el asistente Claude, presentó el 2 de noviembre ante el regulador bursátil de Estados Unidos la primera enmienda de su prospecto para salir a bolsa. El documento suma un riesgo nuevo.
+
+Según la propia empresa, sus estimaciones internas y lo que espera de modelos futuros indican que podría alcanzar de forma inminente un umbral que define su Política de Escalamiento Responsable. Ese umbral corresponde a un progreso drásticamente acelerado atribuible a la inteligencia artificial. La empresa aclara que no designó ninguno de sus modelos actuales por encima de ese límite.
+
+El mismo texto reconoce que, en el pasado, Anthropic no identificó una aceleración significativa, y que podría no identificarla en el futuro. También dice que no prevé usar Claude para diseñar y construir sus siguientes modelos más avanzados de forma totalmente autónoma, sin supervisión humana significativa. Y agrega que evalúa cambios a su política.
+
+¿Por qué importa? Un prospecto es lo que lee quien piensa comprar acciones. En este caso, el riesgo depende de una medición que solo hace la empresa, y ella misma admite que podría no detectar el salto. Nuestra interpretación es que, sin acceso externo a esas estimaciones, el cruce del umbral se sabría cuando Anthropic lo declare. Conviene recordar que todo lo citado viene de la propia empresa, que es parte interesada.
+
+Anthropic busca cotizar en el Nasdaq con el símbolo A N T. Queda por saber qué cambios hará a su política de seguridad y cuándo entrará en vigor el registro que le permitirá vender acciones.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
