@@ -56,6 +56,9 @@ anthropic-admite-que-perdio-precision-para-medir:
 anthropic-audita-sus-fallas-propone-la-regla:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+anthropic-avisa-inversionistas-ia-podria-acelerar-ia:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 anthropic-bolsa-windows-agentes-ia-latam:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
