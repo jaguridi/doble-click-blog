@@ -34,6 +34,10 @@ agentes-ia-atacan-falla-contencion-pedido-militar:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "ceb7d16e4b8a"
+anthropic-avisa-inversionistas-ia-podria-acelerar-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "82b87148b139"
 anthropic-pide-salir-bolsa-sin-ceder-control:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
