@@ -1,0 +1,13 @@
+Un juzgado de São Paulo prohibió a Meta rastrear los sitios de los medios asociados a tres gremios brasileños y usar su contenido para entrenar su inteligencia artificial, Meta AI.
+
+La decisión es una medida cautelar de la cuadragésima cuarta Vara Cível del Foro Central de São Paulo, firmada el tres de noviembre. La pidieron tres gremios: el de las emisoras de radio y televisión, el de los diarios y el de las revistas. Suspende, solo para sus asociadas, una parte de los nuevos términos comerciales de Meta, que entran en vigor el veinte de noviembre. Según los gremios, esa cláusula condicionaba sus cuentas a dejar que Meta recolectara de forma automática el contenido de sus sitios.
+
+El juzgado ordena además mantener activas sus cuentas en Instagram, Facebook, WhatsApp y Threads, sin represalias. Si Meta incumple, la multa es de un millón de reales por día, con un tope de cien millones. La empresa tiene cinco días para contestar, y no había respondido al medio Poder360 cuando este publicó la noticia.
+
+Hay un límite importante. La orden protege únicamente a los socios de esos tres gremios. Nuestra interpretación es que un medio digital no afiliado quedaría bajo los términos generales de Meta. Para evitarlo, tendría que pedir su propia medida a un juez.
+
+Quedan preguntas abiertas: qué responderá Meta y si recurrirá la decisión antes del veinte de noviembre.
+
+También hoy, República Dominicana aprobó un código de ética de la inteligencia artificial obligatorio para su administración pública. Según la Presidencia, prohíbe el puntaje social y la identificación biométrica masiva sin orden judicial.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
