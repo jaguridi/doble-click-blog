@@ -320,6 +320,9 @@ indices-preparacion-ia-bid:
 justicia-electoral-brasil-suma-peritos-contenidos-ia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+juzgado-sao-paulo-prohibe-meta-entrenar-ia-medios:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 kimi-k3-modelo-chino-sacude-wall-street:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
