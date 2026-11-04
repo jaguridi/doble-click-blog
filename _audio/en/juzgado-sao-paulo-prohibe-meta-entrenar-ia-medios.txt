@@ -1,0 +1,13 @@
+A São Paulo court barred Meta from crawling the websites of media outlets that belong to three Brazilian industry associations and from using their content to train its artificial intelligence, Meta AI.
+
+The decision is an injunction from the forty-fourth Civil Court of the Central Forum of São Paulo, signed on November third. It was requested by three industry associations: the one for radio and television broadcasters, the one for newspapers and the one for magazines. It suspends, only for their members, part of Meta's new commercial terms, which take effect on November twentieth. According to the associations, that clause made their accounts conditional on letting Meta automatically collect the content of their websites.
+
+The court also orders that their accounts on Instagram, Facebook, WhatsApp and Threads be kept active, without retaliation. If Meta fails to comply, the fine is one million reais per day, capped at one hundred million. The company has five days to respond, and it had not responded to the outlet Poder360 by the time that outlet published the story.
+
+There is an important limit. The order protects only the members of those three associations. Our interpretation is that an unaffiliated digital outlet would fall under Meta's general terms. To avoid that, it would have to ask a judge for its own measure.
+
+Open questions remain: how Meta will respond, and whether it will appeal the decision before November twentieth.
+
+Also today, the Dominican Republic approved an artificial intelligence code of ethics that is mandatory for its public administration. According to the Presidency, it prohibits social scoring and mass biometric identification without a court order.
+
+This was an automated Doble Click entry; please verify each story against its sources.
