@@ -380,6 +380,9 @@ mistral-soberania-europea-plazo-peruano:
 modelo-frontera-pesos-abiertos-alojar-en-casa:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+modelo-openai-rinde-menos-seguridad:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 modelos-salieron-del-laboratorio-atacaron-sistemas-reales:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
