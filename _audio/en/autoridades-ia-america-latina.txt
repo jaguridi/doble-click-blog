@@ -1,0 +1,15 @@
+This is Doble Lectura, from Doble Click, and today the question is who will oversee artificial intelligence in Brazil and in Chile.
+
+The source is a legal article published this year in the University of Bologna Law Review, written by three researchers from the Free University of Brussels. It brings no new data: it compares laws and bills.
+
+The starting point is European. The European Union's artificial intelligence regulation requires each country to designate authorities to enforce it, and each one chose a different path. Spain created a new agency, very close to the government. Italy split the task between two government agencies. In France, it was proposed to expand the role of the data protection authority.
+
+The authors argue that in Latin America, artificial intelligence regulation will probably follow the path that data protection took before: laws inspired by Europe, but adapted to each country. And in the two cases they study, the bet goes through the data authorities. In Brazil, the bill creates a national regulation system and leaves the data protection authority as its coordinator. In Chile, the Executive's bill hands enforcement to the new Personal Data Protection Agency. The authors see both countries apparently moving toward hybrid schemes, without copying the European architecture in full.
+
+Now, the second reading, which is the interpretation of this section and not of the article. According to the article itself, the Chilean agency was due to start operating in October 2026, that is, last month. The authors warn that its mandate is centered on personal data and that its capacity to oversee artificial intelligence is uncertain. Yet in their conclusions they recommend that countries like Chile expand precisely the mandate of their data authority. That prescription assumes a capacity that the same text calls into question. What would show whether it works is looking at the agency's staff and budget in its first year.
+
+In Brazil, the data authority can already audit discriminatory automated decisions thanks to the current data protection law. Counting how many audits of that kind it has carried out would show whether the experience that justifies giving it coordination exists in practice. The authors also anticipate a possible constitutional debate over whether that authority can take on artificial intelligence.
+
+The main question remains open. These are bills that, when the article was closed, were not law, and the text itself warns that several rules changed while it was being edited. Which authority design works best will only be known when these agencies start enforcing.
+
+The article is by Rocco Saverino, Pablo Trigo Kramcsák and Barbara da Rosa Lazarotto. This is an automated reading made with Claude; it's a good idea to check the original source.
