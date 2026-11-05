@@ -1,0 +1,15 @@
+Esto es Doble Lectura, de Doble Click, y hoy la pregunta es quién va a supervisar la inteligencia artificial en Brasil y en Chile.
+
+La fuente es un artículo jurídico publicado este año en la University of Bologna Law Review, escrito por tres investigadores de la Universidad Libre de Bruselas. No trae datos nuevos: compara leyes y proyectos de ley.
+
+El punto de partida es europeo. El reglamento de inteligencia artificial de la Unión Europea obliga a cada país a designar autoridades que lo hagan cumplir, y cada uno eligió un camino distinto. España creó una agencia nueva, muy cercana al gobierno. Italia repartió la tarea entre dos agencias gubernamentales. En Francia se propuso ampliar el papel de la autoridad de protección de datos.
+
+Los autores sostienen que en América Latina la regulación de la inteligencia artificial probablemente seguirá el camino que antes recorrió la protección de datos: leyes inspiradas en Europa, pero adaptadas a cada país. Y en los dos casos que estudian, la apuesta pasa por las autoridades de datos. En Brasil, el proyecto de ley crea un sistema nacional de regulación y deja como coordinadora a la autoridad de protección de datos. En Chile, el proyecto del Ejecutivo entrega la fiscalización a la nueva Agencia de Protección de Datos Personales. Los autores ven a ambos países, aparentemente, avanzando hacia esquemas híbridos, sin copiar completa la arquitectura europea.
+
+Ahora, la segunda lectura, que es interpretación de esta sección y no del artículo. Según el propio artículo, la agencia chilena debía empezar a funcionar en octubre de dos mil veintiséis, es decir, el mes pasado. Los autores advierten que su mandato está centrado en los datos personales y que su capacidad para supervisar inteligencia artificial es incierta. Sin embargo, en sus conclusiones recomiendan que países como Chile amplíen justamente el mandato de su autoridad de datos. Esa receta supone una capacidad que el mismo texto pone en duda. Lo que permitiría saber si funciona es mirar el personal y el presupuesto de la agencia en su primer año.
+
+En Brasil, la autoridad de datos ya puede auditar decisiones automatizadas discriminatorias gracias a la ley de protección de datos vigente. Contar cuántas auditorías de ese tipo ha hecho mostraría si la experiencia que justifica darle la coordinación existe en la práctica. Los autores, además, anticipan una posible discusión constitucional sobre si esa autoridad puede asumir la inteligencia artificial.
+
+Queda abierto lo principal. Son proyectos que, cuando se cerró el artículo, no eran ley, y el propio texto advierte que varias normas cambiaron mientras se editaba. Qué diseño de autoridad funciona mejor solo se sabrá cuando estas agencias empiecen a fiscalizar.
+
+El artículo es de Rocco Saverino, Pablo Trigo Kramcsák y Barbara da Rosa Lazarotto. Esta es una lectura automática hecha con Claude; conviene revisar la fuente original.

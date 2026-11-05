@@ -14,12 +14,6 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-- titulo: "¿Están naciendo autoridades de IA en América Latina?"
-  paper: "The Rise of AI Authorities? A Closer Look at Latin America's Institutional Responses and External Influences"
-  autores: "Saverino et al."
-  publicado: "University of Bologna Law Review, 2026"
-  url: "https://doi.org/10.60923/issn.2531-6133/21439"
-
 - titulo: "Delegar en la IA generativa: dónde queda la dirección humana de la tarea"
   paper: "Governing Delegation to Generative Artificial Intelligence: Human Direction, Work-Related Orientation, and Modes of Use"
   autores: "Fábrega (CICS-UDD, Chile)"
