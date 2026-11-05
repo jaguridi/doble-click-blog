@@ -62,6 +62,10 @@ auditoria-algoritmica-sur-global:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "be71b3d1922f"
+autoridades-ia-america-latina:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "5ec8862e459c"
 banco-mundial-gestion-pesa-mas-que-costo-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
@@ -198,6 +202,10 @@ meta-ofrece-37500-millones-acciones-nvidia-amd:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "c2a7eb4656d3"
+modelo-openai-rinde-menos-seguridad:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "cf5d90ad302c"
 observatorio-uso-real-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
