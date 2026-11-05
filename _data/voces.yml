@@ -101,6 +101,9 @@ atlas-google-uso-ia-economia:
 auditoria-algoritmica-sur-global:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+autoridades-ia-america-latina:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 aviso-incidentes-graves-ia-mesa-bilateral:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
