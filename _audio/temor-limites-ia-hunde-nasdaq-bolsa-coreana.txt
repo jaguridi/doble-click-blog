@@ -1,0 +1,13 @@
+El cinco de noviembre, el índice Nasdaq Composite de Nueva York cayó cinco coma cincuenta y dos por ciento. Fue su peor día desde abril de dos mil veinticinco, según el medio Fox Business.
+
+Las empresas que operan centros de datos, como IREN, Applied Digital y Nebius, perdieron más de catorce por ciento cada una. Nvidia, que vende los chips con que funcionan esos centros, bajó nueve coma veintiséis por ciento.
+
+La radio pública estadounidense NPR atribuyó la caída a un temor de los inversionistas. Temen que el nuevo Congreso, de mayoría demócrata, y los estados restrinjan la inteligencia artificial y los centros de datos. Según NPR, se perdieron más de dos millones de millones de dólares en valor de mercado. Al día siguiente, el principal índice de Corea del Sur llegó a caer ocho coma siete por ciento. La bolsa coreana activó una pausa automática de operaciones, según Nikkei Asia.
+
+Ahora, una lectura propia, no un hecho comprobado. Que las firmas dueñas de esos centros perdieran más que el fabricante de chips sugiere dónde ven el riesgo los inversionistas. Un centro de datos necesita permisos locales y conexión a la red eléctrica, y esas decisiones pasan por estados y municipios. Si esa lectura es correcta, una regla estatal de permisos podría afectarlas en la misma medida que una ley federal.
+
+Conviene tener en cuenta que todas estas cifras y la explicación de la caída vienen de prensa, sin documentos oficiales.
+
+Lo que falta saber es qué reglas concretas aprobarán el nuevo Congreso y los gobiernos estatales sobre los permisos y la conexión eléctrica de los centros de datos.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
