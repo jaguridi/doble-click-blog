@@ -314,6 +314,9 @@ ia-estudiar-paises-pobres:
 ia-pronostica-su-propio-riesgo:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+iberoamerica-aprueba-alianza-ia-sin-argentina-paraguay:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 imagenes-ia-espacios-publicos:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
