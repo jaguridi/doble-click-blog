@@ -170,6 +170,10 @@ ia-pronostica-su-propio-riesgo:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "0a3744c4888c"
+iberoamerica-aprueba-alianza-ia-sin-argentina-paraguay:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "3863a408c4eb"
 imagenes-ia-espacios-publicos:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
