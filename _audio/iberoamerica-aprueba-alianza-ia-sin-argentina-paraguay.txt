@@ -1,0 +1,13 @@
+Hola, esto es Doble Click.
+
+Los ministros y altas autoridades de transformación digital de los países iberoamericanos aprobaron el tres de noviembre, en Madrid, la Alianza Iberoamericana de Inteligencia Artificial. La declaración la eleva a los jefes de Estado. Dos notas al pie del documento dicen que Argentina y Paraguay se disocian del texto.
+
+Según la declaración, la Alianza tiene tres partes. La primera es un espacio común de datos, con una arquitectura federada: cada institución conserva sus datos y la red los conecta. La segunda son modelos de lenguaje en español, en portugués y, de forma progresiva, en lenguas indígenas. La tercera es cooperación en computación de alto rendimiento, es decir, los grandes servidores que hacen falta para entrenar modelos propios. Sumarse será voluntario.
+
+De acuerdo con el diario Infobae, la Cumbre Iberoamericana cerró el cinco de noviembre con la Alianza aprobada y con Argentina y Paraguay fuera de ella. El mismo medio dice que la iniciativa busca conectar cuatro proyectos: ALIA, de España; AMALIA, de Portugal; Latam GPT, de Chile; y SoberanIA, de Brasil.
+
+Lo que sigue es una interpretación, no un hecho del documento. Para Latam GPT, la parte de cómputo podría ser la que más pese. Si la Alianza fija reglas de acceso a esa capacidad compartida, esas reglas podrían definir con cuánto cómputo se entrenan sus próximas versiones.
+
+Lo que falta saber es qué gobiernos adherirán formalmente y con qué criterios se repartirá esa capacidad entre los proyectos. Además, el texto final de la Cumbre no estaba disponible en el sitio de la Secretaría General Iberoamericana al siete de noviembre.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
