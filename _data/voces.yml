@@ -476,6 +476,9 @@ persona-con-ia-rinde-como-equipo:
 persuadir-modelos-ia:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+peru-acordo-eeuu-centros-datos-sin-reglas:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 peru-uruguay-costa-rica-ascenso-chatgpt:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
