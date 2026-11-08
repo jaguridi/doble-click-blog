@@ -246,6 +246,10 @@ persuadir-modelos-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "d441443f75d3"
+peru-acordo-eeuu-centros-datos-sin-reglas:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "fb6c7175ed9e"
 php-corrige-dos-fallas-criticas-servidores-web:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
