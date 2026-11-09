@@ -1,0 +1,15 @@
+This is Doble Lectura, from Doble Click, and today the topic is who directs a task when artificial intelligence does much of it.
+
+The source is a preprint published in August by Jorge Fábrega, a researcher in Chile. His starting point is simple: that the machine does a lot does not say who is at the helm. Fábrega distinguishes two ways of keeping that direction. One is to set it in advance, with clear instructions, constraints, and criteria; he calls it specified delegation. The other is to exercise it during the work, correcting and redirecting drafts; he calls it iterative coproduction.
+
+His hypothesis is that work-related use, where a bad result carries professional costs, pushes people to keep more direction. To test it, he uses public data that Anthropic publishes on the use of Claude in April and May of this year. They are not people or conversations, but monthly averages by type of task, split between the chat interface and direct programmatic access.
+
+The firmest result is this. When the author compares the same task with a mix that is ten points more work-related and ten points less personal, the prior direction profile is higher in both channels of use. It is a change of a few points on a scale of one hundred, and the author presents it as an association, not a causal effect.
+
+With correction on the fly, the finding is more delicate. That relationship is stronger in the chat than in programmatic access. But the author himself cautions that the chat keeps the full conversation, while the other channel records each call separately. The difference may come from what each interface allows people to do, or only from what it allows to be seen, and the data do not separate one from the other.
+
+Now, the view from Latin America, which is this blog's interpretation. The same data include a breakdown by country, only for the chat. There, the correction pattern appears in the seventy-six countries the author analyzes, although the paper does not say which ones they are. What is not broken down is the strongest finding, the one on prior direction. With those files it could be calculated for Mexico, Brazil, Colombia, Chile, or Argentina. There is a reason to do it: Anthropic itself, which is an interested party, says that lower-income economies tend to use Claude in more automated ways. What we don't know yet is whether, there, work-related use is still associated with more human direction.
+
+It also remains open that all of this comes from a single provider and two months of data, and that none of it measures specific people.
+
+The study is by Jorge Fábrega, of CICS UDD. This was an automated reading done with Claude, a model from the same company whose data the paper analyzes, so it is best to check the original source.
