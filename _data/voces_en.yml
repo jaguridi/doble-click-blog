@@ -106,6 +106,10 @@ colombia-exige-devolver-dinero-centros-potencia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "abfbfa819484"
+delegacion-ia-uso-laboral:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "aec3ba4ffb3a"
 demostrar-expertise-codigo-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -210,6 +214,10 @@ modelo-openai-rinde-menos-seguridad:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "cf5d90ad302c"
+nvidia-investiga-relacion-huang-posible-espia-china:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "5f00fec53058"
 observatorio-uso-real-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
