@@ -1,0 +1,15 @@
+Esto es Doble Lectura, de Doble Click, y hoy el tema es quién dirige una tarea cuando buena parte la hace una inteligencia artificial.
+
+La fuente es un preprint publicado en agosto por Jorge Fábrega, investigador en Chile. Su punto de partida es simple: que la máquina ejecute mucho no dice quién lleva el timón. Fábrega distingue dos maneras de conservar esa dirección. Una es fijarla antes, con instrucciones, restricciones y criterios claros; la llama delegación especificada. La otra es ejercerla durante el trabajo, corrigiendo y redirigiendo borradores; la llama coproducción iterativa.
+
+Su hipótesis es que el uso laboral, donde un mal resultado tiene costos profesionales, empuja a conservar más dirección. Para probarla usa datos públicos que Anthropic publica sobre el uso de Claude en abril y mayo de este año. No son personas ni conversaciones, sino promedios mensuales por tipo de tarea, separados entre la interfaz de chat y el acceso directo por programación.
+
+El resultado más firme es este. Cuando el autor compara una misma tarea con una mezcla diez puntos más laboral y diez puntos menos personal, el perfil de dirección previa es más alto en las dos vías de uso. Es un cambio de pocos puntos en una escala de cien, y el autor lo presenta como una asociación, no como un efecto causal.
+
+Con la corrección sobre la marcha, el hallazgo es más delicado. Esa relación es más fuerte en el chat que en el acceso por programación. Pero el propio autor advierte que el chat conserva la conversación completa, mientras el otro canal registra cada llamada por separado. La diferencia puede deberse a lo que cada interfaz permite hacer o solo a lo que permite ver, y los datos no separan una cosa de la otra.
+
+Ahora, la mirada desde América Latina, que es interpretación de este blog. Los mismos datos traen un desglose por país, solo para el chat. Ahí, el patrón de corrección aparece en los setenta y seis países que analiza el autor, aunque el paper no dice cuáles son. Lo que no está desagregado es el hallazgo más sólido, el de la dirección previa. Con esos archivos se podría calcular para México, Brasil, Colombia, Chile o Argentina. Hay una razón para hacerlo: la propia Anthropic, que es parte interesada, dice que las economías de menores ingresos tienden a usar Claude de forma más automatizada. Falta saber si ahí el uso laboral sigue asociado a más dirección humana.
+
+Queda abierto, además, que todo esto viene de un solo proveedor y de dos meses de datos, y que nada de esto mide a personas concretas.
+
+El estudio es de Jorge Fábrega, del CICS UDD. Esta fue una lectura automática hecha con Claude, un modelo de la misma empresa cuyos datos analiza el paper, así que conviene revisar la fuente original.
