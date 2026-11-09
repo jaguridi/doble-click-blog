@@ -14,12 +14,6 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-- titulo: "Delegar en la IA generativa: dónde queda la dirección humana de la tarea"
-  paper: "Governing Delegation to Generative Artificial Intelligence: Human Direction, Work-Related Orientation, and Modes of Use"
-  autores: "Fábrega (CICS-UDD, Chile)"
-  publicado: "arXiv, agosto 2026"
-  url: "https://arxiv.org/abs/2608.17624"
-
 - titulo: "Cuando los agentes de IA inundan los servicios del Estado"
   paper: "Characterizing Agentic Flooding of Government Services"
   autores: "Schmitz et al."
