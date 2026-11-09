@@ -35,7 +35,7 @@ El ejercicio central compara, para una misma celda, el perfil esperado con su co
 - en 1.411 pares de tarea y mes presentes en ambas vías, la coproducción iterativa cambia -0,30 en la API y 0,15 en Claude.ai, con intervalos que incluyen el cero;
 - la diferencia entre ambas vías en ese cambio es de 0,45 puntos (0,15 a 0,75).
 
-Un intervalo que no toca el cero indica que, con estos datos, el signo de la asociación es claro. Como aproximación propia, se trata de cambios de pocos puntos en una escala de cien. El paper no informa el promedio de los perfiles, así que su peso relativo no se puede juzgar.
+Un intervalo que no toca el cero indica que, con estos datos, el signo de la asociación es claro. Medidos en una escala de cien, son cambios de pocos puntos; esa apreciación es del blog, no del autor. El paper no informa el promedio de los perfiles, así que su peso relativo no se puede juzgar.
 
 Con la segunda hipótesis el autor es más cauto. Claude.ai conserva la conversación completa; la API registra cada llamada como un par aislado de entrada y respuesta, y la iteración externa no queda a la vista. Según Fábrega, la diferencia puede reflejar lo que cada interfaz permite hacer y también lo que permite observar, y sus datos no separan ambas cosas.
 
