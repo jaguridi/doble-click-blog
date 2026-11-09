@@ -404,6 +404,9 @@ mythos-anthropic-mercado-general:
 nube-china-aterriza-brasil-48-horas:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+nvidia-investiga-relacion-huang-posible-espia-china:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 nvidia-proveedor-acreedor-accionista-frontera:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
