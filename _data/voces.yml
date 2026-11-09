@@ -203,6 +203,9 @@ copilot-cobro-token-facturas-latam:
 deepseek-modelo-abierto-region-debe-elegir:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+delegacion-ia-uso-laboral:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 demostrar-expertise-codigo-ia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
