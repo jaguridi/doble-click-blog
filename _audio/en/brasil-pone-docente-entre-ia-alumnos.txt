@@ -1,0 +1,15 @@
+Brazil has set rules for the use of artificial intelligence in its schools. The Ministry of Education approved on November tenth the National Education Council's guidelines, according to Agência Brasil, the source for what follows.
+
+The rules change by age. In early childhood education, students will not use artificial intelligence, not even with a teacher beside them. From first to fifth grade, generative artificial intelligence, the kind that produces text or images on request, is not recommended. From sixth to ninth grade, it is only allowed with a teacher's mediation.
+
+The rule also addresses assessment. Artificial intelligence may support the grading of essays, but grades remain the teacher's sole responsibility. And social scoring, emotion inference, continuous biometric surveillance and the use of educational data for advertising are banned.
+
+According to the agency, those bans apply from the moment the resolution is published, and institutions have twelve months to bring their policies and contracts into line.
+
+Our interpretation is that the most concrete change could lie in the contracts. A school platform that today infers a student's mood, or monitors them with biometric data, would have to stop doing so without waiting for that period. The education departments would have to review which features come with the tools they have already bought.
+
+It should be said that all of this comes from the press: the official text of the opinion was not consulted.
+
+What we don't know yet is which body will enforce the platforms' compliance with these bans, and on what exact date the resolution that puts them into effect will be published.
+
+This was an automated Doble Click entry; please verify each story against its sources.
