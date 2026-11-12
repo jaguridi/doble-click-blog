@@ -113,6 +113,9 @@ autoridades-ia-america-latina:
 aviso-incidentes-graves-ia-mesa-bilateral:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+aws-abre-region-nube-chile-sin-plataformas-ia:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 ban-fable-5-seguridad-nacional-negociacion:
   voz: "Gonzalo (Colombia)"
   motor: "Microsoft Azure"
