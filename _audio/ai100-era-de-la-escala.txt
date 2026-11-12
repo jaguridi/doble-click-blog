@@ -1,0 +1,17 @@
+Doble Lectura, la sección de Doble Click, repasa hoy el balance que hace el informe AI100 sobre cinco años de inteligencia artificial generativa.
+
+AI100 es un estudio de largo plazo. Cada cinco años, un panel nuevo de expertos responde las mismas preguntas sobre el estado de la inteligencia artificial y sus efectos. Esta tercera edición se publicó en noviembre desde Stanford. No trae mediciones nuevas: es una síntesis de evidencia publicada y del juicio de sus autores.
+
+Su tesis central es que los grandes avances de este período vinieron de la escala, es decir, de entrenar sistemas con cada vez más cómputo y más datos. Según el panel, ese camino ya está bajo presión, porque escasean los datos nuevos de buena calidad y el costo de entrenar los modelos más avanzados se volvió prohibitivo. Por eso espera que la próxima etapa dependa más de dar a los modelos tiempo para razonar, memoria y herramientas.
+
+El informe describe además un auge de inversión sin precedentes, y cita estimaciones según las cuales la inversión en infraestructura de inteligencia artificial explicó la mitad del crecimiento económico de Estados Unidos en dos mil veinticinco. Pero los autores afirman que el impacto económico todavía no aparece con claridad en los datos agregados ni en el retorno de las empresas.
+
+Sobre la gobernanza, el diagnóstico es de fragmentación. Las cumbres internacionales dejaron declaraciones sin fuerza legal, y el panel sostiene que el público ha tenido poca voz sobre una tecnología que cambia la vida de miles de millones de personas.
+
+Hay también autocrítica. El panel anterior anticipó una transformación, pero no la inteligencia artificial generativa. Los autores sugieren que la causa pudo ser un grupo formado casi solo por gente del propio campo.
+
+Ahora, la mirada desde América Latina, que es interpretación de este blog y no del informe. La región aparece en el texto sobre todo como escenario: elecciones en Argentina con contenido sintético, y la operación en Venezuela en la que, según reportes de prensa que el informe recoge, Claude habría contribuido. En la lista de potencias medias que buscan un lugar propio no figura ningún país latinoamericano. El capítulo sobre regulación sí ayuda a leer un caso concreto. El proyecto chileno de ley de inteligencia artificial entrega la fiscalización a la nueva agencia de protección de datos. Si avanza así, evitaría repartir la misma regla entre muchos sectores, pero toda la supervisión dependería de la capacidad técnica de esa sola agencia, que es justo lo que el informe ve escaso en los reguladores.
+
+Queda abierta otra pregunta: si en nuestros países hay de verdad más optimismo que en Estados Unidos, como sostiene el panel a partir de una encuesta de hace algunos años.
+
+El informe es obra del panel AI100 que preside Michael Wooldridge, de la Universidad de Oxford. Esta fue una lectura automática hecha con Claude, un modelo de Anthropic, empresa que el informe menciona; conviene revisar la fuente original.
