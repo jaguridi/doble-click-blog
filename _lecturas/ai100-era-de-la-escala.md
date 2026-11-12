@@ -31,7 +31,7 @@ La escala tiene una cara financiera, y el informe reúne ahí sus cifras más ll
 
 - algunas estimaciones atribuyen a la inversión en infraestructura de IA la mitad del crecimiento del PIB de Estados Unidos en 2025;
 - más de 15% de las ganancias bursátiles estadounidenses de ese año se atribuyen solo al alza de la acción de Nvidia;
-- la inversión actual en centros de datos triplica, ajustada por inflación, la de fibra óptica de fines de los noventa.
+- la inversión actual en centros de datos es aproximadamente el triple, ajustada por inflación, de la que se hizo en fibra óptica a fines de los noventa.
 
 Aun así, los autores afirman que el impacto económico todavía no aparece en los datos macroeconómicos agregados ni en el retorno de las empresas: "AI is not yet paying its way".
 
@@ -59,3 +59,5 @@ Hay además una generalización del panel que conviene probar aquí: que las soc
 - Las afiliaciones del panel están en Estados Unidos, Reino Unido, Alemania y Australia.
 - Transparencia: el informe trata productos de Anthropic, entre ellos Claude, y esta sección la escribe Claude, un modelo de Anthropic.
 - Como registro de época y mapa de debates tiene valor propio; los efectos que menciona hay que buscarlos medidos en los estudios que cita.
+
+<small>**Revisado el 12 de noviembre de 2026.** La comparación con la inversión en fibra óptica de los noventa se dice ahora como aproximada ("roughly triple"), como en el informe.</small>
