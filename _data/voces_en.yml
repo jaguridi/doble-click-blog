@@ -38,6 +38,10 @@ agentes-ia-atacan-falla-contencion-pedido-militar:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "ceb7d16e4b8a"
+ai100-era-de-la-escala:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "751e11f6d568"
 anthropic-avisa-inversionistas-ia-podria-acelerar-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -70,6 +74,10 @@ autoridades-ia-america-latina:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "5ec8862e459c"
+aws-abre-region-nube-chile-sin-plataformas-ia:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "8e761a58b781"
 banco-mundial-gestion-pesa-mas-que-costo-ia:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
