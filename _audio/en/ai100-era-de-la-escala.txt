@@ -1,0 +1,17 @@
+Doble Lectura, the Doble Click section, today reviews the assessment that the AI100 report makes of five years of generative artificial intelligence.
+
+AI100 is a long-term study. Every five years, a new panel of experts answers the same questions about the state of artificial intelligence and its effects. This third edition was published in November from Stanford. It brings no new measurements: it is a synthesis of published evidence and of its authors' judgment.
+
+Its central thesis is that the major advances of this period came from scale, that is, from training systems with ever more compute and more data. According to the panel, that path is already under pressure, because new good-quality data is scarce and the cost of training the most advanced models has become prohibitive. That is why it expects the next stage to depend more on giving models time to reason, memory and tools.
+
+The report also describes an unprecedented investment boom, and it cites estimates according to which investment in artificial intelligence infrastructure accounted for half of the economic growth of the United States in 2025. But the authors state that the economic impact does not yet show up clearly in aggregate data or in company returns.
+
+On governance, the diagnosis is one of fragmentation. The international summits left declarations without legal force, and the panel argues that the public has had little voice over a technology that is changing the lives of billions of people.
+
+There is also self-criticism. The previous panel anticipated a transformation, but not generative artificial intelligence. The authors suggest that the cause may have been a group made up almost entirely of people from the field itself.
+
+Now, the view from Latin America, which is this blog's interpretation and not the report's. The region appears in the text mainly as a setting: elections in Argentina with synthetic content, and the operation in Venezuela to which, according to press reports the report picks up, Claude may have contributed. The list of middle powers seeking a place of their own includes no Latin American country. The chapter on regulation does help read a concrete case. The Chilean artificial intelligence bill hands enforcement to the new data protection agency. If it moves forward that way, it would avoid splitting the same rule among many sectors, but all oversight would depend on the technical capacity of that single agency, which is exactly what the report sees as scarce among regulators.
+
+Another question remains open: whether there really is more optimism in our countries than in the United States, as the panel argues based on a survey from a few years ago.
+
+The report is the work of the AI100 panel chaired by Michael Wooldridge, of the University of Oxford. This was an automated reading done with Claude, a model from Anthropic, a company the report mentions; it is best to check the original source.

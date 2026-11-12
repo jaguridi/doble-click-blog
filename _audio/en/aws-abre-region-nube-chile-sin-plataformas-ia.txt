@@ -1,0 +1,13 @@
+Amazon Web Services, Amazon's cloud division, opened its first cloud region in Chile on November eleventh. A region is a set of data centers that lets a company host its systems inside the country. For now it is operating in early access, and the company expects general availability by the end of 2026.
+
+Its first customers include BancoEstado, BTG, Cencosud, Consorcio, Itaú and Ripley. The region starts with compute, storage, networking and databases.
+
+The economic figures come from Amazon itself, and they are not an independent assessment. According to the company, the investment exceeds four billion dollars. It also estimates a contribution of more than seven and a half billion dollars to Chile's gross domestic product. And it projects an average of 4,100 full-time equivalent jobs per year.
+
+There is one detail that defines what changes for customers. Bedrock and SageMaker, Amazon's services for working with artificial intelligence models, will arrive during the first year, not from the start. This is our interpretation: until then, a bank that wants to use them might have to do so from Amazon regions in other countries. The region settles where data is stored, but not yet where the models run.
+
+What we don't know yet is exactly when those artificial intelligence services will arrive.
+
+Meanwhile, in Chile, the Ministry of Science and the Chamber of Deputies created a permanent roundtable on data centers. According to the outlet DPL News, it will meet every week starting November sixteenth.
+
+This was an automated Doble Click entry; please verify each story against its sources.
