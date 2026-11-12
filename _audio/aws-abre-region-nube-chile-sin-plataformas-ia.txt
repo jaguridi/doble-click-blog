@@ -1,0 +1,13 @@
+Amazon Web Services, la división de nube de Amazon, abrió el once de noviembre su primera región de nube en Chile. Una región es un conjunto de centros de datos que permite a una empresa alojar sus sistemas dentro del país. Por ahora funciona en acceso anticipado, y la empresa espera la disponibilidad general para fines de dos mil veintiséis.
+
+Entre los primeros clientes están BancoEstado, BTG, Cencosud, Consorcio, Itaú y Ripley. La región parte con cómputo, almacenamiento, redes y bases de datos.
+
+Las cifras económicas las da la propia Amazon, y no son una evaluación independiente. Según la empresa, la inversión supera los cuatro mil millones de dólares. También estima un aporte de más de siete mil quinientos millones de dólares al producto interno bruto chileno. Y calcula un promedio de cuatro mil cien empleos equivalentes a tiempo completo al año.
+
+Hay un detalle que define qué cambia para los clientes. Bedrock y SageMaker, los servicios de Amazon para trabajar con modelos de inteligencia artificial, llegarán durante el primer año, no desde el inicio. Esta es nuestra interpretación: hasta entonces, un banco que quiera usarlos podría tener que hacerlo desde regiones de Amazon en otros países. La región resuelve dónde se guardan los datos, pero todavía no dónde funcionan los modelos.
+
+Lo que falta saber es cuándo llegarán exactamente esos servicios de inteligencia artificial.
+
+En paralelo, en Chile, el Ministerio de Ciencia y la Cámara de Diputados crearon una mesa permanente sobre centros de datos. Según el medio DPL News, sesionará cada semana desde el dieciséis de noviembre.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
