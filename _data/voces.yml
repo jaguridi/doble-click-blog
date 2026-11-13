@@ -308,6 +308,9 @@ gpt-5-6-tres-modelos-sin-latam:
 hassabis-organismo-global-estandares-ia-frontera:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+huang-deja-nvidia-directora-financiera-mando-interino:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 ia-bienestar-mental-suplemento-o-remedio:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
