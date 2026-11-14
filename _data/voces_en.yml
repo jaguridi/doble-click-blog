@@ -162,6 +162,10 @@ gobernar-ia-frontera-estado:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "8b260abf31d8"
+huang-deja-nvidia-directora-financiera-mando-interino:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "e7b778bb652e"
 ia-bienestar-mental-suplemento-o-remedio:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
@@ -190,6 +194,10 @@ ia-pronostica-su-propio-riesgo:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "0a3744c4888c"
+ia-sube-primer-lugar-encuesta-riesgos-fed:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "cd4581a49dc3"
 iberoamerica-aprueba-alianza-ia-sin-argentina-paraguay:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
