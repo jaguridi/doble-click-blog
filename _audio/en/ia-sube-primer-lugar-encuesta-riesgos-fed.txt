@@ -1,0 +1,11 @@
+Artificial intelligence moved into first place among the risks that worry markets, according to a survey published by the United States Federal Reserve.
+
+The Federal Reserve Bank of New York consulted twenty-three market contacts in September and October: brokers, banks, funds and advisers. Artificial intelligence was the risk they cited most. In the spring survey it ranked third. Those consulted mentioned elevated stock valuations, cyberattacks enabled by artificial intelligence and complex forms of financing. Keep in mind: the survey reflects the perceptions of those contacts, not the Federal Reserve's own assessment.
+
+The same report, published on November thirteenth, includes figures on financing. Debt issued for advanced compute infrastructure exceeded 680 billion dollars as of October, about five times what was issued in all of 2023. The largest banking groups have about one trillion dollars of exposure to big tech companies, data centers, power companies and financial vehicles created for these projects.
+
+There is a less visible layer. The report separately adds up leases that have not yet started, worth more than one trillion dollars, and guarantees and contracts worth more than two trillion. Those commitments are left out of the liabilities that big tech companies report. That is why, the report warns, what they would lose in a crash could exceed what their accounts reflect. One possible reading: whoever lends to them looking only at their declared debt could be underestimating the risk.
+
+What we don't know yet is whether the Federal Reserve will bring this concern into its 2027 bank stress test. That is, whether it will include a stress scenario tied to artificial intelligence.
+
+This was an automated Doble Click entry; please verify each story against its sources.
