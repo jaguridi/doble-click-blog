@@ -371,6 +371,9 @@ leon-xiv-enciclica-inteligencia-artificial:
 leon-xiv-pide-pasos-prohibir-armas-autonomas:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
+litigar-sin-abogado-no-exime-verificar-ia:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 lula-trump-onu-posturas-opuestas-ia:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
