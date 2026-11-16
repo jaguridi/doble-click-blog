@@ -1,0 +1,17 @@
+This is Doble Lectura, from Doble Click, and today the topic is what happens when artificial intelligence makes dealings with the state cheaper and more requests arrive than a service can handle.
+
+Chris Schmitz, Lewis Hammond and Alan Chan call that phenomenon agentic flooding. To study it, they reviewed public services in several countries and gathered eighty-four possible cases. A case was included only if the government itself, or a reliable external source, attributed a change in demand to artificial intelligence. In most of them, it is officials who say so.
+
+The pattern they find is almost always the same. People use a language model to draft long texts with a legal appearance, and they do the rest of the process by hand. In Germany's social courts, some filings ran to more than four thousand pages. Agents navigating portals on their own are not yet seen in their data.
+
+The authors describe impacts that have been moderate so far, and they consider a collapse of services unlikely. They posit that the risk is greater where there is money at stake and a complex process, such as taxes or the courts. They also warn that the quickest response, charging fees or requiring in-person appointments, tends to leave out those with fewer resources or less digital skill.
+
+A caveat they make themselves: their method does not allow them to say how much of this is happening or to prove that artificial intelligence is the cause.
+
+Now, the view from Latin America, which is this blog's interpretation and not the study's. The only Latin American country in the sample is Brazil, and its case is INSS's temporary incapacity benefit, where the authors record fake medical certificates generated with artificial intelligence, and a response with automated detection tools. This year, the Brazilian government announced that certificates of up to ninety days no longer go through in-person examination. According to the paper itself, the in-person appointment is a filter that no agent gets through. If that is so, automated detection would carry more weight, something that could be checked by comparing rejections before and after the change.
+
+In Chile, the contrast is legal. The law on access to public information sets free access as a principle and limits charges to the costs of reproduction. The shortcut of reinstating fees, which Australia went as far as considering, would not be available without changing the law. What would remain are other frictions that do not charge, such as blocking repeated submissions, whose legality would need to be reviewed, and the slow responses: redesigning the channel or adding capacity.
+
+What remains open is the magnitude. Few cases in the database have volume data, and the risk matrix they propose has not yet been validated.
+
+The study is by Chris Schmitz, of the Hertie School, Lewis Hammond, of the Cooperative AI Foundation, and Alan Chan, of GovAI. This is an automated reading made with Claude. It is worth checking the original source.

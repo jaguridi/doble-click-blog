@@ -1,0 +1,13 @@
+Hi, this is Doble Click.
+
+The Ibero-American Data Protection Network brings together national data protection authorities. On November twelfth, it published standards on the use of personal data in artificial intelligence systems. According to the network's own statement, its member authorities approved them unanimously.
+
+The twenty-nine-page document sets out several criteria. The fact that a piece of data is in public view is not enough, on its own, to train an artificial intelligence system. What a system deduces about a person's health, ideology or sexual orientation receives the protection given to sensitive data. People must be able to know whether their data was used, and be able to challenge an automated decision with real human intervention. In addition, the text declares incompatible the systems that manipulate deceptively and those that carry out discriminatory social scoring.
+
+There is one rule that could have a practical effect soon. Whoever uses a third-party system remains responsible for the processing whose purposes it decides. This is our interpretation: for a bank or a ministry that contracts someone else's model, responsibility for the data would not go away with the contract.
+
+Now, an important clarification. The document itself describes itself as guidance that complements each national law. It does not replace those laws. What we don't know yet is whether any national data authority will cite these criteria when ruling on a complaint.
+
+In Paraguay, the organization TEDIC called for a moratorium on facial recognition after the collapse of UENO Bank. It also pointed out that the country's personal data law takes effect twenty-four months after its publication.
+
+This was an automated Doble Click entry; please verify each story against its sources.
