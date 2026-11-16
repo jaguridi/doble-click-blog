@@ -74,6 +74,10 @@ autoridades-ia-america-latina:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "5ec8862e459c"
+autoridades-iberoamericanas-datos-aprueban-criterios-ia:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "ce78e80500c5"
 aws-abre-region-nube-chile-sin-plataformas-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -210,6 +214,10 @@ indices-preparacion-ia-bid:
   voz: "Matilda (United States)"
   motor: "ElevenLabs"
   guion: "6c2b9fa14f0f"
+inundacion-agentica-servicios-publicos:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "f5f63c185026"
 justicia-electoral-brasil-suma-peritos-contenidos-ia:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
