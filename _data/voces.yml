@@ -344,6 +344,9 @@ imagenes-ia-espacios-publicos:
 indices-preparacion-ia-bid:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+inundacion-agentica-servicios-publicos:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 justicia-electoral-brasil-suma-peritos-contenidos-ia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
