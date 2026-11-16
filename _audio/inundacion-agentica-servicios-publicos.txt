@@ -10,7 +10,7 @@ Una advertencia que hacen ellos mismos: su método no permite afirmar cuánto de
 
 Ahora, la mirada desde América Latina, que es interpretación de este blog y no del estudio. El único país latinoamericano de la muestra es Brasil, y su caso es el beneficio por incapacidad temporal del INSS, donde los autores registran certificados médicos falsos generados con inteligencia artificial, y una respuesta con herramientas de detección automática. Este año, el gobierno brasileño anunció que los certificados de hasta noventa días ya no pasan por pericia presencial. Según el propio paper, la cita presencial es un filtro que ningún agente atraviesa. Si eso es así, la detección automática cargaría con más peso, algo que se podría comprobar comparando los rechazos antes y después del cambio.
 
-En Chile, el contraste es legal. La ley de acceso a la información pública establece la gratuidad como principio y limita el cobro a los costos de reproducción. El atajo de reponer cobros, que Australia llegó a evaluar, no estaría disponible sin cambiar la ley. Quedarían las respuestas lentas: rediseñar el canal o sumar capacidad.
+En Chile, el contraste es legal. La ley de acceso a la información pública establece la gratuidad como principio y limita el cobro a los costos de reproducción. El atajo de reponer cobros, que Australia llegó a evaluar, no estaría disponible sin cambiar la ley. Quedarían otras fricciones que no cobran, como bloquear envíos repetidos, cuya legalidad habría que revisar, y las respuestas lentas: rediseñar el canal o sumar capacidad.
 
 Lo que queda abierto es la magnitud. Pocos casos de la base tienen datos de volumen, y la matriz de riesgo que proponen todavía no se ha validado.
 
