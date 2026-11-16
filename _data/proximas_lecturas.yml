@@ -14,12 +14,6 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-- titulo: "Cuando los agentes de IA inundan los servicios del Estado"
-  paper: "Characterizing Agentic Flooding of Government Services"
-  autores: "Schmitz et al."
-  publicado: "arXiv, agosto 2026"
-  url: "https://arxiv.org/abs/2608.16603"
-
 - titulo: "IA generativa en un gobierno local: 25 entrevistas a funcionarios en Vietnam"
   paper: "Generative AI in Developing Countries: Adoption Dynamics in Vietnamese Local Government"
   autores: "Nguyen et al."
