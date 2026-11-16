@@ -57,7 +57,7 @@ En Paraguay, [TEDIC](https://www.tedic.org/caso-ueno-biometria-datos-personales-
 
 ## Lanzamientos
 
-- **[Qwen4-Max](https://artificialanalysis.ai/models/qwen4-max)** (vía Artificial Analysis): modelo de Alibaba sin pesos abiertos, que no se puede descargar. Cada millón de tokens (trozos de palabra que fijan el cobro) vale 1,50 dólares si entra al modelo y 4,50 si sale de él.
+- **[Qwen4-Max](https://artificialanalysis.ai/models/qwen4-max)** (vía Artificial Analysis): modelo de Alibaba sin pesos abiertos, que no se puede descargar. Cada millón de tokens (trozos de palabra con los que se calcula la tarifa) vale 1,50 dólares si entra al modelo y 4,50 si sale de él.
 
 ## Hilos que seguimos
 
