@@ -1,0 +1,13 @@
+Hola, esto es Doble Click.
+
+La Red Iberoamericana de Protección de Datos reúne a autoridades nacionales de protección de datos. El doce de noviembre publicó unos estándares sobre el uso de datos personales en sistemas de inteligencia artificial. Según el comunicado de la propia red, sus autoridades miembros los aprobaron por unanimidad.
+
+El documento, de veintinueve páginas, plantea varios criterios. Que un dato esté a la vista del público no basta, por sí solo, para entrenar un sistema de inteligencia artificial. Lo que un sistema deduzca sobre la salud, la ideología o la orientación sexual de una persona recibe la protección de los datos sensibles. Las personas deben poder saber si sus datos se usaron, y poder impugnar una decisión automatizada con intervención humana real. Además, el texto declara incompatibles los sistemas que manipulan de forma engañosa y los que puntúan socialmente de manera discriminatoria.
+
+Hay una regla que podría tener efecto práctico pronto. Quien usa un sistema de terceros sigue siendo responsable de los tratamientos cuyos fines decide. Esta es nuestra interpretación: para un banco o un ministerio que contrata un modelo ajeno, la responsabilidad por los datos no se iría con el contrato.
+
+Ahora, una precisión importante. El propio documento se declara orientador y complementario de cada ley nacional. No reemplaza a esas leyes. Lo que falta saber es si alguna autoridad nacional de datos citará estos criterios al resolver una denuncia.
+
+En Paraguay, la organización TEDIC pidió una moratoria del reconocimiento facial tras la caída de UENO Bank. También recordó que la ley de datos personales de ese país entra en vigor veinticuatro meses después de su publicación.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
