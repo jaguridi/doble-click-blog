@@ -110,6 +110,9 @@ auditoria-algoritmica-sur-global:
 autoridades-ia-america-latina:
   voz: "Cristian (Chile)"
   motor: "ElevenLabs"
+autoridades-iberoamericanas-datos-aprueban-criterios-ia:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 aviso-incidentes-graves-ia-mesa-bilateral:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
