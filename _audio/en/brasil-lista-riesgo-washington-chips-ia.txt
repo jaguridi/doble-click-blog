@@ -1,0 +1,13 @@
+Brazil joins Washington's risk list for artificial intelligence chips.
+
+On November sixteenth, the Bureau of Industry and Security of the United States Department of Commerce announced an interim final rule. The rule requires a license to export advanced artificial intelligence semiconductors to Brazil, Indonesia, Malaysia, Singapore, and Thailand. The rule considers that in those five destinations the risk of chip diversion is higher than normal. Brazil is the only Latin American country on the list.
+
+Applications will be reviewed one by one. There is an important exception: no license is needed if whoever receives the chips, or their parent company, is headquartered in the United States and the exporter meets reporting obligations.
+
+What does that mean in practice? That within Brazil there are now two classes of cloud operators. A subsidiary with a U.S. parent receives the chips by reporting. A Brazilian-owned operator must wait for an individual authorization. A Brazilian trade association of software companies, Abes, described the rule as a competitive asymmetry, according to the outlet Teletime.
+
+The rule also reaches data centers in any country. They need a license if they deliver significant volumes of compute to companies headquartered in China or Macau, among other destinations. Those that were already doing so have ninety days from the entry into force.
+
+What we don't know yet: when the rule will be published in the U.S. official journal, the Federal Register, the moment it takes effect. From then, there are sixty days to submit comments, and the Ministry of Development and Industry and Brazil's foreign ministry could submit their own.
+
+This was an automated Doble Click entry; please verify each story against its sources.
