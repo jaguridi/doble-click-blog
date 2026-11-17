@@ -1,0 +1,13 @@
+Brasil entra en la lista de riesgo de Washington para chips de inteligencia artificial.
+
+El dieciséis de noviembre, la Oficina de Industria y Seguridad del Departamento de Comercio de Estados Unidos dio a conocer una regla final interina. La regla exige licencia para exportar semiconductores avanzados de inteligencia artificial a Brasil, Indonesia, Malasia, Singapur y Tailandia. La regla considera que en esos cinco destinos el riesgo de desvío de chips es superior al normal. Brasil es el único país latinoamericano de la lista.
+
+Las solicitudes se revisarán una por una. Hay una excepción importante: no se necesita licencia si quien recibe los chips, o su empresa matriz, tiene sede en Estados Unidos y el exportador cumple obligaciones de reporte.
+
+¿Qué significa eso en la práctica? Que dentro de Brasil quedan dos clases de operadores de nube. Una filial de matriz estadounidense recibe los chips reportando. Un operador de capital brasileño debe esperar una autorización individual. Un gremio brasileño de empresas de software, la Abes, calificó la regla como una asimetría competitiva, según el medio Teletime.
+
+La norma también alcanza a centros de datos de cualquier país. Necesitan licencia si entregan volúmenes significativos de cómputo a empresas con sede en China o Macao, entre otros destinos. Los que ya lo hacían tienen noventa días desde la entrada en vigor.
+
+Lo que falta saber: cuándo se publicará la regla en el diario oficial estadounidense, el Federal Register, momento en que empieza a regir. Desde ahí corren sesenta días para enviar comentarios, y el Ministerio de Desarrollo e Industria y la cancillería brasileña podrían presentar los suyos.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
