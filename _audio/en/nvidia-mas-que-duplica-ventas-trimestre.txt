@@ -1,0 +1,13 @@
+On November seventeenth, Nvidia presented its results for the quarter ended October twenty-fifth.
+
+According to the company's own release, revenue reached 115.8 billion dollars. That is one hundred three percent more than a year earlier. Its data center server business contributed 107.6 billion, and GAAP net income was 65.3 billion.
+
+It was the first report with Colette Kress in charge on an interim basis, following the departure of Jensen Huang on November twelfth.
+
+For the coming quarter, Nvidia projects revenue of 130 billion dollars, plus or minus three percent. That projection assumes no sales of data center compute in China. According to the release, cloud operators such as CoreWeave, Google Cloud, Microsoft Azure, Oracle and Nebius already use its newest servers. Our interpretation is that, without China, the promised growth could depend on a few large buyers, and each quarter could be read in light of how much they spend.
+
+The same day, the board created a standing national security and export control committee, chaired by director Suzanne Nora Johnson. The trade compliance teams will report directly to it. That committee could be accountable for the licenses required by a new U.S. rule to export chips to five countries, Brazil among them.
+
+It remains to be seen whether the committee will change how Nvidia sells to customers with ties to China. On the earnings call, board chair Harvey Jones said he has no intention of reinstating Huang, according to TechCrunch.
+
+This was an automated Doble Click entry; please verify each story against its sources.
