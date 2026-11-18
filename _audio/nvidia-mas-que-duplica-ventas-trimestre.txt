@@ -1,0 +1,13 @@
+Nvidia presentó el diecisiete de noviembre sus resultados del trimestre cerrado el veinticinco de octubre.
+
+Según el comunicado de la propia empresa, los ingresos llegaron a ciento quince mil ochocientos millones de dólares. Es un ciento tres por ciento más que un año antes. Su negocio de servidores para centros de datos aportó ciento siete mil seiscientos millones, y la utilidad neta contable fue de sesenta y cinco mil trescientos millones.
+
+Fue el primer informe con Colette Kress al mando de forma interina, tras la salida de Jensen Huang el doce de noviembre.
+
+Para el trimestre que viene, Nvidia proyecta ingresos de ciento treinta mil millones de dólares, con un margen de tres por ciento hacia arriba o hacia abajo. Esa proyección no supone ventas de cómputo para centros de datos en China. Según el comunicado, operadores de nube como CoreWeave, Google Cloud, Microsoft Azure, Oracle y Nebius ya usan sus servidores más recientes. Nuestra interpretación es que, sin China, el crecimiento prometido podría depender de unos pocos compradores grandes, y cada trimestre podría leerse según lo que gasten ellos.
+
+El mismo día, el directorio creó un comité permanente de seguridad nacional y control de exportaciones, presidido por la directora Suzanne Nora Johnson. Los equipos de cumplimiento comercial le reportarán directamente. Ese comité podría responder por los permisos que exige una nueva regla estadounidense para exportar chips a cinco países, entre ellos Brasil.
+
+Queda por ver si el comité cambiará cómo vende Nvidia a clientes con vínculos con China. En la conferencia de resultados, el presidente del directorio, Harvey Jones, dijo que no tiene intención de reintegrar a Huang, según TechCrunch.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
