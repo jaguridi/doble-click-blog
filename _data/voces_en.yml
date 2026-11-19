@@ -54,6 +54,10 @@ anthropic-promete-5-acciones-fondo-reglas-pendientes:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "43f8fc1b4703"
+anthropic-sale-bolsa-83-dolares-sobre-rango:
+  voz: "Matilda (United States)"
+  motor: "ElevenLabs"
+  guion: "f20b90fdc47c"
 argentina-chile-firman-kioto-sin-montos-plazos:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
@@ -166,6 +170,10 @@ gemini-gratuito-queda-solo-con-flash-lite:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
   guion: "25bc8016177a"
+gobernanza-ia-cepal-capacidades:
+  voz: "Eric (United States)"
+  motor: "ElevenLabs"
+  guion: "31db16a01a67"
 gobernar-ia-frontera-estado:
   voz: "Eric (United States)"
   motor: "ElevenLabs"
