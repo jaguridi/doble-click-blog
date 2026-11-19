@@ -1,0 +1,17 @@
+Esto es Doble Lectura, de Doble Click, y hoy revisamos un informe de la CEPAL sobre cómo gobiernan la inteligencia artificial los países de América Latina y el Caribe.
+
+El documento, firmado por Demetris Herakleous, de la Unidad de Transformación Digital de la CEPAL, recorre los marcos internacionales, el panorama regional y un perfil por país, incluidos los territorios dependientes del Caribe. No trae datos propios. Ordena leyes, estrategias e índices que ya existen.
+
+Su punto de partida es que gobernar la inteligencia artificial no se reduce a regularla. También exige personal técnico, datos, infraestructura y coordinación entre ministerios. Con esa idea clasifica los instrumentos de cada país: leyes generales, normas para un sector, guías éticas sin fuerza de ley, proyectos en trámite y menciones dentro de leyes de gobierno digital.
+
+El resultado es un mapa desigual. Según el informe, a enero de 2026 los casos más claros de ley general eran Perú y El Salvador. Los proyectos de Brasil y Chile llevan largas deliberaciones, y el autor advierte que una ley demasiado lenta puede nacer desactualizada. Solo Brasil y Colombia declaran montos para sus estrategias; los demás países del cuadro no los especifican, y el informe llama a esa opacidad un riesgo para la implementación.
+
+Su diagnóstico central es que a la región no le faltan ideas rectoras. Lo que está repartido de forma desigual es la capacidad de aplicarlas. De ahí salen siete recomendaciones, entre ellas empezar por las reglas para el uso de la inteligencia artificial dentro del Estado, redactar cláusulas modelo para las compras públicas y compartir entre países las funciones técnicas más caras, como la auditoría.
+
+Ahora, la mirada del blog. El Salvador sirve para poner a prueba esa tesis con los propios cuadros del informe. Tiene ley general y una agencia nacional encargada de supervisarla, pero el índice latinoamericano que usa la CEPAL lo ubica entre los países exploradores, con un puntaje de gobernanza que no llega a la mitad del chileno. Chile no tiene ley general. Lo que sigue es lectura del blog: la ley creó funciones que necesitan presupuesto y personal, y el informe no dice cuánto tiene la agencia. Además, no queda claro si los datos del índice son anteriores a la ley.
+
+En Colombia, una directiva conjunta de la Defensoría del Pueblo y la Procuraduría ya pide información y explicaciones sobre los sistemas algorítmicos del sector público. Si esas exigencias llegaran a los contratos de compra, se acercarían a lo que el informe recomienda. Saber si eso ocurre requiere un dato que el documento no tiene.
+
+Queda abierto lo principal: el informe argumenta que la capacidad estatal decide los resultados, pero no lo mide. Además, la CEPAL coproduce el índice que usa como marco, así que es evidencia interna.
+
+El informe es de Demetris Herakleous, con contribuciones de Sebastián Rovira y Alejandro Patiño, de la CEPAL. Esta es una lectura automática hecha con Claude. Conviene revisar la fuente original.
