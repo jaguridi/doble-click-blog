@@ -86,6 +86,9 @@ anthropic-promete-5-acciones-fondo-reglas-pendientes:
 anthropic-publica-cuanta-ia-construye-su-ia:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+anthropic-sale-bolsa-83-dolares-sobre-rango:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 anthropic-seul-socios-fable-5-bloqueada:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
