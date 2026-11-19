@@ -293,6 +293,9 @@ ginebra-gobernanza-global-ia-una-silla-latam:
 ginebra-segunda-silla-latam-118-paises-fuera:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+gobernanza-ia-cepal-capacidades:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 gobernanza-ia-dos-bloques-incompatibles:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
