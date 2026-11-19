@@ -1,0 +1,17 @@
+This is Doble Lectura, from Doble Click, and today we review a report from ECLAC on how the countries of Latin America and the Caribbean govern artificial intelligence.
+
+The document, signed by Demetris Herakleous, of ECLAC's Digital Transformation Unit, covers international frameworks, the regional landscape, and a profile for each country, including the dependent territories of the Caribbean. It brings no data of its own. It organizes laws, strategies, and indices that already exist.
+
+Its starting point is that governing artificial intelligence is not limited to regulating it. It also requires technical staff, data, infrastructure, and coordination across ministries. With that idea, it classifies each country's instruments: general laws, rules for a single sector, ethical guidelines without the force of law, bills under consideration, and mentions within digital government laws.
+
+The result is an uneven map. According to the report, as of January 2026 the clearest cases of a general law were Peru and El Salvador. The bills in Brazil and Chile have been through lengthy deliberations, and the author warns that a law that is too slow can be outdated at birth. Only Brazil and Colombia declare amounts for their strategies; the other countries in the table do not specify them, and the report calls that opacity a risk for implementation.
+
+Its central diagnosis is that the region does not lack guiding ideas. What is unequally distributed is the capacity to apply them. Seven recommendations follow from this, among them starting with rules for the use of artificial intelligence within the state, drafting model clauses for public procurement, and sharing the most expensive technical functions among countries, such as auditing.
+
+Now, the blog's perspective. El Salvador serves to test that thesis with the report's own tables. It has a general law and a national agency charged with overseeing it, but the Latin American index that ECLAC uses places it among the explorer countries, with a governance score that does not reach half of Chile's. Chile has no general law. What follows is the blog's reading: the law created functions that need budget and staff, and the report does not say how much the agency has. In addition, it is not clear whether the index data predate the law.
+
+In Colombia, a joint directive from the Ombudsman's Office and the Office of the Inspector General already requires information and explanations about the public sector's algorithmic systems. If those requirements made it into procurement contracts, they would come close to what the report recommends. Knowing whether that happens requires a data point the document does not have.
+
+The main question remains open: the report argues that state capacity determines outcomes, but it does not measure it. In addition, ECLAC co-produces the index it uses as its framework, so this is internal evidence.
+
+The report is by Demetris Herakleous, with contributions from Sebastián Rovira and Alejandro Patiño, of ECLAC. This is an automated reading made with Claude. It is worth checking the original source.
