@@ -221,6 +221,9 @@ colombia-vota-deepfakes-sin-regulacion-ia:
 copilot-cobro-token-facturas-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
+cuatro-ia-cedieron-gao-informe-no-dice-cual:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 deepseek-modelo-abierto-region-debe-elegir:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
