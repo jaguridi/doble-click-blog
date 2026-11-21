@@ -1,0 +1,13 @@
+Levent Alpöge, matemático de Anthropic, afirma haber demostrado con ayuda de Claude la hipótesis de Riemann, un problema planteado en mil ochocientos cincuenta y nueve, y también su versión generalizada. Lo publicó el veinte de noviembre en un texto propio.
+
+La prueba existe, por ahora, solo como código en Lean, un lenguaje en el que una computadora revisa cada paso de una demostración. Alpöge promete escribir más adelante una versión que puedan leer las personas.
+
+Según la revista Scientific American, Andrew Sutherland, del Instituto Tecnológico de Massachusetts, compiló la prueba. La revisó con la parte de Lean que acepta o rechaza cada paso, usando solo los tres axiomas estándar. Kevin Buzzard, del Imperial College de Londres, dijo que todavía espera otra comprobación: la que descarta que el enunciado formal diga algo distinto del problema original.
+
+Esta es una interpretación del blog, no un hecho: por ahora, aceptar el resultado depende de unos pocos especialistas capaces de auditar ese código. No depende de una revista. Además, el autor trabaja en la empresa que creó el modelo usado, y según su propio texto habló con Dario Amodei antes de anunciarlo. Por eso, la revisión de académicos de otras instituciones podría pesar más que de costumbre.
+
+El mismo día, el matemático Ravi Vakil difundió en su blog otra prueba de la versión generalizada, hecha por personas y firmada por Alessandro Masullo. Horas después, Vakil informó que le habían señalado problemas.
+
+Lo que falta saber es cuándo aparecerá la versión legible de la prueba de Alpöge, y si alguna revista especializada la someterá a evaluación.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
