@@ -1,0 +1,13 @@
+Levent Alpöge, a mathematician at Anthropic, claims to have proved, with the help of Claude, the Riemann hypothesis, a problem posed in eighteen fifty-nine, and also its generalized version. He published it on November twentieth in a text of his own.
+
+The proof exists, for now, only as code in Lean, a language in which a computer checks each step of a proof. Alpöge promises to write, later on, a version that people can read.
+
+According to the magazine Scientific American, Andrew Sutherland, of the Massachusetts Institute of Technology, compiled the proof. He checked it with the part of Lean that accepts or rejects each step, using only the three standard axioms. Kevin Buzzard, of Imperial College London, said he is still waiting for another check: the one that rules out that the formal statement says something different from the original problem.
+
+This is the blog's interpretation, not a fact: for now, accepting the result depends on a few specialists able to audit that code. It does not depend on a journal. In addition, the author works at the company that created the model used, and according to his own text he spoke with Dario Amodei before announcing it. For that reason, review by academics at other institutions could carry more weight than usual.
+
+The same day, the mathematician Ravi Vakil shared on his blog another proof of the generalized version, done by humans and signed by Alessandro Masullo. Hours later, Vakil reported that problems had been pointed out to him.
+
+What we don't know yet is when the readable version of Alpöge's proof will appear, and whether a specialized journal will put it through review.
+
+This was an automated Doble Click entry; please verify each story against its sources.
