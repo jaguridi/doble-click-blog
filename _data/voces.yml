@@ -218,6 +218,9 @@ colombia-vota-cierre-experimento-ia-electoral:
 colombia-vota-deepfakes-sin-regulacion-ia:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+contraloria-chile-pide-texto-acuerdo-openai:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 copilot-cobro-token-facturas-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
