@@ -347,6 +347,9 @@ ia-empleos-marco-transicion:
 ia-estudiar-paises-pobres:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+ia-generativa-gobierno-local-vietnam:
+  voz: "Virginia (Colombia)"
+  motor: "ElevenLabs"
 ia-pronostica-su-propio-riesgo:
   voz: "Andrés (Colombia)"
   motor: "ElevenLabs"
