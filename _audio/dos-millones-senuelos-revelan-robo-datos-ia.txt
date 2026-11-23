@@ -1,0 +1,11 @@
+Hola. Esta es la entrada de Doble Click del veintitrés de noviembre.
+
+Entre julio y noviembre, la empresa de ciberseguridad Dragos envió cerca de dos millones de mensajes a servicios de inteligencia artificial. Cada uno llevaba un enlace y unas credenciales falsas y únicas, que funcionan como trampas: si alguien las usa, delatan de dónde salieron. Según el informe que Dragos publicó el diecinueve de noviembre, encontró atacantes robando datos en al menos tres proveedores que ejecutan modelos para otros clientes. Esos proveedores no lo sabían. Las claves falsas de la nube de Amazon se usaron en decenas de miles de llamadas. Dragos también detectó revendedores que leían los mensajes de sus clientes.
+
+La plataforma OpenRouter, que reparte pedidos entre esos proveedores, informó el veintidós de noviembre que dio de baja a tres de ellos. También sacó ciento veinticinco puntos de acceso de su categoría de retención cero, la que promete no guardar lo que el usuario envía.
+
+Ahora, una lectura nuestra, no un hecho del informe. Dragos dice que en dos de las intrusiones había pedidos con esa marca de retención cero. Eso sugiere que la etiqueta describe una promesa del proveedor, pero no impide que un intruso lea los datos. Para una empresa que contrata estos servicios, la protección más directa sería no incluir contraseñas ni claves en sus mensajes, y cambiar las que ya haya expuesto.
+
+Queda por saber cuántos clientes quedaron expuestos, y cuándo OpenRouter empezará a repetir de forma continua estas pruebas con trampas, como anunció.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
