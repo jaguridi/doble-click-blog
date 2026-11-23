@@ -2,7 +2,7 @@
 layout: lectura
 numero: 36
 tags: [trabajo, gobernanza, latam]
-title: "Funcionarios vietnamitas usan la IA generativa por su cuenta y riesgo"
+title: "Funcionarios de una provincia vietnamita usan IA generativa a su propio riesgo"
 description: "Veinticinco entrevistas en una provincia líder en digitalización describen un uso informal, sin plan, presupuesto ni reglas, en el que cada empleado carga con el costo de equivocarse."
 date: 2026-11-23
 paper_titulo: "Generative AI in Developing Countries: Adoption Dynamics in Vietnamese Local Government"
@@ -58,3 +58,5 @@ El [BID reportó](https://www.iadb.org/en/blog/modernization-state/public-admini
 - El 1 de julio de 2025, tras el trabajo de campo, Binh Duong se fusionó con Ba Ria–Vung Tau y Ciudad Ho Chi Minh.
 - Sin financiamiento externo ni conflictos declarados. Las recomendaciones por etapas son propuestas, no se probaron.
 - El hallazgo describe una provincia y un momento; generalizarlo exigiría comparar gobiernos locales distintos.
+
+<small>**Revisado el 23 de noviembre de 2026.** El título hablaba de los funcionarios vietnamitas en general; ahora se acota a una provincia, porque el estudio advierte que sus hallazgos no representan a todos los gobiernos locales de Vietnam.</small>
