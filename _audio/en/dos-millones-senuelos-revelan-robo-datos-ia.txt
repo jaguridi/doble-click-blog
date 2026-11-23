@@ -1,0 +1,11 @@
+Hi. This is the Doble Click entry for November twenty-third.
+
+Between July and November, the cybersecurity company Dragos sent about two million messages to artificial intelligence services. Each one carried a unique link and set of fake credentials, which work as traps: if someone uses them, they give away where they came from. According to the report Dragos published on November nineteenth, it found attackers stealing data at at least three providers that run models for other customers. Those providers did not know. The fake keys for Amazon's cloud were used in tens of thousands of calls. Dragos also detected resellers who read their customers' messages.
+
+The OpenRouter platform, which distributes requests among those providers, reported on November twenty-second that it delisted three of them. It also removed one hundred twenty-five access points from its zero retention category, the one that promises not to store what the user sends.
+
+Now, a reading of our own, not a fact from the report. Dragos says that two of the intrusions involved requests with that zero retention flag. That suggests the label describes a promise by the provider, but does not stop an intruder from reading the data. For a company that buys these services, the most direct protection would be to leave passwords and keys out of its messages, and to change the ones it has already exposed.
+
+What remains to be known is how many customers were exposed, and when OpenRouter will begin repeating these decoy tests on a continuous basis, as it announced.
+
+This was an automated Doble Click entry; please verify each story against its sources.
