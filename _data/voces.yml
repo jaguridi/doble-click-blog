@@ -131,6 +131,9 @@ banca-latinoamericana-agentes-voz-clientes:
 banco-mundial-gestion-pesa-mas-que-costo-ia:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
+barbados-plazo-caricom-febrero-regular-ia-sola:
+  voz: "Andrés (Colombia)"
+  motor: "ElevenLabs"
 brasil-aprueba-primer-marco-ia-latam:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
