@@ -521,6 +521,9 @@ openai-modelos-escapan-contencion-hugging-face:
 openai-subagentes-conjetura-matematica-abierta:
   voz: "Salomé (Colombia)"
   motor: "Microsoft Azure"
+panel-ia-onu-79-votos-57-en-contra:
+  voz: "Catalina (Chile)"
+  motor: "ElevenLabs"
 paraguay-cede-menos-energia-itaipu-brasil:
   voz: "Catalina (Chile)"
   motor: "ElevenLabs"
