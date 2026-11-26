@@ -3,7 +3,7 @@ layout: lectura
 numero: 37
 tags: [participación, agentes]
 title: "Asambleas simuladas con IA: debate de forma humana, poca diversidad de perspectivas"
-description: "En 1.980 deliberaciones entre modelos de lenguaje, la calidad del intercambio es comparable a la humana, pero el razonamiento compartido mejora poco y según el tema."
+description: "En 1.980 corridas con grupos de modelos de lenguaje, la calidad del intercambio es comparable a la humana, pero el razonamiento compartido mejora poco y según el tema."
 date: 2026-11-26
 paper_titulo: "The Deliberative Deficit: An Empirical Critique of LLMs in Democratic Discourse"
 paper_autores: "Flechtner"
@@ -30,8 +30,8 @@ Propone entonces una prueba de tres condiciones necesarias. La primera es la cal
 
 El experimento base reunió grupos de cinco agentes que discutieron temas de asambleas ciudadanas reales. Las cifras:
 
-- 1.980 corridas, con 12 temas y 11 configuraciones de cinco familias de modelos;
-- en calidad del intercambio, 2,939 de los modelos frente a 2,980 de humanos en una encuesta deliberativa europea, una brecha que no resulta significativa;
+- 1.980 corridas, con 12 temas y 11 configuraciones de cinco familias de modelos; 1.320 incluyen deliberación y las otras 660 son una línea base en que los agentes solo responden la encuesta dos veces;
+- en calidad del intercambio, medida en esas 1.320 sesiones, 2,939 de los modelos frente a 2,980 de humanos en una encuesta deliberativa europea, una brecha que no resulta significativa;
 - con instrucciones deliberativas explícitas, el DRI sube 0,029, cerca de 30% de la mejora humana (0,099);
 - la diversidad inicial de los grupos de modelos ronda 6,5, contra 18,8 de los humanos;
 - tras deliberar, la dispersión humana baja 1,21 y la de los modelos sube entre 0,26 y 0,37.
@@ -57,3 +57,5 @@ Saber si la brecha se repite en la región exigiría lo que el propio paper pide
 - Los modelos se probaron sin ajuste fino ni recuperación de documentos. Entre ellos está Claude Opus 4.5, de la familia del modelo que escribe esta sección.
 - Financian el proyecto AI 4 Deliberation, de Horizon Europe, y la Universidad de Zúrich con la ETH.
 - El resultado vale para modelos de frontera usados tal como vienen, con instrucciones razonables, no para todo modelo posible.
+
+<small>**Revisado el 26 de noviembre de 2026.** La bajada hablaba de 1.980 deliberaciones; son 1.980 corridas, de las que 1.320 incluyen deliberación y 660 son una línea base sin debate.</small>
