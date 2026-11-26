@@ -14,8 +14,4 @@
 # Cuando la cola queda vacía, la rutina deja la lista como `[]` y el cuadro no se muestra.
 #
 # Campos por entrada: titulo (lo que se ve grande), paper, autores, publicado, url (opc.).
-- titulo: "El déficit deliberativo: una crítica empírica al uso de LLM en el debate democrático"
-  paper: "The Deliberative Deficit: An Empirical Critique of LLMs in Democratic Discourse"
-  autores: "Flechtner"
-  publicado: "arXiv, agosto 2026"
-  url: "https://arxiv.org/abs/2608.10186"
+[]

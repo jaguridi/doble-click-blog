@@ -1,0 +1,13 @@
+Esto es Doble Lectura, de Doble Click, y hoy la pregunta es si un grupo de modelos de inteligencia artificial puede deliberar como una asamblea ciudadana.
+
+El estudio es de Maurice Flechtner, de la Universidad de Zúrich y la ETH Zúrich. Su punto de partida es que a los modelos de lenguaje se los evalúa casi siempre en tareas con respuesta verificable, como matemáticas o código. Pero en una asamblea sobre salud o clima no hay respuesta correcta. Lo que importa es que personas con miradas distintas lleguen a entender por qué coinciden o discrepan.
+
+Para medirlo, el autor revisa tres cosas: si el debate es respetuoso y justificado, si el razonamiento compartido mejora tras discutir, y cuánta variedad de perspectivas había al inicio. La evidencia central viene de casi dos mil deliberaciones entre grupos pequeños de agentes, con modelos de varias empresas y temas tomados de asambleas reales.
+
+En la forma, los modelos salen bien: la calidad del intercambio es comparable a la de personas en una encuesta deliberativa europea. En la sustancia, el cuadro cambia. Con instrucciones explícitas para deliberar, la mejora en el razonamiento compartido es pequeña, cerca de un treinta por ciento de la que logran los humanos, y depende mucho del tema. Y los grupos de modelos parten con cerca de un tercio de la diversidad de un grupo humano. Además, al discutir, las personas acercan sus posiciones y los modelos no. El autor concluye que estos sistemas pueden servir como herramientas bajo control humano, pero que la evidencia no justifica tratarlos como participantes autónomos.
+
+Ahora, la mirada desde América Latina, que es interpretación de este blog y no un resultado del estudio. Bogotá eligió por sorteo a los participantes de sus Ciclos Deliberativos de este año, que según la Alcaldía discutirán sobre el Metro. El sorteo existe precisamente para reunir perspectivas distintas, y esa es la dimensión en que los modelos quedan más lejos. Si alguien quisiera ensayar una asamblea así con agentes, el hallazgo sugiere que se perdería justo lo que el sorteo aporta. Pero el paper no estudia la región, y su propio autor pide repetir el ejercicio con otros temas, sobre todo fuera de contextos occidentales.
+
+Queda abierto cuánto de esto vale para otros modelos o con otros métodos de entrenamiento. El estudio probó modelos tal como vienen, y la única evidencia nueva es un piloto pequeño, que el autor llama diagnóstico.
+
+El trabajo es de Maurice Flechtner y está publicado en arXiv. Esta es una lectura automática hecha con Claude, que además pertenece a una de las familias de modelos evaluadas. Conviene revisar la fuente original.
