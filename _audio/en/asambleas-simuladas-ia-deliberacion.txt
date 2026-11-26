@@ -1,0 +1,13 @@
+This is Doble Lectura, from Doble Click, and today the question is whether a group of artificial intelligence models can deliberate like a citizens' assembly.
+
+The study is by Maurice Flechtner, of the University of Zurich and ETH Zurich. His starting point is that language models are almost always evaluated on tasks with a verifiable answer, such as math or code. But in an assembly on health or climate there is no correct answer. What matters is that people with different views come to understand why they agree or disagree.
+
+To measure this, the author looks at three things: whether the debate is respectful and justified, whether shared reasoning improves after discussion, and how much variety of perspectives there was at the start. The core evidence comes from almost two thousand runs with small groups of agents, of which about thirteen hundred include deliberation, with models from several companies and topics taken from real assemblies.
+
+In form, the models do well: the quality of the exchange is comparable to that of people in a European deliberative poll. In substance, the picture changes. With explicit instructions to deliberate, the improvement in shared reasoning is small, about thirty percent of what humans achieve, and it depends heavily on the topic. And the model groups start with about a third of the diversity of a human group. In addition, when they discuss, people move their positions closer together and the models do not. The author concludes that these systems can serve as tools under human control, but that the evidence does not justify treating them as autonomous participants.
+
+Now, the view from Latin America, which is this blog's interpretation and not a result of the study. Bogotá chose the participants of this year's Deliberative Cycles by lot, which, according to the Mayor's Office, will discuss the Metro. The lottery exists precisely to bring together different perspectives, and that is the dimension in which the models fall furthest behind. If someone wanted to rehearse an assembly like that with agents, the finding suggests that exactly what the lottery contributes would be lost. But the paper does not study the region, and its own author asks for the exercise to be repeated with other topics, above all outside Western contexts.
+
+It remains open how much of this holds for other models or with other training methods. The study tested models off the shelf, and the only new evidence is a small pilot, which the author calls diagnostic.
+
+The work is by Maurice Flechtner and is published on arXiv. This is an automated reading made with Claude, which also belongs to one of the model families evaluated. Please check the original source.
