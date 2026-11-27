@@ -203,6 +203,9 @@ china-waico-gobernanza-ia-america-latina:
 claude-formaliza-teorema-fermat-once-dias:
   voz: "Virginia (Colombia)"
   motor: "ElevenLabs"
+colombia-consulta-guia-comprar-ia-estado:
+  voz: "Cristian (Chile)"
+  motor: "ElevenLabs"
 colombia-deepfakes-segunda-vuelta:
   voz: "Lorenzo (Chile)"
   motor: "Microsoft Azure"
