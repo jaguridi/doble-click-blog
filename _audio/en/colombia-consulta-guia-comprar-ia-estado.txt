@@ -1,0 +1,13 @@
+Colombia Compra Eficiente is Colombia's national public procurement agency. On November twenty-sixth, it opened for comment a draft guide for government entities to use and buy artificial intelligence.
+
+According to the document itself, the agency identified fifty-four artificial intelligence contracts between 2020 and 2025. Most were awarded through direct contracting.
+
+The draft says that the public servant who evaluates a bid or oversees a contract may rely on artificial intelligence, but remains responsible for what they decide. It also says that real-time biometric identification systems in public spaces should not be purchased, nor emotion recognition systems in the workplace or in schools. And it calls for agreeing with the vendor that it will not use the entity's data to train models without express authorization.
+
+What changes, and for whom? This is our interpretation, not something the guide says. If that clause stays in the final version, those who sell artificial intelligence to the Colombian government could have to accept it in writing. Since the guide presents it as something agreed in each purchase, its effect would depend on each entity demanding it.
+
+What we don't know yet is how many comments the agency will receive and how much the text will change. The consultation closes on December tenth.
+
+In Argentina, according to the outlet elDiarioAR, on November twenty-sixth the Senate declined to take up, without going through committee, a bill on digital violence. It includes punishing the non-consensual distribution of fake nude images made with artificial intelligence. The vote was twenty-eight in favor and forty-three against.
+
+This was an automated Doble Click entry; please verify each story against its sources.
