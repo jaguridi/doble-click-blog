@@ -1,0 +1,13 @@
+Colombia Compra Eficiente es la agencia nacional de contratación pública de Colombia. El veintiséis de noviembre abrió a consulta un borrador de guía para que las entidades del Estado usen y compren inteligencia artificial.
+
+Según el propio documento, la agencia identificó cincuenta y cuatro contratos de inteligencia artificial entre dos mil veinte y dos mil veinticinco. Predominó la contratación directa.
+
+El borrador dice que el servidor público que evalúa una oferta o supervisa un contrato puede apoyarse en la inteligencia artificial, pero sigue siendo responsable de lo que decide. También dice que no deberían comprarse sistemas de identificación biométrica en tiempo real en espacios públicos, ni de reconocimiento de emociones en el trabajo o en colegios. Y pide pactar con el proveedor que no use los datos de la entidad para entrenar modelos sin autorización expresa.
+
+¿Qué cambia y para quién? Esto es una interpretación, no algo que diga la guía. Si esa cláusula queda en la versión final, quienes venden inteligencia artificial al Estado colombiano podrían tener que aceptarla por escrito. Como la guía la plantea como algo que se acuerda en cada compra, su efecto dependería de que cada entidad la exija.
+
+Lo que falta saber es cuántos comentarios recibirá la agencia y cuánto cambiará el texto. La consulta cierra el diez de diciembre.
+
+En Argentina, según el medio elDiarioAR, el Senado rechazó el veintiséis de noviembre tratar sin pasar por comisión un proyecto sobre violencia digital. Incluye sancionar la difusión no consentida de desnudos falsos hechos con inteligencia artificial. La votación fue de veintiocho votos a favor y cuarenta y tres en contra.
+
+Esto fue una entrada automática de Doble Click; conviene verificar cada noticia en sus fuentes.
